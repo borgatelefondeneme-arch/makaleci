@@ -44,13 +44,19 @@ export const validateScript = (script: Script, facts: Facts, paper: Paper): Repo
   if (coreUnsourced.length > core.length * 0.25) errors.push(`Yöntem/bulgu/önem/sınırlılık bölümlerinde kaynaksız satır çok fazla (${coreUnsourced.length}/${core.length}): ${coreUnsourced.map((l) => l.id).join(", ")}`);
   if (unsourced.length) warnings.push(`Olgu bağlantısı olmayan ${unsourced.length} satır (geçiş/soru olmalı, elle gözden geçirin): ${unsourced.map((l) => l.id).join(", ")}`);
 
+  const topic = paper.kind === "topic";
+  if (topic && facts.sources.length === 0) errors.push("Konu bölümünde en az bir kaynak (facts.sources) gerekli");
   // 5. Künye: yazar, kurum, dergi, DOI ekranda (ve dolayısıyla seslendirilen satırda) geçmeli.
   const ctx = script.sections.find((s) => s.id === "context")?.lines ?? [];
   const surname = paper.authors[0]?.name.trim().split(/\s+/).pop();
-  if (!surname || !allDisplay.includes(norm(surname))) errors.push(`İlk yazarın adı (${surname ?? "?"}) senaryoda geçmiyor`);
-  if (paper.venue && !allDisplay.includes(norm(paper.venue))) errors.push(`Dergi/kaynak (${paper.venue}) senaryoda geçmiyor`);
+  if (topic) {
+    // Makale yok: künye yerine kaynak kurumlarının adı senaryoda geçmeli.
+    for (const s of facts.sources) if (!allDisplay.includes(norm(s.publisher))) warnings.push(`Kaynak "${s.publisher}" senaryoda adıyla anılmıyor`);
+    if (!facts.sources.some((s) => allDisplay.includes(norm(s.publisher)))) errors.push("Hiçbir kaynak senaryoda adıyla anılmıyor");
+  } else if (!surname || !allDisplay.includes(norm(surname))) errors.push(`İlk yazarın adı (${surname ?? "?"}) senaryoda geçmiyor`);
+  if (!topic && paper.venue && !allDisplay.includes(norm(paper.venue))) errors.push(`Dergi/kaynak (${paper.venue}) senaryoda geçmiyor`);
   const insts = paper.institutions.length ? paper.institutions : facts.institutions;
-  if (insts.length === 0) warnings.push("Kurum bilgisi yok (ne API'lerde ne makale metninde).");
+  if (!topic && insts.length === 0) warnings.push("Kurum bilgisi yok (ne API'lerde ne makale metninde).");
   if (doi) {
     const doiLine = lines.find((l) => l.display.includes(doi));
     if (!doiLine) errors.push(`DOI (${doi}) ekranda tam yazılmamış`);
@@ -67,8 +73,9 @@ export const validateScript = (script: Script, facts: Facts, paper: Paper): Repo
   // 8. Uzunluk
   const wc = lines.reduce((a, l) => a + words(l.spoken).length, 0);
   const hookWc = (script.sections.find((s) => s.id === "hook")?.lines ?? []).reduce((a, l) => a + words(l.spoken).length, 0);
-  if (wc < 620 || wc > 980) errors.push(`Seslendirme ${wc} kelime; hedef ~800 (720–880)`);
-  else if (wc < 720 || wc > 880) warnings.push(`Seslendirme ${wc} kelime; hedef aralığın (720–880) dışında — süre kapısı voice aşamasında kesin karar verir`);
+  // Kelime sayısı yalnızca kaba bir ön kontrol; kesin kararı voice aşamasındaki süre kapısı verir.
+  if (wc < 450 || wc > 980) errors.push(`Seslendirme ${wc} kelime; 5–6 dakika için çok ${wc < 450 ? "kısa" : "uzun"}`);
+  else if (!topic && (wc < 720 || wc > 880)) warnings.push(`Seslendirme ${wc} kelime; hedef aralığın (720–880) dışında — süre kapısı voice aşamasında kesin karar verir`);
   if (hookWc < 20 || hookWc > 50) warnings.push(`Hook ${hookWc} kelime; ~15 sn için 30–40 kelime hedeflenir`);
   if (script.videoTitle.length > 70) warnings.push(`Video başlığı uzun (${script.videoTitle.length} karakter)`);
 

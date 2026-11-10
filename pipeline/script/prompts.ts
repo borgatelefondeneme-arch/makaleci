@@ -70,3 +70,41 @@ ${JSON.stringify({ title: paper.title, authors: paper.authors.map((a) => a.name)
 <olgular basis="${facts.basis}">
 ${JSON.stringify(facts.facts, null, 2)}
 </olgular>`;
+
+// ---------- Konu bölümleri (makalesiz; çocukların merak ettiği sorular) ----------
+
+export const TOPIC_FACTS_SYSTEM = `Çocuklara yönelik bir bilim kanalının doğruluk editörüsün. Verilen soruyu yanıtlamak için gereken olguları, yalnızca güvenilir kurum kaynaklarına (ör. NASA, ESA, TÜBİTAK, üniversiteler, müzeler) dayanarak listelersin. Emin olmadığın ya da kaynağını gösteremeyeceğin hiçbir bilgiyi ekleme; tahmini sayı yazma.`;
+
+export const topicFactsPrompt = (paper: Paper, sourceText: string | null) => `Soru: "${paper.title}"
+
+Bu soruyu 7–12 yaşındaki çocuklara anlatacak 5 dakikalık bir video için olgu listesi çıkar.
+- "sources": dayandığın kaynaklar { id: "k1"..., title, publisher, url }.
+- Her olgu: "statement" (sade Türkçe), "numbers" (olguda geçen sayılar, kaynaktaki değerle), "quote" (kaynaktan birebir kısa alıntı), "location" (kaynağın adı), "kind" ("number" | "claim").
+- "basis": "full_text", "institutions": [], "paperId": "${paper.id}".
+${sourceText ? `\nYalnızca aşağıdaki kaynak metinlerini kullan:\n<kaynaklar>\n${sourceText}\n</kaynaklar>` : "\nKaynak metni verilmedi: yalnızca kesin olarak bildiğin ve gösterdiğin kaynakta gerçekten yer alan olguları yaz. Bu liste yayın öncesinde bir insan tarafından kaynaklarla karşılaştırılacak."}`;
+
+export const TOPIC_SCRIPT_SYSTEM = `"Günün Bilimi" adlı Türkçe çocuk kanalının senaryo yazarısın. Her video, çocukların merak ettiği bir soruyu 7–12 yaş için eğlenceli ve öğretici biçimde yanıtlar: kısa cümleler, gündelik kelimeler, somut benzetmeler, izleyiciye sorular. Küçümseyici değil, meraklı bir arkadaş gibi. Anlatıcı kanalın robot karakteridir.
+
+Dürüstlük bu kanalın temelidir: yalnızca sana verilen olgu listesindeki bilgileri kullan, listede olmayan sayı ya da iddia ekleme, abartma. Benzetmeler anlamaya yardım içindir; benzetmeye olgu listesinde olmayan sayı koyma. Güvenlik gerektiren etkinliklerde (Güneş'e bakmak, ateş, kesici alet) açık bir uyarı ekle.`;
+
+export const topicScriptPrompt = (paper: Paper, facts: Facts, episodeNumber: number, feedback?: string) => `Soru: "${paper.title}" — yaklaşık 5 dakikalık (550–650 kelime) seslendirme senaryosu yaz.
+
+Bölümler, bu sırayla ve bu kimliklerle:
+1. "hook" — merak uyandıran açılış (30–40 kelime).
+2. "context" — selamlama, günün sorusu ve bilgilerin hangi kaynaklardan geldiği (kaynak kurumları adıyla an).
+3. "method" — "Nasıl oluyor?": anlamak için gereken temel bilgiler.
+4. "finding" — "İşin sırrı": sorunun yanıtı, adım adım.
+5. "importance" — "Sen de dene": çocuğun gelişimini destekleyen, evde ya da dışarıda güvenle yapılabilecek bir gözlem ya da etkinlik.
+6. "limitations" — "Bunu biliyor muydun?": şaşırtıcı bir ek bilgi ve kısa bir tekrar sorusu.
+7. "summary" — "Bugün bunu öğrendik": üç ana fikir birer cümleyle, ardından abone olma ve soru gönderme daveti.
+
+Satır kuralları makale bölümleriyle aynıdır: her satırda "id" ("l1"...), "display" (ekran; sayılar rakamla), "spoken" (seslendirme; sayılar yazıyla, kısaltmalar okunuşuyla), "factIds". "display" içinde rakamla yazılan her sayı o satırın olgularının "numbers" listesinde bulunmalı; bilgi taşımayan sayıları yazıyla yaz.
+Ayrıca "videoTitle" (en çok 60 karakter), "paperTitleTr" (soru; açılış ekranında görünür), "takeaways" (tam üç kısa madde), "nextTeaser", "description", "episodeNumber": ${episodeNumber}, "paperId": "${paper.id}".
+${feedback ? `\nÖnceki taslak şu denetimlerden geçemedi; düzelt:\n${feedback}\n` : ""}
+<kaynaklar>
+${JSON.stringify(facts.sources, null, 2)}
+</kaynaklar>
+
+<olgular>
+${JSON.stringify(facts.facts, null, 2)}
+</olgular>`;

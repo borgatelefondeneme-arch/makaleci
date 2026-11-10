@@ -1,12 +1,14 @@
 # Günün Bilimi
 
-Bilimsel makaleleri 12 yaş seviyesinde Türkçe anlatan 5-6 dakikalık animasyonlu videolara çeviren üretim hattı.
+Çocuklar için Türkçe, eğlenceli ve öğretici 5 dakikalık animasyonlu bilim videoları üreten hat.
 Kararlar ve kurallar: [CLAUDE.md](CLAUDE.md).
 
 ```bash
 npm install
 cp .env.example .env                       # anahtarlar isteğe bağlı; yoksa manuel LLM + mock ses
-npm run episode -- --url <makale linki>    # fetch → script → sceneplan → voice → render
+tools/setup-piper.sh                       # yerel Türkçe ses (ElevenLabs anahtarı yoksa)
+npm run episode -- --topic "Gökyüzü neden mavi?"   # konu bölümü: script → sceneplan → voice → render
+npm run episode -- --url <makale linki>    # makale bölümü: fetch → script → sceneplan → voice → render
 npm run frames  -- episodes/<id>           # örnek kareler (out/frames/)
 npm run studio                             # Remotion stüdyosu (örnek veriyle)
 ```

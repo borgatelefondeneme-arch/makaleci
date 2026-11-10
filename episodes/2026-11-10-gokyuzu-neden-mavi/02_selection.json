@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:gokyuzu-neden-mavi",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:gokyuzu-neden-mavi",
+    "title": "Gökyüzü neden mavi?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-10",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-10T20:49:02.539Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-10T20:49:02.542Z",
+  "decidedAt": "2026-11-10T20:49:02.542Z"
+}

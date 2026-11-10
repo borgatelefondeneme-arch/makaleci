@@ -1,0 +1,537 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Gökyüzü neden mavi?",
+    "emoji": "🌤️"
+   },
+   "mascot": {
+    "state": "think",
+    "x": 0.15,
+    "y": 0.5,
+    "scale": 1.45
+   },
+   "factIds": []
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Gökyüzü neden mavi?",
+     "Ufka doğru rengi neden açılıyor?",
+     "Gün batımı neden kızıl?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "source-card"
+   },
+   "mascot": {
+    "state": "point",
+    "x": 0.88,
+    "y": 0.55,
+    "scale": 1.0,
+    "pointAt": {
+     "x": 0.45,
+     "y": 0.45
+    }
+   },
+   "factIds": []
+  },
+  {
+   "id": "s4",
+   "section": "context",
+   "lineIds": [
+    "l8",
+    "l9"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "150",
+    "unit": "milyon km",
+    "label": "Güneş'in Dünya'ya uzaklığı",
+    "sub": "Işık bu yolu aşıp bize ulaşıyor"
+   },
+   "mascot": {
+    "state": "point",
+    "x": 0.83,
+    "y": 0.52,
+    "scale": 1.25,
+    "pointAt": {
+     "x": 0.3,
+     "y": 0.4
+    }
+   },
+   "factIds": [
+    "f14"
+   ],
+   "sourceNote": "NASA Science"
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l10",
+    "l11",
+    "l12"
+   ],
+   "visual": {
+    "type": "quote-card",
+    "quote": "Güneş'in ışığı beyaz görünür. Ama aslında gökkuşağının bütün renklerinden oluşur.",
+    "attribution": "NASA Space Place (çeviri)"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.86,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Işık dalga dalga yol alır",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Işık dalgalar halinde ilerler",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Yavaş salla: uzun, sakin dalgalar",
+      "emoji": "🐢"
+     },
+     {
+      "label": "Hızlı salla: kısa, kıpır kıpır dalgalar",
+      "emoji": "🐇"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.91,
+    "y": 0.62,
+    "scale": 0.8
+   },
+   "factIds": [
+    "f2"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kırmızı mı, mavi mi?",
+    "left": {
+     "title": "🔴 Kırmızı ışık",
+     "items": [
+      "Uzun dalgalar",
+      "Sakin sakin ilerler"
+     ]
+    },
+    "right": {
+     "title": "🔵 Mavi ışık",
+     "items": [
+      "Kısa dalgalar",
+      "Kıpır kıpır ilerler"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "think",
+    "x": 0.91,
+    "y": 0.6,
+    "scale": 0.85
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18",
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Işık havaya girince ne olur?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Güneş ışığı atmosfere girer",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Gazlara ve parçacıklara çarpar",
+      "emoji": "💨"
+     },
+     {
+      "label": "Her yöne saçılır",
+      "emoji": "✨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.91,
+    "y": 0.62,
+    "scale": 0.8
+   },
+   "factIds": [
+    "f5"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "analogy",
+    "template": "scale",
+    "title": "Hangi renk daha çok saçılır?",
+    "a": {
+     "label": "Kırmızı ışık: az saçılır",
+     "value": 12
+    },
+    "b": {
+     "label": "Mavi ışık: çok saçılır",
+     "value": 100
+    },
+    "caption": "Mavi ışık diğer renklerden daha çok saçılır. (Çizim yalnızca fikir verir, ölçekli değildir.)"
+   },
+   "mascot": {
+    "state": "point",
+    "x": 0.9,
+    "y": 0.6,
+    "scale": 0.85,
+    "pointAt": {
+     "x": 0.52,
+     "y": 0.4
+    }
+   },
+   "factIds": [
+    "f6"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "İşte sır!",
+    "items": [
+     "Güneş ışığı atmosfere girer",
+     "Hava ışığı her yöne saçar",
+     "En çok mavi ışık saçılır"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Yukarıda mı, ufukta mı?",
+    "left": {
+     "title": "⬆️ Yukarıda",
+     "items": [
+      "Gökyüzü mavi görünür"
+     ]
+    },
+    "right": {
+     "title": "↔️ Ufka yakın",
+     "items": [
+      "Açık mavi ya da beyaz",
+      "Renkler yeniden karışır"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "think",
+    "x": 0.91,
+    "y": 0.6,
+    "scale": 0.85
+   },
+   "factIds": [
+    "f7",
+    "f8"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l27",
+    "l28",
+    "l29",
+    "l30"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Gün batımı neden kızıl?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Güneş alçalır",
+      "emoji": "🌇"
+     },
+     {
+      "label": "Işık daha uzun yol kat eder",
+      "emoji": "🌫️"
+     },
+     {
+      "label": "Mavi daha çok saçılır",
+      "emoji": "🔵"
+     },
+     {
+      "label": "Kırmızı ve sarı bize ulaşır",
+      "emoji": "🔴"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "point",
+    "x": 0.91,
+    "y": 0.62,
+    "scale": 0.8,
+    "pointAt": {
+     "x": 0.6,
+     "y": 0.45
+    }
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l31",
+    "l32",
+    "l33",
+    "l34",
+    "l35"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Gökyüzü dedektifi görevi 🔎",
+    "tone": "neutral",
+    "items": [
+     "Yukarıya ve ufka bak: renk nasıl değişiyor?",
+     "Gün batımındaki renkleri kâğıda çiz",
+     "Gördüklerini sevdiklerinle paylaş",
+     "Güneş'e asla doğrudan bakma!"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f10"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l36"
+   ],
+   "visual": {
+    "type": "quote-card",
+    "quote": "Her gezegenin gökyüzü mavi değildir!",
+    "attribution": "Bunu biliyor muydun?"
+   },
+   "mascot": {
+    "state": "think",
+    "x": 0.86,
+    "y": 0.54,
+    "scale": 1.2
+   },
+   "factIds": [
+    "f11"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l37",
+    "l38",
+    "l39",
+    "l40"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Dünya ve Mars'ın gökyüzü",
+    "left": {
+     "title": "🌍 Dünya",
+     "items": [
+      "Gündüz: mavi",
+      "Gün batımı: kırmızı ve sarı"
+     ]
+    },
+    "right": {
+     "title": "🔴 Mars",
+     "items": [
+      "Gündüz: turuncu ya da kızılımsı",
+      "Gün batımı: Güneş'in çevresi mavi-gri"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "point",
+    "x": 0.91,
+    "y": 0.6,
+    "scale": 0.85,
+    "pointAt": {
+     "x": 0.55,
+     "y": 0.45
+    }
+   },
+   "factIds": [
+    "f11",
+    "f12",
+    "f13"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l41",
+    "l42",
+    "l43",
+    "l44"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Hangi renk ışık daha çok saçılır?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "think",
+    "x": 0.15,
+    "y": 0.5,
+    "scale": 1.45
+   },
+   "factIds": [
+    "f1",
+    "f6"
+   ],
+   "sourceNote": "NASA Space Place"
+  },
+  {
+   "id": "s17",
+   "section": "summary",
+   "lineIds": [
+    "l45",
+    "l46",
+    "l47",
+    "l48",
+    "l49",
+    "l50"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f5",
+    "f6",
+    "f9",
+    "f10"
+   ]
+  }
+ ]
+}

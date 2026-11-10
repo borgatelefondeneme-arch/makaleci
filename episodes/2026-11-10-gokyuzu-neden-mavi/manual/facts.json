@@ -1,0 +1,135 @@
+{
+ "paperId": "topic:gokyuzu-neden-mavi",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Gökyüzü neden mavi? (Why Is the Sky Blue?)",
+   "publisher": "NASA Space Place",
+   "url": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+   "id": "k2",
+   "title": "Güneş hakkında bilgiler (Sun: Facts)",
+   "publisher": "NASA Science",
+   "url": "https://science.nasa.gov/sun/facts/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Güneş ışığı beyaz görünür ama gökkuşağının bütün renklerinden oluşur.",
+   "numbers": [],
+   "quote": "The light from the Sun looks white. But it is really made up of all the colors of the rainbow.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Işık enerjisi, okyanustaki enerji gibi dalgalar halinde yol alır.",
+   "numbers": [],
+   "quote": "Like energy passing through the ocean, light energy travels in waves, too.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Bazı ışık kısa ve kıpırtılı, bazı ışık uzun ve sakin dalgalarla ilerler.",
+   "numbers": [],
+   "quote": "Some light travels in short, \"choppy\" waves. Other light travels in long, lazy waves.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Mavi ışığın dalgaları kırmızı ışığın dalgalarından kısadır.",
+   "numbers": [],
+   "quote": "Blue light waves are shorter than red light waves.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Güneş ışığı atmosfere ulaşınca havadaki gazlar ve parçacıklar tarafından her yöne saçılır.",
+   "numbers": [],
+   "quote": "Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Mavi ışık kısa ve küçük dalgalarla ilerlediği için diğer renklerden daha çok saçılır.",
+   "numbers": [],
+   "quote": "Blue is scattered more than other colors because it travels as shorter, smaller waves.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Ufka yaklaştıkça gökyüzü açık maviye ya da beyaza döner.",
+   "numbers": [],
+   "quote": "Closer to the horizon, the sky fades to a lighter blue or white.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Çok fazla saçılma renkleri yeniden karıştırır; daha çok beyaz, daha az mavi görürüz.",
+   "numbers": [],
+   "quote": "All this scattering mixes the colors together again so we see more white and less blue.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Güneş alçaldıkça ışığı bize ulaşmak için atmosferin daha fazlasından geçer.",
+   "numbers": [],
+   "quote": "As the Sun gets lower in the sky, its light is passing through more of the atmosphere to reach you.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Gün batımında mavi ışık daha da çok saçılır; kırmızılar ve sarılar doğrudan göze ulaşır.",
+   "numbers": [],
+   "quote": "Even more of the blue light is scattered, allowing the reds and yellows to pass straight through to your eyes.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "Mars'ta gündüz gökyüzü turuncu ya da kızılımsı görünür.",
+   "numbers": [],
+   "quote": "During the daytime, the Martian sky takes on an orange or reddish color.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Mars'ta Güneş batarken Güneş'in çevresindeki gökyüzü mavi-gri bir ton alır.",
+   "numbers": [],
+   "quote": "But as the Sun sets, the sky around the Sun begins to take on a blue-gray tone.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "Mars'ın atmosferi çok incedir, çoğunlukla karbondioksitten oluşur ve ince toz parçacıklarıyla doludur.",
+   "numbers": [],
+   "quote": "Mars has a very thin atmosphere made mostly of carbon dioxide and filled with fine dust particles.",
+   "location": "NASA Space Place — Why Is the Sky Blue?"
+  },
+  {
+   "id": "f14",
+   "kind": "number",
+   "statement": "Güneş Dünya'dan yaklaşık 150 milyon kilometre uzaktadır.",
+   "numbers": [
+    "150"
+   ],
+   "quote": "The Sun is about 93 million miles (150 million kilometers) from Earth.",
+   "location": "NASA Science — Sun: Facts"
+  }
+ ]
+}

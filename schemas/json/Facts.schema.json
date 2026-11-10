@@ -18,6 +18,34 @@
         "type": "string"
       }
     },
+    "sources": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "publisher",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    },
     "facts": {
       "type": "array",
       "items": {
@@ -66,6 +94,7 @@
     "paperId",
     "basis",
     "institutions",
+    "sources",
     "facts"
   ],
   "additionalProperties": false

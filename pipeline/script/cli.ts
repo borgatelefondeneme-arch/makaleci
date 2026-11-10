@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { EpisodeMeta, Facts, Paper, Script } from "../../schemas/index.ts";
 import { episodeDirArg, fail, loadEnv, P, readJson, writeJson } from "../lib/io.ts";
 import { generateJson, hasClaude } from "../llm/index.ts";
-import { FACTS_SYSTEM, factsPrompt, SCRIPT_SYSTEM, scriptPrompt } from "./prompts.ts";
+import { FACTS_SYSTEM, factsPrompt, SCRIPT_SYSTEM, scriptPrompt, TOPIC_FACTS_SYSTEM, TOPIC_SCRIPT_SYSTEM, topicFactsPrompt, topicScriptPrompt } from "./prompts.ts";
 import { printReport, validateScript } from "./validate.ts";
 
 loadEnv();
@@ -11,24 +11,25 @@ const { dir, flags } = episodeDirArg();
 const p = P(dir);
 const paper = readJson(p.paper, Paper);
 const meta = readJson(p.meta, EpisodeMeta);
+const topic = paper.kind === "topic"; // konu bölümü: 01_fulltext.txt varsa kaynak metinleri olarak kullanılır
 const fullText = existsSync(p.fulltext) ? readFileSync(p.fulltext, "utf8") : null;
 
 // (a) Olgu çıkarımı
 let facts: Facts;
 if (existsSync(p.facts) && !flags.force) facts = readJson(p.facts, Facts);
 else {
-  facts = await generateJson({ stage: "facts", manualDir: p.manual, system: FACTS_SYSTEM, prompt: factsPrompt(paper, fullText), schema: Facts });
+  facts = await generateJson({ stage: "facts", manualDir: p.manual, schema: Facts, ...(topic ? { system: TOPIC_FACTS_SYSTEM, prompt: topicFactsPrompt(paper, fullText) } : { system: FACTS_SYSTEM, prompt: factsPrompt(paper, fullText) }) });
   // Alıntılar gerçekten makalede geçiyor mu? (boşluk farkları yok sayılır)
   const hay = `${paper.title} ${paper.abstract} ${fullText ?? ""}`.replace(/\s+/g, " ").toLowerCase();
   const missing = facts.facts.filter((f) => f.kind !== "meta" && !hay.includes(f.quote.replace(/\s+/g, " ").toLowerCase().slice(0, 60)));
-  if (missing.length) console.log(`  ⚠ ${missing.length} olgunun alıntısı makale metninde birebir bulunamadı (elle doğrulayın): ${missing.map((f) => f.id).join(", ")}`);
+  if (missing.length && !(topic && !fullText)) console.log(`  ⚠ ${missing.length} olgunun alıntısı makale metninde birebir bulunamadı (elle doğrulayın): ${missing.map((f) => f.id).join(", ")}`);
   writeJson(p.facts, Facts, facts);
 }
 
 // (b) Senaryo — denetimden geçemezse geri bildirimle en çok 2 kez yeniden yazdırılır (yalnızca API modunda).
 let feedback: string | undefined;
 for (let attempt = 1; ; attempt++) {
-  const script = await generateJson({ stage: "script", manualDir: p.manual, system: SCRIPT_SYSTEM, prompt: scriptPrompt(paper, facts, meta.episodeNumber, feedback), schema: Script });
+  const script = await generateJson({ stage: "script", manualDir: p.manual, schema: Script, ...(topic ? { system: TOPIC_SCRIPT_SYSTEM, prompt: topicScriptPrompt(paper, facts, meta.episodeNumber, feedback) } : { system: SCRIPT_SYSTEM, prompt: scriptPrompt(paper, facts, meta.episodeNumber, feedback) }) });
   script.episodeNumber = meta.episodeNumber;
   script.paperId = paper.id;
   const report = validateScript(script, facts, paper);

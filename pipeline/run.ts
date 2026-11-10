@@ -8,7 +8,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { Paper } from "../schemas/index.ts";
 import { createEpisode, manualSelection } from "./lib/episode.ts";
-import { fail, P, parseArgs, readJson } from "./lib/io.ts";
+import { fail, P, parseArgs, readJson, slugify } from "./lib/io.ts";
 
 const { flags } = parseArgs();
 const run = (cmd: string, args: string[]) => {
@@ -25,8 +25,13 @@ if (typeof flags.url === "string") {
   run("python3", ["-m", "pipeline.fetch.cli", "--url", flags.url, "--out", out, "--fulltext", ft]);
   const paper = readJson(out, Paper);
   dir = createEpisode(manualSelection(paper), flags.url, existsSync(ft) ? readFileSync(ft, "utf8") : null);
+} else if (typeof flags.topic === "string") {
+  // Konu bölümü: makale yok; soru doğrudan onaylı bölüm olarak açılır (fetch/select atlanır).
+  const now = new Date().toISOString();
+  const paper = Paper.parse({ kind: "topic", id: `topic:${slugify(flags.topic)}`, title: flags.topic, abstract: "", authors: [], institutions: [], venue: null, doi: null, url: "", fullTextUrl: null, license: null, publishedAt: now.slice(0, 10), isPreprint: false, peerReviewStatus: "unknown", categories: [], sources: ["topic"], fetchedAt: now });
+  dir = createEpisode(manualSelection(paper), null);
 } else if (typeof flags.episode === "string") dir = flags.episode;
-else fail("Kullanım: npm run episode -- --url <link> | --episode <klasör>");
+else fail("Kullanım: npm run episode -- --url <link> | --topic \"<soru>\" | --episode <klasör>");
 console.log(`\nBölüm klasörü: ${dir!}`);
 
 const p = P(dir!);

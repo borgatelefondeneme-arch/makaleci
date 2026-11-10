@@ -12,7 +12,7 @@ export const Intro: React.FC<{ frame: number; data: EpisodeProps }> = ({ frame, 
   const title = pop(frame, 62);
   const letters = "Günün Bilimi".split("");
   return (
-    <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", paddingLeft: 420, paddingRight: 100 }}>
+    <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", paddingLeft: 520, paddingRight: 90 }}>
       <div style={{ transform: `translateY(${(1 - up) * 150}px) scale(${1.25 - 0.25 * up})`, display: "flex", alignItems: "center", gap: 26 }}>
         <svg width={120} height={120} viewBox="-60 -60 120 120" style={{ transform: `scale(${logo}) rotate(${frame * 1.2}deg)` }}>
           {[0, 60, 120].map((r) => <ellipse key={r} rx={54} ry={20} fill="none" stroke={C.teal} strokeWidth={6} transform={`rotate(${r})`} />)}
@@ -26,7 +26,7 @@ export const Intro: React.FC<{ frame: number; data: EpisodeProps }> = ({ frame, 
         </div>
       </div>
       <div style={{ marginTop: 40, opacity: chip, transform: `scale(${chip})`, background: C.teal, color: C.ink, fontFamily: F.head, fontWeight: 900, fontSize: 44, padding: "12px 40px", borderRadius: 50 }}>
-        Günün Makalesi #{data.script.episodeNumber}
+        {data.paper.kind === "topic" ? "Günün Sorusu" : "Günün Makalesi"} #{data.script.episodeNumber}
       </div>
       <div style={{ marginTop: 36, opacity: title, transform: `translateY(${(1 - title) * 30}px)`, fontFamily: F.head, fontWeight: 800, fontSize: 60, lineHeight: 1.18, color: C.text, textAlign: "center", maxWidth: 1250 }}>
         {data.script.paperTitleTr}

@@ -8,6 +8,14 @@
     "paper": {
       "type": "object",
       "properties": {
+        "kind": {
+          "default": "paper",
+          "type": "string",
+          "enum": [
+            "paper",
+            "topic"
+          ]
+        },
         "id": {
           "type": "string"
         },
@@ -106,6 +114,7 @@
         }
       },
       "required": [
+        "kind",
         "id",
         "title",
         "abstract",

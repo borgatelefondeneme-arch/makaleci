@@ -7,6 +7,8 @@ export type EpisodeMeta = z.infer<typeof EpisodeMeta>;
 
 // ---------- 01_paper.json ----------
 export const Paper = z.object({
+  // "paper": bilimsel makale bölümü; "topic": çocukların merak ettiği bir soru (makalesiz konu bölümü).
+  kind: z.enum(["paper", "topic"]).default("paper"),
   id: z.string(),
   title: z.string(),
   abstract: z.string(),
@@ -59,6 +61,8 @@ export const Facts = z.object({
   basis: z.enum(["full_text", "abstract_only"]),
   // API'ler kurum vermediyse (ör. arXiv) makale metninden çıkarılan kurumlar.
   institutions: z.array(z.string()),
+  // Konu bölümlerinde olguların dayandığı kaynaklar (ekranda ve yayin.md'de gösterilir).
+  sources: z.array(z.object({ id: z.string(), title: z.string(), publisher: z.string(), url: z.string() })).default([]),
   facts: z.array(Fact),
 });
 export type Fact = z.infer<typeof Fact>;
@@ -152,7 +156,7 @@ export const VoiceScene = z.object({
   lineEndFrames: z.array(z.number().int()),
 });
 export const Voice = z.object({
-  provider: z.enum(["mock", "elevenlabs"]),
+  provider: z.enum(["mock", "piper", "elevenlabs"]),
   fps: z.number(),
   introFrames: z.number().int(),
   outroTailFrames: z.number().int(),
@@ -173,5 +177,6 @@ export const EpisodeProps = z.object({
   script: Script,
   plan: ScenePlan,
   voice: Voice,
+  sources: z.array(z.object({ id: z.string(), title: z.string(), publisher: z.string(), url: z.string() })).default([]),
 });
 export type EpisodeProps = z.infer<typeof EpisodeProps>;

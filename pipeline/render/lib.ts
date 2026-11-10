@@ -11,7 +11,7 @@ export const loadProps = (dir: string): EpisodeProps => {
   const facts = readJson(p.facts, Facts);
   // API'ler kurum vermediyse makale metninden çıkarılanlar kullanılır.
   if (!paper.institutions.length) paper.institutions = facts.institutions;
-  const props = { paper, script: readJson(p.script, Script), plan: readJson(p.scenes, ScenePlan), voice: readJson(p.voice, Voice) };
+  const props = { paper, script: readJson(p.script, Script), plan: readJson(p.scenes, ScenePlan), voice: readJson(p.voice, Voice), sources: facts.sources };
   return EpisodeProps.parse(props);
 };
 

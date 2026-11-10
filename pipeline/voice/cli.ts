@@ -6,10 +6,11 @@ import { ScenePlan, Script, Voice } from "../../schemas/index.ts";
 import { episodeDirArg, fail, loadEnv, P, readJson, syllables, words as split, writeJson } from "../lib/io.ts";
 import { elevenlabs } from "./providers/elevenlabs.ts";
 import { mock } from "./providers/mock.ts";
+import { piper, piperAvailable } from "./providers/piper.ts";
 import { SAMPLE_RATE } from "./providers/types.ts";
 
 const FPS = 30, INTRO = 150, LEAD = 8, TAIL = 14, OUTRO_TAIL = 270, REMINDER = 150;
-const MIN_SEC = 300, MAX_SEC = 360;
+const MIN_SEC = 285, MAX_SEC = 360; // hedef 5–6 dk (konu bölümlerinde ~5 dk)
 
 loadEnv();
 const { dir, flags } = episodeDirArg();
@@ -21,7 +22,9 @@ const lineById = new Map(script.sections.flatMap((s) => s.lines).map((l) => [l.i
 const key = process.env.ELEVENLABS_API_KEY, voiceId = process.env.ELEVENLABS_VOICE_ID;
 const useReal = Boolean(key && voiceId) && !flags.mock;
 if (key && !voiceId && !flags.mock) console.log("⚠ ELEVENLABS_API_KEY var ama ELEVENLABS_VOICE_ID yok → mock ses kullanılıyor");
-const provider = useReal ? elevenlabs(key!, voiceId!, process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2") : mock;
+// Öncelik: ElevenLabs → yerel Piper → mock (sessiz).
+const provider = useReal ? elevenlabs(key!, voiceId!, process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2") : piperAvailable() && !flags.mock ? piper() : mock;
+const LINE_GAP = 0.38; // satır satır sentezde cümle arası boşluk (sn)
 console.log(`ses sağlayıcı: ${provider.name}`);
 
 const scenes: Voice["scenes"] = [];
@@ -32,7 +35,22 @@ let cursor = INTRO, prevText = "", wordCount = 0;
 for (const [i, sc] of plan.scenes.entries()) {
   const lines = sc.lineIds.map((id) => lineById.get(id) ?? fail(`${sc.id}: bilinmeyen satır ${id}`));
   const text = lines.map((l) => l.spoken.trim()).join(" ");
-  const { pcm, words } = await provider.synthesize(text, prevText.slice(-300) || undefined);
+  let pcm: Int16Array, words: { text: string; start: number; end: number }[];
+  if (provider.perLine) {
+    // Hizalama vermeyen sağlayıcı: her satır ayrı sentezlenir, satır sınırları kesin olur.
+    const parts: Int16Array[] = []; words = [];
+    let t = 0;
+    for (const l of lines) {
+      const r = await provider.synthesize(l.spoken.trim());
+      for (const w of r.words) words.push({ text: w.text, start: w.start + t, end: w.end + t });
+      parts.push(r.pcm, new Int16Array(Math.round(LINE_GAP * SAMPLE_RATE)));
+      t += r.pcm.length / SAMPLE_RATE + LINE_GAP;
+    }
+    parts.pop();
+    pcm = new Int16Array(parts.reduce((a, x) => a + x.length, 0));
+    let o = 0; for (const x of parts) { pcm.set(x, o); o += x.length; }
+    process.stdout.write(".");
+  } else ({ pcm, words } = await provider.synthesize(text, prevText.slice(-300) || undefined));
   prevText = text;
   // Kelime damgalarını satırlara dağıt: her satırın kelime sayısı bellidir.
   const counts = lines.map((l) => split(l.spoken).length);
@@ -100,6 +118,6 @@ console.log(`\n── Zaman çizelgesi ──\nsüre: ${mmss(durationSec)} (${to
 for (const [i, s] of scenes.entries()) console.log(`  ${mmss(s.startFrame / FPS).padStart(5)}  ${s.sceneId.padEnd(4)} ${plan.scenes[i].visual.type.padEnd(12)} ${(s.durationFrames / FPS).toFixed(1).padStart(5)} sn  [${plan.scenes[i].section}] mascot: ${plan.scenes[i].mascot.state}`);
 // Süre kapısı
 if (durationSec < MIN_SEC || durationSec > MAX_SEC) {
-  const msg = `Süre ${mmss(durationSec)}; hedef 5:00–6:00. Senaryoyu ${durationSec < MIN_SEC ? "uzatın" : "kısaltın"} (yaklaşık ${Math.abs(Math.round((durationSec - 330) * 2.4))} kelime).`;
+  const msg = `Süre ${mmss(durationSec)}; hedef 4:45–6:00. Senaryoyu ${durationSec < MIN_SEC ? "uzatın" : "kısaltın"} (yaklaşık ${Math.abs(Math.round((durationSec - 330) * 2.4))} kelime).`;
   if (flags["allow-duration"]) console.log(`⚠ ${msg} (--allow-duration ile devam)`); else fail(msg);
-} else console.log("süre kapısı: geçti (5:00–6:00)");
+} else console.log("süre kapısı: geçti");

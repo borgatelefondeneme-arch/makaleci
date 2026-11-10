@@ -66,7 +66,7 @@ def now_iso():
 def paper(**kw):
     """Paper şemasına (schemas/index.ts) uyan sözlük; eksik alanlar güvenli varsayılanla dolar."""
     p = {
-        "id": "", "title": "", "abstract": "", "authors": [], "institutions": [], "venue": None,
+        "kind": "paper", "id": "", "title": "", "abstract": "", "authors": [], "institutions": [], "venue": None,
         "doi": None, "url": "", "fullTextUrl": None, "license": None, "publishedAt": None,
         "isPreprint": True, "peerReviewStatus": "unknown", "categories": [], "sources": [],
         "fetchedAt": now_iso(),
