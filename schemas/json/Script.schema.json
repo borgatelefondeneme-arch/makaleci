@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "paperId": {
+      "type": "string"
+    },
+    "episodeNumber": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "videoTitle": {
+      "type": "string"
+    },
+    "paperTitleTr": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "hook",
+              "context",
+              "method",
+              "finding",
+              "importance",
+              "limitations",
+              "summary"
+            ]
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "display": {
+                  "type": "string"
+                },
+                "spoken": {
+                  "type": "string"
+                },
+                "factIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "display",
+                "spoken",
+                "factIds"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "lines"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "takeaways": {
+      "minItems": 3,
+      "maxItems": 3,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nextTeaser": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "paperId",
+    "episodeNumber",
+    "videoTitle",
+    "paperTitleTr",
+    "sections",
+    "takeaways",
+    "nextTeaser",
+    "description"
+  ],
+  "additionalProperties": false
+}

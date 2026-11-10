@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "paperId": {
+      "type": "string"
+    },
+    "paper": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "abstract": {
+          "type": "string"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "affiliations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "name",
+              "affiliations"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "institutions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": "string"
+        },
+        "fullTextUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publishedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "isPreprint": {
+          "type": "boolean"
+        },
+        "peerReviewStatus": {
+          "type": "string",
+          "enum": [
+            "peer_reviewed",
+            "preprint",
+            "unknown"
+          ]
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fetchedAt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "abstract",
+        "authors",
+        "institutions",
+        "venue",
+        "doi",
+        "url",
+        "fullTextUrl",
+        "license",
+        "publishedAt",
+        "isPreprint",
+        "peerReviewStatus",
+        "categories",
+        "sources",
+        "fetchedAt"
+      ],
+      "additionalProperties": false
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "criteria": {
+      "type": "object",
+      "properties": {
+        "surprise": {
+          "type": "number"
+        },
+        "explainable": {
+          "type": "number"
+        },
+        "visual": {
+          "type": "number"
+        },
+        "concrete": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "surprise",
+        "explainable",
+        "visual",
+        "concrete"
+      ],
+      "additionalProperties": false
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ]
+    },
+    "queuedAt": {
+      "type": "string"
+    },
+    "decidedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "paperId",
+    "paper",
+    "score",
+    "criteria",
+    "rationale",
+    "status",
+    "queuedAt",
+    "decidedAt"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,41 @@
+{
+  "name": "gunun-bilimi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Günün Bilimi — bilimsel makaleleri 12 yaş seviyesinde Türkçe animasyonlu videoya çeviren üretim hattı",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "schemas": "tsx schemas/export.ts",
+    "episode": "tsx pipeline/run.ts",
+    "fetch": "python3 -m pipeline.fetch.cli",
+    "select": "tsx pipeline/select/cli.ts",
+    "queue": "tsx pipeline/select/queue.ts",
+    "script": "tsx pipeline/script/cli.ts",
+    "sceneplan": "tsx pipeline/sceneplan/cli.ts",
+    "voice": "tsx pipeline/voice/cli.ts",
+    "render": "tsx pipeline/render/cli.ts",
+    "frames": "tsx pipeline/render/frames.ts",
+    "studio": "remotion studio video/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/noto-color-emoji": "^5.3.2",
+    "@fontsource/nunito": "^5.3.0",
+    "@remotion/bundler": "^4.0.542",
+    "@remotion/cli": "^4.0.542",
+    "@remotion/renderer": "^4.0.542",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.542",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "paperId": "demo:0",
+  "basis": "abstract_only",
+  "institutions": [],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "number",
+      "statement": "Örnek sayılar",
+      "numbers": [
+        "40",
+        "12",
+        "18",
+        "25",
+        "31",
+        "3",
+        "9",
+        "15",
+        "22",
+        "60",
+        "20",
+        "1",
+        "2",
+        "4",
+        "5",
+        "100"
+      ],
+      "quote": "örnek",
+      "location": "Örnek"
+    }
+  ]
+}

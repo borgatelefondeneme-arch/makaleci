@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string",
+      "enum": [
+        "mock",
+        "elevenlabs"
+      ]
+    },
+    "fps": {
+      "type": "number"
+    },
+    "introFrames": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "outroTailFrames": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "totalFrames": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "durationSec": {
+      "type": "number"
+    },
+    "wordCount": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991
+    },
+    "audioFile": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sceneId": {
+            "type": "string"
+          },
+          "startFrame": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "durationFrames": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "audioStartFrame": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "lineStartFrames": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          },
+          "lineEndFrames": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          }
+        },
+        "required": [
+          "sceneId",
+          "startFrame",
+          "durationFrames",
+          "audioStartFrame",
+          "lineStartFrames",
+          "lineEndFrames"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "text",
+          "start",
+          "end"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "amplitude": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "reminder": {
+      "type": "object",
+      "properties": {
+        "startFrame": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "durationFrames": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "atPercent": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "startFrame",
+        "durationFrames",
+        "atPercent"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "provider",
+    "fps",
+    "introFrames",
+    "outroTailFrames",
+    "totalFrames",
+    "durationSec",
+    "wordCount",
+    "audioFile",
+    "scenes",
+    "words",
+    "amplitude",
+    "reminder"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "demo:0",
+  "title": "ÖRNEK VERİ — An Entirely Fictional Study of Sleepy Garden Snails",
+  "abstract": "Örnek veri.",
+  "authors": [
+    {
+      "name": "Ayşe Örnek",
+      "affiliations": [
+        "Örnek Üniversitesi"
+      ]
+    },
+    {
+      "name": "Çağrı Deneme",
+      "affiliations": [
+        "Örnek Üniversitesi"
+      ]
+    }
+  ],
+  "institutions": [
+    "Örnek Üniversitesi, Hayali Biyoloji Bölümü"
+  ],
+  "venue": "Örnek Dergi",
+  "doi": "10.0000/ornek.2026.001",
+  "url": "https://example.org/ornek",
+  "fullTextUrl": null,
+  "license": null,
+  "publishedAt": "2026-01-01",
+  "isPreprint": true,
+  "peerReviewStatus": "preprint",
+  "categories": [],
+  "sources": [
+    "demo"
+  ],
+  "fetchedAt": "2026-01-01T00:00:00Z"
+}

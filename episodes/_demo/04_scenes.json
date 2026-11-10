@@ -1,0 +1,485 @@
+{
+  "paperId": "demo:0",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Bir salyangoz günde kaç saat uyur?",
+        "emoji": "🐌"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.17,
+        "y": 0.5,
+        "scale": 1.6
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "visual": {
+        "type": "source-card"
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.88,
+        "y": 0.55,
+        "scale": 1.05,
+        "pointAt": {
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l5",
+        "l6"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Nasıl yaptılar?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Salyangozları topla",
+            "emoji": "🐌"
+          },
+          {
+            "label": "Kamerayla izle",
+            "emoji": "🎥"
+          },
+          {
+            "label": "Uykuyu ölç",
+            "emoji": "⏱️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.9,
+        "y": 0.7,
+        "scale": 0.75
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l7"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "40",
+        "unit": "salyangoz",
+        "label": "izlendi",
+        "sub": "Örnek veri"
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.8,
+        "y": 0.55,
+        "scale": 1.2,
+        "pointAt": {
+          "x": 0.3,
+          "y": 0.4
+        }
+      },
+      "factIds": [
+        "f1"
+      ],
+      "sourceNote": "Örnek"
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l8",
+        "l9"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Gruplara göre uyku süresi",
+        "unit": "saat",
+        "bars": [
+          {
+            "label": "1. grup",
+            "value": 12,
+            "display": "12"
+          },
+          {
+            "label": "2. grup",
+            "value": 18,
+            "display": "18"
+          },
+          {
+            "label": "3. grup",
+            "value": 25,
+            "display": "25"
+          },
+          {
+            "label": "4. grup",
+            "value": 31,
+            "display": "31",
+            "highlight": true
+          }
+        ]
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.9,
+        "y": 0.6,
+        "scale": 0.8,
+        "pointAt": {
+          "x": 0.62,
+          "y": 0.35
+        }
+      },
+      "factIds": [
+        "f1"
+      ],
+      "sourceNote": "Örnek"
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l10"
+      ],
+      "visual": {
+        "type": "line-chart",
+        "title": "Günlere göre uyku",
+        "xLabel": "Gün",
+        "yLabel": "Saat",
+        "points": [
+          {
+            "label": "1",
+            "value": 3,
+            "display": "3"
+          },
+          {
+            "label": "2",
+            "value": 9,
+            "display": "9"
+          },
+          {
+            "label": "3",
+            "value": 15,
+            "display": "15"
+          },
+          {
+            "label": "4",
+            "value": 22,
+            "display": "22",
+            "highlight": true
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.9,
+        "y": 0.3,
+        "scale": 0.7
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Genç mi, yaşlı mı?",
+        "left": {
+          "title": "Genç salyangoz",
+          "value": "12",
+          "items": [
+            "Daha hareketli",
+            "Az uyur"
+          ]
+        },
+        "right": {
+          "title": "Yaşlı salyangoz",
+          "value": "31",
+          "items": [
+            "Daha yavaş",
+            "Çok uyur"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.92,
+        "y": 0.72,
+        "scale": 0.65
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "analogy",
+        "template": "fill",
+        "title": "Kap benzetmesi",
+        "a": {
+          "label": "Küçük",
+          "value": 20
+        },
+        "b": {
+          "label": "Büyük",
+          "value": 60
+        },
+        "caption": "Biri diğerinden çok daha dolu."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.9,
+        "y": 0.7,
+        "scale": 0.75
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Döngü",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Uyu",
+            "emoji": "😴"
+          },
+          {
+            "label": "Uyan",
+            "emoji": "🌞"
+          },
+          {
+            "label": "Ye",
+            "emoji": "🥬"
+          },
+          {
+            "label": "Gez",
+            "emoji": "🐌"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "idle",
+        "x": 0.92,
+        "y": 0.25,
+        "scale": 0.6
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "analogy",
+        "template": "race",
+        "title": "Yarış benzetmesi",
+        "a": {
+          "label": "Genç",
+          "value": 12,
+          "display": "12"
+        },
+        "b": {
+          "label": "Yaşlı",
+          "value": 31,
+          "display": "31"
+        },
+        "caption": "Biri çok daha uzağa gidiyor."
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.9,
+        "y": 0.7,
+        "scale": 0.75,
+        "pointAt": {
+          "x": 0.6,
+          "y": 0.5
+        }
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l19"
+      ],
+      "visual": {
+        "type": "analogy",
+        "template": "scale",
+        "title": "Alan benzetmesi",
+        "a": {
+          "label": "Küçük",
+          "value": 5
+        },
+        "b": {
+          "label": "Büyük",
+          "value": 100
+        },
+        "caption": "Fark böyle görünüyor."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.9,
+        "y": 0.7,
+        "scale": 0.75
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l20"
+      ],
+      "visual": {
+        "type": "analogy",
+        "template": "zoom",
+        "title": "Ölçek benzetmesi",
+        "a": {
+          "label": "Küçük",
+          "value": 1
+        },
+        "b": {
+          "label": "Büyük",
+          "value": 100
+        },
+        "caption": "Küçük olan büyüğün içinde kayboluyor."
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.9,
+        "y": 0.7,
+        "scale": 0.75
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l21"
+      ],
+      "visual": {
+        "type": "quote-card",
+        "quote": "Bu sonuçlar yalnızca bir ilk adımdır; daha fazla çalışma gerekir.",
+        "attribution": "Örnek ve ekibi, Örnek Dergi"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.86,
+        "y": 0.6,
+        "scale": 1.1
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l22",
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Dikkat: sınırlılıklar",
+        "items": [
+          "Yalnızca 40 salyangoz incelendi",
+          "Tek bir bahçede yapıldı",
+          "Henüz tekrarlanmadı"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.87,
+        "y": 0.58,
+        "scale": 1
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "summary",
+      "lineIds": [
+        "l25",
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.58,
+        "scale": 1.1
+      },
+      "factIds": [
+        "f1"
+      ]
+    }
+  ]
+}

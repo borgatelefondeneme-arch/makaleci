@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "paperId": {
+      "type": "string"
+    },
+    "basis": {
+      "type": "string",
+      "enum": [
+        "full_text",
+        "abstract_only"
+      ]
+    },
+    "institutions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "number",
+              "claim",
+              "meta"
+            ]
+          },
+          "statement": {
+            "type": "string"
+          },
+          "numbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "quote": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "statement",
+          "numbers",
+          "quote",
+          "location"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "paperId",
+    "basis",
+    "institutions",
+    "facts"
+  ],
+  "additionalProperties": false
+}

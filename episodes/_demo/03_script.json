@@ -1,0 +1,264 @@
+{
+  "paperId": "demo:0",
+  "episodeNumber": 0,
+  "videoTitle": "Salyangozlar gerçekten uyur mu?",
+  "paperTitleTr": "ÖRNEK VERİ — Uykucu bahçe salyangozları üzerine tamamen hayali bir çalışma",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Bir salyangoz günde kaç saat uyur dersin? Tahminin ne?",
+          "spoken": "Bir salyangoz günde kaç saat uyur dersin? Tahminin ne?",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l2",
+          "display": "Bu örnek çalışma Ayşe Örnek ve ekibine ait.",
+          "spoken": "Bu örnek çalışma Ayşe Örnek ve ekibine ait.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Örnek Üniversitesi'nde yapıldı ve Örnek Dergi'de bir ön baskı olarak yayımlandı.",
+          "spoken": "Örnek Üniversitesi'nde yapıldı ve Örnek Dergi'de bir ön baskı olarak yayımlandı.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l4",
+          "display": "DOI numarası: 10.0000/ornek.2026.001",
+          "spoken": "DOI numarası: 10.0000/ornek.2026.001",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l5",
+          "display": "Araştırmacılar önce salyangozları topladı, sonra kamerayla izledi.",
+          "spoken": "Araştırmacılar önce salyangozları topladı, sonra kamerayla izledi.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l6",
+          "display": "En sonunda uyku sürelerini ölçtüler.",
+          "spoken": "En sonunda uyku sürelerini ölçtüler.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Toplam 40 salyangoz izlendi.",
+          "spoken": "Toplam 40 salyangoz izlendi.",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l8",
+          "display": "Dört grubun uyku süreleri birbirinden farklıydı.",
+          "spoken": "Dört grubun uyku süreleri birbirinden farklıydı.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "En uzun uyuyan grup 31 saatle dördüncü gruptu.",
+          "spoken": "En uzun uyuyan grup 31 saatle dördüncü gruptu.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Günler geçtikçe uyku süresi arttı.",
+          "spoken": "Günler geçtikçe uyku süresi arttı.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Genç ve yaşlı salyangozlar farklı davrandı.",
+          "spoken": "Genç ve yaşlı salyangozlar farklı davrandı.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Yaşlılar daha çok uyudu.",
+          "spoken": "Yaşlılar daha çok uyudu.",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l13",
+          "display": "Küçük bir kap ile büyük bir kabı düşün.",
+          "spoken": "Küçük bir kap ile büyük bir kabı düşün.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Biri diğerinden üç kat dolu.",
+          "spoken": "Biri diğerinden üç kat dolu.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Bir yarış gibi düşünelim.",
+          "spoken": "Bir yarış gibi düşünelim.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Biri çok daha uzağa gidiyor.",
+          "spoken": "Biri çok daha uzağa gidiyor.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Alanları kıyaslayalım.",
+          "spoken": "Alanları kıyaslayalım.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Fark böyle görünüyor.",
+          "spoken": "Fark böyle görünüyor.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Şimdi uzaklaşalım.",
+          "spoken": "Şimdi uzaklaşalım.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Küçük olan büyüğün içinde kayboluyor.",
+          "spoken": "Küçük olan büyüğün içinde kayboluyor.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Yazarlar şöyle diyor: bu sonuçlar ilk adımdır.",
+          "spoken": "Yazarlar şöyle diyor: bu sonuçlar ilk adımdır.",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l22",
+          "display": "Yalnızca 40 salyangoz incelendi.",
+          "spoken": "Yalnızca 40 salyangoz incelendi.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Çalışma tek bir bahçede yapıldı.",
+          "spoken": "Çalışma tek bir bahçede yapıldı.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Sonuçlar henüz başkalarınca tekrarlanmadı.",
+          "spoken": "Sonuçlar henüz başkalarınca tekrarlanmadı.",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l25",
+          "display": "Bugün üç şey öğrendik. Salyangozlar uyur.",
+          "spoken": "Bugün üç şey öğrendik. Salyangozlar uyur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Yaşlılar daha çok uyur.",
+          "spoken": "Yaşlılar daha çok uyur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Ve bu daha ilk adım. Abone olmayı unutma!",
+          "spoken": "Ve bu daha ilk adım. Abone olmayı unutma!",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Salyangozlar da uyur",
+    "Yaşlı salyangozlar daha çok uyur",
+    "Bu sonuç henüz bir ilk adım"
+  ],
+  "nextTeaser": "Yeni bir keşif seni bekliyor!",
+  "description": "Örnek veriyle üretilmiş deneme bölümü."
+}

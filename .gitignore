@@ -1,0 +1,12 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+episodes/*/audio/
+episodes/*/out/*.mp4
+episodes/*/out/silent.mp4
+.remotion-bundle/
+data/pool/
+episodes/_demo/out/
+episodes/*/out/frames*/
+episodes/*/01_fulltext.txt
