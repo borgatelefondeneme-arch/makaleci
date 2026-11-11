@@ -1,0 +1,418 @@
+{
+  "paperId": "topic:neden-uyuruz",
+  "episodeNumber": 2,
+  "videoTitle": "Neden uyuruz?",
+  "paperTitleTr": "Neden uyuruz?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Dün gece yatağa girdin, gözlerini kapadın ve... pat! Bir anda sabah oldu.",
+          "spoken": "Dün gece yatağa girdin, gözlerini kapadın ve... pat! Bir anda sabah oldu.",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Peki aradaki o saatlerde ne oldu? Vücudun düğmesine basılıp kapandı mı?",
+          "spoken": "Peki aradaki o saatlerde ne oldu? Vücudun düğmesine basılıp kapandı mı?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Hiç de değil! Sen uyurken içeride koca bir gece vardiyası çalışıyor. Hadi, gizlice bakalım!",
+          "spoken": "Hiç de değil! Sen uyurken içeride koca bir gece vardiyası çalışıyor. Hadi, gizlice bakalım!",
+          "factIds": [
+            "f1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Merhaba! Ben senin robot arkadaşınım. Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+          "spoken": "Merhaba! Ben senin robot arkadaşınım. Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bir kere uyumayı denedim. Bir türlü kapanamadım. Meğer kapatma düğmem yokmuş!",
+          "spoken": "Bir kere uyumayı denedim. Bir türlü kapanamadım. Meğer kapatma düğmem yokmuş!",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?",
+          "spoken": "Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?",
+          "factIds": []
+        },
+        {
+          "id": "l7",
+          "display": "Bugünkü bilgilerimiz sağlık kurumlarının sayfalarından geliyor: CDC, NIH ve Nemours KidsHealth.",
+          "spoken": "Bugünkü bilgilerimiz sağlık kurumlarının sayfalarından geliyor: Si Di Si, En Ay Eyç ve Nemurs Kids Helt.",
+          "factIds": []
+        },
+        {
+          "id": "l8",
+          "display": "Kaynakların bağlantıları videonun açıklamasında.",
+          "spoken": "Kaynakların bağlantıları videonun açıklamasında.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l9",
+          "display": "Önce şunu çözelim: Vücudun, uyku vaktinin geldiğini nereden biliyor?",
+          "spoken": "Önce şunu çözelim: Vücudun, uyku vaktinin geldiğini nereden biliyor?",
+          "factIds": []
+        },
+        {
+          "id": "l10",
+          "display": "Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik 24 saatlik bir döngüyle tekrarlanır.",
+          "spoken": "Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik yirmi dört saatlik bir döngüyle tekrarlanır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Bu saatin patronu beynindedir. Adı: ana saat. Merak etme, pili bitmez!",
+          "spoken": "Bu saatin patronu beynindedir. Adı: ana saat. Merak etme, pili bitmez!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Ana saati en çok ışık ve karanlık etkiler.",
+          "spoken": "Ana saati en çok ışık ve karanlık etkiler.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Akşam olunca ana saat beynine şöyle der: Daha çok melatonin üret! Melatonin bir hormondur ve uykunu getirir.",
+          "spoken": "Akşam olunca ana saat beynine şöyle der: Daha çok melatonin üret! Melatonin bir hormondur ve uykunu getirir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Yani akşam esnemeye başladıysan suçlu belli: melatonin!",
+          "spoken": "Yani akşam esnemeye başladıysan suçlu belli: melatonin!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Sabah olunca işler değişir. Vücudun, uyanmana yardım eden kortizol gibi hormonlar salgılar.",
+          "spoken": "Sabah olunca işler değişir. Vücudun, uyanmana yardım eden kortizol gibi hormonlar salgılar.",
+          "factIds": [
+            "f6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l16",
+          "display": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. Tam tersine, vücudun beynini ve sağlığını korumak için çalışır.",
+          "spoken": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. Tam tersine, vücudun beynini ve sağlığını korumak için çalışır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Beynin iki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.",
+          "spoken": "Beynin iki tür uyku arasında gidip gelir: Rem olmayan uyku ve Rem uykusu.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık 90 dakika sürer.",
+          "spoken": "Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık doksan dakika sürer.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "REM olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar.",
+          "spoken": "Rem olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Yani büyümek, biraz da yastık işi!",
+          "spoken": "Yani büyümek, biraz da yastık işi!",
+          "factIds": [
+            "f9",
+            "f15"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "REM uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder.",
+          "spoken": "Rem uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "En canlı rüyalarımızı da bu sırada görürüz.",
+          "spoken": "En canlı rüyalarımızı da bu sırada görürüz.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "İlginç olan şu: REM uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!",
+          "spoken": "İlginç olan şu: Rem uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "REM uykusu öğrenme ve hafıza için de önemlidir.",
+          "spoken": "Rem uykusu öğrenme ve hafıza için de önemlidir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
+          "spoken": "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Seni hastalıklardan da korur. Sen uyurken bir tür bağışıklık hücresi daha çok çalışır.",
+          "spoken": "Seni hastalıklardan da korur. Sen uyurken bir tür bağışıklık hücresi daha çok çalışır.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Bu yüzden yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.",
+          "spoken": "Bu yüzden yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Yani uyku tembellik değil. Uyku, vücudunun en önemli işlerinden biri!",
+          "spoken": "Yani uyku tembellik değil. Uyku, vücudunun en önemli işlerinden biri!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Peki yeterince uyumazsak ne olur? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
+          "spoken": "Peki yeterince uyumazsak ne olur? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
+          "factIds": [
+            "f17"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "O zaman ne kadar uyumalıyız? 6–12 yaş arasındaysan günde 9–12 saat.",
+          "spoken": "O zaman ne kadar uyumalıyız? Altı ile on iki yaş arasındaysan günde dokuz ile on iki saat.",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "13–17 yaş arasındaysan 8–10 saat.",
+          "spoken": "On üç ile on yedi yaş arasındaysan sekiz ile on saat.",
+          "factIds": [
+            "f19"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Kaç saat uyuduğunu merak mı ettin? Yattığın ve kalktığın saate bak, aradaki saatleri say.",
+          "spoken": "Kaç saat uyuduğunu merak mı ettin? Yattığın ve kalktığın saate bak, aradaki saatleri say.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "Şimdi sıra sende! Bir haftalık uyku dedektifi görevine hazır mısın?",
+          "spoken": "Şimdi sıra sende! Bir haftalık uyku dedektifi görevine hazır mısın?",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Bir: Her gün aynı saatte yat, aynı saatte kalk.",
+          "spoken": "Bir: Her gün aynı saatte yat, aynı saatte kalk.",
+          "factIds": [
+            "f20"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "İki: Yatmadan en az 30 dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir.",
+          "spoken": "İki: Yatmadan en az otuz dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir.",
+          "factIds": [
+            "f21",
+            "f22"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Üç: Odan sessiz, sakin ve serin olsun. Gün içinde de bol bol hareket et.",
+          "spoken": "Üç: Odan sessiz, sakin ve serin olsun. Gün içinde de bol bol hareket et.",
+          "factIds": [
+            "f23",
+            "f24"
+          ]
+        },
+        {
+          "id": "l37",
+          "display": "Dört: Her sabah kendine sor: Bugün nasıl hissediyorum? Bir kâğıda not et, hafta sonunda karşılaştır.",
+          "spoken": "Dört: Her sabah kendine sor: Bugün nasıl hissediyorum? Bir kâğıda not et, hafta sonunda karşılaştır.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l38",
+          "display": "Bunu biliyor muydun? Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
+          "spoken": "Bunu biliyor muydun? Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l39",
+          "display": "Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?",
+          "spoken": "Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l40",
+          "display": "Düşün bakalım... Evet: REM uykusunda!",
+          "spoken": "Düşün bakalım... Evet: Rem uykusunda!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l41",
+          "display": "Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!",
+          "spoken": "Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!",
+          "factIds": []
+        },
+        {
+          "id": "l42",
+          "display": "Bir soru daha! Akşam olunca uykumuzu getiren hormonun adı neydi?",
+          "spoken": "Bir soru daha! Akşam olunca uykumuzu getiren hormonun adı neydi?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l43",
+          "display": "Me-la-to-nin! Söylemesi bile insanın uykusunu getiriyor.",
+          "spoken": "Melatonin! Söylemesi bile insanın uykusunu getiriyor.",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l44",
+          "display": "Bugün bunu öğrendik!",
+          "spoken": "Bugün bunu öğrendik!",
+          "factIds": []
+        },
+        {
+          "id": "l45",
+          "display": "Bir: İçimizde bir saat var. Akşam olunca melatonin uykumuzu getirir.",
+          "spoken": "Bir: İçimizde bir saat var. Akşam olunca melatonin uykumuzu getirir.",
+          "factIds": [
+            "f2",
+            "f5"
+          ]
+        },
+        {
+          "id": "l46",
+          "display": "İki: Uyurken beynimiz çalışmaya devam eder. Uyku, öğrenmeye ve hafızaya yardım eder.",
+          "spoken": "İki: Uyurken beynimiz çalışmaya devam eder. Uyku, öğrenmeye ve hafızaya yardım eder.",
+          "factIds": [
+            "f7",
+            "f14"
+          ]
+        },
+        {
+          "id": "l47",
+          "display": "Üç: Uyku büyümemize ve hastalıklardan korunmamıza yardım eder.",
+          "spoken": "Üç: Uyku büyümemize ve hastalıklardan korunmamıza yardım eder.",
+          "factIds": [
+            "f15",
+            "f16"
+          ]
+        },
+        {
+          "id": "l48",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l49",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de gidip biraz şarj olayım!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gidip biraz şarj olayım!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "İçimizde bir saat var; melatonin uyku getirir",
+    "Uyku, öğrenmeye ve hafızaya yardım eder",
+    "Uyku büyümeye ve sağlığa yardım eder"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "description": "Uyurken vücudumuz kapanır mı? Hiç de değil! Robot arkadaşımızla vücut saatini, melatonini, REM uykusunu ve rüyaları keşfediyoruz. Uyku neden öğrenmeye, büyümeye ve sağlıklı kalmaya yardım eder, kaç saat uyumalıyız? Sonunda bir haftalık uyku dedektifi görevi de var!"
+}

@@ -1,0 +1,504 @@
+{
+  "paperId": "topic:neden-uyuruz",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Uyuyunca vücudumuz kapanır mı?",
+        "emoji": "😴"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.15,
+        "y": 0.5,
+        "scale": 1.45
+      },
+      "factIds": [
+        "f1"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5",
+        "l6"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Neden uyuruz?",
+          "Uyurken içeride neler olur?",
+          "Ne kadar uyumalıyız?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s3",
+      "section": "context",
+      "lineIds": [
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "source-card"
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.88,
+        "y": 0.55,
+        "scale": 1,
+        "pointAt": {
+          "x": 0.45,
+          "y": 0.45
+        }
+      },
+      "factIds": []
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "24",
+        "unit": "saat",
+        "label": "Vücut saatimizin bir turu",
+        "sub": "Pek çok değişiklik bu döngüyle tekrarlanır"
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.83,
+        "y": 0.52,
+        "scale": 1.25,
+        "pointAt": {
+          "x": 0.3,
+          "y": 0.4
+        }
+      },
+      "factIds": [
+        "f2"
+      ],
+      "sourceNote": "NIH (NIGMS)"
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Uykumuz nasıl gelir?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Akşam olur, ışık azalır",
+            "emoji": "🌆"
+          },
+          {
+            "label": "Ana saat beyne haber verir",
+            "emoji": "🧠"
+          },
+          {
+            "label": "Melatonin artar",
+            "emoji": "🧪"
+          },
+          {
+            "label": "Uykun gelir",
+            "emoji": "🥱"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.92,
+        "y": 0.66,
+        "scale": 0.72
+      },
+      "factIds": [
+        "f3",
+        "f4",
+        "f5"
+      ],
+      "sourceNote": "NIH (NIGMS)"
+    },
+    {
+      "id": "s6",
+      "section": "method",
+      "lineIds": [
+        "l15"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Akşam mı, sabah mı?",
+        "left": {
+          "title": "🌙 Akşam",
+          "items": [
+            "Melatonin artar",
+            "Uykun gelir"
+          ]
+        },
+        "right": {
+          "title": "☀️ Sabah",
+          "items": [
+            "Kortizol gibi hormonlar salgılanır",
+            "Uyanmana yardım eder"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.91,
+        "y": 0.6,
+        "scale": 0.85
+      },
+      "factIds": [
+        "f6"
+      ],
+      "sourceNote": "NIH (NIGMS, NHLBI)"
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l16",
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "90",
+        "unit": "dakika",
+        "label": "Bir uyku döngüsü (okul çağında)",
+        "sub": "Beyin iki tür uyku arasında gidip gelir"
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.83,
+        "y": 0.52,
+        "scale": 1.25,
+        "pointAt": {
+          "x": 0.3,
+          "y": 0.4
+        }
+      },
+      "factIds": [
+        "f1",
+        "f7",
+        "f8"
+      ],
+      "sourceNote": "Nemours KidsHealth"
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "quote-card",
+        "quote": "Bu aşamada vücut, büyüme ve gelişme için gereken hormonları salgılar.",
+        "attribution": "Nemours KidsHealth (çeviri)"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.86,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9",
+        "f15"
+      ],
+      "sourceNote": "Nemours KidsHealth"
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l21",
+        "l22",
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "İki tür uyku",
+        "left": {
+          "title": "🌙 REM olmayan uyku",
+          "items": [
+            "Üçüncü aşamada büyüme ve gelişme hormonları salgılanır"
+          ]
+        },
+        "right": {
+          "title": "💭 REM uykusu",
+          "items": [
+            "Gözler hızlı hızlı hareket eder",
+            "En canlı rüyalar",
+            "Kollar ve bacaklar hareket etmez",
+            "Öğrenme ve hafıza için önemli"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.91,
+        "y": 0.6,
+        "scale": 0.85,
+        "pointAt": {
+          "x": 0.55,
+          "y": 0.45
+        }
+      },
+      "factIds": [
+        "f10",
+        "f11",
+        "f12",
+        "f13"
+      ],
+      "sourceNote": "Nemours KidsHealth"
+    },
+    {
+      "id": "s10",
+      "section": "finding",
+      "lineIds": [
+        "l25",
+        "l26",
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Uyku ne işe yarar?",
+        "items": [
+          "Öğrenmeye ve hafızaya yardım eder",
+          "Bağışıklık hücreleri daha çok çalışır",
+          "Büyümeyi ve gelişmeyi destekler"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f14",
+        "f16"
+      ],
+      "sourceNote": "NIH (NHLBI)"
+    },
+    {
+      "id": "s11",
+      "section": "finding",
+      "lineIds": [
+        "l29"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Peki yeterince uyumazsak?",
+        "emoji": "😵‍💫"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.15,
+        "y": 0.5,
+        "scale": 1.45
+      },
+      "factIds": [
+        "f17"
+      ],
+      "sourceNote": "Nemours KidsHealth"
+    },
+    {
+      "id": "s12",
+      "section": "finding",
+      "lineIds": [
+        "l30",
+        "l31",
+        "l32"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Günde kaç saat uyku?",
+        "unit": "saat",
+        "bars": [
+          {
+            "label": "6–12 yaş: en az",
+            "value": 9,
+            "display": "9"
+          },
+          {
+            "label": "6–12 yaş: en çok",
+            "value": 12,
+            "display": "12",
+            "highlight": true
+          },
+          {
+            "label": "13–17 yaş: en az",
+            "value": 8,
+            "display": "8"
+          },
+          {
+            "label": "13–17 yaş: en çok",
+            "value": 10,
+            "display": "10",
+            "highlight": true
+          }
+        ]
+      },
+      "mascot": {
+        "state": "point",
+        "x": 0.92,
+        "y": 0.62,
+        "scale": 0.75,
+        "pointAt": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "factIds": [
+        "f18",
+        "f19"
+      ],
+      "sourceNote": "CDC"
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l33",
+        "l34",
+        "l35",
+        "l36",
+        "l37"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Uyku dedektifi görevi 🔎",
+        "items": [
+          "Her gün aynı saatte yat ve kalk",
+          "Yatmadan 30 dakika önce ekranları kapat",
+          "Odan sessiz, sakin ve serin olsun",
+          "Her sabah nasıl hissettiğini not et"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f20",
+        "f21",
+        "f22",
+        "f23",
+        "f24"
+      ],
+      "sourceNote": "CDC"
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l38"
+      ],
+      "visual": {
+        "type": "quote-card",
+        "quote": "Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
+        "attribution": "Bunu biliyor muydun?"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.86,
+        "y": 0.54,
+        "scale": 1.2
+      },
+      "factIds": [
+        "f4"
+      ],
+      "sourceNote": "NIH (NIGMS)"
+    },
+    {
+      "id": "s15",
+      "section": "limitations",
+      "lineIds": [
+        "l39",
+        "l40",
+        "l41",
+        "l42",
+        "l43"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "En canlı rüyaları hangi uykuda görürüz?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "think",
+        "x": 0.15,
+        "y": 0.5,
+        "scale": 1.45
+      },
+      "factIds": [
+        "f5",
+        "f11"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "summary",
+      "lineIds": [
+        "l44",
+        "l45",
+        "l46",
+        "l47",
+        "l48",
+        "l49"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2",
+        "f5",
+        "f7",
+        "f14",
+        "f15",
+        "f16"
+      ]
+    }
+  ]
+}

@@ -45,7 +45,7 @@ export const Chrome: React.FC<{ episode: number; total: number; source?: string 
   return (<>
     <div style={{ position: "absolute", left: 44, top: 32, fontFamily: F.head, fontWeight: 800, fontSize: 26, color: C.dim, display: "flex", gap: 12, alignItems: "center" }}>
       <span style={{ width: 16, height: 16, borderRadius: "50%", background: C.yellow, display: "inline-block" }} />
-      Günün Bilimi · #{episode}
+      MuMa Library · #{episode}
       {source && <span style={{ fontFamily: F.body, fontWeight: 600, fontSize: 22, marginLeft: 18, padding: "4px 16px", borderRadius: 20, border: `2px solid ${C.cardLine}` }}>Kaynak: {source}</span>}
     </div>
     <div style={{ position: "absolute", left: 0, bottom: 0, height: 8, width: (W * f) / total, background: C.teal, borderRadius: "0 4px 4px 0" }} />

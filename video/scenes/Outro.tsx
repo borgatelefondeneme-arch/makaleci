@@ -37,10 +37,10 @@ export const Outro: React.FC<SceneProps<"outro">> = ({ frame, beats, dur, tail, 
         </div>
       </Stage>
       {frame >= talk - 4 && (
-        <Stage style={{ justifyContent: "center", paddingLeft: 500, gap: 40, opacity: leave }}>
+        <Stage style={{ justifyContent: "center", paddingLeft: 540, gap: 36, opacity: leave }}>
           <div style={{ transform: `scale(${pop(frame, t2)})`, transformOrigin: "left center" }}>
-            <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 84, color: C.text, lineHeight: 1.1 }}>Merak etmeye <span style={{ color: C.yellow }}>devam!</span></div>
-            <div style={{ fontFamily: F.body, fontSize: 38, color: C.dim, marginTop: 10 }}>Her gün iki yeni keşif için abone ol, zili aç.</div>
+            <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 70, color: C.text, lineHeight: 1.1, maxWidth: 1250 }}>Bir sonraki bilim videosunda <span style={{ color: C.yellow }}>görüşürüz!</span></div>
+            <div style={{ fontFamily: F.body, fontSize: 38, color: C.dim, marginTop: 10 }}>MuMa Library’de yeni sorular yolda. Abone ol, zili aç!</div>
           </div>
           <div style={{ opacity: pop(frame, t2 + 14), height: 100 }}><SubscribeButton frame={frame} press={t2 + 70} scale={1.35} /></div>
           <Card accent={C.purple} style={{ opacity: pop(frame, t2 + 34), transform: `translateY(${(1 - pop(frame, t2 + 34)) * 50}px)`, display: "flex", alignItems: "center", gap: 30, maxWidth: 1150 }}>

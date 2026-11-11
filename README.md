@@ -1,4 +1,4 @@
-# Günün Bilimi
+# MuMa Library
 
 Çocuklar için Türkçe, eğlenceli ve öğretici 5 dakikalık animasyonlu bilim videoları üreten hat.
 Kararlar ve kurallar: [CLAUDE.md](CLAUDE.md).

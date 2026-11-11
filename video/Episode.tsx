@@ -45,7 +45,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   const lineById = new Map(script.sections.flatMap((s) => s.lines).map((l) => [l.id, l]));
   const f = useCurrentFrame();
 
-  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "idle", x: 0.15, y: 0.5, scale: 1.4 } }];
+  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "talk", x: 0.16, y: 0.5, scale: 1.45 } }];
   const captions: CaptionCue[] = [];
   plan.scenes.forEach((sc, i) => {
     const v = voice.scenes[i];
@@ -62,9 +62,10 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
       });
     });
   });
+  for (const b of voice.bumpers) captions.push({ start: b.startFrame, end: b.endFrame, text: b.text });
   const lastV = voice.scenes[voice.scenes.length - 1];
   const tailStart = lastV.startFrame + lastV.durationFrames - voice.outroTailFrames;
-  cues.push({ startFrame: tailStart, cue: { state: "point", x: 0.13, y: 0.5, scale: 1.4, pointAt: { x: 0.45, y: 0.52 } } });
+  cues.push({ startFrame: tailStart, cue: { state: "point", x: 0.14, y: 0.5, scale: 1.4, pointAt: { x: 0.45, y: 0.52 } } });
 
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);

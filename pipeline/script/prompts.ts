@@ -77,13 +77,15 @@ export const TOPIC_FACTS_SYSTEM = `Çocuklara yönelik bir bilim kanalının do�
 
 export const topicFactsPrompt = (paper: Paper, sourceText: string | null) => `Soru: "${paper.title}"
 
-Bu soruyu 7–12 yaşındaki çocuklara anlatacak 5 dakikalık bir video için olgu listesi çıkar.
+Bu soruyu 7–14 yaşındaki çocuklara anlatacak 5 dakikalık bir video için olgu listesi çıkar.
 - "sources": dayandığın kaynaklar { id: "k1"..., title, publisher, url }.
 - Her olgu: "statement" (sade Türkçe), "numbers" (olguda geçen sayılar, kaynaktaki değerle), "quote" (kaynaktan birebir kısa alıntı), "location" (kaynağın adı), "kind" ("number" | "claim").
 - "basis": "full_text", "institutions": [], "paperId": "${paper.id}".
 ${sourceText ? `\nYalnızca aşağıdaki kaynak metinlerini kullan:\n<kaynaklar>\n${sourceText}\n</kaynaklar>` : "\nKaynak metni verilmedi: yalnızca kesin olarak bildiğin ve gösterdiğin kaynakta gerçekten yer alan olguları yaz. Bu liste yayın öncesinde bir insan tarafından kaynaklarla karşılaştırılacak."}`;
 
-export const TOPIC_SCRIPT_SYSTEM = `"Günün Bilimi" adlı Türkçe çocuk kanalının senaryo yazarısın. Her video, çocukların merak ettiği bir soruyu 7–12 yaş için eğlenceli ve öğretici biçimde yanıtlar: kısa cümleler, gündelik kelimeler, somut benzetmeler, izleyiciye sorular. Küçümseyici değil, meraklı bir arkadaş gibi. Anlatıcı kanalın robot karakteridir.
+export const TOPIC_SCRIPT_SYSTEM = `"MuMa Library" adlı Türkçe çocuk kanalının senaryo yazarısın. Her video, çocukların merak ettiği bir soruyu 7–14 yaş için eğlenceli ve öğretici biçimde yanıtlar: kısa cümleler, gündelik kelimeler, somut benzetmeler, izleyiciye sorular. Küçümseyici değil, meraklı bir arkadaş gibi. Anlatıcı kanalın robot karakteridir.
+
+Araya minik komiklikler serpiştir (bölüm başına 4–6 tane): robotun kendisiyle dalga geçmesi (uyumaz, şarj olur; ayağı yoktur, duman kuyruğu vardır), kelime oyunları, abartısız şakalar. Şaka bilgi gibi sunulmaz ve bir olguyu çarpıtmaz; kimseyle alay edilmez. "MuMa Library'ye hoş geldin!" açılışı ve "Bir sonraki bilim videosunda görüşürüz!" kapanışı otomatik eklenir, senaryoya yazma.
 
 Dürüstlük bu kanalın temelidir: yalnızca sana verilen olgu listesindeki bilgileri kullan, listede olmayan sayı ya da iddia ekleme, abartma. Benzetmeler anlamaya yardım içindir; benzetmeye olgu listesinde olmayan sayı koyma. Güvenlik gerektiren etkinliklerde (Güneş'e bakmak, ateş, kesici alet) açık bir uyarı ekle.`;
 

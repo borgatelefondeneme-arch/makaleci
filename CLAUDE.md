@@ -1,12 +1,14 @@
-# Günün Bilimi — proje kararları
+# MuMa Library — proje kararları
 
-Çocuklar için Türkçe, eğlenceli ve öğretici 5 dakikalık animasyonlu bilim videoları üreten hat. Bu dosya onaylanmış kararları tutar; bir karar değişirse önce burası güncellenir.
+Çocuklar için Türkçe, eğlenceli ve öğretici 5 dakikalık animasyonlu bilim videoları üreten hat. **Kanal adı: MuMa Library** (ekranda ve seslendirmede bu ad kullanılır). Bu dosya onaylanmış kararları tutar; bir karar değişirse önce burası güncellenir.
 
 ## İçerik yönü (güncel karar)
 
-- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Gökyüzü neden mavi?"). Hedef yaş 7–12, süre ~5 dk. Konuyu ve senaryoyu biz belirleriz.
+- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Gökyüzü neden mavi?"). Hedef yaş **7–14**, süre ~5 dk. Konuyu ve senaryoyu biz belirleriz.
 - Her konu bölümünde: merak uyandıran açılış → günün sorusu ve kaynaklar → "Nasıl oluyor?" → "İşin sırrı" → **"Sen de dene"** (güvenli bir gözlem/etkinlik) → "Bunu biliyor muydun?" + kısa tekrar sorusu → "Bugün bunu öğrendik".
 - Bilgiler güvenilir kurum kaynaklarından (NASA vb.) alınır; kaynak sayfası **gerçekten okunur**, alıntısı `03_facts.json`'a yazılır. Kaynakta bulunamayan bilgi/sayı senaryoya girmez.
+- **Minik komiklikler:** bölüm başına 4–6 küçük şaka (robotun kendisiyle dalga geçmesi: uyumaz şarj olur, kapatma düğmesi yoktur; kelime oyunları). Şaka bilgi gibi sunulmaz, olguyu çarpıtmaz, kimseyle alay etmez.
+- **Sabit açılış ve kapanış:** her video robotun uçarak gelmesi ve "MuMa Library'ye hoş geldin!" cümlesiyle başlar; "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!" cümlesi ve robotun uçarak gitmesiyle biter. Bu cümleler voice aşamasında otomatik eklenir (`pipeline/voice/cli.ts` içinde `WELCOME`/`GOODBYE`), senaryoya yazılmaz.
 - Güvenlik gerektiren etkinliklerde açık uyarı (ör. "Güneş'e asla doğrudan bakma").
 - Makale bölümleri (`kind: "paper"`, aşağıdaki fetch/select akışı) kodda durur ve çalışır; şu an öncelik değil.
 - Giriş ve çıkış taslağı her iki türde aynıdır (açılış 5 sn, kapanışta ✓'li özet + abone ol + sıradaki video).
@@ -54,11 +56,12 @@ Uçtan uca: konu bölümü `npm run episode -- --topic "<soru>"` (fetch/select a
 
 ## Video yapısı
 
-- Açılış 5 sn: logo + "Günün Sorusu #n" (makale bölümünde "Günün Makalesi #n") + başlık (+ preprint rozeti).
+- Açılış (~5 sn): robot uçarak gelir + "MuMa Library" logosu + "Hoş geldin!" + "Günün Sorusu #n" (makale bölümünde "Günün Makalesi #n") + başlık (+ preprint rozeti).
 - Sahne tipleri: `hook`, `source-card`, `big-number`, `bar-chart`, `line-chart`, `comparison`, `diagram`, `analogy` (şablonlar: `scale`, `fill`, `race`, `zoom`), `quote-card`, `bullets`, `outro`. Aynı tip art arda gelmez.
-- **Karakter her zaman kullanıcının verdiği robottur** (cin kuyruklu, yay antenli, göğsünde "M" amblemi). Başka karakter kullanılmaz. Kullanıcının 15 sn'lik 3B videosu `tools/cutout_video.py` ile saydam zeminli kare dizisine çevrildi (`public/robot/seq/NNNN.webp`, kaynak kare 40–285). Karakter bu **gerçek hareket karelerini** oynatır: karşılama → işaret pozu (157–193 döngüsü) → kol kavuşturma geçişi (193–244) → kollar kavuşuk (244–280 döngüsü). Durum → hedef poz: `talk`/`point` → işaret, `idle`/`think` → kavuşuk (+ düşünce baloncuğu); açılış her zaman karşılama ile başlar. Kare seçimi `video/mascot/MascotLayer.tsx` içindeki `buildTimeline` ile deterministik hesaplanır. Dudak eşlemesi yok (ağız hareketi videonun kendi animasyonu); ses genliği yalnızca hafif bir vurgu verir. Gerçek bir 3B model/rig yoktur: yeni hareket için yeni video klibi gerekir (düz açık zemin, aynı kadraj). Thumbnail yüksek çözünürlüklü `public/robot/point.png` görselini kullanır. Karakterin adı henüz belirlenmedi.
+- **Karakter her zaman kullanıcının verdiği robottur** (cin kuyruklu, yay antenli, göğsünde "M" amblemi). Başka karakter kullanılmaz. Görseller `public/robot/` altında, `tools/cutout.py` ile saydam zeminli kesildi. İki poz: `point` (parmak havada + açık el; yüksek çözünürlüklü özgün görselden) ve `crossed` (kollar kavuşuk). Durum → poz: `talk`/`point` → `point`, `idle`/`think` → `crossed` (+ düşünce baloncuğu). **Ağız sese göre oynar** (kullanıcı bunu özellikle beğendi; korunur), anten yıldızı parlar, kuyruk salınır, sahneler arasında konum/ölçek yumuşak geçer; açılışta uçarak gelir, kapanışta uçarak gider (`MascotLayer.tsx`). Kollar yeniden çizilmez.
+- Videodan kare dizisiyle oynatma denendi ve geri alındı: kesim kalitesi düşüktü ve dudak eşlemesi kayboluyordu. Kullanıcı yeni klipler verirse `tools/cutout_video.py` ile işlenir; iyi sonuç için yüksek çözünürlük, düz tek renk zemin (gölgesiz), sabit kamera gerekir. Karakterin adı henüz belirlenmedi.
 - Abone ol: sürenin ~%60'ına en yakın sahne sınırında kısa alt bant; kapanışta tam kart.
-- Kapanış: "Bugün bunu öğrendik" + 3 madde sırayla ✓ + abone ol + sonraki video.
+- Kapanış: "Bugün bunu öğrendik" + 3 madde sırayla ✓ + "Bir sonraki bilim videosunda görüşürüz!" + abone ol + sonraki video; robot uçarak gider.
 - Stil: koyu lacivert zemin, 4 vurgu rengi (turkuaz, sarı, mercan, mor), yumuşak geçişler, arka planda hafif hareket. Tek kaynak: `video/theme.ts`.
 
 ## Çalışma notları

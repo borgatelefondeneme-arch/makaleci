@@ -1,9 +1,13 @@
 {
-  "lastEpisodeNumber": 1,
+  "lastEpisodeNumber": 2,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
       "episodeNumber": 1
+    },
+    "topic:neden-uyuruz": {
+      "id": "2026-11-11-neden-uyuruz",
+      "episodeNumber": 2
     }
   }
 }

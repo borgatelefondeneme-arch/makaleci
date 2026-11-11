@@ -9,7 +9,11 @@ import { mock } from "./providers/mock.ts";
 import { piper, piperAvailable } from "./providers/piper.ts";
 import { SAMPLE_RATE } from "./providers/types.ts";
 
-const FPS = 30, INTRO = 150, LEAD = 8, TAIL = 14, OUTRO_TAIL = 270, REMINDER = 150;
+const FPS = 30, LEAD = 8, TAIL = 14, REMINDER = 150;
+// Sabit açılış ve kapanış cümleleri (kanal kimliği). display: altyazı, spoken: okunuş.
+const WELCOME = { display: "MuMa Library'ye hoş geldin!", spoken: "Muma Laybrıri'ye hoş geldin!" };
+const GOODBYE = { display: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!", spoken: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!" };
+const FLY_IN = 42, FLY_OUT = 60; // robotun uçarak giriş/çıkış süresi (kare)
 const MIN_SEC = 285, MAX_SEC = 360; // hedef 5–6 dk (konu bölümlerinde ~5 dk)
 
 loadEnv();
@@ -30,6 +34,14 @@ console.log(`ses sağlayıcı: ${provider.name}`);
 const scenes: Voice["scenes"] = [];
 const allWords: Voice["words"] = [];
 const clips: { atFrame: number; pcm: Int16Array }[] = [];
+// Açılış: robot uçarak gelir, sonra karşılama cümlesi. Süre sese göre uzar (en az 5 sn).
+const welcome = await provider.synthesize(WELCOME.spoken);
+const goodbye = await provider.synthesize(GOODBYE.spoken);
+const fr = (pcm: Int16Array) => Math.ceil((pcm.length / SAMPLE_RATE) * FPS);
+const INTRO = Math.max(150, FLY_IN + fr(welcome.pcm) + 55);
+const OUTRO_TAIL = Math.max(270, 30 + fr(goodbye.pcm) + 50 + FLY_OUT);
+const bumpers: Voice["bumpers"] = [{ startFrame: FLY_IN, endFrame: FLY_IN + fr(welcome.pcm) + 6, text: WELCOME.display }];
+clips.push({ atFrame: FLY_IN, pcm: welcome.pcm });
 let cursor = INTRO, prevText = "", wordCount = 0;
 
 for (const [i, sc] of plan.scenes.entries()) {
@@ -76,6 +88,12 @@ for (const [i, sc] of plan.scenes.entries()) {
   cursor += durationFrames;
 }
 const totalFrames = cursor;
+// Kapanış cümlesi: özet anlatımı bittikten sonra, kuyruk bölümünün başında.
+const byeAt = totalFrames - OUTRO_TAIL + 30;
+clips.push({ atFrame: byeAt, pcm: goodbye.pcm });
+bumpers.push({ startFrame: byeAt, endFrame: byeAt + fr(goodbye.pcm) + 6, text: GOODBYE.display });
+for (const [at, r] of [[FLY_IN, welcome], [byeAt, goodbye]] as const) for (const w of r.words) allWords.push({ text: w.text, start: +(w.start + at / FPS).toFixed(3), end: +(w.end + at / FPS).toFixed(3) });
+allWords.sort((a, b) => a.start - b.start);
 const durationSec = totalFrames / FPS;
 
 // Tek ses dosyası (bölüm zaman çizelgesinde), 16 bit mono WAV.
@@ -110,7 +128,7 @@ const target = totalFrames * 0.6;
 const boundary = scenes.slice(1, -1).map((s) => s.startFrame).sort((a, b) => Math.abs(a - target) - Math.abs(b - target))[0] ?? Math.round(target);
 const reminder = { startFrame: boundary + 24, durationFrames: REMINDER, atPercent: +(((boundary + 24) / totalFrames) * 100).toFixed(1) };
 
-const voice: Voice = { provider: provider.name, fps: FPS, introFrames: INTRO, outroTailFrames: OUTRO_TAIL, totalFrames, durationSec: +durationSec.toFixed(2), wordCount, audioFile: "audio/narration.wav", scenes, words: allWords, amplitude, reminder };
+const voice: Voice = { provider: provider.name, fps: FPS, introFrames: INTRO, outroTailFrames: OUTRO_TAIL, totalFrames, durationSec: +durationSec.toFixed(2), wordCount, audioFile: "audio/narration.wav", scenes, words: allWords, amplitude, reminder, bumpers };
 writeJson(p.voice, Voice, voice);
 
 const mmss = (s: number) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;

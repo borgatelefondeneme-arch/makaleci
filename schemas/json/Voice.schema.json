@@ -142,6 +142,34 @@
         "atPercent"
       ],
       "additionalProperties": false
+    },
+    "bumpers": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startFrame": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "endFrame": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "startFrame",
+          "endFrame",
+          "text"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
@@ -156,7 +184,8 @@
     "scenes",
     "words",
     "amplitude",
-    "reminder"
+    "reminder",
+    "bumpers"
   ],
   "additionalProperties": false
 }

@@ -168,6 +168,8 @@ export const Voice = z.object({
   words: z.array(Word), // bölüm zaman çizelgesinde (saniye)
   amplitude: z.array(z.number()), // kare başına 0..1
   reminder: z.object({ startFrame: z.number().int(), durationFrames: z.number().int(), atPercent: z.number() }),
+  // Sabit açılış/kapanış cümleleri ("MuMa Library'ye hoş geldin!" / "…görüşürüz!"): bölüm zaman çizelgesinde kare aralığı.
+  bumpers: z.array(z.object({ startFrame: z.number().int(), endFrame: z.number().int(), text: z.string() })).default([]),
 });
 export type Voice = z.infer<typeof Voice>;
 
