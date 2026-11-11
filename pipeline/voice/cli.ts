@@ -23,7 +23,8 @@ const script = readJson(p.script, Script);
 const plan = readJson(p.scenes, ScenePlan);
 const lineById = new Map(script.sections.flatMap((s) => s.lines).map((l) => [l.id, l]));
 
-const key = process.env.ELEVENLABS_API_KEY, voiceId = process.env.ELEVENLABS_VOICE_ID;
+// Varsayılan ses: kullanıcının seçip hesabına "Muma" adıyla kaydettiği tasarım sesi.
+const key = process.env.ELEVENLABS_API_KEY, voiceId = process.env.ELEVENLABS_VOICE_ID || "j6hEdvUHjDuCExVlNXTi";
 const useReal = Boolean(key && voiceId) && !flags.mock;
 if (key && !voiceId && !flags.mock) console.log("⚠ ELEVENLABS_API_KEY var ama ELEVENLABS_VOICE_ID yok → mock ses kullanılıyor");
 // Öncelik: ElevenLabs → yerel Piper → mock (sessiz).

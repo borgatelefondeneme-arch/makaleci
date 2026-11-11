@@ -32,6 +32,7 @@
 - Şemalar: `schemas/` altında **zod**; aşamalar arası tek sözleşme budur. Her aşama çıktısını yazmadan önce, sonraki aşama okurken doğrular.
 - LLM: Claude API (`@anthropic-ai/sdk`, varsayılan model `claude-opus-5-5`, `CLAUDE_MODEL` ile değişir). **Hibrit:** kimlik bilgisi yoksa `pipeline/llm/manual.ts` devreye girer — istemi `episodes/<id>/manual/<aşama>.prompt.md`'ye yazar, yanıtı `manual/<aşama>.json`'dan okur.
 - Ses önceliği: ElevenLabs (`ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID`) → **Piper** (yerel, `tools/setup-piper.sh`, ses `tr_TR-dfki-medium`, hız `PIPER_LENGTH_SCALE` varsayılan 1.1) → **mock** (sessiz). Piper kelime hizalaması vermez: satır satır sentezlenir, kelime damgaları hece oranıyla dağıtılır.
+- **Muma'nın sesi (ElevenLabs):** kullanıcının seçtiği tasarım sesi hesaba "Muma" adıyla kaydedildi, kimliği `j6hEdvUHjDuCExVlNXTi` (`ELEVENLABS_VOICE_ID` verilmezse varsayılan budur). Her videoda aynı ses kullanılır. ElevenLabs çocuk sesi üretimini engeller; ses, yetişkin seslendirmecinin canlandırdığı parlak, heyecanlı bir çizgi film robotu olarak tarif edildi. Anahtar ortamın ağ gizlisi olarak saklı (kod içinde `ELEVENLABS_API_KEY=proxy-injected` yer tutucusu yeterli).
 - **Piper sesi yalnızca taslak içindir:** eğitim verisi CC BY-NC-SA 4.0 (ticari kullanım dışı). Gelir getiren yayında ElevenLabs ya da ticari kullanıma açık bir ses kullanılır.
 - Font: Nunito (başlık) + Inter (metin), `@fontsource` paketlerinden gömülü; render sırasında ağ gerekmez.
 
