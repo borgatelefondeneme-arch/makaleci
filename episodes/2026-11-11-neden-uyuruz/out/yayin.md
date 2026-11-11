@@ -1,21 +1,21 @@
 # Neden uyuruz?
 
-**Günün Sorusu #2** · Neden uyuruz? · süre 4:59
+**Günün Sorusu #2** · Neden uyuruz? · süre 5:01
 
 ## Açıklama
 
-Uyurken vücudumuz kapanır mı? Hiç de değil! Robot arkadaşımızla vücut saatini, melatonini, REM uykusunu ve rüyaları keşfediyoruz. Uyku neden öğrenmeye, büyümeye ve sağlıklı kalmaya yardım eder, kaç saat uyumalıyız? Sonunda bir haftalık uyku dedektifi görevi de var!
+Uyurken vücudumuz kapanır mı? Hiç de değil! Muma ile vücut saatini, melatonini, REM uykusunu ve rüyaları keşfediyoruz. Uyku neden öğrenmeye, büyümeye ve sağlıklı kalmaya yardım eder, kaç saat uyumalıyız? Sonunda bir haftalık uyku dedektifi görevi ve dans eden arkadaşlarımızla bir uyku şarkısı var!
 
 ## Bölümler
 
 0:00 Açılış
 0:05 Giriş
 0:23 Günün sorusu
-0:57 Nasıl oluyor?
-1:39 İşin sırrı
-3:17 Sen de dene
-3:48 Bunu biliyor muydun?
-4:20 Bugün bunu öğrendik
+0:52 Nasıl oluyor?
+1:28 İşin sırrı
+2:45 Sen de dene
+3:14 Bunu biliyor muydun?
+4:39 Bugün bunu öğrendik
 
 ## Kaynaklar
 
@@ -51,8 +51,46 @@ Uyurken vücudumuz kapanır mı? Hiç de değil! Robot arkadaşımızla vücut s
 - Yatak odasının sessiz, rahatlatıcı ve serin olması önerilir. — _"Keeping your bedroom quiet, relaxing, and at a cool temperature."_ (CDC — About Sleep)
 - Düzenli hareket etmek ve sağlıklı beslenmek daha iyi uykuya yardım eder. — _"Exercising regularly and maintaining a healthy diet."_ (CDC — About Sleep)
 
+## Sözlük
+
+- **Melatonin:** Akşam olunca beynimizin ürettiği ve uykumuzu getiren hormon.
+- **Hormon:** Vücudun bir yerinden başka bir yerine haber taşıyan minik madde.
+- **Ana saat:** Beynimizde, vücudun günlük düzenini ayarlayan sinir hücreleri grubu.
+- **REM uykusu:** Gözlerin hızlı hareket ettiği ve en canlı rüyaların görüldüğü uyku türü.
+- **Bağışıklık:** Vücudun mikroplara karşı kendini savunma gücü.
+- **Hafıza:** Öğrendiklerimizi ve yaşadıklarımızı aklımızda tutma yeteneği.
+
+## Kapanış şarkısı: Uyu, Büyü, Öğren!
+
+**Giriş**
+Hey! Hey! Hey!
+
+**Kıta**
+İçimizde bir saat var, tik tak, tik tak döner  
+Akşam olur, melatonin "haydi uyku" der
+
+**Nakarat**
+Uyu, büyü, öğren, güçlen!  
+Uyku senin süper gücün!  
+Uyu, büyü, öğren, güçlen!  
+Her gece yeniden!
+
+**Kıta**
+Rüyalar REM'de gelir, gözler hızlı hızlı  
+Öğrendiğin her şey hafızana yazılı  
+Sen uyurken vücudun büyümeye çalışır  
+Bağışıklık hücrelerin gece boyu çalışır
+
+**Nakarat**
+Uyu, büyü, öğren, güçlen!  
+Uyku senin süper gücün!  
+Ekranı kapat, aynı saatte yat  
+Muma'yla öğrendik, hey!
+
+_Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler MuMa Library'ye aittir. Platformun yapay zekâ içerik beyanı gerekiyorsa işaretleyin._
+
 ## Üretim notları
 
-- Seslendirme: Piper (yerel, tr_TR-dfki) — taslak ses; ses verisinin lisansı ticari kullanıma izin vermez (CC BY-NC-SA 4.0)
-- 556 kelime, 16 sahne, abone ol hatırlatması videonun %60.4 noktasında
+- Seslendirme: ElevenLabs
+- 423 kelime, 15 sahne, abone ol hatırlatması videonun %64.8 noktasında
 - Thumbnail: `thumbnail.png`

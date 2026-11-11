@@ -61,6 +61,8 @@ export const P = (dir: string) => ({
   facts: join(dir, "03_facts.json"),
   script: join(dir, "03_script.json"),
   scenes: join(dir, "04_scenes.json"),
+  song: join(dir, "05_song.json"),
+  songAudio: join(dir, "song.mp3"), // üretim varlığı: depoya girer (yeniden üretmek kota harcar)
   voice: join(dir, "05_voice.json"),
   audio: join(dir, "audio"),
   out: join(dir, "out"),

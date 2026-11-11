@@ -21,6 +21,7 @@ Sahne alanları:
   - "analogy": benzetme { template: "scale" (alan kıyası) | "fill" (dolan kap) | "race" (yarış) | "zoom" (iç içe ölçek), title, a: { label, value, display? }, b: {...}, caption }. Benzetmede makalede olmayan sayı gösterme; "display" boş bırakılırsa sayı yazılmaz, yalnızca oran çizilir.
   - "quote-card": makaleden kısa alıntı { quote (Türkçe çeviri, en çok iki cümle), attribution }.
   - "bullets": 1–4 madde { title, items[], tone?: "neutral" | "caution" } — sınırlılıklar için "caution".
+  - "song": kapanış şarkısı (senaryoda "song" varsa zorunlu) — sondan bir önceki sahne; yalnızca şarkıya davet eden satırı içerir. Zerre/Muma bu sahnede sağda ve büyük durur (x≈0,86, y≈0,52, scale≈1,3, state "talk").
   - "outro": kapanış — son sahne, summary bölümünün tüm satırlarını kapsar.
 - "mascot": karakter Zerre'nin bu sahnedeki hali { state: "idle" | "talk" | "point" | "think", x, y (0–1, ekran oranı, merkez), scale (0,5–1,6), pointAt? }.
   İçerik sol-ortadadır; Zerre genelde sağda durur (x≈0,86, y≈0,62, scale≈1). Geniş sahnelerde (bar-chart, line-chart, diagram, analogy, comparison) küçülüp köşeye çekilsin (x≈0,9, y≈0,72, scale≈0,7). "hook" sahnesinde solda ve büyük (x≈0,17, y≈0,5, scale≈1,6, state "think"). Bir sayıya ya da grafiğe dikkat çekerken "point" kullan ve "pointAt" ile hedefi ver. Sahneden sahneye konum ve boyut değişsin ki karakter ekranda gezsin.
@@ -57,32 +58,26 @@ Sahne alanları:
     "lines": [
       {
         "id": "l4",
-        "display": "Merhaba! Ben senin robot arkadaşınım. Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
-        "spoken": "Merhaba! Ben senin robot arkadaşınım. Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+        "display": "Merhaba! Ben Muma! Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+        "spoken": "Merhaba! Ben Muma! Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
         "factIds": []
       },
       {
         "id": "l5",
-        "display": "Bir kere uyumayı denedim. Bir türlü kapanamadım. Meğer kapatma düğmem yokmuş!",
-        "spoken": "Bir kere uyumayı denedim. Bir türlü kapanamadım. Meğer kapatma düğmem yokmuş!",
-        "factIds": []
-      },
-      {
-        "id": "l6",
         "display": "Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?",
         "spoken": "Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?",
         "factIds": []
       },
       {
-        "id": "l7",
-        "display": "Bugünkü bilgilerimiz sağlık kurumlarının sayfalarından geliyor: CDC, NIH ve Nemours KidsHealth.",
-        "spoken": "Bugünkü bilgilerimiz sağlık kurumlarının sayfalarından geliyor: Si Di Si, En Ay Eyç ve Nemurs Kids Helt.",
+        "id": "l6",
+        "display": "Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: CDC, NIH ve Nemours KidsHealth.",
+        "spoken": "Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: Si Di Si, En Ay Eyç ve Nemurs Kids Helt.",
         "factIds": []
       },
       {
-        "id": "l8",
-        "display": "Kaynakların bağlantıları videonun açıklamasında.",
-        "spoken": "Kaynakların bağlantıları videonun açıklamasında.",
+        "id": "l7",
+        "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum!",
+        "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum!",
         "factIds": []
       }
     ]
@@ -91,13 +86,13 @@ Sahne alanları:
     "id": "method",
     "lines": [
       {
-        "id": "l9",
+        "id": "l8",
         "display": "Önce şunu çözelim: Vücudun, uyku vaktinin geldiğini nereden biliyor?",
         "spoken": "Önce şunu çözelim: Vücudun, uyku vaktinin geldiğini nereden biliyor?",
         "factIds": []
       },
       {
-        "id": "l10",
+        "id": "l9",
         "display": "Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik 24 saatlik bir döngüyle tekrarlanır.",
         "spoken": "Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik yirmi dört saatlik bir döngüyle tekrarlanır.",
         "factIds": [
@@ -105,7 +100,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l11",
+        "id": "l10",
         "display": "Bu saatin patronu beynindedir. Adı: ana saat. Merak etme, pili bitmez!",
         "spoken": "Bu saatin patronu beynindedir. Adı: ana saat. Merak etme, pili bitmez!",
         "factIds": [
@@ -113,7 +108,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l12",
+        "id": "l11",
         "display": "Ana saati en çok ışık ve karanlık etkiler.",
         "spoken": "Ana saati en çok ışık ve karanlık etkiler.",
         "factIds": [
@@ -121,7 +116,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l13",
+        "id": "l12",
         "display": "Akşam olunca ana saat beynine şöyle der: Daha çok melatonin üret! Melatonin bir hormondur ve uykunu getirir.",
         "spoken": "Akşam olunca ana saat beynine şöyle der: Daha çok melatonin üret! Melatonin bir hormondur ve uykunu getirir.",
         "factIds": [
@@ -129,19 +124,11 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l14",
+        "id": "l13",
         "display": "Yani akşam esnemeye başladıysan suçlu belli: melatonin!",
         "spoken": "Yani akşam esnemeye başladıysan suçlu belli: melatonin!",
         "factIds": [
           "f5"
-        ]
-      },
-      {
-        "id": "l15",
-        "display": "Sabah olunca işler değişir. Vücudun, uyanmana yardım eden kortizol gibi hormonlar salgılar.",
-        "spoken": "Sabah olunca işler değişir. Vücudun, uyanmana yardım eden kortizol gibi hormonlar salgılar.",
-        "factIds": [
-          "f6"
         ]
       }
     ]
@@ -150,23 +137,16 @@ Sahne alanları:
     "id": "finding",
     "lines": [
       {
-        "id": "l16",
-        "display": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. Tam tersine, vücudun beynini ve sağlığını korumak için çalışır.",
-        "spoken": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. Tam tersine, vücudun beynini ve sağlığını korumak için çalışır.",
+        "id": "l14",
+        "display": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. İki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.",
+        "spoken": "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. İki tür uyku arasında gidip gelir: Rem olmayan uyku ve Rem uykusu.",
         "factIds": [
-          "f1"
-        ]
-      },
-      {
-        "id": "l17",
-        "display": "Beynin iki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.",
-        "spoken": "Beynin iki tür uyku arasında gidip gelir: Rem olmayan uyku ve Rem uykusu.",
-        "factIds": [
+          "f1",
           "f7"
         ]
       },
       {
-        "id": "l18",
+        "id": "l15",
         "display": "Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık 90 dakika sürer.",
         "spoken": "Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık doksan dakika sürer.",
         "factIds": [
@@ -174,7 +154,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l19",
+        "id": "l16",
         "display": "REM olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar.",
         "spoken": "Rem olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar.",
         "factIds": [
@@ -182,7 +162,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l20",
+        "id": "l17",
         "display": "Yani büyümek, biraz da yastık işi!",
         "spoken": "Yani büyümek, biraz da yastık işi!",
         "factIds": [
@@ -191,23 +171,16 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l21",
-        "display": "REM uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder.",
-        "spoken": "Rem uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder.",
+        "id": "l18",
+        "display": "REM uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder. En canlı rüyalarımızı da bu sırada görürüz.",
+        "spoken": "Rem uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder. En canlı rüyalarımızı da bu sırada görürüz.",
         "factIds": [
-          "f10"
-        ]
-      },
-      {
-        "id": "l22",
-        "display": "En canlı rüyalarımızı da bu sırada görürüz.",
-        "spoken": "En canlı rüyalarımızı da bu sırada görürüz.",
-        "factIds": [
+          "f10",
           "f11"
         ]
       },
       {
-        "id": "l23",
+        "id": "l19",
         "display": "İlginç olan şu: REM uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!",
         "spoken": "İlginç olan şu: Rem uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!",
         "factIds": [
@@ -215,23 +188,16 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l24",
-        "display": "REM uykusu öğrenme ve hafıza için de önemlidir.",
-        "spoken": "Rem uykusu öğrenme ve hafıza için de önemlidir.",
-        "factIds": [
-          "f13"
-        ]
-      },
-      {
-        "id": "l25",
+        "id": "l20",
         "display": "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
         "spoken": "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
         "factIds": [
+          "f13",
           "f14"
         ]
       },
       {
-        "id": "l26",
+        "id": "l21",
         "display": "Seni hastalıklardan da korur. Sen uyurken bir tür bağışıklık hücresi daha çok çalışır.",
         "spoken": "Seni hastalıklardan da korur. Sen uyurken bir tür bağışıklık hücresi daha çok çalışır.",
         "factIds": [
@@ -239,31 +205,15 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l27",
-        "display": "Bu yüzden yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.",
-        "spoken": "Bu yüzden yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.",
-        "factIds": [
-          "f16"
-        ]
-      },
-      {
-        "id": "l28",
-        "display": "Yani uyku tembellik değil. Uyku, vücudunun en önemli işlerinden biri!",
-        "spoken": "Yani uyku tembellik değil. Uyku, vücudunun en önemli işlerinden biri!",
-        "factIds": [
-          "f1"
-        ]
-      },
-      {
-        "id": "l29",
-        "display": "Peki yeterince uyumazsak ne olur? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
-        "spoken": "Peki yeterince uyumazsak ne olur? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
+        "id": "l22",
+        "display": "Peki yeterince uyumazsak? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
+        "spoken": "Peki yeterince uyumazsak? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.",
         "factIds": [
           "f17"
         ]
       },
       {
-        "id": "l30",
+        "id": "l23",
         "display": "O zaman ne kadar uyumalıyız? 6–12 yaş arasındaysan günde 9–12 saat.",
         "spoken": "O zaman ne kadar uyumalıyız? Altı ile on iki yaş arasındaysan günde dokuz ile on iki saat.",
         "factIds": [
@@ -271,18 +221,12 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l31",
+        "id": "l24",
         "display": "13–17 yaş arasındaysan 8–10 saat.",
         "spoken": "On üç ile on yedi yaş arasındaysan sekiz ile on saat.",
         "factIds": [
           "f19"
         ]
-      },
-      {
-        "id": "l32",
-        "display": "Kaç saat uyuduğunu merak mı ettin? Yattığın ve kalktığın saate bak, aradaki saatleri say.",
-        "spoken": "Kaç saat uyuduğunu merak mı ettin? Yattığın ve kalktığın saate bak, aradaki saatleri say.",
-        "factIds": []
       }
     ]
   },
@@ -290,13 +234,13 @@ Sahne alanları:
     "id": "importance",
     "lines": [
       {
-        "id": "l33",
+        "id": "l25",
         "display": "Şimdi sıra sende! Bir haftalık uyku dedektifi görevine hazır mısın?",
         "spoken": "Şimdi sıra sende! Bir haftalık uyku dedektifi görevine hazır mısın?",
         "factIds": []
       },
       {
-        "id": "l34",
+        "id": "l26",
         "display": "Bir: Her gün aynı saatte yat, aynı saatte kalk.",
         "spoken": "Bir: Her gün aynı saatte yat, aynı saatte kalk.",
         "factIds": [
@@ -304,7 +248,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l35",
+        "id": "l27",
         "display": "İki: Yatmadan en az 30 dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir.",
         "spoken": "İki: Yatmadan en az otuz dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir.",
         "factIds": [
@@ -313,18 +257,17 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l36",
-        "display": "Üç: Odan sessiz, sakin ve serin olsun. Gün içinde de bol bol hareket et.",
-        "spoken": "Üç: Odan sessiz, sakin ve serin olsun. Gün içinde de bol bol hareket et.",
+        "id": "l28",
+        "display": "Üç: Odan sessiz, sakin ve serin olsun.",
+        "spoken": "Üç: Odan sessiz, sakin ve serin olsun.",
         "factIds": [
-          "f23",
-          "f24"
+          "f23"
         ]
       },
       {
-        "id": "l37",
-        "display": "Dört: Her sabah kendine sor: Bugün nasıl hissediyorum? Bir kâğıda not et, hafta sonunda karşılaştır.",
-        "spoken": "Dört: Her sabah kendine sor: Bugün nasıl hissediyorum? Bir kâğıda not et, hafta sonunda karşılaştır.",
+        "id": "l29",
+        "display": "Dört: Her sabah nasıl hissettiğini bir kâğıda not et, hafta sonunda karşılaştır.",
+        "spoken": "Dört: Her sabah nasıl hissettiğini bir kâğıda not et, hafta sonunda karşılaştır.",
         "factIds": []
       }
     ]
@@ -333,15 +276,7 @@ Sahne alanları:
     "id": "limitations",
     "lines": [
       {
-        "id": "l38",
-        "display": "Bunu biliyor muydun? Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
-        "spoken": "Bunu biliyor muydun? Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
-        "factIds": [
-          "f4"
-        ]
-      },
-      {
-        "id": "l39",
+        "id": "l30",
         "display": "Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?",
         "spoken": "Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?",
         "factIds": [
@@ -349,7 +284,7 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l40",
+        "id": "l31",
         "display": "Düşün bakalım... Evet: REM uykusunda!",
         "spoken": "Düşün bakalım... Evet: Rem uykusunda!",
         "factIds": [
@@ -357,26 +292,16 @@ Sahne alanları:
         ]
       },
       {
-        "id": "l41",
+        "id": "l32",
         "display": "Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!",
         "spoken": "Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!",
         "factIds": []
       },
       {
-        "id": "l42",
-        "display": "Bir soru daha! Akşam olunca uykumuzu getiren hormonun adı neydi?",
-        "spoken": "Bir soru daha! Akşam olunca uykumuzu getiren hormonun adı neydi?",
-        "factIds": [
-          "f5"
-        ]
-      },
-      {
-        "id": "l43",
-        "display": "Me-la-to-nin! Söylemesi bile insanın uykusunu getiriyor.",
-        "spoken": "Melatonin! Söylemesi bile insanın uykusunu getiriyor.",
-        "factIds": [
-          "f5"
-        ]
+        "id": "l33",
+        "display": "Şimdi öğrendiklerimizi şarkıyla söyleyelim. Arkadaşlarım sahneye geliyor! Hazır mısın? Bir, iki, üç!",
+        "spoken": "Şimdi öğrendiklerimizi şarkıyla söyleyelim. Arkadaşlarım sahneye geliyor! Hazır mısın? Bir, iki, üç!",
+        "factIds": []
       }
     ]
   },
@@ -384,46 +309,19 @@ Sahne alanları:
     "id": "summary",
     "lines": [
       {
-        "id": "l44",
-        "display": "Bugün bunu öğrendik!",
-        "spoken": "Bugün bunu öğrendik!",
+        "id": "l34",
+        "display": "İşte bugün öğrendiklerimiz!",
+        "spoken": "İşte bugün öğrendiklerimiz!",
         "factIds": []
       },
       {
-        "id": "l45",
-        "display": "Bir: İçimizde bir saat var. Akşam olunca melatonin uykumuzu getirir.",
-        "spoken": "Bir: İçimizde bir saat var. Akşam olunca melatonin uykumuzu getirir.",
-        "factIds": [
-          "f2",
-          "f5"
-        ]
-      },
-      {
-        "id": "l46",
-        "display": "İki: Uyurken beynimiz çalışmaya devam eder. Uyku, öğrenmeye ve hafızaya yardım eder.",
-        "spoken": "İki: Uyurken beynimiz çalışmaya devam eder. Uyku, öğrenmeye ve hafızaya yardım eder.",
-        "factIds": [
-          "f7",
-          "f14"
-        ]
-      },
-      {
-        "id": "l47",
-        "display": "Üç: Uyku büyümemize ve hastalıklardan korunmamıza yardım eder.",
-        "spoken": "Üç: Uyku büyümemize ve hastalıklardan korunmamıza yardım eder.",
-        "factIds": [
-          "f15",
-          "f16"
-        ]
-      },
-      {
-        "id": "l48",
+        "id": "l35",
         "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
         "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
         "factIds": []
       },
       {
-        "id": "l49",
+        "id": "l36",
         "display": "Abone olmayı ve zili açmayı unutma. Ben de gidip biraz şarj olayım!",
         "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gidip biraz şarj olayım!",
         "factIds": []
@@ -1014,6 +912,19 @@ Sahne alanları:
                 "properties": {
                   "type": {
                     "type": "string",
+                    "const": "song"
+                  }
+                },
+                "required": [
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
                     "const": "outro"
                   }
                 },
@@ -1066,6 +977,16 @@ Sahne alanları:
                   "y"
                 ],
                 "additionalProperties": false
+              },
+              "pose": {
+                "type": "string",
+                "enum": [
+                  "point",
+                  "crossed",
+                  "thumbs",
+                  "book",
+                  "wave"
+                ]
               }
             },
             "required": [

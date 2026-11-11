@@ -32,7 +32,7 @@ ${facts.sources.map((s) => `- **${s.publisher}** — [${s.title}](${s.url})`).jo
 
 ${facts.facts.map((f) => `- ${f.statement} — _"${f.quote}"_ (${f.location})`).join("\n")}
 
-## Üretim notları
+${script.glossary.length ? `## Sözlük\n\n${script.glossary.map((g) => `- **${g.term}:** ${g.meaning}`).join("\n")}\n\n` : ""}${script.song ? `## Kapanış şarkısı: ${script.song.title}\n\n${script.song.sections.map((s) => `**${s.label}**\n${s.lines.join("  \n")}`).join("\n\n")}\n\n_Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler MuMa Library'ye aittir. Platformun yapay zekâ içerik beyanı gerekiyorsa işaretleyin._\n\n` : ""}## Üretim notları
 
 - Seslendirme: ${voiceNote(voice)}
 - ${voice.wordCount} kelime, ${plan.scenes.length} sahne, abone ol hatırlatması videonun %${voice.reminder.atPercent} noktasında

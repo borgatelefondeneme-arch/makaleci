@@ -1,0 +1,119 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 59.115102,
+  "title": "Uyu, Büyü, Öğren!",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5.01,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5.01
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5.01,
+      "end": 17.03,
+      "lines": [
+        {
+          "text": "İçimizde bir saat var, tik tak, tik tak döner",
+          "start": 5.16,
+          "end": 11.29
+        },
+        {
+          "text": "Akşam olur, melatonin \"haydi uyku\" der",
+          "start": 11.29,
+          "end": 17.03
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 17.03,
+      "end": 29.06,
+      "lines": [
+        {
+          "text": "Uyu, büyü, öğren, güçlen!",
+          "start": 17.18,
+          "end": 20.31
+        },
+        {
+          "text": "Uyku senin süper gücün!",
+          "start": 20.31,
+          "end": 23.43
+        },
+        {
+          "text": "Uyu, büyü, öğren, güçlen!",
+          "start": 23.43,
+          "end": 26.56
+        },
+        {
+          "text": "Her gece yeniden!",
+          "start": 26.56,
+          "end": 29.06
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 29.06,
+      "end": 45.09,
+      "lines": [
+        {
+          "text": "Rüyalar REM'de gelir, gözler hızlı hızlı",
+          "start": 29.21,
+          "end": 32.99
+        },
+        {
+          "text": "Öğrendiğin her şey hafızana yazılı",
+          "start": 32.99,
+          "end": 36.77
+        },
+        {
+          "text": "Sen uyurken vücudun büyümeye çalışır",
+          "start": 36.77,
+          "end": 40.8
+        },
+        {
+          "text": "Bağışıklık hücrelerin gece boyu çalışır",
+          "start": 40.8,
+          "end": 45.09
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 45.09,
+      "end": 59.12,
+      "lines": [
+        {
+          "text": "Uyu, büyü, öğren, güçlen!",
+          "start": 45.24,
+          "end": 48.54
+        },
+        {
+          "text": "Uyku senin süper gücün!",
+          "start": 48.54,
+          "end": 51.85
+        },
+        {
+          "text": "Ekranı kapat, aynı saatte yat",
+          "start": 51.85,
+          "end": 56.14
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 56.14,
+          "end": 59.12
+        }
+      ]
+    }
+  ]
+}

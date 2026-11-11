@@ -39,6 +39,10 @@ export const validatePlan = (plan: ScenePlan, script: Script, facts: Facts): Rep
     const summary = script.sections.find((x) => x.id === "summary")!.lines.map((l) => l.id);
     if (last.lineIds.join() !== summary.join()) errors.push("outro sahnesi summary bölümünün tüm satırlarını (ve yalnızca onları) kapsamalı");
   }
+  const songScenes = plan.scenes.filter((s) => s.visual.type === "song");
+  if (script.song && songScenes.length !== 1) errors.push("Senaryoda şarkı var: sahne planında tam bir tane \"song\" sahnesi olmalı (kapanıştan hemen önce)");
+  if (!script.song && songScenes.length) errors.push("Sahne planında şarkı sahnesi var ama senaryoda şarkı yok");
+  if (songScenes.length && plan.scenes[plan.scenes.length - 2]?.visual.type !== "song") errors.push("Şarkı sahnesi kapanıştan (outro) hemen önce gelmeli");
   if (!plan.scenes.some((s) => s.visual.type === "source-card")) errors.push("Künye için source-card sahnesi yok");
   const types = new Set(plan.scenes.map((s) => s.visual.type));
   if (types.size < 5) warnings.push(`Yalnızca ${types.size} farklı sahne tipi kullanılmış`);

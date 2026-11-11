@@ -16,7 +16,8 @@
     "voice": "tsx pipeline/voice/cli.ts",
     "render": "tsx pipeline/render/cli.ts",
     "frames": "tsx pipeline/render/frames.ts",
-    "studio": "remotion studio video/index.ts"
+    "studio": "remotion studio video/index.ts",
+    "song": "tsx pipeline/song/cli.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",

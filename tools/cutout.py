@@ -11,7 +11,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 
-def cutout(im, waist, thresh=14, floor=None):
+def cutout(im, waist, thresh=14, floor=None, seeds=(), softboxes=()):
     """RGB görsel → RGBA (aynı boyut). waist: belin y koordinatı."""
     w, h = im.size
     px = np.asarray(im.convert("RGB")).astype(np.float32)
@@ -30,8 +30,8 @@ def cutout(im, waist, thresh=14, floor=None):
     flood = Image.fromarray(np.where(dist < thresh, 0, 255).astype(np.uint8), "L").copy()  # fromarray salt-okunur bellek paylaşır; taşırma için kopya şart
     # Tohumlar kenardan birkaç piksel içeride ve sık: video karelerinde en dış piksel sırası bozuk olabilir.
     m = 6
-    seeds = [(x, y) for x in range(m, w - m, 24) for y in (m, h - 1 - m)] + [(x, y) for x in (m, w - 1 - m) for y in range(m, h - m, 24)]
-    for seed in seeds:
+    seeds_ = [(x, y) for x in range(m, w - m, 24) for y in (m, h - 1 - m)] + [(x, y) for x in (m, w - 1 - m) for y in range(m, h - m, 24)]
+    for seed in list(seeds_) + list(seeds):  # ek tohumlar: kol ile gövde arasında kalan kapalı zemin adaları
         if flood.getpixel(seed) == 0:
             ImageDraw.floodfill(flood, seed, 128)
     hard = (np.asarray(flood) != 128).astype(np.float32)  # 1 = karakter
@@ -44,6 +44,9 @@ def cutout(im, waist, thresh=14, floor=None):
     # 3) Belin üstünde sert, altında yumuşak; arada 70 px geçiş
     yy = np.arange(h, dtype=np.float32)[:, None]
     k = np.clip((yy - waist) / 70, 0, 1)
+    for x0, y0, x1, y1 in softboxes:  # parlama gibi yumuşak kenarlı bölgeler (anten yıldızı) belin üstünde de yumuşak alınır
+        k = k.repeat(w, axis=1) if k.shape[1] == 1 else k
+        k[y0:y1, x0:x1] = 1
     alpha = hard * (1 - k) + np.minimum(hard, soft) * k
     if floor:
         alpha = alpha * np.clip((floor - yy) / 30, 0, 1)
@@ -60,11 +63,13 @@ if __name__ == "__main__":
     ap.add_argument("--waist", type=int, required=True, help="belin y koordinatı (kırpmadan sonra)")
     ap.add_argument("--crop"); ap.add_argument("--thresh", type=int, default=14)
     ap.add_argument("--floor", type=int, help="bu y'nin altı tamamen silinir (zemin gölgesi)")
+    ap.add_argument("--seed", action="append", default=[], help="ek taşırma tohumu x,y (kapalı zemin adaları için)")
+    ap.add_argument("--softbox", action="append", default=[], help="yumuşak alfa bölgesi x0,y0,x1,y1")
     a = ap.parse_args()
     im = Image.open(a.src).convert("RGB")
     if a.crop:
         im = im.crop(tuple(int(v) for v in a.crop.split(",")))
-    res = cutout(im, a.waist, a.thresh, a.floor)
+    res = cutout(im, a.waist, a.thresh, a.floor, [tuple(int(v) for v in x.split(",")) for x in a.seed], [tuple(int(v) for v in x.split(",")) for x in a.softbox])
     bbox = res.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox()
     res.crop(bbox).save(a.dst)
     print(a.dst, res.crop(bbox).size, "bbox", bbox)

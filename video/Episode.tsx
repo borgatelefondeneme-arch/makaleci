@@ -16,6 +16,7 @@ import { Diagram } from "./scenes/Diagram";
 import { Hook } from "./scenes/Hook";
 import { Intro } from "./scenes/Intro";
 import { Outro } from "./scenes/Outro";
+import { Song } from "./scenes/Song";
 import { SourceCard } from "./scenes/SourceCard";
 import { clamp } from "./anim";
 import { XFADE } from "./theme";
@@ -25,7 +26,7 @@ ensureFonts();
 // Sahne tipi → bileşen. Yeni tip eklemek: şemaya ekle, buraya kaydet.
 const REGISTRY: { [K in Scene["visual"]["type"]]: React.FC<SceneProps<K>> } = {
   "hook": Hook, "source-card": SourceCard, "big-number": BigNumber, "bar-chart": BarChart, "line-chart": LineChart,
-  "comparison": Comparison, "diagram": Diagram, "analogy": Analogy, "quote-card": QuoteCard, "bullets": Bullets, "outro": Outro,
+  "comparison": Comparison, "diagram": Diagram, "analogy": Analogy, "quote-card": QuoteCard, "bullets": Bullets, "song": Song, "outro": Outro,
 };
 
 // Yumuşak geçiş: sahne XFADE kare boyunca bir sonrakiyle bindirilir.
@@ -45,11 +46,13 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   const lineById = new Map(script.sections.flatMap((s) => s.lines).map((l) => [l.id, l]));
   const f = useCurrentFrame();
 
-  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "talk", x: 0.16, y: 0.5, scale: 1.45 } }];
+  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "talk", x: 0.16, y: 0.5, scale: 1.45, pose: "wave" } }];
   const captions: CaptionCue[] = [];
   plan.scenes.forEach((sc, i) => {
     const v = voice.scenes[i];
-    cues.push({ startFrame: v.startFrame, cue: sc.mascot });
+    // Poz verilmemişse sahne tipine göre: kaynak kartında kitap okur, kapanışta başparmak kaldırır.
+    const auto = sc.visual.type === "source-card" ? "book" : sc.visual.type === "outro" ? "thumbs" : undefined;
+    cues.push({ startFrame: v.startFrame, cue: { ...sc.mascot, pose: sc.mascot.pose ?? auto } });
     sc.lineIds.forEach((id, k) => {
       const text = lineById.get(id)!.display;
       const s = v.startFrame + v.lineStartFrames[k], e = v.startFrame + v.lineEndFrames[k];
@@ -65,7 +68,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   for (const b of voice.bumpers) captions.push({ start: b.startFrame, end: b.endFrame, text: b.text });
   const lastV = voice.scenes[voice.scenes.length - 1];
   const tailStart = lastV.startFrame + lastV.durationFrames - voice.outroTailFrames;
-  cues.push({ startFrame: tailStart, cue: { state: "point", x: 0.14, y: 0.5, scale: 1.4, pointAt: { x: 0.45, y: 0.52 } } });
+  cues.push({ startFrame: tailStart, cue: { state: "talk", x: 0.14, y: 0.5, scale: 1.4, pose: "wave" } });
 
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);
@@ -93,7 +96,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />
         </Sequence>
-        <MascotLayer cues={cues} amplitude={voice.amplitude} total={voice.totalFrames} />
+        <MascotLayer cues={cues} amplitude={voice.amplitude} total={voice.totalFrames} dance={voice.song ? { start: voice.song.startFrame, end: voice.song.endFrame } : undefined} />
         <Caption cues={captions} />
       </AbsoluteFill>
     </AbsoluteFill>

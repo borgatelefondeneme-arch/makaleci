@@ -2,7 +2,11 @@
 // Sahne süreleri sesten türetilir; kelime damgaları satır vuruşlarını ve mascot ağzını sürer.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ScenePlan, Script, Voice } from "../../schemas/index.ts";
+import { existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
+import { ScenePlan, Script, Song, Voice } from "../../schemas/index.ts";
 import { episodeDirArg, fail, loadEnv, P, readJson, syllables, words as split, writeJson } from "../lib/io.ts";
 import { elevenlabs } from "./providers/elevenlabs.ts";
 import { mock } from "./providers/mock.ts";
@@ -28,10 +32,28 @@ const key = process.env.ELEVENLABS_API_KEY, voiceId = process.env.ELEVENLABS_VOI
 const useReal = Boolean(key && voiceId) && !flags.mock;
 if (key && !voiceId && !flags.mock) console.log("⚠ ELEVENLABS_API_KEY var ama ELEVENLABS_VOICE_ID yok → mock ses kullanılıyor");
 // Öncelik: ElevenLabs → yerel Piper → mock (sessiz).
-const provider = useReal ? elevenlabs(key!, voiceId!, process.env.ELEVENLABS_MODEL || "eleven_multilingual_v2") : piperAvailable() && !flags.mock ? piper() : mock;
+const provider = useReal ? elevenlabs(key!, voiceId!, process.env.ELEVENLABS_MODEL || "eleven_v4" /* kullanıcı kararı: her videoda v4 */) : piperAvailable() && !flags.mock ? piper() : mock;
 const LINE_GAP = 0.38; // satır satır sentezde cümle arası boşluk (sn)
 console.log(`ses sağlayıcı: ${provider.name}`);
 
+// Ücretli sağlayıcıda aynı metin yeniden sentezlenmez (.cache/tts): senaryo düzeltmeleri kota harcamasın.
+if (provider.name === "elevenlabs") {
+  const raw = provider.synthesize.bind(provider);
+  provider.synthesize = async (text, prev) => {
+    const model = process.env.ELEVENLABS_MODEL || "eleven_v4" /* kullanıcı kararı: her videoda v4 */;
+    const file = join(".cache", "tts", createHash("sha1").update(`${voiceId}|${model}|${text}`).digest("hex") + ".json");
+    if (existsSync(file)) { const c = JSON.parse(readFileSync(file, "utf8")); const b = Buffer.from(c.pcm, "base64"); return { pcm: new Int16Array(b.buffer, b.byteOffset, b.byteLength / 2).slice(), words: c.words }; }
+    const r = await raw(text, prev);
+    mkdirSync(join(".cache", "tts"), { recursive: true });
+    writeFileSync(file, JSON.stringify({ pcm: Buffer.from(r.pcm.buffer, r.pcm.byteOffset, r.pcm.byteLength).toString("base64"), words: r.words }));
+    return r;
+  };
+}
+// Kapanış şarkısı (song aşamasının çıktısı varsa): ağız hareketi için tek kanala indirilmiş kopyası okunur.
+const song = existsSync(p.song) ? readJson(p.song, Song) : null;
+const SONG_GAP = 14; // anlatım ile şarkı arasındaki boşluk (kare)
+let songPcm: Int16Array | null = null, songAt = 0, songScene = "";
+if (song) { const b = execFileSync("ffmpeg", ["-loglevel", "error", "-i", join(dir, song.audioFile), "-ar", String(SAMPLE_RATE), "-ac", "1", "-f", "s16le", "-"], { maxBuffer: 1 << 28 }); songPcm = new Int16Array(b.buffer, b.byteOffset, Math.floor(b.byteLength / 2)).slice(); }
 const scenes: Voice["scenes"] = [];
 const allWords: Voice["words"] = [];
 const clips: { atFrame: number; pcm: Int16Array }[] = [];
@@ -80,7 +102,11 @@ for (const [i, sc] of plan.scenes.entries()) {
     acc += c;
   });
   const last = i === plan.scenes.length - 1;
-  const durationFrames = Math.max(60, LEAD + Math.ceil(audioSec * FPS) + TAIL) + (last ? OUTRO_TAIL : 0);
+  const isSong = sc.visual.type === "song";
+  if (isSong && !song) fail(`${sc.id}: şarkı sahnesi var ama 05_song.json yok (önce: npm run song -- ${dir})`);
+  const songFrames = isSong ? SONG_GAP + Math.ceil(song!.durationSec * FPS) + 10 : 0;
+  if (isSong) { songAt = cursor + LEAD + Math.ceil(audioSec * FPS) + SONG_GAP; songScene = sc.id; }
+  const durationFrames = Math.max(60, LEAD + Math.ceil(audioSec * FPS) + TAIL) + songFrames + (last ? OUTRO_TAIL : 0);
   scenes.push({ sceneId: sc.id, startFrame: cursor, durationFrames, audioStartFrame: LEAD, lineStartFrames: lineStart, lineEndFrames: lineEnd });
   const offset = (cursor + LEAD) / FPS;
   for (const w of words) allWords.push({ text: w.text, start: +(w.start + offset).toFixed(3), end: +(w.end + offset).toFixed(3) });
@@ -122,6 +148,13 @@ if (provider.name === "mock") {
   const rms = amplitude.map((_, f) => { let s = 0; for (let k = Math.floor(f * spf); k < Math.floor((f + 1) * spf) && k < track.length; k++) s += track[k] * track[k]; return Math.sqrt(s / spf); });
   const ref = [...rms].sort((a, b) => a - b)[Math.floor(rms.length * 0.95)] || 1;
   rms.forEach((v, f) => { amplitude[f] = +Math.min(1, v / ref).toFixed(3); });
+  // Şarkı sırasında ağız şarkının genliğini izler (anlatım izinden bağımsız ölçeklenir).
+  if (songPcm) {
+    const n = Math.ceil((songPcm.length / SAMPLE_RATE) * FPS);
+    const sr = Array.from({ length: n }, (_, f) => { let s = 0; for (let k = Math.floor(f * spf); k < Math.floor((f + 1) * spf) && k < songPcm!.length; k++) s += songPcm![k] * songPcm![k]; return Math.sqrt(s / spf); });
+    const sref = [...sr].sort((a, b) => a - b)[Math.floor(n * 0.9)] || 1;
+    sr.forEach((v, f) => { if (songAt + f < totalFrames) amplitude[songAt + f] = +Math.min(1, (v / sref) * 0.9).toFixed(3); });
+  }
 }
 
 // Abone ol hatırlatması: sürenin ~%60'ına en yakın sahne sınırı (kapanış hariç).
@@ -129,7 +162,10 @@ const target = totalFrames * 0.6;
 const boundary = scenes.slice(1, -1).map((s) => s.startFrame).sort((a, b) => Math.abs(a - target) - Math.abs(b - target))[0] ?? Math.round(target);
 const reminder = { startFrame: boundary + 24, durationFrames: REMINDER, atPercent: +(((boundary + 24) / totalFrames) * 100).toFixed(1) };
 
-const voice: Voice = { provider: provider.name, fps: FPS, introFrames: INTRO, outroTailFrames: OUTRO_TAIL, totalFrames, durationSec: +durationSec.toFixed(2), wordCount, audioFile: "audio/narration.wav", scenes, words: allWords, amplitude, reminder, bumpers };
+const voice: Voice = { provider: provider.name, fps: FPS, introFrames: INTRO, outroTailFrames: OUTRO_TAIL, totalFrames, durationSec: +durationSec.toFixed(2), wordCount, audioFile: "audio/narration.wav", scenes, words: allWords, amplitude, reminder, bumpers,
+  ...(song ? { song: { sceneId: songScene, audioFile: song.audioFile, title: song.title, cast: script.song?.cast ?? [], startFrame: songAt, endFrame: songAt + Math.ceil(song.durationSec * FPS),
+    sections: song.sections.map((s) => ({ label: s.label, startFrame: songAt + Math.round(s.start * FPS), endFrame: songAt + Math.round(s.end * FPS), lines: s.lines.map((l) => ({ text: l.text, startFrame: songAt + Math.round(l.start * FPS), endFrame: songAt + Math.round(l.end * FPS) })) })) } } : {}) };
+if (song && !songScene) fail("05_song.json var ama sahne planında \"song\" tipinde sahne yok.");
 writeJson(p.voice, Voice, voice);
 
 const mmss = (s: number) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;

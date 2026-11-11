@@ -170,6 +170,115 @@
         ],
         "additionalProperties": false
       }
+    },
+    "song": {
+      "type": "object",
+      "properties": {
+        "sceneId": {
+          "type": "string"
+        },
+        "audioFile": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "cast": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "emoji": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "emoji",
+              "name"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "startFrame": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "endFrame": {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "startFrame": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "endFrame": {
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string"
+                    },
+                    "startFrame": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    },
+                    "endFrame": {
+                      "type": "integer",
+                      "minimum": -9007199254740991,
+                      "maximum": 9007199254740991
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "startFrame",
+                    "endFrame"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "label",
+              "startFrame",
+              "endFrame",
+              "lines"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "sceneId",
+        "audioFile",
+        "title",
+        "cast",
+        "startFrame",
+        "endFrame",
+        "sections"
+      ],
+      "additionalProperties": false
     }
   },
   "required": [

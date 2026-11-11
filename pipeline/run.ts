@@ -1,7 +1,7 @@
 // Orkestratör: aşamaları sırayla, ayrı süreçler olarak çalıştırır.
 //   npm run episode -- --url <makale linki>          (tek makale, doğrudan onaylı)
 //   npm run episode -- --episode episodes/<id>       (kuyruktan onaylanmış bölüm)
-//   bayraklar: --from script|sceneplan|voice|render  --force  --allow-duration  --no-video  --mock
+//   bayraklar: --from script|sceneplan|song|voice|render  --force  --allow-duration  --no-video  --mock
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdtempSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -38,6 +38,7 @@ const p = P(dir!);
 const stages = [
   { name: "script", file: "pipeline/script/cli.ts", done: p.script, args: [] as string[] },
   { name: "sceneplan", file: "pipeline/sceneplan/cli.ts", done: p.scenes, args: [] },
+  { name: "song", file: "pipeline/song/cli.ts", done: p.song, args: flags.mock ? ["--mock"] : [] }, // senaryoda şarkı yoksa kendiliğinden atlar
   { name: "voice", file: "pipeline/voice/cli.ts", done: p.voice, args: [...(flags["allow-duration"] ? ["--allow-duration"] : []), ...(flags.mock ? ["--mock"] : [])] },
   { name: "render", file: "pipeline/render/cli.ts", done: join(p.out, "video.mp4"), args: flags["no-video"] ? ["--no-video"] : [] },
 ];

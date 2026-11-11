@@ -6,11 +6,16 @@ import { C } from "../theme";
 // Görseller public/robot/ altında; tools/cutout.py ile saydam zeminli kesildi.
 // Pozlar hazır görsel olduğu için kollar yeniden çizilmez; canlılık süzülme, kuyruk salınımı,
 // ağız (ses genliği), anten yıldızı ve poz geçişleriyle sağlanır.
-export type Pose = "point" | "crossed";
+export type Pose = "point" | "crossed" | "fly" | "thumbs" | "book" | "wave";
 type Sprite = { src: string; w: number; h: number; waist: number; mouth: { x: number; y: number; w: number; rot: number; depth: number }; star: { x: number; y: number } };
 export const SPRITES: Record<Pose, Sprite> = {
   point: { src: "robot/point.png", w: 799, h: 1522, waist: 930, mouth: { x: 366, y: 341, w: 37, rot: 0, depth: 30 }, star: { x: 616, y: 147 } },
   crossed: { src: "robot/crossed.png", w: 543, h: 1041, waist: 585, mouth: { x: 254, y: 174, w: 30, rot: -7, depth: 22 }, star: { x: 434, y: 100 } },
+  // Kullanıcının ikinci grup videolarından: kollar açık uçuş, başparmak, kitap okuma, el sallama.
+  fly: { src: "robot/fly.png", w: 673, h: 896, waist: 412, mouth: { x: 339, y: 156, w: 0, rot: 0, depth: 0 }, star: { x: 439, y: 61 } },
+  thumbs: { src: "robot/thumbs.png", w: 499, h: 878, waist: 428, mouth: { x: 212, y: 177, w: 15, rot: 0, depth: 13 }, star: { x: 324, y: 69 } },
+  book: { src: "robot/book.png", w: 465, h: 919, waist: 551, mouth: { x: 206, y: 240, w: 17, rot: 0, depth: 14 }, star: { x: 340, y: 70 } },
+  wave: { src: "robot/wave.png", w: 475, h: 908, waist: 508, mouth: { x: 230, y: 200, w: 30, rot: 0, depth: 18 }, star: { x: 350, y: 50 } },
 };
 export const ASPECT = 0.56; // kapsayıcı genişlik / yükseklik
 
@@ -47,7 +52,7 @@ const Layer: React.FC<{ pose: Pose; frame: number; mouth: number; opacity: numbe
         <circle cx={s.star.x} cy={s.star.y} r={34 + glow * 16} fill="#FFE9A8" opacity={0.16 + glow * 0.14} />
         <circle cx={s.star.x} cy={s.star.y} r={16 + glow * 6} fill="#FFF6D6" opacity={0.25 + glow * 0.2} />
         {/* ağız: konuşurken mevcut gülüşün üstüne açılır */}
-        {open > 0 && (
+        {open > 0 && m.w > 0 && (
           <g transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`}>
             <path d={`M ${-m.w} 0 Q 0 ${m.w * 0.16} ${m.w} 0 Q ${m.w * 0.5} ${d * 1.35} 0 ${d * 1.4} Q ${-m.w * 0.5} ${d * 1.35} ${-m.w} 0 Z`} fill="#4A3B42" stroke="#C9CCD8" strokeWidth={2.5} strokeLinejoin="round" />
             <ellipse cx={0} cy={d * 0.95} rx={m.w * 0.45} ry={d * 0.32} fill="#FF9E6B" opacity={0.75} />

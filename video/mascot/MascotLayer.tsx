@@ -9,14 +9,14 @@ export type CueAt = { startFrame: number; cue: MascotCue };
 const BASE = 540; // scale=1 iken yükseklik (px)
 const mix = (a: number, b: number, t: number) => a + (b - a) * t;
 // Durum → poz: konuşma ve işaret "parmak havada + açık el", bekleme ve düşünme "kollar kavuşuk".
-const poseOf = (c: MascotCue): Pose => (c.state === "talk" || c.state === "point" ? "point" : "crossed");
+const poseOf = (c: MascotCue): Pose => c.pose ?? (c.state === "talk" || c.state === "point" ? "point" : "crossed");
 // Açık el içeriğe baksın: hedef (ya da ekran ortası) soldaysa görsel çevrilir.
 const flipOf = (c: MascotCue) => (c.pointAt ? c.pointAt.x < c.x : c.x > 0.5);
 
 // Bölüm düzeyinde tek karakter: sahne değişince konum/ölçek yaylı geçişle akar, poz çapraz geçer.
 const FLY_IN = 42, FLY_OUT = 60; // voice aşamasındaki sabitlerle aynı
 // Açılışta ekranın sol üstünden süzülerek gelir, kapanışta sağ üste doğru uçup gider.
-export const MascotLayer: React.FC<{ cues: CueAt[]; amplitude: number[]; total: number }> = ({ cues, amplitude, total }) => {
+export const MascotLayer: React.FC<{ cues: CueAt[]; amplitude: number[]; total: number; dance?: { start: number; end: number } }> = ({ cues, amplitude, total, dance }) => {
   const f = useCurrentFrame();
   let i = 0;
   for (let k = 0; k < cues.length; k++) if (cues[k].startFrame <= f) i = k;
@@ -47,17 +47,26 @@ export const MascotLayer: React.FC<{ cues: CueAt[]; amplitude: number[]; total: 
     return { ti, to, x: (1 - ti) * -(left + width + 80) + to * (W - left + 120), y: (1 - ti) * -(top + 60) * 0.7 - Math.sin(Math.min(1, ti) * Math.PI) * 60 + to * -(top + size * 0.6) };
   };
   const fly = path(f);
+  // Şarkı sırasında dans: vuruşla zıplar ve sağa sola sallanır (120 BPM ≈ 15 kare/vuruş).
+  // Şarkı sırasında Muma sahneden çekilir (şarkıda konuya özel karakterler dans eder), şarkı bitince geri gelir.
+  const dn = dance ? interpolate(f, [dance.start - 26, dance.start - 8, dance.end - 2, dance.end + 14], [0, 1, 1, 0], clamp) : 0;
+  const dy = dn * -260, drot = dn * 14;
   const fscale = (0.55 + 0.45 * Math.min(1, fly.ti)) * (1 - 0.45 * fly.to);
   const frot = (1 - Math.min(1, fly.ti)) * 22 + fly.to * 26; // uçuş yönüne yatma
   const flying = f < FLY_IN + 6 || f > total - FLY_OUT - 12;
+  // Uçarken "kollar açık" pozu; inişte sahnenin pozuna, kalkışta yeniden uçuş pozuna çapraz geçer.
+  const outAt = total - FLY_OUT - 12;
+  let pose = poseOf(cur), prevPose = poseOf(prev), pblend = blend;
+  if (f < FLY_IN + 8) { prevPose = "fly"; pose = poseOf(cues[0].cue); pblend = interpolate(f, [FLY_IN - 10, FLY_IN + 6], [0, 1], clamp); }
+  else if (f > outAt - 10) { prevPose = poseOf(cur); pose = "fly"; pblend = interpolate(f, [outAt - 10, outAt + 4], [0, 1], clamp); }
   const trail = flying ? [1, 2, 3, 4, 5].map((k) => ({ ...path(f - k * 3.2), k })) : [];
   return (
     <>
       {trail.map((p) => (
         <div key={p.k} style={{ position: "absolute", left: left + width / 2 + p.x - 14 + Math.sin(f / 3 + p.k) * 18, top: top + size * 0.72 + p.y + Math.cos(f / 4 + p.k * 2) * 14, width: 28 - p.k * 3, height: 28 - p.k * 3, borderRadius: "50%", background: p.k % 2 ? "#FFE9A8" : "#BFD4FF", opacity: (0.55 - p.k * 0.09) * (f < FLY_IN + 6 ? 1 - fly.ti * 0.6 : 1) }} />
       ))}
-      <div style={{ position: "absolute", left: left + fly.x, top: top - hop + fly.y, width, height: size, transform: `rotate(${frot}deg) scale(${fscale})`, transformOrigin: "50% 40%" }}>
-        <Mascot frame={f} mouth={mouth} pose={poseOf(cur)} prevPose={poseOf(prev)} blend={blend} flip={blend < 0.5 && i > 0 ? pflip : flip} think={think} lean={lean} size={size} />
+      <div style={{ position: "absolute", left: left + fly.x, top: top - hop + fly.y + dy, width, height: size, transform: `rotate(${frot + drot}deg) scale(${fscale * (1 - 0.6 * dn)})`, transformOrigin: "50% 40%", opacity: 1 - dn }}>
+        <Mascot frame={f} mouth={mouth} pose={pose} prevPose={prevPose} blend={pblend} flip={blend < 0.5 && i > 0 ? pflip : flip} think={think} lean={lean} size={size} />
       </div>
     </>
   );

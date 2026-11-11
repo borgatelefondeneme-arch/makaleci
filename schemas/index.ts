@@ -90,7 +90,24 @@ export const Script = z.object({
   sections: z.array(z.object({ id: SectionId, lines: z.array(Line) })),
   takeaways: z.array(z.string()).length(3),
   nextTeaser: z.string(),
+  // Kapanış şarkısı (isteğe bağlı): sözler yalnızca bölümün olgularına dayanır.
+  song: z.object({
+    title: z.string(),
+    style: z.array(z.string()).min(1), // İngilizce tarz tarifleri; sanatçı/eser adı içeremez
+    negativeStyle: z.array(z.string()).default([]),
+    // Şarkıda dans eden, konuya özel karakterler (emoji). Muma şarkı sahnesinde görünmez.
+    cast: z.array(z.object({ emoji: z.string(), name: z.string() })).min(2).max(6),
+    sections: z.array(z.object({
+      tag: z.string(), // müzik modeline giden bölüm adı: "Intro", "Verse 1", "Chorus" ...
+      label: z.string(), // ekranda görünen Türkçe ad: "Nakarat" ...
+      direction: z.string().optional(), // çalgı yönergesi (İngilizce), ör. "snare drum roll"
+      lines: z.array(z.string()).min(1),
+      durationMs: z.number().int().min(3000).max(120000),
+    })).min(1).max(30),
+  }).optional(),
   description: z.string(), // yayin.md için kısa açıklama
+  // Videoda geçen, çocukların bilmeyebileceği kelimeler; yayin.md'deki "Sözlük" bölümüne yazılır.
+  glossary: z.array(z.object({ term: z.string(), meaning: z.string() })).default([]),
 });
 export type Script = z.infer<typeof Script>;
 
@@ -117,6 +134,7 @@ export const Visual = z.discriminatedUnion("type", [
   }),
   z.object({ type: z.literal("quote-card"), quote: z.string(), attribution: z.string() }),
   z.object({ type: z.literal("bullets"), title: z.string(), items: z.array(z.string()).min(1).max(4), tone: z.enum(["neutral", "caution"]).optional() }),
+  z.object({ type: z.literal("song") }), // kapanış şarkısı: sözler ve zamanlama 05_song.json'dan gelir
   z.object({ type: z.literal("outro") }),
 ]);
 export type Visual = z.infer<typeof Visual>;
@@ -129,6 +147,8 @@ export const MascotCue = z.object({
   scale: z.number().min(0.3).max(2.5),
   // point durumunda işaret edilen ekran noktası (oran)
   pointAt: z.object({ x: z.number(), y: z.number() }).optional(),
+  // Poz seçimi (isteğe bağlı). Verilmezse durumdan türetilir: talk/point → point, idle/think → crossed.
+  pose: z.enum(["point", "crossed", "thumbs", "book", "wave"]).optional(),
 });
 export type MascotCue = z.infer<typeof MascotCue>;
 
@@ -144,6 +164,19 @@ export const Scene = z.object({
 export type Scene = z.infer<typeof Scene>;
 export const ScenePlan = z.object({ paperId: z.string(), scenes: z.array(Scene) });
 export type ScenePlan = z.infer<typeof ScenePlan>;
+
+// ---------- 05_song.json ----------
+const SongLine = z.object({ text: z.string(), start: z.number(), end: z.number() }); // saniye, şarkı başına göre
+export const Song = z.object({
+  provider: z.enum(["mock", "elevenlabs"]),
+  model: z.string().nullable(),
+  audioFile: z.string(), // bölüm klasörüne göre
+  durationSec: z.number(),
+  title: z.string(),
+  // Satır zamanları bölüm sürelerinden oransal hesaplanır (yaklaşık eşleme).
+  sections: z.array(z.object({ label: z.string(), start: z.number(), end: z.number(), lines: z.array(SongLine) })),
+});
+export type Song = z.infer<typeof Song>;
 
 // ---------- 05_voice.json ----------
 export const Word = z.object({ text: z.string(), start: z.number(), end: z.number() });
@@ -170,6 +203,13 @@ export const Voice = z.object({
   reminder: z.object({ startFrame: z.number().int(), durationFrames: z.number().int(), atPercent: z.number() }),
   // Sabit açılış/kapanış cümleleri ("MuMa Library'ye hoş geldin!" / "…görüşürüz!"): bölüm zaman çizelgesinde kare aralığı.
   bumpers: z.array(z.object({ startFrame: z.number().int(), endFrame: z.number().int(), text: z.string() })).default([]),
+  // Kapanış şarkısı: bölüm zaman çizelgesinde kare cinsinden. Ses ayrı dosyadır, render'da karıştırılır.
+  song: z.object({
+    sceneId: z.string(), audioFile: z.string(), title: z.string(),
+    cast: z.array(z.object({ emoji: z.string(), name: z.string() })).default([]),
+    startFrame: z.number().int(), endFrame: z.number().int(),
+    sections: z.array(z.object({ label: z.string(), startFrame: z.number().int(), endFrame: z.number().int(), lines: z.array(z.object({ text: z.string(), startFrame: z.number().int(), endFrame: z.number().int() })) })),
+  }).optional(),
 });
 export type Voice = z.infer<typeof Voice>;
 

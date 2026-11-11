@@ -82,8 +82,117 @@
     "nextTeaser": {
       "type": "string"
     },
+    "song": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "style": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "negativeStyle": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cast": {
+          "minItems": 2,
+          "maxItems": 6,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "emoji": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "emoji",
+              "name"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sections": {
+          "minItems": 1,
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tag": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "direction": {
+                "type": "string"
+              },
+              "lines": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "durationMs": {
+                "type": "integer",
+                "minimum": 3000,
+                "maximum": 120000
+              }
+            },
+            "required": [
+              "tag",
+              "label",
+              "lines",
+              "durationMs"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "title",
+        "style",
+        "negativeStyle",
+        "cast",
+        "sections"
+      ],
+      "additionalProperties": false
+    },
     "description": {
       "type": "string"
+    },
+    "glossary": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "term",
+          "meaning"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
@@ -94,7 +203,8 @@
     "sections",
     "takeaways",
     "nextTeaser",
-    "description"
+    "description",
+    "glossary"
   ],
   "additionalProperties": false
 }

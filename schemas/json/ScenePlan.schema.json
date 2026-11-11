@@ -439,6 +439,19 @@
                 "properties": {
                   "type": {
                     "type": "string",
+                    "const": "song"
+                  }
+                },
+                "required": [
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string",
                     "const": "outro"
                   }
                 },
@@ -491,6 +504,16 @@
                   "y"
                 ],
                 "additionalProperties": false
+              },
+              "pose": {
+                "type": "string",
+                "enum": [
+                  "point",
+                  "crossed",
+                  "thumbs",
+                  "book",
+                  "wave"
+                ]
               }
             },
             "required": [

@@ -37,8 +37,16 @@ if (!flags["no-video"]) {
   });
   // Ses FFmpeg ile eklenir; gerçek seste yayın standardına (−14 LUFS) normalize edilir.
   const final = join(p.out, "video.mp4");
-  const af = props.voice.provider === "mock" ? [] : ["-af", "loudnorm=I=-14:TP=-1.5:LRA=11"];
-  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", silent, "-i", join(dir, props.voice.audioFile), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", ...af, "-shortest", "-movflags", "+faststart", final]);
+  const norm = props.voice.provider === "mock" ? "anull" : "loudnorm=I=-14:TP=-1.5:LRA=11";
+  const sg = props.voice.song;
+  if (sg) {
+    // Şarkı ayrı dosyadan, stereo ve tam kalitede eklenir; anlatımla aynı ses yüksekliğine getirilir.
+    const ms = Math.round((sg.startFrame / props.voice.fps) * 1000);
+    const fc = `[1:a]${norm},aformat=channel_layouts=stereo[v];[2:a]loudnorm=I=-15:TP=-1.5:LRA=11,afade=t=in:d=0.15,adelay=${ms}:all=1[m];[v][m]amix=inputs=2:normalize=0:duration=first[a]`;
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", silent, "-i", join(dir, props.voice.audioFile), "-i", join(dir, sg.audioFile), "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", final]);
+  } else {
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", silent, "-i", join(dir, props.voice.audioFile), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-af", norm, "-shortest", "-movflags", "+faststart", final]);
+  }
   rmSync(silent);
   console.log(`✓ ${final}`);
 }

@@ -70,11 +70,30 @@ export const validateScript = (script: Script, facts: Facts, paper: Paper): Repo
   // 7. Abartı
   for (const l of lines) for (const re of HYPE) if (re.test(l.display) || re.test(l.spoken)) errors.push(`${l.id}: abartılı ifade (${re.source}) → "${l.display}"`);
 
+  // 7b. Şarkı sözleri: sayı ve abartı içeremez; içerik olgulara dayanmalı (insan gözüyle doğrulanır).
+  if (script.song) {
+    const lyr = script.song.sections.flatMap((s) => s.lines);
+    for (const l of lyr) {
+      if (/\d/.test(l)) errors.push(`Şarkı sözünde rakam var (yazıyla yazın ya da çıkarın): "${l}"`);
+      for (const re of HYPE) if (re.test(l)) errors.push(`Şarkı sözünde abartılı ifade (${re.source}): "${l}"`);
+      if (l.length > 200) errors.push(`Şarkı dizesi çok uzun (en çok 200 karakter): "${l.slice(0, 40)}…"`);
+    }
+    const ms = script.song.sections.reduce((a, s) => a + s.durationMs, 0);
+    if (ms < 40000 || ms > 80000) warnings.push(`Şarkı ${Math.round(ms / 1000)} sn; hedef yaklaşık 60 sn`);
+    warnings.push(`Şarkı sözleri (${lyr.length} dize) olgu listesine göre elle doğrulanmalı`);
+  }
+
+  // 7c. Sözlük: varsa anlatımda izleyiciye haber verilmeli; terimler senaryoda geçmeli.
+  if (script.glossary.length) {
+    if (!/sözlük/i.test(allDisplay)) errors.push('Sözlük var ama anlatımda "açıklamalarda bir sözlük bırakıyorum" duyurusu yok');
+    for (const g of script.glossary) if (!allDisplay.includes(norm(g.term))) warnings.push(`Sözlükteki "${g.term}" senaryoda geçmiyor`);
+  } else if (topic) warnings.push("Sözlük boş: çocukların bilmeyebileceği kelimeler varsa glossary'ye ekleyin");
+
   // 8. Uzunluk
   const wc = lines.reduce((a, l) => a + words(l.spoken).length, 0);
   const hookWc = (script.sections.find((s) => s.id === "hook")?.lines ?? []).reduce((a, l) => a + words(l.spoken).length, 0);
   // Kelime sayısı yalnızca kaba bir ön kontrol; kesin kararı voice aşamasındaki süre kapısı verir.
-  if (wc < 450 || wc > 980) errors.push(`Seslendirme ${wc} kelime; 5–6 dakika için çok ${wc < 450 ? "kısa" : "uzun"}`);
+  if (wc < (script.song ? 330 : 450) || wc > 980) errors.push(`Seslendirme ${wc} kelime; 5–6 dakika için çok ${wc < 450 ? "kısa" : "uzun"}`);
   else if (!topic && (wc < 720 || wc > 880)) warnings.push(`Seslendirme ${wc} kelime; hedef aralığın (720–880) dışında — süre kapısı voice aşamasında kesin karar verir`);
   if (hookWc < 20 || hookWc > 50) warnings.push(`Hook ${hookWc} kelime; ~15 sn için 30–40 kelime hedeflenir`);
   if (script.videoTitle.length > 70) warnings.push(`Video başlığı uzun (${script.videoTitle.length} karakter)`);

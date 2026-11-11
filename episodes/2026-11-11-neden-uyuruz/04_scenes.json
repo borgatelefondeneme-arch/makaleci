@@ -29,8 +29,7 @@
       "section": "context",
       "lineIds": [
         "l4",
-        "l5",
-        "l6"
+        "l5"
       ],
       "visual": {
         "type": "bullets",
@@ -45,7 +44,8 @@
         "state": "talk",
         "x": 0.87,
         "y": 0.54,
-        "scale": 1.15
+        "scale": 1.15,
+        "pose": "wave"
       },
       "factIds": []
     },
@@ -53,21 +53,17 @@
       "id": "s3",
       "section": "context",
       "lineIds": [
-        "l7",
-        "l8"
+        "l6",
+        "l7"
       ],
       "visual": {
         "type": "source-card"
       },
       "mascot": {
-        "state": "point",
+        "state": "talk",
         "x": 0.88,
         "y": 0.55,
-        "scale": 1,
-        "pointAt": {
-          "x": 0.45,
-          "y": 0.45
-        }
+        "scale": 1
       },
       "factIds": []
     },
@@ -75,8 +71,8 @@
       "id": "s4",
       "section": "method",
       "lineIds": [
-        "l9",
-        "l10"
+        "l8",
+        "l9"
       ],
       "visual": {
         "type": "big-number",
@@ -104,10 +100,10 @@
       "id": "s5",
       "section": "method",
       "lineIds": [
+        "l10",
         "l11",
         "l12",
-        "l13",
-        "l14"
+        "l13"
       ],
       "visual": {
         "type": "diagram",
@@ -147,46 +143,10 @@
     },
     {
       "id": "s6",
-      "section": "method",
-      "lineIds": [
-        "l15"
-      ],
-      "visual": {
-        "type": "comparison",
-        "title": "Akşam mı, sabah mı?",
-        "left": {
-          "title": "🌙 Akşam",
-          "items": [
-            "Melatonin artar",
-            "Uykun gelir"
-          ]
-        },
-        "right": {
-          "title": "☀️ Sabah",
-          "items": [
-            "Kortizol gibi hormonlar salgılanır",
-            "Uyanmana yardım eder"
-          ]
-        }
-      },
-      "mascot": {
-        "state": "think",
-        "x": 0.91,
-        "y": 0.6,
-        "scale": 0.85
-      },
-      "factIds": [
-        "f6"
-      ],
-      "sourceNote": "NIH (NIGMS, NHLBI)"
-    },
-    {
-      "id": "s7",
       "section": "finding",
       "lineIds": [
-        "l16",
-        "l17",
-        "l18"
+        "l14",
+        "l15"
       ],
       "visual": {
         "type": "big-number",
@@ -213,11 +173,11 @@
       "sourceNote": "Nemours KidsHealth"
     },
     {
-      "id": "s8",
+      "id": "s7",
       "section": "finding",
       "lineIds": [
-        "l19",
-        "l20"
+        "l16",
+        "l17"
       ],
       "visual": {
         "type": "quote-card",
@@ -228,7 +188,8 @@
         "state": "talk",
         "x": 0.86,
         "y": 0.54,
-        "scale": 1.15
+        "scale": 1.15,
+        "pose": "book"
       },
       "factIds": [
         "f9",
@@ -237,13 +198,11 @@
       "sourceNote": "Nemours KidsHealth"
     },
     {
-      "id": "s9",
+      "id": "s8",
       "section": "finding",
       "lineIds": [
-        "l21",
-        "l22",
-        "l23",
-        "l24"
+        "l18",
+        "l19"
       ],
       "visual": {
         "type": "comparison",
@@ -259,8 +218,7 @@
           "items": [
             "Gözler hızlı hızlı hareket eder",
             "En canlı rüyalar",
-            "Kollar ve bacaklar hareket etmez",
-            "Öğrenme ve hafıza için önemli"
+            "Kollar ve bacaklar hareket etmez"
           ]
         }
       },
@@ -277,19 +235,16 @@
       "factIds": [
         "f10",
         "f11",
-        "f12",
-        "f13"
+        "f12"
       ],
       "sourceNote": "Nemours KidsHealth"
     },
     {
-      "id": "s10",
+      "id": "s9",
       "section": "finding",
       "lineIds": [
-        "l25",
-        "l26",
-        "l27",
-        "l28"
+        "l20",
+        "l21"
       ],
       "visual": {
         "type": "bullets",
@@ -307,17 +262,17 @@
         "scale": 1.15
       },
       "factIds": [
-        "f1",
+        "f13",
         "f14",
         "f16"
       ],
       "sourceNote": "NIH (NHLBI)"
     },
     {
-      "id": "s11",
+      "id": "s10",
       "section": "finding",
       "lineIds": [
-        "l29"
+        "l22"
       ],
       "visual": {
         "type": "hook",
@@ -336,12 +291,11 @@
       "sourceNote": "Nemours KidsHealth"
     },
     {
-      "id": "s12",
+      "id": "s11",
       "section": "finding",
       "lineIds": [
-        "l30",
-        "l31",
-        "l32"
+        "l23",
+        "l24"
       ],
       "visual": {
         "type": "bar-chart",
@@ -389,14 +343,14 @@
       "sourceNote": "CDC"
     },
     {
-      "id": "s13",
+      "id": "s12",
       "section": "importance",
       "lineIds": [
-        "l33",
-        "l34",
-        "l35",
-        "l36",
-        "l37"
+        "l25",
+        "l26",
+        "l27",
+        "l28",
+        "l29"
       ],
       "visual": {
         "type": "bullets",
@@ -418,42 +372,17 @@
         "f20",
         "f21",
         "f22",
-        "f23",
-        "f24"
+        "f23"
       ],
       "sourceNote": "CDC"
     },
     {
-      "id": "s14",
+      "id": "s13",
       "section": "limitations",
       "lineIds": [
-        "l38"
-      ],
-      "visual": {
-        "type": "quote-card",
-        "quote": "Vücut saatini yalnızca ışık etkilemez. Yemek, hareket ve sıcaklık da etkiler.",
-        "attribution": "Bunu biliyor muydun?"
-      },
-      "mascot": {
-        "state": "think",
-        "x": 0.86,
-        "y": 0.54,
-        "scale": 1.2
-      },
-      "factIds": [
-        "f4"
-      ],
-      "sourceNote": "NIH (NIGMS)"
-    },
-    {
-      "id": "s15",
-      "section": "limitations",
-      "lineIds": [
-        "l39",
-        "l40",
-        "l41",
-        "l42",
-        "l43"
+        "l30",
+        "l31",
+        "l32"
       ],
       "visual": {
         "type": "hook",
@@ -467,20 +396,34 @@
         "scale": 1.45
       },
       "factIds": [
-        "f5",
         "f11"
       ]
     },
     {
-      "id": "s16",
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l33"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.86,
+        "y": 0.52,
+        "scale": 1.3,
+        "pose": "thumbs"
+      },
+      "factIds": []
+    },
+    {
+      "id": "s15",
       "section": "summary",
       "lineIds": [
-        "l44",
-        "l45",
-        "l46",
-        "l47",
-        "l48",
-        "l49"
+        "l34",
+        "l35",
+        "l36"
       ],
       "visual": {
         "type": "outro"
@@ -491,14 +434,7 @@
         "y": 0.54,
         "scale": 1.15
       },
-      "factIds": [
-        "f2",
-        "f5",
-        "f7",
-        "f14",
-        "f15",
-        "f16"
-      ]
+      "factIds": []
     }
   ]
 }
