@@ -2,6 +2,14 @@
 // Not: bu sağlayıcı anahtar olmadan test edilemedi; ilk gerçek çalıştırmada doğrulanmalı.
 import { SAMPLE_RATE, type VoiceProvider } from "./types.ts";
 
+// Kullanıcı kararı: bağırmayan, biraz yavaş anlatım. Ortam değişkenleriyle ayarlanabilir.
+export const VOICE_SETTINGS = {
+  stability: Number(process.env.ELEVENLABS_STABILITY ?? 0.7),
+  similarity_boost: 0.75,
+  style: Number(process.env.ELEVENLABS_STYLE ?? 0),
+  speed: Number(process.env.ELEVENLABS_SPEED ?? 0.92),
+};
+
 type Alignment = { characters: string[]; character_start_times_seconds: number[]; character_end_times_seconds: number[] };
 
 export const elevenlabs = (apiKey: string, voiceId: string, modelId: string): VoiceProvider => ({
@@ -13,7 +21,7 @@ export const elevenlabs = (apiKey: string, voiceId: string, modelId: string): Vo
       const res = await fetch(url, {
         method: "POST",
         headers: { "xi-api-key": apiKey, "content-type": "application/json" },
-        body: JSON.stringify({ text, model_id: modelId, language_code: "tr", previous_text: previousText, voice_settings: { stability: 0.5, similarity_boost: 0.75 } }),
+        body: JSON.stringify({ text, model_id: modelId, language_code: "tr", previous_text: previousText, voice_settings: VOICE_SETTINGS }),
       });
       if (res.ok) {
         const data = (await res.json()) as { audio_base64: string; alignment: Alignment };

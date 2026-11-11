@@ -16,6 +16,8 @@ import { Diagram } from "./scenes/Diagram";
 import { Hook } from "./scenes/Hook";
 import { Intro } from "./scenes/Intro";
 import { Outro } from "./scenes/Outro";
+import { Clock, Meter, Spotlight, Stages } from "./scenes/Motion2";
+import { Keyword, Stickers } from "./components/Motion";
 import { Song } from "./scenes/Song";
 import { SourceCard } from "./scenes/SourceCard";
 import { clamp } from "./anim";
@@ -27,15 +29,21 @@ ensureFonts();
 const REGISTRY: { [K in Scene["visual"]["type"]]: React.FC<SceneProps<K>> } = {
   "hook": Hook, "source-card": SourceCard, "big-number": BigNumber, "bar-chart": BarChart, "line-chart": LineChart,
   "comparison": Comparison, "diagram": Diagram, "analogy": Analogy, "quote-card": QuoteCard, "bullets": Bullets, "song": Song, "outro": Outro,
+  "clock": Clock, "spotlight": Spotlight, "stages": Stages, "meter": Meter,
 };
 
-// Yumuşak geçiş: sahne XFADE kare boyunca bir sonrakiyle bindirilir.
-const SceneShell: React.FC<{ dur: number; last: boolean; children: (frame: number) => React.ReactNode }> = ({ dur, last, children }) => {
+// Sahne kabuğu: geçişler sahneden sahneye değişir (kayma, yükselme, yakınlaşma); sahne boyunca kamera
+// çok yavaş yaklaşır ve kayar, böylece hiçbir kare tamamen durağan kalmaz.
+const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: boolean; children: (frame: number) => React.ReactNode }> = ({ dur, last, index, camera, children }) => {
   const f = useCurrentFrame();
-  const inP = interpolate(f, [5, XFADE + 4], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+  const inP = interpolate(f, [5, XFADE + 6], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const outP = last ? 0 : interpolate(f, [dur - 2, dur + 7], [0, 1], clamp);
+  const kind = index % 4;
+  const enter = kind === 0 ? `translateX(${(1 - inP) * 90}px)` : kind === 1 ? `translateY(${(1 - inP) * 70}px)` : kind === 2 ? `scale(${0.9 + 0.1 * inP})` : `translateX(${(1 - inP) * -90}px) rotate(${(1 - inP) * -1.5}deg)`;
+  const t = Math.min(1, f / Math.max(1, dur));
+  const cam = camera ? `scale(${1 + 0.035 * t}) translate(${(index % 2 ? -1 : 1) * 14 * t}px, ${-8 * t}px)` : "";
   return (
-    <AbsoluteFill style={{ opacity: inP * (1 - outP), transform: `translateX(${(1 - inP) * 70 - outP * 70}px) scale(${1 - outP * 0.03})` }}>
+    <AbsoluteFill style={{ opacity: inP * (1 - outP), transform: `${enter} translateX(${-outP * 70}px) scale(${1 - outP * 0.03}) ${cam}`, transformOrigin: index % 2 ? "30% 45%" : "70% 45%" }}>
       {children(f)}
     </AbsoluteFill>
   );
@@ -77,7 +85,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
       <AbsoluteFill style={{ opacity: fadeOut }}>
         <Background />
         <Sequence durationInFrames={voice.introFrames + XFADE} name="Açılış">
-          <SceneShell dur={voice.introFrames} last={false}>{(fr) => <Intro frame={fr} data={data} />}</SceneShell>
+          <SceneShell dur={voice.introFrames} last={false} index={0} camera={false}>{(fr) => <Intro frame={fr} data={data} />}</SceneShell>
         </Sequence>
         {plan.scenes.map((sc, i) => {
           const v = voice.scenes[i];
@@ -85,8 +93,12 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
           const Comp = REGISTRY[sc.visual.type] as React.FC<SceneProps<any>>;
           return (
             <Sequence key={sc.id} from={v.startFrame} durationInFrames={v.durationFrames + (last ? 0 : XFADE)} name={`${sc.id} · ${sc.visual.type}`}>
-              <SceneShell dur={v.durationFrames} last={last}>
-                {(fr) => <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />}
+              <SceneShell dur={v.durationFrames} last={last} index={i} camera={!last && sc.visual.type !== "song"}>
+                {(fr) => (<>
+                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} /> : null}
+                  <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />
+                  {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} /> : null}
+                </>)}
               </SceneShell>
             </Sequence>
           );

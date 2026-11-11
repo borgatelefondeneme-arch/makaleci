@@ -15,6 +15,15 @@ export const BigNumber: React.FC<SceneProps<"big-number">> = ({ visual, frame, b
   const lp = pop(frame, start + 26);
   return (
     <Stage style={{ justifyContent: "center", alignItems: "flex-start", paddingLeft: 60 }}>
+      <svg width={620} height={620} style={{ position: "absolute", right: 40, top: 60, overflow: "visible" }}>
+        <g transform={`rotate(${frame * 0.8} 310 310)`}>
+          <circle cx={310} cy={310} r={250} fill="none" stroke={C.teal} strokeWidth={10} strokeDasharray="30 26" strokeLinecap="round" opacity={0.5 * p} />
+          {[0, 120, 240].map((a) => <circle key={a} cx={310 + 250 * Math.cos((a * Math.PI) / 180)} cy={310 + 250 * Math.sin((a * Math.PI) / 180)} r={18} fill={[C.yellow, C.purple, C.green][a / 120]} />)}
+        </g>
+        <g transform={`rotate(${-frame * 0.5} 310 310)`}><circle cx={310} cy={310} r={190} fill="none" stroke={C.yellow} strokeWidth={6} strokeDasharray="4 22" strokeLinecap="round" opacity={0.6 * p} /></g>
+        <circle cx={310} cy={310} r={150 + 8 * Math.sin(frame / 8)} fill="#fff" opacity={0.9 * p} />
+      </svg>
+      {visual.icon && <div style={{ position: "absolute", right: 40 + 310 - 95, top: 60 + 310 - 110 - Math.abs(Math.sin(frame / 12)) * 22, fontSize: 190, lineHeight: 1, fontFamily: F.head, transform: `scale(${p}) rotate(${Math.sin(frame / 15) * 8}deg)` }}>{visual.icon}</div>}
       <div style={{ position: "relative", transform: `scale(${0.6 + 0.4 * p})`, opacity: p, transformOrigin: "left center" }}>
         <div style={{ position: "absolute", left: -50, top: "50%", width: 560, height: 560, marginTop: -280, borderRadius: "50%", background: `radial-gradient(closest-side, ${C.purple}, transparent)`, opacity: 0.3 }} />
         <div style={{ position: "relative", display: "flex", alignItems: "baseline", gap: 26 }}>

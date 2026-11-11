@@ -117,7 +117,16 @@ const Item = z.object({ label: z.string(), value: z.number(), display: z.string(
 export const Visual = z.discriminatedUnion("type", [
   z.object({ type: z.literal("hook"), question: z.string(), emoji: z.string().optional() }),
   z.object({ type: z.literal("source-card"), note: z.string().optional() }),
-  z.object({ type: z.literal("big-number"), value: z.string(), unit: z.string().optional(), label: z.string(), sub: z.string().optional() }),
+  z.object({ type: z.literal("big-number"), value: z.string(), unit: z.string().optional(), label: z.string(), sub: z.string().optional(), icon: z.string().optional() }),
+  // --- hareketli anlatım tipleri (her cümlede ekranda bir şey değişir) ---
+  // Gün-gece kadranı: akrep sürekli döner; işaretler cümlelerle belirir. Saat rakamı yazılmaz (konum şematiktir).
+  z.object({ type: z.literal("clock"), title: z.string(), center: z.string(), markers: z.array(z.object({ at: z.number().min(0).max(24), label: z.string(), emoji: z.string().optional() })).max(5), note: z.string().optional() }),
+  // Ortada büyük bir simge, çevresinde cümlelerle beliren etiketler.
+  z.object({ type: z.literal("spotlight"), title: z.string(), emoji: z.string(), chips: z.array(z.object({ label: z.string(), emoji: z.string().optional() })).min(2).max(6) }),
+  // Evre çizgisi (ör. uyku evreleri): satırlar arasında gezen çizgi sahne boyunca çizilir. Şematiktir.
+  z.object({ type: z.literal("stages"), title: z.string(), rows: z.array(z.object({ label: z.string(), emoji: z.string().optional() })).min(2).max(5), path: z.array(z.number().int().min(0)).min(3).max(40), highlightRow: z.number().int().optional(), note: z.string().optional() }),
+  // Dolup boşalan depo: düzey, o an anlatılan aşamaya göre değişir.
+  z.object({ type: z.literal("meter"), title: z.string(), label: z.string(), emoji: z.string().optional(), phases: z.array(z.object({ label: z.string(), level: z.number().min(0).max(1), emoji: z.string().optional() })).min(2).max(5), note: z.string().optional() }),
   z.object({ type: z.literal("bar-chart"), title: z.string(), unit: z.string().optional(), bars: z.array(Item).min(2).max(6) }),
   z.object({ type: z.literal("line-chart"), title: z.string(), xLabel: z.string(), yLabel: z.string(), points: z.array(Item).min(2).max(12) }),
   z.object({
@@ -160,6 +169,10 @@ export const Scene = z.object({
   mascot: MascotCue,
   factIds: z.array(z.string()),
   sourceNote: z.string().optional(), // sahne dipnotu ("Kaynak: Tablo 2")
+  // Sahne kenarlarında süzülen, cümle başlarında zıplayan konu simgeleri (emoji).
+  stickers: z.array(z.string()).max(6).optional(),
+  // Satır başına ekranda büyük beliren anahtar kelime (lineIds ile aynı sırada; yoksa boş dize).
+  keywords: z.array(z.string()).optional(),
 });
 export type Scene = z.infer<typeof Scene>;
 export const ScenePlan = z.object({ paperId: z.string(), scenes: z.array(Scene) });

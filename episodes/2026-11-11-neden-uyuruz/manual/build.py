@@ -159,26 +159,37 @@ sec_of = {l["id"]: s for s, ls in sections for l in ls}
 pos = 0
 scenes = []
 M = {"state": "talk", "x": 0.87, "y": 0.54, "scale": 1.15}  # ara sahnelerde kullanılmaz; yalnızca kapanışta geçerli
-def S(k, visual, extra=()):  # extra: görseldeki sayıların dayandığı ek olgular
+def S(k, visual, stickers=(), keywords=(), extra=()):
+    """k satırlık sahne. stickers: kenarda süzülen simgeler; keywords: satır başına büyük anahtar kelime."""
     global pos
     li = allids[pos:pos + k]; pos += k
-    scenes.append({"id": f"s{len(scenes)+1}", "section": sec_of[li[0]], "lineIds": li, "visual": visual, "mascot": M,
-                   "factIds": sorted({f for i in li for f in by[i]["factIds"]} | {f"f{e}" for e in extra}, key=lambda x: int(x[1:]))})
+    sc = {"id": f"s{len(scenes)+1}", "section": sec_of[li[0]], "lineIds": li, "visual": visual, "mascot": M,
+          "factIds": sorted({f for i in li for f in by[i]["factIds"]} | {f"f{e}" for e in extra}, key=lambda x: int(x[1:]))}
+    if stickers: sc["stickers"] = list(stickers)
+    if keywords: sc["keywords"] = (list(keywords) + [""] * k)[:k]
+    scenes.append(sc)
 
-S(3, {"type": "hook", "question": "Uyurken beynimiz ne yapıyor?", "emoji": "😴"})
-S(3, {"type": "bullets", "title": "Bugünün soruları", "items": ["Vücudumuz uyku vaktini nasıl anlıyor?", "Uyurken beyinde hangi evreler yaşanıyor?", "Bu kadar uyumak neye yarıyor?"]})
-S(2, {"type": "big-number", "value": "24", "unit": "saat", "label": "Sirkadiyen ritmin bir turu", "sub": "Birinci sistem: biyolojik saat"})
-S(3, {"type": "bullets", "title": "Ana saat: SCN", "items": ["Suprakiazmatik çekirdek (SCN)", "Beynin hipotalamus bölgesinde", "Binlerce sinir hücresinden oluşur", "Orkestra şefi gibi ritimleri yönetir"]})
-S(2, {"type": "diagram", "title": "Işıktan melatonine", "layout": "flow", "nodes": [{"label": "Işık göze gelir", "emoji": "☀️"}, {"label": "Beyin: şu an gündüz", "emoji": "🧠"}, {"label": "Güneş batar", "emoji": "🌆"}, {"label": "Melatonin artar", "emoji": "🧪"}, {"label": "Uyku gelir", "emoji": "🥱"}]})
-S(3, {"type": "analogy", "template": "fill", "title": "İkinci sistem: uyku baskısı", "a": {"label": "Sabah: adenozin az", "value": 15}, "b": {"label": "Gece: adenozin çok", "value": 90}, "caption": "Uyanık kaldıkça adenozin birikir; uykuda sıfırlanır. (Çizim ölçekli değildir.)"})
-S(2, {"type": "big-number", "value": "90", "unit": "dakika", "label": "Bir uyku döngüsünün ortalama süresi", "sub": "Bir gecede 4–6 döngü"})
-S(2, {"type": "diagram", "title": "Uykunun dört evresi", "layout": "cycle", "nodes": [{"label": "1. evre (N1)", "emoji": "🌥️"}, {"label": "2. evre (N2)", "emoji": "☁️"}, {"label": "3. evre: derin uyku (N3)", "emoji": "🌊"}, {"label": "REM", "emoji": "💭"}]}, extra=[10])
-S(4, {"type": "comparison", "title": "Derin uyku ve REM", "left": {"title": "🌊 Derin uyku (N3)", "items": ["Vücut toparlanır ve büyür", "Büyüme hormonları salgılanır"]}, "right": {"title": "💭 REM uykusu", "items": ["Gözler hızla hareket eder", "Beyin neredeyse uyanıkkenki kadar etkin", "En canlı rüyalar", "Kaslar geçici olarak felç olur (atoni)"]}}, extra=[11])
-S(3, {"type": "bullets", "title": "Uyumak neye yarıyor?", "items": ["Enerji tasarrufu", "Dokuların büyümesi ve onarılması", "Daha güçlü bağışıklık", "Dikkat ve öğrenme"]})
-S(2, {"type": "bar-chart", "title": "Önerilen günlük uyku (CDC)", "unit": "saat", "bars": [{"label": "6–12 yaş: en az", "value": 9, "display": "9"}, {"label": "6–12 yaş: en çok", "value": 12, "display": "12", "highlight": True}, {"label": "13–17 yaş: en az", "value": 8, "display": "8"}, {"label": "13–17 yaş: en çok", "value": 10, "display": "10", "highlight": True}]})
-S(3, {"type": "bullets", "title": "Deney: bir haftalık uyku günlüğü 🔬", "items": ["Her gün aynı saatte yat ve kalk", "Yatmadan 30 dakika önce ekranları kapat", "Uyku süreni ve nasıl hissettiğini not et", "Hafta sonunda verilerini karşılaştır"]})
-S(1, {"type": "quote-card", "quote": "Kafein, temel olarak adenozin alıcılarını kapatarak etki eder.", "attribution": "Sleep Foundation (çeviri)"})
-S(3, {"type": "hook", "question": "Beynimizdeki ana saatin kısa adı neydi?", "emoji": "🤔"})
+# Her sahne en çok birkaç cümle sürer ve her cümlede ekranda bir şey değişir.
+S(3, {"type": "hook", "question": "Uyurken beynimiz ne yapıyor?", "emoji": "😴"}, ["🛏️", "🌙", "⭐", "💤"], ["", "BEYİN KAPANMAZ!", "PROGRAMI ÇÖZELİM"])
+S(1, {"type": "spotlight", "title": "Şarj mı, uyku mu?", "emoji": "🔋", "chips": [{"label": "Robot: şarj olur", "emoji": "🔌"}, {"label": "İnsan: uyur", "emoji": "😴"}, {"label": "Uyku çok daha karmaşık!", "emoji": "🧩"}]}, ["🤖", "⚡"])
+S(2, {"type": "bullets", "title": "Bugünün soruları", "items": ["Vücudumuz uyku vaktini nasıl anlıyor?", "Uyurken beyinde hangi evreler yaşanıyor?", "Bu kadar uyumak neye yarıyor?"]}, ["❓", "🔎", "📖"], ["ÜÇ SORU", "SÖZLÜK AÇIKLAMADA 📖"])
+S(2, {"type": "clock", "title": "Birinci sistem: biyolojik saat", "center": "24 saat", "markers": [{"at": 12, "label": "Gündüz", "emoji": "☀️"}, {"at": 0, "label": "Gece", "emoji": "🌙"}], "note": "Şematik çizim."}, ["⏰", "🔄"], ["İKİ SİSTEM", "SİRKADİYEN RİTİM"])
+S(3, {"type": "spotlight", "title": "Ana saat: SCN", "emoji": "🧠", "chips": [{"label": "Suprakiazmatik çekirdek (SCN)"}, {"label": "Hipotalamusta", "emoji": "📍"}, {"label": "Binlerce sinir hücresi", "emoji": "🔬"}, {"label": "Orkestra şefi", "emoji": "🎼"}]}, ["🎻", "🎺", "🥁"], ["SCN", "HİPOTALAMUS", "ORKESTRA ŞEFİ 🎼"])
+S(1, {"type": "diagram", "title": "Şefin işareti: ışık", "layout": "flow", "nodes": [{"label": "Işık", "emoji": "☀️"}, {"label": "Göz", "emoji": "👁️"}, {"label": "Beyin: şu an gündüz!", "emoji": "🧠"}]}, ["💡", "✨"], ["IŞIK = İŞARET"])
+S(1, {"type": "clock", "title": "Melatonin: uyku hormonu", "center": "Melatonin", "markers": [{"at": 19, "label": "Güneş batar: üretim başlar", "emoji": "🌆"}, {"at": 22, "label": "Akşam: kanda artar", "emoji": "📈"}, {"at": 4, "label": "Sabaha karşı: en yüksek", "emoji": "🏔️"}], "note": "Şematik çizim; saatler kişiden kişiye değişir."}, ["🧪", "🌙"], ["MELATONİN"])
+S(3, {"type": "meter", "title": "İkinci sistem: uyku baskısı", "label": "Adenozin deposu", "emoji": "⏳", "phases": [{"label": "Uyanıkken birikir", "level": 0.6, "emoji": "🏃"}, {"label": "Uykuda sıfırlanır", "level": 0.08, "emoji": "😴"}, {"label": "Gün sonunda depo dolar", "level": 0.95, "emoji": "🥱"}], "note": "Şematik çizim; ölçekli değildir."}, ["🔋", "💤"], ["ADENOZİN", "UYKU BASKISI", "DEPO DOLDU 🥱"])
+S(1, {"type": "spotlight", "title": "Uykunun dört evresi", "emoji": "🛌", "chips": [{"label": "N1"}, {"label": "N2"}, {"label": "N3: derin uyku", "emoji": "🌊"}, {"label": "REM", "emoji": "💭"}]}, ["🌙", "⭐"], ["DÖRT EVRE"])
+S(1, {"type": "stages", "title": "Bir gece boyunca uyku döngüleri", "rows": [{"label": "REM", "emoji": "💭"}, {"label": "N1"}, {"label": "N2"}, {"label": "N3: derin uyku", "emoji": "🌊"}], "path": [1, 2, 3, 2, 0, 2, 3, 2, 0, 2, 3, 2, 0, 2, 2, 0, 2, 2, 0], "highlightRow": 0, "note": "Şematik çizim: bir döngü ortalama 90 dakika; bir gecede 4–6 döngü."}, [], ["90 DAKİKA"])
+S(2, {"type": "spotlight", "title": "Üçüncü evre: derin uyku", "emoji": "🌊", "chips": [{"label": "Vücut toparlanır", "emoji": "🔧"}, {"label": "Büyüme için kritik", "emoji": "📏"}, {"label": "Büyüme hormonları salgılanır", "emoji": "🧪"}]}, ["🛌", "💪"], ["DERİN UYKU", "BÜYÜME HORMONU"])
+S(2, {"type": "bullets", "title": "Dördüncü evre: REM 👀", "items": ["Gözler kapalı ama hızla hareket eder", "Beyin neredeyse uyanıkkenki kadar etkin", "En canlı rüyalar bu evrede görülür"]}, ["💭", "🌈", "🚀"], ["REM = HIZLI GÖZ HAREKETİ", "RÜYALAR 💭"])
+S(1, {"type": "big-number", "value": "Atoni", "label": "REM'de kaslar geçici olarak felç olur", "sub": "Rüyandaki hareketler yatakta kalmaz", "icon": "⚽"}, ["🥅", "🛏️"], ["ATONİ"])
+S(1, {"type": "spotlight", "title": "REM ne işe yarar?", "emoji": "📚", "chips": [{"label": "Hafıza", "emoji": "🗂️"}, {"label": "Öğrenme", "emoji": "✏️"}, {"label": "Yaratıcılık", "emoji": "🎨"}, {"label": "Uzun süreli anılar", "emoji": "💾"}]}, ["🧠", "✨"], ["HAFIZA + ÖĞRENME"])
+S(3, {"type": "bullets", "title": "Bunca saat uyumak neye yarıyor?", "items": ["Enerji tasarrufu 🔋", "Dokular büyür ve onarılır 🧱", "Bağışıklık hücreleri daha çok çalışır 🛡️", "Dikkat ve keyif yerinde kalır 🎯"]}, ["💪", "🛡️"], ["ENERJİ + ONARIM", "BAĞIŞIKLIK 🛡️", "DİKKAT 🎯"])
+S(1, {"type": "bar-chart", "title": "Önerilen günlük uyku (CDC)", "unit": "saat", "bars": [{"label": "6–12 yaş: en az", "value": 9, "display": "9"}, {"label": "6–12 yaş: en çok", "value": 12, "display": "12", "highlight": True}, {"label": "13–17 yaş: en az", "value": 8, "display": "8"}, {"label": "13–17 yaş: en çok", "value": 10, "display": "10", "highlight": True}]}, ["⏰", "😴"], ["CDC ÖNERİSİ"])
+S(1, {"type": "quote-card", "quote": "Birçok gencin daha geç yatmayı ve sabah daha geç kalkmayı tercih etmesi doğaldır.", "attribution": "NIH (çeviri)"}, ["🦉", "🌙"], ["TEMBELLİK DEĞİL!"])
+S(3, {"type": "bullets", "title": "Deney: bir haftalık uyku günlüğü 🔬", "items": ["Her gün aynı saatte yat ve kalk", "Yatmadan 30 dakika önce ekranları kapat", "Uyku süreni ve nasıl hissettiğini not et", "Hafta sonunda verilerini karşılaştır"]}, ["📓", "✏️", "📊"], ["DENEY ZAMANI 🔬", "EKRANLAR KAPALI 📵", "VERİ TOPLA 📊"])
+S(1, {"type": "diagram", "title": "Kafein neden uyku kaçırır?", "layout": "flow", "nodes": [{"label": "Kafein", "emoji": "☕"}, {"label": "Adenozin alıcılarını kapatır", "emoji": "🔒"}, {"label": "Uyku baskısı hissedilmez", "emoji": "😳"}]}, ["🥤", "⚡"], ["KAFEİN ☕"])
+S(3, {"type": "hook", "question": "Beynimizdeki ana saatin kısa adı neydi?", "emoji": "🤔"}, ["🧠", "⏰"], ["HIZLI SORU!", "SCN ✅", ""])
 S(1, {"type": "song"})
 S(3, {"type": "outro"})
 assert pos == len(allids), (pos, len(allids))

@@ -22,7 +22,7 @@ export const BarChart: React.FC<SceneProps<"bar-chart">> = ({ visual, frame, bea
         {visual.bars.map((b, i) => {
           const s = beatAt(beats, i, dur, n);
           const g = ease(frame, s, 26);
-          const h = Math.max(6, ((base - top) * b.value) / max) * g;
+          const h = Math.max(6, ((base - top) * b.value) / max) * g * (1 + (g >= 1 ? 0.018 * Math.sin(frame / 9 + i * 1.6) : 0));
           const x = slot * i + (slot - bw) / 2;
           const col = b.highlight ? C.yellow : ACCENTS[i % 4 === 1 ? 3 : i % 4];
           const lp = pop(frame, s + 18);

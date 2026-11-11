@@ -8,7 +8,7 @@ export const Comparison: React.FC<SceneProps<"comparison">> = ({ visual, frame, 
     const st = beatAt(beats, i, dur, 2);
     const p = pop(frame, st);
     return (
-      <Card accent={col} style={{ flex: 1, opacity: p, transform: `translateY(${(1 - p) * 60}px) rotate(${(1 - p) * (i ? 3 : -3)}deg)`, minHeight: 500 }}>
+      <Card accent={col} style={{ flex: 1, opacity: p, transform: `translateY(${(1 - p) * 60 + Math.sin(frame / 18 + i * 2.4) * 9}px) rotate(${(1 - p) * (i ? 3 : -3) + Math.sin(frame / 27 + i) * 0.8}deg) scale(${1 + ((frame >= beatAt(beats, 1, dur, 2)) === Boolean(i) ? 0.035 : 0)})`, minHeight: 500 }}>
         <div style={{ fontFamily: F.head, fontWeight: 800, fontSize: 44, color: col }}>{s.title}</div>
         {s.value && <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 110, color: C.text, lineHeight: 1.1, margin: "12px 0" }}>{s.value}</div>}
         {s.items.map((it, k) => {

@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { ScenePlan, Script, Song, Voice } from "../../schemas/index.ts";
 import { episodeDirArg, fail, loadEnv, P, readJson, syllables, words as split, writeJson } from "../lib/io.ts";
-import { elevenlabs } from "./providers/elevenlabs.ts";
+import { elevenlabs, VOICE_SETTINGS } from "./providers/elevenlabs.ts";
 import { mock } from "./providers/mock.ts";
 import { piper, piperAvailable } from "./providers/piper.ts";
 import { SAMPLE_RATE } from "./providers/types.ts";
@@ -39,14 +39,21 @@ console.log(`ses sağlayıcı: ${provider.name}`);
 // Ücretli sağlayıcıda aynı metin yeniden sentezlenmez (.cache/tts): senaryo düzeltmeleri kota harcamasın.
 if (provider.name === "elevenlabs") {
   const raw = provider.synthesize.bind(provider);
+  // v4 modeli "speed" ayarını uygulamıyor (ölçüldü); anlatım sentezden sonra perdesi korunarak yavaşlatılır.
+  const TEMPO = Number(process.env.VOICE_TEMPO ?? 0.93);
+  const slow = (r: { pcm: Int16Array; words: { text: string; start: number; end: number }[] }) => {
+    if (TEMPO === 1) return r;
+    const out = execFileSync("ffmpeg", ["-loglevel", "error", "-f", "s16le", "-ar", String(SAMPLE_RATE), "-ac", "1", "-i", "-", "-af", `atempo=${TEMPO}`, "-f", "s16le", "-ar", String(SAMPLE_RATE), "-ac", "1", "-"], { input: Buffer.from(r.pcm.buffer, r.pcm.byteOffset, r.pcm.byteLength), maxBuffer: 1 << 28 });
+    return { pcm: new Int16Array(out.buffer, out.byteOffset, Math.floor(out.byteLength / 2)).slice(), words: r.words.map((w) => ({ text: w.text, start: w.start / TEMPO, end: w.end / TEMPO })) };
+  };
   provider.synthesize = async (text, prev) => {
     const model = process.env.ELEVENLABS_MODEL || "eleven_v4" /* kullanıcı kararı: her videoda v4 */;
-    const file = join(".cache", "tts", createHash("sha1").update(`${voiceId}|${model}|${text}`).digest("hex") + ".json");
-    if (existsSync(file)) { const c = JSON.parse(readFileSync(file, "utf8")); const b = Buffer.from(c.pcm, "base64"); return { pcm: new Int16Array(b.buffer, b.byteOffset, b.byteLength / 2).slice(), words: c.words }; }
+    const file = join(".cache", "tts", createHash("sha1").update(`${voiceId}|${model}|${JSON.stringify(VOICE_SETTINGS)}|${text}`).digest("hex") + ".json");
+    if (existsSync(file)) { const c = JSON.parse(readFileSync(file, "utf8")); const b = Buffer.from(c.pcm, "base64"); return slow({ pcm: new Int16Array(b.buffer, b.byteOffset, b.byteLength / 2).slice(), words: c.words }); }
     const r = await raw(text, prev);
     mkdirSync(join(".cache", "tts"), { recursive: true });
     writeFileSync(file, JSON.stringify({ pcm: Buffer.from(r.pcm.buffer, r.pcm.byteOffset, r.pcm.byteLength).toString("base64"), words: r.words }));
-    return r;
+    return slow(r);
   };
 }
 // Kapanış şarkısı (song aşamasının çıktısı varsa): ağız hareketi için tek kanala indirilmiş kopyası okunur.

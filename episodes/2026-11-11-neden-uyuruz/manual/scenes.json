@@ -21,13 +21,60 @@
    },
    "factIds": [
     "f1"
+   ],
+   "stickers": [
+    "🛏️",
+    "🌙",
+    "⭐",
+    "💤"
+   ],
+   "keywords": [
+    "",
+    "BEYİN KAPANMAZ!",
+    "PROGRAMI ÇÖZELİM"
    ]
   },
   {
    "id": "s2",
    "section": "context",
    "lineIds": [
-    "l4",
+    "l4"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Şarj mı, uyku mu?",
+    "emoji": "🔋",
+    "chips": [
+     {
+      "label": "Robot: şarj olur",
+      "emoji": "🔌"
+     },
+     {
+      "label": "İnsan: uyur",
+      "emoji": "😴"
+     },
+     {
+      "label": "Uyku çok daha karmaşık!",
+      "emoji": "🧩"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🤖",
+    "⚡"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
     "l5",
     "l6"
    ],
@@ -46,21 +93,41 @@
     "y": 0.54,
     "scale": 1.15
    },
-   "factIds": []
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
   },
   {
-   "id": "s3",
+   "id": "s4",
    "section": "method",
    "lineIds": [
     "l7",
     "l8"
    ],
    "visual": {
-    "type": "big-number",
-    "value": "24",
-    "unit": "saat",
-    "label": "Sirkadiyen ritmin bir turu",
-    "sub": "Birinci sistem: biyolojik saat"
+    "type": "clock",
+    "title": "Birinci sistem: biyolojik saat",
+    "center": "24 saat",
+    "markers": [
+     {
+      "at": 12,
+      "label": "Gündüz",
+      "emoji": "☀️"
+     },
+     {
+      "at": 0,
+      "label": "Gece",
+      "emoji": "🌙"
+     }
+    ],
+    "note": "Şematik çizim."
    },
    "mascot": {
     "state": "talk",
@@ -70,10 +137,18 @@
    },
    "factIds": [
     "f2"
+   ],
+   "stickers": [
+    "⏰",
+    "🔄"
+   ],
+   "keywords": [
+    "İKİ SİSTEM",
+    "SİRKADİYEN RİTİM"
    ]
   },
   {
-   "id": "s4",
+   "id": "s5",
    "section": "method",
    "lineIds": [
     "l9",
@@ -81,13 +156,25 @@
     "l11"
    ],
    "visual": {
-    "type": "bullets",
+    "type": "spotlight",
     "title": "Ana saat: SCN",
-    "items": [
-     "Suprakiazmatik çekirdek (SCN)",
-     "Beynin hipotalamus bölgesinde",
-     "Binlerce sinir hücresinden oluşur",
-     "Orkestra şefi gibi ritimleri yönetir"
+    "emoji": "🧠",
+    "chips": [
+     {
+      "label": "Suprakiazmatik çekirdek (SCN)"
+     },
+     {
+      "label": "Hipotalamusta",
+      "emoji": "📍"
+     },
+     {
+      "label": "Binlerce sinir hücresi",
+      "emoji": "🔬"
+     },
+     {
+      "label": "Orkestra şefi",
+      "emoji": "🎼"
+     }
     ]
    },
    "mascot": {
@@ -99,39 +186,40 @@
    "factIds": [
     "f3",
     "f4"
+   ],
+   "stickers": [
+    "🎻",
+    "🎺",
+    "🥁"
+   ],
+   "keywords": [
+    "SCN",
+    "HİPOTALAMUS",
+    "ORKESTRA ŞEFİ 🎼"
    ]
   },
   {
-   "id": "s5",
+   "id": "s6",
    "section": "method",
    "lineIds": [
-    "l12",
-    "l13"
+    "l12"
    ],
    "visual": {
     "type": "diagram",
-    "title": "Işıktan melatonine",
+    "title": "Şefin işareti: ışık",
     "layout": "flow",
     "nodes": [
      {
-      "label": "Işık göze gelir",
+      "label": "Işık",
       "emoji": "☀️"
      },
      {
-      "label": "Beyin: şu an gündüz",
+      "label": "Göz",
+      "emoji": "👁️"
+     },
+     {
+      "label": "Beyin: şu an gündüz!",
       "emoji": "🧠"
-     },
-     {
-      "label": "Güneş batar",
-      "emoji": "🌆"
-     },
-     {
-      "label": "Melatonin artar",
-      "emoji": "🧪"
-     },
-     {
-      "label": "Uyku gelir",
-      "emoji": "🥱"
      }
     ]
    },
@@ -143,12 +231,64 @@
    },
    "factIds": [
     "f5",
-    "f6",
-    "f7"
+    "f6"
+   ],
+   "stickers": [
+    "💡",
+    "✨"
+   ],
+   "keywords": [
+    "IŞIK = İŞARET"
    ]
   },
   {
-   "id": "s6",
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l13"
+   ],
+   "visual": {
+    "type": "clock",
+    "title": "Melatonin: uyku hormonu",
+    "center": "Melatonin",
+    "markers": [
+     {
+      "at": 19,
+      "label": "Güneş batar: üretim başlar",
+      "emoji": "🌆"
+     },
+     {
+      "at": 22,
+      "label": "Akşam: kanda artar",
+      "emoji": "📈"
+     },
+     {
+      "at": 4,
+      "label": "Sabaha karşı: en yüksek",
+      "emoji": "🏔️"
+     }
+    ],
+    "note": "Şematik çizim; saatler kişiden kişiye değişir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🧪",
+    "🌙"
+   ],
+   "keywords": [
+    "MELATONİN"
+   ]
+  },
+  {
+   "id": "s8",
    "section": "method",
    "lineIds": [
     "l14",
@@ -156,18 +296,28 @@
     "l16"
    ],
    "visual": {
-    "type": "analogy",
-    "template": "fill",
+    "type": "meter",
     "title": "İkinci sistem: uyku baskısı",
-    "a": {
-     "label": "Sabah: adenozin az",
-     "value": 15
-    },
-    "b": {
-     "label": "Gece: adenozin çok",
-     "value": 90
-    },
-    "caption": "Uyanık kaldıkça adenozin birikir; uykuda sıfırlanır. (Çizim ölçekli değildir.)"
+    "label": "Adenozin deposu",
+    "emoji": "⏳",
+    "phases": [
+     {
+      "label": "Uyanıkken birikir",
+      "level": 0.6,
+      "emoji": "🏃"
+     },
+     {
+      "label": "Uykuda sıfırlanır",
+      "level": 0.08,
+      "emoji": "😴"
+     },
+     {
+      "label": "Gün sonunda depo dolar",
+      "level": 0.95,
+      "emoji": "🥱"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
    },
    "mascot": {
     "state": "talk",
@@ -178,54 +328,36 @@
    "factIds": [
     "f8",
     "f9"
+   ],
+   "stickers": [
+    "🔋",
+    "💤"
+   ],
+   "keywords": [
+    "ADENOZİN",
+    "UYKU BASKISI",
+    "DEPO DOLDU 🥱"
    ]
   },
   {
-   "id": "s7",
+   "id": "s9",
    "section": "finding",
    "lineIds": [
-    "l17",
-    "l18"
+    "l17"
    ],
    "visual": {
-    "type": "big-number",
-    "value": "90",
-    "unit": "dakika",
-    "label": "Bir uyku döngüsünün ortalama süresi",
-    "sub": "Bir gecede 4–6 döngü"
-   },
-   "mascot": {
-    "state": "talk",
-    "x": 0.87,
-    "y": 0.54,
-    "scale": 1.15
-   },
-   "factIds": [
-    "f10"
-   ]
-  },
-  {
-   "id": "s8",
-   "section": "finding",
-   "lineIds": [
-    "l19",
-    "l20"
-   ],
-   "visual": {
-    "type": "diagram",
+    "type": "spotlight",
     "title": "Uykunun dört evresi",
-    "layout": "cycle",
-    "nodes": [
+    "emoji": "🛌",
+    "chips": [
      {
-      "label": "1. evre (N1)",
-      "emoji": "🌥️"
+      "label": "N1"
      },
      {
-      "label": "2. evre (N2)",
-      "emoji": "☁️"
+      "label": "N2"
      },
      {
-      "label": "3. evre: derin uyku (N3)",
+      "label": "N3: derin uyku",
       "emoji": "🌊"
      },
      {
@@ -241,39 +373,103 @@
     "scale": 1.15
    },
    "factIds": [
-    "f10",
-    "f11",
-    "f12"
+    "f10"
+   ],
+   "stickers": [
+    "🌙",
+    "⭐"
+   ],
+   "keywords": [
+    "DÖRT EVRE"
    ]
   },
   {
-   "id": "s9",
+   "id": "s10",
    "section": "finding",
    "lineIds": [
-    "l21",
-    "l22",
-    "l23",
-    "l24"
+    "l18"
    ],
    "visual": {
-    "type": "comparison",
-    "title": "Derin uyku ve REM",
-    "left": {
-     "title": "🌊 Derin uyku (N3)",
-     "items": [
-      "Vücut toparlanır ve büyür",
-      "Büyüme hormonları salgılanır"
-     ]
-    },
-    "right": {
-     "title": "💭 REM uykusu",
-     "items": [
-      "Gözler hızla hareket eder",
-      "Beyin neredeyse uyanıkkenki kadar etkin",
-      "En canlı rüyalar",
-      "Kaslar geçici olarak felç olur (atoni)"
-     ]
-    }
+    "type": "stages",
+    "title": "Bir gece boyunca uyku döngüleri",
+    "rows": [
+     {
+      "label": "REM",
+      "emoji": "💭"
+     },
+     {
+      "label": "N1"
+     },
+     {
+      "label": "N2"
+     },
+     {
+      "label": "N3: derin uyku",
+      "emoji": "🌊"
+     }
+    ],
+    "path": [
+     1,
+     2,
+     3,
+     2,
+     0,
+     2,
+     3,
+     2,
+     0,
+     2,
+     3,
+     2,
+     0,
+     2,
+     2,
+     0,
+     2,
+     2,
+     0
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim: bir döngü ortalama 90 dakika; bir gecede 4–6 döngü."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "keywords": [
+    "90 DAKİKA"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Üçüncü evre: derin uyku",
+    "emoji": "🌊",
+    "chips": [
+     {
+      "label": "Vücut toparlanır",
+      "emoji": "🔧"
+     },
+     {
+      "label": "Büyüme için kritik",
+      "emoji": "📏"
+     },
+     {
+      "label": "Büyüme hormonları salgılanır",
+      "emoji": "🧪"
+     }
+    ]
    },
    "mascot": {
     "state": "talk",
@@ -283,12 +479,130 @@
    },
    "factIds": [
     "f11",
-    "f13",
-    "f14"
+    "f12"
+   ],
+   "stickers": [
+    "🛌",
+    "💪"
+   ],
+   "keywords": [
+    "DERİN UYKU",
+    "BÜYÜME HORMONU"
    ]
   },
   {
-   "id": "s10",
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Dördüncü evre: REM 👀",
+    "items": [
+     "Gözler kapalı ama hızla hareket eder",
+     "Beyin neredeyse uyanıkkenki kadar etkin",
+     "En canlı rüyalar bu evrede görülür"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "💭",
+    "🌈",
+    "🚀"
+   ],
+   "keywords": [
+    "REM = HIZLI GÖZ HAREKETİ",
+    "RÜYALAR 💭"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "finding",
+   "lineIds": [
+    "l23"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Atoni",
+    "label": "REM'de kaslar geçici olarak felç olur",
+    "sub": "Rüyandaki hareketler yatakta kalmaz",
+    "icon": "⚽"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🥅",
+    "🛏️"
+   ],
+   "keywords": [
+    "ATONİ"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "finding",
+   "lineIds": [
+    "l24"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "REM ne işe yarar?",
+    "emoji": "📚",
+    "chips": [
+     {
+      "label": "Hafıza",
+      "emoji": "🗂️"
+     },
+     {
+      "label": "Öğrenme",
+      "emoji": "✏️"
+     },
+     {
+      "label": "Yaratıcılık",
+      "emoji": "🎨"
+     },
+     {
+      "label": "Uzun süreli anılar",
+      "emoji": "💾"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🧠",
+    "✨"
+   ],
+   "keywords": [
+    "HAFIZA + ÖĞRENME"
+   ]
+  },
+  {
+   "id": "s15",
    "section": "importance",
    "lineIds": [
     "l25",
@@ -297,12 +611,12 @@
    ],
    "visual": {
     "type": "bullets",
-    "title": "Uyumak neye yarıyor?",
+    "title": "Bunca saat uyumak neye yarıyor?",
     "items": [
-     "Enerji tasarrufu",
-     "Dokuların büyümesi ve onarılması",
-     "Daha güçlü bağışıklık",
-     "Dikkat ve öğrenme"
+     "Enerji tasarrufu 🔋",
+     "Dokular büyür ve onarılır 🧱",
+     "Bağışıklık hücreleri daha çok çalışır 🛡️",
+     "Dikkat ve keyif yerinde kalır 🎯"
     ]
    },
    "mascot": {
@@ -316,14 +630,22 @@
     "f15",
     "f16",
     "f17"
+   ],
+   "stickers": [
+    "💪",
+    "🛡️"
+   ],
+   "keywords": [
+    "ENERJİ + ONARIM",
+    "BAĞIŞIKLIK 🛡️",
+    "DİKKAT 🎯"
    ]
   },
   {
-   "id": "s11",
+   "id": "s16",
    "section": "importance",
    "lineIds": [
-    "l28",
-    "l29"
+    "l28"
    ],
    "visual": {
     "type": "bar-chart",
@@ -362,12 +684,46 @@
    },
    "factIds": [
     "f18",
-    "f19",
-    "f23"
+    "f19"
+   ],
+   "stickers": [
+    "⏰",
+    "😴"
+   ],
+   "keywords": [
+    "CDC ÖNERİSİ"
    ]
   },
   {
-   "id": "s12",
+   "id": "s17",
+   "section": "importance",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "quote-card",
+    "quote": "Birçok gencin daha geç yatmayı ve sabah daha geç kalkmayı tercih etmesi doğaldır.",
+    "attribution": "NIH (çeviri)"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f23"
+   ],
+   "stickers": [
+    "🦉",
+    "🌙"
+   ],
+   "keywords": [
+    "TEMBELLİK DEĞİL!"
+   ]
+  },
+  {
+   "id": "s18",
    "section": "importance",
    "lineIds": [
     "l30",
@@ -394,18 +750,42 @@
     "f20",
     "f21",
     "f22"
+   ],
+   "stickers": [
+    "📓",
+    "✏️",
+    "📊"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "EKRANLAR KAPALI 📵",
+    "VERİ TOPLA 📊"
    ]
   },
   {
-   "id": "s13",
+   "id": "s19",
    "section": "limitations",
    "lineIds": [
     "l33"
    ],
    "visual": {
-    "type": "quote-card",
-    "quote": "Kafein, temel olarak adenozin alıcılarını kapatarak etki eder.",
-    "attribution": "Sleep Foundation (çeviri)"
+    "type": "diagram",
+    "title": "Kafein neden uyku kaçırır?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Kafein",
+      "emoji": "☕"
+     },
+     {
+      "label": "Adenozin alıcılarını kapatır",
+      "emoji": "🔒"
+     },
+     {
+      "label": "Uyku baskısı hissedilmez",
+      "emoji": "😳"
+     }
+    ]
    },
    "mascot": {
     "state": "talk",
@@ -415,10 +795,17 @@
    },
    "factIds": [
     "f24"
+   ],
+   "stickers": [
+    "🥤",
+    "⚡"
+   ],
+   "keywords": [
+    "KAFEİN ☕"
    ]
   },
   {
-   "id": "s14",
+   "id": "s20",
    "section": "limitations",
    "lineIds": [
     "l34",
@@ -438,10 +825,19 @@
    },
    "factIds": [
     "f3"
+   ],
+   "stickers": [
+    "🧠",
+    "⏰"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "SCN ✅",
+    ""
    ]
   },
   {
-   "id": "s15",
+   "id": "s21",
    "section": "limitations",
    "lineIds": [
     "l37"
@@ -458,7 +854,7 @@
    "factIds": []
   },
   {
-   "id": "s16",
+   "id": "s22",
    "section": "summary",
    "lineIds": [
     "l38",
