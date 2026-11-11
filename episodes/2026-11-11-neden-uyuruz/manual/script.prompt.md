@@ -29,27 +29,63 @@ Ayrıca "videoTitle" (en çok 60 karakter), "paperTitleTr" (soru; açılış ekr
 [
   {
     "id": "k1",
-    "title": "Uyku hakkında (About Sleep)",
+    "title": "About Sleep",
     "publisher": "CDC",
     "url": "https://www.cdc.gov/sleep/about/index.html"
   },
   {
     "id": "k2",
-    "title": "Çocuklar ve uyku (Kids and Sleep)",
-    "publisher": "Nemours KidsHealth",
+    "title": "Kids and Sleep",
+    "publisher": "KidsHealth",
     "url": "https://kidshealth.org/en/kids/not-tired.html"
   },
   {
     "id": "k3",
-    "title": "Uyku neden önemli? (Why Is Sleep Important?)",
+    "title": "Why Is Sleep Important?",
     "publisher": "NIH",
     "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important"
   },
   {
     "id": "k4",
-    "title": "Vücut saati (Circadian Rhythms)",
+    "title": "Your Sleep/Wake Cycle",
+    "publisher": "NIH",
+    "url": "https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle"
+  },
+  {
+    "id": "k5",
+    "title": "Circadian Rhythms",
     "publisher": "NIH",
     "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms"
+  },
+  {
+    "id": "k6",
+    "title": "What Is Circadian Rhythm?",
+    "publisher": "Sleep Foundation",
+    "url": "https://www.sleepfoundation.org/circadian-rhythm"
+  },
+  {
+    "id": "k7",
+    "title": "Stages of Sleep",
+    "publisher": "Sleep Foundation",
+    "url": "https://www.sleepfoundation.org/stages-of-sleep"
+  },
+  {
+    "id": "k8",
+    "title": "Adenosine and Sleep",
+    "publisher": "Sleep Foundation",
+    "url": "https://www.sleepfoundation.org/how-sleep-works/adenosine-and-sleep"
+  },
+  {
+    "id": "k9",
+    "title": "Why Is Sleep Important?",
+    "publisher": "Sleep Foundation",
+    "url": "https://www.sleepfoundation.org/how-sleep-works/why-do-we-need-sleep"
+  },
+  {
+    "id": "k10",
+    "title": "Suprachiasmatic nucleus",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleus"
   }
 ]
 </kaynaklar>
@@ -62,123 +98,130 @@ Ayrıca "videoTitle" (en çok 60 karakter), "paperTitleTr" (soru; açılış ekr
     "statement": "Uyurken vücut, beynin sağlıklı çalışmasını ve beden sağlığını desteklemek için çalışır.",
     "numbers": [],
     "quote": "During sleep, your body is working to support healthy brain function and maintain your physical health.",
-    "location": "NHLBI (NIH) — Why Is Sleep Important?"
+    "location": "NIH (NHLBI) — Why Is Sleep Important?"
   },
   {
     "id": "f2",
     "kind": "number",
-    "statement": "Vücut saati (sirkadiyen ritim), bir canlının 24 saatlik döngüde yaşadığı bedensel, zihinsel ve davranışsal değişiklikleri kapsar.",
+    "statement": "Sirkadiyen ritimler, bir canlının 24 saatlik döngüde yaşadığı bedensel, zihinsel ve davranışsal değişiklikleri kapsar.",
     "numbers": [
       "24"
     ],
     "quote": "Circadian rhythms include some of the physical, mental, and behavioral changes an organism experiences over a 24-hour cycle.",
-    "location": "NIGMS (NIH) — Circadian Rhythms"
+    "location": "NIH (NIGMS) — Circadian Rhythms"
   },
   {
     "id": "f3",
     "kind": "claim",
-    "statement": "İnsanda ana saat beyindedir; büyük bir sinir hücresi grubudur.",
+    "statement": "İnsanda ana saat beyindedir; suprakiazmatik çekirdek (SCN) adlı yapıyı oluşturan büyük bir sinir hücresi grubudur.",
     "numbers": [],
-    "quote": "In vertebrate animals, including humans, the master clock exists in the brain. The human master clock is a large group of nerve cells",
-    "location": "NIGMS (NIH) — Circadian Rhythms"
+    "quote": "The human master clock is a large group of nerve cells that form a structure called the suprachiasmatic nucleus (SCN).",
+    "location": "NIH (NIGMS) — Circadian Rhythms"
   },
   {
     "id": "f4",
     "kind": "claim",
-    "statement": "Vücut saatini en çok ışık ve karanlık etkiler; yemek, stres, hareket, sosyal çevre ve sıcaklık da etkiler.",
+    "statement": "SCN, beynin hipotalamus bölgesinde, görme sinirlerinin çaprazlaştığı yerin hemen üstündedir; binlerce nörondan oluşur.",
     "numbers": [],
-    "quote": "Light and dark have the biggest influence on circadian rhythms, but food intake, stress, physical activity, social environment, and temperature also affect them.",
-    "location": "NIGMS (NIH) — Circadian Rhythms"
+    "quote": "a small region of the brain in the hypothalamus, situated directly above the optic chiasm. ... It consists of two nuclei composed of approximately 10,000 neurons.",
+    "location": "Wikipedia — Suprachiasmatic nucleus"
   },
   {
     "id": "f5",
     "kind": "claim",
-    "statement": "Akşam ana saat beyne daha çok melatonin üretmesini söyler; bu uyku getirir. Melatonin bir hormondur.",
+    "statement": "Sirkadiyen ritimleri en çok ışık ve karanlık etkiler.",
     "numbers": [],
-    "quote": "In the evening, a person's master clock tells their brain to make more melatonin, causing sleepiness.",
-    "location": "NIGMS (NIH) — Circadian Rhythms"
+    "quote": "Light and dark have the biggest influence on circadian rhythms",
+    "location": "NIH (NIGMS) — Circadian Rhythms"
   },
   {
     "id": "f6",
     "kind": "claim",
-    "statement": "Sabah vücut, uyanmaya yardım eden kortizol gibi hormonlar salgılar.",
+    "statement": "Gözlerle alınan ışık sinyalleri beyne gündüz olduğunu bildirir.",
     "numbers": [],
-    "quote": "In the morning, your body releases hormones that promote alertness, such as cortisol, which helps you wake up.",
-    "location": "NHLBI (NIH) — Why Is Sleep Important?"
+    "quote": "light signals received through your eyes tell your brain that it is daytime.",
+    "location": "NIH (NHLBI) — Your Sleep/Wake Cycle"
   },
   {
     "id": "f7",
     "kind": "claim",
-    "statement": "Uyurken beyin iki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.",
+    "statement": "Güneş batınca beyin uyku getiren melatonin hormonunu üretmeye başlar; kandaki melatonin akşam artar, sabaha karşı en yüksek düzeye çıkar.",
     "numbers": [],
-    "quote": "As we sleep, our brains move between two types of sleep — non-REM and REM (rapid eye movement) sleep.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "quote": "As the sun sets in the evening, the brain begins producing melatonin, a hormone that induces sleepiness. / The amount of melatonin in your bloodstream starts to increase in the evening and peaks in the early morning.",
+    "location": "Sleep Foundation — What Is Circadian Rhythm?; NIH (NHLBI) — Your Sleep/Wake Cycle"
   },
   {
     "id": "f8",
-    "kind": "number",
-    "statement": "Okul çağında bir uyku döngüsü yaklaşık 90 dakika sürer.",
-    "numbers": [
-      "90"
-    ],
-    "quote": "By the time kids start school, one complete sleep cycle lasts about 90 minutes, which is similar to an adult's.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "kind": "claim",
+    "statement": "Uzun süre uyanık kaldıkça uyku ihtiyacı artar; bu ihtiyaç adenozin adlı bileşikle bağlantılıdır ve uyanıkken beyindeki adenozin düzeyi yükselir.",
+    "numbers": [],
+    "quote": "Your body has a biological need for sleep that increases when you have been awake for a long time. A compound called adenosine is linked to this need for sleep. While you are awake, the level of adenosine in your brain continues to rise.",
+    "location": "NIH (NHLBI) — Your Sleep/Wake Cycle"
   },
   {
     "id": "f9",
     "kind": "claim",
-    "statement": "REM olmayan uykunun üçüncü aşamasında vücut, büyüme ve gelişme için gereken hormonları salgılar.",
+    "statement": "Uyurken beyin adenozini yeniden ATP'ye (enerji molekülüne) çevirir ve uyku baskısı ortadan kalkar.",
     "numbers": [],
-    "quote": "It's during this stage that the body releases hormones needed for growth and development.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "quote": "While you sleep, the brain converts adenosine back into ATP, essentially eliminating your sleep drive.",
+    "location": "Sleep Foundation — Adenosine and Sleep"
   },
   {
     "id": "f10",
-    "kind": "claim",
-    "statement": "REM uykusunda gözler göz kapaklarının altında hızlı hareket eder.",
-    "numbers": [],
-    "quote": "The eyes move quickly under the eyelids, breathing gets faster, and the heart beats faster.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "kind": "number",
+    "statement": "Uyku dört evreden oluşur: üçü REM olmayan (N1, N2, N3), biri REM. Bir gecede dört ila altı döngü yaşanır; bir döngü ortalama 90 dakika sürer.",
+    "numbers": [
+      "90",
+      "4",
+      "6",
+      "1",
+      "2",
+      "3"
+    ],
+    "quote": "one for rapid eye movement (REM) sleep and three that form non-REM (NREM) sleep / In a typical night, a person goes through four to six sleep cycles / on average they last about 90 minutes each.",
+    "location": "Sleep Foundation — Stages of Sleep"
   },
   {
     "id": "f11",
-    "kind": "claim",
-    "statement": "En canlı rüyalar REM uykusunda görülür.",
-    "numbers": [],
-    "quote": "This is when we have our most vivid dreams.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "kind": "number",
+    "statement": "Üçüncü evre (N3) derin uykudur; vücudun toparlanması ve büyümesi için kritik sayılır, bağışıklık sistemini de destekleyebilir.",
+    "numbers": [
+      "3"
+    ],
+    "quote": "Stage 3 (N3 or deep sleep) ... Experts believe that this stage is critical to restorative sleep, allowing for bodily recovery and growth. It may also bolster the immune system",
+    "location": "Sleep Foundation — Stages of Sleep"
   },
   {
     "id": "f12",
     "kind": "claim",
-    "statement": "REM uykusunda kollar ve bacaklar hareket ettirilemez.",
+    "statement": "Büyüme ve gelişme için gereken hormonlar REM olmayan uykunun üçüncü evresinde salgılanır; büyüme hormonu dokuların büyümesi ve onarılması için gereklidir.",
     "numbers": [],
-    "quote": "You can't move your arms or legs during REM sleep.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "quote": "It's during this stage that the body releases hormones needed for growth and development. / Sleep provides the release of growth hormone necessary for the body's tissues to grow and repair damage.",
+    "location": "Nemours KidsHealth — Kids and Sleep; Sleep Foundation — Why Is Sleep Important?"
   },
   {
     "id": "f13",
     "kind": "claim",
-    "statement": "REM uykusu öğrenme ve hafıza için önemlidir.",
+    "statement": "REM uykusunda gözler kapalıyken hızla hareket eder; beyin etkinliği uyanıklık düzeyine yaklaşır; kaslar geçici olarak felç olur (atoni); en canlı rüyalar bu evrede görülür.",
     "numbers": [],
-    "quote": "REM sleep is important for learning and memory.",
-    "location": "Nemours KidsHealth — Kids and Sleep"
+    "quote": "brain activity picks up, nearing levels seen when you're awake. / the body experiences atonia, which is a temporary paralysis of the muscles / Even though they're closed, the eyes move rapidly / This is when we have our most vivid dreams.",
+    "location": "Sleep Foundation — Stages of Sleep; Nemours KidsHealth — Kids and Sleep"
   },
   {
     "id": "f14",
     "kind": "claim",
-    "statement": "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
+    "statement": "REM uykusu hafıza, öğrenme ve yaratıcılık için önemli kabul edilir; uyku uzun süreli anıların oluşmasına yardım eder.",
     "numbers": [],
-    "quote": "Sleep helps with learning and the formation of long-term memories.",
-    "location": "NHLBI (NIH) — Why Is Sleep Important?"
+    "quote": "REM sleep is believed to be essential to cognitive functions like memory, learning, and creativity. / Sleep helps with learning and the formation of long-term memories.",
+    "location": "Sleep Foundation — Stages of Sleep; NIH (NHLBI) — Why Is Sleep Important?"
   },
   {
     "id": "f15",
     "kind": "claim",
-    "statement": "Çocuklarda ve gençlerde uyku, büyümeyi ve gelişmeyi de destekler.",
+    "statement": "Uyku, vücudun enerji tasarrufu yapmasını sağlar.",
     "numbers": [],
-    "quote": "In children and teens, sleep also helps support growth and development.",
-    "location": "NHLBI (NIH) — Why Is Sleep Important?"
+    "quote": "Sleep allows people to conserve energy through an extended period of reduced activity.",
+    "location": "Sleep Foundation — Why Is Sleep Important?"
   },
   {
     "id": "f16",
@@ -186,12 +229,12 @@ Ayrıca "videoTitle" (en çok 60 karakter), "paperTitleTr" (soru; açılış ekr
     "statement": "Uyurken bir tür bağışıklık hücresi daha çok çalışır; yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.",
     "numbers": [],
     "quote": "when you sleep, a particular type of immune cell works harder. That is why people who do not sleep enough may be more likely to get colds and other infections.",
-    "location": "NHLBI (NIH) — Why Is Sleep Important?"
+    "location": "NIH (NHLBI) — Why Is Sleep Important?"
   },
   {
     "id": "f17",
     "kind": "claim",
-    "statement": "Yeterince uyumayan çocuklar dikkatini toplamakta zorlanabilir; huysuz, sinirli ya da keyifsiz olabilir.",
+    "statement": "Yeterince uyumayan çocuklar dikkatini toplamakta zorlanabilir; huysuz ya da keyifsiz olabilir.",
     "numbers": [],
     "quote": "kids who don't get enough sleep can have trouble paying attention ... be cranky, whiny, irritable, or moody",
     "location": "Nemours KidsHealth — Kids and Sleep"
@@ -245,23 +288,23 @@ Ayrıca "videoTitle" (en çok 60 karakter), "paperTitleTr" (soru; açılış ekr
     "statement": "Geceleri elektronik cihazların ışığı biyolojik saati şaşırtabilir.",
     "numbers": [],
     "quote": "Light from electronic devices at night can confuse biological clocks.",
-    "location": "NIGMS (NIH) — Circadian Rhythms"
+    "location": "NIH (NIGMS) — Circadian Rhythms"
   },
   {
     "id": "f23",
     "kind": "claim",
-    "statement": "Yatak odasının sessiz, rahatlatıcı ve serin olması önerilir.",
+    "statement": "Birçok gencin yetişkinlerden daha geç yatmayı ve sabah daha geç kalkmayı tercih etmesi doğaldır.",
     "numbers": [],
-    "quote": "Keeping your bedroom quiet, relaxing, and at a cool temperature.",
-    "location": "CDC — About Sleep"
+    "quote": "it is natural for many teens to prefer later bedtimes and to sleep later in the morning than adults.",
+    "location": "NIH (NHLBI) — Your Sleep/Wake Cycle"
   },
   {
     "id": "f24",
     "kind": "claim",
-    "statement": "Düzenli hareket etmek ve sağlıklı beslenmek daha iyi uykuya yardım eder.",
+    "statement": "Kafein temel olarak adenozin alıcılarını kapatarak etki eder.",
     "numbers": [],
-    "quote": "Exercising regularly and maintaining a healthy diet.",
-    "location": "CDC — About Sleep"
+    "quote": "The primary way that caffeine works is by blocking adenosine receptors",
+    "location": "Sleep Foundation — Adenosine and Sleep"
   }
 ]
 </olgular>

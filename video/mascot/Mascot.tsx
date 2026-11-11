@@ -41,31 +41,34 @@ const Layer: React.FC<{ pose: Pose; frame: number; mouth: number; shape: MouthSh
   const waistPct = (s.waist / s.h) * 100;
   const img: React.CSSProperties = { position: "absolute", left: 0, top: 0, width, height };
   const m = s.mouth;
+  const src = m.w > 0 ? s.src.replace(/\.png$/, ".nomouth.png") : s.src;
     const glow = 0.55 + 0.45 * Math.sin(f / 7) + mouth * 0.5;
   return (
     <div style={{ position: "absolute", left: "50%", top: 0, width, height, marginLeft: -width / 2, opacity }}>
       {/* kuyruk: belden aşağısı hafifçe salınır */}
-      <Img src={staticFile(s.src)} style={{ ...img, clipPath: `inset(${waistPct}% 0 0 0)`, transformOrigin: `50% ${waistPct}%`, transform: `skewX(${sway}deg) scaleY(${1 + Math.sin(f / 23) * 0.012})` }} />
-      <Img src={staticFile(s.src)} style={{ ...img, clipPath: `inset(0 0 ${100 - waistPct - 0.2}% 0)` }} />
+      <Img src={staticFile(src)} style={{ ...img, clipPath: `inset(${waistPct}% 0 0 0)`, transformOrigin: `50% ${waistPct}%`, transform: `skewX(${sway}deg) scaleY(${1 + Math.sin(f / 23) * 0.012})` }} />
+      <Img src={staticFile(src)} style={{ ...img, clipPath: `inset(0 0 ${100 - waistPct - 0.2}% 0)` }} />
       <svg width={width} height={height} viewBox={`0 0 ${s.w} ${s.h}`} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
         {/* anten yıldızı: sesle birlikte parlar */}
         <circle cx={s.star.x} cy={s.star.y} r={34 + glow * 16} fill="#FFE9A8" opacity={0.16 + glow * 0.14} />
         <circle cx={s.star.x} cy={s.star.y} r={16 + glow * 6} fill="#FFF6D6" opacity={0.25 + glow * 0.2} />
-        {/* ağız: konuşurken mevcut gülüşün üstüne çizilir; biçimi söylenen ünlüye göre değişir */}
-        {mouth > 0 && m.w > 0 && (() => {
-          const hw = m.w * shape.wide; // yarı genişlik
-          const dep = m.depth * (0.22 + shape.open * 1.25); // derinlik
+        {/* ağız: özgün ağız görselden silindi (tools/mouthless.py); burada her zaman yeniden çizilir.
+            Kapalıyken gülüş çizgisi, konuşurken söylenen ünlüye göre biçimlenen açık ağız. */}
+        {m.w > 0 && (() => {
+          const k = Math.min(1, mouth * 3); // kapalı → açık geçişi
+          if (k < 0.08) return <path d={`M ${-m.w * 0.82} ${-m.depth * 0.1} Q 0 ${m.depth * 0.75} ${m.w * 0.82} ${-m.depth * 0.1}`} transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`} fill="none" stroke="#4A3B48" strokeWidth={Math.max(3, m.w * 0.13)} strokeLinecap="round" />;
+          const hw = m.w * shape.wide * (0.82 + 0.18 * k); // yarı genişlik
+          const dep = m.depth * (0.3 + shape.open * 1.2) * k + m.depth * 0.2; // derinlik
           const r = shape.round;
           const top = m.w * 0.14 * (1 - r) - dep * 0.35 * r; // yuvarlak ünlülerde üst dudak da kavislenir
+          const d = `M ${-hw} 0 Q 0 ${top} ${hw} 0 Q ${hw * (0.55 + 0.3 * r)} ${dep * 1.3} 0 ${dep * 1.36} Q ${-hw * (0.55 + 0.3 * r)} ${dep * 1.3} ${-hw} 0 Z`;
           return (
-            <g transform={`translate(${m.x} ${m.y + m.depth * 0.1}) rotate(${m.rot})`}>
-              {/* mevcut gülüşü örten yüz rengi zemin */}
-              <ellipse cx={0} cy={m.depth * 0.42} rx={m.w * 1.18} ry={m.depth * 0.95} fill="#E4E3EA" />
-              <clipPath id={`mouth-${m.x}`}><path d={`M ${-hw} 0 Q 0 ${top} ${hw} 0 Q ${hw * (0.55 + 0.3 * r)} ${dep * 1.3} 0 ${dep * 1.36} Q ${-hw * (0.55 + 0.3 * r)} ${dep * 1.3} ${-hw} 0 Z`} /></clipPath>
-              <path d={`M ${-hw} 0 Q 0 ${top} ${hw} 0 Q ${hw * (0.55 + 0.3 * r)} ${dep * 1.3} 0 ${dep * 1.36} Q ${-hw * (0.55 + 0.3 * r)} ${dep * 1.3} ${-hw} 0 Z`} fill="#3B2B36" stroke="#B9BCCB" strokeWidth={2.5} strokeLinejoin="round" />
-              <g clipPath={`url(#mouth-${m.x})`}>
+            <g transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`}>
+              <clipPath id={`mouth-${pose}`}><path d={d} /></clipPath>
+              <path d={d} fill="#3B2B36" stroke="#4A3B48" strokeWidth={2.5} strokeLinejoin="round" />
+              <g clipPath={`url(#mouth-${pose})`}>
                 {/* üst dişler: yayvan ünlülerde görünür */}
-                <rect x={-hw} y={-m.depth * 0.1} width={hw * 2} height={m.depth * (0.2 + 0.16 * (1 - r)) * (1 - r * 0.8) + m.w * 0.12 * (1 - r)} fill="#FFFFFF" opacity={0.95 * (1 - r)} />
+                <rect x={-hw} y={-m.depth * 0.3} width={hw * 2} height={m.depth * 0.3 + (m.depth * 0.3 + m.w * 0.1) * (1 - r)} fill="#FFFFFF" opacity={0.95 * (1 - r)} />
                 {/* dil */}
                 <ellipse cx={0} cy={dep * 1.25} rx={hw * 0.62} ry={dep * 0.5} fill="#FF8A7A" />
               </g>

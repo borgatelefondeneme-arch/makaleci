@@ -1,12 +1,15 @@
 # MuMa Library — proje kararları
 
-Çocuklar için Türkçe, eğlenceli ve öğretici 5 dakikalık animasyonlu bilim videoları üreten hat. **Kanal adı: MuMa Library** (ekranda ve seslendirmede bu ad kullanılır). Bu dosya onaylanmış kararları tutar; bir karar değişirse önce burası güncellenir.
+Çocuklar için Türkçe, eğlenceli ve öğretici animasyonlu bilim videoları üreten hat (süre içeriğe göre 5–10 dakika). **Kanal adı: MuMa Library** (ekranda ve seslendirmede bu ad kullanılır). Bu dosya onaylanmış kararları tutar; bir karar değişirse önce burası güncellenir.
 
 ## İçerik yönü (güncel karar)
 
-- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Gökyüzü neden mavi?"). Hedef yaş **7–14**, süre ~5 dk. Konuyu ve senaryoyu biz belirleriz.
-- Her konu bölümünde: merak uyandıran açılış → günün sorusu ve kaynaklar → "Nasıl oluyor?" → "İşin sırrı" → **"Sen de dene"** (güvenli bir gözlem/etkinlik) → "Bunu biliyor muydun?" + kısa tekrar sorusu → "Bugün bunu öğrendik".
-- Bilgiler güvenilir kurum kaynaklarından (NASA vb.) alınır; kaynak sayfası **gerçekten okunur**, alıntısı `03_facts.json`'a yazılır. Kaynakta bulunamayan bilgi/sayı senaryoya girmez.
+- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Neden uyuruz?"). İzleyici 7–14 yaş; **anlatım düzeyi 10 yaşındaki bir çocuğa göre** ayarlanır. Konuyu ve senaryoyu biz belirleriz.
+- **Bilimsel dil (kullanıcı kararı):** senaryo okul öncesi gibi olmamalı. Gerçek terimler kullanılır ve hemen açıklanır ("ana saat" demekle yetinme: "suprakiazmatik çekirdek, kısaca SCN; hipotalamusta…"). Mekanizma anlatılır (ne, nerede, nasıl), benzetme terimin yerine değil yanına konur. Şarkı sözleri de aynı düzeyde ve senaryodaki bilimsel ifadelerden türetilir.
+- **Süre içerikten türer:** süreye takılma; konu gerektiriyorsa video 10 dakikaya kadar çıkabilir (kapı 4:45–10:30).
+- **Kaynaklar cümle içinde anılır** ("NIH'ye göre…", "CDC'ye göre…", "KidsHealth'e göre…"). Kaynak bölümü/kartı ve ekrandaki "Kaynak:" etiketi **yoktur** (kullanıcı kararı); tam kaynak listesi yalnızca `yayin.md`'de durur.
+- Akış: merak uyandıran açılış → günün soruları → "Nasıl oluyor?" → "İşin sırrı" → **"Sen de dene"** (güvenli bir gözlem/deney) → "Bunu biliyor muydun?" + kısa tekrar sorusu → şarkı → "Bugün bunu öğrendik".
+- Bilgiler güvenilir kaynaklardan alınır; kaynak sayfası **gerçekten okunur**, alıntısı `03_facts.json`'a yazılır. Kaynakta bulunamayan bilgi/sayı senaryoya girmez — kullanıcının verdiği bilgi de okunan bir kaynakta doğrulanamazsa kullanılmaz ve kullanıcıya söylenir (ör. "SCN ~20.000 nöron" doğrulanamadı; "binlerce" denildi).
 - **Minik komiklikler:** bölüm başına 4–6 küçük şaka (robotun kendisiyle dalga geçmesi: uyumaz şarj olur, kapatma düğmesi yoktur; kelime oyunları). Şaka bilgi gibi sunulmaz, olguyu çarpıtmaz, kimseyle alay etmez.
 - **Sabit açılış ve kapanış:** açılış cümlesi "MuMa Library'ye hoş geldin! Merhaba, ben Muma!", kapanış cümlesi "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!". İkisi de voice aşamasında otomatik eklenir (`pipeline/voice/cli.ts` içinde `WELCOME`/`GOODBYE`), senaryoya yazılmaz.
 - **Telaffuz:** "MuMa Library" seslendirmede okunduğu gibi "Muma Laybrıri" denir (kullanıcı onayı).
@@ -40,7 +43,7 @@
 - Node'un `fetch`'i vekil sunucuyu kendiliğinden kullanmaz: ElevenLabs'e giden komutlar `NODE_USE_ENV_PROXY=1 ELEVENLABS_API_KEY=proxy-injected` ile çalıştırılır (bu ortamda anahtarı vekil ekler).
 - **Muma'nın sesi (ElevenLabs):** kullanıcının seçtiği tasarım sesi hesaba "Muma" adıyla kaydedildi, kimliği `j6hEdvUHjDuCExVlNXTi` (`ELEVENLABS_VOICE_ID` verilmezse varsayılan budur). Her videoda aynı ses kullanılır. ElevenLabs çocuk sesi üretimini engeller; ses, yetişkin seslendirmecinin canlandırdığı parlak, heyecanlı bir çizgi film robotu olarak tarif edildi. Anahtar ortamın ağ gizlisi olarak saklı (kod içinde `ELEVENLABS_API_KEY=proxy-injected` yer tutucusu yeterli).
 - **Piper sesi yalnızca taslak içindir:** eğitim verisi CC BY-NC-SA 4.0 (ticari kullanım dışı). Gelir getiren yayında ElevenLabs ya da ticari kullanıma açık bir ses kullanılır.
-- Font: Nunito (başlık) + Inter (metin), `@fontsource` paketlerinden gömülü; render sırasında ağ gerekmez.
+- Font: Manrope (sitenin yazı tipi), `@fontsource` paketinden gömülü; render sırasında ağ gerekmez.
 
 ## Mimari
 
@@ -60,7 +63,7 @@ Uçtan uca: konu bölümü `npm run episode -- --topic "<soru>"` (fetch/select a
 
 - Bölüm kimliği: `<YYYY-AA-GG>-<slug>`; bölüm numarası (#n) `data/state.json` sayacından.
 - Senaryo satırlarında iki metin: `display` (ekran) ve `spoken` (seslendirme; sayılar, yabancı adlar, DOI Türkçe okunuşla).
-- Süre: konu bölümlerinde hedef ~5:00 (kapı 4:45–6:00). Sahne süresi sesten türetilir (ses + nefes payı); sahne içi vuruşlar satır başlangıç karelerine bağlanır.
+- Süre: içerikten türer (kapı 4:45–10:30). Sahne süresi sesten türetilir (ses + nefes payı); sahne içi vuruşlar satır başlangıç karelerine bağlanır.
 - Mascot ağzı: voice aşaması kare başına genlik zarfı üretir (mock'ta kelime damgalarından sentezlenir), render aynı kodu kullanır.
 - Render sessiz yapılır, ses FFmpeg ile eklenir (gerçek seste `loudnorm`).
 
@@ -68,7 +71,7 @@ Uçtan uca: konu bölümü `npm run episode -- --topic "<soru>"` (fetch/select a
 
 - Açılış (~5 sn): robot uçarak gelir + "MuMa Library" logosu + "Hoş geldin!" + "Günün Sorusu #n" (makale bölümünde "Günün Makalesi #n") + başlık (+ preprint rozeti).
 - Sahne tipleri: `hook`, `source-card`, `big-number`, `bar-chart`, `line-chart`, `comparison`, `diagram`, `analogy` (şablonlar: `scale`, `fill`, `race`, `zoom`), `quote-card`, `bullets`, `song`, `outro`. Aynı tip art arda gelmez.
-- **Karakter her zaman kullanıcının verdiği robottur** (cin kuyruklu, yay antenli, göğsünde "M" amblemi). Başka karakter kullanılmaz. Görseller `public/robot/` altında, `tools/cutout.py` ile saydam zeminli kesildi. Pozlar: `point` (parmak havada + açık el; yüksek çözünürlüklü özgün görselden), `crossed` (kollar kavuşuk), `book` (kitap okur), `thumbs` (başparmak), `wave` (el sallar), `fly` (kollar açık; yalnızca uçarken). Poz, sahnede `mascot.pose` ile seçilir; verilmezse durumdan türetilir (`talk`/`point` → `point`, `idle`/`think` → `crossed` + düşünce baloncuğu) ve sahne tipine göre otomatik atanır: açılış ve veda `wave`, kaynak kartı `book`, kapanış `thumbs`. **Ağız sese göre oynar** (kullanıcı bunu özellikle beğendi; korunur): açıklık ses genliğinden, biçim o an söylenen kelimenin ünlüsünden gelir (a/e açık, ı/i yayvan ve dişli, o/ö/u/ü yuvarlak, m/b/p kapalı), anten yıldızı parlar, kuyruk salınır, sahneler arasında konum/ölçek yumuşak geçer; açılışta uçarak gelir, kapanışta uçarak gider (`MascotLayer.tsx`). Kollar yeniden çizilmez.
+- **Karakter her zaman kullanıcının verdiği robottur** (cin kuyruklu, yay antenli, göğsünde "M" amblemi). Başka karakter kullanılmaz. Görseller `public/robot/` altında, `tools/cutout.py` ile saydam zeminli kesildi. Pozlar: `point` (parmak havada + açık el; yüksek çözünürlüklü özgün görselden), `crossed` (kollar kavuşuk), `book` (kitap okur), `thumbs` (başparmak), `wave` (el sallar), `fly` (kollar açık; yalnızca uçarken). Poz, sahnede `mascot.pose` ile seçilir; verilmezse durumdan türetilir (`talk`/`point` → `point`, `idle`/`think` → `crossed` + düşünce baloncuğu) ve sahne tipine göre otomatik atanır: açılış ve veda `wave`, kaynak kartı `book`, kapanış `thumbs`. **Ağız sese göre oynar** (kullanıcı bunu özellikle beğendi; korunur): açıklık ses genliğinden, biçim o an söylenen kelimenin ünlüsünden gelir (a/e açık, ı/i yayvan ve dişli, o/ö/u/ü yuvarlak, m/b/p kapalı), Özgün ağız poz görsellerinden silinmiştir (`tools/mouthless.py` → `*.nomouth.png`) ve ağız her zaman yeniden çizilir; görselin üstüne yama konmaz (iz bırakıyordu). Anten yıldızı parlar, kuyruk salınır, sahneler arasında konum/ölçek yumuşak geçer; açılışta uçarak gelir, kapanışta uçarak gider (`MascotLayer.tsx`). Kollar yeniden çizilmez.
 - Videodan kare dizisiyle oynatma denendi ve geri alındı: kesim kalitesi düşüktü ve dudak eşlemesi kayboluyordu. Kullanıcı yeni klipler verirse `tools/cutout_video.py` ile işlenir; iyi sonuç için yüksek çözünürlük, düz tek renk zemin (gölgesiz), sabit kamera gerekir. **Karakterin adı: Muma.** Kendini "Ben Muma!" diye tanıtır.
 - Abone ol: sürenin ~%60'ına en yakın sahne sınırında kısa alt bant; kapanışta tam kart.
 - Kapanış: "Bugün bunu öğrendik" + 3 madde sırayla ✓ + "Bir sonraki bilim videosunda görüşürüz!" + abone ol + sonraki video; robot uçarak gider.

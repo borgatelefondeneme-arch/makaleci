@@ -93,7 +93,7 @@ export const validateScript = (script: Script, facts: Facts, paper: Paper): Repo
   const wc = lines.reduce((a, l) => a + words(l.spoken).length, 0);
   const hookWc = (script.sections.find((s) => s.id === "hook")?.lines ?? []).reduce((a, l) => a + words(l.spoken).length, 0);
   // Kelime sayısı yalnızca kaba bir ön kontrol; kesin kararı voice aşamasındaki süre kapısı verir.
-  if (wc < (script.song ? 330 : 450) || wc > 980) errors.push(`Seslendirme ${wc} kelime; 5–6 dakika için çok ${wc < 450 ? "kısa" : "uzun"}`);
+  if (wc < (script.song ? 330 : 450) || wc > 1500) errors.push(`Seslendirme ${wc} kelime; 5–6 dakika için çok ${wc < 450 ? "kısa" : "uzun"}`);
   else if (!topic && (wc < 720 || wc > 880)) warnings.push(`Seslendirme ${wc} kelime; hedef aralığın (720–880) dışında — süre kapısı voice aşamasında kesin karar verir`);
   if (hookWc < 20 || hookWc > 50) warnings.push(`Hook ${hookWc} kelime; ~15 sn için 30–40 kelime hedeflenir`);
   if (script.videoTitle.length > 70) warnings.push(`Video başlığı uzun (${script.videoTitle.length} karakter)`);

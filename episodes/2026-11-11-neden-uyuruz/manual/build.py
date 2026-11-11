@@ -3,7 +3,16 @@
 import json, os
 D = os.path.dirname(__file__)
 PID = "topic:neden-uyuruz"
-CDC, KH, NHLBI, NIGMS = "CDC — About Sleep", "Nemours KidsHealth — Kids and Sleep", "NHLBI (NIH) — Why Is Sleep Important?", "NIGMS (NIH) — Circadian Rhythms"
+CDC = "CDC — About Sleep"
+KH = "Nemours KidsHealth — Kids and Sleep"
+NHLBI = "NIH (NHLBI) — Why Is Sleep Important?"
+NHLBI2 = "NIH (NHLBI) — Your Sleep/Wake Cycle"
+NIGMS = "NIH (NIGMS) — Circadian Rhythms"
+SFC = "Sleep Foundation — What Is Circadian Rhythm?"
+SFS = "Sleep Foundation — Stages of Sleep"
+SFA = "Sleep Foundation — Adenosine and Sleep"
+SFW = "Sleep Foundation — Why Is Sleep Important?"
+WIKI = "Wikipedia — Suprachiasmatic nucleus"
 
 def F(i, st, q, loc, nums=()):
     return {"id": f"f{i}", "kind": "number" if nums else "claim", "statement": st, "numbers": list(nums), "quote": q, "location": loc}
@@ -11,36 +20,42 @@ def F(i, st, q, loc, nums=()):
 facts = {
     "paperId": PID, "basis": "full_text", "institutions": [],
     "sources": [
-        {"id": "k1", "title": "Uyku hakkında (About Sleep)", "publisher": "CDC", "url": "https://www.cdc.gov/sleep/about/index.html"},
-        {"id": "k2", "title": "Çocuklar ve uyku (Kids and Sleep)", "publisher": "Nemours KidsHealth", "url": "https://kidshealth.org/en/kids/not-tired.html"},
-        {"id": "k3", "title": "Uyku neden önemli? (Why Is Sleep Important?)", "publisher": "NIH", "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important"},
-        {"id": "k4", "title": "Vücut saati (Circadian Rhythms)", "publisher": "NIH", "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms"},
+        {"id": "k1", "title": "About Sleep", "publisher": "CDC", "url": "https://www.cdc.gov/sleep/about/index.html"},
+        {"id": "k2", "title": "Kids and Sleep", "publisher": "KidsHealth", "url": "https://kidshealth.org/en/kids/not-tired.html"},
+        {"id": "k3", "title": "Why Is Sleep Important?", "publisher": "NIH", "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important"},
+        {"id": "k4", "title": "Your Sleep/Wake Cycle", "publisher": "NIH", "url": "https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle"},
+        {"id": "k5", "title": "Circadian Rhythms", "publisher": "NIH", "url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms"},
+        {"id": "k6", "title": "What Is Circadian Rhythm?", "publisher": "Sleep Foundation", "url": "https://www.sleepfoundation.org/circadian-rhythm"},
+        {"id": "k7", "title": "Stages of Sleep", "publisher": "Sleep Foundation", "url": "https://www.sleepfoundation.org/stages-of-sleep"},
+        {"id": "k8", "title": "Adenosine and Sleep", "publisher": "Sleep Foundation", "url": "https://www.sleepfoundation.org/how-sleep-works/adenosine-and-sleep"},
+        {"id": "k9", "title": "Why Is Sleep Important?", "publisher": "Sleep Foundation", "url": "https://www.sleepfoundation.org/how-sleep-works/why-do-we-need-sleep"},
+        {"id": "k10", "title": "Suprachiasmatic nucleus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleus"},
     ],
     "facts": [
         F(1, "Uyurken vücut, beynin sağlıklı çalışmasını ve beden sağlığını desteklemek için çalışır.", "During sleep, your body is working to support healthy brain function and maintain your physical health.", NHLBI),
-        F(2, "Vücut saati (sirkadiyen ritim), bir canlının 24 saatlik döngüde yaşadığı bedensel, zihinsel ve davranışsal değişiklikleri kapsar.", "Circadian rhythms include some of the physical, mental, and behavioral changes an organism experiences over a 24-hour cycle.", NIGMS, ["24"]),
-        F(3, "İnsanda ana saat beyindedir; büyük bir sinir hücresi grubudur.", "In vertebrate animals, including humans, the master clock exists in the brain. The human master clock is a large group of nerve cells", NIGMS),
-        F(4, "Vücut saatini en çok ışık ve karanlık etkiler; yemek, stres, hareket, sosyal çevre ve sıcaklık da etkiler.", "Light and dark have the biggest influence on circadian rhythms, but food intake, stress, physical activity, social environment, and temperature also affect them.", NIGMS),
-        F(5, "Akşam ana saat beyne daha çok melatonin üretmesini söyler; bu uyku getirir. Melatonin bir hormondur.", "In the evening, a person's master clock tells their brain to make more melatonin, causing sleepiness.", NIGMS),
-        F(6, "Sabah vücut, uyanmaya yardım eden kortizol gibi hormonlar salgılar.", "In the morning, your body releases hormones that promote alertness, such as cortisol, which helps you wake up.", NHLBI),
-        F(7, "Uyurken beyin iki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.", "As we sleep, our brains move between two types of sleep — non-REM and REM (rapid eye movement) sleep.", KH),
-        F(8, "Okul çağında bir uyku döngüsü yaklaşık 90 dakika sürer.", "By the time kids start school, one complete sleep cycle lasts about 90 minutes, which is similar to an adult's.", KH, ["90"]),
-        F(9, "REM olmayan uykunun üçüncü aşamasında vücut, büyüme ve gelişme için gereken hormonları salgılar.", "It's during this stage that the body releases hormones needed for growth and development.", KH),
-        F(10, "REM uykusunda gözler göz kapaklarının altında hızlı hareket eder.", "The eyes move quickly under the eyelids, breathing gets faster, and the heart beats faster.", KH),
-        F(11, "En canlı rüyalar REM uykusunda görülür.", "This is when we have our most vivid dreams.", KH),
-        F(12, "REM uykusunda kollar ve bacaklar hareket ettirilemez.", "You can't move your arms or legs during REM sleep.", KH),
-        F(13, "REM uykusu öğrenme ve hafıza için önemlidir.", "REM sleep is important for learning and memory.", KH),
-        F(14, "Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.", "Sleep helps with learning and the formation of long-term memories.", NHLBI),
-        F(15, "Çocuklarda ve gençlerde uyku, büyümeyi ve gelişmeyi de destekler.", "In children and teens, sleep also helps support growth and development.", NHLBI),
+        F(2, "Sirkadiyen ritimler, bir canlının 24 saatlik döngüde yaşadığı bedensel, zihinsel ve davranışsal değişiklikleri kapsar.", "Circadian rhythms include some of the physical, mental, and behavioral changes an organism experiences over a 24-hour cycle.", NIGMS, ["24"]),
+        F(3, "İnsanda ana saat beyindedir; suprakiazmatik çekirdek (SCN) adlı yapıyı oluşturan büyük bir sinir hücresi grubudur.", "The human master clock is a large group of nerve cells that form a structure called the suprachiasmatic nucleus (SCN).", NIGMS),
+        F(4, "SCN, beynin hipotalamus bölgesinde, görme sinirlerinin çaprazlaştığı yerin hemen üstündedir; binlerce nörondan oluşur.", "a small region of the brain in the hypothalamus, situated directly above the optic chiasm. ... It consists of two nuclei composed of approximately 10,000 neurons.", WIKI),
+        F(5, "Sirkadiyen ritimleri en çok ışık ve karanlık etkiler.", "Light and dark have the biggest influence on circadian rhythms", NIGMS),
+        F(6, "Gözlerle alınan ışık sinyalleri beyne gündüz olduğunu bildirir.", "light signals received through your eyes tell your brain that it is daytime.", NHLBI2),
+        F(7, "Güneş batınca beyin uyku getiren melatonin hormonunu üretmeye başlar; kandaki melatonin akşam artar, sabaha karşı en yüksek düzeye çıkar.", "As the sun sets in the evening, the brain begins producing melatonin, a hormone that induces sleepiness. / The amount of melatonin in your bloodstream starts to increase in the evening and peaks in the early morning.", SFC + "; " + NHLBI2),
+        F(8, "Uzun süre uyanık kaldıkça uyku ihtiyacı artar; bu ihtiyaç adenozin adlı bileşikle bağlantılıdır ve uyanıkken beyindeki adenozin düzeyi yükselir.", "Your body has a biological need for sleep that increases when you have been awake for a long time. A compound called adenosine is linked to this need for sleep. While you are awake, the level of adenosine in your brain continues to rise.", NHLBI2),
+        F(9, "Uyurken beyin adenozini yeniden ATP'ye (enerji molekülüne) çevirir ve uyku baskısı ortadan kalkar.", "While you sleep, the brain converts adenosine back into ATP, essentially eliminating your sleep drive.", SFA),
+        F(10, "Uyku dört evreden oluşur: üçü REM olmayan (N1, N2, N3), biri REM. Bir gecede dört ila altı döngü yaşanır; bir döngü ortalama 90 dakika sürer.", "one for rapid eye movement (REM) sleep and three that form non-REM (NREM) sleep / In a typical night, a person goes through four to six sleep cycles / on average they last about 90 minutes each.", SFS, ["90", "4", "6", "1", "2", "3"]),
+        F(11, "Üçüncü evre (N3) derin uykudur; vücudun toparlanması ve büyümesi için kritik sayılır, bağışıklık sistemini de destekleyebilir.", "Stage 3 (N3 or deep sleep) ... Experts believe that this stage is critical to restorative sleep, allowing for bodily recovery and growth. It may also bolster the immune system", SFS, ["3"]),
+        F(12, "Büyüme ve gelişme için gereken hormonlar REM olmayan uykunun üçüncü evresinde salgılanır; büyüme hormonu dokuların büyümesi ve onarılması için gereklidir.", "It's during this stage that the body releases hormones needed for growth and development. / Sleep provides the release of growth hormone necessary for the body's tissues to grow and repair damage.", KH + "; " + SFW),
+        F(13, "REM uykusunda gözler kapalıyken hızla hareket eder; beyin etkinliği uyanıklık düzeyine yaklaşır; kaslar geçici olarak felç olur (atoni); en canlı rüyalar bu evrede görülür.", "brain activity picks up, nearing levels seen when you're awake. / the body experiences atonia, which is a temporary paralysis of the muscles / Even though they're closed, the eyes move rapidly / This is when we have our most vivid dreams.", SFS + "; " + KH),
+        F(14, "REM uykusu hafıza, öğrenme ve yaratıcılık için önemli kabul edilir; uyku uzun süreli anıların oluşmasına yardım eder.", "REM sleep is believed to be essential to cognitive functions like memory, learning, and creativity. / Sleep helps with learning and the formation of long-term memories.", SFS + "; " + NHLBI),
+        F(15, "Uyku, vücudun enerji tasarrufu yapmasını sağlar.", "Sleep allows people to conserve energy through an extended period of reduced activity.", SFW),
         F(16, "Uyurken bir tür bağışıklık hücresi daha çok çalışır; yeterince uyumayanlar nezleye ve başka enfeksiyonlara daha kolay yakalanabilir.", "when you sleep, a particular type of immune cell works harder. That is why people who do not sleep enough may be more likely to get colds and other infections.", NHLBI),
-        F(17, "Yeterince uyumayan çocuklar dikkatini toplamakta zorlanabilir; huysuz, sinirli ya da keyifsiz olabilir.", "kids who don't get enough sleep can have trouble paying attention ... be cranky, whiny, irritable, or moody", KH),
+        F(17, "Yeterince uyumayan çocuklar dikkatini toplamakta zorlanabilir; huysuz ya da keyifsiz olabilir.", "kids who don't get enough sleep can have trouble paying attention ... be cranky, whiny, irritable, or moody", KH),
         F(18, "6–12 yaş için önerilen günlük uyku 9–12 saattir.", "School age, 6–12 years, 9–12 hours", CDC, ["6", "12", "9"]),
         F(19, "13–17 yaş için önerilen günlük uyku 8–10 saattir.", "Teen, 13–17 years, 8–10 hours", CDC, ["13", "17", "8", "10"]),
         F(20, "Her gün aynı saatte yatıp kalkmak daha iyi uykuya yardım eder.", "Going to bed and getting up at the same time every day.", CDC),
         F(21, "Yatmadan en az 30 dakika önce elektronik cihazları kapatmak önerilir.", "Turning off electronic devices at least 30 minutes before bedtime.", CDC, ["30"]),
         F(22, "Geceleri elektronik cihazların ışığı biyolojik saati şaşırtabilir.", "Light from electronic devices at night can confuse biological clocks.", NIGMS),
-        F(23, "Yatak odasının sessiz, rahatlatıcı ve serin olması önerilir.", "Keeping your bedroom quiet, relaxing, and at a cool temperature.", CDC),
-        F(24, "Düzenli hareket etmek ve sağlıklı beslenmek daha iyi uykuya yardım eder.", "Exercising regularly and maintaining a healthy diet.", CDC),
+        F(23, "Birçok gencin yetişkinlerden daha geç yatmayı ve sabah daha geç kalkmayı tercih etmesi doğaldır.", "it is natural for many teens to prefer later bedtimes and to sleep later in the morning than adults.", NHLBI2),
+        F(24, "Kafein temel olarak adenozin alıcılarını kapatarak etki eder.", "The primary way that caffeine works is by blocking adenosine receptors", SFA),
     ],
 }
 
@@ -51,48 +66,52 @@ def L(text, f=(), spoken=None):
 
 sections = [
     ("hook", [
-        L("Dün gece yatağa girdin, gözlerini kapadın ve... pat! Bir anda sabah oldu."),
-        L("Peki aradaki o saatlerde ne oldu? Vücudun düğmesine basılıp kapandı mı?"),
-        L("Hiç de değil! Sen uyurken içeride koca bir gece vardiyası çalışıyor. Hadi, gizlice bakalım!", [1]),
+        L("Dün gece yatağa girdin, gözlerini kapadın ve... pat! Sabah oldu. Peki aradaki saatlerde ne oldu?"),
+        L("Vücudun kapanmadı. Tam tersine: beynin gece boyunca planlı bir program yürüttü.", [1]),
+        L("Bugün o programı adım adım çözüyoruz!"),
     ]),
     ("context", [
-        L("Ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!"),
-        L("Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?"),
-        L("Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: CDC, NIH ve Nemours KidsHealth.", spoken="Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: Si Di Si, En Ay Eyç ve Nemurs Kids Helt."),
-        L("Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum!"),
+        L("Ben uyumam, şarj olurum. Ama insan uykusu benim şarjımdan çok daha karmaşık!"),
+        L("Üç sorumuz var. Vücudumuz uyku vaktini nasıl anlıyor? Uyurken beyinde hangi evreler yaşanıyor? Ve bu kadar uyumak neye yarıyor?"),
+        L("Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum."),
     ]),
     ("method", [
-        L("Önce şunu çözelim: Vücudun, uyku vaktinin geldiğini nereden biliyor?"),
-        L("Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik 24 saatlik bir döngüyle tekrarlanır.", [2], "Çünkü içinde bir saat var! Vücudumuzdaki pek çok değişiklik yirmi dört saatlik bir döngüyle tekrarlanır."),
-        L("Bu saatin patronu beynindedir. Adı: ana saat. Merak etme, pili bitmez!", [3]),
-        L("Ana saati en çok ışık ve karanlık etkiler.", [4]),
-        L("Akşam olunca ana saat beynine şöyle der: Daha çok melatonin üret! Melatonin bir hormondur ve uykunu getirir.", [5]),
-        L("Yani akşam esnemeye başladıysan suçlu belli: melatonin!", [5]),
+        L("Uyku vaktini iki ayrı sistem birlikte belirler. Birincisi: biyolojik saat."),
+        L("Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre vücudumuzdaki pek çok değişiklik 24 saatlik bir döngüyle tekrarlanır. Buna sirkadiyen ritim denir.", [2], "Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'e göre vücudumuzdaki pek çok değişiklik yirmi dört saatlik bir döngüyle tekrarlanır. Buna sirkadiyen ritim denir."),
+        L("Bu ritmi yöneten ana saat beynimizdedir. Adı biraz uzun: suprakiazmatik çekirdek. Kısaca SCN.", [3], "Bu ritmi yöneten ana saat beynimizdedir. Adı biraz uzun: suprakiazmatik çekirdek. Kısaca Es Si En."),
+        L("SCN, beynin hipotalamus adlı bölgesinde, görme sinirlerinin çaprazlaştığı noktanın hemen üstünde yer alır ve binlerce sinir hücresinden oluşur.", [4], "Es Si En, beynin hipotalamus adlı bölgesinde, görme sinirlerinin çaprazlaştığı noktanın hemen üstünde yer alır ve binlerce sinir hücresinden oluşur."),
+        L("Onu bir orkestra şefi gibi düşün: vücuttaki ritimlerin aynı tempoda çalmasını sağlar.", [3]),
+        L("Şefin en önemli işareti ışıktır. Gözlerine gelen ışık, beynine şu mesajı yollar: Şu an gündüz!", [5, 6]),
+        L("Güneş batınca beyin melatonin üretmeye başlar. Melatonin, uykuyu getiren bir hormondur. Kandaki miktarı akşam artar, sabaha karşı en yüksek düzeye çıkar.", [7]),
+        L("İkinci sistem: uyku baskısı. Uyanık kaldığın her saat, beyninde adenozin adlı bir madde birikir.", [8]),
+        L("Adenozin arttıkça uyuma ihtiyacın büyür. Uyuduğunda ise beyin bu maddeyi yeniden enerji molekülüne çevirir ve baskı ortadan kalkar.", [8, 9]),
+        L("Yani gün sonunda esniyorsan tembel değilsin. Adenozin deposu doldu, o kadar!", [8]),
     ]),
     ("finding", [
-        L("Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. İki tür uyku arasında gidip gelir: REM olmayan uyku ve REM uykusu.", [1, 7], "Şimdi işin sırrına geliyoruz. Uyuyunca beynin kapanmaz. İki tür uyku arasında gidip gelir: Rem olmayan uyku ve Rem uykusu."),
-        L("Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık 90 dakika sürer.", [8], "Okul çağındaki çocuklarda bir uyku döngüsü yaklaşık doksan dakika sürer."),
-        L("REM olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar.", [9], "Rem olmayan uykunun üçüncü aşamasında vücudun, büyüme ve gelişme için gereken hormonları salgılar."),
-        L("Yani büyümek, biraz da yastık işi!", [9, 15]),
-        L("REM uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder. En canlı rüyalarımızı da bu sırada görürüz.", [10, 11], "Rem uykusunda ise gözlerin, kapalı göz kapaklarının altında hızlı hızlı hareket eder. En canlı rüyalarımızı da bu sırada görürüz."),
-        L("İlginç olan şu: REM uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!", [12], "İlginç olan şu: Rem uykusunda kollarını ve bacaklarını oynatamazsın. Düşünsene, yoksa rüyanda gol atarken yorgan havada uçardı!"),
-        L("Uyku, öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.", [13, 14]),
-        L("Seni hastalıklardan da korur. Sen uyurken bir tür bağışıklık hücresi daha çok çalışır.", [16]),
-        L("Peki yeterince uyumazsak? Dikkatimizi toplamak zorlaşır. Huysuz ve keyifsiz olabiliriz.", [17]),
-        L("O zaman ne kadar uyumalıyız? 6–12 yaş arasındaysan günde 9–12 saat.", [18], "O zaman ne kadar uyumalıyız? Altı ile on iki yaş arasındaysan günde dokuz ile on iki saat."),
-        L("13–17 yaş arasındaysan 8–10 saat.", [19], "On üç ile on yedi yaş arasındaysan sekiz ile on saat."),
+        L("Peki uykuya dalınca ne olur? Sleep Foundation'a göre uyku dört evreden oluşur: üçü REM olmayan evre, biri REM.", [10], "Peki uykuya dalınca ne olur? Sliip Faundeyşın'a göre uyku dört evreden oluşur: üçü Rem olmayan evre, biri Rem."),
+        L("Bu evreler sırayla bir döngü oluşturur. Bir döngü ortalama 90 dakika sürer ve bir gecede 4–6 döngü yaşarız.", [10], "Bu evreler sırayla bir döngü oluşturur. Bir döngü ortalama doksan dakika sürer ve bir gecede dört ile altı döngü yaşarız."),
+        L("Üçüncü evreye derin uyku denir. Bu evre, vücudun toparlanması ve büyümesi için kritik sayılır.", [11]),
+        L("KidsHealth'e göre büyüme için gereken hormonlar da bu evrede salgılanır. Yani büyümek, biraz da yastık işi!", [12], "Kids Helt'e göre büyüme için gereken hormonlar da bu evrede salgılanır. Yani büyümek, biraz da yastık işi!"),
+        L("Dördüncü evre REM uykusudur. REM, hızlı göz hareketi demektir: gözlerin kapalıdır ama hızla hareket eder.", [13], "Dördüncü evre Rem uykusudur. Rem, hızlı göz hareketi demektir: gözlerin kapalıdır ama hızla hareket eder."),
+        L("Bu evrede beyin etkinliği neredeyse uyanıkkenki düzeye çıkar. En canlı rüyalar da burada görülür.", [13]),
+        L("Aynı anda kasların geçici olarak felç olur. Buna atoni denir. İyi ki öyle: yoksa rüyanda gol atarken yorgan havada uçardı!", [13]),
+        L("REM uykusu hafıza, öğrenme ve yaratıcılık için önemli kabul edilir. Uyku, öğrendiklerinin uzun süreli anılara dönüşmesine yardım eder.", [14], "Rem uykusu hafıza, öğrenme ve yaratıcılık için önemli kabul edilir. Uyku, öğrendiklerinin uzun süreli anılara dönüşmesine yardım eder."),
     ]),
     ("importance", [
-        L("Şimdi sıra sende! Bir haftalık uyku dedektifi görevine hazır mısın?"),
-        L("Bir: Her gün aynı saatte yat, aynı saatte kalk.", [20]),
-        L("İki: Yatmadan en az 30 dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir.", [21, 22], "İki: Yatmadan en az otuz dakika önce ekranları kapat. Çünkü geceleri elektronik cihazların ışığı vücut saatini şaşırtabilir."),
-        L("Üç: Odan sessiz, sakin ve serin olsun.", [23]),
-        L("Dört: Her sabah nasıl hissettiğini bir kâğıda not et, hafta sonunda karşılaştır."),
+        L("Peki bunca saat uyumak neye yarıyor? Uyku, vücudun enerji tasarrufu yapmasını sağlar. Büyüme hormonu da dokuların büyümesine ve onarılmasına yardım eder.", [15, 12]),
+        L("Bağışıklık sistemin de güçlenir. NIH'ye göre uyurken bazı bağışıklık hücreleri daha çok çalışır; az uyuyanlar nezleye daha kolay yakalanabilir.", [16], "Bağışıklık sistemin de güçlenir. En Ay Eyç'e göre uyurken bazı bağışıklık hücreleri daha çok çalışır; az uyuyanlar nezleye daha kolay yakalanabilir."),
+        L("Yeterince uyumazsan dikkatini toplamak zorlaşır, keyfin de kaçabilir.", [17]),
+        L("CDC'ye göre 6–12 yaş arasındakilerin günde 9–12 saat, 13–17 yaş arasındakilerin 8–10 saat uyuması önerilir.", [18, 19], "Si Di Si'ye göre altı ile on iki yaş arasındakilerin günde dokuz ile on iki saat, on üç ile on yedi yaş arasındakilerin sekiz ile on saat uyuması önerilir."),
+        L("Bir ayrıntı daha: birçok gencin daha geç yatıp daha geç kalkmak istemesi doğaldır. Bu, tembellik değildir.", [23]),
+        L("Şimdi sıra sende! Bir hafta boyunca uyku günlüğü tut."),
+        L("Her gün aynı saatte yat ve kalk. Yatmadan en az 30 dakika önce ekranları kapat; çünkü cihazların ışığı biyolojik saati şaşırtabilir.", [20, 21, 22], "Her gün aynı saatte yat ve kalk. Yatmadan en az otuz dakika önce ekranları kapat; çünkü cihazların ışığı biyolojik saati şaşırtabilir."),
+        L("Her sabah kaç saat uyuduğunu ve kendini nasıl hissettiğini not et. Hafta sonunda verilerine bak: tıpkı bir bilim insanı gibi!"),
     ]),
     ("limitations", [
-        L("Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?", [11]),
-        L("Düşün bakalım... Evet: REM uykusunda!", [11], "Düşün bakalım... Evet: Rem uykusunda!"),
-        L("Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!"),
+        L("Bunu biliyor muydun? Kafein, adenozinin bağlandığı alıcıları kapatır. Kafeinli içeceklerin uykuyu kaçırmasının nedeni budur.", [24]),
+        L("Hızlı soru! Beynimizdeki ana saatin kısa adı neydi?", [3]),
+        L("Düşün bakalım... Evet: SCN!", [3], "Düşün bakalım... Evet: Es Si En!"),
+        L("Bende SCN yok. Ama çok güzel bir şarj göstergem var!", [], "Bende Es Si En yok. Ama çok güzel bir şarj göstergem var!"),
         L("Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!"),
     ]),
     ("summary", [
@@ -101,33 +120,35 @@ sections = [
         L("Abone olmayı ve zili açmayı unutma. Ben de gidip biraz şarj olayım!"),
     ]),
 ]
-STYLE = ["cheerful children's educational song", "upbeat marching band rhythm", "cartoon theme song energy", "bright glockenspiel, snare drum, tuba, hand claps", "catchy sing-along melody", "120 BPM", "clear enthusiastic lead vocal in Turkish", "kids choir shouting along in the chorus", "major key"]
+STYLE = ["cheerful educational pop song", "upbeat marching band rhythm", "cartoon theme song energy", "bright glockenspiel, snare drum, tuba, hand claps", "catchy sing-along melody", "120 BPM", "clear enthusiastic lead vocal in Turkish", "group vocals shouting along in the chorus", "major key"]
 song = {
-    "title": "Uyu, Büyü, Öğren!",
+    "title": "Uykunun Bilimi",
     "style": STYLE,
-    "negativeStyle": ["sad", "slow", "dark", "heavy distortion", "mumbled vocals", "long instrumental solo"],
-    "cast": [{"emoji": "🌙", "name": "Ay"}, {"emoji": "⏰", "name": "Ana Saat"}, {"emoji": "🧠", "name": "Beyin"}, {"emoji": "⭐", "name": "Yıldız"}, {"emoji": "🛏️", "name": "Yatak"}],
+    "negativeStyle": ["sad", "slow", "dark", "heavy distortion", "mumbled vocals", "long instrumental solo", "lullaby"],
+    "cast": [{"emoji": "☀️", "name": "Işık"}, {"emoji": "🧠", "name": "Ana saat"}, {"emoji": "🌙", "name": "Melatonin"}, {"emoji": "⏳", "name": "Adenozin"}, {"emoji": "💭", "name": "REM"}],
     "sections": [
         {"tag": "Intro", "label": "Giriş", "direction": "snare drum roll, hand claps", "lines": ["Hey! Hey! Hey!"], "durationMs": 5000},
-        {"tag": "Verse 1", "label": "Kıta", "lines": ["İçimizde bir saat var, tik tak, tik tak döner", "Akşam olur, melatonin \"haydi uyku\" der"], "durationMs": 12000},
-        {"tag": "Chorus", "label": "Nakarat", "lines": ["Uyu, büyü, öğren, güçlen!", "Uyku senin süper gücün!", "Uyu, büyü, öğren, güçlen!", "Her gece yeniden!"], "durationMs": 12000},
-        {"tag": "Verse 2", "label": "Kıta", "lines": ["Rüyalar REM'de gelir, gözler hızlı hızlı", "Öğrendiğin her şey hafızana yazılı", "Sen uyurken vücudun büyümeye çalışır", "Bağışıklık hücrelerin gece boyu çalışır"], "durationMs": 16000},
-        {"tag": "Chorus", "label": "Nakarat", "lines": ["Uyu, büyü, öğren, güçlen!", "Uyku senin süper gücün!", "Ekranı kapat, aynı saatte yat", "Muma'yla öğrendik, hey!"], "durationMs": 14000},
+        {"tag": "Verse 1", "label": "Kıta", "lines": ["Beynimde bir şef var, hipotalamusta", "Işık gelir gözümden, ritmi tutar ustaca", "Güneş batar, melatonin yükselir", "Adenozin birikir, uyku gelir"], "durationMs": 15000},
+        {"tag": "Chorus", "label": "Nakarat", "lines": ["Uyku bir bilim, uyku bir güç!", "Döngü döngü, doksan dakika", "Derin uyku onarır, REM öğretir", "Beynim her gece çalışır"], "durationMs": 13000},
+        {"tag": "Verse 2", "label": "Kıta", "lines": ["Derin uykuda büyüme hormonu", "REM'de rüyalar, kaslarda atoni", "Hafıza güçlenir, bağışıklık çalışır", "Sabaha bedenim yeniden hazır"], "durationMs": 15000},
+        {"tag": "Chorus", "label": "Nakarat", "lines": ["Uyku bir bilim, uyku bir güç!", "Döngü döngü, doksan dakika", "Ekranı kapat, saatinde yat", "Muma'yla öğrendik, hey!"], "durationMs": 13000},
     ],
 }
 script = {
     "paperId": PID, "episodeNumber": 2, "videoTitle": "Neden uyuruz?", "paperTitleTr": "Neden uyuruz?",
     "sections": [{"id": s, "lines": ls} for s, ls in sections],
-    "takeaways": ["İçimizde bir saat var; melatonin uyku getirir", "Uyku, öğrenmeye ve hafızaya yardım eder", "Uyku büyümeye ve sağlığa yardım eder"],
+    "takeaways": ["Ana saat (SCN) ve melatonin uyku vaktini ayarlar", "Uyku, evrelerden oluşan döngülerle ilerler", "Derin uyku onarır; REM hafızaya ve öğrenmeye yardım eder"],
     "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
-    "description": "Uyurken vücudumuz kapanır mı? Hiç de değil! Muma ile vücut saatini, melatonini, REM uykusunu ve rüyaları keşfediyoruz. Uyku neden öğrenmeye, büyümeye ve sağlıklı kalmaya yardım eder, kaç saat uyumalıyız? Sonunda bir haftalık uyku dedektifi görevi ve dans eden arkadaşlarımızla bir uyku şarkısı var!",
+    "description": "Uyurken beynimiz kapanmaz; planlı bir program yürütür. Bu bölümde beynimizdeki ana saati (SCN), sirkadiyen ritmi, melatonini ve adenozini; uykunun evrelerini, derin uykuyu ve REM uykusunu keşfediyoruz. Kaç saat uyumalıyız, ekran ışığı neden uykuyu kaçırır? Sonunda bir haftalık uyku günlüğü deneyi ve konuyu özetleyen bir şarkı var.",
     "glossary": [
-        {"term": "Melatonin", "meaning": "Akşam olunca beynimizin ürettiği ve uykumuzu getiren hormon."},
-        {"term": "Hormon", "meaning": "Vücudun bir yerinden başka bir yerine haber taşıyan minik madde."},
-        {"term": "Ana saat", "meaning": "Beynimizde, vücudun günlük düzenini ayarlayan sinir hücreleri grubu."},
-        {"term": "REM uykusu", "meaning": "Gözlerin hızlı hareket ettiği ve en canlı rüyaların görüldüğü uyku türü."},
-        {"term": "Bağışıklık", "meaning": "Vücudun mikroplara karşı kendini savunma gücü."},
-        {"term": "Hafıza", "meaning": "Öğrendiklerimizi ve yaşadıklarımızı aklımızda tutma yeteneği."},
+        {"term": "Sirkadiyen ritim", "meaning": "Vücudumuzdaki değişikliklerin yaklaşık bir günlük döngüyle tekrarlanması."},
+        {"term": "Suprakiazmatik çekirdek (SCN)", "meaning": "Beyindeki ana saat; vücudun günlük ritimlerini yöneten sinir hücresi grubu."},
+        {"term": "Hipotalamus", "meaning": "Beynin alt kısmında, SCN'nin de bulunduğu küçük bölge."},
+        {"term": "Melatonin", "meaning": "Karanlıkta beynin ürettiği ve uykuyu getiren hormon."},
+        {"term": "Hormon", "meaning": "Vücudun bir yerinden başka bir yerine haber taşıyan madde."},
+        {"term": "Adenozin", "meaning": "Uyanık kaldıkça beyinde biriken ve uyku ihtiyacını artıran madde."},
+        {"term": "REM", "meaning": "Hızlı göz hareketi; en canlı rüyaların görüldüğü uyku evresi."},
+        {"term": "Atoni", "meaning": "REM uykusunda kasların geçici olarak hareket edememesi."},
     ],
     "song": song,
 }
@@ -137,36 +158,30 @@ by = {l["id"]: l for s, ls in sections for l in ls}
 sec_of = {l["id"]: s for s, ls in sections for l in ls}
 pos = 0
 scenes = []
-def S(k, visual, mascot, note=None):
+M = {"state": "talk", "x": 0.87, "y": 0.54, "scale": 1.15}  # ara sahnelerde kullanılmaz; yalnızca kapanışta geçerli
+def S(k, visual, extra=()):  # extra: görseldeki sayıların dayandığı ek olgular
     global pos
     li = allids[pos:pos + k]; pos += k
-    sc = {"id": f"s{len(scenes)+1}", "section": sec_of[li[0]], "lineIds": li, "visual": visual, "mascot": mascot,
-          "factIds": sorted({f for i in li for f in by[i]["factIds"]}, key=lambda x: int(x[1:]))}
-    if note: sc["sourceNote"] = note
-    scenes.append(sc)
-def R(state, x=0.87, y=0.56, s=1.0, at=None, pose=None):
-    c = {"state": state, "x": x, "y": y, "scale": s}
-    if at: c["pointAt"] = {"x": at[0], "y": at[1]}
-    if pose: c["pose"] = pose
-    return c
-BIG, SIDE, SMALL, LEFT = (0.87, 0.54, 1.15), (0.88, 0.55, 1.0), (0.91, 0.6, 0.85), (0.15, 0.5, 1.45)
+    scenes.append({"id": f"s{len(scenes)+1}", "section": sec_of[li[0]], "lineIds": li, "visual": visual, "mascot": M,
+                   "factIds": sorted({f for i in li for f in by[i]["factIds"]} | {f"f{e}" for e in extra}, key=lambda x: int(x[1:]))})
 
-S(3, {"type": "hook", "question": "Uyuyunca vücudumuz kapanır mı?", "emoji": "😴"}, R("think", *LEFT))
-S(2, {"type": "bullets", "title": "Bugünün soruları", "items": ["Neden uyuruz?", "Uyurken içeride neler olur?", "Ne kadar uyumalıyız?"]}, R("talk", *BIG, pose="wave"))
-S(2, {"type": "source-card"}, R("talk", *SIDE))
-S(2, {"type": "big-number", "value": "24", "unit": "saat", "label": "Vücut saatimizin bir turu", "sub": "Pek çok değişiklik bu döngüyle tekrarlanır"}, R("point", 0.83, 0.52, 1.25, (0.3, 0.4)), "NIH (NIGMS)")
-S(4, {"type": "diagram", "title": "Uykumuz nasıl gelir?", "layout": "flow", "nodes": [{"label": "Akşam olur, ışık azalır", "emoji": "🌆"}, {"label": "Ana saat beyne haber verir", "emoji": "🧠"}, {"label": "Melatonin artar", "emoji": "🧪"}, {"label": "Uykun gelir", "emoji": "🥱"}]}, R("talk", 0.92, 0.66, 0.72), "NIH (NIGMS)")
-S(2, {"type": "big-number", "value": "90", "unit": "dakika", "label": "Bir uyku döngüsü (okul çağında)", "sub": "Beyin iki tür uyku arasında gidip gelir"}, R("point", 0.83, 0.52, 1.25, (0.3, 0.4)), "Nemours KidsHealth")
-S(2, {"type": "quote-card", "quote": "Bu aşamada vücut, büyüme ve gelişme için gereken hormonları salgılar.", "attribution": "Nemours KidsHealth (çeviri)"}, R("talk", 0.86, 0.54, 1.15, pose="book"), "Nemours KidsHealth")
-S(2, {"type": "comparison", "title": "İki tür uyku", "left": {"title": "🌙 REM olmayan uyku", "items": ["Üçüncü aşamada büyüme ve gelişme hormonları salgılanır"]}, "right": {"title": "💭 REM uykusu", "items": ["Gözler hızlı hızlı hareket eder", "En canlı rüyalar", "Kollar ve bacaklar hareket etmez"]}}, R("point", 0.91, 0.6, 0.85, (0.55, 0.45)), "Nemours KidsHealth")
-S(2, {"type": "bullets", "title": "Uyku ne işe yarar?", "items": ["Öğrenmeye ve hafızaya yardım eder", "Bağışıklık hücreleri daha çok çalışır", "Büyümeyi ve gelişmeyi destekler"]}, R("talk", *BIG), "NIH (NHLBI)")
-S(1, {"type": "hook", "question": "Peki yeterince uyumazsak?", "emoji": "😵‍💫"}, R("think", *LEFT), "Nemours KidsHealth")
-S(2, {"type": "bar-chart", "title": "Günde kaç saat uyku?", "unit": "saat", "bars": [{"label": "6–12 yaş: en az", "value": 9, "display": "9"}, {"label": "6–12 yaş: en çok", "value": 12, "display": "12", "highlight": True}, {"label": "13–17 yaş: en az", "value": 8, "display": "8"}, {"label": "13–17 yaş: en çok", "value": 10, "display": "10", "highlight": True}]}, R("point", 0.92, 0.62, 0.75, (0.5, 0.4)), "CDC")
-S(5, {"type": "bullets", "title": "Uyku dedektifi görevi 🔎", "items": ["Her gün aynı saatte yat ve kalk", "Yatmadan 30 dakika önce ekranları kapat", "Odan sessiz, sakin ve serin olsun", "Her sabah nasıl hissettiğini not et"]}, R("talk", *BIG), "CDC")
-S(3, {"type": "hook", "question": "En canlı rüyaları hangi uykuda görürüz?", "emoji": "🤔"}, R("think", *LEFT))
-S(1, {"type": "song"}, R("talk", 0.86, 0.52, 1.3, pose="thumbs"))
-S(3, {"type": "outro"}, R("talk", *BIG))
+S(3, {"type": "hook", "question": "Uyurken beynimiz ne yapıyor?", "emoji": "😴"})
+S(3, {"type": "bullets", "title": "Bugünün soruları", "items": ["Vücudumuz uyku vaktini nasıl anlıyor?", "Uyurken beyinde hangi evreler yaşanıyor?", "Bu kadar uyumak neye yarıyor?"]})
+S(2, {"type": "big-number", "value": "24", "unit": "saat", "label": "Sirkadiyen ritmin bir turu", "sub": "Birinci sistem: biyolojik saat"})
+S(3, {"type": "bullets", "title": "Ana saat: SCN", "items": ["Suprakiazmatik çekirdek (SCN)", "Beynin hipotalamus bölgesinde", "Binlerce sinir hücresinden oluşur", "Orkestra şefi gibi ritimleri yönetir"]})
+S(2, {"type": "diagram", "title": "Işıktan melatonine", "layout": "flow", "nodes": [{"label": "Işık göze gelir", "emoji": "☀️"}, {"label": "Beyin: şu an gündüz", "emoji": "🧠"}, {"label": "Güneş batar", "emoji": "🌆"}, {"label": "Melatonin artar", "emoji": "🧪"}, {"label": "Uyku gelir", "emoji": "🥱"}]})
+S(3, {"type": "analogy", "template": "fill", "title": "İkinci sistem: uyku baskısı", "a": {"label": "Sabah: adenozin az", "value": 15}, "b": {"label": "Gece: adenozin çok", "value": 90}, "caption": "Uyanık kaldıkça adenozin birikir; uykuda sıfırlanır. (Çizim ölçekli değildir.)"})
+S(2, {"type": "big-number", "value": "90", "unit": "dakika", "label": "Bir uyku döngüsünün ortalama süresi", "sub": "Bir gecede 4–6 döngü"})
+S(2, {"type": "diagram", "title": "Uykunun dört evresi", "layout": "cycle", "nodes": [{"label": "1. evre (N1)", "emoji": "🌥️"}, {"label": "2. evre (N2)", "emoji": "☁️"}, {"label": "3. evre: derin uyku (N3)", "emoji": "🌊"}, {"label": "REM", "emoji": "💭"}]}, extra=[10])
+S(4, {"type": "comparison", "title": "Derin uyku ve REM", "left": {"title": "🌊 Derin uyku (N3)", "items": ["Vücut toparlanır ve büyür", "Büyüme hormonları salgılanır"]}, "right": {"title": "💭 REM uykusu", "items": ["Gözler hızla hareket eder", "Beyin neredeyse uyanıkkenki kadar etkin", "En canlı rüyalar", "Kaslar geçici olarak felç olur (atoni)"]}}, extra=[11])
+S(3, {"type": "bullets", "title": "Uyumak neye yarıyor?", "items": ["Enerji tasarrufu", "Dokuların büyümesi ve onarılması", "Daha güçlü bağışıklık", "Dikkat ve öğrenme"]})
+S(2, {"type": "bar-chart", "title": "Önerilen günlük uyku (CDC)", "unit": "saat", "bars": [{"label": "6–12 yaş: en az", "value": 9, "display": "9"}, {"label": "6–12 yaş: en çok", "value": 12, "display": "12", "highlight": True}, {"label": "13–17 yaş: en az", "value": 8, "display": "8"}, {"label": "13–17 yaş: en çok", "value": 10, "display": "10", "highlight": True}]})
+S(3, {"type": "bullets", "title": "Deney: bir haftalık uyku günlüğü 🔬", "items": ["Her gün aynı saatte yat ve kalk", "Yatmadan 30 dakika önce ekranları kapat", "Uyku süreni ve nasıl hissettiğini not et", "Hafta sonunda verilerini karşılaştır"]})
+S(1, {"type": "quote-card", "quote": "Kafein, temel olarak adenozin alıcılarını kapatarak etki eder.", "attribution": "Sleep Foundation (çeviri)"})
+S(3, {"type": "hook", "question": "Beynimizdeki ana saatin kısa adı neydi?", "emoji": "🤔"})
+S(1, {"type": "song"})
+S(3, {"type": "outro"})
 assert pos == len(allids), (pos, len(allids))
 for name, data in (("facts", facts), ("script", script), ("scenes", {"scenes": scenes})):
     json.dump(data, open(os.path.join(D, name + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("satır:", len(allids), "sahne:", len(scenes), "kelime:", sum(len(l["spoken"].split()) for s, ls in sections for l in ls))
+print("satır:", len(allids), "sahne:", len(scenes), "kelime:", sum(len(l["spoken"].split()) for s, ls in sections for l in ls), "karakter:", sum(len(l["spoken"]) for s, ls in sections for l in ls))

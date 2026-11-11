@@ -6,7 +6,7 @@ const strings = (v: unknown, skip = new Set(["type", "template", "layout", "tone
   typeof v === "string" ? [v] : Array.isArray(v) ? v.flatMap((x) => strings(x, skip))
     : v && typeof v === "object" ? Object.entries(v).filter(([k]) => !skip.has(k)).flatMap(([, x]) => strings(x, skip)) : [];
 
-export const validatePlan = (plan: ScenePlan, script: Script, facts: Facts): Report => {
+export const validatePlan = (plan: ScenePlan, script: Script, facts: Facts, topic = false): Report => {
   const errors: string[] = [], warnings: string[] = [];
   const factById = new Map(facts.facts.map((f) => [f.id, f]));
   const lines = script.sections.flatMap((s) => s.lines.map((l) => ({ ...l, section: s.id })));
@@ -43,7 +43,9 @@ export const validatePlan = (plan: ScenePlan, script: Script, facts: Facts): Rep
   if (script.song && songScenes.length !== 1) errors.push("Senaryoda şarkı var: sahne planında tam bir tane \"song\" sahnesi olmalı (kapanıştan hemen önce)");
   if (!script.song && songScenes.length) errors.push("Sahne planında şarkı sahnesi var ama senaryoda şarkı yok");
   if (songScenes.length && plan.scenes[plan.scenes.length - 2]?.visual.type !== "song") errors.push("Şarkı sahnesi kapanıştan (outro) hemen önce gelmeli");
-  if (!plan.scenes.some((s) => s.visual.type === "source-card")) errors.push("Künye için source-card sahnesi yok");
+  // Makale bölümlerinde künye kartı zorunlu; konu bölümlerinde kaynak bölümü yoktur (kaynaklar cümle içinde anılır).
+  if (!topic && !plan.scenes.some((s) => s.visual.type === "source-card")) errors.push("Künye için source-card sahnesi yok");
+  if (topic && plan.scenes.some((s) => s.visual.type === "source-card")) errors.push("Konu bölümlerinde kaynak kartı kullanılmaz; kaynak adı cümle içinde geçer");
   const types = new Set(plan.scenes.map((s) => s.visual.type));
   if (types.size < 5) warnings.push(`Yalnızca ${types.size} farklı sahne tipi kullanılmış`);
   const pos = new Set(plan.scenes.map((s) => `${s.mascot.x.toFixed(1)},${s.mascot.y.toFixed(1)},${s.mascot.scale.toFixed(1)}`));

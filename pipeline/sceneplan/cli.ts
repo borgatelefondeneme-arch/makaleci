@@ -14,7 +14,7 @@ const script = readJson(p.script, Script);
 const facts = readJson(p.facts, Facts);
 const out = await generateJson({ stage: "scenes", manualDir: p.manual, system: SCENES_SYSTEM, prompt: scenesPrompt(script, facts), schema: z.object({ scenes: z.array(Scene) }) });
 const plan: ScenePlan = { paperId: script.paperId, scenes: out.scenes };
-const report = validatePlan(plan, script, facts);
+const report = validatePlan(plan, script, facts, script.paperId.startsWith("topic:"));
 printReport("Sahne planı denetimi", report);
 if (report.errors.length) fail("Sahne planı denetimden geçemedi.");
 writeJson(p.scenes, ScenePlan, plan);

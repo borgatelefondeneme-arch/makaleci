@@ -2,116 +2,126 @@
   "provider": "elevenlabs",
   "model": "music_v2_5",
   "audioFile": "song.mp3",
-  "durationSec": 59.115102,
-  "title": "Uyu, Büyü, Öğren!",
+  "durationSec": 61.048125,
+  "title": "Uykunun Bilimi",
   "sections": [
     {
       "label": "Giriş",
       "start": 0,
-      "end": 5.01,
+      "end": 5,
       "lines": [
         {
           "text": "Hey! Hey! Hey!",
           "start": 0.75,
-          "end": 5.01
+          "end": 5
         }
       ]
     },
     {
       "label": "Kıta",
-      "start": 5.01,
-      "end": 17.03,
+      "start": 5,
+      "end": 20.02,
       "lines": [
         {
-          "text": "İçimizde bir saat var, tik tak, tik tak döner",
-          "start": 5.16,
-          "end": 11.29
+          "text": "Beynimde bir şef var, hipotalamusta",
+          "start": 5.15,
+          "end": 8.87
         },
         {
-          "text": "Akşam olur, melatonin \"haydi uyku\" der",
-          "start": 11.29,
-          "end": 17.03
+          "text": "Işık gelir gözümden, ritmi tutar ustaca",
+          "start": 8.87,
+          "end": 13.12
+        },
+        {
+          "text": "Güneş batar, melatonin yükselir",
+          "start": 13.12,
+          "end": 16.57
+        },
+        {
+          "text": "Adenozin birikir, uyku gelir",
+          "start": 16.57,
+          "end": 20.02
         }
       ]
     },
     {
       "label": "Nakarat",
-      "start": 17.03,
-      "end": 29.06,
+      "start": 20.02,
+      "end": 33.03,
       "lines": [
         {
-          "text": "Uyu, büyü, öğren, güçlen!",
-          "start": 17.18,
-          "end": 20.31
+          "text": "Uyku bir bilim, uyku bir güç!",
+          "start": 20.17,
+          "end": 23.31
         },
         {
-          "text": "Uyku senin süper gücün!",
-          "start": 20.31,
-          "end": 23.43
+          "text": "Döngü döngü, doksan dakika",
+          "start": 23.31,
+          "end": 26.45
         },
         {
-          "text": "Uyu, büyü, öğren, güçlen!",
-          "start": 23.43,
-          "end": 26.56
+          "text": "Derin uyku onarır, REM öğretir",
+          "start": 26.45,
+          "end": 30.17
         },
         {
-          "text": "Her gece yeniden!",
-          "start": 26.56,
-          "end": 29.06
+          "text": "Beynim her gece çalışır",
+          "start": 30.17,
+          "end": 33.03
         }
       ]
     },
     {
       "label": "Kıta",
-      "start": 29.06,
-      "end": 45.09,
+      "start": 33.03,
+      "end": 48.04,
       "lines": [
         {
-          "text": "Rüyalar REM'de gelir, gözler hızlı hızlı",
-          "start": 29.21,
-          "end": 32.99
+          "text": "Derin uykuda büyüme hormonu",
+          "start": 33.18,
+          "end": 36.75
         },
         {
-          "text": "Öğrendiğin her şey hafızana yazılı",
-          "start": 32.99,
-          "end": 36.77
+          "text": "REM'de rüyalar, kaslarda atoni",
+          "start": 36.75,
+          "end": 40.33
         },
         {
-          "text": "Sen uyurken vücudun büyümeye çalışır",
-          "start": 36.77,
-          "end": 40.8
+          "text": "Hafıza güçlenir, bağışıklık çalışır",
+          "start": 40.33,
+          "end": 44.46
         },
         {
-          "text": "Bağışıklık hücrelerin gece boyu çalışır",
-          "start": 40.8,
-          "end": 45.09
+          "text": "Sabaha bedenim yeniden hazır",
+          "start": 44.46,
+          "end": 48.04
         }
       ]
     },
     {
       "label": "Nakarat",
-      "start": 45.09,
-      "end": 59.12,
+      "start": 48.04,
+      "end": 61.05,
       "lines": [
         {
-          "text": "Uyu, büyü, öğren, güçlen!",
-          "start": 45.24,
-          "end": 48.54
+          "text": "Uyku bir bilim, uyku bir güç!",
+          "start": 48.19,
+          "end": 51.48
         },
         {
-          "text": "Uyku senin süper gücün!",
-          "start": 48.54,
-          "end": 51.85
+          "text": "Döngü döngü, doksan dakika",
+          "start": 51.48,
+          "end": 54.77
         },
         {
-          "text": "Ekranı kapat, aynı saatte yat",
-          "start": 51.85,
-          "end": 56.14
+          "text": "Ekranı kapat, saatinde yat",
+          "start": 54.77,
+          "end": 58.36
         },
         {
           "text": "Muma'yla öğrendik, hey!",
-          "start": 56.14,
-          "end": 59.12
+          "start": 58.36,
+          "end": 61.05
         }
       ]
     }

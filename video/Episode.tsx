@@ -91,7 +91,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
             </Sequence>
           );
         })}
-        {f >= voice.introFrames && <Chrome episode={script.episodeNumber} total={voice.totalFrames} source={cur?.sourceNote} />}
+        {f >= voice.introFrames && <Chrome episode={script.episodeNumber} total={voice.totalFrames} />}
         {paper.isPreprint && f >= voice.introFrames && <PreprintBadge />}
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />

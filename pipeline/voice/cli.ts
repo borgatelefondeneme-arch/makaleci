@@ -18,7 +18,7 @@ const FPS = 30, LEAD = 8, TAIL = 14, REMINDER = 150;
 const WELCOME = { display: "MuMa Library'ye hoş geldin! Merhaba, ben Muma!", spoken: "Muma Laybrıri'ye hoş geldin! Merhaba, ben Muma!" };
 const GOODBYE = { display: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!", spoken: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!" };
 const FLY_IN = 42, FLY_OUT = 60; // robotun uçarak giriş/çıkış süresi (kare)
-const MIN_SEC = 285, MAX_SEC = 360; // hedef 5–6 dk (konu bölümlerinde ~5 dk)
+const MIN_SEC = 285, MAX_SEC = 630; // süre içerikten türer: konu gerektiriyorsa 10 dakikaya kadar
 
 loadEnv();
 const { dir, flags } = episodeDirArg();
@@ -173,6 +173,6 @@ console.log(`\n── Zaman çizelgesi ──\nsüre: ${mmss(durationSec)} (${to
 for (const [i, s] of scenes.entries()) console.log(`  ${mmss(s.startFrame / FPS).padStart(5)}  ${s.sceneId.padEnd(4)} ${plan.scenes[i].visual.type.padEnd(12)} ${(s.durationFrames / FPS).toFixed(1).padStart(5)} sn  [${plan.scenes[i].section}] mascot: ${plan.scenes[i].mascot.state}`);
 // Süre kapısı
 if (durationSec < MIN_SEC || durationSec > MAX_SEC) {
-  const msg = `Süre ${mmss(durationSec)}; hedef 4:45–6:00. Senaryoyu ${durationSec < MIN_SEC ? "uzatın" : "kısaltın"} (yaklaşık ${Math.abs(Math.round((durationSec - 330) * 2.4))} kelime).`;
+  const msg = `Süre ${mmss(durationSec)}; izin verilen aralık 4:45–10:30. Senaryoyu ${durationSec < MIN_SEC ? "uzatın" : "kısaltın"} (yaklaşık ${Math.abs(Math.round((durationSec - 330) * 2.4))} kelime).`;
   if (flags["allow-duration"]) console.log(`⚠ ${msg} (--allow-duration ile devam)`); else fail(msg);
 } else console.log("süre kapısı: geçti");

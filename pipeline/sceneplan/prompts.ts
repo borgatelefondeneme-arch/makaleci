@@ -10,7 +10,7 @@ Sahne alanları:
 - "sourceNote": sayı içeren sahnelerde kısa dipnot (ör. "Özet", "Bulgular bölümü").
 - "visual": aşağıdaki tiplerden biri. Aynı tip art arda gelmesin; en az beş farklı tip kullan.
   - "hook": açılış sorusu { question, emoji? } — ilk sahne.
-  - "source-card": künye kartı (yazar/kurum/dergi/DOI otomatik dolar) — künyenin okunduğu satırlar için zorunlu.
+  - "source-card": künye kartı — yalnızca makale bölümlerinde; konu bölümlerinde KULLANMA (kaynaklar cümle içinde anılır).
   - "big-number": tek çarpıcı sayı { value, unit?, label, sub? }. "value" makaledeki yazımla.
   - "bar-chart": 2–6 çubuk { title, unit?, bars: [{ label, value (sayı), display (ekranda yazılacak hali), highlight? }] }.
   - "line-chart": zaman/sıra içinde değişim { title, xLabel, yLabel, points: [...] }.
