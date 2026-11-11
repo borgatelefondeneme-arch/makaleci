@@ -1,6 +1,6 @@
 # Neden uyuruz?
 
-**Günün Sorusu #2** · Neden uyuruz? · süre 6:27
+**Günün Sorusu #2** · Neden uyuruz? · süre 6:51
 
 ## Açıklama
 
@@ -10,12 +10,12 @@ Uyurken beynimiz kapanmaz; planlı bir program yürütür. Bu bölümde beynimiz
 
 0:00 Açılış
 0:07 Giriş
-0:24 Günün sorusu
-0:46 Nasıl oluyor?
-2:14 İşin sırrı
-3:23 Sen de dene
-4:34 Bunu biliyor muydun?
-6:05 Bugün bunu öğrendik
+0:26 Günün sorusu
+0:49 Nasıl oluyor?
+2:23 İşin sırrı
+3:40 Sen de dene
+4:56 Bunu biliyor muydun?
+6:28 Bugün bunu öğrendik
 
 ## Kaynaklar
 
@@ -102,5 +102,5 @@ _Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler M
 ## Üretim notları
 
 - Seslendirme: ElevenLabs
-- 590 kelime, 16 sahne, abone ol hatırlatması videonun %59.6 noktasında
+- 590 kelime, 22 sahne, abone ol hatırlatması videonun %60.8 noktasında
 - Thumbnail: `thumbnail.png`
