@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 2,
+  "lastEpisodeNumber": 3,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -8,6 +8,10 @@
     "topic:neden-uyuruz": {
       "id": "2026-11-11-neden-uyuruz",
       "episodeNumber": 2
+    },
+    "topic:fosil-nedir": {
+      "id": "2026-11-11-fosil-nedir",
+      "episodeNumber": 3
     }
   }
 }

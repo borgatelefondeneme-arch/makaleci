@@ -5,7 +5,7 @@ import { Background } from "./components/Background";
 import { Caption, CaptionCue, Chrome, chunkText, PreprintBadge } from "./components/Overlays";
 import { SubscribeReminder } from "./components/Subscribe";
 import { ensureFonts } from "./fonts";
-import { CueAt, MascotLayer, Visit } from "./mascot/MascotLayer";
+import { cornerCenter, cornerOf, CueAt, HeadLayer, MascotLayer, Visit } from "./mascot/MascotLayer";
 import { Analogy } from "./scenes/Analogy";
 import { BigNumber } from "./scenes/BigNumber";
 import { Bullets, QuoteCard } from "./scenes/Cards";
@@ -78,6 +78,10 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   cues.push({ startFrame: lastV.startFrame - 4, cue: { ...lastScene.mascot, pose: lastScene.mascot.pose ?? "thumbs" } });
   cues.push({ startFrame: tailStart, cue: { state: "talk", x: 0.14, y: 0.5, scale: 1.4, pose: "wave" } });
   const visits: Visit[] = [{ start: 0, end: voice.introFrames + 8, outFrames: 34 }, { start: lastV.startFrame - 4, end: voice.totalFrames - 12, outFrames: 60 }];
+  // Ara sahnelerde yalnızca kafa görünür: açılıştan sonra belirir, şarkıdan (yoksa kapanıştan) önce çekilir.
+  const headOn = (i: number) => i < plan.scenes.length - 1 && plan.scenes[i].visual.type !== "song";
+  const headScenes = plan.scenes.map((_, i) => ({ startFrame: voice.scenes[i].startFrame, corner: cornerOf(i) })).filter((_, i) => headOn(i));
+  const headTo = voice.song ? voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.startFrame + voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.lineEndFrames.slice(-1)[0] : lastV.startFrame - 8;
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);
   return (
@@ -95,7 +99,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
             <Sequence key={sc.id} from={v.startFrame} durationInFrames={v.durationFrames + (last ? 0 : XFADE)} name={`${sc.id} · ${sc.visual.type}`}>
               <SceneShell dur={v.durationFrames} last={last} index={i} camera={!last && sc.visual.type !== "song"}>
                 {(fr) => (<>
-                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} /> : null}
+                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerOf(i)) : undefined} /> : null}
                   <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />
                   {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} /> : null}
                 </>)}
@@ -108,6 +112,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />
         </Sequence>
+        <HeadLayer scenes={headScenes} from={voice.introFrames + 6} to={headTo} amplitude={voice.amplitude} words={voice.words} />
         <MascotLayer cues={cues} visits={visits} amplitude={voice.amplitude} words={voice.words} />
         <Caption cues={captions} />
       </AbsoluteFill>

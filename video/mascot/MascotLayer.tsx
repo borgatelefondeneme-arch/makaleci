@@ -3,7 +3,7 @@ import { Easing, interpolate, spring, useCurrentFrame } from "remotion";
 import type { MascotCue } from "../../schemas/index";
 import { clamp } from "../anim";
 import { FPS, W, H } from "../theme";
-import { ASPECT, Mascot, type MouthShape, type Pose } from "./Mascot";
+import { ASPECT, HEAD, Mascot, MumaHead, type MouthShape, type Pose } from "./Mascot";
 
 export type CueAt = { startFrame: number; cue: MascotCue };
 // Muma yalnızca girişte ve çıkışta görünür (kullanıcı kararı). Her "ziyaret" uçarak gelip uçarak gitmektir.
@@ -88,5 +88,39 @@ export const MascotLayer: React.FC<{ cues: CueAt[]; visits: Visit[]; amplitude: 
         <Mascot frame={f} mouth={speaking ? level : 0} shape={shape} pose={pose} prevPose={prevPose} blend={pblend} flip={flipOf(cur)} think={think} lean={lean} size={size} />
       </div>
     </>
+  );
+};
+
+// ---------- Anlatım sahnelerinde köşede gezen kafa ----------
+// Muma'nın bütün gövdesi yalnızca girişte ve çıkışta görünür; aradaki sahnelerde yalnızca kafası,
+// sahneden sahneye köşe değiştirerek ekranda kalır ve anlatımı sese göre "söyler".
+export type Corner = "br" | "tr" | "tl";
+export const HEAD_SIZE = 250;
+const HEAD_H = (HEAD.h * HEAD_SIZE) / HEAD.w;
+export const CORNERS: Record<Corner, { left: number; top: number }> = { br: { left: 1640, top: 715 }, tr: { left: 1640, top: 78 }, tl: { left: 30, top: 78 } };
+export const cornerCenter = (c: Corner) => ({ x: CORNERS[c].left + HEAD_SIZE / 2, y: CORNERS[c].top + HEAD_H / 2 });
+const PATTERN: Corner[] = ["br", "br", "tl", "br", "tr", "br", "tl", "tr"];
+export const cornerOf = (sceneIndex: number): Corner => PATTERN[sceneIndex % PATTERN.length];
+
+export const HeadLayer: React.FC<{ scenes: { startFrame: number; corner: Corner }[]; from: number; to: number; amplitude: number[]; words: Word[] }> = ({ scenes, from, to, amplitude, words }) => {
+  const f = useCurrentFrame();
+  if (f < from - 4 || f > to + 14 || !scenes.length) return null;
+  let i = 0;
+  for (let k = 0; k < scenes.length; k++) if (scenes[k].startFrame <= f) i = k;
+  const cur = CORNERS[scenes[i].corner], prev = CORNERS[scenes[Math.max(0, i - 1)].corner];
+  const since = f - scenes[i].startFrame;
+  const t = i === 0 ? 1 : spring({ frame: since, fps: FPS, config: { damping: 16, mass: 0.9 } });
+  const moving = prev !== cur && t < 0.98;
+  const left = mix(prev.left, cur.left, t), top = mix(prev.top, cur.top, t) - (moving ? Math.sin(Math.min(1, Math.max(0, t)) * Math.PI) * 90 : 0);
+  const enter = interpolate(f, [from - 4, from + 14], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.6)) });
+  const exit = interpolate(f, [to - 6, to + 12], [0, 1], clamp);
+  const amp = (k: number) => amplitude[Math.max(0, k)] ?? 0;
+  const level = Math.min(1, ((amp(f - 1) + 2 * amp(f) + amp(f + 1)) / 4) * 1.15);
+  const sh = [-1, 0, 1].map((d) => shapeAt(words, (f + d) / FPS));
+  const shape: MouthShape = { wide: (sh[0].wide + 2 * sh[1].wide + sh[2].wide) / 4, open: ((sh[0].open + 2 * sh[1].open + sh[2].open) / 4) * (0.35 + 0.65 * level), round: (sh[0].round + 2 * sh[1].round + sh[2].round) / 4 };
+  return (
+    <div style={{ position: "absolute", left, top, transform: `scale(${Math.max(0, enter) * (1 - exit)}) rotate(${moving ? (cur.left > prev.left ? 1 : -1) * Math.sin(t * Math.PI) * 14 : 0}deg)`, transformOrigin: "50% 80%" }}>
+      <MumaHead frame={f} mouth={level > 0.05 ? level : 0} shape={shape} size={HEAD_SIZE} />
+    </div>
   );
 };

@@ -32,6 +32,44 @@ export type MascotPose = {
   lean: number; // derece; işaret edilen yöne eğilme
 };
 
+// Ağız: özgün ağız görsellerden silindi (tools/mouthless.py); her zaman yeniden çizilir.
+// Kapalıyken gülüş çizgisi, konuşurken söylenen ünlüye göre biçimlenen açık ağız.
+export const Mouth: React.FC<{ m: { x: number; y: number; w: number; rot: number; depth: number }; mouth: number; shape: MouthShape; id: string }> = ({ m, mouth, shape, id }) => {
+  if (m.w <= 0) return null;
+  const k = Math.min(1, mouth * 3); // kapalı → açık geçişi
+  if (k < 0.08) return <path d={`M ${-m.w * 0.82} ${-m.depth * 0.1} Q 0 ${m.depth * 0.75} ${m.w * 0.82} ${-m.depth * 0.1}`} transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`} fill="none" stroke="#4A3B48" strokeWidth={Math.max(3, m.w * 0.13)} strokeLinecap="round" />;
+  const hw = m.w * shape.wide * (0.82 + 0.18 * k); // yarı genişlik
+  const dep = m.depth * (0.3 + shape.open * 1.2) * k + m.depth * 0.2; // derinlik
+  const r = shape.round;
+  const top = m.w * 0.14 * (1 - r) - dep * 0.35 * r; // yuvarlak ünlülerde üst dudak da kavislenir
+  const d = `M ${-hw} 0 Q 0 ${top} ${hw} 0 Q ${hw * (0.55 + 0.3 * r)} ${dep * 1.3} 0 ${dep * 1.36} Q ${-hw * (0.55 + 0.3 * r)} ${dep * 1.3} ${-hw} 0 Z`;
+  return (
+    <g transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`}>
+      <clipPath id={`mouth-${id}`}><path d={d} /></clipPath>
+      <path d={d} fill="#3B2B36" stroke="#4A3B48" strokeWidth={2.5} strokeLinejoin="round" />
+      <g clipPath={`url(#mouth-${id})`}>
+        <rect x={-hw} y={-m.depth * 0.3} width={hw * 2} height={m.depth * 0.3 + (m.depth * 0.3 + m.w * 0.1) * (1 - r)} fill="#FFFFFF" opacity={0.95 * (1 - r)} />
+        <ellipse cx={0} cy={dep * 1.25} rx={hw * 0.62} ry={dep * 0.5} fill="#FF8A7A" />
+      </g>
+    </g>
+  );
+};
+
+// Yalnızca kafa: anlatım sahnelerinde köşede durur, sese göre konuşur. size = genişlik (px).
+export const HEAD = { w: 510, h: 410, mouth: { x: 176, y: 341, w: 37, rot: 0, depth: 30 }, star: { x: 426, y: 147 } };
+export const MumaHead: React.FC<{ frame: number; mouth: number; shape: MouthShape; size: number; flip?: boolean }> = ({ frame: f, mouth, shape, size, flip }) => {
+  const k = size / HEAD.w, glow = 0.55 + 0.45 * Math.sin(f / 7) + mouth * 0.5;
+  return (
+    <div style={{ position: "relative", width: size, height: HEAD.h * k, transform: `translateY(${Math.sin(f / 13) * 5}px) rotate(${Math.sin(f / 24) * 2.5 + mouth * 1.5}deg) scaleX(${flip ? -1 : 1})`, transformOrigin: "45% 85%", filter: "drop-shadow(0 12px 16px rgba(27,34,56,0.18))" }}>
+      <Img src={staticFile("robot/head.png")} style={{ position: "absolute", left: 0, top: 0, width: size, height: HEAD.h * k }} />
+      <svg width={size} height={HEAD.h * k} viewBox={`0 0 ${HEAD.w} ${HEAD.h}`} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
+        <circle cx={HEAD.star.x} cy={HEAD.star.y} r={34 + glow * 16} fill="#FFE9A8" opacity={0.16 + glow * 0.14} />
+        <Mouth m={HEAD.mouth} mouth={mouth} shape={shape} id="head" />
+      </svg>
+    </div>
+  );
+};
+
 const Layer: React.FC<{ pose: Pose; frame: number; mouth: number; shape: MouthShape; opacity: number; height: number }> = ({ pose, frame: f, mouth, shape, opacity, height }) => {
   if (opacity <= 0.01) return null;
   const s = SPRITES[pose];
@@ -52,29 +90,7 @@ const Layer: React.FC<{ pose: Pose; frame: number; mouth: number; shape: MouthSh
         {/* anten yıldızı: sesle birlikte parlar */}
         <circle cx={s.star.x} cy={s.star.y} r={34 + glow * 16} fill="#FFE9A8" opacity={0.16 + glow * 0.14} />
         <circle cx={s.star.x} cy={s.star.y} r={16 + glow * 6} fill="#FFF6D6" opacity={0.25 + glow * 0.2} />
-        {/* ağız: özgün ağız görselden silindi (tools/mouthless.py); burada her zaman yeniden çizilir.
-            Kapalıyken gülüş çizgisi, konuşurken söylenen ünlüye göre biçimlenen açık ağız. */}
-        {m.w > 0 && (() => {
-          const k = Math.min(1, mouth * 3); // kapalı → açık geçişi
-          if (k < 0.08) return <path d={`M ${-m.w * 0.82} ${-m.depth * 0.1} Q 0 ${m.depth * 0.75} ${m.w * 0.82} ${-m.depth * 0.1}`} transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`} fill="none" stroke="#4A3B48" strokeWidth={Math.max(3, m.w * 0.13)} strokeLinecap="round" />;
-          const hw = m.w * shape.wide * (0.82 + 0.18 * k); // yarı genişlik
-          const dep = m.depth * (0.3 + shape.open * 1.2) * k + m.depth * 0.2; // derinlik
-          const r = shape.round;
-          const top = m.w * 0.14 * (1 - r) - dep * 0.35 * r; // yuvarlak ünlülerde üst dudak da kavislenir
-          const d = `M ${-hw} 0 Q 0 ${top} ${hw} 0 Q ${hw * (0.55 + 0.3 * r)} ${dep * 1.3} 0 ${dep * 1.36} Q ${-hw * (0.55 + 0.3 * r)} ${dep * 1.3} ${-hw} 0 Z`;
-          return (
-            <g transform={`translate(${m.x} ${m.y}) rotate(${m.rot})`}>
-              <clipPath id={`mouth-${pose}`}><path d={d} /></clipPath>
-              <path d={d} fill="#3B2B36" stroke="#4A3B48" strokeWidth={2.5} strokeLinejoin="round" />
-              <g clipPath={`url(#mouth-${pose})`}>
-                {/* üst dişler: yayvan ünlülerde görünür */}
-                <rect x={-hw} y={-m.depth * 0.3} width={hw * 2} height={m.depth * 0.3 + (m.depth * 0.3 + m.w * 0.1) * (1 - r)} fill="#FFFFFF" opacity={0.95 * (1 - r)} />
-                {/* dil */}
-                <ellipse cx={0} cy={dep * 1.25} rx={hw * 0.62} ry={dep * 0.5} fill="#FF8A7A" />
-              </g>
-            </g>
-          );
-        })()}
+        <Mouth m={m} mouth={mouth} shape={shape} id={pose} />
       </svg>
     </div>
   );

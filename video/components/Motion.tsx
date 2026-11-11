@@ -10,10 +10,13 @@ export const kick = (frame: number, at: number, len = 14) => { const t = (frame 
 
 // Kenarlarda süzülen konu simgeleri: sırayla belirir, her cümle başında biri zıplar.
 const SLOTS = [[70, 210], [1765, 250], [90, 560], [1750, 600], [150, 820], [1700, 830]];
-export const Stickers: React.FC<{ items: string[]; frame: number; beats: number[] }> = ({ items, frame, beats }) => (
+export const Stickers: React.FC<{ items: string[]; frame: number; beats: number[]; avoid?: { x: number; y: number } }> = ({ items, frame, beats, avoid }) => {
+  // Muma'nın kafasının durduğu köşeye yakın yerler boş bırakılır.
+  const slots = SLOTS.filter(([x, y]) => !avoid || Math.hypot(x + 43 - avoid.x, y + 43 - avoid.y) > 300);
+  return (
   <>
-    {items.slice(0, 6).map((e, i) => {
-      const [x, y] = SLOTS[i];
+    {items.slice(0, slots.length).map((e, i) => {
+      const [x, y] = slots[i];
       const p = pop(frame, 6 + i * 9, 8);
       const jump = beats.reduce((a, b, k) => a + (k % items.length === i ? kick(frame, b, 18) : 0), 0);
       return (
@@ -24,7 +27,8 @@ export const Stickers: React.FC<{ items: string[]; frame: number; beats: number[
       );
     })}
   </>
-);
+  );
+};
 
 // Her cümlede beliren büyük anahtar kelime (içerik ile altyazı arasında).
 export const Keyword: React.FC<{ words: string[]; beats: number[]; ends: number[]; frame: number }> = ({ words, beats, ends, frame }) => {
