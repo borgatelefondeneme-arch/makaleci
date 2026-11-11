@@ -45,7 +45,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   const lineById = new Map(script.sections.flatMap((s) => s.lines).map((l) => [l.id, l]));
   const f = useCurrentFrame();
 
-  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "idle", x: 0.15, y: 0.5, scale: 1.45 } }];
+  const cues: CueAt[] = [{ startFrame: 0, cue: { state: "idle", x: 0.15, y: 0.5, scale: 1.4 } }];
   const captions: CaptionCue[] = [];
   plan.scenes.forEach((sc, i) => {
     const v = voice.scenes[i];
@@ -92,7 +92,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />
         </Sequence>
-        <MascotLayer cues={cues} amplitude={voice.amplitude} />
+        <MascotLayer cues={cues} amplitude={voice.amplitude} total={voice.totalFrames} />
         <Caption cues={captions} />
       </AbsoluteFill>
     </AbsoluteFill>
