@@ -173,7 +173,7 @@ export const Meter: React.FC<SceneProps<"meter">> = ({ visual, frame, beats }) =
           })}
         </div>
       </div>
-      {visual.note && <div style={{ fontFamily: F.body, fontSize: 24, color: C.dim }}>{visual.note}</div>}
+      {visual.note && <div style={{ fontFamily: F.body, fontSize: 24, color: C.dim, transform: "translateY(48px)" }}>{visual.note}</div>}
     </Stage>
   );
 };

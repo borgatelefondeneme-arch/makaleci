@@ -97,7 +97,7 @@ export const MascotLayer: React.FC<{ cues: CueAt[]; visits: Visit[]; amplitude: 
 export type Corner = "br" | "tr" | "tl";
 export const HEAD_SIZE = 250;
 const HEAD_H = (HEAD.h * HEAD_SIZE) / HEAD.w;
-export const CORNERS: Record<Corner, { left: number; top: number }> = { br: { left: 1640, top: 715 }, tr: { left: 1640, top: 78 }, tl: { left: 30, top: 78 } };
+export const CORNERS: Record<Corner, { left: number; top: number }> = { br: { left: 1640, top: 715 }, tr: { left: 1640, top: 78 }, tl: { left: -28, top: 96 } };
 export const cornerCenter = (c: Corner) => ({ x: CORNERS[c].left + HEAD_SIZE / 2, y: CORNERS[c].top + HEAD_H / 2 });
 const PATTERN: Corner[] = ["br", "br", "tl", "br", "tr", "br", "tl", "tr"];
 export const cornerOf = (sceneIndex: number): Corner => PATTERN[sceneIndex % PATTERN.length];

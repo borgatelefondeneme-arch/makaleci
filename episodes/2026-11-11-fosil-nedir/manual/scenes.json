@@ -1,0 +1,946 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Bir canlı nasıl taşa dönüşür?",
+    "emoji": "🦴"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🪨",
+    "🐚",
+    "⛏️",
+    "🦕"
+   ],
+   "keywords": [
+    "",
+    "TAŞA DÖNÜŞMEK?",
+    "ARŞİVİ AÇIYORUZ!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Robot fosil olur mu?",
+    "emoji": "🤖",
+    "chips": [
+     {
+      "label": "Kemik yok",
+      "emoji": "🦴"
+     },
+     {
+      "label": "Vida var",
+      "emoji": "🔩"
+     },
+     {
+      "label": "Olsa olsa antika!",
+      "emoji": "🏺"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "⚙️",
+    "🔧"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
+    "l5",
+    "l6"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Fosil tam olarak nedir?",
+     "Bir canlı nasıl fosilleşir?",
+     "Fosiller bize ne anlatır?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Fosil nedir?",
+    "emoji": "🦴",
+    "chips": [
+     {
+      "label": "Çok eski canlılardan",
+      "emoji": "🦕"
+     },
+     {
+      "label": "Korunmuş kalıntı ya da iz",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Latince: fossilis",
+      "emoji": "📜"
+     },
+     {
+      "label": "Kazılıp çıkarılmış",
+      "emoji": "⛏️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "🐚",
+    "🌿"
+   ],
+   "keywords": [
+    "KALINTI YA DA İZ",
+    "FOSSILIS ⛏️"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "10.000",
+    "unit": "yıl",
+    "label": "Fosil sayılmanın yaş sınırı",
+    "sub": "Genellikle bundan yaşlı olmalı",
+    "icon": "⏳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🦣",
+    "📅"
+   ],
+   "keywords": [
+    "NE KADAR ESKİ?",
+    "GARANTİ BİTTİ 😅"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l11",
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İki büyük grup",
+    "left": {
+     "title": "Vücut fosili 🦴",
+     "items": [
+      "Canlının kendi parçası",
+      "Kemik, diş, kabuk",
+      "Odun, yaprak"
+     ]
+    },
+    "right": {
+     "title": "İz fosili 🐾",
+     "items": [
+      "Yaşarken bıraktığı iz",
+      "Ayak izi, yuva tüneli",
+      "Davranışı gösterir"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4",
+    "f5",
+    "f6"
+   ],
+   "stickers": [
+    "🦷",
+    "🐚",
+    "🍃"
+   ],
+   "keywords": [
+    "VÜCUT FOSİLİ",
+    "İZ FOSİLİ",
+    "DAVRANIŞ İPUCU 🔎"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l14",
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Koprolit",
+    "emoji": "💩",
+    "chips": [
+     {
+      "label": "Fosilleşmiş dışkı",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Bir iz fosili",
+      "emoji": "🐾"
+     },
+     {
+      "label": "Kemik parçası → etçil",
+      "emoji": "🍖"
+     },
+     {
+      "label": "Tohum, yaprak → bitki yiyen",
+      "emoji": "🌿"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8"
+   ],
+   "stickers": [
+    "🔬",
+    "🧤"
+   ],
+   "keywords": [
+    "KOPROLİT",
+    "NE YEMİŞ? 🍖🌿",
+    "PİS İŞ 🧤"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Birinci adım: çürüme",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Canlı ölür",
+      "emoji": "🦕"
+     },
+     {
+      "label": "Deri ve kas çürür",
+      "emoji": "🍂"
+     },
+     {
+      "label": "Sert parçalar kalır",
+      "emoji": "🦴"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🌊",
+    "⏳"
+   ],
+   "keywords": [
+    "NASIL FOSİLLEŞİR?",
+    "BİRİNCİ ADIM"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "İkinci adım: gömülme",
+    "label": "Tortu örtüsü",
+    "emoji": "🦴",
+    "phases": [
+     {
+      "label": "Çamur, kum, silt örter",
+      "level": 0.5,
+      "emoji": "🟤"
+     },
+     {
+      "label": "Çabuk gömülmek korur",
+      "level": 0.92,
+      "emoji": "🛡️"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "stickers": [
+    "🌊",
+    "🏖️"
+   ],
+   "keywords": [
+    "İKİNCİ ADIM: TORTU",
+    "HIZ ÖNEMLİ ⚡"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l21"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Üçüncü adım: katmanlar",
+    "emoji": "🪨",
+    "chips": [
+     {
+      "label": "Kat kat yeni tortu",
+      "emoji": "📚"
+     },
+     {
+      "label": "Zamanla tortul kaya",
+      "emoji": "⛰️"
+     },
+     {
+      "label": "Kemik içinde saklı",
+      "emoji": "🦴"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🟤",
+    "🟫"
+   ],
+   "keywords": [
+    "TORTUL KAYA"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Dördüncü adım: permineralizasyon",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Su kemiğe sızar",
+      "emoji": "💧"
+     },
+     {
+      "label": "Mineral bırakır",
+      "emoji": "💎"
+     },
+     {
+      "label": "Gözenekler dolar",
+      "emoji": "🧽"
+     },
+     {
+      "label": "Kemik taşlaşır",
+      "emoji": "🪨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "💧",
+    "💎"
+   ],
+   "keywords": [
+    "SU + MİNERAL",
+    "PERMİNERALİZASYON"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l24"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Sabır!",
+    "label": "Binlerce, hatta milyonlarca yıl sürebilir",
+    "sub": "Doğa Tarihi Müzesi",
+    "icon": "⏳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🐢",
+    "📆"
+   ],
+   "keywords": [
+    "MİLYONLARCA YIL"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "finding",
+   "lineIds": [
+    "l25"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kalıp ve döküm",
+    "left": {
+     "title": "Kalıp 🕳️",
+     "items": [
+      "Su kemiği çözer",
+      "Biçiminde boşluk kalır"
+     ]
+    },
+    "right": {
+     "title": "Döküm 🪨",
+     "items": [
+      "Boşluğu mineraller doldurur",
+      "Aynı biçimde taş oluşur"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🐚",
+    "💧"
+   ],
+   "keywords": [
+    "KALIP → DÖKÜM"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "finding",
+   "lineIds": [
+    "l26"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kehribar",
+    "emoji": "🐜",
+    "chips": [
+     {
+      "label": "Ağaç reçinesi",
+      "emoji": "🌲"
+     },
+     {
+      "label": "Fosilleşir",
+      "emoji": "🟠"
+     },
+     {
+      "label": "Karınca, sinek saklanır",
+      "emoji": "🪰"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "🌲",
+    "🟠"
+   ],
+   "keywords": [
+    "KEHRİBAR"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l27",
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Fosil olma şansı",
+    "label": "Şans",
+    "emoji": "🎯",
+    "phases": [
+     {
+      "label": "Çoğu canlı çürür: çok nadir",
+      "level": 0.06,
+      "emoji": "🍂"
+     },
+     {
+      "label": "Sert parçalar: daha kolay",
+      "level": 0.4,
+      "emoji": "🦴"
+     },
+     {
+      "label": "Yumuşak gövde: nadiren",
+      "level": 0.1,
+      "emoji": "🪱"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16",
+    "f17"
+   ],
+   "stickers": [
+    "🦷",
+    "🐚"
+   ],
+   "keywords": [
+    "ÇOK NADİR!",
+    "SERT PARÇALAR 🦴",
+    "ZOR SINAV 📝"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "importance",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "%99",
+    "label": "Deniz hayvanlarına ait",
+    "sub": "Bulunan fosillerin yaklaşık bu kadarı",
+    "icon": "🌊"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f18"
+   ],
+   "stickers": [
+    "🐚",
+    "🦈",
+    "🐟"
+   ],
+   "keywords": [
+    "DENİZ HAYVANLARI 🌊"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "importance",
+   "lineIds": [
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Fosiller nasıl ortaya çıkar?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Tortul kaya",
+      "emoji": "⛰️"
+     },
+     {
+      "label": "Rüzgâr, yağmur, buz aşındırır",
+      "emoji": "🌧️"
+     },
+     {
+      "label": "Fosil yüzeye çıkar",
+      "emoji": "🦴"
+     },
+     {
+      "label": "Everest'te deniz fosilleri!",
+      "emoji": "🏔️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f19",
+    "f20",
+    "f21"
+   ],
+   "stickers": [
+    "🌬️",
+    "🐚"
+   ],
+   "keywords": [
+    "AŞINMA",
+    "EVEREST'TE DENİZ! 🏔️"
+   ]
+  },
+  {
+   "id": "s18",
+   "section": "importance",
+   "lineIds": [
+    "l33",
+    "l34"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Paleontolog",
+    "emoji": "🧑‍🔬",
+    "chips": [
+     {
+      "label": "Fosilleri inceler",
+      "emoji": "🔎"
+     },
+     {
+      "label": "Canlılar nasıl yaşadı?",
+      "emoji": "🦕"
+     },
+     {
+      "label": "Dünya nasıl değişti?",
+      "emoji": "🌍"
+     },
+     {
+      "label": "En eski fosil: neredeyse 4 milyar yaşında",
+      "emoji": "🦠"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f22",
+    "f23"
+   ],
+   "stickers": [
+    "⛏️",
+    "🖌️"
+   ],
+   "keywords": [
+    "PALEONTOLOG",
+    "BAKTERİ İZLERİ 🦠"
+   ]
+  },
+  {
+   "id": "s19",
+   "section": "importance",
+   "lineIds": [
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: kalıp çıkar 🔬",
+    "items": [
+     "Oyun hamurunu düzleştir",
+     "Deniz kabuğu ya da yaprak bastır",
+     "Yavaşça kaldır: çukur = kalıp",
+     "Doğada boşluğu mineraller doldurur: döküm"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🐚",
+    "🍃",
+    "✋"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "KALIP!"
+   ]
+  },
+  {
+   "id": "s20",
+   "section": "importance",
+   "lineIds": [
+    "l37",
+    "l38"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Fosil görürsen",
+    "emoji": "📸",
+    "chips": [
+     {
+      "label": "Bak",
+      "emoji": "👀"
+     },
+     {
+      "label": "Fotoğrafını çek",
+      "emoji": "📸"
+     },
+     {
+      "label": "Yerinde bırak",
+      "emoji": "🚫"
+     },
+     {
+      "label": "Müzeye haber ver",
+      "emoji": "🏛️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f24",
+    "f25"
+   ],
+   "stickers": [
+    "🏞️",
+    "🧭"
+   ],
+   "keywords": [
+    "YERİNDE BIRAK!",
+    "MÜZEYE HABER 🏛️"
+   ]
+  },
+  {
+   "id": "s21",
+   "section": "limitations",
+   "lineIds": [
+    "l39"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Köpek balığı dişi",
+    "label": "Omurgalı fosilleri arasında en bol bulunanı",
+    "sub": "Doğa Tarihi Müzesi",
+    "icon": "🦈"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f26"
+   ],
+   "stickers": [
+    "🦷",
+    "🌊"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s22",
+   "section": "limitations",
+   "lineIds": [
+    "l40",
+    "l41",
+    "l42"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Ayak izi: vücut fosili mi, iz fosili mi?",
+    "emoji": "🐾"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🦕",
+    "🦴"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "İZ FOSİLİ ✅",
+    ""
+   ]
+  },
+  {
+   "id": "s23",
+   "section": "limitations",
+   "lineIds": [
+    "l43"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s24",
+   "section": "summary",
+   "lineIds": [
+    "l44",
+    "l45",
+    "l46"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

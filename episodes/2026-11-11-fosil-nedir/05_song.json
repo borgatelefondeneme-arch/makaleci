@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Taşa Yazılan Hikâye",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Çamurun altında saklı bir kemik",
+          "start": 5.15,
+          "end": 8.67
+        },
+        {
+          "text": "Kat kat tortu birikir, kaya olur gider",
+          "start": 8.67,
+          "end": 12.72
+        },
+        {
+          "text": "Su sızar içine, mineral bırakır",
+          "start": 12.72,
+          "end": 16.5
+        },
+        {
+          "text": "Gözenekler dolar, kemik taşlaşır",
+          "start": 16.5,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Fosil! Fosil! Taştaki iz!",
+          "start": 20.17,
+          "end": 22.79
+        },
+        {
+          "text": "Geçmişi okuruz kayalardan biz",
+          "start": 22.79,
+          "end": 26.2
+        },
+        {
+          "text": "Kemik, diş, kabuk; ayak izi, yuva",
+          "start": 26.2,
+          "end": 29.61
+        },
+        {
+          "text": "Dünya'nın geçmişi saklı burada",
+          "start": 29.61,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Kehribarın içinde bir karınca durur",
+          "start": 33.18,
+          "end": 37.55
+        },
+        {
+          "text": "Kalıp ve döküm, biçimi korur",
+          "start": 37.55,
+          "end": 41.04
+        },
+        {
+          "text": "Koprolit söyler kim ne yemiş",
+          "start": 41.04,
+          "end": 44.25
+        },
+        {
+          "text": "Paleontolog ipucunu çözmüş",
+          "start": 44.25,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Fosil! Fosil! Taştaki iz!",
+          "start": 48.19,
+          "end": 51.18
+        },
+        {
+          "text": "Geçmişi okuruz kayalardan biz",
+          "start": 51.18,
+          "end": 55.07
+        },
+        {
+          "text": "Görürsen bak, yerinde bırak",
+          "start": 55.07,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
