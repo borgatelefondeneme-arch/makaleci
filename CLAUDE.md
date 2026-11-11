@@ -4,7 +4,7 @@
 
 ## İçerik yönü (güncel karar)
 
-- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Neden uyuruz?"). İzleyici 7–14 yaş; **anlatım düzeyi 10 yaşındaki bir çocuğa göre** ayarlanır. Konuyu ve senaryoyu biz belirleriz.
+- **Ana içerik: konu bölümleri** (`kind: "topic"`). Çocukların gelişimini destekleyen ve merak ettikleri sorular ("Neden uyuruz?"). İzleyici 7–14 yaş; **anlatım düzeyi 10–12 yaşındaki bir çocuğa göre** ayarlanır (kullanıcı son olarak "12 yaş" dedi). Konuyu ve senaryoyu biz belirleriz.
 - **Bilimsel dil (kullanıcı kararı):** senaryo okul öncesi gibi olmamalı. Gerçek terimler kullanılır ve hemen açıklanır ("ana saat" demekle yetinme: "suprakiazmatik çekirdek, kısaca SCN; hipotalamusta…"). Mekanizma anlatılır (ne, nerede, nasıl), benzetme terimin yerine değil yanına konur. Şarkı sözleri de aynı düzeyde ve senaryodaki bilimsel ifadelerden türetilir.
 - **Süre içerikten türer:** süreye takılma; konu gerektiriyorsa video 10 dakikaya kadar çıkabilir (kapı 4:45–10:30).
 - **Hareket kuralı (kullanıcı kararı):** hiçbir sahne "durağan kart + üstünden konuşma" olamaz; çocuk sıkılıp çıkar. Her cümlede ekranda bir şey değişir ve sahne boştayken de hareket eder. Bunun için: (1) sahne en çok 3 cümle sürer, uzun anlatım birkaç sahneye bölünür; (2) hareketli tipler tercih edilir — `clock` (dönen gün-gece kadranı), `spotlight` (ortada simge, çevresinde beliren etiketler), `stages` (sahne boyunca çizilen evre çizgisi), `meter` (dolup boşalan depo), akan noktalı `diagram`; (3) her sahneye konuyla ilgili `stickers` (kenarda süzülen, cümle başında zıplayan simgeler) ve satır başına `keywords` (büyük beliren anahtar kelime) verilir; (4) kamera sahne boyunca yavaşça yaklaşır, geçişler sahneden sahneye değişir. Şematik çizimler "Şematik çizim" notu taşır ve kaynakta olmayan sayı göstermez.
@@ -81,6 +81,8 @@ Uçtan uca: konu bölümü `npm run episode -- --topic "<soru>"` (fetch/select a
 - Stil: **açık ve sıcak** — kullanıcının sitesindeki (mumaapp-panel.web.app/tanitim) tonlar: krem zemin `#FBF8F3`, lacivert yazı `#1B2238`, kiremit→turuncu→mavi geçişli vurgu, beyaz kartlar, **Manrope** yazı tipi. Koyu zemin kullanılmaz (kullanıcı kararı). Arka planda pastel lekeler ve süzülen şekillerle hafif hareket. Tek kaynak: `video/theme.ts`.
 
 ## Çalışma notları
+
+- Seri üretim: anahtar yokken her bölümün `manual/build.py` dosyası ortak `tools/manual_build.py` yardımcılarını kullanır (olgu/satır/sahne kurucuları, şarkı kalıbı). Örnek: `episodes/2026-11-11-fosil-nedir/manual/build.py` (eski, tek dosya) ve sonraki bölümler.
 
 - Tarayıcı: Remotion kendi Chrome'unu indirmez; `/opt/pw-browsers/` altındaki headless shell kullanılır (`REMOTION_BROWSER` ile değiştirilebilir).
 - OpenAlex anahtarsız 429 dönebiliyor; `OPENALEX_API_KEY` yoksa bu kaynak uyarıyla atlanır.
