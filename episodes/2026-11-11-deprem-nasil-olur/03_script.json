@@ -1,0 +1,521 @@
+{
+  "paperId": "topic:deprem-nasil-olur",
+  "episodeNumber": 7,
+  "videoTitle": "Deprem nasıl olur?",
+  "paperTitleTr": "Deprem nasıl olur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Ayağının altındaki yer sapasağlam görünür. Ama aslında çok yavaş hareket eden dev parçalardan oluşur!",
+          "spoken": "Ayağının altındaki yer sapasağlam görünür. Ama aslında çok yavaş hareket eden dev parçalardan oluşur!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki yer neden bazen aniden sarsılır? Ve sarsıntı uzaklara nasıl yayılır?",
+          "spoken": "Peki yer neden bazen aniden sarsılır? Ve sarsıntı uzaklara nasıl yayılır?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün yerin derinlerine iniyoruz!",
+          "spoken": "Bugün yerin derinlerine iniyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Ben de bazen titrerim. Ama o deprem değil, titreşim modum!",
+          "spoken": "Ben de bazen titrerim. Ama o deprem değil, titreşim modum!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Üç sorumuz var. Deprem neden olur? Deprem dalgaları nasıl yayılır? Ve deprem sırasında ne yapmalıyız?",
+          "spoken": "Üç sorumuz var. Deprem neden olur? Deprem dalgaları nasıl yayılır? Ve deprem sırasında ne yapmalıyız?",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l7",
+          "display": "NASA'ya göre Dünya dört temel katmandan oluşur: katı kabuk, sıcak manto, sıvı dış çekirdek ve katı iç çekirdek.",
+          "spoken": "Nasa'ya göre Dünya dört temel katmandan oluşur: katı kabuk, sıcak manto, sıvı dış çekirdek ve katı iç çekirdek.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Britanya Jeoloji Araştırmaları Kurumu'na göre en dıştaki katman tek parça değildir: yaklaşık 15 büyük parçaya bölünmüştür. Bunlara tektonik levha denir.",
+          "spoken": "Britanya Jeoloji Araştırmaları Kurumu'na göre en dıştaki katman tek parça değildir: yaklaşık on beş büyük parçaya bölünmüştür. Bunlara tektonik levha denir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Levhalar birbirine göre çok yavaş hareket eder: yılda yalnızca birkaç santimetre.",
+          "spoken": "Levhalar birbirine göre çok yavaş hareket eder: yılda yalnızca birkaç santimetre.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Benim yazılım güncellemelerim bile bundan hızlı. Çoğu zaman!",
+          "spoken": "Benim yazılım güncellemelerim bile bundan hızlı. Çoğu zaman!",
+          "factIds": []
+        },
+        {
+          "id": "l11",
+          "display": "National Geographic'e göre levhalar birbirine yaklaşabilir, birbirinden uzaklaşabilir ya da yan yana sürtünerek kayabilir.",
+          "spoken": "Neşınıl Ciyografik'e göre levhalar birbirine yaklaşabilir, birbirinden uzaklaşabilir ya da yan yana sürtünerek kayabilir.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Kaya bloklarının birbirine göre kaydığı kırıklara fay denir.",
+          "spoken": "Kaya bloklarının birbirine göre kaydığı kırıklara fay denir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Ama kayalar kolayca kaymaz. Sürtünme onları yerinde tutar ve kayalarda gerilim birikmeye başlar.",
+          "spoken": "Ama kayalar kolayca kaymaz. Sürtünme onları yerinde tutar ve kayalarda gerilim birikmeye başlar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Gerilim biriktikçe kayalar yavaş yavaş biçim değiştirir. Tıpkı bükülen bir cetvel gibi enerji depolar.",
+          "spoken": "Gerilim biriktikçe kayalar yavaş yavaş biçim değiştirir. Tıpkı bükülen bir cetvel gibi enerji depolar.",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l15",
+          "display": "Sonunda kayalar daha fazla dayanamaz ve fay aniden kayar. Biriken enerji bir anda serbest kalır. İşte deprem budur!",
+          "spoken": "Sonunda kayalar daha fazla dayanamaz ve fay aniden kayar. Biriken enerji bir anda serbest kalır. İşte deprem budur!",
+          "factIds": [
+            "f1",
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Kayalar eski biçimine geri döner ama fayın iki yanı artık yer değiştirmiştir. Buna elastik geri sekme denir.",
+          "spoken": "Kayalar eski biçimine geri döner ama fayın iki yanı artık yer değiştirmiştir. Buna elastik geri sekme denir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Depremin yerin içinde başladığı noktaya odak ya da hiposantr denir. Kilometrelerce derinde olabilir.",
+          "spoken": "Depremin yerin içinde başladığı noktaya odak ya da hiposantr denir. Kilometrelerce derinde olabilir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Odağın tam üstündeki yeryüzü noktası ise merkez üssüdür.",
+          "spoken": "Odağın tam üstündeki yeryüzü noktası ise merkez üssüdür.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Enerji odaktan her yöne yayılır; tıpkı suya atılan taşın oluşturduğu halkalar gibi. Bu dalgalara sismik dalga denir.",
+          "spoken": "Enerji odaktan her yöne yayılır; tıpkı suya atılan taşın oluşturduğu halkalar gibi. Bu dalgalara sismik dalga denir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "İki ana türü var. P dalgaları kayayı ilerleme yönünde sıkıştırıp gevşetir. S dalgaları ise ilerleme yönüne dik sallar.",
+          "spoken": "İki ana türü var. Pe dalgaları kayayı ilerleme yönünde sıkıştırıp gevşetir. Se dalgaları ise ilerleme yönüne dik sallar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "P dalgaları daha hızlıdır: yer kabuğunda saniyede 5–7 kilometre yol alır. S dalgaları ise saniyede 3–4 kilometre.",
+          "spoken": "Pe dalgaları daha hızlıdır: yer kabuğunda saniyede beş ile yedi kilometre yol alır. Se dalgaları ise saniyede üç ile dört kilometre.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "USGS bunu şöyle benzetiyor: P dalgası şimşek gibidir, S dalgası gök gürültüsü gibi. Önce biri gelir, sonra öteki.",
+          "spoken": "Yu Es Ci Es bunu şöyle benzetiyor: Pe dalgası şimşek gibidir, Se dalgası gök gürültüsü gibi. Önce biri gelir, sonra öteki.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "P dalgasının daha hızlı olması, bilim insanlarının depremin nerede olduğunu bulmasını sağlar.",
+          "spoken": "Pe dalgasının daha hızlı olması, bilim insanlarının depremin nerede olduğunu bulmasını sağlar.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Dalgaları ölçen alete sismometre denir. Çizdiği kayıt ise sismogramdır.",
+          "spoken": "Dalgaları ölçen alete sismometre denir. Çizdiği kayıt ise sismogramdır.",
+          "factIds": [
+            "f11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l25",
+          "display": "Depremin büyüklüğü bir sayıyla ifade edilir. Bu ölçek logaritmiktir: büyüklük bir birim artınca dalganın genliği, yani kayıttaki yüksekliği, on katına çıkar.",
+          "spoken": "Depremin büyüklüğü bir sayıyla ifade edilir. Bu ölçek logaritmiktir: büyüklük bir birim artınca dalganın genliği, yani kayıttaki yüksekliği, on katına çıkar.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Büyüklük ile şiddet aynı şey değildir. Şiddet, sarsıntının bir yerde ne kadar güçlü olduğunu anlatır ve merkez üssünden uzaklaştıkça genellikle azalır.",
+          "spoken": "Büyüklük ile şiddet aynı şey değildir. Şiddet, sarsıntının bir yerde ne kadar güçlü olduğunu anlatır ve merkez üssünden uzaklaştıkça genellikle azalır.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Depremler sanıldığından çok daha sıktır: National Geographic'e göre Dünya'da her gün yüzlerce deprem olur.",
+          "spoken": "Depremler sanıldığından çok daha sıktır: Neşınıl Ciyografik'e göre Dünya'da her gün yüzlerce deprem olur.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Ciddi hasar verebilecek büyüklükte olanlar ise yılda yaklaşık 100 tanedir.",
+          "spoken": "Ciddi hasar verebilecek büyüklükte olanlar ise yılda yaklaşık yüz tanedir.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Büyük bir depremden sonra artçı sarsıntılar haftalarca, aylarca, hatta yıllarca sürebilir.",
+          "spoken": "Büyük bir depremden sonra artçı sarsıntılar haftalarca, aylarca, hatta yıllarca sürebilir.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Peki deprem önceden bilinebilir mi? USGS'ye göre bugüne kadar hiçbir bilim insanı büyük bir depremin gününü, yerini ve büyüklüğünü önceden bilemedi.",
+          "spoken": "Peki deprem önceden bilinebilir mi? Yu Es Ci Es'e göre bugüne kadar hiçbir bilim insanı büyük bir depremin gününü, yerini ve büyüklüğünü önceden bilemedi.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Ama bilim insanları bir fayda gelecekte yeniden deprem olacağını bilir. Erken uyarı sistemleri de deprem başladıktan hemen sonra haber verir.",
+          "spoken": "Ama bilim insanları bir fayda gelecekte yeniden deprem olacağını bilir. Erken uyarı sistemleri de deprem başladıktan hemen sonra haber verir.",
+          "factIds": [
+            "f16",
+            "f17"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Bu yüzden en iyi çözüm hazırlıklı olmaktır. Ready.gov'un önerdiği üç hareketi ezberle: Çök, Kapan, Tutun!",
+          "spoken": "Bu yüzden en iyi çözüm hazırlıklı olmaktır. Redi nokta gav'ın önerdiği üç hareketi ezberle: Çök, Kapan, Tutun!",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Yere çök. Sağlam bir masanın altına gir. Sarsıntı bitene kadar tutun. Camlardan ve devrilebilecek eşyalardan uzak dur.",
+          "spoken": "Yere çök. Sağlam bir masanın altına gir. Sarsıntı bitene kadar tutun. Camlardan ve devrilebilecek eşyalardan uzak dur.",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Dışarıdaysan binalardan, sokak lambalarından ve tellerden uzaklaş.",
+          "spoken": "Dışarıdaysan binalardan, sokak lambalarından ve tellerden uzaklaş.",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Şimdi sıra sende! Ailenle birlikte evde bir Çök, Kapan, Tutun tatbikatı yap ve bir acil durum çantası hazırla.",
+          "spoken": "Şimdi sıra sende! Ailenle birlikte evde bir Çök, Kapan, Tutun tatbikatı yap ve bir acil durum çantası hazırla.",
+          "factIds": [
+            "f18",
+            "f19"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Bir de deney: avuçlarını birbirine sıkıca bastır ve kaydırmaya çalış. Önce takılır, sonra aniden kayar. Fay da böyle davranır!",
+          "spoken": "Bir de deney: avuçlarını birbirine sıkıca bastır ve kaydırmaya çalış. Önce takılır, sonra aniden kayar. Fay da böyle davranır!",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l37",
+          "display": "Bunu biliyor muydun? USGS'ye göre büyüklüğü 10 ya da daha fazla olan bir deprem olamaz.",
+          "spoken": "Bunu biliyor muydun? Yu Es Ci Es'e göre büyüklüğü on ya da daha fazla olan bir deprem olamaz.",
+          "factIds": [
+            "f20"
+          ]
+        },
+        {
+          "id": "l38",
+          "display": "Hızlı soru! Hangi dalga daha hızlıdır: P mi, S mi?",
+          "spoken": "Hızlı soru! Hangi dalga daha hızlıdır: Pe mi, Se mi?",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l39",
+          "display": "Düşün bakalım... Evet: P dalgası!",
+          "spoken": "Düşün bakalım... Evet: Pe dalgası!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l40",
+          "display": "Aklında şöyle kalsın: P, pistin şampiyonu. S, sonradan gelen!",
+          "spoken": "Aklında şöyle kalsın: Pe, pistin şampiyonu. Se, sonradan gelen!",
+          "factIds": []
+        },
+        {
+          "id": "l41",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l42",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l43",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l44",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de gidip acil durum çantama yedek pil koyayım!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gidip acil durum çantama yedek pil koyayım!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Faylarda biriken gerilim aniden boşalınca deprem olur",
+    "Enerji P ve S dalgalarıyla yayılır; sismometre ölçer",
+    "Deprem önceden bilinemez: Çök, Kapan, Tutun!"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "Yerin Altındaki Güç",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🧩",
+        "name": "Levha"
+      },
+      {
+        "emoji": "🥇",
+        "name": "P dalgası"
+      },
+      {
+        "emoji": "🥈",
+        "name": "S dalgası"
+      },
+      {
+        "emoji": "📈",
+        "name": "Sismometre"
+      },
+      {
+        "emoji": "🎒",
+        "name": "Acil çanta"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Yer kabuğu parça parça, levha levha",
+          "Yılda birkaç santim kayar usulca",
+          "Sürtünme tutar, gerilim birikir",
+          "Kayalar bükülür, enerji gizlenir"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fay kayar, yer sarsılır!",
+          "Dalgalar her yöne yayılır",
+          "Önce P gelir, sonra S",
+          "Sismometre yazar hepsini"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Odak derinde, üstünde merkez üssü",
+          "Büyüklük bir artar, genlik on katı",
+          "Günü bilinmez, hazırlık şart",
+          "Çantanı hazırla, planını yap"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fay kayar, yer sarsılır!",
+          "Dalgalar her yöne yayılır",
+          "Çök, kapan, tutun; sakin kal!",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Yer neden sarsılır? Bu bölümde Dünya'nın katmanlarını, tektonik levhaları ve fayları; gerilimin nasıl biriktiğini ve aniden nasıl boşaldığını; odak ile merkez üssü arasındaki farkı, P ve S dalgalarını, sismometreyi, büyüklük ile şiddet arasındaki farkı keşfediyoruz. Deprem önceden bilinebilir mi, deprem anında ne yapmalıyız? Sonunda aile tatbikatı, avuç deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Tektonik levha",
+      "meaning": "Dünya'nın en dış katmanını oluşturan, yavaşça hareket eden büyük parçalardan her biri."
+    },
+    {
+      "term": "Fay",
+      "meaning": "Kaya bloklarının birbirine göre kaydığı kırık."
+    },
+    {
+      "term": "Gerilim",
+      "meaning": "Kayaların üzerinde biriken, onları bükmeye ve kırmaya zorlayan kuvvet."
+    },
+    {
+      "term": "Hiposantr",
+      "meaning": "Depremin yerin içinde başladığı nokta; odak da denir."
+    },
+    {
+      "term": "Merkez üssü",
+      "meaning": "Odağın tam üstündeki yeryüzü noktası."
+    },
+    {
+      "term": "Sismik dalga",
+      "meaning": "Depremin enerjisini yerin içinde ve yüzeyinde taşıyan dalga."
+    },
+    {
+      "term": "Sismometre",
+      "meaning": "Yer sarsıntısını ölçen alet."
+    },
+    {
+      "term": "Genlik",
+      "meaning": "Bir dalganın yüksekliği."
+    },
+    {
+      "term": "Artçı sarsıntı",
+      "meaning": "Büyük bir depremden sonra aynı bölgede görülen depremler."
+    }
+  ]
+}

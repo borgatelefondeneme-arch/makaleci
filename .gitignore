@@ -11,3 +11,4 @@ episodes/_demo/out/
 episodes/*/out/frames*/
 episodes/*/01_fulltext.txt
 .cache/
+episodes/*/out/check.jpg

@@ -1,0 +1,536 @@
+{
+ "paperId": "topic:volkanlar-nasil-patlar",
+ "episodeNumber": 5,
+ "videoTitle": "Volkanlar nasıl patlar?",
+ "paperTitleTr": "Volkanlar nasıl patlar?",
+ "takeaways": [
+  "Magma katı kayadan daha az yoğundur, bu yüzden yükselir",
+  "Püskürmeyi magmadaki gaz ve viskozite belirler",
+  "Volkanologlar depremleri, yer hareketini ve gazları izler"
+ ],
+ "description": "Bir volkanı patlatan nedir? Bu bölümde magma ile lav arasındaki farkı, magmanın neden yükseldiğini, tektonik levhaları ve sıcak noktaları; gazın ve viskozitenin püskürmeyi nasıl belirlediğini keşfediyoruz. Kalkan volkan ile stratovolkan arasındaki fark nedir, piroklastik akış nedir, volkanologlar püskürmeyi önceden nasıl anlar? Sonunda şişedeki gaz deneyi ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Magma",
+   "meaning": "Yerin altındaki erimiş kaya. Yüzeye çıkınca lav adını alır."
+  },
+  {
+   "term": "Magma odası",
+   "meaning": "Volkanın içinde magmanın toplandığı boşluk."
+  },
+  {
+   "term": "Tektonik levha",
+   "meaning": "Yer kabuğunu oluşturan, yavaşça hareket eden dev parçalardan her biri."
+  },
+  {
+   "term": "Viskozite",
+   "meaning": "Bir sıvının akmaya karşı direnci; bal yüksek, su düşük viskozitelidir."
+  },
+  {
+   "term": "Efüzif püskürme",
+   "meaning": "Lavın patlamadan, sakince aktığı püskürme."
+  },
+  {
+   "term": "Stratovolkan",
+   "meaning": "Dik yamaçlı, katmanlı volkan."
+  },
+  {
+   "term": "Piroklastik akış",
+   "meaning": "Yamaçtan hızla inen, sıcak kaya parçaları ve gaz karışımı."
+  },
+  {
+   "term": "Volkanolog",
+   "meaning": "Volkanları inceleyen bilim insanı."
+  }
+ ],
+ "song": {
+  "title": "Dağın İçindeki Ateş",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "🌋",
+    "name": "Volkan"
+   },
+   {
+    "emoji": "🔥",
+    "name": "Magma"
+   },
+   {
+    "emoji": "🫧",
+    "name": "Gaz"
+   },
+   {
+    "emoji": "🌫️",
+    "name": "Kül"
+   },
+   {
+    "emoji": "📡",
+    "name": "Volkanolog"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Yerin derininde erimiş kaya",
+     "Hafiftir taştan, yükselir yukarı",
+     "Magma odasında toplanır durur",
+     "İçindeki gaz basıncı kurar"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Magma yerde, lav yüzeyde!",
+     "Gaz sıkışırsa dağ gürler",
+     "Akıcıysa sakince akar",
+     "Yapışkansa patlar, patlar!"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Levhalar ayrılır, magma çıkar",
+     "Kalkan volkan yayvan, strato dik durur",
+     "Kül rüzgârla uzağa uçar",
+     "Volkanolog depremi, gazı ölçer"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Magma yerde, lav yüzeyde!",
+     "Gaz sıkışırsa dağ gürler",
+     "Bilim izler, erken uyarır",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Bir dağ düşün. İçinden, bin derecenin üstünde sıcaklıkta erimiş kaya fışkırıyor!",
+     "spoken": "Bir dağ düşün. İçinden, bin derecenin üstünde sıcaklıkta erimiş kaya fışkırıyor!",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Bu kaya nereden geliyor? Ve neden bazı volkanlar sakince akarken bazıları patlıyor?",
+     "spoken": "Bu kaya nereden geliyor? Ve neden bazı volkanlar sakince akarken bazıları patlıyor?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün bir volkanın içine iniyoruz!",
+     "spoken": "Bugün bir volkanın içine iniyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Merak etme, ben sıcağa alışkınım. İşlemcim bazen fena ısınıyor!",
+     "spoken": "Merak etme, ben sıcağa alışkınım. İşlemcim bazen fena ısınıyor!",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Üç sorumuz var. Magma nedir ve neden yükselir? Bir volkanı patlatan şey nedir? Ve bilim insanları püskürmeyi önceden nasıl anlar?",
+     "spoken": "Üç sorumuz var. Magma nedir ve neden yükselir? Bir volkanı patlatan şey nedir? Ve bilim insanları püskürmeyi önceden nasıl anlar?",
+     "factIds": []
+    },
+    {
+     "id": "l6",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l7",
+     "display": "ABD Jeoloji Araştırmaları Kurumu, kısaca USGS'ye göre volkan; lavın, kaya parçalarının ve buharın yeryüzüne çıktığı bir açıklıktır.",
+     "spoken": "A Be De Jeoloji Araştırmaları Kurumu, kısaca Yu Es Ci Es'e göre volkan; lavın, kaya parçalarının ve buharın yeryüzüne çıktığı bir açıklıktır.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Önce iki kelimeyi ayıralım. Erimiş kaya yerin altındayken ona magma denir. Yüzeye çıktığında adı lav olur.",
+     "spoken": "Önce iki kelimeyi ayıralım. Erimiş kaya yerin altındayken ona magma denir. Yüzeye çıktığında adı lav olur.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Magma, yerin çok derinlerinde oluşur. Çevresindeki katı kayadan daha hafiftir, yani daha az yoğundur. Bu yüzden yukarı doğru yükselir.",
+     "spoken": "Magma, yerin çok derinlerinde oluşur. Çevresindeki katı kayadan daha hafiftir, yani daha az yoğundur. Bu yüzden yukarı doğru yükselir.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Tıpkı suyun dibine bastırdığın bir mantarın yüzeye çıkması gibi.",
+     "spoken": "Tıpkı suyun dibine bastırdığın bir mantarın yüzeye çıkması gibi.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "Yükselen magma, volkanın içindeki bir odada toplanır: magma odası. Burada basınç giderek artar.",
+     "spoken": "Yükselen magma, volkanın içindeki bir odada toplanır: magma odası. Burada basınç giderek artar.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "Peki magma nerelerde yükselir? NASA'ya göre yer kabuğu, tektonik levha denen parçalardan oluşur ve bu levhalar yavaşça hareket eder.",
+     "spoken": "Peki magma nerelerde yükselir? Nasa'ya göre yer kabuğu, tektonik levha denen parçalardan oluşur ve bu levhalar yavaşça hareket eder.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Levhalar birbirinden uzaklaşırken aradan magma yükselir. Birbirine doğru ilerlerken ise kabuğun bir kısmı derine itilir, orada erir ve magma olarak yükselir.",
+     "spoken": "Levhalar birbirinden uzaklaşırken aradan magma yükselir. Birbirine doğru ilerlerken ise kabuğun bir kısmı derine itilir, orada erir ve magma olarak yükselir.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Üçüncü yol: sıcak noktalar. Hawaii'nin volkanları böyle bir sıcak noktanın üstünde oluşmuştur.",
+     "spoken": "Üçüncü yol: sıcak noktalar. Havai'nin volkanları böyle bir sıcak noktanın üstünde oluşmuştur.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "Volkanların birçoğu Büyük Okyanus'un çevresinde dizilir. Bu kuşağın adı: Ateş Çemberi.",
+     "spoken": "Volkanların birçoğu Büyük Okyanus'un çevresinde dizilir. Bu kuşağın adı: Ateş Çemberi.",
+     "factIds": [
+      "f6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l16",
+     "display": "Şimdi asıl soru: volkanı patlatan nedir? Cevap: gaz!",
+     "spoken": "Şimdi asıl soru: volkanı patlatan nedir? Cevap: gaz!",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Britanya Jeoloji Araştırmaları Kurumu bunu bir gazoz şişesine benzetiyor: gaz sıvının içinde hapsolmuştur ve kaçmak ister.",
+     "spoken": "Britanya Jeoloji Araştırmaları Kurumu bunu bir gazoz şişesine benzetiyor: gaz sıvının içinde hapsolmuştur ve kaçmak ister.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Magmanın içinde çok gaz hapsolursa basınç artar, artar, artar...",
+     "spoken": "Magmanın içinde çok gaz hapsolursa basınç artar, artar, artar...",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Ben gazoz içemem ama o basıncı bilirim. Güncelleme yüklerken ben de böyle oluyorum!",
+     "spoken": "Ben gazoz içemem ama o basıncı bilirim. Güncelleme yüklerken ben de böyle oluyorum!",
+     "factIds": []
+    },
+    {
+     "id": "l20",
+     "display": "Burada önemli bir kelime var: viskozite. Viskozitesi düşük sıvı akıcıdır; yüksek olan ise bal gibi yapışkan ve ağırdır.",
+     "spoken": "Burada önemli bir kelime var: viskozite. Viskozitesi düşük sıvı akıcıdır; yüksek olan ise bal gibi yapışkan ve ağırdır.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Magma akıcıysa gaz kolayca kaçar ve lav sakince akar. Buna efüzif püskürme denir.",
+     "spoken": "Magma akıcıysa gaz kolayca kaçar ve lav sakince akar. Buna efüzif püskürme denir.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Magma yapışkansa gaz içeride sıkışır. Basınç birikir ve sonunda patlamalı bir püskürme olur.",
+     "spoken": "Magma yapışkansa gaz içeride sıkışır. Basınç birikir ve sonunda patlamalı bir püskürme olur.",
+     "factIds": [
+      "f7",
+      "f8"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Yani püskürmenin sakin mi patlamalı mı olacağını en çok magmadaki gaz miktarı belirler.",
+     "spoken": "Yani püskürmenin sakin mi patlamalı mı olacağını en çok magmadaki gaz miktarı belirler.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Volkanın biçimi de magmaya bağlıdır. Akıcı lav uzağa yayılır ve yayvan bir kalkan volkan oluşturur; eğimi 10 dereceden azdır.",
+     "spoken": "Volkanın biçimi de magmaya bağlıdır. Akıcı lav uzağa yayılır ve yayvan bir kalkan volkan oluşturur; eğimi on dereceden azdır.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Yapışkan magma ise dik yamaçlı bir stratovolkan kurar; eğimi yaklaşık 30–35 derecedir. Japonya'daki Fuji Dağı böyledir.",
+     "spoken": "Yapışkan magma ise dik yamaçlı bir stratovolkan kurar; eğimi yaklaşık otuz ile otuz beş derecedir. Japonya'daki Fuji Dağı böyledir.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Püskürmede kül de çıkar. Kül, saç teli kalınlığında minik kaya parçalarıdır ve rüzgârla taşınır.",
+     "spoken": "Püskürmede kül de çıkar. Kül, saç teli kalınlığında minik kaya parçalarıdır ve rüzgârla taşınır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "En tehlikelisi piroklastik akıştır: kaya parçaları ile gazın sıcak karışımı. Yamaçtan saatte 110 kilometre ya da daha hızlı iner.",
+     "spoken": "En tehlikelisi piroklastik akıştır: kaya parçaları ile gazın sıcak karışımı. Yamaçtan saatte yüz on kilometre ya da daha hızlı iner.",
+     "factIds": [
+      "f14"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l28",
+     "display": "Dünya'da 1500'den fazla etkin volkan var ve her yıl yaklaşık 50–70 tanesi püskürüyor.",
+     "spoken": "Dünya'da bin beş yüzden fazla etkin volkan var ve her yıl yaklaşık elli ile yetmiş tanesi püskürüyor.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Dünyanın en büyük etkin volkanı Hawaii'deki Mauna Loa'dır.",
+     "spoken": "Dünyanın en büyük etkin volkanı Havai'deki Mauna Loa'dır.",
+     "factIds": [
+      "f16",
+      "f5"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "Bazalt lavın sıcaklığı 1100–1200 santigrat derecedir.",
+     "spoken": "Bazalt lavın sıcaklığı bin yüz ile bin iki yüz santigrat derecedir.",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Benim işlemcim bunun yanında buzdolabı sayılır!",
+     "spoken": "Benim işlemcim bunun yanında buzdolabı sayılır!",
+     "factIds": []
+    },
+    {
+     "id": "l32",
+     "display": "İyi haber: lav genellikle yavaş aktığı için doğrudan can kaybına nadiren yol açar.",
+     "spoken": "İyi haber: lav genellikle yavaş aktığı için doğrudan can kaybına nadiren yol açar.",
+     "factIds": [
+      "f18"
+     ]
+    },
+    {
+     "id": "l33",
+     "display": "Peki püskürme önceden anlaşılır mı? Volkanları inceleyen bilim insanlarına volkanolog denir.",
+     "spoken": "Peki püskürme önceden anlaşılır mı? Volkanları inceleyen bilim insanlarına volkanolog denir.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l34",
+     "display": "USGS'ye göre üç şey izlenir: depremler, yerdeki hareketler ve volkandan çıkan gazlar.",
+     "spoken": "Yu Es Ci Es'e göre üç şey izlenir: depremler, yerdeki hareketler ve volkandan çıkan gazlar.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l35",
+     "display": "Değişikliği erken fark etmek, insanlara hazırlanmak için zaman kazandırır.",
+     "spoken": "Değişikliği erken fark etmek, insanlara hazırlanmak için zaman kazandırır.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l36",
+     "display": "Volkanlar yeni kara da kurar: Surtsey adlı ada bir püskürmeyle doğdu.",
+     "spoken": "Volkanlar yeni kara da kurar: Sürtsey adlı ada bir püskürmeyle doğdu.",
+     "factIds": [
+      "f19"
+     ]
+    },
+    {
+     "id": "l37",
+     "display": "Şimdi sıra sende! Kapalı bir maden suyu şişesine bak: içinde neredeyse hiç kabarcık görünmüyor.",
+     "spoken": "Şimdi sıra sende! Kapalı bir maden suyu şişesine bak: içinde neredeyse hiç kabarcık görünmüyor.",
+     "factIds": []
+    },
+    {
+     "id": "l38",
+     "display": "Kapağı lavabonun üstünde, yavaşça aç. Kabarcıklar belirir: gaz kaçmaya çalışıyor! Tıpkı magmadaki gaz gibi.",
+     "spoken": "Kapağı lavabonun üstünde, yavaşça aç. Kabarcıklar belirir: gaz kaçmaya çalışıyor! Tıpkı magmadaki gaz gibi.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l39",
+     "display": "Bir uyarı: şişeyi çalkalama ve yüzüne doğru tutma.",
+     "spoken": "Bir uyarı: şişeyi çalkalama ve yüzüne doğru tutma.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l40",
+     "display": "Bunu biliyor muydun? Volkanların hepsi aynı değildir: yayvan kalkan volkanlar, dik stratovolkanlar ve en basit tür olan cüruf konileri vardır.",
+     "spoken": "Bunu biliyor muydun? Volkanların hepsi aynı değildir: yayvan kalkan volkanlar, dik stratovolkanlar ve en basit tür olan cüruf konileri vardır.",
+     "factIds": [
+      "f9",
+      "f10",
+      "f11"
+     ]
+    },
+    {
+     "id": "l41",
+     "display": "Hızlı soru! Erimiş kaya yerin altındayken adı nedir: magma mı, lav mı?",
+     "spoken": "Hızlı soru! Erimiş kaya yerin altındayken adı nedir: magma mı, lav mı?",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l42",
+     "display": "Düşün bakalım... Evet: magma!",
+     "spoken": "Düşün bakalım... Evet: magma!",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l43",
+     "display": "Yüzeye çıkınca adı lav olur. Ben yüzeye çıkınca yine Muma'yım!",
+     "spoken": "Yüzeye çıkınca adı lav olur. Ben yüzeye çıkınca yine Muma'yım!",
+     "factIds": []
+    },
+    {
+     "id": "l44",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l45",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l46",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l47",
+     "display": "Abone olmayı ve zili açmayı unutma. Ben uçayım; burası ısınmaya başladı!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Ben uçayım; burası ısınmaya başladı!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

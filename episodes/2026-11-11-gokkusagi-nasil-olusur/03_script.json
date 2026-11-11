@@ -1,0 +1,497 @@
+{
+  "paperId": "topic:gokkusagi-nasil-olusur",
+  "episodeNumber": 4,
+  "videoTitle": "Gökkuşağı nasıl oluşur?",
+  "paperTitleTr": "Gökkuşağı nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Yağmur diniyor, Güneş çıkıyor ve gökyüzünde renkli, dev bir yay beliriyor!",
+          "spoken": "Yağmur diniyor, Güneş çıkıyor ve gökyüzünde renkli, dev bir yay beliriyor!",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Peki bu renkler nereden geliyor? Ve gökkuşağı neden hep yay biçiminde?",
+          "spoken": "Peki bu renkler nereden geliyor? Ve gökkuşağı neden hep yay biçiminde?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir yağmur damlasının içine giriyoruz!",
+          "spoken": "Bugün bir yağmur damlasının içine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Gerçi ben damlanın içine giremem. Su ile robot pek iyi anlaşmaz!",
+          "spoken": "Gerçi ben damlanın içine giremem. Su ile robot pek iyi anlaşmaz!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Üç sorumuz var. Beyaz ışığın içinde ne saklı? Bir damla ışığa ne yapar? Ve gökkuşağı neden yay biçimindedir?",
+          "spoken": "Üç sorumuz var. Beyaz ışığın içinde ne saklı? Bir damla ışığa ne yapar? Ve gökkuşağı neden yay biçimindedir?",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l7",
+          "display": "National Geographic'e göre gökkuşağı, ışığın su damlacıklarına çarpmasıyla oluşan çok renkli bir yaydır.",
+          "spoken": "Neşınıl Ciyografik'e göre gökkuşağı, ışığın su damlacıklarına çarpmasıyla oluşan çok renkli bir yaydır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "İlk sır Güneş ışığında. Bize beyaz görünür; ama beyaz ışık, gökkuşağının bütün renklerinin karışımıdır.",
+          "spoken": "İlk sır Güneş ışığında. Bize beyaz görünür; ama beyaz ışık, gökkuşağının bütün renklerinin karışımıdır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "NASA'ya göre Isaac Newton bunu 1665'te bir deneyle gösterdi: cam bir prizma ışığı büker ve renklerine ayırır.",
+          "spoken": "Nasa'ya göre Ayzek Nivtın bunu bin altı yüz altmış beşte bir deneyle gösterdi: cam bir prizma ışığı büker ve renklerine ayırır.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Her rengin dalga boyu farklıdır. Kırmızının dalga boyu en uzun, morunki en kısadır.",
+          "spoken": "Her rengin dalga boyu farklıdır. Kırmızının dalga boyu en uzun, morunki en kısadır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim en sevdiğim renk mi? Şarj göstergemdeki yeşil!",
+          "spoken": "Benim en sevdiğim renk mi? Şarj göstergemdeki yeşil!",
+          "factIds": []
+        },
+        {
+          "id": "l12",
+          "display": "İkinci sır: kırılma. Kraliyet Meteoroloji Derneği'ne göre ışık, havadan daha yoğun bir ortama, örneğin suya girerken yön değiştirir.",
+          "spoken": "İkinci sır: kırılma. Kraliyet Meteoroloji Derneği'ne göre ışık, havadan daha yoğun bir ortama, örneğin suya girerken yön değiştirir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Renkler suyun içinde farklı hızlarda ilerler. Bu yüzden her renk biraz farklı bir açıyla kırılır ve renkler birbirinden ayrılır.",
+          "spoken": "Renkler suyun içinde farklı hızlarda ilerler. Bu yüzden her renk biraz farklı bir açıyla kırılır ve renkler birbirinden ayrılır.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Yani her yağmur damlası minik bir prizma gibi çalışır.",
+          "spoken": "Yani her yağmur damlası minik bir prizma gibi çalışır.",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l15",
+          "display": "Şimdi tek bir damlayı izleyelim. Birinci adım: ışık damlaya girer ve kırılır.",
+          "spoken": "Şimdi tek bir damlayı izleyelim. Birinci adım: ışık damlaya girer ve kırılır.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "İkinci adım: damlanın arka yüzeyinden yansır. Tıpkı bir aynadan döner gibi.",
+          "spoken": "İkinci adım: damlanın arka yüzeyinden yansır. Tıpkı bir aynadan döner gibi.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Üçüncü adım: damladan çıkarken bir kez daha kırılır. Artık renkler ayrılmıştır.",
+          "spoken": "Üçüncü adım: damladan çıkarken bir kez daha kırılır. Artık renkler ayrılmıştır.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Gökkuşağını görmek için iki koşul gerekir: Güneş arkanda olmalı, su damlacıkları ise önünde.",
+          "spoken": "Gökkuşağını görmek için iki koşul gerekir: Güneş arkanda olmalı, su damlacıkları ise önünde.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Işık, damlalardan gözüne belirli bir açıyla döner: 42 derece.",
+          "spoken": "Işık, damlalardan gözüne belirli bir açıyla döner: kırk iki derece.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Bu açıyı tutturan damlalar bir çemberin üzerinde dizilir. Çemberin merkezi, Güneş'in tam karşısındaki hayali noktadır. Adı: antisolar nokta.",
+          "spoken": "Bu açıyı tutturan damlalar bir çemberin üzerinde dizilir. Çemberin merkezi, Güneş'in tam karşısındaki hayali noktadır. Adı: antisolar nokta.",
+          "factIds": [
+            "f9",
+            "f10"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Evet, gökkuşağı aslında tam bir çemberdir! Yerdeyken yalnızca ufkun üstündeki kısmını görürüz. Uçaktakiler ise bazen çemberin tamamını görebilir.",
+          "spoken": "Evet, gökkuşağı aslında tam bir çemberdir! Yerdeyken yalnızca ufkun üstündeki kısmını görürüz. Uçaktakiler ise bazen çemberin tamamını görebilir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Güneş ne kadar alçaktaysa yayın o kadar büyük bölümü görünür.",
+          "spoken": "Güneş ne kadar alçaktaysa yayın o kadar büyük bölümü görünür.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bu yüzden gökkuşağının ucunda hazine arama. Çemberin ucu olmaz! Ben denedim, hâlâ dönüyorum.",
+          "spoken": "Bu yüzden gökkuşağının ucunda hazine arama. Çemberin ucu olmaz! Ben denedim, hâlâ dönüyorum.",
+          "factIds": [
+            "f17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l24",
+          "display": "Renklerin sırası hep aynıdır: kırmızı yayın dışında, mor içindedir. Arada turuncu, sarı, yeşil, mavi ve çivit mavisi yer alır.",
+          "spoken": "Renklerin sırası hep aynıdır: kırmızı yayın dışında, mor içindedir. Arada turuncu, sarı, yeşil, mavi ve çivit mavisi yer alır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Ama keskin sınırlar yoktur: renkler kenarlarında üst üste biner. Hatta birçok bilim insanına göre çivit mavisi, maviden ayırt edilemeyecek kadar yakındır.",
+          "spoken": "Ama keskin sınırlar yoktur: renkler kenarlarında üst üste biner. Hatta birçok bilim insanına göre çivit mavisi, maviden ayırt edilemeyecek kadar yakındır.",
+          "factIds": [
+            "f12",
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Bazen ilk yayın üstünde daha soluk, ikinci bir yay belirir. Buna çift gökkuşağı denir.",
+          "spoken": "Bazen ilk yayın üstünde daha soluk, ikinci bir yay belirir. Buna çift gökkuşağı denir.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Nedeni, ışığın damlanın içinde iki kez yansımasıdır. İkinci yayda renkler ters dizilir: kırmızı içte, mor dıştadır.",
+          "spoken": "Nedeni, ışığın damlanın içinde iki kez yansımasıdır. İkinci yayda renkler ters dizilir: kırmızı içte, mor dıştadır.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Gökkuşağı için yağmur şart değil: sis, deniz serpintisi ve şelale çevresinde de görülebilir. Ay ışığıyla oluşanına ay gökkuşağı denir.",
+          "spoken": "Gökkuşağı için yağmur şart değil: sis, deniz serpintisi ve şelale çevresinde de görülebilir. Ay ışığıyla oluşanına ay gökkuşağı denir.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "En şaşırtıcısı şu: gökkuşağı, gökyüzünde belirli bir yerde durmaz. O bir optik yanılsamadır.",
+          "spoken": "En şaşırtıcısı şu: gökkuşağı, gökyüzünde belirli bir yerde durmaz. O bir optik yanılsamadır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Bu yüzden kimse aynı gökkuşağını görmez. Herkesin antisolar noktası farklıdır; yanındaki arkadaşın kendi gökkuşağına bakar.",
+          "spoken": "Bu yüzden kimse aynı gökkuşağını görmez. Herkesin antisolar noktası farklıdır; yanındaki arkadaşın kendi gökkuşağına bakar.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Yani gökkuşağı paylaşılmaz. Ama merak etme, herkese bir tane düşüyor!",
+          "spoken": "Yani gökkuşağı paylaşılmaz. Ama merak etme, herkese bir tane düşüyor!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi sıra sende! Güneşli bir günde sırtını Güneş'e dön ve bahçe hortumuyla önüne ince ince su püskürt.",
+          "spoken": "Şimdi sıra sende! Güneşli bir günde sırtını Güneş'e dön ve bahçe hortumuyla önüne ince ince su püskürt.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Damlacıkların içinde kendi gökkuşağını ara. Renklerin sırasını kontrol et: kırmızı dışta mı?",
+          "spoken": "Damlacıkların içinde kendi gökkuşağını ara. Renklerin sırasını kontrol et: kırmızı dışta mı?",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Bir uyarı: Güneş'e asla doğrudan bakma. Zaten gökkuşağı için ona sırtını dönmen gerekiyor!",
+          "spoken": "Bir uyarı: Güneş'e asla doğrudan bakma. Zaten gökkuşağı için ona sırtını dönmen gerekiyor!",
+          "factIds": [
+            "f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l35",
+          "display": "Bunu biliyor muydun? İnsan gözü, ışığın yalnızca belirli dalga boylarını algılayabilir. Gökkuşağının renkleri, işte o görebildiğimiz ışıktır.",
+          "spoken": "Bunu biliyor muydun? İnsan gözü, ışığın yalnızca belirli dalga boylarını algılayabilir. Gökkuşağının renkleri, işte o görebildiğimiz ışıktır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Hızlı soru! Gökkuşağını görmek için Güneş nerede olmalı: önünde mi, arkanda mı?",
+          "spoken": "Hızlı soru! Gökkuşağını görmek için Güneş nerede olmalı: önünde mi, arkanda mı?",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l37",
+          "display": "Düşün bakalım... Evet: arkanda!",
+          "spoken": "Düşün bakalım... Evet: arkanda!",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l38",
+          "display": "Hortumu sen tut ama. Ben ıslanırsam gökkuşağı değil, kıvılcım görürüz!",
+          "spoken": "Hortumu sen tut ama. Ben ıslanırsam gökkuşağı değil, kıvılcım görürüz!",
+          "factIds": []
+        },
+        {
+          "id": "l39",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l40",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l41",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l42",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de gidip bir güzel kurulanayım!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gidip bir güzel kurulanayım!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Beyaz ışık bütün renklerin karışımıdır",
+    "Damlada kırılma, yansıma ve yine kırılma renkleri ayırır",
+    "Gökkuşağı aslında bir çemberdir; herkes kendininkini görür"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "Damladaki Renkler",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "💧",
+        "name": "Damla"
+      },
+      {
+        "emoji": "🔺",
+        "name": "Prizma"
+      },
+      {
+        "emoji": "🌈",
+        "name": "Gökkuşağı"
+      },
+      {
+        "emoji": "👁️",
+        "name": "Göz"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Beyaz ışığın içinde renkler saklı",
+          "Damlaya girer ışık, kırılır yolu",
+          "Arkadan yansır, döner geri",
+          "Çıkarken kırılır, ayrılır her biri"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kırıl, yansı, kırıl; renkler açılır!",
+          "Kırmızı dışta, mor en içte",
+          "Güneş arkamda, damlalar önümde",
+          "Kırk iki derece, renkler gökte"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Aslında tam çember, yarısı saklı",
+          "İki kez yansırsa çift olur yayı",
+          "İkinci yayda renkler ters durur",
+          "Herkes kendi yayını görür"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kırıl, yansı, kırıl; renkler açılır!",
+          "Kırmızı dışta, mor en içte",
+          "Sırtını Güneş'e dön, renklere bak",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Gökkuşağının renkleri nereden gelir? Bu bölümde beyaz ışığın içindeki renkleri, Newton'ın prizma deneyini, kırılmayı ve yansımayı; bir yağmur damlasının içinde ışığın izlediği yolu keşfediyoruz. Gökkuşağı neden yay biçimindedir, neden aslında tam bir çemberdir, çift gökkuşağında renkler neden ters dizilir? Sonunda bahçe hortumuyla gökkuşağı deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Prizma",
+      "meaning": "Işığı büküp renklerine ayıran, saydam ve köşeli cisim."
+    },
+    {
+      "term": "Dalga boyu",
+      "meaning": "Işık dalgasının art arda gelen iki tepesi arasındaki uzaklık; her rengin dalga boyu farklıdır."
+    },
+    {
+      "term": "Kırılma",
+      "meaning": "Işığın bir ortamdan başka bir ortama geçerken yön değiştirmesi."
+    },
+    {
+      "term": "Yansıma",
+      "meaning": "Işığın bir yüzeye çarpıp geri dönmesi."
+    },
+    {
+      "term": "Antisolar nokta",
+      "meaning": "Gözlemciye göre Güneş'in tam karşısında kalan hayali nokta."
+    },
+    {
+      "term": "Ufuk",
+      "meaning": "Gökyüzü ile yerin birleşiyormuş gibi göründüğü çizgi."
+    },
+    {
+      "term": "Optik yanılsama",
+      "meaning": "Gördüğümüz şeyin, orada gerçekten duran bir nesne olmaması."
+    },
+    {
+      "term": "Çivit mavisi",
+      "meaning": "Mavi ile mor arasındaki koyu mavi ton."
+    }
+  ]
+}

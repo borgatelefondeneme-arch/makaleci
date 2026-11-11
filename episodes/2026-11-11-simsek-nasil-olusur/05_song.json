@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Bulutun Kıvılcımı",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Bulutun içinde buzlar çarpışır",
+          "start": 5.15,
+          "end": 9.1
+        },
+        {
+          "text": "Hafifler yukarı artı taşır",
+          "start": 9.1,
+          "end": 12.74
+        },
+        {
+          "text": "Ağır taneler eksiyle dolar",
+          "start": 12.74,
+          "end": 16.38
+        },
+        {
+          "text": "Hava yalıtkan, arada durur",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Çat! Şimşek çakar, gök aydınlanır",
+          "start": 20.17,
+          "end": 23.32
+        },
+        {
+          "text": "Hava genleşir, gürültü yayılır",
+          "start": 23.32,
+          "end": 26.73
+        },
+        {
+          "text": "Önce ışık gelir, sonra ses",
+          "start": 26.73,
+          "end": 29.61
+        },
+        {
+          "text": "Say saniyeyi, üçe böl, hesapla!",
+          "start": 29.61,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Öncü iner zikzak çizerek",
+          "start": 33.18,
+          "end": 36.58
+        },
+        {
+          "text": "Yerden kanal çıkar yükselerek",
+          "start": 36.58,
+          "end": 40.3
+        },
+        {
+          "text": "Buluşunca döner parlak darbe",
+          "start": 40.3,
+          "end": 44.01
+        },
+        {
+          "text": "Güneş'ten sıcak olur hava bile",
+          "start": 44.01,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Çat! Şimşek çakar, gök aydınlanır",
+          "start": 48.19,
+          "end": 51.47
+        },
+        {
+          "text": "Hava genleşir, gürültü yayılır",
+          "start": 51.47,
+          "end": 55.03
+        },
+        {
+          "text": "Gürültüyü duyunca içeri gir",
+          "start": 55.03,
+          "end": 58.59
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.59,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Bir volkanı patlatan nedir?",
+    "emoji": "🌋"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🔥",
+    "🪨",
+    "💨",
+    "⛰️"
+   ],
+   "keywords": [
+    "",
+    "AKAR MI, PATLAR MI?",
+    "VOLKANIN İÇİNE!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sıcağa alışkın robot",
+    "emoji": "🤖",
+    "chips": [
+     {
+      "label": "İşlemci ısınıyor",
+      "emoji": "🌡️"
+     },
+     {
+      "label": "Fan tam hız",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Lav kadar değil!",
+      "emoji": "🔥"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🧯",
+    "⚙️"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
+    "l5",
+    "l6"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Magma nedir ve neden yükselir?",
+     "Bir volkanı patlatan şey nedir?",
+     "Püskürme önceden nasıl anlaşılır?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l7"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Volkan nedir?",
+    "emoji": "🌋",
+    "chips": [
+     {
+      "label": "Yeryüzüne açılan açıklık",
+      "emoji": "🕳️"
+     },
+     {
+      "label": "Lav",
+      "emoji": "🔥"
+     },
+     {
+      "label": "Kaya parçaları",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Buhar",
+      "emoji": "♨️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "⛰️",
+    "💨"
+   ],
+   "keywords": [
+    "VOLKAN"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l8"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Magma mı, lav mı?",
+    "left": {
+     "title": "Magma ⬇️",
+     "items": [
+      "Erimiş kaya",
+      "Yerin altında"
+     ]
+    },
+    "right": {
+     "title": "Lav ⬆️",
+     "items": [
+      "Erimiş kaya",
+      "Yüzeyde"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🔥",
+    "🪨"
+   ],
+   "keywords": [
+    "MAGMA ≠ LAV"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Magma yükseliyor",
+    "label": "Magma",
+    "emoji": "🔥",
+    "phases": [
+     {
+      "label": "Katı kayadan daha az yoğun",
+      "level": 0.3,
+      "emoji": "🪨"
+     },
+     {
+      "label": "Mantar gibi yükselir",
+      "level": 0.6,
+      "emoji": "⬆️"
+     },
+     {
+      "label": "Odada toplanır: basınç artar",
+      "level": 0.95,
+      "emoji": "💥"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🌍",
+    "⛰️"
+   ],
+   "keywords": [
+    "DAHA AZ YOĞUN",
+    "YUKARI! ⬆️",
+    "MAGMA ODASI"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Magma nerelerde yükselir?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Tektonik levhalar hareket eder",
+      "emoji": "🌍"
+     },
+     {
+      "label": "Uzaklaşan levhalar",
+      "emoji": "↔️"
+     },
+     {
+      "label": "Yaklaşan levhalar: kabuk derine itilir",
+      "emoji": "⤵️"
+     },
+     {
+      "label": "Sıcak nokta: Hawaii",
+      "emoji": "🏝️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🗺️",
+    "🔥"
+   ],
+   "keywords": [
+    "TEKTONİK LEVHA",
+    "UZAKLAŞ ↔️ YAKLAŞ",
+    "SICAK NOKTA 🏝️"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "method",
+   "lineIds": [
+    "l15"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Ateş Çemberi",
+    "label": "Büyük Okyanus'un çevresindeki volkan kuşağı",
+    "sub": "USGS",
+    "icon": "🔥"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "stickers": [
+    "🌊",
+    "🌋"
+   ],
+   "keywords": [
+    "ATEŞ ÇEMBERİ 🔥"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l16",
+    "l17"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Volkanı patlatan: gaz!",
+    "emoji": "🥤",
+    "chips": [
+     {
+      "label": "Gaz sıvıda hapsolur",
+      "emoji": "🫧"
+     },
+     {
+      "label": "Kaçmak ister",
+      "emoji": "💨"
+     },
+     {
+      "label": "Gazoz şişesi gibi",
+      "emoji": "🍾"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "💥",
+    "🫧"
+   ],
+   "keywords": [
+    "CEVAP: GAZ!",
+    "GAZOZ ŞİŞESİ 🥤"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Basınç",
+    "label": "Basınç",
+    "emoji": "💨",
+    "phases": [
+     {
+      "label": "Gaz hapsoldu: basınç artıyor",
+      "level": 0.7,
+      "emoji": "📈"
+     },
+     {
+      "label": "Güncelleme yükleniyor… 😅",
+      "level": 0.98,
+      "emoji": "🤖"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🫧",
+    "⚠️"
+   ],
+   "keywords": [
+    "ARTAR, ARTAR…",
+    "BEN DE! 😅"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l20",
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Viskozite",
+    "left": {
+     "title": "Akıcı magma 💧",
+     "items": [
+      "Düşük viskozite",
+      "Gaz kolayca kaçar",
+      "Efüzif: lav sakince akar"
+     ]
+    },
+    "right": {
+     "title": "Yapışkan magma 🍯",
+     "items": [
+      "Yüksek viskozite",
+      "Gaz içeride sıkışır",
+      "Patlamalı püskürme"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8"
+   ],
+   "stickers": [
+    "🍯",
+    "💧",
+    "💥"
+   ],
+   "keywords": [
+    "VİSKOZİTE",
+    "EFÜZİF PÜSKÜRME",
+    "PATLAMALI! 💥"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l23"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Gaz miktarı",
+    "label": "Sakin mi, patlamalı mı? En çok bunu belirler",
+    "sub": "Britanya Jeoloji Araştırmaları Kurumu",
+    "icon": "🫧"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "💨",
+    "🌋"
+   ],
+   "keywords": [
+    "BELİRLEYEN: GAZ"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "finding",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "bar-chart",
+    "title": "Yamaç eğimi",
+    "unit": "°",
+    "bars": [
+     {
+      "label": "Kalkan volkan",
+      "value": 10,
+      "display": "<10"
+     },
+     {
+      "label": "Stratovolkan",
+      "value": 30,
+      "display": "30–35",
+      "highlight": true
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "stickers": [
+    "🛡️",
+    "🗻"
+   ],
+   "keywords": [
+    "KALKAN VOLKAN 🛡️",
+    "STRATOVOLKAN 🗻"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "finding",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Püskürmede neler çıkar?",
+    "emoji": "💥",
+    "chips": [
+     {
+      "label": "Kül: saç teli kalınlığında kaya",
+      "emoji": "🌫️"
+     },
+     {
+      "label": "Rüzgârla taşınır",
+      "emoji": "🌬️"
+     },
+     {
+      "label": "Piroklastik akış: sıcak kaya + gaz",
+      "emoji": "🔥"
+     },
+     {
+      "label": "Saatte 110 km ya da daha hızlı",
+      "emoji": "⚡"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12",
+    "f14"
+   ],
+   "stickers": [
+    "🌋",
+    "🪨"
+   ],
+   "keywords": [
+    "KÜL",
+    "PİROKLASTİK AKIŞ ⚠️"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "1500+",
+    "label": "Dünya'daki etkin volkan sayısı",
+    "sub": "Her yıl yaklaşık 50–70 tanesi püskürür",
+    "icon": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "🌋",
+    "🗺️"
+   ],
+   "keywords": [
+    "ETKİN VOLKANLAR"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "importance",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Mauna Loa",
+    "emoji": "🏝️",
+    "chips": [
+     {
+      "label": "Hawaii'de",
+      "emoji": "📍"
+     },
+     {
+      "label": "En büyük etkin volkan",
+      "emoji": "🏆"
+     },
+     {
+      "label": "Bir kalkan volkan",
+      "emoji": "🛡️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f9",
+    "f16"
+   ],
+   "stickers": [
+    "🌊",
+    "🌋"
+   ],
+   "keywords": [
+    "EN BÜYÜK 🏆"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "importance",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "1100–1200",
+    "unit": "°C",
+    "label": "Bazalt lavın sıcaklığı",
+    "sub": "Britanya Jeoloji Araştırmaları Kurumu",
+    "icon": "🌡️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🔥",
+    "🧊"
+   ],
+   "keywords": [
+    "BAZALT LAV",
+    "İŞLEMCİM = BUZDOLABI 🧊"
+   ]
+  },
+  {
+   "id": "s18",
+   "section": "importance",
+   "lineIds": [
+    "l32"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "İyi haber",
+    "items": [
+     "Lav genellikle yavaş akar",
+     "Doğrudan can kaybına nadiren yol açar"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f18"
+   ],
+   "stickers": [
+    "🐢",
+    "🔥"
+   ],
+   "keywords": [
+    "LAV YAVAŞTIR 🐢"
+   ]
+  },
+  {
+   "id": "s19",
+   "section": "importance",
+   "lineIds": [
+    "l33",
+    "l34",
+    "l35"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Volkanologlar neyi izler?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Depremler",
+      "emoji": "📈"
+     },
+     {
+      "label": "Yer hareketleri",
+      "emoji": "📡"
+     },
+     {
+      "label": "Gazlar",
+      "emoji": "💨"
+     },
+     {
+      "label": "Erken uyarı",
+      "emoji": "⏰"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f17"
+   ],
+   "stickers": [
+    "🧑‍🔬",
+    "🛰️"
+   ],
+   "keywords": [
+    "VOLKANOLOG",
+    "ÜÇ İPUCU",
+    "ERKEN UYARI ⏰"
+   ]
+  },
+  {
+   "id": "s20",
+   "section": "importance",
+   "lineIds": [
+    "l36"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Surtsey",
+    "emoji": "🏝️",
+    "chips": [
+     {
+      "label": "Bir püskürmeyle doğdu",
+      "emoji": "🌋"
+     },
+     {
+      "label": "Yepyeni bir ada",
+      "emoji": "✨"
+     },
+     {
+      "label": "Volkanlar kara da kurar",
+      "emoji": "🧱"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f19"
+   ],
+   "stickers": [
+    "🌊",
+    "🐦"
+   ],
+   "keywords": [
+    "YENİ ADA! 🏝️"
+   ]
+  },
+  {
+   "id": "s21",
+   "section": "importance",
+   "lineIds": [
+    "l37",
+    "l38",
+    "l39"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: şişedeki gaz 🔬",
+    "items": [
+     "Kapalı şişeye bak: kabarcık yok gibi",
+     "Kapağı lavabonun üstünde, yavaşça aç",
+     "Kabarcıklar belirir: gaz kaçıyor!",
+     "Çalkalama, yüzüne tutma ⚠️"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🫧",
+    "🚰"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "GAZ KAÇIYOR! 🫧",
+    "ÇALKALAMA ⚠️"
+   ]
+  },
+  {
+   "id": "s22",
+   "section": "limitations",
+   "lineIds": [
+    "l40"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Volkan türleri",
+    "emoji": "🌋",
+    "chips": [
+     {
+      "label": "Kalkan volkan: yayvan",
+      "emoji": "🛡️"
+     },
+     {
+      "label": "Stratovolkan: dik",
+      "emoji": "🗻"
+     },
+     {
+      "label": "Cüruf konisi: en basit tür",
+      "emoji": "🔺"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10",
+    "f11"
+   ],
+   "stickers": [
+    "⛰️",
+    "🔥"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s23",
+   "section": "limitations",
+   "lineIds": [
+    "l41",
+    "l42",
+    "l43"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Yerin altındaki erimiş kaya: magma mı, lav mı?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🔥",
+    "🌋"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "MAGMA ✅",
+    ""
+   ]
+  },
+  {
+   "id": "s24",
+   "section": "limitations",
+   "lineIds": [
+    "l44"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s25",
+   "section": "summary",
+   "lineIds": [
+    "l45",
+    "l46",
+    "l47"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

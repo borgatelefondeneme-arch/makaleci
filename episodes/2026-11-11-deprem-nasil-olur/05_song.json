@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Yerin Altındaki Güç",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Yer kabuğu parça parça, levha levha",
+          "start": 5.15,
+          "end": 9.01
+        },
+        {
+          "text": "Yılda birkaç santim kayar usulca",
+          "start": 9.01,
+          "end": 12.58
+        },
+        {
+          "text": "Sürtünme tutar, gerilim birikir",
+          "start": 12.58,
+          "end": 16.16
+        },
+        {
+          "text": "Kayalar bükülür, enerji gizlenir",
+          "start": 16.16,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Fay kayar, yer sarsılır!",
+          "start": 20.17,
+          "end": 22.99
+        },
+        {
+          "text": "Dalgalar her yöne yayılır",
+          "start": 22.99,
+          "end": 26.44
+        },
+        {
+          "text": "Önce P gelir, sonra S",
+          "start": 26.44,
+          "end": 29.58
+        },
+        {
+          "text": "Sismometre yazar hepsini",
+          "start": 29.58,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Odak derinde, üstünde merkez üssü",
+          "start": 33.18,
+          "end": 37.34
+        },
+        {
+          "text": "Büyüklük bir artar, genlik on katı",
+          "start": 37.34,
+          "end": 41.2
+        },
+        {
+          "text": "Günü bilinmez, hazırlık şart",
+          "start": 41.2,
+          "end": 44.47
+        },
+        {
+          "text": "Çantanı hazırla, planını yap",
+          "start": 44.47,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Fay kayar, yer sarsılır!",
+          "start": 48.19,
+          "end": 51.16
+        },
+        {
+          "text": "Dalgalar her yöne yayılır",
+          "start": 51.16,
+          "end": 54.78
+        },
+        {
+          "text": "Çök, kapan, tutun; sakin kal!",
+          "start": 54.78,
+          "end": 58.08
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.08,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 3,
+  "lastEpisodeNumber": 7,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -12,6 +12,22 @@
     "topic:fosil-nedir": {
       "id": "2026-11-11-fosil-nedir",
       "episodeNumber": 3
+    },
+    "topic:gokkusagi-nasil-olusur": {
+      "id": "2026-11-11-gokkusagi-nasil-olusur",
+      "episodeNumber": 4
+    },
+    "topic:volkanlar-nasil-patlar": {
+      "id": "2026-11-11-volkanlar-nasil-patlar",
+      "episodeNumber": 5
+    },
+    "topic:simsek-nasil-olusur": {
+      "id": "2026-11-11-simsek-nasil-olusur",
+      "episodeNumber": 6
+    },
+    "topic:deprem-nasil-olur": {
+      "id": "2026-11-11-deprem-nasil-olur",
+      "episodeNumber": 7
     }
   }
 }

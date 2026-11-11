@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Dağın İçindeki Ateş",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Yerin derininde erimiş kaya",
+          "start": 5.15,
+          "end": 8.94
+        },
+        {
+          "text": "Hafiftir taştan, yükselir yukarı",
+          "start": 8.94,
+          "end": 12.73
+        },
+        {
+          "text": "Magma odasında toplanır durur",
+          "start": 12.73,
+          "end": 16.52
+        },
+        {
+          "text": "İçindeki gaz basıncı kurar",
+          "start": 16.52,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Magma yerde, lav yüzeyde!",
+          "start": 20.17,
+          "end": 23.3
+        },
+        {
+          "text": "Gaz sıkışırsa dağ gürler",
+          "start": 23.3,
+          "end": 26.44
+        },
+        {
+          "text": "Akıcıysa sakince akar",
+          "start": 26.44,
+          "end": 29.89
+        },
+        {
+          "text": "Yapışkansa patlar, patlar!",
+          "start": 29.89,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Levhalar ayrılır, magma çıkar",
+          "start": 33.18,
+          "end": 36.82
+        },
+        {
+          "text": "Kalkan volkan yayvan, strato dik durur",
+          "start": 36.82,
+          "end": 40.76
+        },
+        {
+          "text": "Kül rüzgârla uzağa uçar",
+          "start": 40.76,
+          "end": 44.09
+        },
+        {
+          "text": "Volkanolog depremi, gazı ölçer",
+          "start": 44.09,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Magma yerde, lav yüzeyde!",
+          "start": 48.19,
+          "end": 51.4
+        },
+        {
+          "text": "Gaz sıkışırsa dağ gürler",
+          "start": 51.4,
+          "end": 54.62
+        },
+        {
+          "text": "Bilim izler, erken uyarır",
+          "start": 54.62,
+          "end": 58.15
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.15,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

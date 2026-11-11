@@ -1,0 +1,913 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Yer neden sarsılır?",
+    "emoji": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🏔️",
+    "〰️",
+    "📈",
+    "🧭"
+   ],
+   "keywords": [
+    "",
+    "NEDEN SARSILIR?",
+    "YERİN DERİNLERİNE!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Titreşim modu",
+    "emoji": "🤖",
+    "chips": [
+     {
+      "label": "Ben de titrerim",
+      "emoji": "📳"
+     },
+     {
+      "label": "Ama deprem değil!",
+      "emoji": "😄"
+     },
+     {
+      "label": "Sessize alabilirsin",
+      "emoji": "🔕"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "📳",
+    "⚙️"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
+    "l5",
+    "l6"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Deprem neden olur?",
+     "Deprem dalgaları nasıl yayılır?",
+     "Deprem sırasında ne yapmalıyız?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l7"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Dünya'nın katmanları",
+    "emoji": "🌍",
+    "chips": [
+     {
+      "label": "Katı kabuk",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Sıcak manto",
+      "emoji": "🔥"
+     },
+     {
+      "label": "Sıvı dış çekirdek",
+      "emoji": "💧"
+     },
+     {
+      "label": "Katı iç çekirdek",
+      "emoji": "⚫"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🧅",
+    "🔬"
+   ],
+   "keywords": [
+    "DÖRT KATMAN"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "15",
+    "label": "Yaklaşık bu kadar büyük tektonik levha",
+    "sub": "Yılda yalnızca birkaç santimetre hareket ederler",
+    "icon": "🧩"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🌍",
+    "🐌"
+   ],
+   "keywords": [
+    "TEKTONİK LEVHA",
+    "ÇOK YAVAŞ 🐌",
+    "GÜNCELLEME DAHA HIZLI 😅"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l11"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Levhalar üç şekilde hareket eder",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Yaklaşır",
+      "emoji": "🤜"
+     },
+     {
+      "label": "Uzaklaşır",
+      "emoji": "↔️"
+     },
+     {
+      "label": "Yan yana kayar",
+      "emoji": "↕️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🧩",
+    "🌍"
+   ],
+   "keywords": [
+    "ÜÇ HAREKET"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Fayda gerilim birikiyor",
+    "label": "Gerilim",
+    "emoji": "🪨",
+    "phases": [
+     {
+      "label": "Fay: kayaların kaydığı kırık",
+      "level": 0.15,
+      "emoji": "⚡"
+     },
+     {
+      "label": "Sürtünme tutar: gerilim birikir",
+      "level": 0.55,
+      "emoji": "✋"
+     },
+     {
+      "label": "Kayalar bükülür: enerji depolanır",
+      "level": 0.92,
+      "emoji": "📏"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "⛰️",
+    "🧱"
+   ],
+   "keywords": [
+    "FAY",
+    "SÜRTÜNME ✋",
+    "ENERJİ DEPOLANIYOR"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l15"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Deprem!",
+    "label": "Fay aniden kayar",
+    "sub": "Biriken enerji bir anda serbest kalır",
+    "icon": "💥"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f5"
+   ],
+   "stickers": [
+    "〰️",
+    "🌍"
+   ],
+   "keywords": [
+    "ENERJİ SERBEST!"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l16"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Elastik geri sekme",
+    "emoji": "↩️",
+    "chips": [
+     {
+      "label": "Kayalar eski biçimine döner",
+      "emoji": "📏"
+     },
+     {
+      "label": "Fayın iki yanı yer değiştirmiştir",
+      "emoji": "↕️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "stickers": [
+    "🪨",
+    "🧱"
+   ],
+   "keywords": [
+    "GERİ SEKME ↩️"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Odak ve merkez üssü",
+    "left": {
+     "title": "Odak (hiposantr) ⬇️",
+     "items": [
+      "Depremin başladığı nokta",
+      "Yerin içinde",
+      "Kilometrelerce derinde olabilir"
+     ]
+    },
+    "right": {
+     "title": "Merkez üssü 📍",
+     "items": [
+      "Odağın tam üstü",
+      "Yeryüzünde"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🎯",
+    "🗺️"
+   ],
+   "keywords": [
+    "ODAK = HİPOSANTR",
+    "MERKEZ ÜSSÜ 📍"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l19"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sismik dalgalar",
+    "emoji": "🌊",
+    "chips": [
+     {
+      "label": "Enerji her yöne yayılır",
+      "emoji": "💫"
+     },
+     {
+      "label": "Sudaki halkalar gibi",
+      "emoji": "🪨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "〰️",
+    "💧"
+   ],
+   "keywords": [
+    "SİSMİK DALGA 〰️"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "P ve S dalgaları",
+    "left": {
+     "title": "P dalgası 🥇",
+     "items": [
+      "Sıkıştırır ve gevşetir",
+      "İlerleme yönünde",
+      "Saniyede 5–7 km"
+     ]
+    },
+    "right": {
+     "title": "S dalgası 🥈",
+     "items": [
+      "İlerleme yönüne dik sallar",
+      "Saniyede 3–4 km"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "〰️",
+    "🏁"
+   ],
+   "keywords": [
+    "P ve S",
+    "P DAHA HIZLI 🥇"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "finding",
+   "lineIds": [
+    "l22",
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Depremin yeri nasıl bulunur?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Önce P: şimşek gibi",
+      "emoji": "⚡"
+     },
+     {
+      "label": "Sonra S: gürültü gibi",
+      "emoji": "🔊"
+     },
+     {
+      "label": "Hız farkı yeri gösterir",
+      "emoji": "📍"
+     },
+     {
+      "label": "Sismometre ölçer",
+      "emoji": "📈"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10",
+    "f11"
+   ],
+   "stickers": [
+    "⏱️",
+    "🗺️"
+   ],
+   "keywords": [
+    "ŞİMŞEK + GÜRÜLTÜ",
+    "NEREDE? 📍",
+    "SİSMOMETRE 📈"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Büyüklük ve şiddet",
+    "emoji": "📏",
+    "chips": [
+     {
+      "label": "Büyüklük: logaritmik ölçek",
+      "emoji": "🔢"
+     },
+     {
+      "label": "Bir birim artış = on kat genlik",
+      "emoji": "📈"
+     },
+     {
+      "label": "Şiddet: bir yerde hissedilen sarsıntı",
+      "emoji": "🏠"
+     },
+     {
+      "label": "Uzaklaştıkça genellikle azalır",
+      "emoji": "↘️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12",
+    "f13"
+   ],
+   "stickers": [
+    "📊",
+    "🧮"
+   ],
+   "keywords": [
+    "BÜYÜKLÜK: ON KAT",
+    "ŞİDDET FARKLI"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Yüzlerce",
+    "label": "deprem, her gün",
+    "sub": "Ciddi hasar verebilecek olanlar: yılda yaklaşık 100",
+    "icon": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "📈",
+    "🗓️"
+   ],
+   "keywords": [
+    "HER GÜN!",
+    "YILDA YAKLAŞIK YÜZ"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "importance",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Artçı sarsıntılar",
+    "items": [
+     "Büyük depremden sonra gelir",
+     "Haftalarca, aylarca, hatta yıllarca sürebilir"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "〰️",
+    "🗓️"
+   ],
+   "keywords": [
+    "ARTÇILAR"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "importance",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Deprem önceden bilinir mi?",
+    "left": {
+     "title": "Bilinemeyen ❌",
+     "items": [
+      "Günü ve saati",
+      "Tam yeri",
+      "Büyüklüğü"
+     ]
+    },
+    "right": {
+     "title": "Bilinen ✅",
+     "items": [
+      "Faylarda yine deprem olacağı",
+      "Erken uyarı: başladıktan hemen sonra"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16",
+    "f17"
+   ],
+   "stickers": [
+    "🔮",
+    "📡"
+   ],
+   "keywords": [
+    "ÖNCEDEN BİLİNEMEZ",
+    "ERKEN UYARI 📡"
+   ]
+  },
+  {
+   "id": "s18",
+   "section": "importance",
+   "lineIds": [
+    "l32",
+    "l33"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Çök, Kapan, Tutun!",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "ÇÖK: yere çök",
+      "emoji": "⬇️"
+     },
+     {
+      "label": "KAPAN: sağlam masanın altına",
+      "emoji": "🪑"
+     },
+     {
+      "label": "TUTUN: sarsıntı bitene kadar",
+      "emoji": "✊"
+     },
+     {
+      "label": "Camlardan uzak dur",
+      "emoji": "🪟"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f18"
+   ],
+   "stickers": [
+    "🛡️",
+    "🏠"
+   ],
+   "keywords": [
+    "HAZIRLIKLI OL!",
+    "ÇÖK • KAPAN • TUTUN"
+   ]
+  },
+  {
+   "id": "s19",
+   "section": "importance",
+   "lineIds": [
+    "l34"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Dışarıdaysan",
+    "items": [
+     "Binalardan uzaklaş",
+     "Sokak lambalarından uzaklaş",
+     "Tellerden uzaklaş"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f18"
+   ],
+   "stickers": [
+    "🏢",
+    "💡"
+   ],
+   "keywords": [
+    "AÇIK ALANA!"
+   ]
+  },
+  {
+   "id": "s20",
+   "section": "importance",
+   "lineIds": [
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sen de dene",
+    "emoji": "🎒",
+    "chips": [
+     {
+      "label": "Ailece tatbikat",
+      "emoji": "👨‍👩‍👧"
+     },
+     {
+      "label": "Acil durum çantası",
+      "emoji": "🎒"
+     },
+     {
+      "label": "Avuç deneyi: bastır ve kaydır",
+      "emoji": "🤲"
+     },
+     {
+      "label": "Takılır… sonra aniden kayar!",
+      "emoji": "💥"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f18",
+    "f19"
+   ],
+   "stickers": [
+    "🔦",
+    "📓"
+   ],
+   "keywords": [
+    "TATBİKAT + ÇANTA 🎒",
+    "AVUÇ DENEYİ 🤲"
+   ]
+  },
+  {
+   "id": "s21",
+   "section": "limitations",
+   "lineIds": [
+    "l37"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "10",
+    "label": "Bu büyüklükte bir deprem olamaz",
+    "sub": "USGS",
+    "icon": "🚫"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f20"
+   ],
+   "stickers": [
+    "📏",
+    "🌍"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s22",
+   "section": "limitations",
+   "lineIds": [
+    "l38",
+    "l39",
+    "l40"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Hangi dalga daha hızlı: P mi, S mi?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "〰️",
+    "🏁"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "P DALGASI ✅",
+    "P: PİSTİN ŞAMPİYONU 🥇"
+   ]
+  },
+  {
+   "id": "s23",
+   "section": "limitations",
+   "lineIds": [
+    "l41"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s24",
+   "section": "summary",
+   "lineIds": [
+    "l42",
+    "l43",
+    "l44"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

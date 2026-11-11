@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Damladaki Renkler",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Beyaz ışığın içinde renkler saklı",
+          "start": 5.15,
+          "end": 9.08
+        },
+        {
+          "text": "Damlaya girer ışık, kırılır yolu",
+          "start": 9.08,
+          "end": 13.01
+        },
+        {
+          "text": "Arkadan yansır, döner geri",
+          "start": 13.01,
+          "end": 16.09
+        },
+        {
+          "text": "Çıkarken kırılır, ayrılır her biri",
+          "start": 16.09,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kırıl, yansı, kırıl; renkler açılır!",
+          "start": 20.17,
+          "end": 23.58
+        },
+        {
+          "text": "Kırmızı dışta, mor en içte",
+          "start": 23.58,
+          "end": 26.46
+        },
+        {
+          "text": "Güneş arkamda, damlalar önümde",
+          "start": 26.46,
+          "end": 29.88
+        },
+        {
+          "text": "Kırk iki derece, renkler gökte",
+          "start": 29.88,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Aslında tam çember, yarısı saklı",
+          "start": 33.18,
+          "end": 37.12
+        },
+        {
+          "text": "İki kez yansırsa çift olur yayı",
+          "start": 37.12,
+          "end": 41.06
+        },
+        {
+          "text": "İkinci yayda renkler ters durur",
+          "start": 41.06,
+          "end": 44.7
+        },
+        {
+          "text": "Herkes kendi yayını görür",
+          "start": 44.7,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kırıl, yansı, kırıl; renkler açılır!",
+          "start": 48.19,
+          "end": 51.82
+        },
+        {
+          "text": "Kırmızı dışta, mor en içte",
+          "start": 51.82,
+          "end": 54.9
+        },
+        {
+          "text": "Sırtını Güneş'e dön, renklere bak",
+          "start": 54.9,
+          "end": 58.53
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.53,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

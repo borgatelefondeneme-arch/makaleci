@@ -5,7 +5,7 @@ import { numberTokens, words } from "../lib/io.ts";
 export type Report = { errors: string[]; warnings: string[]; stats: Record<string, number | string> };
 
 const ORDER = ["hook", "context", "method", "finding", "importance", "limitations", "summary"];
-const HYPE = [/mucize/i, /devrim/i, /kesin(likle)? kan[ıi]tla/i, /her şeyi değiştir/i, /inanılmaz/i, /şok/i, /çığır aç/i, /tarihte ilk/i, /bilim insanlarını şaşkına/i, /tedaviyi buldu/i];
+const HYPE = [/mucize/i, /devrim/i, /kesin(likle)? kan[ıi]tla/i, /her şeyi değiştir/i, /inanılmaz/i, /şok(?! dalga)/i, /çığır aç/i, /tarihte ilk/i, /bilim insanlarını şaşkına/i, /tedaviyi buldu/i];
 const norm = (s: string) => s.toLocaleLowerCase("tr").replace(/\s+/g, " ");
 
 export const validateScript = (script: Script, facts: Facts, paper: Paper): Report => {

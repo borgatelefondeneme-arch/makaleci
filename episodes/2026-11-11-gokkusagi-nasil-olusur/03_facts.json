@@ -1,0 +1,167 @@
+{
+  "paperId": "topic:gokkusagi-nasil-olusur",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Rainbow",
+      "publisher": "National Geographic",
+      "url": "https://education.nationalgeographic.org/resource/rainbow/"
+    },
+    {
+      "id": "k2",
+      "title": "How Are Rainbows Formed?",
+      "publisher": "Kraliyet Meteoroloji Derneği",
+      "url": "https://www.rmets.org/metmatters/how-are-rainbows-formed"
+    },
+    {
+      "id": "k3",
+      "title": "Visible Light",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/ems/09_visiblelight/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Gökkuşağı, ışığın su damlacıklarına çarpmasıyla oluşan çok renkli bir yaydır.",
+      "numbers": [],
+      "quote": "A rainbow is a multicolored arc made by light striking water droplets.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Gökkuşağı bir optik yanılsamadır; gökyüzünde belirli bir noktada gerçekten bulunmaz.",
+      "numbers": [],
+      "quote": "A rainbow is an optical illusion—it does not actually exist in a specific spot in the sky.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Beyaz ışık, gökkuşağının bütün renklerinin karışımını gözümüzün algılama biçimidir.",
+      "numbers": [],
+      "quote": "White light is how our eyes perceive all the colors of the rainbow mixed together.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Kırmızı, görünür ışığın en uzun dalga boyuna; mor en kısa dalga boyuna sahiptir. İnsan gözü ışığın yalnızca belirli dalga boylarını algılar.",
+      "numbers": [],
+      "quote": "Red has the longest wavelength of visible light / Violet has the shortest wavelength / Typically, the human eye can detect wavelengths from 380 to 700 nanometers.",
+      "location": "National Geographic Education — Rainbow; NASA Science — Visible Light"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Kırılma, Güneş ışığının havadan daha yoğun bir ortamdan geçerken yön değiştirmesidir.",
+      "numbers": [],
+      "quote": "Refraction occurs when the light from the sun changes direction when passing through a medium denser than air",
+      "location": "Royal Meteorological Society — How Are Rainbows Formed?"
+    },
+    {
+      "id": "f6",
+      "kind": "number",
+      "statement": "Güneş ışığının renkleri bir ortamda farklı hızlarda ilerler; her renk dalga boyuna göre biraz farklı açıyla kırılır. Isaac Newton 1665'te prizmanın görünür ışığı büktüğünü gösterdi.",
+      "numbers": [
+        "1665"
+      ],
+      "quote": "Sunlight is made of many different wavelengths, or colours, that travel at different speeds when passing through a medium. / Isaac Newton's experiment in 1665 showed that a prism bends visible light / each color refracts at a slightly different angle depending on the wavelength of the color.",
+      "location": "Royal Meteorological Society — How Are Rainbows Formed?; NASA Science — Visible Light"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Damlaya giren ışık kırılır, damlanın arkasından yansır ve çıkarken yeniden kırılır.",
+      "numbers": [],
+      "quote": "Light entering a water droplet is refracted. It is then reflected by the back of the droplet. / As this reflected light leaves the droplet, it is refracted again, at multiple angles.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Güneş genellikle gökkuşağını gören kişinin arkasındadır; su damlacıkları gözlemcinin önünde olmalıdır.",
+      "numbers": [],
+      "quote": "The sun or other source of light is usually behind the person seeing the rainbow. / Water droplets such as rain or fog must be in front of the observer.",
+      "location": "National Geographic Education — Rainbow; Royal Meteorological Society — How Are Rainbows Formed?"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "Güneş ışığı izleyicinin önündeki damlalara belirli bir açıyla (42 derece) çarpar; birincil gökkuşağının merkezi, Güneş'in tam karşısındaki hayali antisolar noktadır.",
+      "numbers": [
+        "42"
+      ],
+      "quote": "sunlight strikes raindrops in front of a viewer at a precise angle (42 degrees) / the center of a primary rainbow is the antisolar point, the imaginary point exactly opposite the sun.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Gökkuşakları aslında tam çemberdir; yerdekiler yalnızca ufkun üstündeki damlalardan gelen ışığı görür; uçaktakiler bazen çemberin tamamını görebilir.",
+      "numbers": [],
+      "quote": "Rainbows are actually full circles. / Viewers in aircraft can sometimes see these circular rainbows. / Viewers on the ground can only see the light reflected by raindrops above the horizon.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Güneş gökyüzünde ne kadar alçaksa gözlemci yayın o kadar büyük bölümünü görür.",
+      "numbers": [],
+      "quote": "The lower the sun in the sky, the more of an arc of a rainbow the observer will see",
+      "location": "Royal Meteorological Society — How Are Rainbows Formed?"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Renkler kırmızı, turuncu, sarı, yeşil, mavi, çivit mavisi ve mordur; kırmızı yayın dış kısmında, mor iç kısmında görünür. Birçok bilim insanına göre çivit mavisi maviye ayırt edilemeyecek kadar yakındır.",
+      "numbers": [],
+      "quote": "red, orange, yellow, green, blue, indigo, and violet / It usually appears on the outer part of a rainbow's arch. / it usually appears on the inner arch of the rainbow. / (Many scientists, however, think \"indigo\" is too close to blue to be truly distinguishable.)",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Gökkuşağının renkleri kenarlarında üst üste biner.",
+      "numbers": [],
+      "quote": "At their edges, the colors of a rainbow actually overlap.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f14",
+      "kind": "claim",
+      "statement": "Bazen birincil yayın üstünde soluk, ikincil bir gökkuşağı belirir; nedeni ışığın damlada iki kez yansımasıdır; bu yayda kırmızı içte, mor dıştadır.",
+      "numbers": [],
+      "quote": "a faint, secondary rainbow appears above the primary one. / Double rainbows are caused by light being reflected twice inside the raindrop. / red is on the inner section of the arch, while violet is on the outside.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f15",
+      "kind": "claim",
+      "statement": "Gökkuşağı sis, deniz serpintisi ya da şelale çevresinde de görülebilir; ay gökkuşağı Ay'ın yansıttığı ışıkla oluşur.",
+      "numbers": [],
+      "quote": "Rainbows can also be viewed around fog, sea spray, or waterfalls. / A moonbow, also called a lunar rainbow, is a rainbow produced by light reflected by the moon.",
+      "location": "National Geographic Education — Rainbow"
+    },
+    {
+      "id": "f16",
+      "kind": "claim",
+      "statement": "Kimse aynı gökkuşağını görmez: her insanın antisolar noktası ve ufku farklıdır.",
+      "numbers": [],
+      "quote": "no one sees the same rainbow—each person has a different antisolar point, each person has a different horizon. / every rainbow is unique to the observer.",
+      "location": "National Geographic Education — Rainbow; Royal Meteorological Society — How Are Rainbows Formed?"
+    },
+    {
+      "id": "f17",
+      "kind": "claim",
+      "statement": "Gökkuşaklarının 'ucu' yoktur, çünkü çemberdirler.",
+      "numbers": [],
+      "quote": "because no one sees the same rainbow and rainbows don't \"end\" (they're circles)",
+      "location": "National Geographic Education — Rainbow"
+    }
+  ]
+}

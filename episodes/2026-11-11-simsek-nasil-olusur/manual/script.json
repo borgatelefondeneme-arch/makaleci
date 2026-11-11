@@ -1,0 +1,511 @@
+{
+ "paperId": "topic:simsek-nasil-olusur",
+ "episodeNumber": 6,
+ "videoTitle": "Şimşek nasıl oluşur?",
+ "paperTitleTr": "Şimşek nasıl oluşur?",
+ "takeaways": [
+  "Bulutta çarpışan buz taneleri elektrik yükü biriktirir",
+  "Havanın yalıtımı çökünce şimşek çakar; ısınan hava gürler",
+  "Gök gürültüsünü duyunca güvenli bir yere girilir"
+ ],
+ "description": "Şimşek nasıl çakar, gök gürültüsü neden sonradan gelir? Bu bölümde fırtına bulutunun nasıl elektriklendiğini, graupel ve buz kristallerini, basamaklı öncüyü ve dönüş darbesini; şimşeğin sıcaklığını ve gerilimini keşfediyoruz. Saniyeleri sayarak fırtınanın uzaklığı nasıl bulunur, yıldırımdan nasıl korunulur? Sonunda fırtına ölçer etkinliği ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Statik elektrik",
+   "meaning": "Bir cisimde biriken elektrik yükü; kapı koluna dokununca hissedilen küçük çarpma."
+  },
+  {
+   "term": "Graupel",
+   "meaning": "Fırtına bulutundaki küçük dolu taneleri."
+  },
+  {
+   "term": "Elektrik yükü",
+   "meaning": "Maddenin artı ya da eksi olabilen elektriksel özelliği; zıt yükler birbirini çeker."
+  },
+  {
+   "term": "Yalıtkan",
+   "meaning": "Elektriği kolay geçirmeyen madde."
+  },
+  {
+   "term": "Yıldırım",
+   "meaning": "Buluttan yere inen şimşek."
+  },
+  {
+   "term": "Basamaklı öncü",
+   "meaning": "Buluttan aşağı zikzak çizerek inen, eksi yüklü ilk kanal."
+  },
+  {
+   "term": "Dönüş darbesi",
+   "meaning": "Öncü ile yerden çıkan kanal buluşunca göğe doğru akan parlak akım."
+  },
+  {
+   "term": "Şok dalgası",
+   "meaning": "Havanın aniden genleşmesiyle oluşan güçlü basınç dalgası."
+  }
+ ],
+ "song": {
+  "title": "Bulutun Kıvılcımı",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "⛈️",
+    "name": "Bulut"
+   },
+   {
+    "emoji": "⚡",
+    "name": "Şimşek"
+   },
+   {
+    "emoji": "❄️",
+    "name": "Buz kristali"
+   },
+   {
+    "emoji": "🔊",
+    "name": "Gök gürültüsü"
+   },
+   {
+    "emoji": "🏠",
+    "name": "Güvenli yer"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Bulutun içinde buzlar çarpışır",
+     "Hafifler yukarı artı taşır",
+     "Ağır taneler eksiyle dolar",
+     "Hava yalıtkan, arada durur"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Çat! Şimşek çakar, gök aydınlanır",
+     "Hava genleşir, gürültü yayılır",
+     "Önce ışık gelir, sonra ses",
+     "Say saniyeyi, üçe böl, hesapla!"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Öncü iner zikzak çizerek",
+     "Yerden kanal çıkar yükselerek",
+     "Buluşunca döner parlak darbe",
+     "Güneş'ten sıcak olur hava bile"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Çat! Şimşek çakar, gök aydınlanır",
+     "Hava genleşir, gürültü yayılır",
+     "Gürültüyü duyunca içeri gir",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Gökyüzü bir anda aydınlanıyor. Birkaç saniye sonra da yeri göğü sarsan bir gürültü geliyor!",
+     "spoken": "Gökyüzü bir anda aydınlanıyor. Birkaç saniye sonra da yeri göğü sarsan bir gürültü geliyor!",
+     "factIds": []
+    },
+    {
+     "id": "l2",
+     "display": "Bu dev kıvılcım nasıl oluşuyor? Ve gürültü neden hep sonradan geliyor?",
+     "spoken": "Bu dev kıvılcım nasıl oluşuyor? Ve gürültü neden hep sonradan geliyor?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün bir fırtına bulutunun içine giriyoruz!",
+     "spoken": "Bugün bir fırtına bulutunun içine giriyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Elektriği severim, o benim yemeğim. Ama bu kadarı bana bile fazla!",
+     "spoken": "Elektriği severim, o benim yemeğim. Ama bu kadarı bana bile fazla!",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Üç sorumuz var. Bir bulut nasıl elektriklenir? Şimşek nasıl çakar? Ve gök gürültüsü nedir?",
+     "spoken": "Üç sorumuz var. Bir bulut nasıl elektriklenir? Şimşek nasıl çakar? Ve gök gürültüsü nedir?",
+     "factIds": []
+    },
+    {
+     "id": "l6",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l7",
+     "display": "ABD Ulusal Şiddetli Fırtınalar Laboratuvarı, kısaca NSSL'ye göre şimşek, atmosferdeki dev bir elektrik kıvılcımıdır. Bulutlar, hava ya da yer arasında oluşur.",
+     "spoken": "A Be De Ulusal Şiddetli Fırtınalar Laboratuvarı, kısaca En Es Es El'e göre şimşek, atmosferdeki dev bir elektrik kıvılcımıdır. Bulutlar, hava ya da yer arasında oluşur.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Küçük bir örneğini sen de yaşadın. National Geographic'e göre ayaklarını halıya sürtüp metal kapı koluna dokununca hissettiğin çarpma, statik elektriktir.",
+     "spoken": "Küçük bir örneğini sen de yaşadın. Neşınıl Ciyografik'e göre ayaklarını halıya sürtüp metal kapı koluna dokununca hissettiğin çarpma, statik elektriktir.",
+     "factIds": [
+      "f18"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Fırtına bulutunun içinde graupel denen küçük dolu taneleri ve daha da küçük buz kristalleri vardır.",
+     "spoken": "Fırtına bulutunun içinde graupel denen küçük dolu taneleri ve daha da küçük buz kristalleri vardır.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Bunlar birbirine çarptıkça elektrik yükü kazanır.",
+     "spoken": "Bunlar birbirine çarptıkça elektrik yükü kazanır.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "ABD Ulusal Hava Servisi'ne göre hafif buz kristalleri artı yüklenir ve yükselen havayla bulutun tepesine taşınır. Ağır dolu taneleri ise eksi yüklenir.",
+     "spoken": "A Be De Ulusal Hava Servisi'ne göre hafif buz kristalleri artı yüklenir ve yükselen havayla bulutun tepesine taşınır. Ağır dolu taneleri ise eksi yüklenir.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "Böylece bulut dev bir pile benzer: üstü artı, ortası eksi.",
+     "spoken": "Böylece bulut dev bir pile benzer: üstü artı, ortası eksi.",
+     "factIds": [
+      "f2",
+      "f3"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Buluttaki eksi yük, altındaki yerin artı yüklenmesine yol açar.",
+     "spoken": "Buluttaki eksi yük, altındaki yerin artı yüklenmesine yol açar.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Zıt yükler birbirini çeker. Ama aralarında hava var ve hava bir yalıtkandır: elektriği kolay geçirmez.",
+     "spoken": "Zıt yükler birbirini çeker. Ama aralarında hava var ve hava bir yalıtkandır: elektriği kolay geçirmez.",
+     "factIds": [
+      "f4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l15",
+     "display": "Yükler yeterince birikince havanın yalıtma gücü çöker. İşte o an şimşek çakar!",
+     "spoken": "Yükler yeterince birikince havanın yalıtma gücü çöker. İşte o an şimşek çakar!",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Buluttan yere inen şimşeğe yıldırım denir. Onu ağır çekimde izleyelim. Önce buluttan aşağı, zikzaklar çizen eksi yüklü bir kanal iner. Adı: basamaklı öncü.",
+     "spoken": "Buluttan yere inen şimşeğe yıldırım denir. Onu ağır çekimde izleyelim. Önce buluttan aşağı, zikzaklar çizen eksi yüklü bir kanal iner. Adı: basamaklı öncü.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Öncü yere yaklaşınca, yerden yukarı doğru artı yüklü kanallar uzanır.",
+     "spoken": "Öncü yere yaklaşınca, yerden yukarı doğru artı yüklü kanallar uzanır.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "İkisi buluştuğu anda parlak bir akım göğe doğru geri fırlar. Bizim gördüğümüz ışık budur: dönüş darbesi.",
+     "spoken": "İkisi buluştuğu anda parlak bir akım göğe doğru geri fırlar. Bizim gördüğümüz ışık budur: dönüş darbesi.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Öncünün yere inmesi, göz kırpmaktan bile kısa sürer.",
+     "spoken": "Öncünün yere inmesi, göz kırpmaktan bile kısa sürer.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Üstelik şimşeklerin çoğu yere hiç inmez: bulutun içinde kalanlar, yere inenlerin kabaca 5–10 katıdır.",
+     "spoken": "Üstelik şimşeklerin çoğu yere hiç inmez: bulutun içinde kalanlar, yere inenlerin kabaca beş ile on katıdır.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Peki ne kadar güçlü? Bir şimşek 100 milyon ile 1 milyar volt arasında olabilir.",
+     "spoken": "Peki ne kadar güçlü? Bir şimşek yüz milyon ile bir milyar volt arasında olabilir.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Benim şarj aletim bunun yanında oyuncak kalır!",
+     "spoken": "Benim şarj aletim bunun yanında oyuncak kalır!",
+     "factIds": []
+    },
+    {
+     "id": "l23",
+     "display": "Şimşek, çevresindeki havayı bir anda 28.000 santigrat dereceye kadar ısıtabilir. Bu, Güneş'in yüzeyinden çok daha sıcaktır!",
+     "spoken": "Şimşek, çevresindeki havayı bir anda yirmi sekiz bin santigrat dereceye kadar ısıtabilir. Bu, Güneş'in yüzeyinden çok daha sıcaktır!",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Bu kadar hızlı ısınan hava patlarcasına genleşir ve bir şok dalgası oluşturur. Bu dalga ses olarak yayılır: işte gök gürültüsü!",
+     "spoken": "Bu kadar hızlı ısınan hava patlarcasına genleşir ve bir şok dalgası oluşturur. Bu dalga ses olarak yayılır: işte gök gürültüsü!",
+     "factIds": [
+      "f10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l25",
+     "display": "Peki neden önce ışığı görüp sonra sesi duyuyoruz? Çünkü ışık havada sesten kabaca bir milyon kat hızlı yol alır.",
+     "spoken": "Peki neden önce ışığı görüp sonra sesi duyuyoruz? Çünkü ışık havada sesten kabaca bir milyon kat hızlı yol alır.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Bunu bir uzaklık ölçere çevirebilirsin. Şimşeği görünce saymaya başla, gürültüyü duyunca dur.",
+     "spoken": "Bunu bir uzaklık ölçere çevirebilirsin. Şimşeği görünce saymaya başla, gürültüyü duyunca dur.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Saydığın saniyeyi 3'e böl: şimşek kabaca o kadar kilometre uzakta.",
+     "spoken": "Saydığın saniyeyi üçe böl: şimşek kabaca o kadar kilometre uzakta.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Ben bu hesabı çok hızlı yaparım. Ne de olsa içimde bir hesap makinesi var!",
+     "spoken": "Ben bu hesabı çok hızlı yaparım. Ne de olsa içimde bir hesap makinesi var!",
+     "factIds": []
+    },
+    {
+     "id": "l29",
+     "display": "Yıldırım aynı yere iki kez düşmez derler. Bu doğru değil! Aynı yere birden çok kez düşebilir.",
+     "spoken": "Yıldırım aynı yere iki kez düşmez derler. Bu doğru değil! Aynı yere birden çok kez düşebilir.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "National Geographic'e göre New York'taki Empire State Binası'na her yıl yaklaşık 100 kez yıldırım düşer.",
+     "spoken": "Neşınıl Ciyografik'e göre Nyu York'taki Empayır Steyt Binası'na her yıl yaklaşık yüz kez yıldırım düşer.",
+     "factIds": [
+      "f19"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Şimdi güvenlik. Ulusal Hava Servisi'ne göre gök gürültüsünü duyuyorsan, uzaktan bile olsa, tehlikedesin demektir. Hemen güvenli bir yere gir.",
+     "spoken": "Şimdi güvenlik. Ulusal Hava Servisi'ne göre gök gürültüsünü duyuyorsan, uzaktan bile olsa, tehlikedesin demektir. Hemen güvenli bir yere gir.",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l32",
+     "display": "Güvenli yer: elektrik ve su tesisatı olan bir bina ya da camları kapalı, metal tavanlı bir araç.",
+     "spoken": "Güvenli yer: elektrik ve su tesisatı olan bir bina ya da camları kapalı, metal tavanlı bir araç.",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l33",
+     "display": "Dışarıdaysan açık alanlardan ve ağaç gibi yüksek şeylerden uzak dur. Yüzüyorsan sudan çık.",
+     "spoken": "Dışarıdaysan açık alanlardan ve ağaç gibi yüksek şeylerden uzak dur. Yüzüyorsan sudan çık.",
+     "factIds": [
+      "f16"
+     ]
+    },
+    {
+     "id": "l34",
+     "display": "İçerideyken de kablolu telefonu kullanma ve musluklardan uzak dur.",
+     "spoken": "İçerideyken de kablolu telefonu kullanma ve musluklardan uzak dur.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l35",
+     "display": "Şimdi sıra sende! Bir sonraki fırtınada, evin içinden şimşeği izle ve saniyeleri say.",
+     "spoken": "Şimdi sıra sende! Bir sonraki fırtınada, evin içinden şimşeği izle ve saniyeleri say.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l36",
+     "display": "Sayı küçülüyorsa fırtına yaklaşıyor, büyüyorsa uzaklaşıyor demektir.",
+     "spoken": "Sayı küçülüyorsa fırtına yaklaşıyor, büyüyorsa uzaklaşıyor demektir.",
+     "factIds": [
+      "f12"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l37",
+     "display": "Bunu biliyor muydun? Bulutun tam olarak nasıl elektriklendiği ve şimşeğin nasıl başladığı, bilim insanları arasında hâlâ tartışılıyor.",
+     "spoken": "Bunu biliyor muydun? Bulutun tam olarak nasıl elektriklendiği ve şimşeğin nasıl başladığı, bilim insanları arasında hâlâ tartışılıyor.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l38",
+     "display": "Hızlı soru! Hangisi daha hızlı: ışık mı, ses mi?",
+     "spoken": "Hızlı soru! Hangisi daha hızlı: ışık mı, ses mi?",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l39",
+     "display": "Düşün bakalım... Evet: ışık!",
+     "spoken": "Düşün bakalım... Evet: ışık!",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l40",
+     "display": "Ben de hızlıyım ama. Özellikle şarjım biterken prize koşarken!",
+     "spoken": "Ben de hızlıyım ama. Özellikle şarjım biterken prize koşarken!",
+     "factIds": []
+    },
+    {
+     "id": "l41",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l42",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l43",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l44",
+     "display": "Abone olmayı ve zili açmayı unutma. Ben prizime dönüyorum; küçük kıvılcımlar bana yeter!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Ben prizime dönüyorum; küçük kıvılcımlar bana yeter!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}
