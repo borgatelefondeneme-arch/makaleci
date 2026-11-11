@@ -14,7 +14,7 @@ export type SceneProps<T extends Visual["type"]> = {
 
 // Sahne içerik alanı: altyazı bandının üstünde kalır.
 export const Stage: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
-  <div style={{ position: "absolute", left: SAFE.left, right: SAFE.right, top: SAFE.top, bottom: SAFE.bottom, display: "flex", flexDirection: "column", ...style }}>
+  <div style={{ position: "absolute", left: SAFE.left, right: SAFE.right, top: SAFE.top, bottom: SAFE.bottom, display: "flex", flexDirection: "column", justifyContent: "center", ...style }}>
     {children}
   </div>
 );
@@ -32,6 +32,6 @@ export const Title: React.FC<{ frame: number; children: React.ReactNode; color?:
 export const Card: React.FC<{ children: React.ReactNode; style?: React.CSSProperties; accent?: string }> = ({ children, style, accent }) => (
   <div style={{
     background: C.card, border: `3px solid ${accent ?? C.cardLine}`, borderRadius: 36, padding: "36px 44px",
-    boxShadow: "0 18px 50px rgba(0,0,0,0.28)", ...style,
+    boxShadow: `0 16px 44px ${C.shadow}`, ...style,
   }}>{children}</div>
 );

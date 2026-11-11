@@ -27,7 +27,7 @@ export const Caption: React.FC<{ cues: CaptionCue[] }> = ({ cues }) => {
   const o = interpolate(f, [cue.start, cue.start + 5, cue.end - 3, cue.end], [0, 1, 1, 0.2], clamp);
   return (
     <div style={{ position: "absolute", left: 0, width: W, bottom: 40, display: "flex", justifyContent: "center" }}>
-      <div style={{ maxWidth: 1560, background: "rgba(8,13,32,0.78)", borderRadius: 26, padding: "14px 36px", fontFamily: F.body, fontWeight: 600, fontSize: 37, lineHeight: 1.3, color: C.text, textAlign: "center", opacity: o }}>
+      <div style={{ maxWidth: 1560, background: "rgba(27,34,56,0.88)", color: "#FFFFFF", borderRadius: 26, padding: "14px 36px", fontFamily: F.body, fontWeight: 600, fontSize: 37, lineHeight: 1.3, textAlign: "center", opacity: o }}>
         {cue.text}
       </div>
     </div>

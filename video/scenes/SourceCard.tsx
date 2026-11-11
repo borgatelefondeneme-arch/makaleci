@@ -7,7 +7,7 @@ const short = (names: string[], max = 4) => (names.length <= max ? names.join(",
 
 // Konu bölümlerinde künye yerine kaynak listesi gösterilir.
 const TopicSources: React.FC<SceneProps<"source-card">> = ({ visual, frame, beats, dur, data }) => (
-  <Stage style={{ paddingRight: 360 }}>
+  <Stage>
     <Title frame={frame} color={C.purple}>Bunları nereden biliyoruz?</Title>
     <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
       {data.sources.slice(0, 4).map((s, i) => {
@@ -42,7 +42,7 @@ export const SourceCard: React.FC<SceneProps<"source-card">> = (props) => {
     ? { t: "ÖN BASKI — hakem değerlendirmesinden geçmedi", c: C.coral }
     : p.peerReviewStatus === "peer_reviewed" ? { t: "HAKEMLİ DERGİ MAKALESİ", c: C.teal } : { t: "HAKEMLİK DURUMU BİLİNMİYOR", c: C.yellow };
   return (
-    <Stage style={{ paddingRight: 330 }}>
+    <Stage>
       <Title frame={frame} color={C.purple}>Bu bilgi nereden geliyor?</Title>
       <Card style={{ display: "flex", flexDirection: "column", gap: 22 }}>
         {rows.map(([k, v], i) => {

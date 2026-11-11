@@ -7,7 +7,7 @@ export const QuoteCard: React.FC<SceneProps<"quote-card">> = ({ visual, frame })
   const p = pop(frame, 4);
   const chars = Math.round(visual.quote.length * ease(frame, 12, Math.min(70, visual.quote.length)));
   return (
-    <Stage style={{ justifyContent: "center", paddingRight: 340 }}>
+    <Stage style={{ justifyContent: "center" }}>
       <Card accent={C.purple} style={{ position: "relative", padding: "70px 70px 50px 110px", transform: `scale(${0.9 + 0.1 * p})`, opacity: p }}>
         <div style={{ position: "absolute", left: 26, top: -30, fontFamily: "Georgia, serif", fontSize: 240, lineHeight: 1, color: C.purple }}>“</div>
         <div style={{ fontFamily: F.head, fontWeight: 600, fontSize: 52, lineHeight: 1.3, color: C.text }}>
@@ -23,7 +23,7 @@ export const Bullets: React.FC<SceneProps<"bullets">> = ({ visual, frame, beats,
   const caution = visual.tone === "caution";
   const col = caution ? C.coral : C.teal;
   return (
-    <Stage style={{ paddingRight: 340 }}>
+    <Stage>
       <Title frame={frame} color={col}>{visual.title}</Title>
       <div style={{ display: "flex", flexDirection: "column", gap: 26 }}>
         {visual.items.map((it, i) => {

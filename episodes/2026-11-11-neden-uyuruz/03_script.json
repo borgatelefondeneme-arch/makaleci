@@ -34,8 +34,8 @@
       "lines": [
         {
           "id": "l4",
-          "display": "Merhaba! Ben Muma! Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
-          "spoken": "Merhaba! Ben Muma! Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+          "display": "Ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
+          "spoken": "Ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!",
           "factIds": []
         },
         {
@@ -275,8 +275,8 @@
         },
         {
           "id": "l33",
-          "display": "Şimdi öğrendiklerimizi şarkıyla söyleyelim. Arkadaşlarım sahneye geliyor! Hazır mısın? Bir, iki, üç!",
-          "spoken": "Şimdi öğrendiklerimizi şarkıyla söyleyelim. Arkadaşlarım sahneye geliyor! Hazır mısın? Bir, iki, üç!",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
           "factIds": []
         }
       ]
@@ -334,7 +334,7 @@
     ],
     "cast": [
       {
-        "emoji": "🌝",
+        "emoji": "🌙",
         "name": "Ay"
       },
       {

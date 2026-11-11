@@ -37,7 +37,7 @@ export const Outro: React.FC<SceneProps<"outro">> = ({ frame, beats, dur, tail, 
         </div>
       </Stage>
       {frame >= talk - 4 && (
-        <Stage style={{ justifyContent: "center", paddingLeft: 540, gap: 36, opacity: leave }}>
+        <Stage style={{ justifyContent: "center", paddingLeft: 420, gap: 36, opacity: leave }}>
           <div style={{ transform: `scale(${pop(frame, t2)})`, transformOrigin: "left center" }}>
             <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 70, color: C.text, lineHeight: 1.1, maxWidth: 1250 }}>Bir sonraki bilim videosunda <span style={{ color: C.yellow }}>görüşürüz!</span></div>
             <div style={{ fontFamily: F.body, fontSize: 38, color: C.dim, marginTop: 10 }}>MuMa Library’de yeni sorular yolda. Abone ol, zili aç!</div>

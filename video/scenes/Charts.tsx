@@ -40,7 +40,7 @@ export const BarChart: React.FC<SceneProps<"bar-chart">> = ({ visual, frame, bea
           );
         })}
       </svg>
-      {visual.unit && <div style={{ position: "absolute", right: 300, top: 14, fontFamily: F.body, fontSize: 28, color: C.dim }}>Birim: {visual.unit}</div>}
+      {visual.unit && <div style={{ position: "absolute", right: 0, top: 14, fontFamily: F.body, fontSize: 28, color: C.dim }}>Birim: {visual.unit}</div>}
     </Stage>
   );
 };

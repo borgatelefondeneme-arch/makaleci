@@ -24,7 +24,7 @@ export const Comparison: React.FC<SceneProps<"comparison">> = ({ visual, frame, 
   };
   const v = pop(frame, beatAt(beats, 1, dur, 2) - 6, 8);
   return (
-    <Stage style={{ paddingRight: 60 }}>
+    <Stage>
       <Title frame={frame} color={C.coral}>{visual.title}</Title>
       <div style={{ display: "flex", gap: 90, alignItems: "stretch", position: "relative", width: 1440 }}>
         {side(visual.left, 0, C.teal)}

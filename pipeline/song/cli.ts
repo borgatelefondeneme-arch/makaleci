@@ -36,9 +36,9 @@ if (useReal) {
   const res = await fetch("https://api.elevenlabs.io/v1/music?output_format=mp3_44100_128", { method: "POST", headers: { "xi-api-key": key!, "content-type": "application/json" }, body: JSON.stringify(body) });
   if (!res.ok) fail(`ElevenLabs Music isteği başarısız: ${res.status} ${(await res.text()).slice(0, 600)}`);
   writeFileSync(p.songAudio, Buffer.from(await res.arrayBuffer()));
-  // Şarkıyı Muma'nın sesiyle söylet (kullanıcı kararı): vokal ayrılır, ses dönüştürülür, çalgılarla yeniden karıştırılır.
-  // Müzik modeli doğrudan belirli bir sesle söyleyemediği için bu dolaylı yol kullanılır; --no-convert ile atlanır.
-  if (!flags["no-convert"]) {
+  // Varsayılan: şarkının özgün vokali kullanılır (kullanıcı kararı — Muma'nın sesine dönüştürme denendi, beğenilmedi).
+  // --convert ile deneysel yol: vokal ayrılır, Muma'nın sesine dönüştürülür, çalgılarla yeniden karıştırılır (ek kota harcar).
+  if (flags.convert) {
     const voiceId = process.env.ELEVENLABS_VOICE_ID || "j6hEdvUHjDuCExVlNXTi";
     const tmp = mkdtempSync(join(tmpdir(), "song-"));
     const original = p.songAudio.replace(/\.mp3$/, ".original.mp3");

@@ -48,7 +48,7 @@ export const Analogy: React.FC<SceneProps<"analogy">> = ({ visual, frame, beats,
       return (<g>
         <line x1={250} x2={1300} y1={y} y2={y} stroke={C.cardLine} strokeWidth={10} strokeLinecap="round" strokeDasharray="2 26" />
         <line x1={250} x2={x} y1={y} y2={y} stroke={col} strokeWidth={14} strokeLinecap="round" />
-        <circle cx={x} cy={y + Math.abs(Math.sin(frame / 4)) * -10 * (t < 1 ? 1 : 0)} r={30} fill={col} stroke={C.ink} strokeWidth={5} />
+        <circle cx={x} cy={y + Math.abs(Math.sin(frame / 4)) * -10 * (t < 1 ? 1 : 0)} r={30} fill={col} stroke={C.text} strokeWidth={5} />
         <text x={0} y={y - 6} fontFamily={F.head} fontWeight={800} fontSize={34} fill={col}>{it.label}</text>
         {it.display && <text x={0} y={y + 38} fontFamily={F.head} fontWeight={900} fontSize={40} fill={C.text} opacity={pop(frame, st + 40)}>{it.display}</text>}
       </g>);

@@ -46,7 +46,7 @@ export const Diagram: React.FC<SceneProps<"diagram">> = ({ visual, frame, beats,
             <div key={i} style={{
               position: "absolute", left: pos[i].x - bw / 2, top: pos[i].y - bh / 2, width: bw, height: bh, boxSizing: "border-box",
               background: C.card, border: `4px solid ${col}`, borderRadius: 32, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8, padding: 14,
-              transform: `scale(${p})`, opacity: p, boxShadow: "0 14px 40px rgba(0,0,0,0.3)",
+              transform: `scale(${p})`, opacity: p, boxShadow: `0 14px 36px ${C.shadow}`,
             }}>
               {nd.emoji && <div style={{ fontSize: visual.layout === "flow" ? 104 : 68, lineHeight: 1.1, fontFamily: F.head }}>{nd.emoji}</div>}
               <div style={{ fontFamily: F.head, fontWeight: 800, fontSize: visual.layout === "flow" ? 36 : 32, color: C.text, textAlign: "center", lineHeight: 1.15 }}>{nd.label}</div>

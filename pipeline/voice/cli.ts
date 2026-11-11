@@ -15,7 +15,7 @@ import { SAMPLE_RATE } from "./providers/types.ts";
 
 const FPS = 30, LEAD = 8, TAIL = 14, REMINDER = 150;
 // Sabit açılış ve kapanış cümleleri (kanal kimliği). display: altyazı, spoken: okunuş.
-const WELCOME = { display: "MuMa Library'ye hoş geldin!", spoken: "Muma Laybrıri'ye hoş geldin!" };
+const WELCOME = { display: "MuMa Library'ye hoş geldin! Merhaba, ben Muma!", spoken: "Muma Laybrıri'ye hoş geldin! Merhaba, ben Muma!" };
 const GOODBYE = { display: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!", spoken: "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!" };
 const FLY_IN = 42, FLY_OUT = 60; // robotun uçarak giriş/çıkış süresi (kare)
 const MIN_SEC = 285, MAX_SEC = 360; // hedef 5–6 dk (konu bölümlerinde ~5 dk)

@@ -22,6 +22,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
     "@fontsource/inter": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
     "@fontsource/noto-color-emoji": "^5.3.2",
     "@fontsource/nunito": "^5.3.0",
     "@remotion/bundler": "^4.0.542",

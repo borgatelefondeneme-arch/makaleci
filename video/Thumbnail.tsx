@@ -18,7 +18,7 @@ export const Thumbnail: React.FC<EpisodeProps> = ({ script, paper }) => (
       <div style={{ alignSelf: "flex-start", background: C.teal, color: C.ink, fontFamily: F.head, fontWeight: 900, fontSize: 50, padding: "12px 38px", borderRadius: 50 }}>
         {paper.kind === "topic" ? "Günün Sorusu" : "Günün Makalesi"} #{script.episodeNumber}
       </div>
-      <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: script.videoTitle.length > 48 ? 96 : 118, lineHeight: 1.06, color: C.text, textShadow: "0 8px 30px rgba(0,0,0,0.5)" }}>
+      <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: script.videoTitle.length > 48 ? 96 : 118, lineHeight: 1.06, color: C.text }}>
         {script.videoTitle}
       </div>
       {paper.isPreprint && (

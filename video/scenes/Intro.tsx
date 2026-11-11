@@ -1,7 +1,7 @@
 import React from "react";
 import { interpolate } from "remotion";
 import type { EpisodeProps } from "../../schemas/index";
-import { C, F } from "../theme";
+import { C, F, GRADIENT } from "../theme";
 import { clamp, pop } from "../anim";
 
 // Standart 5 sn açılış: logo animasyonu + "Günün Makalesi #n" + makale başlığı.
@@ -22,7 +22,7 @@ export const Intro: React.FC<{ frame: number; data: EpisodeProps }> = ({ frame, 
         <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 124, color: C.text, display: "flex" }}>
           {letters.map((l, i) => {
             const p = pop(frame, 8 + i * 2, 9);
-            return <span key={i} style={{ display: "inline-block", whiteSpace: "pre", transform: `translateY(${(1 - p) * 70}px) scale(${p})`, color: i >= 5 ? C.yellow : C.text }}>{l}</span>;
+            return <span key={i} style={{ display: "inline-block", whiteSpace: "pre", transform: `translateY(${(1 - p) * 70}px) scale(${p})`, color: C.text, ...(i >= 5 ? { backgroundImage: GRADIENT, backgroundSize: `${7 * 70}px 100%`, backgroundPosition: `${-(i - 5) * 70}px 0`, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" } : {}) }}>{l}</span>;
           })}
         </div>
       </div>

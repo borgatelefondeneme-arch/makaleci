@@ -1,53 +1,34 @@
 import React from "react";
 import { interpolate } from "remotion";
-import { ACCENTS, C, F, H, W } from "../theme";
+import { ACCENTS, C, F, GRADIENT, H, W } from "../theme";
 import { clamp, pop } from "../anim";
 import { SceneProps } from "./common";
 
-// Kapanış şarkısı: sözler dize dize belirir, konuya özel karakterler ritimle dans eder.
-// Muma bu sahnede görünmez. Zamanlama voice.song'dan gelir (bölüm zaman çizelgesinde kare).
-const DECOR = ["🎵", "🎶", "✨", "🎵", "🎶", "✨", "🎵", "🎶"];
-const rnd = (i: number, n: number) => { const x = Math.sin(i * 91.7 + n * 47.3) * 43758.5453; return x - Math.floor(x); };
+// Kapanış şarkısı — klip havasında: kelime kelime yanan sözler, vuruşla zıplayan konu rozetleri,
+// dönen ışın demeti ve ekolayzır. Muma bu sahnede yoktur; sahnedekiler konunun kendi karakterleridir.
+// 7–14 yaşa göre: kollu bacaklı bebeksi figürler yerine rozet/sahne dili kullanılır.
 const BEAT = 15; // 120 BPM ≈ 15 karede bir vuruş
+const rnd = (i: number, n: number) => { const x = Math.sin(i * 91.7 + n * 47.3) * 43758.5453; return x - Math.floor(x); };
 
-// Emoji gövdeli, kollu bacaklı dansçı. Her biri farklı fazda ve farklı figürle oynar.
-const Dancer: React.FC<{ emoji: string; name: string; i: number; n: number; t: number; chorus: boolean; amp: number; enter: number }> = ({ emoji, name, i, n, t, chorus, amp, enter }) => {
-  const size = n > 4 ? 190 : 220;
-  const ph = (t + i * 5) / BEAT;
-  const hop = Math.abs(Math.sin(Math.PI * ph)) * (chorus ? 92 : 44) * (0.7 + amp * 0.5);
-  const sway = Math.sin((Math.PI * ph) / 2) * (chorus ? 15 : 9);
-  const squash = 1 + Math.cos(2 * Math.PI * ph) * 0.07;
-  const spin = chorus && i % 2 === 0 ? Math.sin((Math.PI * ph) / 4) * 14 : 0;
-  const side = Math.sin((Math.PI * ph) / 2 + i) * 26; // sağa sola adım
-  const arm = Math.sin(Math.PI * ph + i) * 46; // kol sallama
-  const leg = Math.sin(Math.PI * ph) * 16;
+const Badge: React.FC<{ emoji: string; name: string; i: number; n: number; t: number; chorus: boolean; amp: number; enter: number }> = ({ emoji, name, i, n, t, chorus, amp, enter }) => {
+  const size = n > 4 ? 200 : 230;
   const col = ACCENTS[i % 4];
-  const drop = (1 - enter) * -520; // yukarıdan zıplayarak gelir
+  const ph = (t - i * 3) / BEAT; // dalga: soldan sağa gecikmeli
+  const hop = Math.pow(Math.abs(Math.sin(Math.PI * ph)), 1.6) * (chorus ? 110 : 46) * (0.75 + amp * 0.45);
+  const tilt = Math.sin((Math.PI * ph) / 2) * (chorus ? 12 : 6);
+  const pulse = (t / BEAT) % 1; // vuruşla genişleyen halka
   return (
-    <div style={{ position: "relative", width: size, height: size + 120, transform: `translate(${side}px, ${drop - hop}px)`, opacity: Math.min(1, enter * 4) }}>
-      {/* gölge */}
-      <div style={{ position: "absolute", left: size * 0.2, top: size + 78 + hop - drop, width: size * 0.6, height: 18, borderRadius: "50%", background: "#000", opacity: 0.25 * enter * (1 - hop / 220) }} />
-      <svg width={size} height={size + 120} style={{ position: "absolute", left: 0, top: 0, overflow: "visible", transform: `rotate(${sway + spin}deg)`, transformOrigin: `50% ${size * 0.6}px` }}>
-        {/* bacaklar ve ayakkabılar */}
-        {[-1, 1].map((d) => (
-          <g key={d}>
-            <line x1={size / 2 + d * size * 0.16} y1={size * 0.82} x2={size / 2 + d * (size * 0.2 + leg * d)} y2={size + 58 - Math.max(0, leg * d)} stroke={C.text} strokeWidth={9} strokeLinecap="round" />
-            <ellipse cx={size / 2 + d * (size * 0.2 + leg * d) + d * 12} cy={size + 64 - Math.max(0, leg * d)} rx={24} ry={13} fill={col} stroke={C.ink} strokeWidth={4} />
-          </g>
-        ))}
-        {/* kollar ve eldivenler */}
-        {[-1, 1].map((d) => {
-          const hx = size / 2 + d * (size * 0.62), hy = size * 0.5 - (d === 1 ? arm : -arm) - (chorus ? 40 : 0);
-          return (
-            <g key={d}>
-              <path d={`M ${size / 2 + d * size * 0.38} ${size * 0.55} Q ${size / 2 + d * size * 0.55} ${size * 0.62} ${hx} ${hy}`} fill="none" stroke={C.text} strokeWidth={9} strokeLinecap="round" />
-              <circle cx={hx} cy={hy} r={17} fill="#fff" stroke={C.ink} strokeWidth={4} />
-            </g>
-          );
-        })}
-      </svg>
-      <div style={{ position: "absolute", left: 0, top: 0, width: size, height: size, fontSize: size * 0.86, lineHeight: `${size}px`, textAlign: "center", fontFamily: F.head, transform: `rotate(${sway + spin}deg) scale(${squash}, ${2 - squash})`, transformOrigin: "50% 60%" }}>{emoji}</div>
-      <div style={{ position: "absolute", left: -30, width: size + 60, top: size + 86 + hop - drop, textAlign: "center", fontFamily: F.head, fontWeight: 800, fontSize: 26, color: col, opacity: enter }}>{name}</div>
+    <div style={{ position: "relative", width: size, height: size + 70, opacity: Math.min(1, enter * 3), transform: `translateY(${(1 - enter) * 300 - hop}px)` }}>
+      <div style={{ position: "absolute", left: size * 0.15, top: size + 6 + hop, width: size * 0.7, height: 20, borderRadius: "50%", background: C.text, opacity: 0.12 * (1 - hop / 260) }} />
+      <div style={{ position: "absolute", left: 0, top: 0, width: size, height: size, borderRadius: "50%", border: `6px solid ${col}`, opacity: (1 - pulse) * 0.5, transform: `scale(${1 + pulse * 0.45})` }} />
+      <div style={{
+        position: "absolute", left: 0, top: 0, width: size, height: size, borderRadius: "50%", background: "#fff", border: `10px solid ${col}`, boxSizing: "border-box",
+        boxShadow: `0 18px 40px ${C.shadow}, inset 0 -14px 0 rgba(27,34,56,0.05)`, display: "flex", alignItems: "center", justifyContent: "center",
+        transform: `rotate(${tilt + (chorus ? Math.sin((Math.PI * ph) / 4) * 10 : 0)}deg) scale(${1 + (chorus ? 0.06 * Math.abs(Math.sin(Math.PI * ph)) : 0)})`,
+      }}>
+        <div style={{ fontSize: size * 0.52, lineHeight: 1, fontFamily: F.head, transform: `scale(${1 + amp * 0.1})` }}>{emoji}</div>
+      </div>
+      <div style={{ position: "absolute", left: -40, width: size + 80, top: size + 30 + hop, textAlign: "center", fontFamily: F.head, fontWeight: 800, fontSize: 28, color: col }}>{name}</div>
     </div>
   );
 };
@@ -67,43 +48,55 @@ export const Song: React.FC<SceneProps<"song">> = ({ frame, data }) => {
   const titleP = pop(frame, 4, 9);
   const out = interpolate(abs, [sg.endFrame - 14, sg.endFrame + 4], [1, 0], clamp);
   const cast = sg.cast;
+  const on = interpolate(t, [-6, 14], [0, 1], clamp);
   return (
     <div style={{ position: "absolute", inset: 0, opacity: out }}>
-      {/* sahne ışıkları: nakaratta güçlenir */}
-      <div style={{ position: "absolute", inset: 0, background: `radial-gradient(ellipse at 50% 78%, ${chorus ? C.yellow : C.purple}, transparent 60%)`, opacity: started ? 0.12 + amp * 0.12 + (chorus ? 0.1 : 0) : 0 }} />
-      {started && [0, 1, 2].map((k) => (
-        <div key={k} style={{ position: "absolute", left: 260 + k * 560, top: -80, width: 260, height: 900, background: `linear-gradient(${ACCENTS[(k + Math.floor(t / 60)) % 4]}, transparent)`, opacity: 0.1 + (chorus ? 0.08 : 0), transform: `rotate(${Math.sin(t / 34 + k * 2) * 16}deg)`, transformOrigin: "50% 0", clipPath: "polygon(38% 0, 62% 0, 100% 100%, 0 100%)" }} />
-      ))}
-      {/* uçuşan notalar */}
-      {started && DECOR.map((n, i) => {
-        const speed = 2.2 + rnd(i, 1) * 2.4;
-        const y = H + 60 - (((t + 40) * speed + rnd(i, 2) * H * 1.3) % (H + 220));
-        const x = 40 + rnd(i, 3) * (W - 160) + Math.sin(t / 22 + i) * 46;
-        return <div key={i} style={{ position: "absolute", left: x, top: y, fontSize: 40 + rnd(i, 4) * 36, fontFamily: F.head, opacity: 0.4, transform: `rotate(${Math.sin(t / 14 + i) * 18}deg) scale(${1 + beat * 0.12})` }}>{n}</div>;
+      {/* sahne: renkli zemin şeridi ve dönen ışın demeti */}
+      <div style={{ position: "absolute", left: -100, right: -100, bottom: -80, height: 430, background: "linear-gradient(100deg, #FFD9BF, #FFE9B8 35%, #CFE0FF 70%, #E3DBFF)", borderRadius: "50% 50% 0 0 / 34% 34% 0 0", opacity: on * 0.95, transform: `translateY(${(1 - on) * 200}px)` }} />
+      <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 0, opacity: on * (chorus ? 0.5 : 0.22) }}>
+        <g transform={`translate(${W / 2} ${H * 0.74}) rotate(${t * (chorus ? 0.9 : 0.35)})`}>
+          {Array.from({ length: 12 }, (_, i) => <path key={i} d="M 0 0 L -70 -1300 L 70 -1300 Z" fill={ACCENTS[i % 4]} opacity={0.2} transform={`rotate(${i * 30})`} />)}
+        </g>
+      </svg>
+      {/* konfeti: yalnızca nakaratta */}
+      {started && chorus && Array.from({ length: 26 }, (_, i) => {
+        const y = ((t * (3 + rnd(i, 1) * 4) + rnd(i, 2) * H) % (H + 80)) - 40;
+        return <div key={i} style={{ position: "absolute", left: rnd(i, 3) * W, top: y, width: 14 + rnd(i, 4) * 12, height: 8 + rnd(i, 5) * 8, borderRadius: 3, background: [C.yellow, C.teal, C.purple, C.gold, C.green][i % 5], opacity: 0.8, transform: `rotate(${t * (3 + rnd(i, 6) * 5) + i * 40}deg)` }} />;
       })}
       {/* başlık */}
-      <div style={{ position: "absolute", left: 110, top: 86, display: "flex", alignItems: "center", gap: 22, opacity: titleP, transform: `translateY(${(1 - titleP) * -30}px)` }}>
-        <div style={{ fontSize: 64, fontFamily: F.head, transform: `rotate(${Math.sin(frame / 8) * 12}deg) scale(${1 + beat * 0.15})` }}>🎤</div>
-        <div style={{ fontFamily: F.head, fontWeight: 900, fontSize: 56, color: C.text }}>{sg.title}</div>
-        {started && <div style={{ marginLeft: 12, background: chorus ? C.yellow : C.teal, color: C.ink, fontFamily: F.head, fontWeight: 900, fontSize: 28, padding: "8px 26px", borderRadius: 40, transform: `scale(${0.85 + 0.15 * secIn})` }}>{sec.label}</div>}
+      <div style={{ position: "absolute", left: 0, right: 0, top: 74, display: "flex", justifyContent: "center", alignItems: "center", gap: 20, opacity: titleP, transform: `translateY(${(1 - titleP) * -30}px)` }}>
+        <div style={{ fontSize: 50, fontFamily: F.head, transform: `rotate(${Math.sin(frame / 8) * 12}deg) scale(${1 + beat * 0.15})` }}>🎧</div>
+        <div style={{ fontFamily: F.head, fontWeight: 800, fontSize: 44, color: C.text }}>{sg.title}</div>
+        {started && <div style={{ background: chorus ? C.yellow : C.teal, color: "#fff", fontFamily: F.head, fontWeight: 800, fontSize: 26, padding: "8px 24px", borderRadius: 40, transform: `scale(${0.85 + 0.15 * secIn})` }}>{sec.label}</div>}
       </div>
-      {/* sözler: ekranın üst yarısında, ortalı */}
-      <div style={{ position: "absolute", left: 110, right: 110, top: 190, display: "flex", flexDirection: "column", alignItems: "center", gap: chorus ? 12 : 8, opacity: started ? secIn : 0, transform: `translateY(${(1 - secIn) * 40}px)` }}>
+      {/* sözler: o anki dize kelime kelime yanar */}
+      <div style={{ position: "absolute", left: 120, right: 120, top: 168, display: "flex", flexDirection: "column", alignItems: "center", gap: chorus ? 10 : 6, opacity: started ? secIn : 0, transform: `translateY(${(1 - secIn) * 40}px)` }}>
         {(started ? sec.lines : []).map((l, i) => {
-          const on = abs >= l.startFrame && abs < l.endFrame;
+          const cur = abs >= l.startFrame && abs < l.endFrame;
           const done = abs >= l.endFrame;
+          const words = l.text.split(" ");
+          const prog = interpolate(abs, [l.startFrame, l.endFrame - 4], [0, words.length], clamp);
           return (
-            <div key={`${sec.startFrame}-${i}`} style={{
-              fontFamily: F.head, fontWeight: 900, fontSize: chorus ? 72 : 54, lineHeight: 1.14, textAlign: "center",
-              color: on ? C.yellow : done ? C.dim : C.text, opacity: on ? 1 : done ? 0.5 : 0.78,
-              transform: `scale(${on ? 1.06 + beat * 0.03 : 1})`, textShadow: on ? "0 6px 30px rgba(255,210,63,0.4)" : "none",
-            }}>{l.text}</div>
+            <div key={`${sec.startFrame}-${i}`} style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 0.28em", fontFamily: F.head, fontWeight: 800, fontSize: chorus ? (cur ? 88 : 60) : cur ? 70 : 48, lineHeight: 1.16, opacity: cur ? 1 : done ? 0.38 : 0.6, transform: `scale(${cur ? 1 + beat * 0.02 : 1})` }}>
+              {words.map((w, k) => {
+                const lit = cur && k < prog;
+                const p = cur ? interpolate(prog, [k, k + 0.6], [0, 1], clamp) : 0;
+                return <span key={k} style={{ display: "inline-block", color: C.text, transform: `translateY(${lit ? -6 * Math.sin(p * Math.PI) : 0}px) scale(${1 + (lit ? 0.08 * Math.sin(p * Math.PI) : 0)})`, ...(lit ? { backgroundImage: GRADIENT, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" } : {}) }}>{w}</span>;
+              })}
+            </div>
           );
         })}
       </div>
-      {/* dans pisti: konuya özel karakterler */}
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 86, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: cast.length > 4 ? 90 : 130 }}>
-        {cast.map((c, i) => <Dancer key={i} emoji={c.emoji} name={c.name} i={i} n={cast.length} t={t} chorus={chorus} amp={amp} enter={pop(t, 4 + i * 9, 9)} />)}
+      {/* ekolayzır */}
+      <svg width={W} height={170} style={{ position: "absolute", left: 0, bottom: 0, opacity: on * 0.9 }}>
+        {Array.from({ length: 64 }, (_, i) => {
+          const h = 8 + (0.2 + amp * 0.8) * (26 + 110 * Math.abs(Math.sin(t / (5 + (i % 5)) + i * 1.7)));
+          return <rect key={i} x={i * 30 + 6} y={170 - h} width={18} height={h} rx={8} fill={ACCENTS[i % 4]} opacity={0.55} />;
+        })}
+      </svg>
+      {/* konu karakterleri: rozetler vuruşla dalga dalga zıplar */}
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: cast.length > 4 ? 76 : 110 }}>
+        {cast.map((c, i) => <Badge key={i} emoji={c.emoji} name={c.name} i={i} n={cast.length} t={t} chorus={chorus} amp={amp} enter={pop(t, 2 + i * 7, 9)} />)}
       </div>
     </div>
   );

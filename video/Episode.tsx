@@ -5,7 +5,7 @@ import { Background } from "./components/Background";
 import { Caption, CaptionCue, Chrome, chunkText, PreprintBadge } from "./components/Overlays";
 import { SubscribeReminder } from "./components/Subscribe";
 import { ensureFonts } from "./fonts";
-import { CueAt, MascotLayer } from "./mascot/MascotLayer";
+import { CueAt, MascotLayer, Visit } from "./mascot/MascotLayer";
 import { Analogy } from "./scenes/Analogy";
 import { BigNumber } from "./scenes/BigNumber";
 import { Bullets, QuoteCard } from "./scenes/Cards";
@@ -50,9 +50,6 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   const captions: CaptionCue[] = [];
   plan.scenes.forEach((sc, i) => {
     const v = voice.scenes[i];
-    // Poz verilmemişse sahne tipine göre: kaynak kartında kitap okur, kapanışta başparmak kaldırır.
-    const auto = sc.visual.type === "source-card" ? "book" : sc.visual.type === "outro" ? "thumbs" : undefined;
-    cues.push({ startFrame: v.startFrame, cue: { ...sc.mascot, pose: sc.mascot.pose ?? auto } });
     sc.lineIds.forEach((id, k) => {
       const text = lineById.get(id)!.display;
       const s = v.startFrame + v.lineStartFrames[k], e = v.startFrame + v.lineEndFrames[k];
@@ -66,14 +63,17 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
     });
   });
   for (const b of voice.bumpers) captions.push({ start: b.startFrame, end: b.endFrame, text: b.text });
+  // Muma yalnızca girişte ve çıkışta görünür: açılışta uçarak gelir, karşılar ve gider; kapanış sahnesinde geri gelir.
   const lastV = voice.scenes[voice.scenes.length - 1];
   const tailStart = lastV.startFrame + lastV.durationFrames - voice.outroTailFrames;
+  const lastScene = plan.scenes[plan.scenes.length - 1];
+  cues.push({ startFrame: lastV.startFrame - 4, cue: { ...lastScene.mascot, pose: lastScene.mascot.pose ?? "thumbs" } });
   cues.push({ startFrame: tailStart, cue: { state: "talk", x: 0.14, y: 0.5, scale: 1.4, pose: "wave" } });
-
+  const visits: Visit[] = [{ start: 0, end: voice.introFrames + 8, outFrames: 34 }, { start: lastV.startFrame - 4, end: voice.totalFrames - 12, outFrames: 60 }];
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);
   return (
-    <AbsoluteFill style={{ background: "#000" }}>
+    <AbsoluteFill style={{ background: "#FBF8F3" }}>
       <AbsoluteFill style={{ opacity: fadeOut }}>
         <Background />
         <Sequence durationInFrames={voice.introFrames + XFADE} name="Açılış">
@@ -96,7 +96,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />
         </Sequence>
-        <MascotLayer cues={cues} amplitude={voice.amplitude} total={voice.totalFrames} dance={voice.song ? { start: voice.song.startFrame, end: voice.song.endFrame } : undefined} />
+        <MascotLayer cues={cues} visits={visits} amplitude={voice.amplitude} words={voice.words} />
         <Caption cues={captions} />
       </AbsoluteFill>
     </AbsoluteFill>

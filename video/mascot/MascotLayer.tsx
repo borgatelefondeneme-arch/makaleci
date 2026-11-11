@@ -3,70 +3,89 @@ import { Easing, interpolate, spring, useCurrentFrame } from "remotion";
 import type { MascotCue } from "../../schemas/index";
 import { clamp } from "../anim";
 import { FPS, W, H } from "../theme";
-import { ASPECT, Mascot, type Pose } from "./Mascot";
+import { ASPECT, Mascot, type MouthShape, type Pose } from "./Mascot";
 
 export type CueAt = { startFrame: number; cue: MascotCue };
+// Muma yalnızca girişte ve çıkışta görünür (kullanıcı kararı). Her "ziyaret" uçarak gelip uçarak gitmektir.
+export type Visit = { start: number; end: number; outFrames: number };
+type Word = { text: string; start: number; end: number };
 const BASE = 540; // scale=1 iken yükseklik (px)
+const FLY_IN = 42;
 const mix = (a: number, b: number, t: number) => a + (b - a) * t;
-// Durum → poz: konuşma ve işaret "parmak havada + açık el", bekleme ve düşünme "kollar kavuşuk".
 const poseOf = (c: MascotCue): Pose => c.pose ?? (c.state === "talk" || c.state === "point" ? "point" : "crossed");
-// Açık el içeriğe baksın: hedef (ya da ekran ortası) soldaysa görsel çevrilir.
 const flipOf = (c: MascotCue) => (c.pointAt ? c.pointAt.x < c.x : c.x > 0.5);
 
-// Bölüm düzeyinde tek karakter: sahne değişince konum/ölçek yaylı geçişle akar, poz çapraz geçer.
-const FLY_IN = 42, FLY_OUT = 60; // voice aşamasındaki sabitlerle aynı
-// Açılışta ekranın sol üstünden süzülerek gelir, kapanışta sağ üste doğru uçup gider.
-export const MascotLayer: React.FC<{ cues: CueAt[]; amplitude: number[]; total: number; dance?: { start: number; end: number } }> = ({ cues, amplitude, total, dance }) => {
+// Ağız biçimi: o an söylenen kelimenin ünlüsüne göre (a/e açık, ı/i yayvan, o/ö/u/ü yuvarlak; m/b/p kapalı).
+const VIS: Record<string, MouthShape> = {
+  a: { wide: 1, open: 1, round: 0 }, e: { wide: 1.08, open: 0.8, round: 0 }, "ı": { wide: 1.12, open: 0.5, round: 0 }, i: { wide: 1.15, open: 0.45, round: 0 },
+  o: { wide: 0.68, open: 0.95, round: 1 }, "ö": { wide: 0.66, open: 0.85, round: 1 }, u: { wide: 0.55, open: 0.6, round: 1 }, "ü": { wide: 0.55, open: 0.55, round: 1 },
+};
+const REST: MouthShape = { wide: 1, open: 0, round: 0 };
+const shapeAt = (words: Word[], t: number): MouthShape => {
+  const w = words.find((x) => t >= x.start && t <= x.end);
+  if (!w) return REST;
+  const s = w.text.toLocaleLowerCase("tr").replace(/[^a-zçğıöşü]/g, "");
+  if (!s) return REST;
+  const k = Math.min(s.length - 1, Math.floor(((t - w.start) / Math.max(0.01, w.end - w.start)) * s.length));
+  if ("mbp".includes(s[k])) return { wide: 1, open: 0.06, round: 0 };
+  for (let d = 0; d < s.length; d++) { const v = VIS[s[k - d]] ?? VIS[s[k + d]]; if (v) return v; }
+  return { wide: 1, open: 0.7, round: 0 };
+};
+
+export const MascotLayer: React.FC<{ cues: CueAt[]; visits: Visit[]; amplitude: number[]; words: Word[] }> = ({ cues, visits, amplitude, words }) => {
   const f = useCurrentFrame();
+  const visit = visits.find((v) => f >= v.start && f <= v.end);
+  if (!visit) return null;
   let i = 0;
   for (let k = 0; k < cues.length; k++) if (cues[k].startFrame <= f) i = k;
   const cur = cues[i].cue;
-  const prev = cues[Math.max(0, i - 1)].cue;
+  // Ziyaretin ilk işareti için geçiş yok; aynı ziyaret içindeki sonraki işaretlere yaylı geçilir.
+  const first = cues[i].startFrame <= visit.start + 2 || i === 0;
+  const prev = first ? cur : cues[i - 1].cue;
   const since = f - cues[i].startFrame;
-  const t = i === 0 ? 1 : spring({ frame: since, fps: FPS, config: { damping: 18, mass: 0.9 } });
+  const t = first ? 1 : spring({ frame: since, fps: FPS, config: { damping: 18, mass: 0.9 } });
 
   const scale = mix(prev.scale, cur.scale, t);
   const size = BASE * scale, width = size * ASPECT;
-  const cx = mix(prev.x, cur.x, t) * W;
-  const cy = mix(prev.y, cur.y, t) * H;
-  // Ekran dışına ve altyazı bandına taşmasın.
+  const cx = mix(prev.x, cur.x, t) * W, cy = mix(prev.y, cur.y, t) * H;
   const left = Math.min(W - width - 10, Math.max(10, cx - width / 2));
   const top = Math.min(H - 150 - size, Math.max(70, cy - size / 2));
   const think = mix(prev.state === "think" ? 1 : 0, cur.state === "think" ? 1 : 0, t);
-  const flip = flipOf(cur), pflip = flipOf(prev);
-  // Yön değişiyorsa poz geçişi sırasında bir kez "dönüş" yapılır.
-  const blend = i === 0 ? 1 : interpolate(since, [2, 12], [0, 1], clamp);
-  const lean = cur.state === "point" && cur.pointAt ? (flip ? -4 : 4) * Math.min(1, t) : 0;
-  const raw = amplitude[f] ?? 0;
-  const mouth = cur.state === "idle" ? 0 : (raw + (amplitude[f - 1] ?? raw)) / 2;
-  const hop = Math.sin(Math.min(1, Math.max(0, t)) * Math.PI) * (i === 0 ? 0 : 22);
-  // Uçuş: giriş (0..FLY_IN) ve çıkış (son FLY_OUT kare, kararma öncesi).
+  const blend = first ? 1 : interpolate(since, [2, 12], [0, 1], clamp);
+  const lean = cur.state === "point" && cur.pointAt ? (flipOf(cur) ? -4 : 4) * Math.min(1, t) : 0;
+  const hop = Math.sin(Math.min(1, Math.max(0, t)) * Math.PI) * (first ? 0 : 22);
+
+  // Ağız: genlik (yumuşatılmış) × ünlü biçimi; komşu karelerle ortalanarak titreme önlenir.
+  const amp = (k: number) => amplitude[Math.max(0, k)] ?? 0;
+  const level = Math.min(1, (amp(f - 1) + 2 * amp(f) + amp(f + 1)) / 4 * 1.15);
+  const sh = [-1, 0, 1].map((d) => shapeAt(words, (f + d) / FPS));
+  const shape: MouthShape = { wide: (sh[0].wide + 2 * sh[1].wide + sh[2].wide) / 4, open: ((sh[0].open + 2 * sh[1].open + sh[2].open) / 4) * (0.35 + 0.65 * level), round: (sh[0].round + 2 * sh[1].round + sh[2].round) / 4 };
+  const speaking = cur.state !== "idle" && level > 0.05;
+
+  // Uçuş: ekranın yakın kenarından süzülerek gelir, sağ üste doğru uçup gider.
+  const fromRight = cur.x > 0.5;
+  const outAt = visit.end - visit.outFrames;
   const path = (ff: number) => {
-    const ti = interpolate(ff, [0, FLY_IN], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.4)) });
-    const to = interpolate(ff, [total - FLY_OUT - 12, total - 12], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
-    return { ti, to, x: (1 - ti) * -(left + width + 80) + to * (W - left + 120), y: (1 - ti) * -(top + 60) * 0.7 - Math.sin(Math.min(1, ti) * Math.PI) * 60 + to * -(top + size * 0.6) };
+    const ti = interpolate(ff, [visit.start, visit.start + FLY_IN], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.4)) });
+    const to = interpolate(ff, [outAt, visit.end], [0, 1], { ...clamp, easing: Easing.in(Easing.cubic) });
+    const inX = fromRight ? W - left + 80 : -(left + width + 80);
+    return { ti, to, x: (1 - ti) * inX + to * (W - left + 120), y: (1 - ti) * -(top + 60) * 0.7 - Math.sin(Math.min(1, ti) * Math.PI) * 60 + to * -(top + size * 0.6) };
   };
   const fly = path(f);
-  // Şarkı sırasında dans: vuruşla zıplar ve sağa sola sallanır (120 BPM ≈ 15 kare/vuruş).
-  // Şarkı sırasında Muma sahneden çekilir (şarkıda konuya özel karakterler dans eder), şarkı bitince geri gelir.
-  const dn = dance ? interpolate(f, [dance.start - 26, dance.start - 8, dance.end - 2, dance.end + 14], [0, 1, 1, 0], clamp) : 0;
-  const dy = dn * -260, drot = dn * 14;
   const fscale = (0.55 + 0.45 * Math.min(1, fly.ti)) * (1 - 0.45 * fly.to);
-  const frot = (1 - Math.min(1, fly.ti)) * 22 + fly.to * 26; // uçuş yönüne yatma
-  const flying = f < FLY_IN + 6 || f > total - FLY_OUT - 12;
-  // Uçarken "kollar açık" pozu; inişte sahnenin pozuna, kalkışta yeniden uçuş pozuna çapraz geçer.
-  const outAt = total - FLY_OUT - 12;
+  const frot = (1 - Math.min(1, fly.ti)) * (fromRight ? -22 : 22) + fly.to * 26;
+  const inAir = f < visit.start + FLY_IN + 6 || f > outAt;
   let pose = poseOf(cur), prevPose = poseOf(prev), pblend = blend;
-  if (f < FLY_IN + 8) { prevPose = "fly"; pose = poseOf(cues[0].cue); pblend = interpolate(f, [FLY_IN - 10, FLY_IN + 6], [0, 1], clamp); }
+  if (f < visit.start + FLY_IN + 8) { prevPose = "fly"; pblend = interpolate(f, [visit.start + FLY_IN - 10, visit.start + FLY_IN + 6], [0, 1], clamp); }
   else if (f > outAt - 10) { prevPose = poseOf(cur); pose = "fly"; pblend = interpolate(f, [outAt - 10, outAt + 4], [0, 1], clamp); }
-  const trail = flying ? [1, 2, 3, 4, 5].map((k) => ({ ...path(f - k * 3.2), k })) : [];
+  const trail = inAir ? [1, 2, 3, 4, 5].map((k) => ({ ...path(f - k * 3.2), k })) : [];
   return (
     <>
       {trail.map((p) => (
-        <div key={p.k} style={{ position: "absolute", left: left + width / 2 + p.x - 14 + Math.sin(f / 3 + p.k) * 18, top: top + size * 0.72 + p.y + Math.cos(f / 4 + p.k * 2) * 14, width: 28 - p.k * 3, height: 28 - p.k * 3, borderRadius: "50%", background: p.k % 2 ? "#FFE9A8" : "#BFD4FF", opacity: (0.55 - p.k * 0.09) * (f < FLY_IN + 6 ? 1 - fly.ti * 0.6 : 1) }} />
+        <div key={p.k} style={{ position: "absolute", left: left + width / 2 + p.x - 14 + Math.sin(f / 3 + p.k) * 18, top: top + size * 0.72 + p.y + Math.cos(f / 4 + p.k * 2) * 14, width: 28 - p.k * 3, height: 28 - p.k * 3, borderRadius: "50%", background: p.k % 2 ? "#FFE9A8" : "#BFD4FF", opacity: (0.55 - p.k * 0.09) * (f < outAt ? 1 - fly.ti * 0.6 : 1) }} />
       ))}
-      <div style={{ position: "absolute", left: left + fly.x, top: top - hop + fly.y + dy, width, height: size, transform: `rotate(${frot + drot}deg) scale(${fscale * (1 - 0.6 * dn)})`, transformOrigin: "50% 40%", opacity: 1 - dn }}>
-        <Mascot frame={f} mouth={mouth} pose={pose} prevPose={prevPose} blend={pblend} flip={blend < 0.5 && i > 0 ? pflip : flip} think={think} lean={lean} size={size} />
+      <div style={{ position: "absolute", left: left + fly.x, top: top - hop + fly.y, width, height: size, transform: `rotate(${frot}deg) scale(${fscale})`, transformOrigin: "50% 40%" }}>
+        <Mascot frame={f} mouth={speaking ? level : 0} shape={shape} pose={pose} prevPose={prevPose} blend={pblend} flip={flipOf(cur)} think={think} lean={lean} size={size} />
       </div>
     </>
   );

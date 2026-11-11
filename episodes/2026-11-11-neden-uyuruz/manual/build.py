@@ -56,7 +56,7 @@ sections = [
         L("Hiç de değil! Sen uyurken içeride koca bir gece vardiyası çalışıyor. Hadi, gizlice bakalım!", [1]),
     ]),
     ("context", [
-        L("Merhaba! Ben Muma! Gerçi ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!"),
+        L("Ben uyumam, şarj olurum. Ama uykuyu çok merak ediyorum!"),
         L("Bugün üç şeyi merak ediyoruz. Neden uyuruz? Uyurken içeride neler olur? Ve ne kadar uyumalıyız?"),
         L("Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: CDC, NIH ve Nemours KidsHealth.", spoken="Bilgilerimiz sağlık kurumlarının sayfalarından geliyor: Si Di Si, En Ay Eyç ve Nemurs Kids Helt."),
         L("Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum!"),
@@ -93,7 +93,7 @@ sections = [
         L("Şimdi hızlı soru zamanı! En canlı rüyalarımızı hangi uykuda görürüz?", [11]),
         L("Düşün bakalım... Evet: REM uykusunda!", [11], "Düşün bakalım... Evet: Rem uykusunda!"),
         L("Ben mi? Ben rüya görmem. Ama şarj olurken bazen elektrikli koyun sayıyorum!"),
-        L("Şimdi öğrendiklerimizi şarkıyla söyleyelim. Arkadaşlarım sahneye geliyor! Hazır mısın? Bir, iki, üç!"),
+        L("Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!"),
     ]),
     ("summary", [
         L("İşte bugün öğrendiklerimiz!"),
@@ -106,7 +106,7 @@ song = {
     "title": "Uyu, Büyü, Öğren!",
     "style": STYLE,
     "negativeStyle": ["sad", "slow", "dark", "heavy distortion", "mumbled vocals", "long instrumental solo"],
-    "cast": [{"emoji": "🌝", "name": "Ay"}, {"emoji": "⏰", "name": "Ana Saat"}, {"emoji": "🧠", "name": "Beyin"}, {"emoji": "⭐", "name": "Yıldız"}, {"emoji": "🛏️", "name": "Yatak"}],
+    "cast": [{"emoji": "🌙", "name": "Ay"}, {"emoji": "⏰", "name": "Ana Saat"}, {"emoji": "🧠", "name": "Beyin"}, {"emoji": "⭐", "name": "Yıldız"}, {"emoji": "🛏️", "name": "Yatak"}],
     "sections": [
         {"tag": "Intro", "label": "Giriş", "direction": "snare drum roll, hand claps", "lines": ["Hey! Hey! Hey!"], "durationMs": 5000},
         {"tag": "Verse 1", "label": "Kıta", "lines": ["İçimizde bir saat var, tik tak, tik tak döner", "Akşam olur, melatonin \"haydi uyku\" der"], "durationMs": 12000},

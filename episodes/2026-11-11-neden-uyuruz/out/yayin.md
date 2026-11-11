@@ -1,6 +1,6 @@
 # Neden uyuruz?
 
-**Günün Sorusu #2** · Neden uyuruz? · süre 5:01
+**Günün Sorusu #2** · Neden uyuruz? · süre 4:59
 
 ## Açıklama
 
@@ -9,13 +9,13 @@ Uyurken vücudumuz kapanır mı? Hiç de değil! Muma ile vücut saatini, melato
 ## Bölümler
 
 0:00 Açılış
-0:05 Giriş
-0:23 Günün sorusu
-0:52 Nasıl oluyor?
+0:07 Giriş
+0:25 Günün sorusu
+0:51 Nasıl oluyor?
 1:28 İşin sırrı
 2:45 Sen de dene
 3:14 Bunu biliyor muydun?
-4:39 Bugün bunu öğrendik
+4:36 Bugün bunu öğrendik
 
 ## Kaynaklar
 
@@ -92,5 +92,5 @@ _Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler M
 ## Üretim notları
 
 - Seslendirme: ElevenLabs
-- 423 kelime, 15 sahne, abone ol hatırlatması videonun %64.8 noktasında
+- 417 kelime, 15 sahne, abone ol hatırlatması videonun %55.6 noktasında
 - Thumbnail: `thumbnail.png`
