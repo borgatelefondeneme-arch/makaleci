@@ -1,0 +1,162 @@
+{
+  "paperId": "topic:arilar-neden-bu-kadar-onemli",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Honeybee",
+      "publisher": "National Geographic",
+      "url": "https://kids.nationalgeographic.com/animals/invertebrates/facts/honeybee"
+    },
+    {
+      "id": "k2",
+      "title": "Global Action on Pollination Services",
+      "publisher": "FAO",
+      "url": "https://www.fao.org/pollination/en/"
+    },
+    {
+      "id": "k3",
+      "title": "Bee Pollination",
+      "publisher": "Orman Servisi",
+      "url": "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml"
+    },
+    {
+      "id": "k4",
+      "title": "What is the role of native bees in the United States?",
+      "publisher": "USGS",
+      "url": "https://www.usgs.gov/faqs/what-role-native-bees-united-states"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Bal arıları, bütün kovanı yöneten tek bir kraliçesi olan koloniler hâlinde yaşar.",
+      "numbers": [],
+      "quote": "Honeybees live in colonies with one queen running the whole hive.",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "İşçi arıların hepsi dişidir ve kovanın dışında uçarken görülen arılar yalnızca onlardır; besin (polen ve nektar) toplar, peteği ve kovanı yapar, korur, temizler ve havayı dolaştırırlar.",
+      "numbers": [],
+      "quote": "Worker honeybees are all females and are the only bees most people ever see flying around outside of the hive. / Workers forage for food (pollen and nectar from flowers), build and protect the hive, clean, and circulate air / They forage for food, build the honeycombs, and protect the hive.",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Kraliçenin işi yumurtlamaktır; kovanın yeni kuşağı bu yumurtalardan çıkar. Kraliçe, öteki arıların davranışını yönlendiren kimyasallar üreterek kovanın etkinliklerini düzenler.",
+      "numbers": [],
+      "quote": "The queen's job is simple—she lays the eggs that will spawn the hive's next generation of bees. / Queens regulate the hive's activities by producing chemicals that guide the behavior of the other bees.",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Erkek arılar üçüncü sınıftır; ilkbahar ve yaz boyunca her kovanda birkaç yüz erkek arı yaşar, kış aylarında kovandan çıkarılırlar.",
+      "numbers": [],
+      "quote": "Male bees are called drones—the third class of honeybee. / Several hundred drones live in each hive during the spring and summer, but they are expelled for the winter months",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Arılar bütün kış depoladıkları bal ve polenle yaşar; ısıyı korumak için top biçiminde kümelenir.",
+      "numbers": [],
+      "quote": "They live on stored honey and pollen all winter and cluster into a ball to conserve warmth.",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Arılar hem nektarla hem polenle beslenir ve ikisine de ihtiyaç duyar.",
+      "numbers": [],
+      "quote": "Bees feed on and require both nectar and pollen.",
+      "location": "USGS — What is the role of native bees in the United States?"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Arılar şampiyon tozlaştırıcılardır; polen ve nektar toplamak için çiçekleri bile bile ziyaret ederler; morötesi ışığı algılayabilirler.",
+      "numbers": [],
+      "quote": "Bees are the champion pollinators! / These flower-seeking pollen magnets purposefully visit flowers to collect pollen and nectar / bees can detect ultraviolet light.",
+      "location": "USDA Forest Service — Bee Pollination"
+    },
+    {
+      "id": "f8",
+      "kind": "number",
+      "statement": "Bütün çiçekli bitki türlerinin yüzde 80'inden fazlasını hayvanlar, çoğunlukla böcekler tozlaştırır. Kuzey Amerika bitki türlerinin yaklaşık yüzde 75'i poleninin taşınması için bir böceğe, çoğunlukla arılara ihtiyaç duyar.",
+      "numbers": [
+        "80",
+        "75"
+      ],
+      "quote": "Over 80 percent of all flowering plant species are pollinated by animals, mostly insects / About 75% of North American plant species require an insect—mostly bees—to move their pollen",
+      "location": "FAO — Global Action on Pollination Services; USGS — What is the role of native bees in the United States?"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "Dünyanın en verimli tarım bitkilerinin 3/4'ü en azından kısmen tozlaştırıcılara bağlıdır; dünya tarımsal üretiminin (hacim olarak) %35'i arılardan, kuşlardan, yarasalardan ve öteki tozlaştırıcılardan etkilenir.",
+      "numbers": [
+        "3",
+        "4",
+        "35"
+      ],
+      "quote": "3/4 of the world’s most productive crop plants depend, at least in part, on pollinators. / 35% of world’s crop production (volume) is affected by bees, birds, bats and other pollinators",
+      "location": "FAO — Global Action on Pollination Services"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "Dünyada bilinen 20.000'den fazla arı türü vardır.",
+      "numbers": [
+        "20.000"
+      ],
+      "quote": "There are over 20,000 known bee species in the world",
+      "location": "USGS — What is the role of native bees in the United States?"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Bal arıları, koloni çöküşü bozukluğu nedeniyle kovanlardan kayboluyor; bilim insanları bu çöküşe neyin yol açtığından emin değil.",
+      "numbers": [],
+      "quote": "honeybees are disappearing from hives due to colony collapse disorder. / Scientists are not sure what is causing this collapse.",
+      "location": "National Geographic Kids — Honeybee"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Yaşam alanı ve iklimdeki değişiklikler ile hastalık etkenleri, böcek ilaçları ve yabancı türler arılar üzerinde baskı yaratır.",
+      "numbers": [],
+      "quote": "due to changes in habitat, climate, and pressures from pathogens, pesticides and introduced species.",
+      "location": "USGS — What is the role of native bees in the United States?"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Arılar çeşitli çiçeklerden polen ve nektara ihtiyaç duyar; bahçıvanların küçük yardımıyla birçok tür varlığını sürdürebilir; tozlaştırıcıların güvenli yaşam alanlarına ve besin kaynaklarına ihtiyacı vardır.",
+      "numbers": [],
+      "quote": "Bees need key resources such as pollen and nectar from a variety of flowers. / many species can persist with a little help from gardeners and landscapers. / Both wild and managed pollinator populations require safe habitats and forage resources in order to survive.",
+      "location": "USDA Forest Service — Bee Pollination; FAO — Global Action on Pollination Services"
+    },
+    {
+      "id": "f14",
+      "kind": "claim",
+      "statement": "Tozlaşma hizmeti olmasaydı, bir ekosistemde işleyen pek çok tür ve süreç çökerdi.",
+      "numbers": [],
+      "quote": "Without this pollination service, many species and processes functioning within an ecosystem would collapse",
+      "location": "FAO — Global Action on Pollination Services"
+    },
+    {
+      "id": "f15",
+      "kind": "claim",
+      "statement": "Neredeyse bütün tarım bitkilerinde yabani arılar ya ana tozlaştırıcıdır ya da bal arılarının etkinliğini önemli ölçüde tamamlar.",
+      "numbers": [],
+      "quote": "In almost all crops, native bees are the primary pollinator or they significantly supplement the activity of honey bees.",
+      "location": "USGS — What is the role of native bees in the United States?"
+    }
+  ]
+}

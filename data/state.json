@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 13,
+  "lastEpisodeNumber": 14,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -52,6 +52,10 @@
     "topic:yildizlar-neden-parlar": {
       "id": "2026-11-12-yildizlar-neden-parlar",
       "episodeNumber": 13
+    },
+    "topic:arilar-neden-bu-kadar-onemli": {
+      "id": "2026-11-12-arilar-neden-bu-kadar-onemli",
+      "episodeNumber": 14
     }
   }
 }

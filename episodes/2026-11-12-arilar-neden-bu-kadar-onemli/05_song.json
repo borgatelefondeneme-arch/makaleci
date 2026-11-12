@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Çiçekten Çiçeğe",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Kovanda bir kraliçe, yumurtlar durur",
+          "start": 5.15,
+          "end": 9.23
+        },
+        {
+          "text": "İşçi arılar çiçek çiçek uçar",
+          "start": 9.23,
+          "end": 13.02
+        },
+        {
+          "text": "Nektar ve polen toplar gün boyu",
+          "start": 13.02,
+          "end": 16.52
+        },
+        {
+          "text": "Kışa bal saklar, koloni doyar",
+          "start": 16.52,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Vız vız vız, çiçekten çiçeğe!",
+          "start": 20.17,
+          "end": 23.05
+        },
+        {
+          "text": "Polen taşınır, tozlaşma olur",
+          "start": 23.05,
+          "end": 26.2
+        },
+        {
+          "text": "Meyveler, sebzeler arıya bağlı",
+          "start": 26.2,
+          "end": 29.61
+        },
+        {
+          "text": "Küçük kanatların işi çok büyük",
+          "start": 29.61,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Morötesi ışığı algılar gözleri",
+          "start": 33.18,
+          "end": 37.16
+        },
+        {
+          "text": "Çiçekli bitkilerin dostu onlar",
+          "start": 37.16,
+          "end": 40.61
+        },
+        {
+          "text": "Ama baskı altında bugün arılar",
+          "start": 40.61,
+          "end": 44.32
+        },
+        {
+          "text": "Farklı çiçekler ek, yardım et onlara",
+          "start": 44.32,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Vız vız vız, çiçekten çiçeğe!",
+          "start": 48.19,
+          "end": 51.4
+        },
+        {
+          "text": "Polen taşınır, tozlaşma olur",
+          "start": 51.4,
+          "end": 54.91
+        },
+        {
+          "text": "Uzaktan izle, dokunma sakın",
+          "start": 54.91,
+          "end": 58.42
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.42,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
