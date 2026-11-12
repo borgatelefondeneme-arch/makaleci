@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 15,
+  "lastEpisodeNumber": 16,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -60,6 +60,10 @@
     "topic:okyanusun-derinlerinde-ne-var": {
       "id": "2026-11-12-okyanusun-derinlerinde-ne-var",
       "episodeNumber": 15
+    },
+    "topic:yagmur-nasil-yagar": {
+      "id": "2026-11-12-yagmur-nasil-yagar",
+      "episodeNumber": 16
     }
   }
 }

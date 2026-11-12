@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Damlanın Yolculuğu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Güneş ısıtır, su buhar olur",
+          "start": 5.15,
+          "end": 8.87
+        },
+        {
+          "text": "Yapraklardan da buharlaşır",
+          "start": 8.87,
+          "end": 12.28
+        },
+        {
+          "text": "Yükselen hava soğur yukarıda",
+          "start": 12.28,
+          "end": 16.3
+        },
+        {
+          "text": "Buhar yoğuşur toz zerresinde",
+          "start": 16.3,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Buharlaş, yoğuş, yağ; döngü döner!",
+          "start": 20.17,
+          "end": 23.38
+        },
+        {
+          "text": "Milyonlarca damlacık birleşir",
+          "start": 23.38,
+          "end": 26.6
+        },
+        {
+          "text": "Büyüyen damla yere iner",
+          "start": 26.6,
+          "end": 29.54
+        },
+        {
+          "text": "Nehirden denize, yeniden başlar",
+          "start": 29.54,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Bulut tonlarca ama düşmez yere",
+          "start": 33.18,
+          "end": 37.04
+        },
+        {
+          "text": "Yükselen hava tutar onu",
+          "start": 37.04,
+          "end": 40.31
+        },
+        {
+          "text": "Damla yuvarlak, büyüğü yassı",
+          "start": 40.31,
+          "end": 43.88
+        },
+        {
+          "text": "Toprağa süzülür, akiferde akar",
+          "start": 43.88,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Buharlaş, yoğuş, yağ; döngü döner!",
+          "start": 48.19,
+          "end": 51.62
+        },
+        {
+          "text": "Milyonlarca damlacık birleşir",
+          "start": 51.62,
+          "end": 55.05
+        },
+        {
+          "text": "Tatlı su azdır, boşa harcama",
+          "start": 55.05,
+          "end": 58.48
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.48,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

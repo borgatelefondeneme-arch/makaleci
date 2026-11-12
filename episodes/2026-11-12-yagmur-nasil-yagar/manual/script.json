@@ -1,0 +1,542 @@
+{
+ "paperId": "topic:yagmur-nasil-yagar",
+ "episodeNumber": 16,
+ "videoTitle": "Yağmur nasıl yağar?",
+ "paperTitleTr": "Yağmur nasıl yağar?",
+ "theme": {
+  "backdrop": "storm",
+  "actors": [
+   {
+    "kind": "walk",
+    "emoji": "🐌",
+    "every": 34,
+    "size": 80
+   },
+   {
+    "kind": "fly",
+    "emoji": "🕊️",
+    "every": 22
+   },
+   {
+    "kind": "walk",
+    "emoji": "🦆",
+    "every": 27
+   },
+   {
+    "kind": "hop",
+    "emoji": "🐸",
+    "size": 84
+   }
+  ]
+ },
+ "takeaways": [
+  "Su buharlaşır, yoğuşur ve yağış olarak geri döner",
+  "Milyonlarca damlacık birleşince yağmur damlası düşer",
+  "Dünya'daki suyun çok azı tatlı sudur"
+ ],
+ "description": "Su gökyüzüne nasıl çıkar, bulut düşmezken yağmur neden düşer? Bu bölümde su döngüsünü; buharlaşmayı, terlemeyi, süblimleşmeyi ve yoğuşmayı; bulutların nasıl oluştuğunu, damlacıkların nasıl yağmur damlasına dönüştüğünü ve damlanın gerçek biçimini keşfediyoruz. Yere düşen su nereye gider, Dünya'daki suyun ne kadarı tatlı sudur? Sonunda kâsede su döngüsü deneyi ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Su döngüsü",
+   "meaning": "Suyun yeryüzü, gökyüzü ve yer altı arasındaki bitmeyen yolculuğu."
+  },
+  {
+   "term": "Buharlaşma",
+   "meaning": "Sıvı suyun gaz hâline, yani su buharına dönüşmesi."
+  },
+  {
+   "term": "Terleme",
+   "meaning": "Suyun bitkilerin yapraklarından buharlaşması."
+  },
+  {
+   "term": "Süblimleşme",
+   "meaning": "Buzun ya da karın sıvılaşmadan doğrudan buhara dönüşmesi."
+  },
+  {
+   "term": "Yoğuşma",
+   "meaning": "Su buharının soğuyup minik su damlacıklarına dönüşmesi."
+  },
+  {
+   "term": "Yağış",
+   "meaning": "Bulutlardan yağmur, kar, dolu ya da sulu kar olarak düşen su."
+  },
+  {
+   "term": "Yeraltı suyu",
+   "meaning": "Toprağa süzülüp yer altında biriken su."
+  },
+  {
+   "term": "Akifer",
+   "meaning": "Yeraltı suyunu tutan ve ileten yer altı katmanı."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "hop",
+    "emoji": "💧"
+   },
+   {
+    "kind": "hop",
+    "emoji": "☔"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🐸"
+   },
+   {
+    "kind": "hop",
+    "emoji": "💧"
+   },
+   {
+    "kind": "fly",
+    "emoji": "🕊️",
+    "every": 9
+   },
+   {
+    "kind": "walk",
+    "emoji": "🦆",
+    "every": 11
+   }
+  ],
+  "title": "Damlanın Yolculuğu",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "💧",
+    "name": "Damla"
+   },
+   {
+    "emoji": "☀️",
+    "name": "Güneş"
+   },
+   {
+    "emoji": "☁️",
+    "name": "Bulut"
+   },
+   {
+    "emoji": "🌧️",
+    "name": "Yağış"
+   },
+   {
+    "emoji": "🌊",
+    "name": "Okyanus"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Güneş ısıtır, su buhar olur",
+     "Yapraklardan da buharlaşır",
+     "Yükselen hava soğur yukarıda",
+     "Buhar yoğuşur toz zerresinde"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Buharlaş, yoğuş, yağ; döngü döner!",
+     "Milyonlarca damlacık birleşir",
+     "Büyüyen damla yere iner",
+     "Nehirden denize, yeniden başlar"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Bulut tonlarca ama düşmez yere",
+     "Yükselen hava tutar onu",
+     "Damla yuvarlak, büyüğü yassı",
+     "Toprağa süzülür, akiferde akar"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Buharlaş, yoğuş, yağ; döngü döner!",
+     "Milyonlarca damlacık birleşir",
+     "Tatlı su azdır, boşa harcama",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Başına düşen bir yağmur damlası, kısa süre önce bir okyanusun yüzeyinde olabilirdi!",
+     "spoken": "Başına düşen bir yağmur damlası, kısa süre önce bir okyanusun yüzeyinde olabilirdi!",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Su gökyüzüne nasıl çıkıyor? Ve bulut düşmezken yağmur neden düşüyor?",
+     "spoken": "Su gökyüzüne nasıl çıkıyor? Ve bulut düşmezken yağmur neden düşüyor?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün bir su damlasının peşine takılıyoruz!",
+     "spoken": "Bugün bir su damlasının peşine takılıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Su gökyüzüne nasıl çıkar? Bulut nasıl oluşur? Ve yağmur damlası nasıl düşer?",
+     "spoken": "Üç sorumuz var. Su gökyüzüne nasıl çıkar? Bulut nasıl oluşur? Ve yağmur damlası nasıl düşer?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "ABD Jeoloji Araştırmaları Kurumu USGS'ye göre su hiçbir zaman yerinde durmaz. Suyun Dünya'daki bu bitmeyen yolculuğuna su döngüsü denir.",
+     "spoken": "A Be De Jeoloji Araştırmaları Kurumu, Yu Es Ci Es'e göre su hiçbir zaman yerinde durmaz. Suyun Dünya'daki bu bitmeyen yolculuğuna su döngüsü denir.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Bu yolculuğun iki motoru var: Güneş'in enerjisi ve kütle çekimi.",
+     "spoken": "Bu yolculuğun iki motoru var: Güneş'in enerjisi ve kütle çekimi.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "İlk adım buharlaşma: sıvı su, su buharı denen gaza dönüşür.",
+     "spoken": "İlk adım buharlaşma: sıvı su, su buharı denen gaza dönüşür.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Atmosferdeki nemin yaklaşık %90'ı okyanuslardan, denizlerden, göllerden ve nehirlerden buharlaşan sudan gelir.",
+     "spoken": "Atmosferdeki nemin yaklaşık yüzde doksanı okyanuslardan, denizlerden, göllerden ve nehirlerden buharlaşan sudan gelir.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Gerisinin çoğu bitkilerden gelir: su, yapraklardan buharlaşır. Buna terleme denir.",
+     "spoken": "Gerisinin çoğu bitkilerden gelir: su, yapraklardan buharlaşır. Buna terleme denir.",
+     "factIds": [
+      "f2",
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "Buz ve kar da sıvılaşmadan doğrudan buhara dönüşebilir. Bunun adı süblimleşme.",
+     "spoken": "Buz ve kar da sıvılaşmadan doğrudan buhara dönüşebilir. Bunun adı süblimleşme.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "İkinci adım yoğuşma. Su buharı taşıyan hava yükselir ve soğur.",
+     "spoken": "İkinci adım yoğuşma. Su buharı taşıyan hava yükselir ve soğur.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Su buharı, havadaki minik toz, tuz ve duman parçacıklarının üstünde minicik damlacıklara dönüşür. İşte bulut!",
+     "spoken": "Su buharı, havadaki minik toz, tuz ve duman parçacıklarının üstünde minicik damlacıklara dönüşür. İşte bulut!",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Yani her bulutun içinde biraz toz var. Temizlik robotu kuzenim bunu duymasın!",
+     "spoken": "Yani her bulutun içinde biraz toz var. Temizlik robotu kuzenim bunu duymasın!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l15",
+     "display": "Peki bulut neden düşmez? USGS'ye göre bir bulut tonlarca ağırlıkta olabilir. Ama onu oluşturan yükselen hava, bulutu havada tutar.",
+     "spoken": "Peki bulut neden düşmez? Yu Es Ci Es'e göre bir bulut tonlarca ağırlıkta olabilir. Ama onu oluşturan yükselen hava, bulutu havada tutar.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Bulut damlacıkları da yağış olarak düşemeyecek kadar küçüktür.",
+     "spoken": "Bulut damlacıkları da yağış olarak düşemeyecek kadar küçüktür.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Yağmur için damlacıkların çarpışıp birleşmesi gerekir. Tek bir yağmur damlası için milyonlarca bulut damlacığı gerekir!",
+     "spoken": "Yağmur için damlacıkların çarpışıp birleşmesi gerekir. Tek bir yağmur damlası için milyonlarca bulut damlacığı gerekir!",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Damla yeterince büyüyünce, yükselen havayı yenip düşmeye başlar. Üçüncü adım: yağış.",
+     "spoken": "Damla yeterince büyüyünce, yükselen havayı yenip düşmeye başlar. Üçüncü adım: yağış.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Yağış yalnızca yağmur değildir: kar, dolu ve sulu kar da birer yağıştır.",
+     "spoken": "Yağış yalnızca yağmur değildir: kar, dolu ve sulu kar da birer yağıştır.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Bir sürpriz: yağmur damlası gözyaşı biçiminde değildir! Yarıçapı 1 milimetreden küçük damlalar top gibi yuvarlaktır.",
+     "spoken": "Bir sürpriz: yağmur damlası gözyaşı biçiminde değildir! Yarıçapı bir milimetreden küçük damlalar top gibi yuvarlaktır.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Çapı 2–3 milimetre olanların ise altı düzleşir; tıpkı bir hamburger ekmeği gibi.",
+     "spoken": "Çapı iki üç milimetre olanların ise altı düzleşir; tıpkı bir hamburger ekmeği gibi.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Gökten hamburger ekmeği yağıyor! Buna acıkmayan tek kişi ben olabilirim.",
+     "spoken": "Gökten hamburger ekmeği yağıyor! Buna acıkmayan tek kişi ben olabilirim.",
+     "factIds": []
+    },
+    {
+     "id": "l23",
+     "display": "Yere düşen su ne olur? Bir kısmı nehirlerle akar, bir kısmı toprağa süzülür ve yeraltı suyu olur.",
+     "spoken": "Yere düşen su ne olur? Bir kısmı nehirlerle akar, bir kısmı toprağa süzülür ve yeraltı suyu olur.",
+     "factIds": [
+      "f9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l24",
+     "display": "Yeraltı suyu, akifer denen yer altı katmanlarında akar; kaynaklardan, nehirlerden ya da doğrudan okyanusa geri döner.",
+     "spoken": "Yeraltı suyu, akifer denen yer altı katmanlarında akar; kaynaklardan, nehirlerden ya da doğrudan okyanusa geri döner.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Sonra her şey yeniden başlar: buharlaşma, yoğuşma, yağış.",
+     "spoken": "Sonra her şey yeniden başlar: buharlaşma, yoğuşma, yağış.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Bir su molekülü buharlaştıktan sonra havada yaklaşık 10 gün kalır.",
+     "spoken": "Bir su molekülü buharlaştıktan sonra havada yaklaşık on gün kalır.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "National Geographic'e göre bu döngü yaklaşık 3,8 milyar yıl önce başladı: soğuyan Dünya'ya yağmurlar yağdı ve okyanuslar oluştu.",
+     "spoken": "Neşınıl Ciyografik'e göre bu döngü yaklaşık üç virgül sekiz milyar yıl önce başladı: soğuyan Dünya'ya yağmurlar yağdı ve okyanuslar oluştu.",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Dünya'daki suyun yaklaşık %97'si okyanuslardadır. Tatlı su, toplamın yalnızca %2,5'i kadardır.",
+     "spoken": "Dünya'daki suyun yaklaşık yüzde doksan yedisi okyanuslardadır. Tatlı su, toplamın yalnızca yüzde iki buçuğu kadardır.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Üstelik tatlı suyun yaklaşık %68'i donmuş hâldedir; yaklaşık %30'u da yer altındadır.",
+     "spoken": "Üstelik tatlı suyun yaklaşık yüzde altmış sekizi donmuş hâldedir; yaklaşık yüzde otuzu da yer altındadır.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "NOAA'ya göre su yaşam için vazgeçilmezdir; ama döngünün her aşamasında insanların kullanımına uygun değildir. Bu yüzden suyu boşa harcamamak gerekir.",
+     "spoken": "Noa'ya göre su yaşam için vazgeçilmezdir; ama döngünün her aşamasında insanların kullanımına uygun değildir. Bu yüzden suyu boşa harcamamak gerekir.",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Ben bu konuda örnek bir vatandaşım: yıkanmam, silinirim!",
+     "spoken": "Ben bu konuda örnek bir vatandaşım: yıkanmam, silinirim!",
+     "factIds": []
+    },
+    {
+     "id": "l32",
+     "display": "Şimdi sıra sende! Bir kâseye biraz ılık su koy, üstünü streç filmle kapat ve güneşli bir pencerenin önüne bırak.",
+     "spoken": "Şimdi sıra sende! Bir kâseye biraz ılık su koy, üstünü streç filmle kapat ve güneşli bir pencerenin önüne bırak.",
+     "factIds": []
+    },
+    {
+     "id": "l33",
+     "display": "Bir süre sonra filmin altında damlacıklar görürsün: buharlaşma ve yoğuşma, kâsenin içinde!",
+     "spoken": "Bir süre sonra filmin altında damlacıklar görürsün: buharlaşma ve yoğuşma, kâsenin içinde!",
+     "factIds": [
+      "f2",
+      "f4"
+     ]
+    },
+    {
+     "id": "l34",
+     "display": "Sıcak su kullanmak istersen mutlaka bir büyüğünden yardım iste.",
+     "spoken": "Sıcak su kullanmak istersen mutlaka bir büyüğünden yardım iste.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l35",
+     "display": "Bunu biliyor muydun? Atmosferde su buharı olarak bulunan su, Dünya'daki bütün suyun yalnızca %0,001'i kadardır.",
+     "spoken": "Bunu biliyor muydun? Atmosferde su buharı olarak bulunan su, Dünya'daki bütün suyun yalnızca yüz binde biri kadardır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l36",
+     "display": "Hızlı soru! Su buharının soğuyup minik damlacıklara dönüşmesine ne denir?",
+     "spoken": "Hızlı soru! Su buharının soğuyup minik damlacıklara dönüşmesine ne denir?",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l37",
+     "display": "Düşün bakalım... Evet: yoğuşma!",
+     "spoken": "Düşün bakalım... Evet: yoğuşma!",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l38",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l39",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l40",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l41",
+     "display": "Abone olmayı ve zili açmayı unutma. Ben de şemsiyemi alıp gidiyorum; ıslanmak bana göre değil!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Ben de şemsiyemi alıp gidiyorum; ıslanmak bana göre değil!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}
