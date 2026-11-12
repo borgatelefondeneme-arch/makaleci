@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 19,
+  "lastEpisodeNumber": 20,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -76,6 +76,10 @@
     "topic:tirtil-nasil-kelebek-olur": {
       "id": "2026-11-12-tirtil-nasil-kelebek-olur",
       "episodeNumber": 19
+    },
+    "topic:ucaklar-nasil-ucar": {
+      "id": "2026-11-12-ucaklar-nasil-ucar",
+      "episodeNumber": 20
     }
   }
 }

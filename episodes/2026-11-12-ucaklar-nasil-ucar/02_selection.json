@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:ucaklar-nasil-ucar",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:ucaklar-nasil-ucar",
+    "title": "Uçaklar nasıl uçar?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-12",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-12T20:37:11.314Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-12T20:37:11.317Z",
+  "decidedAt": "2026-11-12T20:37:11.317Z"
+}

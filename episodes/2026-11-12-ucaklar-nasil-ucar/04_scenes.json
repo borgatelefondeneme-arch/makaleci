@@ -1,0 +1,689 @@
+{
+  "paperId": "topic:ucaklar-nasil-ucar",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Uçaklar nasıl uçar?",
+        "emoji": "✈️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f16"
+      ],
+      "stickers": [
+        "☁️",
+        "🛫",
+        "🌤️",
+        "🪁"
+      ],
+      "keywords": [
+        "",
+        "HAVA NASIL TAŞIR?",
+        "KANADA BİN! ✈️"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Uçağa hangi kuvvetler etki eder?",
+          "Kanat uçağı nasıl kaldırır?",
+          "Uçak nasıl ilerler ve yön değiştirir?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "🔎",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Dört kuvvet",
+        "emoji": "✈️",
+        "chips": [
+          {
+            "label": "Ağırlık: aşağı",
+            "emoji": "⬇️"
+          },
+          {
+            "label": "Kaldırma: yukarı",
+            "emoji": "⬆️"
+          },
+          {
+            "label": "Sürükleme: geri",
+            "emoji": "⬅️"
+          },
+          {
+            "label": "İtme: ileri",
+            "emoji": "➡️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "stickers": [
+        "🧭",
+        "☁️"
+      ],
+      "keywords": [
+        "DÖRT KUVVET",
+        "AĞIRLIK ⬇️",
+        "KALDIRMA ⬆️"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Geri ve ileri",
+        "left": {
+          "title": "Sürükleme ⬅️",
+          "items": [
+            "Hava ilerlemeye direnir"
+          ]
+        },
+        "right": {
+          "title": "İtme ➡️",
+          "items": [
+            "Motorlar üretir",
+            "Sürüklemeyi yener"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4"
+      ],
+      "stickers": [
+        "💨",
+        "🔥"
+      ],
+      "keywords": [
+        "SÜRÜKLEME",
+        "İTME ➡️"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l11",
+        "l12"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Kuvvet dengesi",
+        "label": "Hız",
+        "emoji": "✈️",
+        "phases": [
+          {
+            "label": "Dengede: sabit hız",
+            "level": 0.5,
+            "emoji": "⚖️"
+          },
+          {
+            "label": "Tembellik kuvveti: koltuğa! 🛋️",
+            "level": 0.1,
+            "emoji": "🤖"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "⚖️",
+        "🛋️"
+      ],
+      "keywords": [
+        "DENGE ⚖️",
+        "TEMBELLİK 😅"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l13",
+        "l14",
+        "l15"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Kaldırma nasıl oluşur?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Hava akar",
+            "emoji": "💨"
+          },
+          {
+            "label": "Kanat akışı aşağı döndürür",
+            "emoji": "↘️"
+          },
+          {
+            "label": "Hava kanadı yukarı iter",
+            "emoji": "⬆️"
+          },
+          {
+            "label": "Etki-tepki yasası",
+            "emoji": "🔁"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "✈️",
+        "☁️"
+      ],
+      "keywords": [
+        "KALDIRMA",
+        "ETKİ-TEPKİ 🔁",
+        "BASINÇ FARKI"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l16"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Dikkat: yanlış açıklamalar",
+        "left": {
+          "title": "Yanlış ❌",
+          "items": [
+            "Üst yüzeyin payını yok saymak"
+          ]
+        },
+        "right": {
+          "title": "Doğru ✅",
+          "items": [
+            "Üst ve alt yüzey birlikte havayı döndürür"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "⚠️",
+        "📚"
+      ],
+      "keywords": [
+        "YANILTICI AÇIKLAMALAR ⚠️"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kaldırmanın şartları",
+        "emoji": "⬆️",
+        "chips": [
+          {
+            "label": "Hareket: hız farkı",
+            "emoji": "🏃"
+          },
+          {
+            "label": "Hava: akışkan yoksa kaldırma yok",
+            "emoji": "💨"
+          },
+          {
+            "label": "Biçim, boyut, hız",
+            "emoji": "📐"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f7"
+      ],
+      "stickers": [
+        "✈️",
+        "🌬️"
+      ],
+      "keywords": [
+        "HAREKET ŞART",
+        "BİÇİM + BOYUT + HIZ"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sürükleme",
+        "items": [
+          "Uçağın biçimine bağlıdır",
+          "Pürüzsüz yüzey daha az sürtünür"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "🧴",
+        "✨"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "BİÇİM SÜRÜKLEMESİ",
+        "CİLALI MUMA ✨"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "İtme",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Motor",
+            "emoji": "⚙️"
+          },
+          {
+            "label": "Sıcak gaz arkadan çıkar",
+            "emoji": "🔥"
+          },
+          {
+            "label": "Uçak öne itilir",
+            "emoji": "➡️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f11"
+      ],
+      "stickers": [
+        "🚀",
+        "🌀"
+      ],
+      "keywords": [
+        "PERVANE • JET • ROKET",
+        "ETKİ-TEPKİ YİNE 🔁"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Uçağı yönlendirmek",
+        "emoji": "🕹️",
+        "chips": [
+          {
+            "label": "Ağırlık merkezi çevresinde döner",
+            "emoji": "🎯"
+          },
+          {
+            "label": "Yalpa",
+            "emoji": "↩️"
+          },
+          {
+            "label": "Yunuslama",
+            "emoji": "↕️"
+          },
+          {
+            "label": "Sapma",
+            "emoji": "↔️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2",
+        "f12"
+      ],
+      "stickers": [
+        "✈️",
+        "🧑‍✈️"
+      ],
+      "keywords": [
+        "AĞIRLIK MERKEZİ",
+        "YALPA • YUNUSLAMA • SAPMA"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "12",
+        "unit": "saniye",
+        "label": "İlk motorlu uçuş: 36 metre",
+        "sub": "17 Aralık 1903 • Kitty Hawk • Pilot: Orville Wright",
+        "icon": "🛩️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "📜",
+        "🏖️"
+      ],
+      "keywords": [
+        "WRIGHT KARDEŞLER",
+        "12 SANİYE",
+        "EN İYİSİ: 59 SANİYE"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l28"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Wright kardeşlerin fikirleri",
+        "left": {
+          "title": "Pervane 🌀",
+          "items": [
+            "Dönen kanat gibi"
+          ]
+        },
+        "right": {
+          "title": "Yönlendirme ↩️",
+          "items": [
+            "Kanat uçlarını ters yönlere bükmek"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f14"
+      ],
+      "stickers": [
+        "🛩️",
+        "💡"
+      ],
+      "keywords": [
+        "DÖNEN KANAT 🌀"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "importance",
+      "lineIds": [
+        "l29",
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: kâğıt uçak yarışı 🔬",
+        "items": [
+          "Dar kanatlı, geniş kanatlı, uçları bükülmüş",
+          "Aynı güçle at",
+          "Uçuş uzaklığını ölç",
+          "İnsanlara doğru atma ⚠️"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f15"
+      ],
+      "stickers": [
+        "📄",
+        "📏"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "ÖLÇ VE KARŞILAŞTIR",
+        "GÜVENLİK ⚠️"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "limitations",
+      "lineIds": [
+        "l32"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kolay değildi",
+        "emoji": "🛩️",
+        "chips": [
+          {
+            "label": "Verimli kanat biçimi aradılar",
+            "emoji": "📐"
+          },
+          {
+            "label": "Çok uğraştılar",
+            "emoji": "🔧"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f14"
+      ],
+      "stickers": [
+        "💡",
+        "📚"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "limitations",
+      "lineIds": [
+        "l33",
+        "l34"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Uçağı kaldıran kuvvetin adı ne?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "✈️",
+        "⬆️"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "KALDIRMA ✅"
+      ]
+    },
+    {
+      "id": "s17",
+      "section": "limitations",
+      "lineIds": [
+        "l35"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s18",
+      "section": "summary",
+      "lineIds": [
+        "l36",
+        "l37",
+        "l38"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}
