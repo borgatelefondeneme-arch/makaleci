@@ -12,3 +12,5 @@ episodes/*/out/frames*/
 episodes/*/01_fulltext.txt
 .cache/
 episodes/*/out/check.jpg
+episodes/*/out/fq/
+episodes/*/out/fq2/
