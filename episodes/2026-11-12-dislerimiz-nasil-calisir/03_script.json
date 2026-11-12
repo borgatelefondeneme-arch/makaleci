@@ -1,0 +1,528 @@
+{
+  "paperId": "topic:dislerimiz-nasil-calisir",
+  "episodeNumber": 17,
+  "videoTitle": "Dişlerimiz nasıl çalışır?",
+  "paperTitleTr": "Dişlerimiz nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Ağzının içinde, vücudunun en sert maddesiyle kaplı bir alet takımı var!",
+          "spoken": "Ağzının içinde, vücudunun en sert maddesiyle kaplı bir alet takımı var!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Dişlerin nasıl bu kadar güçlü? Ve küçük bir şeker parçası onlara nasıl zarar verebilir?",
+          "spoken": "Dişlerin nasıl bu kadar güçlü? Ve küçük bir şeker parçası onlara nasıl zarar verebilir?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün ağzının içine bir keşif yapıyoruz!",
+          "spoken": "Bugün ağzının içine bir keşif yapıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Bir diş neyden yapılır? Hangi diş ne iş yapar? Ve çürük nasıl başlar?",
+          "spoken": "Üç sorumuz var. Bir diş neyden yapılır? Hangi diş ne iş yapar? Ve çürük nasıl başlar?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "KidsHealth'e göre ilk diş takımımız 20 süt dişinden oluşur. Onların yerini 32 kalıcı diş alır.",
+          "spoken": "Kids Helt'e göre ilk diş takımımız yirmi süt dişinden oluşur. Onların yerini otuz iki kalıcı diş alır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Süt dişleri daha doğmadan gelişmeye başlar ve yaklaşık 6 yaşında düşmeye başlar.",
+          "spoken": "Süt dişleri daha doğmadan gelişmeye başlar ve yaklaşık altı yaşında düşmeye başlar.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Benim dişim yok. Ama vidalarım da hiç düşmedi, o da bir başarı!",
+          "spoken": "Benim dişim yok. Ama vidalarım da hiç düşmedi, o da bir başarı!",
+          "factIds": []
+        },
+        {
+          "id": "l9",
+          "display": "Bir diş dört dokudan yapılır: mine, dentin, öz ve sement.",
+          "spoken": "Bir diş dört dokudan yapılır: mine, dentin, öz ve sement.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "En dışta mine vardır. Mine, vücudunun en sert dokusudur ve dişin görünen kısmı olan kronu örter.",
+          "spoken": "En dışta mine vardır. Mine, vücudunun en sert dokusudur ve dişin görünen kısmı olan kronu örter.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Minenin altında dentin bulunur: sarımsı, kemik kadar sert bir madde. Dişin büyük bölümünü o oluşturur.",
+          "spoken": "Minenin altında dentin bulunur: sarımsı, kemik kadar sert bir madde. Dişin büyük bölümünü o oluşturur.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "En içte öz, yani pulpa vardır. Sinirler ve kan damarları buradadır; dişin sıcağı soğuğu hissetmesi buradan gelir.",
+          "spoken": "En içte öz, yani pulpa vardır. Sinirler ve kan damarları buradadır; dişin sıcağı soğuğu hissetmesi buradan gelir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Kökün dışını ise sement örter. Diş etinin altında kalır ve dişi çene kemiğinde sıkıca tutar.",
+          "spoken": "Kökün dışını ise sement örter. Diş etinin altında kalır ve dişi çene kemiğinde sıkıca tutar.",
+          "factIds": [
+            "f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Peki hangi diş ne iş yapar? Öndeki keskin kenarlı dişlere kesici denir: ısırdığımızda besini keserler.",
+          "spoken": "Peki hangi diş ne iş yapar? Öndeki keskin kenarlı dişlere kesici denir: ısırdığımızda besini keserler.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Yanlarında sivri köpek dişleri durur.",
+          "spoken": "Yanlarında sivri köpek dişleri durur.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Arkada küçük azılar besini öğütüp ezer. En arkadaki azı dişleri ise girintili çıkıntılı yüzeyleriyle güçlü çiğnemeyi sağlar.",
+          "spoken": "Arkada küçük azılar besini öğütüp ezer. En arkadaki azı dişleri ise girintili çıkıntılı yüzeyleriyle güçlü çiğnemeyi sağlar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Yani ağzında bir makas, bir öğütücü ve bir değirmen var. Mutfak robotu gibisin!",
+          "spoken": "Yani ağzında bir makas, bir öğütücü ve bir değirmen var. Mutfak robotu gibisin!",
+          "factIds": [
+            "f3",
+            "f9"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "İlk kalıcı azılar 5–7 yaş arasında çıkar; bunlara 6 yaş dişleri denir.",
+          "spoken": "İlk kalıcı azılar beş ile yedi yaş arasında çıkar; bunlara altı yaş dişleri denir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "İkinci kalıcı azılar 11–14 yaş arasında gelir; bunlar da 12 yaş dişleri. Üçüncü azılar ise yirmi yaş dişleridir.",
+          "spoken": "İkinci kalıcı azılar on bir ile on dört yaş arasında gelir; bunlar da on iki yaş dişleri. Üçüncü azılar ise yirmi yaş dişleridir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Dişler yalnızca yemek için değil: düzgün konuşmak için de onlara ihtiyacımız var.",
+          "spoken": "Dişler yalnızca yemek için değil: düzgün konuşmak için de onlara ihtiyacımız var.",
+          "factIds": [
+            "f3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l21",
+          "display": "Şimdi çürüğe gelelim. Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre ağzımızda yüzlerce farklı türde bakteri yaşar.",
+          "spoken": "Şimdi çürüğe gelelim. Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'ye göre ağzımızda yüzlerce farklı türde bakteri yaşar.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Bazı bakteriler dişlerin üstünde plak denen yapışkan, renksiz bir tabaka oluşturur.",
+          "spoken": "Bazı bakteriler dişlerin üstünde plak denen yapışkan, renksiz bir tabaka oluşturur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bu bakteriler besinlerdeki şekeri kullanarak asit üretir. Asit de minenin sert yüzeyini aşındırmaya başlar.",
+          "spoken": "Bu bakteriler besinlerdeki şekeri kullanarak asit üretir. Asit de minenin sert yüzeyini aşındırmaya başlar.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Asit saldırıları tekrarlandıkça mine mineral kaybeder.",
+          "spoken": "Asit saldırıları tekrarlandıkça mine mineral kaybeder.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "NIH bunu şöyle anlatıyor: gün boyunca ağzımızda bir halat çekme yarışı sürer.",
+          "spoken": "En Ay Eyç bunu şöyle anlatıyor: gün boyunca ağzımızda bir halat çekme yarışı sürer.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Bir tarafta şeker ve bakteriler. Öbür tarafta tükürük ve florür: mine, tükürükteki mineralleri ve diş macunundaki florürü kullanarak kendini onarabilir.",
+          "spoken": "Bir tarafta şeker ve bakteriler. Öbür tarafta tükürük ve florür: mine, tükürükteki mineralleri ve diş macunundaki florürü kullanarak kendini onarabilir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Erken aşamada çürük durdurulabilir, hatta geri döndürülebilir.",
+          "spoken": "Erken aşamada çürük durdurulabilir, hatta geri döndürülebilir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Ama bakteriler kazanırsa dişte oyuk oluşur. Bu kalıcı bir hasardır ve dişçinin dolguyla onarması gerekir.",
+          "spoken": "Ama bakteriler kazanırsa dişte oyuk oluşur. Bu kalıcı bir hasardır ve dişçinin dolguyla onarması gerekir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Halat çekmede hangi tarafı tuttuğunu biliyorsun, değil mi?",
+          "spoken": "Halat çekmede hangi tarafı tuttuğunu biliyorsun, değil mi?",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Kazanmanın yolu basit: dişlerini günde iki kez, yaklaşık 2 dakika florürlü macunla fırçala. Dişlerinin arasını da günde bir kez diş ipiyle temizle.",
+          "spoken": "Kazanmanın yolu basit: dişlerini günde iki kez, yaklaşık iki dakika florürlü macunla fırçala. Dişlerinin arasını da günde bir kez diş ipiyle temizle.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Şekerli içecekleri ve yapışkan atıştırmalıkları sınırla; dişçine de düzenli git.",
+          "spoken": "Şekerli içecekleri ve yapışkan atıştırmalıkları sınırla; dişçine de düzenli git.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi sıra sende! İki dakikalık bir şarkı seç ve dişlerini şarkı bitene kadar fırçala. Sonra aynada azı dişlerinin girintili yüzeyine bak.",
+          "spoken": "Şimdi sıra sende! İki dakikalık bir şarkı seç ve dişlerini şarkı bitene kadar fırçala. Sonra aynada azı dişlerinin girintili yüzeyine bak.",
+          "factIds": [
+            "f15",
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "Bunu biliyor muydun? Çocuklarda ve gençlerde çürüklerin çoğu arkadaki azı dişlerinde gelişir. Dişçiler bu dişlerin yüzeyini ince bir plastik kaplamayla koruyabilir.",
+          "spoken": "Bunu biliyor muydun? Çocuklarda ve gençlerde çürüklerin çoğu arkadaki azı dişlerinde gelişir. Dişçiler bu dişlerin yüzeyini ince bir plastik kaplamayla koruyabilir.",
+          "factIds": [
+            "f17"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Bir de şu: uyurken tükürük akışı azalır. Bu yüzden yatmadan önce fırçalamak çok önemli!",
+          "spoken": "Bir de şu: uyurken tükürük akışı azalır. Bu yüzden yatmadan önce fırçalamak çok önemli!",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Hızlı soru! Vücudun en sert dokusu hangisidir?",
+          "spoken": "Hızlı soru! Vücudun en sert dokusu hangisidir?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Düşün bakalım... Evet: diş minesi!",
+          "spoken": "Düşün bakalım... Evet: diş minesi!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l37",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l38",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l39",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l40",
+          "display": "Abone olmayı ve zili açmayı unutma. Bu akşam fırçalamayı da!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bu akşam fırçalamayı da!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Diş; mine, dentin, öz ve sementten oluşur",
+    "Kesici keser, köpek dişi yırtar, azılar öğütür",
+    "Şeker ve bakteriler asit yapar; fırçalama ve florür korur"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "mouth",
+    "actors": [
+      {
+        "kind": "chase",
+        "emoji": "🪥",
+        "emoji2": "🦠",
+        "size": 110,
+        "every": 16
+      },
+      {
+        "kind": "swarm",
+        "emoji": "🫧",
+        "size": 70
+      }
+    ]
+  },
+  "song": {
+    "title": "Gülüşün Kalkanı",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🦷",
+        "name": "Diş"
+      },
+      {
+        "emoji": "💎",
+        "name": "Mine"
+      },
+      {
+        "emoji": "🦠",
+        "name": "Bakteri"
+      },
+      {
+        "emoji": "🪥",
+        "name": "Fırça"
+      },
+      {
+        "emoji": "🧵",
+        "name": "Diş ipi"
+      }
+    ],
+    "show": [
+      {
+        "kind": "chase",
+        "emoji": "🪥",
+        "emoji2": "🦠",
+        "size": 240,
+        "every": 7
+      },
+      {
+        "kind": "hop",
+        "emoji": "🦷"
+      },
+      {
+        "kind": "hop",
+        "emoji": "😁"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🦷"
+      },
+      {
+        "kind": "swarm",
+        "emoji": "🫧"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "En dışta mine, en sert doku",
+          "Altında dentin, kemik kadar sağlam",
+          "İçinde öz, sinirler orada",
+          "Sement tutar kökü çenede"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fırçala, fırçala; günde iki kez!",
+          "Florürle mine kendini onarır",
+          "Şeker gelir, bakteri asit yapar",
+          "Halat çekmede sen kazanırsın!"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Kesici keser, köpek dişi sivri",
+          "Azılar öğütür, çiğner her lokmayı",
+          "Süt dişleri gider, kalıcılar gelir",
+          "Bir ömür boyu seninle kalır"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fırçala, fırçala; günde iki kez!",
+          "Florürle mine kendini onarır",
+          "Yatmadan önce unutma sakın",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Ağzındaki alet takımı nasıl çalışır? Bu bölümde süt dişlerini ve kalıcı dişleri; minenin vücudun en sert dokusu olduğunu, dentini, özü ve sementi; kesici, köpek ve azı dişlerinin görevlerini keşfediyoruz. Çürük nasıl başlar, ağızdaki halat çekme yarışını nasıl kazanırız? Sonunda şarkılı fırçalama etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Mine",
+      "meaning": "Dişin en dış katmanı; vücudun en sert dokusu."
+    },
+    {
+      "term": "Dentin",
+      "meaning": "Minenin altındaki, kemik kadar sert sarımsı doku."
+    },
+    {
+      "term": "Öz (pulpa)",
+      "meaning": "Dişin en iç kısmı; sinirler ve kan damarları burada bulunur."
+    },
+    {
+      "term": "Sement",
+      "meaning": "Kökü örten ve dişi çene kemiğinde tutan doku."
+    },
+    {
+      "term": "Kron",
+      "meaning": "Dişin diş etinin üstünde görünen kısmı."
+    },
+    {
+      "term": "Plak",
+      "meaning": "Dişlerin üstünde biriken, bakterilerden oluşan yapışkan tabaka."
+    },
+    {
+      "term": "Florür",
+      "meaning": "Mineyi güçlendiren ve çürüğü önlemeye yardım eden mineral."
+    },
+    {
+      "term": "Oyuk (kavite)",
+      "meaning": "Çürüğün dişte açtığı kalıcı delik."
+    }
+  ]
+}

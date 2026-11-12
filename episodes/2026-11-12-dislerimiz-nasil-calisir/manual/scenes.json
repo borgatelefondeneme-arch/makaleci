@@ -1,0 +1,762 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Dişlerimiz nasıl çalışır?",
+    "emoji": "🦷"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🪥",
+    "😁",
+    "🍎",
+    "✨"
+   ],
+   "keywords": [
+    "",
+    "EN SERT DOKU!",
+    "AĞZININ İÇİNE!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Bir diş neyden yapılır?",
+     "Hangi diş ne iş yapar?",
+     "Çürük nasıl başlar?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İki diş takımı",
+    "left": {
+     "title": "Süt dişleri 🍼",
+     "items": [
+      "20 diş",
+      "Doğumdan önce gelişir",
+      "Yaklaşık 6 yaşında düşmeye başlar"
+     ]
+    },
+    "right": {
+     "title": "Kalıcı dişler 🦷",
+     "items": [
+      "32 diş"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🦷",
+    "🔩"
+   ],
+   "keywords": [
+    "20 SÜT DİŞİ",
+    "32 KALICI DİŞ",
+    "VİDALARIM SAĞLAM 🔩"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Dört doku",
+    "emoji": "🦷",
+    "chips": [
+     {
+      "label": "Mine",
+      "emoji": "💎"
+     },
+     {
+      "label": "Dentin",
+      "emoji": "🟡"
+     },
+     {
+      "label": "Öz (pulpa)",
+      "emoji": "❤️"
+     },
+     {
+      "label": "Sement",
+      "emoji": "🧱"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🔬",
+    "✨"
+   ],
+   "keywords": [
+    "DÖRT DOKU"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l10",
+    "l11",
+    "l12"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Dışarıdan içeriye bir diş",
+    "rows": [
+     {
+      "label": "Mine: en sert doku",
+      "emoji": "💎"
+     },
+     {
+      "label": "Dentin: kemik kadar sert",
+      "emoji": "🟡"
+     },
+     {
+      "label": "Öz: sinirler ve damarlar",
+      "emoji": "❤️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1,
+     2,
+     2,
+     2
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6",
+    "f7"
+   ],
+   "keywords": [
+    "MİNE 💎",
+    "DENTİN",
+    "ÖZ: SİNİRLER ❤️"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l13"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sement",
+    "emoji": "🧱",
+    "chips": [
+     {
+      "label": "Kökün dışını örter",
+      "emoji": "🌱"
+     },
+     {
+      "label": "Diş etinin altında",
+      "emoji": "🩷"
+     },
+     {
+      "label": "Dişi çene kemiğinde tutar",
+      "emoji": "⚓"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🦷",
+    "🦴"
+   ],
+   "keywords": [
+    "SEMENT ⚓"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Hangi diş ne iş yapar?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Kesici: keser",
+      "emoji": "✂️"
+     },
+     {
+      "label": "Köpek dişi: sivri",
+      "emoji": "🔺"
+     },
+     {
+      "label": "Küçük azı: öğütür",
+      "emoji": "⚙️"
+     },
+     {
+      "label": "Azı: güçlü çiğner",
+      "emoji": "🪨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🍎",
+    "🥕"
+   ],
+   "keywords": [
+    "KESİCİ ✂️",
+    "KÖPEK DİŞİ",
+    "AZI DİŞİ ⚙️"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l17"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Mutfak robotu",
+    "label": "Ağzında makas, öğütücü ve değirmen",
+    "sub": "Keser, yırtar, öğütür",
+    "icon": "🤖"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f9"
+   ],
+   "stickers": [
+    "✂️",
+    "⚙️"
+   ],
+   "keywords": [
+    "MUTFAK ROBOTU 😄"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l18",
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kalıcı azıların takvimi",
+    "left": {
+     "title": "6 yaş dişleri",
+     "items": [
+      "5–7 yaş arası"
+     ]
+    },
+    "right": {
+     "title": "12 yaş dişleri",
+     "items": [
+      "11–14 yaş arası",
+      "Sonra: yirmi yaş dişleri"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f3"
+   ],
+   "stickers": [
+    "🗓️",
+    "🦷"
+   ],
+   "keywords": [
+    "6 YAŞ DİŞLERİ",
+    "12 YAŞ DİŞLERİ",
+    "KONUŞMAK İÇİN DE 🗣️"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Ağızdaki misafirler",
+    "emoji": "🦠",
+    "chips": [
+     {
+      "label": "Yüzlerce bakteri türü",
+      "emoji": "🦠"
+     },
+     {
+      "label": "Plak: yapışkan, renksiz tabaka",
+      "emoji": "🫧"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🔬",
+    "🦷"
+   ],
+   "keywords": [
+    "BAKTERİLER 🦠",
+    "PLAK"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Çürük nasıl başlar?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Şeker",
+      "emoji": "🍬"
+     },
+     {
+      "label": "Bakteriler asit yapar",
+      "emoji": "🦠"
+     },
+     {
+      "label": "Mine aşınır",
+      "emoji": "💥"
+     },
+     {
+      "label": "Mineral kaybı",
+      "emoji": "📉"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "fx": "shake",
+   "stickers": [
+    "🍭",
+    "⚠️"
+   ],
+   "keywords": [
+    "ŞEKER → ASİT",
+    "MİNERAL KAYBI"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Ağızdaki halat çekme",
+    "left": {
+     "title": "Saldıranlar ⚔️",
+     "items": [
+      "Şeker",
+      "Bakteriler",
+      "Asit"
+     ]
+    },
+    "right": {
+     "title": "Savunanlar 🛡️",
+     "items": [
+      "Tükürükteki mineraller",
+      "Florür",
+      "Mine kendini onarır"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12",
+    "f14"
+   ],
+   "stickers": [
+    "🪢",
+    "🦷"
+   ],
+   "keywords": [
+    "HALAT ÇEKME 🪢",
+    "TÜKÜRÜK + FLORÜR",
+    "GERİ DÖNDÜRÜLEBİLİR ✅"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Bakteriler kazanırsa",
+    "label": "Hasar",
+    "emoji": "🦷",
+    "phases": [
+     {
+      "label": "Oyuk: kalıcı hasar",
+      "level": 0.85,
+      "emoji": "🕳️"
+     },
+     {
+      "label": "Dişçi dolguyla onarır",
+      "level": 0.4,
+      "emoji": "🩺"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🦠",
+    "🪢"
+   ],
+   "keywords": [
+    "OYUK 🕳️",
+    "HANGİ TARAFTASIN?"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Kazanma planı",
+    "items": [
+     "Günde iki kez, yaklaşık 2 dakika fırçala",
+     "Florürlü diş macunu",
+     "Günde bir kez diş ipi",
+     "Şekerliyi sınırla, dişçiye düzenli git"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15",
+    "f16"
+   ],
+   "stickers": [
+    "🪥",
+    "🧵"
+   ],
+   "keywords": [
+    "GÜNDE İKİ KEZ 🪥",
+    "ŞEKERİ SINIRLA 🍭"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l32"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Sen de dene: şarkılı fırçalama",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "İki dakikalık şarkı seç",
+      "emoji": "🎵"
+     },
+     {
+      "label": "Şarkı bitene kadar fırçala",
+      "emoji": "🪥"
+     },
+     {
+      "label": "Aynada azılara bak",
+      "emoji": "🪞"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f15"
+   ],
+   "stickers": [
+    "⏱️",
+    "😁"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l33",
+    "l34"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Bunu biliyor muydun?",
+    "emoji": "🛡️",
+    "chips": [
+     {
+      "label": "Çürüklerin çoğu azı dişlerinde",
+      "emoji": "🦷"
+     },
+     {
+      "label": "İnce plastik koruyucu kaplama",
+      "emoji": "✨"
+     },
+     {
+      "label": "Uykuda tükürük azalır",
+      "emoji": "😴"
+     },
+     {
+      "label": "Yatmadan önce fırçala!",
+      "emoji": "🪥"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f17",
+    "f18"
+   ],
+   "stickers": [
+    "🌙",
+    "🦷"
+   ],
+   "keywords": [
+    "AZI DİŞLERİ",
+    "YATMADAN FIRÇALA 🌙"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "limitations",
+   "lineIds": [
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Vücudun en sert dokusu hangisi?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "💎",
+    "🦷"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "DİŞ MİNESİ ✅"
+   ]
+  },
+  {
+   "id": "s18",
+   "section": "limitations",
+   "lineIds": [
+    "l37"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s19",
+   "section": "summary",
+   "lineIds": [
+    "l38",
+    "l39",
+    "l40"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}
