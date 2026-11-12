@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Görünmez Kuvvet",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Elektronlar döner topaç gibi",
+          "start": 5.15,
+          "end": 8.95
+        },
+        {
+          "text": "Her biri minicik bir mıknatıs",
+          "start": 8.95,
+          "end": 12.74
+        },
+        {
+          "text": "Demirde aynı yöne dönerler",
+          "start": 12.74,
+          "end": 16.54
+        },
+        {
+          "text": "Güçlenir kuvvet, çeker durur",
+          "start": 16.54,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kuzey güneyi çeker, aynılar iter!",
+          "start": 20.17,
+          "end": 23.63
+        },
+        {
+          "text": "Görünmez bir alan sarar her yeri",
+          "start": 23.63,
+          "end": 26.84
+        },
+        {
+          "text": "Dünya'nın kalbinde erimiş demir",
+          "start": 26.84,
+          "end": 30.06
+        },
+        {
+          "text": "Dev bir mıknatıs, dinamo döner",
+          "start": 30.06,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Manyetosfer kalkan olur bize",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Güneş'in fırtınasını saptırır",
+          "start": 36.89,
+          "end": 40.92
+        },
+        {
+          "text": "Sızan parçacıklar gökte parlar",
+          "start": 40.92,
+          "end": 44.63
+        },
+        {
+          "text": "Yeşil, mor ışıklar dans eder",
+          "start": 44.63,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kuzey güneyi çeker, aynılar iter!",
+          "start": 48.19,
+          "end": 51.94
+        },
+        {
+          "text": "Görünmez bir alan sarar her yeri",
+          "start": 51.94,
+          "end": 55.42
+        },
+        {
+          "text": "Pusulan şaşmaz, yolunu bulur",
+          "start": 55.42,
+          "end": 58.64
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.64,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

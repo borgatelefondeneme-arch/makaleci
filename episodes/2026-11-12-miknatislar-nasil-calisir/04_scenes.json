@@ -1,0 +1,738 @@
+{
+  "paperId": "topic:miknatislar-nasil-calisir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Mıknatıslar nasıl çalışır?",
+        "emoji": "🧲"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🌌",
+        "🧭",
+        "🌍",
+        "✨"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "",
+        "GÖRÜNMEZ KUVVET",
+        "İZİNİ SÜRÜYORUZ!"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Mıknatısı mıknatıs yapan nedir?",
+          "Dünya'nın manyetik alanı nereden gelir?",
+          "Bu alan bizi neden korur?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "🔎",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Kutuplar",
+        "left": {
+          "title": "Zıt kutuplar 🧲",
+          "items": [
+            "Kuzey + güney",
+            "Birbirini çeker"
+          ]
+        },
+        "right": {
+          "title": "Aynı kutuplar 🚫",
+          "items": [
+            "Kuzey + kuzey",
+            "Birbirini iter"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🔴",
+        "🔵"
+      ],
+      "keywords": [
+        "MANYETİZMA",
+        "ÇEKER • İTER",
+        "MANYETİK ALAN"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Atomun içinde",
+        "emoji": "⚛️",
+        "chips": [
+          {
+            "label": "Elektronlar topaç gibi döner",
+            "emoji": "🌀"
+          },
+          {
+            "label": "Her elektron: minik mıknatıs",
+            "emoji": "🧲"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🔬",
+        "✨"
+      ],
+      "keywords": [
+        "ELEKTRONLAR",
+        "MİNİK MIKNATIS"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Neden bazıları yapışır?",
+        "left": {
+          "title": "Kâğıt, kumaş 📄",
+          "items": [
+            "Elektronlar zıt yönlerde döner",
+            "Manyetizma sıfırlanır"
+          ]
+        },
+        "right": {
+          "title": "Demir, kobalt, nikel 🔩",
+          "items": [
+            "Elektronların çoğu aynı yöne döner",
+            "Güçlü mıknatıs"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4"
+      ],
+      "stickers": [
+        "📎",
+        "🤖"
+      ],
+      "keywords": [
+        "SIFIRLANIR",
+        "AYNI YÖN = GÜÇ",
+        "BUZDOLABI TEHLİKESİ 😅"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Elektromıknatıs",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Tel bobini",
+            "emoji": "🌀"
+          },
+          {
+            "label": "Akım geçer",
+            "emoji": "⚡"
+          },
+          {
+            "label": "Manyetik alan",
+            "emoji": "🧲"
+          },
+          {
+            "label": "Akım kesilir: alan kaybolur",
+            "emoji": "🔌"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🔋",
+        "💡"
+      ],
+      "fx": "flash",
+      "keywords": [
+        "ELEKTRİK → MIKNATIS",
+        "AÇ / KAPAT 🔌"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l16",
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Dünya'nın dinamosu",
+        "rows": [
+          {
+            "label": "Kabuk",
+            "emoji": "🪨"
+          },
+          {
+            "label": "Manto",
+            "emoji": "🔥"
+          },
+          {
+            "label": "Dış çekirdek",
+            "emoji": "🌀"
+          }
+        ],
+        "path": [
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5",
+        "f6"
+      ],
+      "keywords": [
+        "DIŞ ÇEKİRDEK",
+        "DİNAMO 🌀",
+        "DEV ELEKTROMIKNATIS!"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l19",
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Gezgin kutuplar",
+        "emoji": "🧭",
+        "chips": [
+          {
+            "label": "Haritadaki kutuplarla aynı değil",
+            "emoji": "🗺️"
+          },
+          {
+            "label": "Yılda yaklaşık 55 km ilerliyor",
+            "emoji": "🚶"
+          },
+          {
+            "label": "Yüzlerce kez yer değiştirdi",
+            "emoji": "🔄"
+          },
+          {
+            "label": "Yavaş ve düzensiz",
+            "emoji": "🐢"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f8",
+        "f9"
+      ],
+      "stickers": [
+        "🌍",
+        "❄️"
+      ],
+      "keywords": [
+        "AYNI YERDE DEĞİL",
+        "KUTUP YÜRÜYOR 🚶",
+        "TERS DÖNÜŞ 🔄"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Manyetosfer: Dünya'nın kalkanı",
+        "label": "Koruma",
+        "emoji": "🛡️",
+        "phases": [
+          {
+            "label": "Güneş'ten gelen hızlı madde",
+            "level": 0.35,
+            "emoji": "☀️"
+          },
+          {
+            "label": "Çoğu saptırılır",
+            "level": 0.92,
+            "emoji": "🛡️"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🌍",
+        "☀️"
+      ],
+      "keywords": [
+        "MANYETOSFER 🛡️",
+        "SAPTIRIR"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l24"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "4,2 milyar",
+        "unit": "yıl önce",
+        "label": "Mars manyetosferini kaybetti",
+        "sub": "NASA",
+        "icon": "🔴"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "🪐",
+        "🌍"
+      ],
+      "keywords": [
+        "MARS'IN KALKANI YOK"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kuzey ışıkları",
+        "emoji": "🌌",
+        "chips": [
+          {
+            "label": "Sızan parçacıklar gazlara çarpar",
+            "emoji": "💥"
+          },
+          {
+            "label": "Oksijen: yeşil ve kırmızı",
+            "emoji": "🟢"
+          },
+          {
+            "label": "Azot: mavi ve mor",
+            "emoji": "🟣"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f12"
+      ],
+      "stickers": [
+        "✨",
+        "❄️"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "IŞIK GÖSTERİSİ ✨",
+        "OKSİJEN • AZOT"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l27"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Pusula",
+        "label": "İğnesi manyetik kutuplarla hizalanır",
+        "sub": "National Geographic",
+        "icon": "🧭"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🗺️",
+        "⛵"
+      ],
+      "keywords": [
+        "PUSULA 🧭"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l28",
+        "l29"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Pusulanın hikâyesi",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Mıknatıs taşı",
+            "emoji": "🪨"
+          },
+          {
+            "label": "İğneyi sürt",
+            "emoji": "🪡"
+          },
+          {
+            "label": "İğne mıknatıslanır",
+            "emoji": "🧲"
+          },
+          {
+            "label": "11. yüzyıl yazıları",
+            "emoji": "📜"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f14"
+      ],
+      "stickers": [
+        "⛵",
+        "🌏"
+      ],
+      "keywords": [
+        "MIKNATIS TAŞI",
+        "EN ESKİ YAZILAR 📜"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "importance",
+      "lineIds": [
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Canlı pusulalar",
+        "emoji": "🕊️",
+        "chips": [
+          {
+            "label": "Güvercinler",
+            "emoji": "🕊️"
+          },
+          {
+            "label": "Arılar",
+            "emoji": "🐝"
+          },
+          {
+            "label": "Somonlar",
+            "emoji": "🐟"
+          },
+          {
+            "label": "Nasıl? Henüz bilinmiyor",
+            "emoji": "❓"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f15"
+      ],
+      "stickers": [
+        "🧭",
+        "🤖"
+      ],
+      "keywords": [
+        "CANLI PUSULALAR",
+        "PİL YEMİYOR 🔋"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "importance",
+      "lineIds": [
+        "l32",
+        "l33"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: ne yapışır?",
+        "items": [
+          "Buzdolabı mıknatısını masaya koy",
+          "Ataş, folyo, kâğıt, bozuk para yaklaştır",
+          "Sonuçları tabloya yaz",
+          "Mıknatısları telefondan uzak tut; ağza alma ⚠️"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4"
+      ],
+      "stickers": [
+        "📎",
+        "📓"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "GÜVENLİK ⚠️"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "limitations",
+      "lineIds": [
+        "l34"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "9+",
+        "unit": "saat",
+        "label": "Mart 1989 manyetik fırtınasında Quebec'te elektrik kesintisi",
+        "sub": "Britanya Jeoloji Araştırmaları Kurumu",
+        "icon": "⚡"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f16"
+      ],
+      "stickers": [
+        "🔌",
+        "🌌"
+      ],
+      "fx": "flash",
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s17",
+      "section": "limitations",
+      "lineIds": [
+        "l35",
+        "l36"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "İki kuzey kutbu yaklaşırsa ne olur?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2"
+      ],
+      "stickers": [
+        "🧲",
+        "🧲"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "İTERLER ✅"
+      ]
+    },
+    {
+      "id": "s18",
+      "section": "limitations",
+      "lineIds": [
+        "l37"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s19",
+      "section": "summary",
+      "lineIds": [
+        "l38",
+        "l39",
+        "l40"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

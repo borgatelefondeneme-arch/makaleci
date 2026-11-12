@@ -1,0 +1,178 @@
+{
+ "paperId": "topic:miknatislar-nasil-calisir",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Magnetism",
+   "publisher": "National Geographic",
+   "url": "https://education.nationalgeographic.org/resource/magnetism/"
+  },
+  {
+   "id": "k2",
+   "title": "Earth's Magnetosphere",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere/"
+  },
+  {
+   "id": "k3",
+   "title": "What Is an Aurora?",
+   "publisher": "NASA",
+   "url": "https://spaceplace.nasa.gov/aurora/en/"
+  },
+  {
+   "id": "k4",
+   "title": "Wandering of the Geomagnetic Poles",
+   "publisher": "NOAA",
+   "url": "https://www.ncei.noaa.gov/products/wandering-geomagnetic-poles"
+  },
+  {
+   "id": "k5",
+   "title": "An Overview of the Earth's Magnetic Field",
+   "publisher": "Britanya Jeoloji Araştırmaları Kurumu",
+   "url": "https://geomag.bgs.ac.uk/education/earthmag.html"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Manyetizma, mıknatısların birbirini çektiğinde ya da ittiğinde uyguladığı kuvvettir; elektrik yüklerinin hareketinden kaynaklanır; manyetik alan, mıknatısın çevresinde manyetik kuvvetin etkili olduğu bölgedir.",
+   "numbers": [],
+   "quote": "Magnetism is the force exerted by magnets when they attract or repel each other / Magnetism is caused by the motion of electric charges. / The magnetic field is the area around a magnet that has magnetic force.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Bütün mıknatısların kuzey ve güney kutbu vardır; zıt kutuplar birbirini çeker, aynı kutuplar birbirini iter.",
+   "numbers": [],
+   "quote": "All magnets have north and south poles. / Opposite poles are attracted to each other, while the same poles repel each other.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Elektronlar topaç gibi dönerek atom çekirdeğinin çevresinde dolanır; bu hareket her elektronun mikroskobik bir mıknatıs gibi davranmasına yol açar.",
+   "numbers": [],
+   "quote": "Spinning like tops, the electrons circle the nucleus, or core, of an atom. / Their movement generates an electric current and causes each electron to act like a microscopic magnet.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Demir, kobalt ve nikel gibi maddelerde elektronların çoğu aynı yönde döner; çoğu maddede eşit sayıda elektron zıt yönlerde döner ve manyetizmalarını birbirine sıfırlar; bu yüzden kumaş ya da kâğıt zayıf manyetik sayılır.",
+   "numbers": [],
+   "quote": "In substances such as iron, cobalt, and nickel, most of the electrons spin in the same direction. / In most substances, equal numbers of electrons spin in opposite directions, which cancels out their magnetism. / That is why materials such as cloth or paper are said to be weakly magnetic.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Bir tel bobininden elektrik geçince manyetik alan oluşur; akım kesilince bobinin çevresindeki alan kaybolur.",
+   "numbers": [],
+   "quote": "When electricity runs through a coil of wire, it produces a magnetic field. / The field around the coil will disappear, however, as soon as the electric current is turned off.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Dünya'nın manyetik alanı, sıvı dış çekirdekte kendi kendini besleyen bir dinamo süreciyle oluşur; yavaş hareket eden erimiş demirde akan elektrik akımları manyetik alanı üretir.",
+   "numbers": [],
+   "quote": "The Earth's magnetic field is generated in the fluid outer core by a self-exciting dynamo process. / Electrical currents flowing in the slowly moving molten iron generate the magnetic field.",
+   "location": "British Geological Survey — An Overview of the Earth's Magnetic Field"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Jeomanyetik kutuplar Kuzey ve Güney Kutbu ile aynı değildir; mıknatısın kuzey ucu, güney manyetik yük taşıyan Kuzey Manyetik Kutbu'nu gösterir.",
+   "numbers": [],
+   "quote": "The geomagnetic poles are not the same as the North and South Poles. / The north end of a magnet points toward the North Magnetic Pole, which holds a south magnetic charge.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f8",
+   "kind": "number",
+   "statement": "Son ölçüme göre Kuzey Manyetik Kutbu yılda yaklaşık 55 kilometre hızla kuzey-kuzeybatıya doğru ilerliyor; Kanada Arktiği boyunca yavaşça sürükleniyor.",
+   "numbers": [
+    "55"
+   ],
+   "quote": "The most recent survey determined that the Pole is moving approximately north-northwest at 55km per year. / the North Magnetic Pole, which is slowly drifting across the Canadian Arctic",
+   "location": "NOAA NCEI — Wandering of the Geomagnetic Poles"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Jeomanyetik kutuplar Dünya oluştuğundan beri yüzlerce kez yer değiştirdi; bu dönüşler yavaş ve düzensiz olur.",
+   "numbers": [],
+   "quote": "the geomagnetic poles have reversed—changed into the opposite kind of pole—hundreds of times since Earth formed. / These reversals occur slowly and irregularly",
+   "location": "National Geographic Education — Magnetism; British Geological Survey — An Overview of the Earth's Magnetic Field"
+  },
+  {
+   "id": "f10",
+   "kind": "number",
+   "statement": "Manyetosfer, Güneş'ten saatte 1 milyon mil ya da daha hızlı gelen maddenin çoğunu saptırır; Dünya'yı parçacıkların çoğundan korur.",
+   "numbers": [
+    "1"
+   ],
+   "quote": "It deflects most of the solar material sweeping towards us from our star at 1 million miles per hour or more. / The magnetosphere protects Earth from most of the particles, but some leak through it and become trapped.",
+   "location": "NASA Science — Earth's Magnetosphere; National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f11",
+   "kind": "number",
+   "statement": "Mars, manyetosferini yaklaşık 4,2 milyar yıl önce kaybetmiş bir gezegendir.",
+   "numbers": [
+    "4.2"
+   ],
+   "quote": "Compare Earth to Mars – a planet that lost its magnetosphere about 4.2 billion years ago.",
+   "location": "NASA Science — Earth's Magnetosphere"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Parçacıklar atmosferdeki gazlarla etkileşir ve gökyüzünde güzel ışık gösterileri oluşur; oksijen yeşil ve kırmızı, azot mavi ve mor ışık verir; Kuzey Kutbu yakınında buna kuzey ışıkları denir.",
+   "numbers": [],
+   "quote": "There, the particles interact with gases in our atmosphere resulting in beautiful displays of light in the sky. / Oxygen gives off green and red light. Nitrogen glows blue and purple. / If you're near the North Pole, it is called an aurora borealis or northern lights.",
+   "location": "NASA Space Place — What Is an Aurora?"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "Pusulanın manyetik iğnesi Dünya'nın manyetik kutuplarıyla aynı hizaya gelir; insanlar yüzlerce yıldır yön bulmak için pusula kullanıyor.",
+   "numbers": [],
+   "quote": "The magnetic needle of a compass lines up with Earth’s magnetic poles. / For hundreds of years, people have used magnetic compasses to navigate using Earth’s magnetic field.",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f14",
+   "kind": "number",
+   "statement": "Eski Yunanlılar ve Çinliler mıknatıs taşı denen doğal manyetik taşları biliyordu; Çinliler bir iğneyi mıknatıs taşına sürterek mıknatıslayabileceklerini keşfetti; pusulayla yön bulmaya ilişkin en eski yazılar 11. yüzyıla aittir.",
+   "numbers": [
+    "11"
+   ],
+   "quote": "The ancient Greeks and Chinese knew about naturally magnetic stones called \"lodestones.\" / The Chinese discovered that they could make a needle magnetic by stroking it against a lodestone / The earliest writings about compass navigation are credited to the Chinese and date from 11th century A.D.",
+   "location": "National Geographic Education — Magnetism; British Geological Survey — An Overview of the Earth's Magnetic Field"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Güvercinler, arılar ve somonlar gibi bazı hayvanlar Dünya'nın manyetik alanını algılayıp yön bulmak için kullanabilir; bilim insanları bunu nasıl yaptıklarından emin değil.",
+   "numbers": [],
+   "quote": "Some animals, such as pigeons, bees, and salmon, can detect Earth's magnetic field and use it to navigate. / Scientists aren't sure how they do this",
+   "location": "National Geographic Education — Magnetism"
+  },
+  {
+   "id": "f16",
+   "kind": "number",
+   "statement": "Son zamanların en şiddetli manyetik fırtınası Mart 1989'da oldu; Kanada'nın Quebec eyaletinde elektrik iletim sistemi 9 saatten uzun süre kapandı.",
+   "numbers": [
+    "1989",
+    "9"
+   ],
+   "quote": "The most severe magnetic storm in recent times occurred in March 1989 / the power transmission system in Quebec, Canada, was shut down for over 9 hours.",
+   "location": "British Geological Survey — An Overview of the Earth's Magnetic Field"
+  }
+ ]
+}

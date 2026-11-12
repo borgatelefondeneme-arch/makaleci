@@ -7,10 +7,10 @@ import { clamp } from "../anim";
 // Konuya özel sahneleme: arka plan dünyaları, ortamda gezen karakterler ve sahne efektleri.
 // Koyu dünyalarda (uzay, okyanus, yer altı, fırtına) içerik krem bir panonun üstünde durur; dünya çevresinde ve altında görünür.
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -81,6 +81,26 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: 90 }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
           <path d={`M 0 ${H} V 1010 Q 480 980 960 1004 T ${W} 996 V ${H} Z`} fill="#2E3A52" />
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "aurora") {
+    // kutup gecesi: dalgalanan yeşil-mor ışık perdeleri, yıldızlar, karlı tepeler
+    const curtain = (y0: number, amp: number, col: string, sp: number, k: number) => {
+      let top = `M -100 ${y0}`, bot = "";
+      for (let x = -100; x <= W + 100; x += 40) { top += ` L ${x} ${y0 + Math.sin(x / 260 + f / sp + k) * amp + Math.sin(x / 90 - f / (sp * 0.7)) * amp * 0.25}`; }
+      for (let x = W + 100; x >= -100; x -= 40) bot += ` L ${x} ${y0 + 260 + Math.sin(x / 300 + f / sp + k) * amp * 0.6}`;
+      return <path d={top + bot + " Z"} fill={`url(#au${k})`} opacity={0.55 + 0.25 * Math.sin(f / 50 + k)} />;
+    };
+    return (
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #0B1530 0%, #14284A 60%, #1E3A5C 100%)", overflow: "hidden" }}>
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          <defs>{["#3EE6A0", "#9B7BFF", "#5FD3FF"].map((c, k) => <linearGradient key={k} id={`au${k}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={c} stopOpacity={0} /><stop offset="0.45" stopColor={c} stopOpacity={0.9} /><stop offset="1" stopColor={c} stopOpacity={0} /></linearGradient>)}</defs>
+          {Array.from({ length: 90 }, (_, i) => <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * H * 0.8} r={1.2 + rnd(i, 3) * 2.6} fill="#fff" opacity={0.4 + 0.5 * Math.abs(Math.sin(f / (18 + rnd(i, 4) * 30) + i))} />)}
+          {curtain(40, 80, "", 70, 0)}{curtain(150, 60, "", 55, 1)}{curtain(90, 70, "", 85, 2)}
+          <path d={`M 0 ${H} V 940 Q 300 880 640 930 T 1280 920 T ${W} 900 V ${H} Z`} fill="#E8F1FA" />
+          <path d={`M 0 ${H} V 990 Q 500 950 1000 990 T ${W} 975 V ${H} Z`} fill="#CFE0F0" />
         </svg>
       </AbsoluteFill>
     );

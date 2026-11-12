@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 17,
+  "lastEpisodeNumber": 18,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -68,6 +68,10 @@
     "topic:dislerimiz-nasil-calisir": {
       "id": "2026-11-12-dislerimiz-nasil-calisir",
       "episodeNumber": 17
+    },
+    "topic:miknatislar-nasil-calisir": {
+      "id": "2026-11-12-miknatislar-nasil-calisir",
+      "episodeNumber": 18
     }
   }
 }

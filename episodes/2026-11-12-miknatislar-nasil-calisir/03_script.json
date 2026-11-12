@@ -1,0 +1,532 @@
+{
+  "paperId": "topic:miknatislar-nasil-calisir",
+  "episodeNumber": 18,
+  "videoTitle": "Mıknatıslar nasıl çalışır?",
+  "paperTitleTr": "Mıknatıslar nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Gökyüzünde dalgalanan yeşil ve mor ışık perdeleri... Bu muhteşem gösterinin arkasında dev bir mıknatıs var: Dünya'nın kendisi!",
+          "spoken": "Gökyüzünde dalgalanan yeşil ve mor ışık perdeleri... Bu muhteşem gösterinin arkasında dev bir mıknatıs var: Dünya'nın kendisi!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Mıknatıslar nasıl çeker? Ve Dünya nasıl mıknatıs olur?",
+          "spoken": "Mıknatıslar nasıl çeker? Ve Dünya nasıl mıknatıs olur?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün görünmez bir kuvvetin izini sürüyoruz!",
+          "spoken": "Bugün görünmez bir kuvvetin izini sürüyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Mıknatısı mıknatıs yapan nedir? Dünya'nın manyetik alanı nereden gelir? Ve bu alan bizi neden korur?",
+          "spoken": "Üç sorumuz var. Mıknatısı mıknatıs yapan nedir? Dünya'nın manyetik alanı nereden gelir? Ve bu alan bizi neden korur?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre manyetizma, mıknatısların birbirini çektiğinde ya da ittiğinde uyguladığı kuvvettir.",
+          "spoken": "Neşınıl Ciyografik'e göre manyetizma, mıknatısların birbirini çektiğinde ya da ittiğinde uyguladığı kuvvettir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Her mıknatısın bir kuzey, bir de güney kutbu vardır. Zıt kutuplar birbirini çeker, aynı kutuplar birbirini iter.",
+          "spoken": "Her mıknatısın bir kuzey, bir de güney kutbu vardır. Zıt kutuplar birbirini çeker, aynı kutuplar birbirini iter.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Mıknatısın çevresinde, kuvvetinin etkili olduğu görünmez bir bölge vardır. Buna manyetik alan denir.",
+          "spoken": "Mıknatısın çevresinde, kuvvetinin etkili olduğu görünmez bir bölge vardır. Buna manyetik alan denir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Peki bu kuvvet nereden gelir? Atomlara bakmamız gerek. Elektronlar atomun çekirdeği çevresinde topaç gibi dönerek dolanır.",
+          "spoken": "Peki bu kuvvet nereden gelir? Atomlara bakmamız gerek. Elektronlar atomun çekirdeği çevresinde topaç gibi dönerek dolanır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Bu hareket yüzünden her elektron, minicik bir mıknatıs gibi davranır.",
+          "spoken": "Bu hareket yüzünden her elektron, minicik bir mıknatıs gibi davranır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Çoğu maddede elektronların yarısı bir yöne, yarısı öbür yöne döner. Manyetizmaları birbirini sıfırlar. Kâğıdın, kumaşın mıknatısa yapışmamasının nedeni bu.",
+          "spoken": "Çoğu maddede elektronların yarısı bir yöne, yarısı öbür yöne döner. Manyetizmaları birbirini sıfırlar. Kâğıdın, kumaşın mıknatısa yapışmamasının nedeni bu.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Ama demirde, kobaltta ve nikelde elektronların çoğu aynı yöne döner. Minik mıknatıslar aynı tarafa bakınca güçlü bir mıknatıs ortaya çıkar.",
+          "spoken": "Ama demirde, kobaltta ve nikelde elektronların çoğu aynı yöne döner. Minik mıknatıslar aynı tarafa bakınca güçlü bir mıknatıs ortaya çıkar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Ben de biraz demirden yapıldım. Buzdolabının yanından geçerken dikkatli olmam gerek!",
+          "spoken": "Ben de biraz demirden yapıldım. Buzdolabının yanından geçerken dikkatli olmam gerek!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Elektrikle de mıknatıs yapabilirsin! Bir tel bobininden akım geçirince çevresinde manyetik alan oluşur.",
+          "spoken": "Elektrikle de mıknatıs yapabilirsin! Bir tel bobininden akım geçirince çevresinde manyetik alan oluşur.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Akımı kesince alan kaybolur. Buna elektromıknatıs denir: istediğinde açıp kapatabileceğin bir mıknatıs.",
+          "spoken": "Akımı kesince alan kaybolur. Buna elektromıknatıs denir: istediğinde açıp kapatabileceğin bir mıknatıs.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Şimdi en büyük mıknatısa geçelim: Dünya! Britanya Jeoloji Araştırmaları Kurumu'na göre manyetik alanımız, Dünya'nın sıvı dış çekirdeğinde oluşur.",
+          "spoken": "Şimdi en büyük mıknatısa geçelim: Dünya! Britanya Jeoloji Araştırmaları Kurumu'na göre manyetik alanımız, Dünya'nın sıvı dış çekirdeğinde oluşur.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Orada yavaşça hareket eden erimiş demirde elektrik akımları akar. Bu akımlar manyetik alanı üretir. Bu düzeneğe dinamo denir.",
+          "spoken": "Orada yavaşça hareket eden erimiş demirde elektrik akımları akar. Bu akımlar manyetik alanı üretir. Bu düzeneğe dinamo denir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Yani Dünya, içinde dev bir elektromıknatıs taşıyor!",
+          "spoken": "Yani Dünya, içinde dev bir elektromıknatıs taşıyor!",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Bir şaşırtıcı ayrıntı: manyetik kutuplar, haritadaki Kuzey ve Güney Kutbu ile aynı yerde değildir.",
+          "spoken": "Bir şaşırtıcı ayrıntı: manyetik kutuplar, haritadaki Kuzey ve Güney Kutbu ile aynı yerde değildir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Üstelik yerinde de durmaz. ABD Ulusal Okyanus ve Atmosfer Dairesi NOAA'ya göre Kuzey Manyetik Kutbu, son ölçüme göre yılda yaklaşık 55 kilometre hızla ilerliyor.",
+          "spoken": "Üstelik yerinde de durmaz. A Be De Ulusal Okyanus ve Atmosfer Dairesi, Noa'ya göre Kuzey Manyetik Kutbu, son ölçüme göre yılda yaklaşık elli beş kilometre hızla ilerliyor.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Hatta manyetik kutuplar Dünya oluştuğundan beri yüzlerce kez yer değiştirmiş: kuzey güney, güney kuzey olmuş! Bu değişim yavaş ve düzensiz olur.",
+          "spoken": "Hatta manyetik kutuplar Dünya oluştuğundan beri yüzlerce kez yer değiştirmiş: kuzey güney, güney kuzey olmuş! Bu değişim yavaş ve düzensiz olur.",
+          "factIds": [
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l22",
+          "display": "Bu manyetik alan bizi korur. Dünya'yı saran bu koruyucu bölgeye manyetosfer denir.",
+          "spoken": "Bu manyetik alan bizi korur. Dünya'yı saran bu koruyucu bölgeye manyetosfer denir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "NASA'ya göre Güneş'ten saatte 1 milyon mil ya da daha hızlı gelen maddenin çoğunu saptırır.",
+          "spoken": "Nasa'ya göre Güneş'ten saatte bir milyon mil ya da daha hızlı gelen maddenin çoğunu saptırır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Karşılaştırma için Mars'a bak: Mars, manyetosferini yaklaşık 4,2 milyar yıl önce kaybetmiş.",
+          "spoken": "Karşılaştırma için Mars'a bak: Mars, manyetosferini yaklaşık dört virgül iki milyar yıl önce kaybetmiş.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Bazı parçacıklar yine de içeri sızar ve atmosferdeki gazlarla etkileşir. İşte o ışık perdeleri böyle oluşur!",
+          "spoken": "Bazı parçacıklar yine de içeri sızar ve atmosferdeki gazlarla etkileşir. İşte o ışık perdeleri böyle oluşur!",
+          "factIds": [
+            "f10",
+            "f12"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Oksijen yeşil ve kırmızı, azot ise mavi ve mor ışık verir. Kuzey Kutbu yakınında bu gösteriye kuzey ışıkları denir.",
+          "spoken": "Oksijen yeşil ve kırmızı, azot ise mavi ve mor ışık verir. Kuzey Kutbu yakınında bu gösteriye kuzey ışıkları denir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Pusula da bu alan sayesinde çalışır: iğnesi, Dünya'nın manyetik kutuplarıyla aynı hizaya gelir.",
+          "spoken": "Pusula da bu alan sayesinde çalışır: iğnesi, Dünya'nın manyetik kutuplarıyla aynı hizaya gelir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Pusulanın hikâyesi eskidir. Eski Yunanlılar ve Çinliler, mıknatıs taşı denen doğal manyetik taşları biliyordu.",
+          "spoken": "Pusulanın hikâyesi eskidir. Eski Yunanlılar ve Çinliler, mıknatıs taşı denen doğal manyetik taşları biliyordu.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Çinliler bir iğneyi mıknatıs taşına sürterek mıknatıslamayı keşfetti. Pusulayla yön bulmaya dair en eski yazılar 11. yüzyıla ait.",
+          "spoken": "Çinliler bir iğneyi mıknatıs taşına sürterek mıknatıslamayı keşfetti. Pusulayla yön bulmaya dair en eski yazılar on birinci yüzyıla ait.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Bazı hayvanların içinde de pusula var gibi: güvercinler, arılar ve somon balıkları manyetik alanı algılayıp yön bulabilir. Bilim insanları bunu nasıl yaptıklarından emin değil.",
+          "spoken": "Bazı hayvanların içinde de pusula var gibi: güvercinler, arılar ve somon balıkları manyetik alanı algılayıp yön bulabilir. Bilim insanları bunu nasıl yaptıklarından emin değil.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Benim içimde GPS var. Ama güvercinlerin kini daha az pil yiyor!",
+          "spoken": "Benim içimde GPS var. Ama güvercinlerin kini daha az pil yiyor!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi sıra sende! Masaya bir buzdolabı mıknatısı koy. Ataş, alüminyum folyo, kâğıt ve bozuk para gibi eşyaları teker teker yaklaştır.",
+          "spoken": "Şimdi sıra sende! Masaya bir buzdolabı mıknatısı koy. Ataş, alüminyum folyo, kâğıt ve bozuk para gibi eşyaları teker teker yaklaştır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Hangileri yapışıyor, hangileri yapışmıyor? Bir tabloya yaz. Bir uyarı: mıknatısları telefonlardan ve bilgisayarlardan uzak tut; küçük mıknatısları asla ağzına alma.",
+          "spoken": "Hangileri yapışıyor, hangileri yapışmıyor? Bir tabloya yaz. Bir uyarı: mıknatısları telefonlardan ve bilgisayarlardan uzak tut; küçük mıknatısları asla ağzına alma.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l34",
+          "display": "Bunu biliyor muydun? Mart 1989'daki güçlü bir manyetik fırtına, Kanada'nın Quebec eyaletinde elektrik sistemini 9 saatten uzun süre kapattı.",
+          "spoken": "Bunu biliyor muydun? Mart bin dokuz yüz seksen dokuzdaki güçlü bir manyetik fırtına, Kanada'nın Kebek eyaletinde elektrik sistemini dokuz saatten uzun süre kapattı.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Hızlı soru! İki mıknatısın kuzey kutuplarını birbirine yaklaştırırsan ne olur?",
+          "spoken": "Hızlı soru! İki mıknatısın kuzey kutuplarını birbirine yaklaştırırsan ne olur?",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Düşün bakalım... Evet: birbirlerini iterler!",
+          "spoken": "Düşün bakalım... Evet: birbirlerini iterler!",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l37",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l38",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l39",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l40",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de buzdolabından uzak durarak eve dönüyorum!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de buzdolabından uzak durarak eve dönüyorum!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Zıt kutuplar çeker, aynı kutuplar iter",
+    "Dünya'nın manyetik alanı erimiş demir çekirdekten gelir",
+    "Manyetosfer bizi korur; kuzey ışıklarını oluşturur"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "aurora",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐧",
+        "size": 96,
+        "every": 18
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐻‍❄️",
+        "every": 29
+      },
+      {
+        "kind": "fly",
+        "emoji": "🕊️",
+        "every": 23
+      }
+    ]
+  },
+  "song": {
+    "title": "Görünmez Kuvvet",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🧲",
+        "name": "Mıknatıs"
+      },
+      {
+        "emoji": "🌍",
+        "name": "Dünya"
+      },
+      {
+        "emoji": "🧭",
+        "name": "Pusula"
+      },
+      {
+        "emoji": "🌌",
+        "name": "Kuzey ışıkları"
+      },
+      {
+        "emoji": "🕊️",
+        "name": "Güvercin"
+      }
+    ],
+    "show": [
+      {
+        "kind": "chase",
+        "emoji": "🧲",
+        "emoji2": "📎",
+        "size": 230,
+        "every": 7
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐧",
+        "every": 9
+      },
+      {
+        "kind": "fly",
+        "emoji": "🕊️",
+        "every": 10
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧭"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌍"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Elektronlar döner topaç gibi",
+          "Her biri minicik bir mıknatıs",
+          "Demirde aynı yöne dönerler",
+          "Güçlenir kuvvet, çeker durur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kuzey güneyi çeker, aynılar iter!",
+          "Görünmez bir alan sarar her yeri",
+          "Dünya'nın kalbinde erimiş demir",
+          "Dev bir mıknatıs, dinamo döner"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Manyetosfer kalkan olur bize",
+          "Güneş'in fırtınasını saptırır",
+          "Sızan parçacıklar gökte parlar",
+          "Yeşil, mor ışıklar dans eder"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kuzey güneyi çeker, aynılar iter!",
+          "Görünmez bir alan sarar her yeri",
+          "Pusulan şaşmaz, yolunu bulur",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Mıknatıslar nasıl çeker, Dünya nasıl mıknatıs olur? Bu bölümde manyetizmayı, kutupları, elektronların minik mıknatıslar gibi davranmasını ve elektromıknatısı; Dünya'nın sıvı dış çekirdeğindeki dinamoyu, gezgin manyetik kutupları ve manyetosferi keşfediyoruz. Kuzey ışıkları nasıl oluşur, pusula nasıl çalışır? Sonunda ne yapışır deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Manyetizma",
+      "meaning": "Mıknatısların birbirini çekmesini ya da itmesini sağlayan kuvvet."
+    },
+    {
+      "term": "Manyetik alan",
+      "meaning": "Mıknatısın çevresinde kuvvetinin etkili olduğu bölge."
+    },
+    {
+      "term": "Elektron",
+      "meaning": "Atomun çekirdeği çevresinde dolanan eksi yüklü minik parçacık."
+    },
+    {
+      "term": "Elektromıknatıs",
+      "meaning": "Telden elektrik geçirilerek yapılan, açılıp kapatılabilen mıknatıs."
+    },
+    {
+      "term": "Dış çekirdek",
+      "meaning": "Dünya'nın merkezine yakın, erimiş demirden oluşan sıvı katman."
+    },
+    {
+      "term": "Manyetosfer",
+      "meaning": "Dünya'nın manyetik alanının oluşturduğu koruyucu bölge."
+    },
+    {
+      "term": "Kuzey ışıkları",
+      "meaning": "Güneş'ten gelen parçacıkların atmosferdeki gazlara çarpmasıyla oluşan ışık gösterisi."
+    },
+    {
+      "term": "Pusula",
+      "meaning": "İğnesi Dünya'nın manyetik kutuplarına dönen yön bulma aracı."
+    }
+  ]
+}
