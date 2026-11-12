@@ -106,7 +106,7 @@ export const Song: React.FC<SceneProps<"song">> = ({ frame, data }) => {
         </svg>
       )}
       {V === -1 && (<>
-        {bd?.dark && <div style={{ opacity: on }}><Panel inset={{ left: 150, right: 150, top: 50, bottom: 540 }} /></div>}
+        {bd?.panel && <div style={{ opacity: on }}><Panel inset={{ left: 150, right: 150, top: 50, bottom: 540 }} /></div>}
         {!bd && <div style={{ position: "absolute", left: -100, right: -100, bottom: -80, height: 300, background: "linear-gradient(100deg, #CDEFDD, #FFE9B8 50%, #CFE0FF)", borderRadius: "50% 50% 0 0 / 34% 34% 0 0", opacity: on }} />}
         <div style={{ position: "absolute", inset: 0, opacity: on }}><Actors actors={showActors!} t={Math.max(0, t)} ground={bd?.ground ?? 950} mode="show" beat={BEAT} energy={chorus ? 1.3 : 0.8} /></div>
       </>)}

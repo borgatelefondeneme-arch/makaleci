@@ -1,0 +1,785 @@
+{
+  "paperId": "topic:mikroplar-nedir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Mikroplar nedir?",
+        "emoji": "🦠"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🔬",
+        "🧼",
+        "🫧",
+        "🧫"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "",
+        "DOST MU, DÜŞMAN MI?",
+        "MİKROSKOBUN ALTINA!"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Mikrop nedir?",
+          "Vücudumuz kendini nasıl savunur?",
+          "Mikroplardan nasıl korunuruz?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "🔎",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Mikrop ailesi",
+        "emoji": "🔬",
+        "chips": [
+          {
+            "label": "Bakteriler",
+            "emoji": "🦠"
+          },
+          {
+            "label": "Virüsler",
+            "emoji": "🧬"
+          },
+          {
+            "label": "Mantarlar",
+            "emoji": "🍄"
+          },
+          {
+            "label": "Protozoalar",
+            "emoji": "💧"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🧫",
+        "✨"
+      ],
+      "keywords": [
+        "MİKROSKOBİK",
+        "ÇOĞU ZARARSIZ ✅"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l8",
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Bakteriler",
+        "left": {
+          "title": "Nedir? 🦠",
+          "items": [
+            "Tek hücreli canlılar",
+            "Küre, çubuk, sarmal"
+          ]
+        },
+        "right": {
+          "title": "Nerede? 🧍",
+          "items": [
+            "Vücudumuzda bol bol",
+            "Kendi hücrelerimizden fazla olabilir"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🔬",
+        "🔌"
+      ],
+      "keywords": [
+        "TEK HÜCRE",
+        "BAKTERİ ÇOK!",
+        "KABLOLARIM 🔌"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l11"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Bakterilerin çoğu",
+        "label": "Zararsız",
+        "emoji": "🦠",
+        "phases": [
+          {
+            "label": "Çoğu zararsız ya da yararlı",
+            "level": 0.9,
+            "emoji": "✅"
+          },
+          {
+            "label": "Az sayıda tür hastalık yapar",
+            "level": 0.1,
+            "emoji": "⚠️"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🍽️",
+        "💪"
+      ],
+      "keywords": [
+        "BAĞIRSAK DOSTLARI"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "method",
+      "lineIds": [
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Virüs nasıl çoğalır?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Protein kılıf + DNA/RNA",
+            "emoji": "🧬"
+          },
+          {
+            "label": "Hücreye girer",
+            "emoji": "🚪"
+          },
+          {
+            "label": "Hücrenin parçalarıyla kopyalar",
+            "emoji": "📋"
+          },
+          {
+            "label": "Hücre zarar görür",
+            "emoji": "💥"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🦠",
+        "🔬"
+      ],
+      "keywords": [
+        "VİRÜS",
+        "TEK BAŞINA ÇOĞALAMAZ"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Mikroplar nasıl yayılır?",
+        "emoji": "🤧",
+        "chips": [
+          {
+            "label": "Hapşırık ve öksürük",
+            "emoji": "🤧"
+          },
+          {
+            "label": "Tükürük, ter",
+            "emoji": "💧"
+          },
+          {
+            "label": "Yıkanmamış eller",
+            "emoji": "✋"
+          },
+          {
+            "label": "Göz, burun, ağız",
+            "emoji": "👃"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🫧",
+        "🦠"
+      ],
+      "keywords": [
+        "HAPŞIRIK!",
+        "ELLER ✋"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l16"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Deri",
+        "label": "Bağışıklığın ilk kalesi",
+        "sub": "Mikropların içeri girmesini engeller",
+        "icon": "🛡️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "stickers": [
+        "🏰",
+        "🦠"
+      ],
+      "keywords": [
+        "İLK KALE 🛡️"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l17",
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Akyuvar ordusu",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Fagosit: yutar",
+            "emoji": "🍽️"
+          },
+          {
+            "label": "Lenfosit: hatırlar",
+            "emoji": "🧠"
+          },
+          {
+            "label": "T hücresi: asker",
+            "emoji": "💂"
+          },
+          {
+            "label": "B hücresi: antikor yapar",
+            "emoji": "🎯"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8",
+        "f9"
+      ],
+      "stickers": [
+        "🦠",
+        "⚔️"
+      ],
+      "keywords": [
+        "FAGOSİT",
+        "T HÜCRESİ 💂",
+        "ANTİKOR 🎯"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "finding",
+      "lineIds": [
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Vücudun hafızası",
+        "emoji": "🧠",
+        "chips": [
+          {
+            "label": "Antikorlar vücutta kalır",
+            "emoji": "🎯"
+          },
+          {
+            "label": "Aynı mikrop gelirse hazır",
+            "emoji": "✅"
+          },
+          {
+            "label": "Suçiçeği örneği",
+            "emoji": "🔴"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "💾",
+        "🤖"
+      ],
+      "keywords": [
+        "HAFIZA KARTI 💾",
+        "BENİMKİ DOLU 😅"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Aşı nasıl çalışır?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Ölü ya da zayıf mikrop",
+            "emoji": "💉"
+          },
+          {
+            "label": "Bağışıklık sistemi tepki verir",
+            "emoji": "⚔️"
+          },
+          {
+            "label": "Antikor üretilir",
+            "emoji": "🎯"
+          },
+          {
+            "label": "Asıl mikroba hazır",
+            "emoji": "🛡️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🧬",
+        "✅"
+      ],
+      "keywords": [
+        "AŞI",
+        "HAZIRLIK 🛡️"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l24",
+        "l25"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Antibiyotikler",
+        "left": {
+          "title": "Etki etmez ❌",
+          "items": [
+            "Virüsler",
+            "Soğuk algınlığı, grip"
+          ]
+        },
+        "right": {
+          "title": "Direnç ⚠️",
+          "items": [
+            "Mikroplar ilacı yenmeyi öğrenebilir",
+            "Dirençli olan vücut değil, mikrop"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "💊",
+        "🦠"
+      ],
+      "keywords": [
+        "VİRÜSE ETKİ ETMEZ",
+        "DİRENÇ ⚠️"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l26",
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "El yıkama",
+        "rows": [
+          {
+            "label": "Islat",
+            "emoji": "💧"
+          },
+          {
+            "label": "Sabunla köpürt",
+            "emoji": "🧼"
+          },
+          {
+            "label": "En az 20 saniye ov",
+            "emoji": "⏱️"
+          },
+          {
+            "label": "Durula ve kurula",
+            "emoji": "🧻"
+          }
+        ],
+        "path": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "keywords": [
+        "SABUN + SU 🧼",
+        "20 SANİYE ⏱️",
+        "DURULA, KURULA"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "importance",
+      "lineIds": [
+        "l29",
+        "l30"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Ne zaman yıka?",
+        "items": [
+          "Tuvaletten sonra",
+          "Yemekten önce",
+          "Burnunu sildikten, öksürdükten, hapşırdıktan sonra",
+          "Mendil yoksa dirseğine hapşır!"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13",
+        "f14"
+      ],
+      "stickers": [
+        "🚽",
+        "🍎"
+      ],
+      "keywords": [
+        "NE ZAMAN?",
+        "DİRSEĞE HAPŞIR 💪"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "importance",
+      "lineIds": [
+        "l31"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Dirsek",
+        "label": "Mendil yoksa buraya hapşır",
+        "sub": "Muma'nın dirseği gıcırdıyor!",
+        "icon": "💪"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🤧",
+        "🔩"
+      ],
+      "keywords": [
+        "GICIRT 🔩"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "importance",
+      "lineIds": [
+        "l32",
+        "l33"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Sen de dene: el yıkama dedektifi",
+        "emoji": "🕵️",
+        "chips": [
+          {
+            "label": "Bir aile büyüğünle",
+            "emoji": "👨‍👩‍👧"
+          },
+          {
+            "label": "Bir hafta not tut",
+            "emoji": "📓"
+          },
+          {
+            "label": "Ne zaman unuttunuz?",
+            "emoji": "🔎"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🧼",
+        "✏️"
+      ],
+      "keywords": [
+        "DEDEKTİFLİK 🕵️",
+        "TABLOYA BAK"
+      ]
+    },
+    {
+      "id": "s17",
+      "section": "limitations",
+      "lineIds": [
+        "l34"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "El yıkamak",
+        "label": "Solunum ve ishal enfeksiyonlarının yayılmasını önleyebilir",
+        "sub": "CDC",
+        "icon": "🧼"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🫧",
+        "💧"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s18",
+      "section": "limitations",
+      "lineIds": [
+        "l35",
+        "l36"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Antibiyotikler virüslere etki eder mi?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "💊",
+        "🦠"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "HAYIR ❌"
+      ]
+    },
+    {
+      "id": "s19",
+      "section": "limitations",
+      "lineIds": [
+        "l37"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s20",
+      "section": "summary",
+      "lineIds": [
+        "l38",
+        "l39",
+        "l40"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

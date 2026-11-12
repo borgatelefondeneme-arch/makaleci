@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Görünmez Dünya",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Gözle görülmez minik canlılar",
+          "start": 5.15,
+          "end": 8.79
+        },
+        {
+          "text": "Bakteri, virüs, mantar, protozoa",
+          "start": 8.79,
+          "end": 12.74
+        },
+        {
+          "text": "Çoğu zararsız, bazısı dosttur",
+          "start": 12.74,
+          "end": 16.38
+        },
+        {
+          "text": "Az bir kısmı hasta eder bizi",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Sabunla köpürt, yirmi saniye ov!",
+          "start": 20.17,
+          "end": 23.32
+        },
+        {
+          "text": "İki kez söyle Doğum Günü şarkısını",
+          "start": 23.32,
+          "end": 26.96
+        },
+        {
+          "text": "Deri bir kale, akyuvar asker",
+          "start": 26.96,
+          "end": 29.87
+        },
+        {
+          "text": "Antikor hatırlar, vücut kazanır",
+          "start": 29.87,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Virüs çoğalamaz kendi başına",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Hücreye girer, kopyalar kendini",
+          "start": 36.89,
+          "end": 40.61
+        },
+        {
+          "text": "Aşı öğretir düşmanı önceden",
+          "start": 40.61,
+          "end": 44.32
+        },
+        {
+          "text": "Antibiyotik virüse işlemez",
+          "start": 44.32,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Sabunla köpürt, yirmi saniye ov!",
+          "start": 48.19,
+          "end": 51.6
+        },
+        {
+          "text": "İki kez söyle Doğum Günü şarkısını",
+          "start": 51.6,
+          "end": 55.54
+        },
+        {
+          "text": "Mendil yoksa dirseğine hapşır",
+          "start": 55.54,
+          "end": 58.69
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.69,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

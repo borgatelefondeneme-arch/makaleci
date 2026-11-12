@@ -1,0 +1,165 @@
+{
+  "paperId": "topic:mikroplar-nedir",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Fighting Germs",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/germs.html"
+    },
+    {
+      "id": "k2",
+      "title": "Immune System",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/immune.html"
+    },
+    {
+      "id": "k3",
+      "title": "About Handwashing",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/clean-hands/about/index.html"
+    },
+    {
+      "id": "k4",
+      "title": "How to wash your hands",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/live-well/healthy-body/best-way-to-wash-your-hands/"
+    },
+    {
+      "id": "k5",
+      "title": "Genetics Glossary: Bacteria",
+      "publisher": "NIH",
+      "url": "https://www.genome.gov/genetics-glossary/Bacteria"
+    },
+    {
+      "id": "k6",
+      "title": "Genetics Glossary: Virus",
+      "publisher": "NIH",
+      "url": "https://www.genome.gov/genetics-glossary/Virus"
+    },
+    {
+      "id": "k7",
+      "title": "About Antimicrobial Resistance",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/antimicrobial-resistance/about/index.html"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "'Mikrop' sözcüğü hastalığa yol açabilen mikroskobik bakterileri, virüsleri, mantarları ve protozoaları anlatır.",
+      "numbers": [],
+      "quote": "The term \"germs\" refers to the microscopic bacteria, viruses, fungi, and protozoa that can cause disease.",
+      "location": "Nemours KidsHealth — Fighting Germs"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Mikropların çoğu zararsızdır, hatta insanlara yararlıdır; enfeksiyona yol açanlara patojen denir.",
+      "numbers": [],
+      "quote": "Pathogens are germs that cause infections. Most germs are harmless and even helpful to people.",
+      "location": "CDC — About Antimicrobial Resistance"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Bakteriler küçük, tek hücreli canlılardır; insan vücudu bakteriyle doludur ve insan hücresinden daha çok bakteri hücresi içerdiği tahmin edilir; vücuttaki bakterilerin çoğu zararsız, bazıları yararlıdır; görece az sayıda tür hastalık yapar.",
+      "numbers": [],
+      "quote": "Bacteria are small single-celled organisms. / The human body is full of bacteria, and in fact is estimated to contain more bacterial cells than human cells. / Most bacteria in the body are harmless, and some are even helpful. / A relatively small number of species cause disease.",
+      "location": "NIH (NHGRI) — Genetics Glossary: Bacteria"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Bakteriler küre, çubuk ya da sarmal biçiminde olabilir; sindirim sistemimizdeki bakteriler vücudumuzun normal çalışması için gereklidir.",
+      "numbers": [],
+      "quote": "They can be spheres, they can be rods, or they can be spirals. / in our digestive system, in the gut, we have bacteria that are very necessary to help our bodies function in a normal way.",
+      "location": "NIH (NHGRI) — Genetics Glossary: Bacteria"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Virüs, bir protein kılıfla çevrili bir nükleik asit (DNA ya da RNA) parçasından oluşan bulaşıcı bir mikroptur; tek başına çoğalamaz, hücreleri enfekte edip konak hücrenin parçalarıyla kendini kopyalar; çoğu zaman bu sırada konak hücreyi öldürür.",
+      "numbers": [],
+      "quote": "A virus is an infectious microbe consisting of a segment of nucleic acid (either DNA or RNA) surrounded by a protein coat. / A virus cannot replicate alone; instead, it must infect cells and use components of the host cell to make copies of itself. / Often, a virus ends up killing the host cell in the process",
+      "location": "NIH (NHGRI) — Genetics Glossary: Virus"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Mikropların çoğu hapşırık ve öksürükle havadan ya da ter ve tükürük gibi vücut sıvılarıyla yayılır; yıkanmamış ellerle göze, buruna ve ağza dokunmak, ellere hapşırıp başkalarının ellerine ya da ortak eşyalara dokunmak mikropları yayar.",
+      "numbers": [],
+      "quote": "Most germs spread through the air in sneezes or coughs or through body fluids like sweat, saliva (spit), / Touch your eyes, nose, and mouth with unwashed hands / Blow your nose, cough, or sneeze into hands and then touch other people's hands or common objects",
+      "location": "Nemours KidsHealth — Fighting Germs; CDC — About Handwashing"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Bağışıklık sistemi vücudun enfeksiyonlara karşı savunmasıdır; deri, mikropların vücuda girmesini engelleyen bir engel görevi görür.",
+      "numbers": [],
+      "quote": "The immune system is the body's defense against infections. / For example, the skin acts as a barrier to block germs from entering the body.",
+      "location": "Nemours KidsHealth — Immune System"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Akyuvarlar (lökositler) bağışıklıkta önemli rol oynar: fagositler istilacı canlıları yer; lenfositler vücudun istilacıları hatırlamasına ve yok etmesine yardım eder; T hücreleri asker gibidir; B lenfositleri antikor yapar.",
+      "numbers": [],
+      "quote": "White blood cells, also called leukocytes (pronounced: LOO-kuh-sytes), play an important role in the immune system. / phagocytes (pronounced: FAH-guh-sytes), chew up invading organisms. / lymphocytes (pronounced: LIM-fuh-sytes), help the body remember the invaders and destroy them. / T cells are like the soldiers / B lymphocytes are triggered to make antibodies",
+      "location": "Nemours KidsHealth — Immune System"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Antikorlar yapıldıktan sonra aynı mikropla yeniden savaşmak gerekirse diye genellikle vücutta kalır; bu yüzden suçiçeği geçiren biri genellikle bir daha ondan hastalanmaz.",
+      "numbers": [],
+      "quote": "After they're made, antibodies usually stay in our bodies in case we have to fight the same germ again. / That's why someone who gets sick with a disease, like chickenpox, usually won't get sick from it again.",
+      "location": "Nemours KidsHealth — Immune System"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Aşılar hastalığa yol açan mikrobun ölü ya da zayıflatılmış hâlini (ya da parçalarını) içerir; bağışıklık sistemi gerçek bir enfeksiyon varmış gibi davranır ve o mikrobu tanıyan antikorlar yapar.",
+      "numbers": [],
+      "quote": "Vaccines contain either a dead or a weakened germ (or parts of it) that causes a particular disease. / When someone gets a vaccine, their immune system acts as if there's a real infection. / It makes antibodies that recognize parts of that germ.",
+      "location": "Nemours KidsHealth — Fighting Germs"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Antibiyotikler soğuk algınlığı ve grip gibi virüslere etki etmez; antimikrobiyal direnç, mikropların kendilerini öldürmek için tasarlanan ilaçları yenme yeteneği kazanmasıdır; bu, vücudun antibiyotiğe dirençli olduğu anlamına gelmez.",
+      "numbers": [],
+      "quote": "Antibiotics and antifungals do not work on viruses, such as colds and the flu. / Antimicrobial resistance (AR) happens when germs develop the ability to defeat the drugs designed to kill them. / It does NOT mean your body is resistant to antibiotics or antifungals.",
+      "location": "CDC — About Antimicrobial Resistance"
+    },
+    {
+      "id": "f12",
+      "kind": "number",
+      "statement": "Elleri temiz akan suyla ıslat, sabunla köpürt, en az 20 saniye ov (Doğum Günü şarkısını baştan sona iki kez), temiz suyla durula ve temiz havluyla kurula. Çoğu durumda mikroplardan kurtulmanın en iyi yolu sabun ve suyla yıkamaktır.",
+      "numbers": [
+        "20"
+      ],
+      "quote": "Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap. / Scrub your hands for at least 20 seconds. Need a timer? Hum the \"Happy Birthday\" song from beginning to end twice. / Rinse your hands well under clean, running water. / Washing hands with soap and water is the best way to get rid of germs in most situations.",
+      "location": "CDC — About Handwashing"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Burnu sildikten, öksürdükten ya da hapşırdıktan sonra, yemek hazırlamadan önce ve sonra, tuvaletten sonra eller yıkanmalıdır; el yıkamak solunum ve ishal enfeksiyonlarının yayılmasını önleyebilir.",
+      "numbers": [],
+      "quote": "After blowing your nose, coughing, or sneezing / Before and after preparing food / After using the toilet / Washing hands can keep you healthy and prevent the spread of respiratory and diarrheal infections.",
+      "location": "CDC — About Handwashing"
+    },
+    {
+      "id": "f14",
+      "kind": "claim",
+      "statement": "Hapşırırken ya da öksürürken ağzını ve burnunu mendille kapat ve mendili at; mendil yoksa eline değil dirseğine hapşır.",
+      "numbers": [],
+      "quote": "If you sneeze or cough, cover your mouth and nose with a tissue, and then throw it out. / If you don't have a tissue, sneeze or cough into your elbow, not your hands.",
+      "location": "Nemours KidsHealth — Fighting Germs"
+    }
+  ]
+}

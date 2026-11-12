@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 20,
+  "lastEpisodeNumber": 21,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -80,6 +80,10 @@
     "topic:ucaklar-nasil-ucar": {
       "id": "2026-11-12-ucaklar-nasil-ucar",
       "episodeNumber": 20
+    },
+    "topic:mikroplar-nedir": {
+      "id": "2026-11-12-mikroplar-nedir",
+      "episodeNumber": 21
     }
   }
 }

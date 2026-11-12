@@ -1,0 +1,530 @@
+{
+  "paperId": "topic:mikroplar-nedir",
+  "episodeNumber": 21,
+  "videoTitle": "Mikroplar nedir?",
+  "paperTitleTr": "Mikroplar nedir?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Şu an ellerinde, gözle göremeyeceğin kadar küçük canlılar var. Bazıları dost, bazıları düşman!",
+          "spoken": "Şu an ellerinde, gözle göremeyeceğin kadar küçük canlılar var. Bazıları dost, bazıları düşman!",
+          "factIds": [
+            "f1",
+            "f2"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bu küçük canlılar kim? Ve vücudun düşmanları nasıl tanıyıp yeniyor?",
+          "spoken": "Bu küçük canlılar kim? Ve vücudun düşmanları nasıl tanıyıp yeniyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün mikroskobun altına bakıyoruz!",
+          "spoken": "Bugün mikroskobun altına bakıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Mikrop nedir? Vücudumuz kendini nasıl savunur? Ve mikroplardan nasıl korunuruz?",
+          "spoken": "Üç sorumuz var. Mikrop nedir? Vücudumuz kendini nasıl savunur? Ve mikroplardan nasıl korunuruz?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "KidsHealth'e göre mikrop dediğimiz şey; bakteriler, virüsler, mantarlar ve protozoalar gibi mikroskobik canlılardır.",
+          "spoken": "Kids Helt'e göre mikrop dediğimiz şey; bakteriler, virüsler, mantarlar ve protozoalar gibi mikroskobik canlılardır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "İyi haber: CDC'ye göre mikropların çoğu zararsızdır, hatta işimize yarar. Hastalık yapanlara patojen denir.",
+          "spoken": "İyi haber: Si Di Si'ye göre mikropların çoğu zararsızdır, hatta işimize yarar. Hastalık yapanlara patojen denir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Bakterilerle başlayalım. Bakteriler tek hücreli, minicik canlılardır. Küre, çubuk ya da sarmal biçiminde olabilirler.",
+          "spoken": "Bakterilerle başlayalım. Bakteriler tek hücreli, minicik canlılardır. Küre, çubuk ya da sarmal biçiminde olabilirler.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre vücudumuzda, kendi hücrelerimizden daha çok bakteri hücresi olduğu tahmin ediliyor!",
+          "spoken": "Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'ye göre vücudumuzda, kendi hücrelerimizden daha çok bakteri hücresi olduğu tahmin ediliyor!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Yani sen hiçbir zaman yalnız değilsin. Ben de değilim: içimde bir sürü kablo var!",
+          "spoken": "Yani sen hiçbir zaman yalnız değilsin. Ben de değilim: içimde bir sürü kablo var!",
+          "factIds": []
+        },
+        {
+          "id": "l11",
+          "display": "Bu bakterilerin çoğu zararsızdır. Bağırsağımızdakiler ise vücudumuzun normal çalışması için gereklidir. Yalnızca az sayıda tür hastalık yapar.",
+          "spoken": "Bu bakterilerin çoğu zararsızdır. Bağırsağımızdakiler ise vücudumuzun normal çalışması için gereklidir. Yalnızca az sayıda tür hastalık yapar.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Virüsler ise çok farklıdır. Bir protein kılıfın içinde, DNA ya da RNA denen genetik bilgiden oluşurlar.",
+          "spoken": "Virüsler ise çok farklıdır. Bir protein kılıfın içinde, DNA ya da RNA denen genetik bilgiden oluşurlar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Virüsler tek başına çoğalamaz. Bir hücreye girer, o hücrenin parçalarını kullanarak kendini kopyalar ve çoğu zaman hücreye zarar verir.",
+          "spoken": "Virüsler tek başına çoğalamaz. Bir hücreye girer, o hücrenin parçalarını kullanarak kendini kopyalar ve çoğu zaman hücreye zarar verir.",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Mikroplar nasıl yayılır? Çoğu, hapşırık ve öksürükle havaya karışır ya da tükürük gibi vücut sıvılarıyla geçer.",
+          "spoken": "Mikroplar nasıl yayılır? Çoğu, hapşırık ve öksürükle havaya karışır ya da tükürük gibi vücut sıvılarıyla geçer.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Yıkanmamış ellerle gözüne, burnuna, ağzına dokunmak da onlara kapı açar.",
+          "spoken": "Yıkanmamış ellerle gözüne, burnuna, ağzına dokunmak da onlara kapı açar.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Ama vücudun güçlü bir ordusu var: bağışıklık sistemi. İlk kalesi derindir; mikropların içeri girmesini engeller.",
+          "spoken": "Ama vücudun güçlü bir ordusu var: bağışıklık sistemi. İlk kalesi derindir; mikropların içeri girmesini engeller.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Mikrop yine de içeri sızarsa akyuvarlar devreye girer. Fagosit denen akyuvarlar, istilacıları adeta yutar.",
+          "spoken": "Mikrop yine de içeri sızarsa akyuvarlar devreye girer. Fagosit denen akyuvarlar, istilacıları adeta yutar.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Lenfositler ise düşmanı hatırlamaya ve yok etmeye yardım eder. T hücreleri birer asker gibidir.",
+          "spoken": "Lenfositler ise düşmanı hatırlamaya ve yok etmeye yardım eder. T hücreleri birer asker gibidir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "B hücreleri antikor denen özel proteinler üretir. Antikorlar, aynı mikropla yeniden karşılaşırsak diye vücutta kalır.",
+          "spoken": "B hücreleri antikor denen özel proteinler üretir. Antikorlar, aynı mikropla yeniden karşılaşırsak diye vücutta kalır.",
+          "factIds": [
+            "f8",
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Bu yüzden suçiçeği geçiren biri genellikle bir daha ondan hastalanmaz.",
+          "spoken": "Bu yüzden suçiçeği geçiren biri genellikle bir daha ondan hastalanmaz.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Vücudunun bir hafıza kartı var. Benimki ise bazen dolup taşıyor!",
+          "spoken": "Vücudunun bir hafıza kartı var. Benimki ise bazen dolup taşıyor!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l22",
+          "display": "Aşılar da bu hafızadan yararlanır. Aşı, mikrobun ölü ya da zayıflatılmış hâlini ya da bir parçasını içerir.",
+          "spoken": "Aşılar da bu hafızadan yararlanır. Aşı, mikrobun ölü ya da zayıflatılmış hâlini ya da bir parçasını içerir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bağışıklık sistemi gerçek bir enfeksiyon varmış gibi davranır ve o mikrobu tanıyan antikorlar üretir. Böylece asıl mikrop geldiğinde hazırdır.",
+          "spoken": "Bağışıklık sistemi gerçek bir enfeksiyon varmış gibi davranır ve o mikrobu tanıyan antikorlar üretir. Böylece asıl mikrop geldiğinde hazırdır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Peki antibiyotik? CDC'ye göre antibiyotikler soğuk algınlığı ve grip gibi virüslere etki etmez.",
+          "spoken": "Peki antibiyotik? Si Di Si'ye göre antibiyotikler soğuk algınlığı ve grip gibi virüslere etki etmez.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Üstelik bazı mikroplar zamanla onları öldürmek için yapılan ilaçları yenmeyi öğrenebilir. Buna antimikrobiyal direnç denir. Dirençli olan vücudumuz değil, mikroptur.",
+          "spoken": "Üstelik bazı mikroplar zamanla onları öldürmek için yapılan ilaçları yenmeyi öğrenebilir. Buna antimikrobiyal direnç denir. Dirençli olan vücudumuz değil, mikroptur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "En güçlü silahımız ise çok basit: sabun ve su! CDC'ye göre çoğu durumda mikroplardan kurtulmanın en iyi yolu budur.",
+          "spoken": "En güçlü silahımız ise çok basit: sabun ve su! Si Di Si'ye göre çoğu durumda mikroplardan kurtulmanın en iyi yolu budur.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Ellerini ıslat, sabunla köpürt ve en az 20 saniye ov. Süreyi tutturmak için Doğum Günü şarkısını baştan sona iki kez söyleyebilirsin.",
+          "spoken": "Ellerini ıslat, sabunla köpürt ve en az yirmi saniye ov. Süreyi tutturmak için Doğum Günü şarkısını baştan sona iki kez söyleyebilirsin.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Sonra temiz suyla durula ve temiz bir havluyla kurula.",
+          "spoken": "Sonra temiz suyla durula ve temiz bir havluyla kurula.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Ne zaman? Tuvaletten sonra, yemekten önce, burnunu sildikten, öksürdükten ya da hapşırdıktan sonra.",
+          "spoken": "Ne zaman? Tuvaletten sonra, yemekten önce, burnunu sildikten, öksürdükten ya da hapşırdıktan sonra.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Hapşırırken mendil kullan ve mendili at. Mendil yoksa eline değil, dirseğine hapşır!",
+          "spoken": "Hapşırırken mendil kullan ve mendili at. Mendil yoksa eline değil, dirseğine hapşır!",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Ben dirseğime hapşıramam. Ama vidalarım gıcırdayınca dirseğimi kapatıyorum!",
+          "spoken": "Ben dirseğime hapşıramam. Ama vidalarım gıcırdayınca dirseğimi kapatıyorum!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi sıra sende! Bir aile büyüğünle birlikte el yıkama dedektifliği yap: bir hafta boyunca evde elleri ne zaman yıkadığınızı bir tabloya not edin.",
+          "spoken": "Şimdi sıra sende! Bir aile büyüğünle birlikte el yıkama dedektifliği yap: bir hafta boyunca evde elleri ne zaman yıkadığınızı bir tabloya not edin.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Hafta sonunda bakın: hangi durumlarda yıkamayı unutmuşsunuz?",
+          "spoken": "Hafta sonunda bakın: hangi durumlarda yıkamayı unutmuşsunuz?",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l34",
+          "display": "Bunu biliyor muydun? El yıkamak, solunum yolu ve ishal enfeksiyonlarının yayılmasını önlemeye yardım edebilir.",
+          "spoken": "Bunu biliyor muydun? El yıkamak, solunum yolu ve ishal enfeksiyonlarının yayılmasını önlemeye yardım edebilir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Hızlı soru! Antibiyotikler virüslere etki eder mi?",
+          "spoken": "Hızlı soru! Antibiyotikler virüslere etki eder mi?",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Düşün bakalım... Hayır! Antibiyotikler virüslere etki etmez.",
+          "spoken": "Düşün bakalım... Hayır! Antibiyotikler virüslere etki etmez.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l37",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l38",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l39",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l40",
+          "display": "Abone olmayı ve zili açmayı unutma. Şimdi ellerini yıkamaya!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Şimdi ellerini yıkamaya!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Mikropların çoğu zararsızdır; bakteriler ve virüsler çok farklıdır",
+    "Deri, akyuvarlar ve antikorlar bizi korur; aşılar hafızayı eğitir",
+    "Sabun ve suyla en az 20 saniye el yıkamak en iyi korunmadır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "micro",
+    "actors": [
+      {
+        "kind": "swarm",
+        "emoji": "🦠",
+        "size": 90
+      },
+      {
+        "kind": "chase",
+        "emoji": "🧼",
+        "emoji2": "🦠",
+        "size": 100,
+        "every": 18
+      }
+    ]
+  },
+  "song": {
+    "title": "Görünmez Dünya",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🦠",
+        "name": "Bakteri"
+      },
+      {
+        "emoji": "🧬",
+        "name": "Virüs"
+      },
+      {
+        "emoji": "🛡️",
+        "name": "Akyuvar"
+      },
+      {
+        "emoji": "🎯",
+        "name": "Antikor"
+      },
+      {
+        "emoji": "🧼",
+        "name": "Sabun"
+      }
+    ],
+    "show": [
+      {
+        "kind": "chase",
+        "emoji": "🧼",
+        "emoji2": "🦠",
+        "size": 230,
+        "every": 6
+      },
+      {
+        "kind": "swarm",
+        "emoji": "🫧"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🛡️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "💪"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧼"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Gözle görülmez minik canlılar",
+          "Bakteri, virüs, mantar, protozoa",
+          "Çoğu zararsız, bazısı dosttur",
+          "Az bir kısmı hasta eder bizi"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sabunla köpürt, yirmi saniye ov!",
+          "İki kez söyle Doğum Günü şarkısını",
+          "Deri bir kale, akyuvar asker",
+          "Antikor hatırlar, vücut kazanır"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Virüs çoğalamaz kendi başına",
+          "Hücreye girer, kopyalar kendini",
+          "Aşı öğretir düşmanı önceden",
+          "Antibiyotik virüse işlemez"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sabunla köpürt, yirmi saniye ov!",
+          "İki kez söyle Doğum Günü şarkısını",
+          "Mendil yoksa dirseğine hapşır",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Ellerimizdeki görünmez canlılar kim? Bu bölümde bakterileri, virüsleri ve öteki mikropları; mikropların nasıl yayıldığını; derinin, akyuvarların, T ve B hücrelerinin ve antikorların bizi nasıl koruduğunu; aşıların nasıl çalıştığını ve antibiyotiklerin neden virüslere etki etmediğini keşfediyoruz. Sonunda el yıkama dedektifliği etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Mikrop",
+      "meaning": "Gözle görülemeyecek kadar küçük canlı; bakteri, virüs, mantar ya da protozoa."
+    },
+    {
+      "term": "Bakteri",
+      "meaning": "Tek hücreli, minicik canlı; çoğu zararsızdır."
+    },
+    {
+      "term": "Virüs",
+      "meaning": "Protein kılıf içinde genetik bilgi taşıyan, ancak bir hücrenin içinde çoğalabilen mikrop."
+    },
+    {
+      "term": "Patojen",
+      "meaning": "Hastalığa yol açan mikrop."
+    },
+    {
+      "term": "Bağışıklık sistemi",
+      "meaning": "Vücudu enfeksiyonlara karşı koruyan savunma sistemi."
+    },
+    {
+      "term": "Akyuvar",
+      "meaning": "Bağışıklık sisteminde görevli kan hücresi."
+    },
+    {
+      "term": "Antikor",
+      "meaning": "Belirli bir mikrobu tanıyan ve onunla savaşan özel protein."
+    },
+    {
+      "term": "Aşı",
+      "meaning": "Bağışıklık sistemini bir mikroba karşı önceden hazırlayan uygulama."
+    },
+    {
+      "term": "Antibiyotik",
+      "meaning": "Bakterilere karşı kullanılan ilaç; virüslere etki etmez."
+    }
+  ]
+}
