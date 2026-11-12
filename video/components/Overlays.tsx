@@ -40,10 +40,10 @@ export const PreprintBadge: React.FC = () => (
   </div>
 );
 
-export const Chrome: React.FC<{ episode: number; total: number; source?: string }> = ({ episode, total, source }) => {
+export const Chrome: React.FC<{ episode: number; total: number; source?: string; dark?: boolean }> = ({ episode, total, source, dark }) => {
   const f = useCurrentFrame();
   return (<>
-    <div style={{ position: "absolute", left: 44, top: 32, fontFamily: F.head, fontWeight: 800, fontSize: 26, color: C.dim, display: "flex", gap: 12, alignItems: "center" }}>
+    <div style={{ position: "absolute", left: 44, top: 32, fontFamily: F.head, fontWeight: 800, fontSize: 26, color: dark ? "#fff" : C.dim, display: "flex", gap: 12, alignItems: "center" }}>
       <span style={{ width: 16, height: 16, borderRadius: "50%", background: C.yellow, display: "inline-block" }} />
       MuMa Library · #{episode}
       {source && <span style={{ fontFamily: F.body, fontWeight: 600, fontSize: 22, marginLeft: 18, padding: "4px 16px", borderRadius: 20, border: `2px solid ${C.cardLine}` }}>Kaynak: {source}</span>}

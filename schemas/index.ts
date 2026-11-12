@@ -82,6 +82,21 @@ export const Line = z.object({
 });
 export type Line = z.infer<typeof Line>;
 
+// --- Konuya özel sahneleme (kullanıcı kararı: görseller konuya göre kurulur) ---
+// Arka plan dünyası: konu neredeyse orası (uzay, yer altı, çayır, okyanus, fırtına).
+export const Backdrop = z.enum(["space", "underground", "meadow", "ocean", "storm"]);
+// Sahnede hareket eden konu karakteri (emoji). kind: yürür, uçar, kovalar (emoji2 kaçar), yüzer, kazar, zıplar, döner, sürü.
+export const Actor = z.object({
+  kind: z.enum(["walk", "fly", "chase", "swim", "dig", "hop", "orbit", "swarm"]),
+  emoji: z.string(), emoji2: z.string().optional(),
+  size: z.number().optional(), // piksel; verilmezse yere göre seçilir
+  every: z.number().optional(), // geçişler arası süre (sn); ortam karakterleri için
+  facesRight: z.boolean().optional(), // emoji sağa bakıyorsa true (çoğu sola bakar)
+});
+export type Actor = z.infer<typeof Actor>;
+// Sahneye özel efekt: kara deliğin sahneyi içine çekmesi, sarsıntı, şimşek, göktaşı, kazı, püskürme, yağmur, pırıltı.
+export const SceneFx = z.enum(["blackhole", "shake", "flash", "meteor", "dig", "erupt", "rain", "sparkle"]);
+
 export const Script = z.object({
   paperId: z.string(),
   episodeNumber: z.number().int(),
@@ -90,6 +105,8 @@ export const Script = z.object({
   sections: z.array(z.object({ id: SectionId, lines: z.array(Line) })),
   takeaways: z.array(z.string()).length(3),
   nextTeaser: z.string(),
+  // Konuya özel dünya: arka plan + ortamda gezen karakterler. Verilmezse bölüm numarasından türeyen desen kullanılır.
+  theme: z.object({ backdrop: Backdrop, actors: z.array(Actor).max(6).default([]) }).optional(),
   // Kapanış şarkısı (isteğe bağlı): sözler yalnızca bölümün olgularına dayanır.
   song: z.object({
     title: z.string(),
@@ -97,6 +114,8 @@ export const Script = z.object({
     negativeStyle: z.array(z.string()).default([]),
     // Şarkıda dans eden, konuya özel karakterler (emoji). Muma şarkı sahnesinde görünmez.
     cast: z.array(z.object({ emoji: z.string(), name: z.string() })).min(2).max(6),
+    // Şarkı sahnesinin gösterisi: konunun karakterleri hareket eder (kovalar, uçar, zıplar). Verilirse rozet sırası yerine bu oynar.
+    show: z.array(Actor).max(6).optional(),
     sections: z.array(z.object({
       tag: z.string(), // müzik modeline giden bölüm adı: "Intro", "Verse 1", "Chorus" ...
       label: z.string(), // ekranda görünen Türkçe ad: "Nakarat" ...
@@ -171,6 +190,8 @@ export const Scene = z.object({
   sourceNote: z.string().optional(), // sahne dipnotu ("Kaynak: Tablo 2")
   // Sahne kenarlarında süzülen, cümle başlarında zıplayan konu simgeleri (emoji).
   stickers: z.array(z.string()).max(6).optional(),
+  // Sahneye özel efekt (konuya göre): bkz. SceneFx.
+  fx: SceneFx.optional(),
   // Satır başına ekranda büyük beliren anahtar kelime (lineIds ile aynı sırada; yoksa boş dize).
   keywords: z.array(z.string()).optional(),
 });

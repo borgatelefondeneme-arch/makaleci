@@ -1,0 +1,189 @@
+{
+ "paperId": "topic:yildizlar-neden-parlar",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Stars",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/universe/stars/"
+  },
+  {
+   "id": "k2",
+   "title": "Star Types",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/universe/stars/types/"
+  },
+  {
+   "id": "k3",
+   "title": "Sun: Facts",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/sun/facts/"
+  },
+  {
+   "id": "k4",
+   "title": "How Does Our Sun Compare With Other Stars?",
+   "publisher": "NASA",
+   "url": "https://spaceplace.nasa.gov/sun-compare/en/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Yıldızlar sıcak gazdan oluşan dev toplardır; çoğunlukla hidrojenden, biraz helyumdan ve az miktarda başka elementlerden oluşurlar.",
+   "numbers": [],
+   "quote": "Stars are giant balls of hot gas – mostly hydrogen, with some helium and small amounts of other elements.",
+   "location": "NASA Science — Stars (Star Basics)"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Güneş, kendi kütle çekimiyle bir arada duran dev bir hidrojen ve helyum topudur; plazma denen çok sıcak, elektrik yüklü gazdan oluşur.",
+   "numbers": [],
+   "quote": "The Sun is a huge ball of hydrogen and helium held together by its own gravity. / The Sun is made of super-hot, electrically charged gas called plasma.",
+   "location": "NASA Science — Sun: Facts"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Yıldızlar moleküler bulut denen büyük gaz ve toz bulutlarında oluşur; kütle çekimi bazı topakların çökmesine yol açar; topak yüz binlerce yıl boyunca kütle kazanır, dönmeye başlar ve ısınır; sonunda bir önyıldız (bebek yıldız) gelişir.",
+   "numbers": [],
+   "quote": "Stars form in large clouds of gas and dust called molecular clouds. / Eventually, gravity causes some of these clumps to collapse. / Over hundreds of thousands of years, the clump gains mass, starts to spin, and heats up. / which eventually leads to the development of a protostar – a baby star.",
+   "location": "NASA Science — Stars (Star Basics); NASA Science — Star Types"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Yıldızın çekirdeğindeki muazzam basınç ve sıcaklık hidrojen atomlarının çekirdeklerini sıkıştırarak helyum oluşturur; çekirdek kaynaşması (füzyon) enerji açığa çıkarır, yıldızı ısıtır ve kütle çekimi altında çökmesini önler; oluşan basınç kütle çekimine karşı iter.",
+   "numbers": [],
+   "quote": "immense pressures and temperatures in the star's core squeeze the nuclei of hydrogen atoms together to form helium / Nuclear fusion releases energy, which heats the star and prevents it from further collapsing under the force of gravity. / Fusion releases energy that heats the star, creating pressure that pushes against the force of its gravity.",
+   "location": "NASA Science — Stars (Star Basics); NASA Science — Star Types"
+  },
+  {
+   "id": "f5",
+   "kind": "number",
+   "statement": "Güneş'in çekirdeğinde sıcaklık yaklaşık 15 milyon santigrat derecedir; yüzeyinde 5.500 santigrat derece.",
+   "numbers": [
+    "15",
+    "5.500"
+   ],
+   "quote": "The temperature in the Sun's core is about 27 million degrees Fahrenheit (15 million degrees Celsius) / It's 10,000 degrees Fahrenheit (5,500 degrees Celsius) at the surface",
+   "location": "NASA Science — Sun: Facts; NASA Space Place — How Does Our Sun Compare With Other Stars?"
+  },
+  {
+   "id": "f6",
+   "kind": "number",
+   "statement": "Güneş yaklaşık 4,6 milyar yıl önce oluştu; Dünya'dan yaklaşık 150 milyon kilometre uzaktadır; hacmini doldurmak için 1,3 milyon Dünya gerekir.",
+   "numbers": [
+    "4.6",
+    "150",
+    "1.3"
+   ],
+   "quote": "The Sun formed about 4.6 billion years ago in a giant, spinning cloud of gas and dust called the solar nebula. / The Sun is about 93 million miles (150 million kilometers) from Earth. / it would take 1.3 million Earths to fill the Sun's volume",
+   "location": "NASA Science — Sun: Facts"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Çekirdeğinde hidrojeni helyuma kaynaştıran yıldıza ana kol yıldızı denir; Güneş ana kol evresinin aşağı yukarı ortasındadır.",
+   "numbers": [],
+   "quote": "Scientists call a star that is fusing hydrogen to helium in its core a main sequence star. / Our Sun is roughly midway through its main sequence stage.",
+   "location": "NASA Science — Star Types; NASA Science — Stars (Star Basics)"
+  },
+  {
+   "id": "f8",
+   "kind": "number",
+   "statement": "Kırmızı cüceler en küçük ana kol yıldızlarıdır; çapı Güneş'inkinin 1.000 katı olan yıldızlar bulunmuştur.",
+   "numbers": [
+    "1.000"
+   ],
+   "quote": "Red dwarfs are the smallest main sequence stars – just a fraction of the Sun's size and mass. / We have found stars that are 1,000 times bigger in diameter than our sun.",
+   "location": "NASA Science — Star Types; NASA Space Place — How Does Our Sun Compare With Other Stars?"
+  },
+  {
+   "id": "f9",
+   "kind": "number",
+   "statement": "Güneş yaklaşık 5 milyar yıl sonra kırmızı dev olacak; Merkür'ü ve Venüs'ü, belki Dünya'yı da yutacak kadar büyüyecek.",
+   "numbers": [
+    "5"
+   ],
+   "quote": "The Sun will become a red giant in about 5 billion years. / becoming so large that it will engulf Mercury and Venus, and possibly Earth as well.",
+   "location": "NASA Science — Star Types; NASA Science — Sun: Facts"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Genişleyen toz ve gaz bulutuna gezegenimsi bulutsu, geriye kalan yıldız kalıntısına beyaz cüce denir.",
+   "numbers": [],
+   "quote": "creating an expanding cloud of dust and gas called a planetary nebula. / Scientists call this kind of stellar remnant a white dwarf.",
+   "location": "NASA Science — Star Types"
+  },
+  {
+   "id": "f11",
+   "kind": "number",
+   "statement": "Büyük kütleli yıldızların sonu süpernova denen dev bir patlamadır; kütlesi Güneş'in yaklaşık 8 ile 20 katı arasındaki yıldızlardan nötron yıldızı oluşur; daha ağır yıldızlar kara delik üretir.",
+   "numbers": [
+    "8",
+    "20"
+   ],
+   "quote": "The result is a huge explosion called a supernova. / A neutron star forms when a main sequence star with between about eight and 20 times the Sun's mass / (Heavier stars produce stellar-mass black holes.)",
+   "location": "NASA Science — Star Types"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Füzyon karbonu oksijen, neon ve magnezyum gibi daha ağır elementlere dönüştürür; en büyük yıldızlarda zincir silisyumun demire kaynaşmasına kadar sürer; süpernovaların uzaya saçtığı madde gelecekteki moleküler bulutları zenginleştirir.",
+   "numbers": [],
+   "quote": "Fusion converts carbon into heavier elements like oxygen, neon, and magnesium / For the largest stars, this chain continues until silicon fuses into iron. / Material cast into the cosmos by supernovae and other stellar events will enrich future molecular clouds",
+   "location": "NASA Science — Stars (Star Basics)"
+  },
+  {
+   "id": "f13",
+   "kind": "number",
+   "statement": "Samanyolu'nda 100 milyardan fazla yıldız vardır; evrende bir septilyona kadar yıldız olabilir: 1'in yanında 24 sıfır.",
+   "numbers": [
+    "100",
+    "1",
+    "24"
+   ],
+   "quote": "Our Milky Way alone contains more than 100 billion, including our most well-studied star, the Sun. / Astronomers estimate that the universe could contain up to one septillion stars – that's a one followed by 24 zeros.",
+   "location": "NASA Science — Stars (Star Basics)"
+  },
+  {
+   "id": "f14",
+   "kind": "number",
+   "statement": "En yakın yıldız komşumuz kırmızı cüce Proxima Centauri'dir; 4,24 ışık yılı uzaktadır. Işık yılı, ışığın bir yılda aldığı yoldur.",
+   "numbers": [
+    "4.24"
+   ],
+   "quote": "Our closest stellar neighbor, shown here in this Hubble image, is the red dwarf Proxima Centauri. / red dwarf star Proxima Centauri is 4.24 light-years away / A light-year is the distance light travels in one year",
+   "location": "NASA Science — Star Types; NASA Science — Sun: Facts"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Sirius gece gökyüzünün en parlak yıldızıdır; birçok ana kol yıldızı çıplak gözle görülebilir.",
+   "numbers": [],
+   "quote": "Sirius – the brightest star in the night sky / Many main sequence stars can be seen with the unaided eye, such as Sirius",
+   "location": "NASA Science — Star Types"
+  },
+  {
+   "id": "f16",
+   "kind": "claim",
+   "statement": "Gözleri korumadan Güneş'e asla doğrudan bakılmamalıdır.",
+   "numbers": [],
+   "quote": "never look directly at the Sun without protecting your eyes.",
+   "location": "NASA Science — Sun: Facts"
+  },
+  {
+   "id": "f17",
+   "kind": "claim",
+   "statement": "Her yıldızın kendi yaşam döngüsü vardır; birkaç milyon yıldan trilyonlarca yıla kadar sürer.",
+   "numbers": [],
+   "quote": "Every star has its own life cycle, ranging from a few million to trillions of years",
+   "location": "NASA Science — Stars (Star Basics)"
+  }
+ ]
+}

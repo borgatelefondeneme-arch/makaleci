@@ -22,18 +22,20 @@ class Ep:
         self.allids = [l["id"] for s, ls in self.sections for l in ls]
         self.by = {l["id"]: l for s, ls in self.sections for l in ls}
         self.sec_of = {l["id"]: s for s, ls in self.sections for l in ls}
-    def S(self, k, visual, stickers=(), keywords=(), extra=()):
+    def S(self, k, visual, stickers=(), keywords=(), extra=(), fx=None):
         """k satırlık sahne. stickers: kenarda süzülen simgeler; keywords: satır başına büyük anahtar kelime."""
         if not self.scenes: self._idx()
         li = self.allids[self.pos:self.pos + k]; self.pos += k
         sc = {"id": f"s{len(self.scenes)+1}", "section": self.sec_of[li[0]], "lineIds": li, "visual": visual, "mascot": M,
               "factIds": sorted({f for i in li for f in self.by[i]["factIds"]} | {f"f{e}" for e in extra}, key=lambda x: int(x[1:]))}
+        if fx: sc["fx"] = fx
         if stickers: sc["stickers"] = list(stickers)
         if keywords: sc["keywords"] = (list(keywords) + [""] * k)[:k]
         self.scenes.append(sc)
-    def song(self, title, cast, v1, c1, v2, c2):
+    def song(self, title, cast, v1, c1, v2, c2, show=None):
         """Şarkı: giriş + kıta + nakarat + kıta + nakarat (~61 sn)."""
-        return {"title": title, "style": STYLE, "negativeStyle": NEG, "cast": [{"emoji": e, "name": nm} for e, nm in cast],
+        extra = {"show": show} if show else {}
+        return {**extra, "title": title, "style": STYLE, "negativeStyle": NEG, "cast": [{"emoji": e, "name": nm} for e, nm in cast],
                 "sections": [
                     {"tag": "Intro", "label": "Giriş", "direction": "snare drum roll, hand claps", "lines": ["Hey! Hey! Hey!"], "durationMs": 5000},
                     {"tag": "Verse 1", "label": "Kıta", "lines": v1, "durationMs": 15000},

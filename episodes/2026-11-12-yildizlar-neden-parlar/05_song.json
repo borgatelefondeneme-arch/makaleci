@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Yıldızın Kalbi",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Gaz ve toz bulutu çöker içine",
+          "start": 5.15,
+          "end": 9.1
+        },
+        {
+          "text": "Döner, ısınır, bir yıldız doğar",
+          "start": 9.1,
+          "end": 12.74
+        },
+        {
+          "text": "Çekirdekte hidrojen birleşir",
+          "start": 12.74,
+          "end": 16.38
+        },
+        {
+          "text": "Helyuma döner, enerji verir",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Füzyon, füzyon; yıldızın gücü!",
+          "start": 20.17,
+          "end": 23.24
+        },
+        {
+          "text": "Çekim bastırır, basınç iter",
+          "start": 23.24,
+          "end": 26.32
+        },
+        {
+          "text": "Denge sürdükçe yıldız parlar",
+          "start": 26.32,
+          "end": 29.39
+        },
+        {
+          "text": "Güneş de bir yıldız, bize en yakın",
+          "start": 29.39,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Küçükler sönünce beyaz cüce kalır",
+          "start": 33.18,
+          "end": 37.26
+        },
+        {
+          "text": "Devler patlar, süpernova olur",
+          "start": 37.26,
+          "end": 40.75
+        },
+        {
+          "text": "Karbon, oksijen, demir saçılır",
+          "start": 40.75,
+          "end": 44.25
+        },
+        {
+          "text": "Yeni yıldızlara malzeme olur",
+          "start": 44.25,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Füzyon, füzyon; yıldızın gücü!",
+          "start": 48.19,
+          "end": 51.48
+        },
+        {
+          "text": "Çekim bastırır, basınç iter",
+          "start": 51.48,
+          "end": 54.77
+        },
+        {
+          "text": "Gökyüzüne bak, yıldızları say",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

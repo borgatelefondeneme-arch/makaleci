@@ -4,6 +4,7 @@ import { ACCENTS, C, F, GRADIENT, H, W } from "../theme";
 import { clamp, pop } from "../anim";
 import { SceneProps } from "./common";
 import { lookOf } from "../look";
+import { Actors, BACKDROPS, Panel } from "../components/Themed";
 
 // Kapanış şarkısı — klip havasında: kelime kelime yanan sözler, vuruşla zıplayan konu rozetleri,
 // dönen ışın demeti ve ekolayzır. Muma bu sahnede yoktur; sahnedekiler konunun kendi karakterleridir.
@@ -64,7 +65,10 @@ export const Song: React.FC<SceneProps<"song">> = ({ frame, data }) => {
   const out = interpolate(abs, [sg.endFrame - 14, sg.endFrame + 4], [1, 0], clamp);
   const cast = sg.cast;
   const on = interpolate(t, [-6, 14], [0, 1], clamp);
-  const V = lookOf(data.script.episodeNumber).song; // 0 sıra, 1 yörünge, 2 bölünmüş sahne, 3 dalga bandı
+  const showActors = data.script.song?.show;
+  const bd = data.script.theme ? BACKDROPS[data.script.theme.backdrop] : null;
+  // Gösteri verilmişse (konunun karakterleri) rozet düzenleri yerine o oynar.
+  const V = showActors?.length ? -1 : lookOf(data.script.episodeNumber).song; // 0 sıra, 1 yörünge, 2 bölünmüş sahne, 3 dalga bandı
   const n = cast.length;
   const pulse = (((t / BEAT) % 1) + 1) % 1;
   return (
@@ -101,6 +105,11 @@ export const Song: React.FC<SceneProps<"song">> = ({ frame, data }) => {
           {chorus && Array.from({ length: 6 }, (_, k) => { const pp = (pulse + k / 6) % 1; return <circle key={k} cx={200 + k * 310} cy={250 + (k % 2) * 90} r={20 + pp * 70} fill="none" stroke={ACCENTS[k % 4]} strokeWidth={7} opacity={(1 - pp) * 0.45} />; })}
         </svg>
       )}
+      {V === -1 && (<>
+        {bd?.dark && <div style={{ opacity: on }}><Panel inset={{ left: 150, right: 150, top: 50, bottom: 540 }} /></div>}
+        {!bd && <div style={{ position: "absolute", left: -100, right: -100, bottom: -80, height: 300, background: "linear-gradient(100deg, #CDEFDD, #FFE9B8 50%, #CFE0FF)", borderRadius: "50% 50% 0 0 / 34% 34% 0 0", opacity: on }} />}
+        <div style={{ position: "absolute", inset: 0, opacity: on }}><Actors actors={showActors!} t={Math.max(0, t)} ground={bd?.ground ?? 950} mode="show" beat={BEAT} energy={chorus ? 1.3 : 0.8} /></div>
+      </>)}
       {/* konfeti: yalnızca nakaratta */}
       {started && chorus && Array.from({ length: 26 }, (_, i) => {
         const y = ((t * (3 + rnd(i, 1) * 4) + rnd(i, 2) * H) % (H + 80)) - 40;

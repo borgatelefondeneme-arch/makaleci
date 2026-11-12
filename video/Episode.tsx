@@ -23,6 +23,7 @@ import { SourceCard } from "./scenes/SourceCard";
 import { clamp } from "./anim";
 import { XFADE } from "./theme";
 import { Look, lookOf } from "./look";
+import { Actors, BACKDROPS, fxTransform, Panel, SceneEffect, ThemedBackdrop } from "./components/Themed";
 
 ensureFonts();
 
@@ -35,7 +36,7 @@ const REGISTRY: { [K in Scene["visual"]["type"]]: React.FC<SceneProps<K>> } = {
 
 // Sahne kabuğu: geçişler sahneden sahneye değişir (kayma, yükselme, yakınlaşma); sahne boyunca kamera
 // çok yavaş yaklaşır ve kayar, böylece hiçbir kare tamamen durağan kalmaz.
-const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: boolean; look?: Look; children: (frame: number) => React.ReactNode }> = ({ dur, last, index, camera, look, children }) => {
+const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: boolean; look?: Look; fx?: string; beats?: number[]; children: (frame: number) => React.ReactNode }> = ({ dur, last, index, camera, look, fx, beats, children }) => {
   const f = useCurrentFrame();
   const inP = interpolate(f, [5, XFADE + 6], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const outP = last ? 0 : interpolate(f, [dur - 2, dur + 7], [0, 1], clamp);
@@ -49,7 +50,7 @@ const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: 
   const t = Math.min(1, f / Math.max(1, dur));
   const cam = camera ? `scale(${1 + 0.035 * t}) translate(${(index % 2 ? -1 : 1) * 14 * t}px, ${-8 * t}px)` : "";
   return (
-    <AbsoluteFill style={{ opacity: inP * (1 - outP), transform: `${enter} translateX(${-outP * 70}px) scale(${1 - outP * 0.03}) ${cam}`, transformOrigin: index % 2 ? "30% 45%" : "70% 45%" }}>
+    <AbsoluteFill style={{ opacity: inP * (1 - outP), transform: `${enter} translateX(${-outP * 70}px) scale(${1 - outP * 0.03}) ${cam} ${fxTransform(fx, f, dur, beats ?? [0])}`, transformOrigin: index % 2 ? "30% 45%" : "70% 45%" }}>
       {children(f)}
     </AbsoluteFill>
   );
@@ -91,11 +92,17 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   const headTo = voice.song ? voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.startFrame + voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.lineEndFrames.slice(-1)[0] : lastV.startFrame - 8;
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const look = lookOf(script.episodeNumber, script.song?.cast.map((c) => c.emoji) ?? plan.scenes[0]?.stickers ?? []);
+  // Konuya özel dünya (varsa): arka plan, pano ve ortamda gezen karakterler.
+  const theme = script.theme;
+  const bd = theme ? BACKDROPS[theme.backdrop] : null;
+  const inSong = voice.song ? interpolate(f, [voice.song.startFrame - 20, voice.song.startFrame + 6, voice.song.endFrame - 10, voice.song.endFrame + 12], [0, 1, 1, 0], clamp) : 0;
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);
   return (
     <AbsoluteFill style={{ background: "#FBF8F3" }}>
       <AbsoluteFill style={{ opacity: fadeOut }}>
-        <Background look={look} />
+        {theme ? <ThemedBackdrop name={theme.backdrop} /> : <Background look={look} />}
+        {bd?.panel && <Panel opacity={1 - inSong} />}
+        {theme && theme.actors.length > 0 && f >= voice.introFrames && <div style={{ position: "absolute", inset: 0, opacity: 1 - inSong }}><Actors actors={theme.actors} t={f} ground={bd!.ground} mode="ambient" /></div>}
         <Sequence durationInFrames={voice.introFrames + XFADE} name="Açılış">
           <SceneShell dur={voice.introFrames} last={false} index={0} camera={false}>{(fr) => <Intro frame={fr} data={data} />}</SceneShell>
         </Sequence>
@@ -105,17 +112,18 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
           const Comp = REGISTRY[sc.visual.type] as React.FC<SceneProps<any>>;
           return (
             <Sequence key={sc.id} from={v.startFrame} durationInFrames={v.durationFrames + (last ? 0 : XFADE)} name={`${sc.id} · ${sc.visual.type}`}>
-              <SceneShell dur={v.durationFrames} last={last} index={i} look={look} camera={!last && sc.visual.type !== "song"}>
+              <SceneShell dur={v.durationFrames} last={last} index={i} look={look} fx={sc.fx} beats={v.lineStartFrames} camera={!last && sc.visual.type !== "song"}>
                 {(fr) => (<>
                   {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerOf(i + shift)) : undefined} /> : null}
                   <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />
                   {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} variant={look.keyword} /> : null}
                 </>)}
               </SceneShell>
+              {sc.fx && <FxAt fx={sc.fx} dur={v.durationFrames} beats={v.lineStartFrames} />}
             </Sequence>
           );
         })}
-        {f >= voice.introFrames && <Chrome episode={script.episodeNumber} total={voice.totalFrames} />}
+        {f >= voice.introFrames && <Chrome episode={script.episodeNumber} total={voice.totalFrames} dark={!!bd?.dark} />}
         {paper.isPreprint && f >= voice.introFrames && <PreprintBadge />}
         <Sequence from={voice.reminder.startFrame} durationInFrames={voice.reminder.durationFrames} name="Abone ol hatırlatması">
           <ReminderAt dur={voice.reminder.durationFrames} />
@@ -129,3 +137,5 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
 };
 
 const ReminderAt: React.FC<{ dur: number }> = ({ dur }) => <SubscribeReminder frame={useCurrentFrame()} dur={dur} />;
+
+const FxAt: React.FC<{ fx: string; dur: number; beats: number[] }> = ({ fx, dur, beats }) => <AbsoluteFill><SceneEffect fx={fx} frame={useCurrentFrame()} dur={dur} beats={beats} /></AbsoluteFill>;
