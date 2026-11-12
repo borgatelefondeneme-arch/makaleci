@@ -1,0 +1,496 @@
+{
+  "paperId": "topic:ay-neden-sekil-degistirir",
+  "episodeNumber": 8,
+  "videoTitle": "Ay neden şekil değiştirir?",
+  "paperTitleTr": "Ay neden şekil değiştirir?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Bir gece gökyüzünde incecik bir hilal görürsün. Günler sonra aynı gökyüzünde kocaman, yusyuvarlak bir Ay!",
+          "spoken": "Bir gece gökyüzünde incecik bir hilal görürsün. Günler sonra aynı gökyüzünde kocaman, yusyuvarlak bir Ay!",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Ay gerçekten biçim mi değiştiriyor? Yoksa bizi yanıltan başka bir şey mi var?",
+          "spoken": "Ay gerçekten biçim mi değiştiriyor? Yoksa bizi yanıltan başka bir şey mi var?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün Ay'ın çevresinde bir tur atıyoruz!",
+          "spoken": "Bugün Ay'ın çevresinde bir tur atıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Ay'a kadar uçmayı çok isterdim. Ama şarjım yarı yolda biter!",
+          "spoken": "Ay'a kadar uçmayı çok isterdim. Ama şarjım yarı yolda biter!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Üç sorumuz var. Ay nasıl parlar? Neden her gece farklı görünür? Ve bize neden hep aynı yüzünü gösterir?",
+          "spoken": "Üç sorumuz var. Ay nasıl parlar? Neden her gece farklı görünür? Ve bize neden hep aynı yüzünü gösterir?",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l7",
+          "display": "NASA'ya göre Ay kendi ışığını üretmez. Ay ışığı dediğimiz şey, aslında Ay'dan yansıyan Güneş ışığıdır.",
+          "spoken": "Nasa'ya göre Ay kendi ışığını üretmez. Ay ışığı dediğimiz şey, aslında Ay'dan yansıyan Güneş ışığıdır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Güneş sistemimizde kendi ışığıyla parlayan tek cisim Güneş'tir.",
+          "spoken": "Güneş sistemimizde kendi ışığıyla parlayan tek cisim Güneş'tir.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Ben ise kendi ışığımı üretirim. Gözlerim LED!",
+          "spoken": "Ben ise kendi ışığımı üretirim. Gözlerim led!",
+          "factIds": []
+        },
+        {
+          "id": "l10",
+          "display": "İşin püf noktası şu: Ay'ın yarısı her zaman Güneş tarafından aydınlatılır.",
+          "spoken": "İşin püf noktası şu: Ay'ın yarısı her zaman Güneş tarafından aydınlatılır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Ay'ın biçimi ay boyunca hiç değişmez. Değişen, bizim ona bakış açımızdır.",
+          "spoken": "Ay'ın biçimi ay boyunca hiç değişmez. Değişen, bizim ona bakış açımızdır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Ay, Dünya'nın çevresinde bir yörüngede dolanır. Dolandıkça aydınlık yarısının bazen tamamını, bazen bir kısmını görürüz; bazen de hiç göremeyiz.",
+          "spoken": "Ay, Dünya'nın çevresinde bir yörüngede dolanır. Dolandıkça aydınlık yarısının bazen tamamını, bazen bir kısmını görürüz; bazen de hiç göremeyiz.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Bu farklı görünümlere Ay'ın evreleri denir.",
+          "spoken": "Bu farklı görünümlere Ay'ın evreleri denir.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Peki Dünya'nın gölgesi? Evrelerin nedeni o değildir. Dünya'nın gölgesi Ay'a yalnızca Ay tutulmasında düşer.",
+          "spoken": "Peki Dünya'nın gölgesi? Evrelerin nedeni o değildir. Dünya'nın gölgesi Ay'a yalnızca Ay tutulmasında düşer.",
+          "factIds": [
+            "f3",
+            "f13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l15",
+          "display": "Sekiz evre var. İlki yeni ay: Ay, Dünya ile Güneş arasındadır ve aydınlık yüzü bize dönük değildir.",
+          "spoken": "Sekiz evre var. İlki yeni ay: Ay, Dünya ile Güneş arasındadır ve aydınlık yüzü bize dönük değildir.",
+          "factIds": [
+            "f4",
+            "f13"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Sonra incecik bir hilal belirir ve gece gece büyür.",
+          "spoken": "Sonra incecik bir hilal belirir ve gece gece büyür.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Ardından ilk dördün gelir: Ay'ı yarım daire gibi görürüz.",
+          "spoken": "Ardından ilk dördün gelir: Ay'ı yarım daire gibi görürüz.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Sonra şişkin ay: yarım ay ile dolunay arasındaki evre.",
+          "spoken": "Sonra şişkin ay: yarım ay ile dolunay arasındaki evre.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Ve dolunay! Aydınlık yüzün tamamı bize dönüktür.",
+          "spoken": "Ve dolunay! Aydınlık yüzün tamamı bize dönüktür.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Sonra her şey tersine döner: şişkin ay, son dördün, küçülen hilal ve yeniden yeni ay.",
+          "spoken": "Sonra her şey tersine döner: şişkin ay, son dördün, küçülen hilal ve yeniden yeni ay.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bir yeni aydan ötekine kadar yaklaşık 29,5 gün geçer.",
+          "spoken": "Bir yeni aydan ötekine kadar yaklaşık yirmi dokuz buçuk gün geçer.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "İlginç olan şu: Ay, Dünya'nın çevresindeki bir turunu yaklaşık 27,3 günde tamamlar. Aradaki fark, Dünya'nın da bu sırada Güneş'in çevresinde ilerlemesinden kaynaklanır.",
+          "spoken": "İlginç olan şu: Ay, Dünya'nın çevresindeki bir turunu yaklaşık yirmi yedi virgül üç günde tamamlar. Aradaki fark, Dünya'nın da bu sırada Güneş'in çevresinde ilerlemesinden kaynaklanır.",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bir ipucu daha: dolunay, Güneş batarken doğar. Ay her gün biraz daha geç doğar ve gündüz gökyüzünde bile sık sık görülebilir.",
+          "spoken": "Bir ipucu daha: dolunay, Güneş batarken doğar. Ay her gün biraz daha geç doğar ve gündüz gökyüzünde bile sık sık görülebilir.",
+          "factIds": [
+            "f15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l24",
+          "display": "Ay bize hep aynı yüzünü gösterir. NASA bunu, eşinin çevresinde dönerken yüzünü hep ona çeviren bir dansçıya benzetiyor.",
+          "spoken": "Ay bize hep aynı yüzünü gösterir. Nasa bunu, eşinin çevresinde dönerken yüzünü hep ona çeviren bir dansçıya benzetiyor.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Ben de fotoğraflarda hep iyi tarafımı dönerim. Ay'dan öğrendim!",
+          "spoken": "Ben de fotoğraflarda hep iyi tarafımı dönerim. Ay'dan öğrendim!",
+          "factIds": []
+        },
+        {
+          "id": "l26",
+          "display": "Göremediğimiz yüze karanlık yüz denmesi ise yanıltıcıdır. Doğru adı uzak yüzdür; çünkü Ay'ın yarısı her zaman aydınlıktır.",
+          "spoken": "Göremediğimiz yüze karanlık yüz denmesi ise yanıltıcıdır. Doğru adı uzak yüzdür; çünkü Ay'ın yarısı her zaman aydınlıktır.",
+          "factIds": [
+            "f8",
+            "f2"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Ay tutulması dolunayda olur: Dünya tam olarak Güneş ile Ay'ın arasına girer ve gölgesi Ay'ın üstüne düşer.",
+          "spoken": "Ay tutulması dolunayda olur: Dünya tam olarak Güneş ile Ay'ın arasına girer ve gölgesi Ay'ın üstüne düşer.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Peki neden her dolunayda tutulma olmaz? Çünkü Ay'ın yörüngesi, Dünya'nın yörüngesine göre yaklaşık 5 derece eğiktir.",
+          "spoken": "Peki neden her dolunayda tutulma olmaz? Çünkü Ay'ın yörüngesi, Dünya'nın yörüngesine göre yaklaşık beş derece eğiktir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Ay yalnızca gökyüzünü süslemez. Kütle çekimi okyanusları kabartır: gelgitlerin nedeni budur.",
+          "spoken": "Ay yalnızca gökyüzünü süslemez. Kütle çekimi okyanusları kabartır: gelgitlerin nedeni budur.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Biraz da sayı: Ay bize ortalama 384.400 kilometre uzaklıktadır ve genişliği Dünya'nınkinin üçte birinden azdır.",
+          "spoken": "Biraz da sayı: Ay bize ortalama üç yüz seksen dört bin dört yüz kilometre uzaklıktadır ve genişliği Dünya'nınkinin üçte birinden azdır.",
+          "factIds": [
+            "f9",
+            "f10"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Nasıl oluştu? NASA'ya göre büyük olasılıkla, milyarlarca yıl önce Mars büyüklüğünde bir gök cismi Dünya'ya çarptıktan sonra.",
+          "spoken": "Nasıl oluştu? Nasa'ya göre büyük olasılıkla, milyarlarca yıl önce Mars büyüklüğünde bir gök cismi Dünya'ya çarptıktan sonra.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi sıra sende! Karanlık bir odada masa lambasını yak: o Güneş olsun. Elindeki top Ay, sen de Dünya'sın.",
+          "spoken": "Şimdi sıra sende! Karanlık bir odada masa lambasını yak: o Güneş olsun. Elindeki top Ay, sen de Dünya'sın.",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Topu kolunu uzatarak tut ve olduğun yerde yavaşça dön. Topun aydınlık kısmının nasıl değiştiğine bak: hilal, dördün, dolunay!",
+          "spoken": "Topu kolunu uzatarak tut ve olduğun yerde yavaşça dön. Topun aydınlık kısmının nasıl değiştiğine bak: hilal, dördün, dolunay!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "İkinci görev: bir ay boyunca her akşam Ay'ı çiz. Böylece kendi Ay günlüğün olur.",
+          "spoken": "İkinci görev: bir ay boyunca her akşam Ay'ı çiz. Böylece kendi Ay günlüğün olur.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l35",
+          "display": "Bunu biliyor muydun? Ay bizden yavaş yavaş uzaklaşıyor: yılda yaklaşık 3,8 santimetre.",
+          "spoken": "Bunu biliyor muydun? Ay bizden yavaş yavaş uzaklaşıyor: yılda yaklaşık üç virgül sekiz santimetre.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Alınma, kişisel bir şey değil!",
+          "spoken": "Alınma, kişisel bir şey değil!",
+          "factIds": []
+        },
+        {
+          "id": "l37",
+          "display": "Hızlı soru! Ay kendi ışığını üretir mi?",
+          "spoken": "Hızlı soru! Ay kendi ışığını üretir mi?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l38",
+          "display": "Düşün bakalım... Hayır! Güneş'in ışığını yansıtır.",
+          "spoken": "Düşün bakalım... Hayır! Güneş'in ışığını yansıtır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l39",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l40",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l41",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l42",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de gözlerimi parlatmaya gidiyorum; bu gece dolunayla yarışacağım!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gözlerimi parlatmaya gidiyorum; bu gece dolunayla yarışacağım!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Ay kendi ışığını üretmez; Güneş ışığını yansıtır",
+    "Evreler, aydınlık yarının ne kadarını gördüğümüze bağlıdır",
+    "Ay bize hep aynı yüzünü gösterir; uzak yüz karanlık değildir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "Ay'ın Sekiz Yüzü",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🌑",
+        "name": "Yeni ay"
+      },
+      {
+        "emoji": "🌒",
+        "name": "Hilal"
+      },
+      {
+        "emoji": "🌓",
+        "name": "Dördün"
+      },
+      {
+        "emoji": "🌕",
+        "name": "Dolunay"
+      },
+      {
+        "emoji": "🌍",
+        "name": "Dünya"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Ay kendi ışığını üretmez, bil",
+          "Güneş'ten gelen ışığı yansıtır",
+          "Yarısı her zaman aydınlıktır",
+          "Değişen bizim bakış açımız"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yeni ay, hilal, dördün, dolunay!",
+          "Dünya'nın çevresinde döner Ay",
+          "Biçimi aynı, görünen değişir",
+          "Yirmi dokuz buçuk gün, baştan gelir"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Hep aynı yüzünü bize çevirir",
+          "Uzak yüz de Güneş'i görür",
+          "Dolunayda gölge düşerse tutulur",
+          "Çekimiyle denizler kabarır durur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yeni ay, hilal, dördün, dolunay!",
+          "Dünya'nın çevresinde döner Ay",
+          "Lambayı yak, topu al, sen de dene",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Ay gerçekten biçim mi değiştiriyor? Bu bölümde Ay'ın nasıl parladığını, yörüngesini ve sekiz evresini; yeni aydan dolunaya neler olduğunu, bir evre döngüsünün neden 29,5 gün sürdüğünü keşfediyoruz. Ay bize neden hep aynı yüzünü gösterir, Ay tutulması nasıl olur, gelgitlerle Ay'ın ilgisi nedir? Sonunda lamba ve topla Ay evreleri deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Yörünge",
+      "meaning": "Bir gök cisminin başka bir gök cisminin çevresinde izlediği yol."
+    },
+    {
+      "term": "Evre",
+      "meaning": "Ay'ın Dünya'dan görünen aydınlık kısmının aldığı biçimlerden her biri."
+    },
+    {
+      "term": "Hilal",
+      "meaning": "Ay'ın ince, yay biçiminde göründüğü evre."
+    },
+    {
+      "term": "Dördün",
+      "meaning": "Ay'ın yarım daire biçiminde göründüğü evre."
+    },
+    {
+      "term": "Şişkin ay",
+      "meaning": "Yarım ay ile dolunay arasındaki evre."
+    },
+    {
+      "term": "Ay tutulması",
+      "meaning": "Dünya'nın gölgesinin Ay'ın üstüne düşmesi."
+    },
+    {
+      "term": "Kütle çekimi",
+      "meaning": "Kütlesi olan cisimlerin birbirini çekmesi."
+    },
+    {
+      "term": "Gelgit",
+      "meaning": "Deniz seviyesinin gün içinde düzenli olarak yükselip alçalması."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 7,
+  "lastEpisodeNumber": 8,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -28,6 +28,10 @@
     "topic:deprem-nasil-olur": {
       "id": "2026-11-11-deprem-nasil-olur",
       "episodeNumber": 7
+    },
+    "topic:ay-neden-sekil-degistirir": {
+      "id": "2026-11-11-ay-neden-sekil-degistirir",
+      "episodeNumber": 8
     }
   }
 }

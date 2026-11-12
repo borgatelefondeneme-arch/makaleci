@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:ay-neden-sekil-degistirir",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:ay-neden-sekil-degistirir",
+    "title": "Ay neden şekil değiştirir?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-11",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-11T20:47:19.275Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-11T20:47:19.278Z",
+  "decidedAt": "2026-11-11T20:47:19.278Z"
+}

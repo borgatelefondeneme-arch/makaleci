@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Ay'ın Sekiz Yüzü",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Ay kendi ışığını üretmez, bil",
+          "start": 5.15,
+          "end": 9.02
+        },
+        {
+          "text": "Güneş'ten gelen ışığı yansıtır",
+          "start": 9.02,
+          "end": 12.88
+        },
+        {
+          "text": "Yarısı her zaman aydınlıktır",
+          "start": 12.88,
+          "end": 16.45
+        },
+        {
+          "text": "Değişen bizim bakış açımız",
+          "start": 16.45,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Yeni ay, hilal, dördün, dolunay!",
+          "start": 20.17,
+          "end": 23.25
+        },
+        {
+          "text": "Dünya'nın çevresinde döner Ay",
+          "start": 23.25,
+          "end": 26.34
+        },
+        {
+          "text": "Biçimi aynı, görünen değişir",
+          "start": 26.34,
+          "end": 29.68
+        },
+        {
+          "text": "Yirmi dokuz buçuk gün, baştan gelir",
+          "start": 29.68,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Hep aynı yüzünü bize çevirir",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Uzak yüz de Güneş'i görür",
+          "start": 36.89,
+          "end": 40.04
+        },
+        {
+          "text": "Dolunayda gölge düşerse tutulur",
+          "start": 40.04,
+          "end": 44.04
+        },
+        {
+          "text": "Çekimiyle denizler kabarır durur",
+          "start": 44.04,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Yeni ay, hilal, dördün, dolunay!",
+          "start": 48.19,
+          "end": 51.54
+        },
+        {
+          "text": "Dünya'nın çevresinde döner Ay",
+          "start": 51.54,
+          "end": 54.9
+        },
+        {
+          "text": "Lambayı yak, topu al, sen de dene",
+          "start": 54.9,
+          "end": 58.53
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.53,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
