@@ -1,0 +1,515 @@
+{
+ "paperId": "topic:dinozorlar-neden-yok-oldu",
+ "episodeNumber": 12,
+ "videoTitle": "Dinozorlar neden yok oldu?",
+ "paperTitleTr": "Dinozorlar neden yok oldu?",
+ "takeaways": [
+  "Dev bir asteroit çarptı; kurum ışığı azalttı, besin zinciri çöktü",
+  "İridyumlu kil tabakası ve Chicxulub krateri bunun kanıtıdır",
+  "Dinozorlar kuşlar olarak hâlâ yaşıyor"
+ ],
+ "description": "Dinozorları ne yok etti ve bunu nereden biliyoruz? Bu bölümde 66 milyon yıl önceki asteroit çarpışmasını, Chicxulub kraterini, kurumun ışığı nasıl azalttığını ve besin zincirinin domino gibi nasıl çöktüğünü; iridyumlu kil tabakasını ve Alvarez kuramını; volkanların ve iklim değişikliğinin rolünü keşfediyoruz. Kimler yok oldu, kimler kurtuldu, kuşlar neden yaşayan dinozorlardır? Sonunda domino besin zinciri deneyi ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Kitlesel yok oluş",
+   "meaning": "Çok sayıda canlı türünün aynı dönemde yok olması."
+  },
+  {
+   "term": "Asteroit",
+   "meaning": "Güneş'in çevresinde dolanan kayalık gök cismi."
+  },
+  {
+   "term": "Krater",
+   "meaning": "Bir gök cisminin çarpmasıyla oluşan büyük çukur."
+  },
+  {
+   "term": "İridyum",
+   "meaning": "Dünya'da çok nadir bulunan bir metal."
+  },
+  {
+   "term": "Besin zinciri",
+   "meaning": "Canlıların birbirini besin olarak izlediği sıra: bitki, otçul, etçil."
+  },
+  {
+   "term": "Ekosistem",
+   "meaning": "Bir bölgedeki canlıların ve çevrelerinin oluşturduğu bütün."
+  },
+  {
+   "term": "Pterozor",
+   "meaning": "Dinozorlarla aynı dönemde yaşamış uçan sürüngen."
+  },
+  {
+   "term": "Ammonit",
+   "meaning": "Sarmal kabuklu, soyu tükenmiş deniz canlısı."
+  },
+  {
+   "term": "Teropod",
+   "meaning": "Kuşların da evrildiği, etçil dinozor grubu."
+  }
+ ],
+ "song": {
+  "title": "Dinozorların Son Günü",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "☄️",
+    "name": "Asteroit"
+   },
+   {
+    "emoji": "🦖",
+    "name": "Dinozor"
+   },
+   {
+    "emoji": "🌋",
+    "name": "Volkan"
+   },
+   {
+    "emoji": "🐦",
+    "name": "Kuş"
+   },
+   {
+    "emoji": "🐭",
+    "name": "Memeli"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Altmış altı milyon yıl önce bir gün",
+     "Gökten bir asteroit düştü hızla",
+     "Kurum yayıldı, ışık azaldı",
+     "Bitkiler soldu, zincir koptu"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Domino, domino; zincir devrildi!",
+     "Dev dinozorlar sahneden çekildi",
+     "Kil tabakasında iridyum izi",
+     "Krater bulundu, çözüldü gizi"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Volkanlar da iklimi değiştirdi",
+     "Asteroit son darbeyi indirdi",
+     "Küçükler dayandı, tohumlar bekledi",
+     "Memeliler gelişti, büyüdü"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Domino, domino; zincir devrildi!",
+     "Dev dinozorlar sahneden çekildi",
+     "Ama bitmedi hikâye: kuşlar uçuyor!",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Bir zamanlar bu gezegende dev dinozorlar dolaşıyordu. Sonra bir gün, her şey değişti.",
+     "spoken": "Bir zamanlar bu gezegende dev dinozorlar dolaşıyordu. Sonra bir gün, her şey değişti.",
+     "factIds": []
+    },
+    {
+     "id": "l2",
+     "display": "Dinozorları ne yok etti? Ve bunu milyonlarca yıl sonra nasıl bilebiliyoruz?",
+     "spoken": "Dinozorları ne yok etti? Ve bunu milyonlarca yıl sonra nasıl bilebiliyoruz?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün Dünya tarihinin en ünlü dedektiflik hikâyesini çözüyoruz!",
+     "spoken": "Bugün Dünya tarihinin en ünlü dedektiflik hikâyesini çözüyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Baştan söyleyeyim: olay yerinde ben yoktum. O zamanlar daha üretilmemiştim!",
+     "spoken": "Baştan söyleyeyim: olay yerinde ben yoktum. O zamanlar daha üretilmemiştim!",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Üç sorumuz var. O gün ne oldu? Bilim insanları bunu nereden biliyor? Ve kimler hayatta kaldı?",
+     "spoken": "Üç sorumuz var. O gün ne oldu? Bilim insanları bunu nereden biliyor? Ve kimler hayatta kaldı?",
+     "factIds": []
+    },
+    {
+     "id": "l6",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l7",
+     "display": "Londra'daki Doğa Tarihi Müzesi'ne göre 66 milyon yıl önce dinozorlar çok kötü bir gün geçirdi.",
+     "spoken": "Londra'daki Doğa Tarihi Müzesi'ne göre altmış altı milyon yıl önce dinozorlar çok kötü bir gün geçirdi.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Dünya'daki hayvanların yaklaşık %75'i aynı dönemde yok oldu.",
+     "spoken": "Dünya'daki hayvanların yaklaşık yüzde yetmiş beşi aynı dönemde yok oldu.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Bu kadar çok canlının birlikte yok olmasına kitlesel yok oluş denir. National Geographic'e göre bu, Dünya tarihindeki beşinci kitlesel yok oluştu.",
+     "spoken": "Bu kadar çok canlının birlikte yok olmasına kitlesel yok oluş denir. Neşınıl Ciyografik'e göre bu, Dünya tarihindeki beşinci kitlesel yok oluştu.",
+     "factIds": [
+      "f18"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Baş şüpheli: bir asteroit. Asteroitler, Güneş'in çevresinde dolanan kayalık gök cisimleridir.",
+     "spoken": "Baş şüpheli: bir asteroit. Asteroitler, Güneş'in çevresinde dolanan kayalık gök cisimleridir.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "NASA'ya göre Güneş sisteminin yaklaşık 4,6 milyar yıl önceki oluşumundan arta kalan parçalardır.",
+     "spoken": "Nasa'ya göre Güneş sisteminin yaklaşık dört virgül altı milyar yıl önceki oluşumundan arta kalan parçalardır.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "Bu asteroidin genişliği 10–15 kilometre arasındaydı ve bugünkü Meksika'da, Yucatán Yarımadası'na çarptı.",
+     "spoken": "Bu asteroidin genişliği on ile on beş kilometre arasındaydı ve bugünkü Meksika'da, Yukatan Yarımadası'na çarptı.",
+     "factIds": [
+      "f3",
+      "f4"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Çok yüksek hızla çarptı ve adeta buharlaştı. Geriye 150 kilometre çapında bir krater bıraktı: Chicxulub krateri.",
+     "spoken": "Çok yüksek hızla çarptı ve adeta buharlaştı. Geriye yüz elli kilometre çapında bir krater bıraktı: Çikşulub krateri.",
+     "factIds": [
+      "f4",
+      "f5"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Chicxulub. Söylemesi zor, biliyorum. Benim ses kartım bile iki kez denedi!",
+     "spoken": "Çik, şu, lub. Söylemesi zor, biliyorum. Benim ses kartım bile iki kez denedi!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l15",
+     "display": "Çarpışma anında dev bir patlama dalgası ve sıcak dalgası yayıldı. Atmosfere çok büyük miktarda madde savruldu.",
+     "spoken": "Çarpışma anında dev bir patlama dalgası ve sıcak dalgası yayıldı. Atmosfere çok büyük miktarda madde savruldu.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Dev dalgalar Amerika kıtalarının bazı bölgelerini kapladı. Büyük yangınlar çıktı.",
+     "spoken": "Dev dalgalar Amerika kıtalarının bazı bölgelerini kapladı. Büyük yangınlar çıktı.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Ama asıl felaket sonra geldi. Kurum bütün Dünya'ya yayıldı.",
+     "spoken": "Ama asıl felaket sonra geldi. Kurum bütün Dünya'ya yayıldı.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Güneş tamamen kapanmadı; ama yeryüzüne ulaşan ışık azaldı. Bu da bitkilerin büyümesini etkiledi.",
+     "spoken": "Güneş tamamen kapanmadı; ama yeryüzüne ulaşan ışık azaldı. Bu da bitkilerin büyümesini etkiledi.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Gerisi domino taşları gibiydi: etki, besin zincirinin basamaklarını birer birer devirdi ve ekosistem çöktü.",
+     "spoken": "Gerisi domino taşları gibiydi: etki, besin zincirinin basamaklarını birer birer devirdi ve ekosistem çöktü.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Peki bunu nereden biliyoruz? İpucu, kayaların arasındaki ince bir kil tabakasında saklı.",
+     "spoken": "Peki bunu nereden biliyoruz? İpucu, kayaların arasındaki ince bir kil tabakasında saklı.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "1980'de fizikçi Luis Alvarez ve jeolog oğlu Walter, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü.",
+     "spoken": "Bin dokuz yüz seksende fizikçi Luis Alvares ve jeolog oğlu Voltır, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "İridyum, Dünya'da bulunan en nadir metallerden biridir.",
+     "spoken": "İridyum, Dünya'da bulunan en nadir metallerden biridir.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Başta bu fikir tartışmalıydı. Sonra krater bulundu: yaşı, yok oluşla tam olarak aynıydı!",
+     "spoken": "Başta bu fikir tartışmalıydı. Sonra krater bulundu: yaşı, yok oluşla tam olarak aynıydı!",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Bugün bu, en yaygın kabul gören açıklamadır.",
+     "spoken": "Bugün bu, en yaygın kabul gören açıklamadır.",
+     "factIds": [
+      "f10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l25",
+     "display": "Ama suçlu yalnızca asteroit değil. Çarpışmadan önce de Dünya'nın iklimi değişiyordu.",
+     "spoken": "Ama suçlu yalnızca asteroit değil. Çarpışmadan önce de Dünya'nın iklimi değişiyordu.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Bugünkü Hindistan'ın orta kesiminde iki milyon yıl boyunca çok yoğun volkanik etkinlik yaşandı.",
+     "spoken": "Bugünkü Hindistan'ın orta kesiminde iki milyon yıl boyunca çok yoğun volkanik etkinlik yaşandı.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Müzeye göre asteroit, son ve öldürücü darbe oldu. Yok oluşun tam olarak nasıl işlediği ise hâlâ tartışılıyor.",
+     "spoken": "Müzeye göre asteroit, son ve öldürücü darbe oldu. Yok oluşun tam olarak nasıl işlediği ise hâlâ tartışılıyor.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Kimler yok oldu? Uçan sürüngenler pterozorlar, büyük deniz sürüngenleri ve ammonitler. Ağırlığı 25 kilogramı geçen bütün kara hayvanları da.",
+     "spoken": "Kimler yok oldu? Uçan sürüngenler pterozorlar, büyük deniz sürüngenleri ve ammonitler. Ağırlığı yirmi beş kilogramı geçen bütün kara hayvanları da.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Ben o sınırın altındayım. Hafif olmanın iyi yanları da var!",
+     "spoken": "Ben o sınırın altındayım. Hafif olmanın iyi yanları da var!",
+     "factIds": []
+    },
+    {
+     "id": "l30",
+     "display": "Peki kimler kurtuldu? Hayatta kalanlar küçüktü. Bitkiler de hayvanlardan daha az etkilendi; çünkü tohumları ve polenleri zor dönemlere daha uzun dayanabilir.",
+     "spoken": "Peki kimler kurtuldu? Hayatta kalanlar küçüktü. Bitkiler de hayvanlardan daha az etkilendi; çünkü tohumları ve polenleri zor dönemlere daha uzun dayanabilir.",
+     "factIds": [
+      "f13",
+      "f14"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Ve işte büyük sürpriz: dinozorların hepsi yok olmadı. Dinozorlar, kuşlar olarak hayatta kaldı!",
+     "spoken": "Ve işte büyük sürpriz: dinozorların hepsi yok olmadı. Dinozorlar, kuşlar olarak hayatta kaldı!",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l32",
+     "display": "Kuşlar, teropod denen etçil bir dinozor grubundan evrildi. Küçük olmaları, çok çeşitli besinler yiyebilmeleri ve uçabilmeleri büyük olasılıkla onlara yardım etti.",
+     "spoken": "Kuşlar, teropod denen etçil bir dinozor grubundan evrildi. Küçük olmaları, çok çeşitli besinler yiyebilmeleri ve uçabilmeleri büyük olasılıkla onlara yardım etti.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l33",
+     "display": "Bugün en az 11.000 kuş türü var. Yani penceredeki serçe, yaşayan bir dinozor!",
+     "spoken": "Bugün en az on bir bin kuş türü var. Yani penceredeki serçe, yaşayan bir dinozor!",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l34",
+     "display": "National Geographic'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi.",
+     "spoken": "Neşınıl Ciyografik'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi.",
+     "factIds": [
+      "f16"
+     ]
+    },
+    {
+     "id": "l35",
+     "display": "Şimdi sıra sende! Dört domino taşı diz ve üzerlerine küçük kâğıtlarla şunları yaz: Güneş ışığı, bitki, otçul, etçil.",
+     "spoken": "Şimdi sıra sende! Dört domino taşı diz ve üzerlerine küçük kâğıtlarla şunları yaz: Güneş ışığı, bitki, otçul, etçil.",
+     "factIds": []
+    },
+    {
+     "id": "l36",
+     "display": "İlk taşı devir. Zincirin bir halkası bozulunca ötekilere ne oluyor? Ekosistemin çöküşü işte böyle işler.",
+     "spoken": "İlk taşı devir. Zincirin bir halkası bozulunca ötekilere ne oluyor? Ekosistemin çöküşü işte böyle işler.",
+     "factIds": [
+      "f8"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l37",
+     "display": "Bunu biliyor muydun? NASA'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli.",
+     "spoken": "Bunu biliyor muydun? Nasa'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l38",
+     "display": "Hızlı soru! Dinozorların bugün yaşayan temsilcileri hangi hayvanlar?",
+     "spoken": "Hızlı soru! Dinozorların bugün yaşayan temsilcileri hangi hayvanlar?",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l39",
+     "display": "Düşün bakalım... Evet: kuşlar!",
+     "spoken": "Düşün bakalım... Evet: kuşlar!",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l40",
+     "display": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
+     "spoken": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
+     "factIds": []
+    },
+    {
+     "id": "l41",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l42",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l43",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l44",
+     "display": "Abone olmayı ve zili açmayı unutma. Ben de gökyüzünü kollamaya gidiyorum; asteroit görürsem haber veririm!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gökyüzünü kollamaya gidiyorum; asteroit görürsem haber veririm!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

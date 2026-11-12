@@ -1,0 +1,942 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Dinozorları ne yok etti?",
+    "emoji": "🦖"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🦕",
+    "☄️",
+    "🌋",
+    "🔍"
+   ],
+   "keywords": [
+    "",
+    "NASIL BİLİYORUZ?",
+    "DEDEKTİFLİK ZAMANI 🔍"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Tanık değilim",
+    "emoji": "🤖",
+    "chips": [
+     {
+      "label": "Olay yerinde yoktum",
+      "emoji": "🙅"
+     },
+     {
+      "label": "Daha üretilmemiştim",
+      "emoji": "🏭"
+     },
+     {
+      "label": "İpuçlarını izleyeceğiz",
+      "emoji": "🔍"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🕵️",
+    "🦴"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "context",
+   "lineIds": [
+    "l5",
+    "l6"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "O gün ne oldu?",
+     "Bilim insanları bunu nereden biliyor?",
+     "Kimler hayatta kaldı?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l7"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "66 milyon",
+    "unit": "yıl önce",
+    "label": "Dinozorların çok kötü günü",
+    "sub": "Doğa Tarihi Müzesi",
+    "icon": "🦖"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "📅",
+    "🦕"
+   ],
+   "keywords": [
+    "ÇOK KÖTÜ BİR GÜN"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kitlesel yok oluş",
+    "emoji": "🦕",
+    "chips": [
+     {
+      "label": "Hayvanların yaklaşık %75'i yok oldu",
+      "emoji": "📉"
+     },
+     {
+      "label": "Çok sayıda canlı, birlikte",
+      "emoji": "🐾"
+     },
+     {
+      "label": "Dünya tarihindeki beşincisi",
+      "emoji": "🖐️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f18"
+   ],
+   "stickers": [
+    "🦴",
+    "🌍"
+   ],
+   "keywords": [
+    "YAKLAŞIK DÖRTTE ÜÇÜ",
+    "KİTLESEL YOK OLUŞ"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Baş şüpheli: asteroit",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Kayalık gök cismi",
+      "emoji": "☄️"
+     },
+     {
+      "label": "Güneş'in çevresinde dolanır",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Yaklaşık 4,6 milyar yıllık kalıntı",
+      "emoji": "🪨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🔭",
+    "🌌"
+   ],
+   "keywords": [
+    "ASTEROİT ☄️",
+    "ÇOK ESKİ KALINTI"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "method",
+   "lineIds": [
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Çarpışma",
+    "left": {
+     "title": "Asteroit ☄️",
+     "items": [
+      "10–15 km genişlik",
+      "Çok yüksek hız",
+      "Adeta buharlaştı"
+     ]
+    },
+    "right": {
+     "title": "Krater 🕳️",
+     "items": [
+      "Chicxulub",
+      "Yucatán Yarımadası, Meksika",
+      "150 km çap"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4",
+    "f5"
+   ],
+   "stickers": [
+    "💥",
+    "🗺️"
+   ],
+   "keywords": [
+    "MEKSİKA'YA ÇARPTI",
+    "DEV KRATER 🕳️"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "method",
+   "lineIds": [
+    "l14"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Chicxulub",
+    "emoji": "🗣️",
+    "chips": [
+     {
+      "label": "Çik",
+      "emoji": "1️⃣"
+     },
+     {
+      "label": "şu",
+      "emoji": "2️⃣"
+     },
+     {
+      "label": "lub!",
+      "emoji": "3️⃣"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🎤",
+    "😅"
+   ],
+   "keywords": [
+    "ÇİK-ŞU-LUB 😅"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "İlk anlar",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Patlama ve sıcak dalgası",
+      "emoji": "💥"
+     },
+     {
+      "label": "Atmosfere savrulan madde",
+      "emoji": "🌫️"
+     },
+     {
+      "label": "Dev dalgalar",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Yangınlar",
+      "emoji": "🔥"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "stickers": [
+    "☄️",
+    "🌎"
+   ],
+   "keywords": [
+    "PATLAMA DALGASI 💥",
+    "DALGALAR + YANGIN"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Yeryüzüne ulaşan ışık",
+    "label": "Güneş ışığı",
+    "emoji": "☀️",
+    "phases": [
+     {
+      "label": "Kurum bütün Dünya'ya yayılır",
+      "level": 0.6,
+      "emoji": "🌫️"
+     },
+     {
+      "label": "Işık azalır: bitkiler etkilenir",
+      "level": 0.22,
+      "emoji": "🌿"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🌥️",
+    "🥀"
+   ],
+   "keywords": [
+    "KURUM 🌫️",
+    "IŞIK AZALDI"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "finding",
+   "lineIds": [
+    "l19"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Domino etkisi",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Bitkiler",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Bitki yiyenler",
+      "emoji": "🦕"
+     },
+     {
+      "label": "Et yiyenler",
+      "emoji": "🦖"
+     },
+     {
+      "label": "Ekosistem çöker",
+      "emoji": "📉"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🁢",
+    "⛓️"
+   ],
+   "keywords": [
+    "DOMİNO ETKİSİ"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l20",
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "İpucu: iridyum",
+    "emoji": "🔍",
+    "chips": [
+     {
+      "label": "İnce bir kil tabakası",
+      "emoji": "🪨"
+     },
+     {
+      "label": "İridyumca zengin",
+      "emoji": "✨"
+     },
+     {
+      "label": "1980: Alvarez baba ve oğul",
+      "emoji": "👨‍🔬"
+     },
+     {
+      "label": "İridyum: en nadir metallerden",
+      "emoji": "💎"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🕵️",
+    "🧪"
+   ],
+   "keywords": [
+    "KİL TABAKASI",
+    "ALVAREZ KURAMI",
+    "İRİDYUM 💎"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "finding",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kanıtlar birleşiyor",
+    "left": {
+     "title": "Kil tabakası 🪨",
+     "items": [
+      "İridyumca zengin",
+      "Kayalarda izlenebiliyor"
+     ]
+    },
+    "right": {
+     "title": "Krater 🕳️",
+     "items": [
+      "Bulundu",
+      "Yaşı yok oluşla aynı"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "🧩",
+    "✅"
+   ],
+   "keywords": [
+    "KRATER BULUNDU!",
+    "EN YAYGIN AÇIKLAMA ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Tek suçlu asteroit değil",
+    "items": [
+     "İklim zaten değişiyordu",
+     "Hindistan'da iki milyon yıl volkanik etkinlik",
+     "Asteroit: son darbe",
+     "Ayrıntılar hâlâ tartışılıyor"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🌋",
+    "🌡️"
+   ],
+   "keywords": [
+    "İKLİM DEĞİŞİYORDU",
+    "VOLKANLAR 🌋",
+    "SON DARBE ☄️"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kimler yok oldu?",
+    "emoji": "🦴",
+    "chips": [
+     {
+      "label": "Pterozorlar: uçan sürüngenler",
+      "emoji": "🦅"
+     },
+     {
+      "label": "Büyük deniz sürüngenleri",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Ammonitler",
+      "emoji": "🐚"
+     },
+     {
+      "label": "25 kg'dan ağır kara hayvanları",
+      "emoji": "⚖️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "🦕",
+    "🤖"
+   ],
+   "keywords": [
+    "YOK OLANLAR",
+    "BEN HAFİFİM 😄"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "importance",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kimler kurtuldu?",
+    "left": {
+     "title": "Küçük hayvanlar 🐭",
+     "items": [
+      "Hayatta kalanlar küçüktü"
+     ]
+    },
+    "right": {
+     "title": "Bitkiler 🌱",
+     "items": [
+      "Tohum ve polen dayanıklı",
+      "Daha az etkilendiler"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13",
+    "f14"
+   ],
+   "stickers": [
+    "🌰",
+    "🐁"
+   ],
+   "keywords": [
+    "KÜÇÜKLER KURTULDU"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "importance",
+   "lineIds": [
+    "l31"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Kuşlar",
+    "label": "Yaşayan dinozorlar",
+    "sub": "Dinozorlar kuşlar olarak hayatta kaldı",
+    "icon": "🐦"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🦖",
+    "🪶"
+   ],
+   "keywords": [
+    "BÜYÜK SÜRPRİZ! 🐦"
+   ]
+  },
+  {
+   "id": "s18",
+   "section": "importance",
+   "lineIds": [
+    "l32",
+    "l33"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kuşlar neden başardı?",
+    "emoji": "🐦",
+    "chips": [
+     {
+      "label": "Teropodlardan evrildiler",
+      "emoji": "🦖"
+     },
+     {
+      "label": "Küçük beden",
+      "emoji": "🤏"
+     },
+     {
+      "label": "Çok çeşitli besin",
+      "emoji": "🌰"
+     },
+     {
+      "label": "Uçabilme",
+      "emoji": "🪽"
+     },
+     {
+      "label": "Bugün en az 11.000 tür",
+      "emoji": "🌍"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "🪶",
+    "🐤"
+   ],
+   "keywords": [
+    "TEROPOD 🦖",
+    "SERÇE = DİNOZOR!"
+   ]
+  },
+  {
+   "id": "s19",
+   "section": "importance",
+   "lineIds": [
+    "l34"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sıra memelilerde",
+    "items": [
+     "Dinozorlardan sonra geliştiler",
+     "Zamanla büyüdüler"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16"
+   ],
+   "stickers": [
+    "🐭",
+    "🐘"
+   ],
+   "keywords": [
+    "MEMELİLER 🐭"
+   ]
+  },
+  {
+   "id": "s20",
+   "section": "importance",
+   "lineIds": [
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Sen de dene: domino besin zinciri",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Güneş ışığı",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Bitki",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Otçul",
+      "emoji": "🦕"
+     },
+     {
+      "label": "Etçil",
+      "emoji": "🦖"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🁢",
+    "📓"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "İLK TAŞI DEVİR!"
+   ]
+  },
+  {
+   "id": "s21",
+   "section": "limitations",
+   "lineIds": [
+    "l37"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Gökyüzü nöbeti",
+    "emoji": "🛰️",
+    "chips": [
+     {
+      "label": "NASA asteroitleri bulur",
+      "emoji": "🔭"
+     },
+     {
+      "label": "İzler",
+      "emoji": "📡"
+     },
+     {
+      "label": "Tehlikeli olabilecekleri inceler",
+      "emoji": "☄️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f17"
+   ],
+   "stickers": [
+    "🌍",
+    "🛡️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s22",
+   "section": "limitations",
+   "lineIds": [
+    "l38",
+    "l39",
+    "l40"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Dinozorların yaşayan temsilcileri kim?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🦖",
+    "🐦"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "KUŞLAR ✅",
+    "SELAM VER 🕊️"
+   ]
+  },
+  {
+   "id": "s23",
+   "section": "limitations",
+   "lineIds": [
+    "l41"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s24",
+   "section": "summary",
+   "lineIds": [
+    "l42",
+    "l43",
+    "l44"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Dinozorların Son Günü",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Altmış altı milyon yıl önce bir gün",
+          "start": 5.15,
+          "end": 9.1
+        },
+        {
+          "text": "Gökten bir asteroit düştü hızla",
+          "start": 9.1,
+          "end": 13.04
+        },
+        {
+          "text": "Kurum yayıldı, ışık azaldı",
+          "start": 13.04,
+          "end": 16.68
+        },
+        {
+          "text": "Bitkiler soldu, zincir koptu",
+          "start": 16.68,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Domino, domino; zincir devrildi!",
+          "start": 20.17,
+          "end": 23.44
+        },
+        {
+          "text": "Dev dinozorlar sahneden çekildi",
+          "start": 23.44,
+          "end": 26.72
+        },
+        {
+          "text": "Kil tabakasında iridyum izi",
+          "start": 26.72,
+          "end": 30
+        },
+        {
+          "text": "Krater bulundu, çözüldü gizi",
+          "start": 30,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Volkanlar da iklimi değiştirdi",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Asteroit son darbeyi indirdi",
+          "start": 36.89,
+          "end": 40.61
+        },
+        {
+          "text": "Küçükler dayandı, tohumlar bekledi",
+          "start": 40.61,
+          "end": 44.61
+        },
+        {
+          "text": "Memeliler gelişti, büyüdü",
+          "start": 44.61,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Domino, domino; zincir devrildi!",
+          "start": 48.19,
+          "end": 51.53
+        },
+        {
+          "text": "Dev dinozorlar sahneden çekildi",
+          "start": 51.53,
+          "end": 54.88
+        },
+        {
+          "text": "Ama bitmedi hikâye: kuşlar uçuyor!",
+          "start": 54.88,
+          "end": 58.73
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.73,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

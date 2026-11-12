@@ -1,0 +1,201 @@
+{
+  "paperId": "topic:dinozorlar-neden-yok-oldu",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "How an asteroid ended the age of the dinosaurs",
+      "publisher": "Doğa Tarihi Müzesi",
+      "url": "https://www.nhm.ac.uk/discover/how-an-asteroid-caused-extinction-of-dinosaurs.html"
+    },
+    {
+      "id": "k2",
+      "title": "Why are birds the only surviving dinosaurs?",
+      "publisher": "Doğa Tarihi Müzesi",
+      "url": "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html"
+    },
+    {
+      "id": "k3",
+      "title": "Extinction",
+      "publisher": "National Geographic",
+      "url": "https://education.nationalgeographic.org/resource/extinction/"
+    },
+    {
+      "id": "k4",
+      "title": "Asteroids",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/asteroids/"
+    },
+    {
+      "id": "k5",
+      "title": "When did dinosaurs become extinct?",
+      "publisher": "USGS",
+      "url": "https://www.usgs.gov/faqs/when-did-dinosaurs-become-extinct"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "number",
+      "statement": "66 milyon yıl önce dinozorlar çok kötü bir gün geçirdi; yok oluşun tarihi 66,0 milyon yıl öncedir.",
+      "numbers": [
+        "66"
+      ],
+      "quote": "Sixty-six million years ago, dinosaurs had the ultimate bad day. / the date of the dinosaur extinction is 66.0 million years ago.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f2",
+      "kind": "number",
+      "statement": "Dünya'daki hayvanların yaklaşık %75'i, dinozorlar dahil, aynı zamanda aniden yok oldu.",
+      "numbers": [
+        "75"
+      ],
+      "quote": "Around 75% of Earth's animals, including dinosaurs, suddenly died out at the same point in time.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f3",
+      "kind": "number",
+      "statement": "Asteroitler Güneş'in çevresinde dolanan büyük, kayalık cisimlerdir; Güneş sisteminin yaklaşık 4,6 milyar yıl önceki oluşumundan arta kalan parçalardır. Bu asteroidin 10–15 kilometre genişliğinde olduğu düşünülüyor.",
+      "numbers": [
+        "4.6",
+        "10",
+        "15"
+      ],
+      "quote": "Asteroids are large, rocky objects that orbit the Sun. / rocky, airless remnants left over from the early formation of our solar system about 4.6 billion years ago. / The asteroid is thought to have been between 10 and 15 kilometres wide,",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs; NASA Science — Asteroids"
+    },
+    {
+      "id": "f4",
+      "kind": "number",
+      "statement": "Çarpma yeri Chicxulub krateri olarak bilinir ve merkezi Meksika'daki Yucatán Yarımadası'ndadır; krater 150 kilometre çapındadır.",
+      "numbers": [
+        "150"
+      ],
+      "quote": "The impact site, known as the Chicxulub crater, is centred on the Yucatán Peninsula in Mexico. / the velocity of its collision caused the creation of a much larger crater, 150 kilometres in diameter.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Asteroit yüksek hızla çarptı ve fiilen buharlaştı; dev bir patlama dalgası ve sıcak dalgası yayıldı, atmosfere çok büyük miktarda madde savruldu.",
+      "numbers": [],
+      "quote": "The asteroid hit at high velocity and effectively vaporised. / A huge blast wave and heatwave went out and it threw vast amounts of material up into the atmosphere.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Dev dalgalar Amerika kıtalarının bazı bölgelerini kapladı; büyük yangınların kanıtları da var.",
+      "numbers": [],
+      "quote": "caused massive tidal waves to wash over parts of the American continents. / There's also evidence of substantial fires from that point in history.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Kurum bütün dünyaya yayıldı; Güneş'i tamamen kapatmadı ama yeryüzüne ulaşan ışığı azalttı ve bitki büyümesini etkiledi.",
+      "numbers": [],
+      "quote": "It sent soot travelling all around the world. / It didn't completely block out the Sun, but it reduced the amount of light that reached the Earth's surface. / So it had an impact on plant growth.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Domino taşları gibi, bu durum besin zincirinin üst basamaklarını etkiledi ve ekosistemin çökmesine yol açtı.",
+      "numbers": [],
+      "quote": "Like dominos, this had knock-on effects up the food chain, causing the ecosystem to collapse.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "1980'de fizikçi Luis Walter Alvarez ve jeolog oğlu Walter, iridyumca zengin tarihsel bir kil tabakasının büyük bir asteroidin Dünya'ya çarpmasından kaynaklandığı kuramını yayımladı. İridyum Dünya'da bulunan en nadir metallerden biridir.",
+      "numbers": [
+        "1980"
+      ],
+      "quote": "In 1980, Nobel Prize-winning physicist Luis Walter Alvarez and his geologist son Walter published a theory / that a historic layer of iridium-rich clay was caused by a large asteroid colliding with Earth. / Iridium is one of the rarest metals found on Earth.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Alvarez hipotezi başta tartışmalıydı ama bugün en yaygın kabul gören kuramdır; krater bulunmuştur ve yaşı kuş olmayan dinozorların yok oluşuyla tam olarak aynıdır.",
+      "numbers": [],
+      "quote": "The Alvarez hypothesis was initially controversial, but it's now the most widely accepted theory / An asteroid impact is supported by really good evidence because we've identified the crater, / It's exactly the same age as the extinction of the non-bird dinosaurs, which can be tracked in the rock record all around the world.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Suç yalnızca asteroitte değildir: çarpışmadan önce Dünya bir iklim değişikliği dönemindeydi; bugünkü Hindistan'ın orta kesiminde iki milyon yıl boyunca çok büyük volkanik etkinlik sürdü; asteroit son, öldürücü darbeydi. Öldürme mekanizması hâlâ tartışılıyor.",
+      "numbers": [],
+      "quote": "The blame can't solely rest on the asteroid. / Prior to its crash landing, Earth was experiencing a period of climate change. / In what's now central India, there was substantial volcanic activity / For two million years there was a huge amount of volcanic activity going on, / The asteroid was the final, killer blow. / There is a lot of discussion over the actual kill mechanism and how long that period lasted.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f12",
+      "kind": "number",
+      "statement": "Ammonitler, bazı mikroskobik planktonlar, pterozorlar ve büyük deniz sürüngenleri yok oldu; ağırlığı 25 kilogramın üstündeki bütün kara hayvanları da yok oldu.",
+      "numbers": [
+        "25"
+      ],
+      "quote": "Among them, ammonites, some microscopic plankton, pterosaurs and large marine reptiles all died out. / But all land animals weighing over 25 kilogrammes died out.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Bitkiler hayvanlardan daha az etkilendi; çünkü tohumları ve polenleri zor dönemlere daha uzun dayanabilir.",
+      "numbers": [],
+      "quote": "plants were less affected than animals because their seeds and pollen can survive harsh periods for longer.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f14",
+      "kind": "claim",
+      "statement": "Hayatta kalanlar başlangıçta küçüktü; kuş olmayan bütün dinozorlar yok oldu ama dinozorlar kuşlar olarak hayatta kaldı.",
+      "numbers": [],
+      "quote": "Initially the survivors were small, with birds the first to experience evolution to larger sizes. / All of the non-bird dinosaurs died out, but dinosaurs survived as birds.",
+      "location": "Natural History Museum — How an asteroid ended the age of the dinosaurs"
+    },
+    {
+      "id": "f15",
+      "kind": "number",
+      "statement": "Kuşlar teropod denen etçil bir dinozor grubundan evrildi; hayatta kalmalarında büyük olasılıkla küçük bedenleri, çok farklı besinler yiyebilmeleri ve uçabilmeleri etkili oldu; bugün en az 11.000 kuş türü vardır.",
+      "numbers": [
+        "11.000"
+      ],
+      "quote": "Birds evolved from a group of meat-eating dinosaurs called theropods. / The answer probably lies in a combination of things: their small size, the fact they can eat a lot of different foods and their ability to fly. / Today there are at least 11,000 bird species.",
+      "location": "Natural History Museum — Why are birds the only surviving dinosaurs?"
+    },
+    {
+      "id": "f16",
+      "kind": "claim",
+      "statement": "Dinozorların yok oluşu memelilerin gelişip büyümesine olanak verdi.",
+      "numbers": [],
+      "quote": "In the case of the Cretaceous extinction, the demise of the dinosaurs allowed mammals to thrive and grow larger.",
+      "location": "National Geographic Education — Extinction"
+    },
+    {
+      "id": "f17",
+      "kind": "claim",
+      "statement": "NASA'nın bir birimi, Dünya için çarpma tehlikesi oluşturabilecek asteroit ve kuyrukluyıldızları bulma, izleme ve daha iyi anlama görevini yürütür.",
+      "numbers": [],
+      "quote": "manages NASA's mission to find, track, and better understand asteroids and comets that could pose an impact hazard to Earth.",
+      "location": "NASA Science — Asteroids"
+    },
+    {
+      "id": "f18",
+      "kind": "number",
+      "statement": "Yaklaşık 66 milyon yıl önce, Kretase döneminin sonunda beşinci kitlesel yok oluş yaşandı.",
+      "numbers": [
+        "66"
+      ],
+      "quote": "Finally, about 66 million years ago, at the end of the Cretaceous period came the fifth mass extinction.",
+      "location": "National Geographic Education — Extinction"
+    }
+  ]
+}
