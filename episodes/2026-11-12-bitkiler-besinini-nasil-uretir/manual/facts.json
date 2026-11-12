@@ -1,0 +1,131 @@
+{
+ "paperId": "topic:bitkiler-besinini-nasil-uretir",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Photosynthesis",
+   "publisher": "National Geographic",
+   "url": "https://education.nationalgeographic.org/resource/photosynthesis/"
+  },
+  {
+   "id": "k2",
+   "title": "Chlorophyll",
+   "publisher": "National Geographic",
+   "url": "https://education.nationalgeographic.org/resource/chlorophyll/"
+  },
+  {
+   "id": "k3",
+   "title": "Earth Observatory",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/earth/earth-observatory/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Fotosentez, bitkilerin Güneş ışığını, suyu ve karbondioksiti kullanarak oksijen ve şeker biçiminde enerji ürettiği süreçtir.",
+   "numbers": [],
+   "quote": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar.",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Bitkiler karbondioksiti ve suyu havadan ve topraktan alır.",
+   "numbers": [],
+   "quote": "plants take in carbon dioxide (CO2) and water (H2O) from the air and soil.",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Bitkiler Güneş ışığının enerjisini yakalayarak oksijen ve glikozda (bir şeker) depolanan kimyasal enerji üretir.",
+   "numbers": [],
+   "quote": "capture energy from sunlight to produce oxygen (O2) and chemical energy stored in glucose (a sugar)",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Bitki oksijeni havaya geri verir, enerjiyi glikoz moleküllerinde saklar.",
+   "numbers": [],
+   "quote": "The plant then releases the oxygen back into the air, and stores energy within the glucose molecules.",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Bitki hücresinin içinde Güneş ışığının enerjisini depolayan kloroplast adlı küçük organeller vardır; klorofil kloroplastlarda bulunur.",
+   "numbers": [],
+   "quote": "Inside the plant cell are small organelles called chloroplasts, which store the energy of sunlight. / Chlorophyll is located in a plant’s chloroplasts, which are tiny structures in a plant’s cells.",
+   "location": "National Geographic Education — Photosynthesis; National Geographic Education — Chlorophyll"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Klorofil mavi ve kırmızı ışık dalgalarının enerjisini soğurur, yeşil ışık dalgalarını yansıtır; bitkilere yeşil rengini verir.",
+   "numbers": [],
+   "quote": "chlorophyll absorbs energy from blue- and red-light waves, and reflects green-light waves / Chlorophyll gives plants their green color because it does not absorb the green wavelengths of white light.",
+   "location": "National Geographic Education — Photosynthesis; National Geographic Education — Chlorophyll"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Işığa bağımlı tepkime tilakoit zarında gerçekleşir ve sürekli Güneş ışığı gerektirir; su yükseltgenir (elektron kaybeder) ve oksijene dönüşür; ATP ve NADPH molekülleri oluşur.",
+   "numbers": [],
+   "quote": "The light-dependent reaction takes place within the thylakoid membrane and requires a steady stream of sunlight / Within the plant cell, the water is oxidized, meaning it loses electrons / energy from the ATP and NADPH molecules",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Işığa bağımlı olmayan aşama (Calvin döngüsü) stromada gerçekleşir; ATP ve NADPH moleküllerindeki enerji, karbondioksitten glikoz gibi karbonhidrat moleküllerini kurmak için kullanılır.",
+   "numbers": [],
+   "quote": "The light-independent stage, also known as the Calvin cycle, takes place in the stroma / energy from the ATP and NADPH molecules is used to assemble carbohydrate molecules, like glucose, from carbon dioxide.",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Bitkiler glikozu topraktan aldıkları besin maddeleriyle birlikte yeni yapraklar ve başka bitki bölümleri yapmak için kullanır.",
+   "numbers": [],
+   "quote": "Plants use glucose together with nutrients taken from the soil to make new leaves and other plant parts.",
+   "location": "National Geographic Education — Chlorophyll"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Dünya'daki yaşamın çoğu fotosenteze bağlıdır; karadan denize her tür ekosistemde besin ağları fotosentezle başlar.",
+   "numbers": [],
+   "quote": "Most life on Earth depends on photosynthesis. / Because food webs in every type of ecosystem, from terrestrial to marine, begin with photosynthesis",
+   "location": "National Geographic Education — Photosynthesis; National Geographic Education — Chlorophyll"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "Fotosentezi bitkiler, algler ve bazı bakteri türleri yapar.",
+   "numbers": [],
+   "quote": "The process is carried out by plants, algae, and some types of bacteria",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Soluduğumuz oksijenin çoğu okyanustaki minik bitkilerden gelir.",
+   "numbers": [],
+   "quote": "Did you know that most of the oxygen we breathe comes from tiny plants in the ocean?",
+   "location": "National Geographic Education — Photosynthesis"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "Sonbaharda yeşil klorofil azaldıkça öteki pigmentler ortaya çıkar.",
+   "numbers": [],
+   "quote": "As green chlorophyll fades from trees and plants each autumn, other pigments color Earth’s landscapes.",
+   "location": "NASA Science — Earth Observatory"
+  }
+ ]
+}

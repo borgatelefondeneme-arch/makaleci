@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:bitkiler-besinini-nasil-uretir",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:bitkiler-besinini-nasil-uretir",
+    "title": "Bitkiler besinini nasıl üretir?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-12",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-12T04:14:34.410Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-12T04:14:34.414Z",
+  "decidedAt": "2026-11-12T04:14:34.414Z"
+}

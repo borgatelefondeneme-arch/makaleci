@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Işıktan Şeker",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Havadan karbondioksit, topraktan su",
+          "start": 5.15,
+          "end": 9.08
+        },
+        {
+          "text": "Güneşin ışığı yaprağa konar",
+          "start": 9.08,
+          "end": 12.73
+        },
+        {
+          "text": "Kloroplastta klorofil yakalar",
+          "start": 12.73,
+          "end": 16.09
+        },
+        {
+          "text": "Mavi, kırmızı içeri; yeşil yansır",
+          "start": 16.09,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Fotosentez! Işıktan şeker!",
+          "start": 20.17,
+          "end": 23.11
+        },
+        {
+          "text": "Oksijen havaya, enerji glikoza",
+          "start": 23.11,
+          "end": 26.86
+        },
+        {
+          "text": "Önce ışık pillere dolar",
+          "start": 26.86,
+          "end": 29.81
+        },
+        {
+          "text": "Calvin döngüsü şekeri kurar",
+          "start": 29.81,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Tilakoitte ışık, stromada döngü",
+          "start": 33.18,
+          "end": 37.51
+        },
+        {
+          "text": "ATP taşır enerji yükünü",
+          "start": 37.51,
+          "end": 40.92
+        },
+        {
+          "text": "Besin ağları burada başlar",
+          "start": 40.92,
+          "end": 44.63
+        },
+        {
+          "text": "Algler, bakteriler de yapar",
+          "start": 44.63,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Fotosentez! Işıktan şeker!",
+          "start": 48.19,
+          "end": 51.14
+        },
+        {
+          "text": "Oksijen havaya, enerji glikoza",
+          "start": 51.14,
+          "end": 54.89
+        },
+        {
+          "text": "Soluduğun oksijen onların işi",
+          "start": 54.89,
+          "end": 58.64
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.64,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

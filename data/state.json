@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 10,
+  "lastEpisodeNumber": 11,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -40,6 +40,10 @@
     "topic:kara-delik-nedir": {
       "id": "2026-11-12-kara-delik-nedir",
       "episodeNumber": 10
+    },
+    "topic:bitkiler-besinini-nasil-uretir": {
+      "id": "2026-11-12-bitkiler-besinini-nasil-uretir",
+      "episodeNumber": 11
     }
   }
 }

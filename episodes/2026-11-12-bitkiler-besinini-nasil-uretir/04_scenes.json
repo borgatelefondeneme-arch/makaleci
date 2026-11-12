@@ -1,0 +1,817 @@
+{
+  "paperId": "topic:bitkiler-besinini-nasil-uretir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Bir ağaç acıkınca ne yapar?",
+        "emoji": "🌳"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1"
+      ],
+      "stickers": [
+        "🍃",
+        "☀️",
+        "💧",
+        "🌱"
+      ],
+      "keywords": [
+        "",
+        "IŞIKLA BESİN!",
+        "YAPRAĞIN İÇİNE!"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kendi enerjini üret",
+        "emoji": "🤖",
+        "chips": [
+          {
+            "label": "Yaprağım yok",
+            "emoji": "🍃"
+          },
+          {
+            "label": "Şarj girişim var",
+            "emoji": "🔌"
+          },
+          {
+            "label": "Bitkileri kıskandım!",
+            "emoji": "😅"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🔋",
+        "🌿"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "context",
+      "lineIds": [
+        "l5",
+        "l6"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Bitki besinini neyle üretir?",
+          "Yaprağın içinde neler olur?",
+          "Bu olay bizim için neden hayati?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "🔎",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Fotosentezin malzemeleri",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Güneş ışığı",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Su: topraktan",
+            "emoji": "💧"
+          },
+          {
+            "label": "Karbondioksit: havadan",
+            "emoji": "💨"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🌱",
+        "🧪"
+      ],
+      "keywords": [
+        "FOTOSENTEZ",
+        "ÜÇ MALZEME"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Fotosentezin ürünleri",
+        "left": {
+          "title": "Oksijen 🫧",
+          "items": [
+            "Havaya geri verilir"
+          ]
+        },
+        "right": {
+          "title": "Glikoz 🍬",
+          "items": [
+            "Bir şeker",
+            "Enerjiyi depolar"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🍃",
+        "⚡"
+      ],
+      "keywords": [
+        "OKSİJEN + GLİKOZ",
+        "ENERJİ DEPOSU 🍬"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "method",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kloroplast",
+        "emoji": "🌿",
+        "chips": [
+          {
+            "label": "Hücredeki minik organel",
+            "emoji": "🔬"
+          },
+          {
+            "label": "Klorofil: yeşil pigment",
+            "emoji": "🟢"
+          },
+          {
+            "label": "Mavi ve kırmızıyı soğurur",
+            "emoji": "🔵"
+          },
+          {
+            "label": "Yeşili yansıtır",
+            "emoji": "🍃"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5",
+        "f6"
+      ],
+      "stickers": [
+        "☀️",
+        "🔴"
+      ],
+      "keywords": [
+        "KLOROPLAST",
+        "KLOROFİL 🟢",
+        "YEŞİLİ YANSITIR"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "method",
+      "lineIds": [
+        "l14"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Yeşil",
+        "label": "Bitkinin kullanmadığı renk",
+        "sub": "Bu yüzden yapraklar yeşil görünür",
+        "icon": "🍃"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🟢",
+        "😄"
+      ],
+      "keywords": [
+        "ARTAN RENK 😄"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l15"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "İki aşama",
+        "left": {
+          "title": "Işığa bağımlı tepkimeler ☀️",
+          "items": [
+            "Tilakoit zarında"
+          ]
+        },
+        "right": {
+          "title": "Calvin döngüsü 🔄",
+          "items": [
+            "Stromada"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f8"
+      ],
+      "stickers": [
+        "🏭",
+        "🍃"
+      ],
+      "keywords": [
+        "İKİ AŞAMA"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l16",
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Birinci aşama: ışığa bağımlı tepkimeler",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Güneş ışığı",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Su elektron kaybeder",
+            "emoji": "💧"
+          },
+          {
+            "label": "Oksijen çıkar",
+            "emoji": "🫧"
+          },
+          {
+            "label": "ATP ve NADPH yüklenir",
+            "emoji": "🔋"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "stickers": [
+        "⚡",
+        "🔬"
+      ],
+      "keywords": [
+        "TİLAKOİT ZARI",
+        "SU → OKSİJEN",
+        "ATP + NADPH 🔋"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "finding",
+      "lineIds": [
+        "l19"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "ATP: şarjlı pil",
+        "emoji": "🔋",
+        "chips": [
+          {
+            "label": "Enerji taşıyan molekül",
+            "emoji": "⚡"
+          },
+          {
+            "label": "Muma: bunu anladım!",
+            "emoji": "🤖"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🔌",
+        "😄"
+      ],
+      "keywords": [
+        "ŞARJLI PİL 🔋"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "finding",
+      "lineIds": [
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "İkinci aşama: Calvin döngüsü",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Karbondioksit",
+            "emoji": "💨"
+          },
+          {
+            "label": "ATP ve NADPH enerjisi",
+            "emoji": "🔋"
+          },
+          {
+            "label": "Glikoz",
+            "emoji": "🍬"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "🔄",
+        "🍃"
+      ],
+      "keywords": [
+        "CALVIN DÖNGÜSÜ 🔄",
+        "KARBONDİOKSİT → GLİKOZ"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "finding",
+      "lineIds": [
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Özet",
+        "items": [
+          "Işık enerjisi → ATP ve NADPH",
+          "ATP ve NADPH → glikoz",
+          "Glikoz + topraktaki besinler → yeni yapraklar"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f8",
+        "f9"
+      ],
+      "stickers": [
+        "📝",
+        "🌱"
+      ],
+      "keywords": [
+        "IŞIK → PİL → ŞEKER",
+        "YENİ YAPRAKLAR 🌱"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l24"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Yaşamın çoğu",
+        "label": "fotosenteze bağlı",
+        "sub": "National Geographic",
+        "icon": "🌍"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🌳",
+        "🐾"
+      ],
+      "keywords": [
+        "HAYATİ!"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Besin ağı fotosentezle başlar",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Güneş",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Bitki",
+            "emoji": "🌱"
+          },
+          {
+            "label": "Bitkiyi yiyen",
+            "emoji": "🐛"
+          },
+          {
+            "label": "Onu yiyen",
+            "emoji": "🐦"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f4",
+        "f10"
+      ],
+      "stickers": [
+        "🕸️",
+        "🫧"
+      ],
+      "keywords": [
+        "BESİN AĞI",
+        "OKSİJEN DE BURADAN 🫧"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "importance",
+      "lineIds": [
+        "l27"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kimler fotosentez yapar?",
+        "emoji": "☀️",
+        "chips": [
+          {
+            "label": "Bitkiler",
+            "emoji": "🌳"
+          },
+          {
+            "label": "Algler",
+            "emoji": "🌊"
+          },
+          {
+            "label": "Bazı bakteriler",
+            "emoji": "🦠"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "🔬",
+        "🍃"
+      ],
+      "keywords": [
+        "YALNIZCA BİTKİLER DEĞİL"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "importance",
+      "lineIds": [
+        "l28"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Sonbaharda yapraklar",
+        "left": {
+          "title": "Yazın 🍃",
+          "items": [
+            "Klorofil bol",
+            "Yapraklar yeşil"
+          ]
+        },
+        "right": {
+          "title": "Sonbaharda 🍂",
+          "items": [
+            "Klorofil azalır",
+            "Öteki pigmentler görünür"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🍁",
+        "🍂"
+      ],
+      "keywords": [
+        "SONBAHAR RENKLERİ 🍂"
+      ]
+    },
+    {
+      "id": "s17",
+      "section": "importance",
+      "lineIds": [
+        "l29",
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: ışık deneyi 🔬",
+        "items": [
+          "Aynı türden iki saksı bitkisi",
+          "Biri pencerede, biri karanlık dolapta",
+          "İkisine de aynı miktarda su",
+          "Bir hafta gözle ve tabloya yaz"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🪴",
+        "📓",
+        "💧"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "HER GÜN GÖZLE 👀",
+        "TABLO TUT 📓"
+      ]
+    },
+    {
+      "id": "s18",
+      "section": "importance",
+      "lineIds": [
+        "l32"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Unutma!",
+        "emoji": "🪴",
+        "chips": [
+          {
+            "label": "Deney bitince bitkiyi ışığa çıkar",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Ona iyi bak",
+            "emoji": "💚"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🌱",
+        "💧"
+      ],
+      "keywords": [
+        "IŞIĞA ÇIKAR ☀️"
+      ]
+    },
+    {
+      "id": "s19",
+      "section": "limitations",
+      "lineIds": [
+        "l33"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Okyanus",
+        "label": "Soluduğumuz oksijenin çoğunun kaynağı",
+        "sub": "Minik deniz bitkileri",
+        "icon": "🌊"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🫧",
+        "🐟"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s20",
+      "section": "limitations",
+      "lineIds": [
+        "l34",
+        "l35",
+        "l36"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Işığı soğuran yeşil pigmentin adı ne?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🍃",
+        "🟢"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "KLOROFİL ✅",
+        "YEŞİL IŞIK 🟢"
+      ]
+    },
+    {
+      "id": "s21",
+      "section": "limitations",
+      "lineIds": [
+        "l37"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s22",
+      "section": "summary",
+      "lineIds": [
+        "l38",
+        "l39",
+        "l40"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

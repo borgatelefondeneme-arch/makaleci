@@ -1,0 +1,482 @@
+{
+  "paperId": "topic:bitkiler-besinini-nasil-uretir",
+  "episodeNumber": 11,
+  "videoTitle": "Bitkiler besinini nasıl üretir?",
+  "paperTitleTr": "Bitkiler besinini nasıl üretir?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Sen acıkınca mutfağa gidersin. Peki bir ağaç acıkınca ne yapar?",
+          "spoken": "Sen acıkınca mutfağa gidersin. Peki bir ağaç acıkınca ne yapar?",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Ne ağzı var ne midesi. Ama besinini kendi üretir; üstelik bunu ışıkla yapar!",
+          "spoken": "Ne ağzı var ne midesi. Ama besinini kendi üretir; üstelik bunu ışıkla yapar!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir yaprağın içine giriyoruz!",
+          "spoken": "Bugün bir yaprağın içine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Ben de enerjimi kendim üretmek isterdim. Ama bende yaprak yok, yalnızca şarj girişi var!",
+          "spoken": "Ben de enerjimi kendim üretmek isterdim. Ama bende yaprak yok, yalnızca şarj girişi var!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Üç sorumuz var. Bitki besinini neyle üretir? Yaprağın içinde neler olur? Ve bu olay bizim için neden hayati?",
+          "spoken": "Üç sorumuz var. Bitki besinini neyle üretir? Yaprağın içinde neler olur? Ve bu olay bizim için neden hayati?",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l7",
+          "display": "National Geographic'e göre fotosentez, bitkilerin Güneş ışığını, suyu ve karbondioksiti kullanarak oksijen ve şeker biçiminde enerji ürettiği süreçtir.",
+          "spoken": "Neşınıl Ciyografik'e göre fotosentez, bitkilerin Güneş ışığını, suyu ve karbondioksiti kullanarak oksijen ve şeker biçiminde enerji ürettiği süreçtir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Malzemeler basit: bitki, havadan karbondioksit, topraktan su alır.",
+          "spoken": "Malzemeler basit: bitki, havadan karbondioksit, topraktan su alır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Güneş ışığının enerjisini yakalar ve iki şey üretir: oksijen ve glikoz. Glikoz bir şekerdir; enerjiyi kimyasal olarak depolar.",
+          "spoken": "Güneş ışığının enerjisini yakalar ve iki şey üretir: oksijen ve glikoz. Glikoz bir şekerdir; enerjiyi kimyasal olarak depolar.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Bitki oksijeni havaya geri verir, enerjiyi ise glikoz moleküllerinde saklar.",
+          "spoken": "Bitki oksijeni havaya geri verir, enerjiyi ise glikoz moleküllerinde saklar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Bütün bunlar nerede olur? Bitki hücrelerinin içindeki kloroplast adlı minik organellerde.",
+          "spoken": "Bütün bunlar nerede olur? Bitki hücrelerinin içindeki kloroplast adlı minik organellerde.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Kloroplastlarda klorofil adlı bir pigment, yani renk maddesi bulunur. Işığın enerjisini soğuran odur.",
+          "spoken": "Kloroplastlarda klorofil adlı bir pigment, yani renk maddesi bulunur. Işığın enerjisini soğuran odur.",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Klorofil, ışığın mavi ve kırmızı dalgalarını soğurur; yeşil dalgaları ise yansıtır. Yapraklar bu yüzden yeşil görünür.",
+          "spoken": "Klorofil, ışığın mavi ve kırmızı dalgalarını soğurur; yeşil dalgaları ise yansıtır. Yapraklar bu yüzden yeşil görünür.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Yani bitkiler, kullanmadığı rengi bize yolluyor. Yeşil aslında artan renk!",
+          "spoken": "Yani bitkiler, kullanmadığı rengi bize yolluyor. Yeşil aslında artan renk!",
+          "factIds": [
+            "f6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l15",
+          "display": "Şimdi yaprağın içindeki fabrikaya girelim. Fotosentez iki aşamada gerçekleşir.",
+          "spoken": "Şimdi yaprağın içindeki fabrikaya girelim. Fotosentez iki aşamada gerçekleşir.",
+          "factIds": [
+            "f7",
+            "f8"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Birinci aşama: ışığa bağımlı tepkimeler. Kloroplastın içindeki tilakoit zarında gerçekleşir ve sürekli Güneş ışığı ister.",
+          "spoken": "Birinci aşama: ışığa bağımlı tepkimeler. Kloroplastın içindeki tilakoit zarında gerçekleşir ve sürekli Güneş ışığı ister.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Burada su molekülleri elektron kaybeder; buna yükseltgenme denir. Su, oksijene dönüşür.",
+          "spoken": "Burada su molekülleri elektron kaybeder; buna yükseltgenme denir. Su, oksijene dönüşür.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Işığın enerjisi ise ATP ve NADPH adlı iki enerji taşıyıcı moleküle yüklenir.",
+          "spoken": "Işığın enerjisi ise A Te Pe ve En A De Pe Ha adlı iki enerji taşıyıcı moleküle yüklenir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Yani ATP, bitkinin şarjlı pili. Sonunda benim de anladığım bir şey!",
+          "spoken": "Yani A Te Pe, bitkinin şarjlı pili. Sonunda benim de anladığım bir şey!",
+          "factIds": []
+        },
+        {
+          "id": "l20",
+          "display": "İkinci aşama: Calvin döngüsü. Işığa bağımlı değildir ve kloroplastın stroma adlı bölümünde gerçekleşir.",
+          "spoken": "İkinci aşama: Kalvin döngüsü. Işığa bağımlı değildir ve kloroplastın stroma adlı bölümünde gerçekleşir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bu aşamada ATP ve NADPH'deki enerji kullanılır ve karbondioksitten glikoz gibi karbonhidrat molekülleri kurulur.",
+          "spoken": "Bu aşamada A Te Pe ve En A De Pe Ha'daki enerji kullanılır ve karbondioksitten glikoz gibi karbonhidrat molekülleri kurulur.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Özetle: ışığın enerjisi önce pillere, sonra şekere aktarılır.",
+          "spoken": "Özetle: ışığın enerjisi önce pillere, sonra şekere aktarılır.",
+          "factIds": [
+            "f7",
+            "f8"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Peki bitki glikozu ne yapar? Topraktan aldığı besin maddeleriyle birlikte yeni yapraklar ve başka bölümler üretir.",
+          "spoken": "Peki bitki glikozu ne yapar? Topraktan aldığı besin maddeleriyle birlikte yeni yapraklar ve başka bölümler üretir.",
+          "factIds": [
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l24",
+          "display": "Bu olay yalnızca bitkiler için önemli değildir. National Geographic'e göre Dünya'daki yaşamın çoğu fotosenteze bağlıdır.",
+          "spoken": "Bu olay yalnızca bitkiler için önemli değildir. Neşınıl Ciyografik'e göre Dünya'daki yaşamın çoğu fotosenteze bağlıdır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Çünkü karadan denize, her ekosistemde besin ağları fotosentezle başlar. Bitkiyi yiyen de, onu yiyen de enerjisini en başta buradan alır.",
+          "spoken": "Çünkü karadan denize, her ekosistemde besin ağları fotosentezle başlar. Bitkiyi yiyen de, onu yiyen de enerjisini en başta buradan alır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Soluduğun oksijen de fotosentezin ürünüdür.",
+          "spoken": "Soluduğun oksijen de fotosentezin ürünüdür.",
+          "factIds": [
+            "f1",
+            "f4"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Fotosentez yapanlar yalnızca bitkiler değildir: algler ve bazı bakteri türleri de yapar.",
+          "spoken": "Fotosentez yapanlar yalnızca bitkiler değildir: algler ve bazı bakteri türleri de yapar.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Peki sonbaharda yapraklar neden renk değiştirir? NASA'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar.",
+          "spoken": "Peki sonbaharda yapraklar neden renk değiştirir? Nasa'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi sıra sende! Aynı türden iki küçük saksı bitkisi al. Birini pencere önüne, ötekini karanlık bir dolaba koy.",
+          "spoken": "Şimdi sıra sende! Aynı türden iki küçük saksı bitkisi al. Birini pencere önüne, ötekini karanlık bir dolaba koy.",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "İkisine de aynı miktarda su ver. Bir hafta boyunca her gün ikisini de gözle: renklerine ve yapraklarına bak.",
+          "spoken": "İkisine de aynı miktarda su ver. Bir hafta boyunca her gün ikisini de gözle: renklerine ve yapraklarına bak.",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Gözlemlerini bir tabloya yaz. Işık eksik kalınca bitkide ne değişiyor?",
+          "spoken": "Gözlemlerini bir tabloya yaz. Işık eksik kalınca bitkide ne değişiyor?",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Deney bitince dolaptaki bitkiyi yeniden ışığa çıkarmayı unutma!",
+          "spoken": "Deney bitince dolaptaki bitkiyi yeniden ışığa çıkarmayı unutma!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "Bunu biliyor muydun? National Geographic'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir.",
+          "spoken": "Bunu biliyor muydun? Neşınıl Ciyografik'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Hızlı soru! Işığın enerjisini soğuran yeşil pigmentin adı neydi?",
+          "spoken": "Hızlı soru! Işığın enerjisini soğuran yeşil pigmentin adı neydi?",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Düşün bakalım... Evet: klorofil!",
+          "spoken": "Düşün bakalım... Evet: klorofil!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Bende klorofil yok. Ama şarj ışığım yeşil yanıyor; o da bir şey!",
+          "spoken": "Bende klorofil yok. Ama şarj ışığım yeşil yanıyor; o da bir şey!",
+          "factIds": []
+        },
+        {
+          "id": "l37",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l38",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l39",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l40",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de pencere önüne geçeyim; fotosentez yapamam ama güneşlenmeyi severim!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de pencere önüne geçeyim; fotosentez yapamam ama güneşlenmeyi severim!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Bitkiler ışık, su ve karbondioksitten glikoz ve oksijen üretir",
+    "Klorofil ışığı soğurur; fotosentez iki aşamada gerçekleşir",
+    "Besin ağları ve soluduğumuz oksijen fotosenteze bağlıdır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "Işıktan Şeker",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "💧",
+        "name": "Su"
+      },
+      {
+        "emoji": "🍃",
+        "name": "Klorofil"
+      },
+      {
+        "emoji": "🍬",
+        "name": "Glikoz"
+      },
+      {
+        "emoji": "🫧",
+        "name": "Oksijen"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Havadan karbondioksit, topraktan su",
+          "Güneşin ışığı yaprağa konar",
+          "Kloroplastta klorofil yakalar",
+          "Mavi, kırmızı içeri; yeşil yansır"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fotosentez! Işıktan şeker!",
+          "Oksijen havaya, enerji glikoza",
+          "Önce ışık pillere dolar",
+          "Calvin döngüsü şekeri kurar"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Tilakoitte ışık, stromada döngü",
+          "ATP taşır enerji yükünü",
+          "Besin ağları burada başlar",
+          "Algler, bakteriler de yapar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Fotosentez! Işıktan şeker!",
+          "Oksijen havaya, enerji glikoza",
+          "Soluduğun oksijen onların işi",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Bir ağaç acıkınca ne yapar? Bu bölümde fotosentezi; bitkilerin ışık, su ve karbondioksitten nasıl glikoz ve oksijen ürettiğini; kloroplastı, klorofili ve yaprakların neden yeşil göründüğünü; ışığa bağımlı tepkimeleri, ATP ile NADPH'yi ve Calvin döngüsünü keşfediyoruz. Fotosentez bizim için neden hayati, sonbaharda yapraklar neden renk değiştirir? Sonunda iki saksıyla ışık deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Fotosentez",
+      "meaning": "Bitkilerin ışık, su ve karbondioksit kullanarak oksijen ve şeker üretmesi."
+    },
+    {
+      "term": "Karbondioksit",
+      "meaning": "Havada bulunan, bitkilerin fotosentezde kullandığı gaz."
+    },
+    {
+      "term": "Glikoz",
+      "meaning": "Enerjiyi depolayan bir şeker."
+    },
+    {
+      "term": "Kloroplast",
+      "meaning": "Bitki hücresinde fotosentezin gerçekleştiği minik organel."
+    },
+    {
+      "term": "Klorofil",
+      "meaning": "Işığın enerjisini soğuran ve bitkilere yeşil rengini veren pigment."
+    },
+    {
+      "term": "Pigment",
+      "meaning": "Renk veren madde."
+    },
+    {
+      "term": "ATP",
+      "meaning": "Hücrede enerji taşıyan molekül."
+    },
+    {
+      "term": "Calvin döngüsü",
+      "meaning": "Fotosentezin, karbondioksitten glikoz kurulan ikinci aşaması."
+    },
+    {
+      "term": "Ekosistem",
+      "meaning": "Bir bölgedeki canlıların ve çevrelerinin oluşturduğu bütün."
+    }
+  ]
+}
