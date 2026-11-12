@@ -7,10 +7,10 @@ import { clamp } from "../anim";
 // Konuya özel sahneleme: arka plan dünyaları, ortamda gezen karakterler ve sahne efektleri.
 // Koyu dünyalarda (uzay, okyanus, yer altı, fırtına) içerik krem bir panonun üstünde durur; dünya çevresinde ve altında görünür.
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -81,6 +81,41 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: 90 }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
           <path d={`M 0 ${H} V 1010 Q 480 980 960 1004 T ${W} 996 V ${H} Z`} fill="#2E3A52" />
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "sky") {
+    // bulutların üstü: koyu maviden açığa gök, katmanlı hızla kayan bulutlar (yükseklik ve hız hissi)
+    return (
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #5FA8E8 0%, #A9D6F5 55%, #E6F4FD 100%)", overflow: "hidden" }}>
+        <div style={{ position: "absolute", left: 1600, top: 40, width: 220, height: 220, borderRadius: "50%", background: "radial-gradient(closest-side, #FFF6C9, #FFE58A 55%, transparent)" }} />
+        {Array.from({ length: 14 }, (_, i) => {
+          const layer = i % 3, sp = [0.7, 1.6, 3.2][layer], size = [110, 170, 260][layer];
+          const x = ((rnd(i, 1) * (W + 600) - f * sp) % (W + 600) + W + 600) % (W + 600) - 300;
+          const y = layer === 2 ? 800 + rnd(i, 2) * 200 : 60 + rnd(i, 2) * (layer ? 700 : 500);
+          return <div key={i} style={{ position: "absolute", left: x, top: y, fontSize: size, lineHeight: 1, opacity: [0.55, 0.75, 0.95][layer], fontFamily: F.head }}>☁️</div>;
+        })}
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {Array.from({ length: 10 }, (_, i) => { const y = 120 + i * 90, x = ((rnd(i, 5) * W - f * 9) % (W + 300) + W + 300) % (W + 300) - 150; return <line key={i} x1={x} y1={y} x2={x + 140} y2={y} stroke="#fff" strokeWidth={3} strokeLinecap="round" opacity={0.35} />; })}
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "micro") {
+    // mikroskop görüntüsü: büyük yuvarlak mercek alanı, içinde süzülen hücreler ve çubuk bakteriler
+    return (
+      <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 48%, #F2FBF6 0%, #DDF3E8 46%, #9CCDB8 47.5%, #38556A 49%, #24384A 100%)", overflow: "hidden" }}>
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {Array.from({ length: 26 }, (_, i) => {
+            const cx = W / 2 + Math.sin(f / (90 + i * 7) + i * 2.3) * 520 * rnd(i, 1) + (rnd(i, 2) - 0.5) * 300;
+            const cy = H / 2 + Math.cos(f / (80 + i * 5) + i) * 330 * rnd(i, 3) + (rnd(i, 4) - 0.5) * 200;
+            const k = i % 3, c = ["#7BC8A4", "#F3A6B6", "#A7B8F2"][k];
+            if (k === 0) return <g key={i} opacity={0.5}><circle cx={cx} cy={cy} r={26 + rnd(i, 5) * 22} fill={c} stroke="#3E8A6B" strokeWidth={3} /><circle cx={cx + 6} cy={cy - 4} r={8} fill="#3E8A6B" opacity={0.6} /></g>;
+            if (k === 1) return <rect key={i} x={cx - 34} y={cy - 12} width={68} height={24} rx={12} fill={c} stroke="#B65F75" strokeWidth={3} opacity={0.55} transform={`rotate(${f * 0.6 + i * 40} ${cx} ${cy})`} />;
+            return <g key={i} opacity={0.5} transform={`rotate(${f * 0.4 + i * 30} ${cx} ${cy})`}><circle cx={cx} cy={cy} r={18} fill={c} stroke="#5E6FB8" strokeWidth={3} />{[0, 60, 120, 180, 240, 300].map((a) => <line key={a} x1={cx + Math.cos(a * Math.PI / 180) * 18} y1={cy + Math.sin(a * Math.PI / 180) * 18} x2={cx + Math.cos(a * Math.PI / 180) * 30} y2={cy + Math.sin(a * Math.PI / 180) * 30} stroke="#5E6FB8" strokeWidth={3} />)}</g>;
+          })}
+          <circle cx={W / 2} cy={H * 0.48} r={H * 0.49} fill="none" stroke="#24384A" strokeWidth={22} opacity={0.35} />
         </svg>
       </AbsoluteFill>
     );
