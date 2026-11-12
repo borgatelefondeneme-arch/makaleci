@@ -1,0 +1,711 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Tırtıl nasıl kelebek olur?",
+    "emoji": "🦋"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🐛",
+    "🌸",
+    "🌿",
+    "🌼"
+   ],
+   "keywords": [
+    "",
+    "KANAT ÇIKARMAK?",
+    "MONARK KELEBEĞİ 🦋"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Kelebek hangi evrelerden geçer?",
+     "Kelebek kendini nasıl korur?",
+     "Monarklar neden göç eder?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Tam başkalaşım",
+    "rows": [
+     {
+      "label": "Yumurta",
+      "emoji": "🥚"
+     },
+     {
+      "label": "Tırtıl",
+      "emoji": "🐛"
+     },
+     {
+      "label": "Krizalit",
+      "emoji": "🫘"
+     },
+     {
+      "label": "Kelebek",
+      "emoji": "🦋"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 3,
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "keywords": [
+    "DÖRT EVRE",
+    "TAM BAŞKALAŞIM",
+    "KANAT YOK 🤖"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Yumurta",
+    "emoji": "🥚",
+    "chips": [
+     {
+      "label": "Süt otu yaprağının altına",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Bir dişi: 100–300 yumurta",
+      "emoji": "🔢"
+     },
+     {
+      "label": "Yaklaşık dört günde açılır",
+      "emoji": "⏳"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🦋",
+    "🍃"
+   ],
+   "keywords": [
+    "SÜT OTU 🌿",
+    "DÖRT GÜN"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l11",
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Tırtıl büyüyor",
+    "label": "Boy",
+    "emoji": "🐛",
+    "phases": [
+     {
+      "label": "İlk yemek: yumurta kabuğu",
+      "level": 0.12,
+      "emoji": "🥚"
+     },
+     {
+      "label": "1 cm'den küçükten yaklaşık 5 cm'ye",
+      "level": 0.85,
+      "emoji": "📏"
+     },
+     {
+      "label": "Deri değiştirir: instar",
+      "level": 0.95,
+      "emoji": "🔄"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🌿",
+    "🍃"
+   ],
+   "keywords": [
+    "İLK YEMEK 🥚",
+    "YAKLAŞIK 5 CM",
+    "İNSTAR"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Krizalit",
+    "emoji": "🫘",
+    "chips": [
+     {
+      "label": "Sert kılıf",
+      "emoji": "🛡️"
+     },
+     {
+      "label": "İçeride büyük değişim",
+      "emoji": "✨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f5"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🐛",
+    "🦋"
+   ],
+   "keywords": [
+    "KRİZALİT",
+    "İÇERİDE DEĞİŞİM ✨"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l16",
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kelebek çıkıyor",
+    "left": {
+     "title": "Pupa → kelebek",
+     "items": [
+      "En az beş gün"
+     ]
+    },
+    "right": {
+     "title": "Eklozyon 🦋",
+     "items": [
+      "Krizalitten çıkış",
+      "Muma: şarj istasyonundan çıkış!"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "⏱️",
+    "🔋"
+   ],
+   "keywords": [
+    "BEŞ GÜN",
+    "EKLOZYON 🦋",
+    "BANA İSİM YOK 😅"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Kelebeğin dili",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Hortum açılır",
+      "emoji": "➰"
+     },
+     {
+      "label": "Nektar içer",
+      "emoji": "🌺"
+     },
+     {
+      "label": "Sarmal gibi kıvrılır",
+      "emoji": "🌀"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "stickers": [
+    "🌸",
+    "🍯"
+   ],
+   "keywords": [
+    "HORTUM GİBİ DİL",
+    "SARMAL 🌀"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Zehirli kalkan",
+    "emoji": "☠️",
+    "chips": [
+     {
+      "label": "Tırtıl süt otu yer",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Zehir vücudunda kalır",
+      "emoji": "☠️"
+     },
+     {
+      "label": "Yiyen hayvan hastalanır",
+      "emoji": "🤢"
+     },
+     {
+      "label": "Desen: 'Beni yeme!'",
+      "emoji": "🟧"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f7"
+   ],
+   "stickers": [
+    "🐦",
+    "⚠️"
+   ],
+   "keywords": [
+    "ZEHİRLİ SÜT OTU",
+    "ZEHİR KALIR ☠️",
+    "BENİ YEME! 🟧"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "3.000",
+    "unit": "mil",
+    "label": "Bir gramdan hafif kelebeğin göç yolu",
+    "sub": "2.000–3.000 mil • günde 50–100 mil",
+    "icon": "🦋"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10",
+    "f13"
+   ],
+   "stickers": [
+    "🗺️",
+    "🌎"
+   ],
+   "keywords": [
+    "İKİ YÖNLÜ GÖÇ",
+    "BİNLERCE MİL",
+    "MEKSİKA'YA 🇲🇽"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l27"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kışlak",
+    "emoji": "🌲",
+    "chips": [
+     {
+      "label": "Tek ağaçta on binlerce monark",
+      "emoji": "🦋"
+     },
+     {
+      "label": "Meksika'da 11–12 dağlık bölge",
+      "emoji": "⛰️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "❄️",
+    "🌲"
+   ],
+   "keywords": [
+    "ON BİNLERCE!"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İki tür ömür",
+    "left": {
+     "title": "Çoğu monark",
+     "items": [
+      "Birkaç hafta yaşar"
+     ]
+    },
+    "right": {
+     "title": "Göçmen kuşak ✈️",
+     "items": [
+      "Yaz sonunda doğar",
+      "Sekiz dokuz ay yaşar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🦋",
+    "🗓️"
+   ],
+   "keywords": [
+    "GÖÇMEN KUŞAK ✈️"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kuzeye bayrak yarışı",
+    "rows": [
+     {
+      "label": "Kuzey",
+      "emoji": "🍁"
+     },
+     {
+      "label": "Sonraki kuşak",
+      "emoji": "🦋"
+     },
+     {
+      "label": "Bir sonraki",
+      "emoji": "🦋"
+     },
+     {
+      "label": "Meksika",
+      "emoji": "🌲"
+     }
+    ],
+    "path": [
+     3,
+     3,
+     2,
+     2,
+     1,
+     1,
+     0,
+     0
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim: kuzeye ulaşmak 3–4 kuşak sürer."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "keywords": [
+    "BAYRAK YARIŞI 🏃"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Monarkların derdi",
+    "label": "Tehlike",
+    "emoji": "⚠️",
+    "phases": [
+     {
+      "label": "Süt otu yok ediliyor",
+      "level": 0.6,
+      "emoji": "🌿"
+     },
+     {
+      "label": "Kışlak ormanları kesiliyor",
+      "level": 0.9,
+      "emoji": "🪓"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "🌲",
+    "🦋"
+   ],
+   "keywords": [
+    "BAŞLARI DERTTE"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "importance",
+   "lineIds": [
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: kelebek günlüğü",
+    "items": [
+     "Bahçede ya da parkta gözle",
+     "Renkleri ve çiçekleri not et",
+     "Dokunma, yalnızca izle ⚠️"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "📓",
+    "🌼"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "DOKUNMA ⚠️"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l33",
+    "l34"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kelebeğe dönüşülen evrenin adı ne?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🐛",
+    "🦋"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "KRİZALİT ✅"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "limitations",
+   "lineIds": [
+    "l35"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s18",
+   "section": "summary",
+   "lineIds": [
+    "l36",
+    "l37",
+    "l38"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

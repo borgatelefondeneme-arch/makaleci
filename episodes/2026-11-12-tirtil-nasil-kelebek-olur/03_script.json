@@ -1,0 +1,517 @@
+{
+  "paperId": "topic:tirtil-nasil-kelebek-olur",
+  "episodeNumber": 19,
+  "videoTitle": "Tırtıl nasıl kelebek olur?",
+  "paperTitleTr": "Tırtıl nasıl kelebek olur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Minik bir tırtıl, birkaç hafta sonra kanatlanıp uçuyor. Üstelik bazı kelebekler binlerce kilometre uzağa göç ediyor!",
+          "spoken": "Minik bir tırtıl, birkaç hafta sonra kanatlanıp uçuyor. Üstelik bazı kelebekler binlerce kilometre uzağa göç ediyor!",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Bir tırtıl nasıl kanat çıkarır? Ve o kadar küçük bir kelebek nasıl bu kadar uzağa uçar?",
+          "spoken": "Bir tırtıl nasıl kanat çıkarır? Ve o kadar küçük bir kelebek nasıl bu kadar uzağa uçar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün turuncu kanatlı bir yolcunun hikâyesini izliyoruz: monark kelebeği!",
+          "spoken": "Bugün turuncu kanatlı bir yolcunun hikâyesini izliyoruz: monark kelebeği!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Bir kelebek hangi evrelerden geçer? Tırtılın vücudu nasıl korunur? Ve monarklar neden göç eder?",
+          "spoken": "Üç sorumuz var. Bir kelebek hangi evrelerden geçer? Tırtılın vücudu nasıl korunur? Ve monarklar neden göç eder?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Orman Servisi'ne göre monark kelebeğinin dört yaşam evresi vardır: yumurta, tırtıl, krizalit ve ergin kelebek.",
+          "spoken": "A Be De Orman Servisi'ne göre monark kelebeğinin dört yaşam evresi vardır: yumurta, tırtıl, krizalit ve ergin kelebek.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Bu dört evreli büyük değişime tam başkalaşım denir.",
+          "spoken": "Bu dört evreli büyük değişime tam başkalaşım denir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Ben de çok güncelleme aldım. Ama hiçbirinde kanat çıkmadı!",
+          "spoken": "Ben de çok güncelleme aldım. Ama hiçbirinde kanat çıkmadı!",
+          "factIds": []
+        },
+        {
+          "id": "l9",
+          "display": "Her şey bir yumurtayla başlar. Dişi monark, yumurtalarını süt otu denen bitkinin yapraklarının altına bırakır.",
+          "spoken": "Her şey bir yumurtayla başlar. Dişi monark, yumurtalarını süt otu denen bitkinin yapraklarının altına bırakır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Bir dişi ömrü boyunca 100 ile 300 arasında yumurta bırakır. Yumurtalar yaklaşık dört gün sonra açılır.",
+          "spoken": "Bir dişi ömrü boyunca yüz ile üç yüz arasında yumurta bırakır. Yumurtalar yaklaşık dört gün sonra açılır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Yumurtadan çıkan tırtılın ilk yemeği ne? Kendi yumurtasının kabuğu! Sonra süt otu yapraklarına geçer.",
+          "spoken": "Yumurtadan çıkan tırtılın ilk yemeği ne? Kendi yumurtasının kabuğu! Sonra süt otu yapraklarına geçer.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Tırtıl yumurtadan çıktığında 1 santimetreden küçüktür. Yemeye yemeye yaklaşık 5 santimetreye kadar büyür.",
+          "spoken": "Tırtıl yumurtadan çıktığında bir santimetreden küçüktür. Yemeye yemeye yaklaşık beş santimetreye kadar büyür.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Büyürken derisi dar gelir ve deri değiştirir. İki deri değiştirme arasındaki her evreye instar denir.",
+          "spoken": "Büyürken derisi dar gelir ve deri değiştirir. İki deri değiştirme arasındaki her evreye instar denir.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Yeterince büyüyen tırtıl, sert bir kılıfın içine girer. Bu evreye pupa ya da krizalit denir.",
+          "spoken": "Yeterince büyüyen tırtıl, sert bir kılıfın içine girer. Bu evreye pupa ya da krizalit denir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Dışarıdan bakınca hiçbir şey olmuyor gibi görünür. Ama içeride, tırtılın vücudu kelebeğe dönüşmektedir.",
+          "spoken": "Dışarıdan bakınca hiçbir şey olmuyor gibi görünür. Ama içeride, tırtılın vücudu kelebeğe dönüşmektedir.",
+          "factIds": [
+            "f1",
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Orman Servisi'ne göre monark, en az beş günde pupadan ergin kelebeğe dönüşebilir.",
+          "spoken": "Orman Servisi'ne göre monark, en az beş günde pupadan ergin kelebeğe dönüşebilir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Kelebeğin krizalitten çıkmasının da bilimsel bir adı var: eklozyon.",
+          "spoken": "Kelebeğin krizalitten çıkmasının da bilimsel bir adı var: eklozyon.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Ben de her sabah şarj istasyonumdan çıkıyorum. Ama kimse buna özel bir isim vermedi!",
+          "spoken": "Ben de her sabah şarj istasyonumdan çıkıyorum. Ama kimse buna özel bir isim vermedi!",
+          "factIds": []
+        },
+        {
+          "id": "l19",
+          "display": "Ergin kelebek artık çiğneyemez. Uzun, hortum gibi bir diliyle çiçeklerden nektar içer.",
+          "spoken": "Ergin kelebek artık çiğneyemez. Uzun, hortum gibi bir diliyle çiçeklerden nektar içer.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Kullanmadığı zaman bu esnek dil, minik bir sarmal gibi kıvrılır.",
+          "spoken": "Kullanmadığı zaman bu esnek dil, minik bir sarmal gibi kıvrılır.",
+          "factIds": [
+            "f6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l21",
+          "display": "Peki minik bir kelebek kendini nasıl korur? Hatırlarsan tırtıl süt otu yiyordu. Ulusal Park Servisi'ne göre süt otu zehirlidir.",
+          "spoken": "Peki minik bir kelebek kendini nasıl korur? Hatırlarsan tırtıl süt otu yiyordu. Ulusal Park Servisi'ne göre süt otu zehirlidir.",
+          "factIds": [
+            "f2",
+            "f7"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Bu zehir, tırtıl kelebeğe dönüştükten sonra bile vücudunda kalır. Monarkı yiyen hayvanlar çok hastalanır ve bir daha bu desenli kelebeğe dokunmaz.",
+          "spoken": "Bu zehir, tırtıl kelebeğe dönüştükten sonra bile vücudunda kalır. Monarkı yiyen hayvanlar çok hastalanır ve bir daha bu desenli kelebeğe dokunmaz.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Yani o parlak turuncu ve siyah desen bir uyarı işaretidir: Beni yeme!",
+          "spoken": "Yani o parlak turuncu ve siyah desen bir uyarı işaretidir: Beni yeme!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi büyük yolculuğa gelelim. Monark, kuşlar gibi gidip gelen bir göç yaptığı bilinen tek kelebektir.",
+          "spoken": "Şimdi büyük yolculuğa gelelim. Monark, kuşlar gibi gidip gelen bir göç yaptığı bilinen tek kelebektir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Bir gramdan hafif bu kelebekler 2.000 ile 3.000 mil arasında uçar. Mil, kilometreden daha uzun bir uzunluk birimidir.",
+          "spoken": "Bir gramdan hafif bu kelebekler iki bin ile üç bin mil arasında uçar. Mil, kilometreden daha uzun bir uzunluk birimidir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Günde 50–100 mil yol alabilirler. Kuzey Amerika'nın doğusundaki monarklar, kışı Meksika'daki 11–12 dağlık bölgede geçirir.",
+          "spoken": "Günde elli ile yüz mil yol alabilirler. Kuzey Amerika'nın doğusundaki monarklar, kışı Meksika'daki on bir on iki dağlık bölgede geçirir.",
+          "factIds": [
+            "f9",
+            "f10"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Orada tek bir ağaçta on binlerce monark kümelenebilir!",
+          "spoken": "Orada tek bir ağaçta on binlerce monark kümelenebilir!",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "İşin şaşırtıcı yanı: monarkların çoğu yalnızca birkaç hafta yaşar. Ama yaz sonunda doğan kuşak göç için doğar ve sekiz dokuz ay yaşayabilir.",
+          "spoken": "İşin şaşırtıcı yanı: monarkların çoğu yalnızca birkaç hafta yaşar. Ama yaz sonunda doğan kuşak göç için doğar ve sekiz dokuz ay yaşayabilir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Baharda kuzeye dönüş ise bir bayrak yarışına benzer: kuzeye ulaşmak 3–4 kuşak sürer. Her kuşak bir öncekinden biraz daha kuzeye gider.",
+          "spoken": "Baharda kuzeye dönüş ise bir bayrak yarışına benzer: kuzeye ulaşmak üç dört kuşak sürer. Her kuşak bir öncekinden biraz daha kuzeye gider.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Ama monarkların başı dertte. Yumurta bırakmak için süt otuna ihtiyaçları var; oysa süt otu çoğu zaman zararlı ot sanılıp yok ediliyor. Kışladıkları ormanlar da kesiliyor.",
+          "spoken": "Ama monarkların başı dertte. Yumurta bırakmak için süt otuna ihtiyaçları var; oysa süt otu çoğu zaman zararlı ot sanılıp yok ediliyor. Kışladıkları ormanlar da kesiliyor.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Şimdi sıra sende! Bahçende ya da parkta bir kelebek gözlem günlüğü tut. Gördüğün kelebeklerin renklerini ve hangi çiçeklere konduklarını not et.",
+          "spoken": "Şimdi sıra sende! Bahçende ya da parkta bir kelebek gözlem günlüğü tut. Gördüğün kelebeklerin renklerini ve hangi çiçeklere konduklarını not et.",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Unutma: kelebeklere ve tırtıllara dokunma, yalnızca izle. Kanatları çok narindir.",
+          "spoken": "Unutma: kelebeklere ve tırtıllara dokunma, yalnızca izle. Kanatları çok narindir.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "Hızlı soru! Tırtılın sert bir kılıf içinde kelebeğe dönüştüğü evrenin adı neydi?",
+          "spoken": "Hızlı soru! Tırtılın sert bir kılıf içinde kelebeğe dönüştüğü evrenin adı neydi?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Düşün bakalım... Evet: krizalit, yani pupa!",
+          "spoken": "Düşün bakalım... Evet: krizalit, yani pupa!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l36",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l37",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l38",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de göçmen kelebeklere yol gösterebilir miyim, bir bakayım!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de göçmen kelebeklere yol gösterebilir miyim, bir bakayım!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Tam başkalaşım: yumurta, tırtıl, krizalit, kelebek",
+    "Süt otu zehri monarkı avcılardan korur",
+    "Monarklar kuşaklar boyunca binlerce mil göç eder"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "meadow",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐛",
+        "size": 84,
+        "every": 30
+      },
+      {
+        "kind": "fly",
+        "emoji": "🦋",
+        "every": 11
+      },
+      {
+        "kind": "fly",
+        "emoji": "🦋",
+        "size": 80,
+        "every": 17
+      }
+    ]
+  },
+  "song": {
+    "title": "Kanatlı Yolculuk",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🥚",
+        "name": "Yumurta"
+      },
+      {
+        "emoji": "🐛",
+        "name": "Tırtıl"
+      },
+      {
+        "emoji": "🫘",
+        "name": "Krizalit"
+      },
+      {
+        "emoji": "🦋",
+        "name": "Monark"
+      },
+      {
+        "emoji": "🌿",
+        "name": "Süt otu"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "🦋",
+        "size": 200,
+        "every": 6
+      },
+      {
+        "kind": "fly",
+        "emoji": "🦋",
+        "every": 8
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐛",
+        "every": 12
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌸"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌼"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌷"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Süt otu yaprağında minik yumurta",
+          "Tırtıl çıkar, kabuğunu yer",
+          "Yer de yer, büyür de büyür",
+          "Deri değiştirir, instar geçer"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yumurta, tırtıl, krizalit, kelebek!",
+          "Tam başkalaşım, büyük değişim",
+          "Kılıfın içinde gizli bir iş",
+          "Eklozyon olur, kanatlar açılır"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Süt otu zehri kalkanı olur",
+          "Turuncu desen: beni yeme der",
+          "Göçmen kuşak Meksika'ya uçar",
+          "Kuşaklar boyu yolculuk sürer"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yumurta, tırtıl, krizalit, kelebek!",
+          "Tam başkalaşım, büyük değişim",
+          "Dokunma, izle, not al günlüğe",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Bir tırtıl nasıl kanat çıkarır? Bu bölümde monark kelebeğini izleyerek tam başkalaşımın dört evresini; süt otuna bırakılan yumurtaları, büyüyüp deri değiştiren tırtılı, krizaliti ve eklozyonu keşfediyoruz. Monarklar kendilerini nasıl korur, binlerce millik göçlerini nasıl başarır? Sonunda kelebek günlüğü etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Tam başkalaşım",
+      "meaning": "Yumurta, larva, pupa ve ergin evrelerinden oluşan büyük değişim."
+    },
+    {
+      "term": "Larva",
+      "meaning": "Böceğin yumurtadan çıktıktan sonraki evresi; kelebekte tırtıl."
+    },
+    {
+      "term": "Pupa (krizalit)",
+      "meaning": "Tırtılın sert bir kılıf içinde kelebeğe dönüştüğü evre."
+    },
+    {
+      "term": "İnstar",
+      "meaning": "Tırtılın iki deri değiştirmesi arasındaki evre."
+    },
+    {
+      "term": "Eklozyon",
+      "meaning": "Kelebeğin krizalitten çıkması."
+    },
+    {
+      "term": "Nektar",
+      "meaning": "Çiçeklerin ürettiği şekerli sıvı."
+    },
+    {
+      "term": "Göç",
+      "meaning": "Hayvanların mevsime göre uzak bir yere gidip dönmesi."
+    },
+    {
+      "term": "Süt otu",
+      "meaning": "Monarkların yumurta bıraktığı zehirli bitki."
+    }
+  ]
+}

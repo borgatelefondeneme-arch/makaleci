@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Kanatlı Yolculuk",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Süt otu yaprağında minik yumurta",
+          "start": 5.15,
+          "end": 9.58
+        },
+        {
+          "text": "Tırtıl çıkar, kabuğunu yer",
+          "start": 9.58,
+          "end": 13.06
+        },
+        {
+          "text": "Yer de yer, büyür de büyür",
+          "start": 13.06,
+          "end": 16.22
+        },
+        {
+          "text": "Deri değiştirir, instar geçer",
+          "start": 16.22,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Yumurta, tırtıl, krizalit, kelebek!",
+          "start": 20.17,
+          "end": 23.51
+        },
+        {
+          "text": "Tam başkalaşım, büyük değişim",
+          "start": 23.51,
+          "end": 26.6
+        },
+        {
+          "text": "Kılıfın içinde gizli bir iş",
+          "start": 26.6,
+          "end": 29.68
+        },
+        {
+          "text": "Eklozyon olur, kanatlar açılır",
+          "start": 29.68,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Süt otu zehri kalkanı olur",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Turuncu desen: beni yeme der",
+          "start": 36.89,
+          "end": 40.61
+        },
+        {
+          "text": "Göçmen kuşak Meksika'ya uçar",
+          "start": 40.61,
+          "end": 44.32
+        },
+        {
+          "text": "Kuşaklar boyu yolculuk sürer",
+          "start": 44.32,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Yumurta, tırtıl, krizalit, kelebek!",
+          "start": 48.19,
+          "end": 51.82
+        },
+        {
+          "text": "Tam başkalaşım, büyük değişim",
+          "start": 51.82,
+          "end": 55.18
+        },
+        {
+          "text": "Dokunma, izle, not al günlüğe",
+          "start": 55.18,
+          "end": 58.53
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.53,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
