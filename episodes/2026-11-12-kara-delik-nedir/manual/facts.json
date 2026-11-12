@@ -1,0 +1,197 @@
+{
+ "paperId": "topic:kara-delik-nedir",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Black Holes",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/universe/black-holes/"
+  },
+  {
+   "id": "k2",
+   "title": "Black Hole Anatomy",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/universe/black-holes/anatomy/"
+  },
+  {
+   "id": "k3",
+   "title": "Black Hole Types",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/universe/black-holes/types/"
+  },
+  {
+   "id": "k4",
+   "title": "What Is a Black Hole? (Grades 5-8)",
+   "publisher": "NASA",
+   "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-a-black-hole-grades-5-8/"
+  },
+  {
+   "id": "k5",
+   "title": "First Image of a Black Hole",
+   "publisher": "NASA",
+   "url": "https://science.nasa.gov/resource/first-image-of-a-black-hole/"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Kara delik, kütle çekiminin ışığın bile kaçamayacağı kadar güçlü olduğu bir uzay bölgesidir; güçlü kütle çekimi, maddenin çok küçük bir alana sıkışmasından kaynaklanır.",
+   "numbers": [],
+   "quote": "A black hole is a region in space where the pulling force of gravity is so strong that light is not able to escape. / The strong gravity occurs because matter has been pressed into a tiny space.",
+   "location": "NASA — What Is a Black Hole? (Grades 5-8)"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Kara delikler aslında delik değildir; çok küçük alanlara sıkışmış dev madde yoğunlaşmalarıdır.",
+   "numbers": [],
+   "quote": "These objects aren’t really holes. / They’re huge concentrations of matter packed into very tiny spaces.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f3",
+   "kind": "number",
+   "statement": "Yıldız kütleli kara delikler, çok büyük kütleli bir yıldızın merkezi kendi üzerine çökünce oluşur; yıldız süpernova olarak patlar; kütlesi Güneş'in yaklaşık 20 katı ya da daha fazlaysa merkez yıldız kütleli bir kara deliğe çöker.",
+   "numbers": [
+    "20"
+   ],
+   "quote": "Stellar black holes form when the center of a very massive star collapses in upon itself. / its core collapses, rebounds, and explodes as a supernova. / If it had around 20 times the Sun’s mass or more, the star’s core collapses into a stellar-mass black hole.",
+   "location": "NASA — What Is a Black Hole? (Grades 5-8); NASA Science — Black Hole Types"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Güneş'in kütlesi kara deliğe çökmeye yetmez.",
+   "numbers": [],
+   "quote": "The sun does not have enough mass to collapse into a black hole.",
+   "location": "NASA — What Is a Black Hole? (Grades 5-8)"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Olay ufku kara deliğin yüzeyi gibi düşünülebilir; onu geçen her şey, ışık bile, içeride kalmaya mahkûmdur. Bu sınırın içinde kaçış için gereken hız ışık hızını aşar; hiçbir şey ışıktan hızlı gidemez.",
+   "numbers": [],
+   "quote": "We can think of the event horizon as the black hole’s surface. / So whatever passes into the event horizon is doomed to stay inside it – even light. / Inside this boundary, the velocity needed to escape the black hole exceeds the speed of light, which is as fast as anything can go.",
+   "location": "NASA Science — Black Hole Anatomy"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Kara deliğin tam merkezinde maddenin sonsuz yoğunluğa ezildiği bir nokta (tekillik) vardır.",
+   "numbers": [],
+   "quote": "the very center of a black hole contains a point where matter is crushed to infinite density.",
+   "location": "NASA Science — Black Hole Anatomy"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Kara delikten gelen ışığın ana kaynağı birikim diskidir; gaz çok yüksek sıcaklıklara ısınır ve her yöne X ışını yayar.",
+   "numbers": [],
+   "quote": "The main light source from a black hole is a structure called an accretion disk. / the gas heats to very high temperatures and releases X-ray light in all directions.",
+   "location": "NASA Science — Black Hole Anatomy; NASA — What Is a Black Hole? (Grades 5-8)"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Bazı kara deliklerden zıt yönlere fışkıran bir çift jet çıkar.",
+   "numbers": [],
+   "quote": "a pair of jets that blast away from it in opposite directions.",
+   "location": "NASA Science — Black Hole Anatomy"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Kara delikler kütlelerine göre üç gruba ayrılır: yıldız kütleli (Güneş'in birkaç katından yüzlerce katına), orta kütleli ve süper kütleli (Güneş'in yüz binlerce katından milyarlarca katına).",
+   "numbers": [],
+   "quote": "divide black holes into three categories according to their mass / The masses of these newly born objects can range from a few to hundreds of times the Sun’s mass / These monster objects have hundreds of thousands to billions of times the Sun’s mass / These should range from around one hundred to hundreds of thousands of times the Sun’s mass",
+   "location": "NASA Science — Black Hole Types"
+  },
+  {
+   "id": "f10",
+   "kind": "number",
+   "statement": "Bizim gökadamızın merkezindeki süper kütleli kara delik Sagittarius A*'dır; kütlesi Güneş'in 4 milyon katıdır.",
+   "numbers": [
+    "4"
+   ],
+   "quote": "Our is called Sagittarius A* (pronounced ey-star), and it’s 4 million times the Sun’s mass.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "Kara delikler ışık yaymaz ve yansıtmaz; teleskoplar için fiilen görünmezdir. Süper kütleli bir kara deliğin güçlü kütle çekimi, yıldızların çevresinde belirli bir biçimde dolanmasına yol açabilir.",
+   "numbers": [],
+   "quote": "Black holes don’t emit or reflect light, making them effectively invisible to telescopes. / A supermassive black hole’s intense gravity can cause stars to orbit around it in a particular way.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Kara delikler uzay-zamanın dokusunda kütle çekim dalgaları denen dalgalanmalar yaratır.",
+   "numbers": [],
+   "quote": "they create ripples in the fabric of space-time called gravitational waves.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f13",
+   "kind": "number",
+   "statement": "Bilim insanları Olay Ufku Teleskobu ile M87 gökadasının merkezindeki kara deliğin görüntüsünü elde etti (2019); Dünya'dan yaklaşık 55 milyon ışık yılı uzaktadır.",
+   "numbers": [
+    "87",
+    "55",
+    "2019"
+   ],
+   "quote": "Using the Event Horizon Telescope, scientists obtained an image of the black hole at the center of the galaxy M87. / located about 55 million light years from Earth. (April 10, 2019)",
+   "location": "NASA Science — First Image of a Black Hole"
+  },
+  {
+   "id": "f14",
+   "kind": "claim",
+   "statement": "Spagettileşme, maddenin kara deliğe fazla yaklaşınca başına gelenleri anlatan gerçek bir terimdir: madde yatayda sıkışır, dikeyde uzar ve bir erişteye benzer.",
+   "numbers": [],
+   "quote": "A real term that describes what happens when matter gets too close to a black hole. / It’s squeezed horizontally and stretched vertically, resembling a noodle.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Kara delikler kozmik elektrik süpürgesi değildir; başka maddeleri emmez. Yeterince uzaktan kütle çekim etkileri aynı kütledeki başka cisimlerinkiyle aynıdır.",
+   "numbers": [],
+   "quote": "Cosmic vacuum cleaners. Black holes don’t suck in other matter. / From far enough away, their gravitational effects are just like those of other objects of the same mass.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f16",
+   "kind": "claim",
+   "statement": "Güneş'in yerini aynı kütlede bir kara delik alsaydı Dünya içine düşmezdi; gezegenler şimdi Güneş'in çevresinde dolandıkları gibi dolanmayı sürdürürdü.",
+   "numbers": [],
+   "quote": "If a black hole with the same mass as the sun were to replace the sun, Earth would not fall in. / The planets would still orbit the black hole as they orbit the sun now.",
+   "location": "NASA — What Is a Black Hole? (Grades 5-8)"
+  },
+  {
+   "id": "f17",
+   "kind": "number",
+   "statement": "Bilinen en yakın kara delik (Gaia BH1) yaklaşık 1.500 ışık yılı uzaktadır.",
+   "numbers": [
+    "1.500",
+    "1"
+   ],
+   "quote": "The nearest known black hole, called Gaia BH1, is about 1,500 light-years away.",
+   "location": "NASA Science — Black Holes"
+  },
+  {
+   "id": "f18",
+   "kind": "number",
+   "statement": "Gözlenen en büyük kütleli kara delik TON 618'dir: Güneş'in 66 milyar katı kütlededir.",
+   "numbers": [
+    "618",
+    "66"
+   ],
+   "quote": "The most massive black hole observed, TON 618, tips the scales at 66 billion times the Sun’s mass.",
+   "location": "NASA Science — Black Holes"
+  }
+ ]
+}

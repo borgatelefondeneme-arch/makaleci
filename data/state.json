@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 9,
+  "lastEpisodeNumber": 10,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -36,6 +36,10 @@
     "topic:kalbimiz-nasil-calisir": {
       "id": "2026-11-12-kalbimiz-nasil-calisir",
       "episodeNumber": 9
+    },
+    "topic:kara-delik-nedir": {
+      "id": "2026-11-12-kara-delik-nedir",
+      "episodeNumber": 10
     }
   }
 }

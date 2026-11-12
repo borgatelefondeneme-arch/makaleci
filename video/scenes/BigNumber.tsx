@@ -11,7 +11,10 @@ export const BigNumber: React.FC<SceneProps<"big-number">> = ({ visual, frame, b
   const isInt = /^\d{1,9}$/.test(visual.value);
   const t = interpolate(frame, [start, start + 40], [0, 1], clamp);
   const shown = isInt && t < 1 ? String(Math.round(Number(visual.value) * (1 - Math.pow(1 - t, 3)))) : visual.value;
-  const size = visual.value.length > 7 ? 190 : visual.value.length > 4 ? 250 : 320;
+  // Sağdaki halka ~660 px yer tutar: değer + birim soldaki ~800 px'lik sütuna sığacak kadar küçülür.
+  const COL = 800;
+  const byLen = visual.value.length > 7 ? 190 : visual.value.length > 4 ? 250 : 320;
+  const size = Math.round(Math.min(byLen, COL / ((visual.value.length + (visual.unit ? 0.6 + visual.unit.length * 0.34 : 0)) * 0.6)));
   const lp = pop(frame, start + 26);
   return (
     <Stage style={{ justifyContent: "center", alignItems: "flex-start", paddingLeft: 60 }}>
@@ -31,8 +34,8 @@ export const BigNumber: React.FC<SceneProps<"big-number">> = ({ visual, frame, b
           {visual.unit && <span style={{ fontFamily: F.head, fontWeight: 800, fontSize: size * 0.34, color: C.text }}>{visual.unit}</span>}
         </div>
       </div>
-      <div style={{ marginTop: 34, fontFamily: F.head, fontWeight: 800, fontSize: 58, color: C.text, opacity: lp, transform: `translateY(${(1 - lp) * 24}px)`, maxWidth: 1180, lineHeight: 1.2 }}>{visual.label}</div>
-      {visual.sub && <div style={{ marginTop: 14, fontFamily: F.body, fontSize: 36, color: C.dim, opacity: pop(frame, start + 40), maxWidth: 1100 }}>{visual.sub}</div>}
+      <div style={{ marginTop: 34, fontFamily: F.head, fontWeight: 800, fontSize: 58, color: C.text, opacity: lp, transform: `translateY(${(1 - lp) * 24}px)`, maxWidth: COL, lineHeight: 1.2 }}>{visual.label}</div>
+      {visual.sub && <div style={{ marginTop: 14, fontFamily: F.body, fontSize: 36, color: C.dim, opacity: pop(frame, start + 40), maxWidth: COL }}>{visual.sub}</div>}
     </Stage>
   );
 };

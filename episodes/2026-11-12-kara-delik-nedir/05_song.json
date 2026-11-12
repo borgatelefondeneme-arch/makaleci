@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Işığın Kaçamadığı Yer",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Dev bir yıldızın merkezi çöker",
+          "start": 5.15,
+          "end": 8.65
+        },
+        {
+          "text": "Süpernova patlar, gökyüzü titrer",
+          "start": 8.65,
+          "end": 12.44
+        },
+        {
+          "text": "Madde sıkışır küçücük yere",
+          "start": 12.44,
+          "end": 15.94
+        },
+        {
+          "text": "Çekim öyle güçlü, ışık bile gitmez",
+          "start": 15.94,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kara delik, kara delik; delik değil!",
+          "start": 20.17,
+          "end": 23.56
+        },
+        {
+          "text": "Olay ufkunu geçen geri gelmez",
+          "start": 23.56,
+          "end": 26.72
+        },
+        {
+          "text": "Merkezde tekillik, çevrede disk",
+          "start": 26.72,
+          "end": 29.63
+        },
+        {
+          "text": "X ışınları parlar, ipucu verir",
+          "start": 29.63,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Samanyolu'nun kalbinde bir dev var",
+          "start": 33.18,
+          "end": 36.96
+        },
+        {
+          "text": "Dört milyon Güneş kadar ağır",
+          "start": 36.96,
+          "end": 40.17
+        },
+        {
+          "text": "Yıldızların dansı onu ele verir",
+          "start": 40.17,
+          "end": 44.25
+        },
+        {
+          "text": "Süpürge değil o, her şeyi çekmez",
+          "start": 44.25,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kara delik, kara delik; delik değil!",
+          "start": 48.19,
+          "end": 51.79
+        },
+        {
+          "text": "Olay ufkunu geçen geri gelmez",
+          "start": 51.79,
+          "end": 55.13
+        },
+        {
+          "text": "Güneş'imiz küçük, kara delik olmaz",
+          "start": 55.13,
+          "end": 58.73
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.73,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
