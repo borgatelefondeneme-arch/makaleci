@@ -7,10 +7,10 @@ import { clamp } from "../anim";
 // Konuya özel sahneleme: arka plan dünyaları, ortamda gezen karakterler ve sahne efektleri.
 // Koyu dünyalarda (uzay, okyanus, yer altı, fırtına) içerik krem bir panonun üstünde durur; dünya çevresinde ve altında görünür.
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -81,6 +81,28 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: 90 }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
           <path d={`M 0 ${H} V 1010 Q 480 980 960 1004 T ${W} 996 V ${H} Z`} fill="#2E3A52" />
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "mouth") {
+    // ağız içi: üstte ve altta pembe diş etleri, beyaz diş sıraları; yavaşça çiğner gibi açılıp kapanır
+    const chew = Math.sin(f / 45) * 10;
+    const row = (top: boolean) => (
+      <svg width={W} height={260} style={{ position: "absolute", left: 0, [top ? "top" : "bottom"]: -40 + (top ? -chew : -chew) } as React.CSSProperties}>
+        <path d={top ? `M 0 0 H ${W} V 120 Q ${W / 2} 210 0 120 Z` : `M 0 260 H ${W} V 140 Q ${W / 2} 50 0 140 Z`} fill="#E98A9C" />
+        {Array.from({ length: 14 }, (_, i) => {
+          const x = 30 + i * 136, curve = Math.sin((i / 13) * Math.PI) * 60;
+          const y = top ? 96 + curve : 150 - curve - 70;
+          return <rect key={i} x={x} y={y} width={112} height={80} rx={30} fill="#FFFDF8" stroke="#F1E6D6" strokeWidth={4} />;
+        })}
+      </svg>
+    );
+    return (
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, #FFE3E8 0%, #F7B8C4 70%, #EE9AAB 100%)", overflow: "hidden" }}>
+        {row(true)}{row(false)}
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {Array.from({ length: 18 }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
         </svg>
       </AbsoluteFill>
     );
