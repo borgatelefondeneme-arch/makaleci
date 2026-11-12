@@ -64,18 +64,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "lines": [
       {
         "id": "l4",
-        "display": "Ben de enerjimi kendim üretmek isterdim. Ama bende yaprak yok, yalnızca şarj girişi var!",
-        "spoken": "Ben de enerjimi kendim üretmek isterdim. Ama bende yaprak yok, yalnızca şarj girişi var!",
-        "factIds": []
-      },
-      {
-        "id": "l5",
         "display": "Üç sorumuz var. Bitki besinini neyle üretir? Yaprağın içinde neler olur? Ve bu olay bizim için neden hayati?",
         "spoken": "Üç sorumuz var. Bitki besinini neyle üretir? Yaprağın içinde neler olur? Ve bu olay bizim için neden hayati?",
         "factIds": []
       },
       {
-        "id": "l6",
+        "id": "l5",
         "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
         "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
         "factIds": []
@@ -86,7 +80,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "method",
     "lines": [
       {
-        "id": "l7",
+        "id": "l6",
         "display": "National Geographic'e göre fotosentez, bitkilerin Güneş ışığını, suyu ve karbondioksiti kullanarak oksijen ve şeker biçiminde enerji ürettiği süreçtir.",
         "spoken": "Neşınıl Ciyografik'e göre fotosentez, bitkilerin Güneş ışığını, suyu ve karbondioksiti kullanarak oksijen ve şeker biçiminde enerji ürettiği süreçtir.",
         "factIds": [
@@ -94,7 +88,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l8",
+        "id": "l7",
         "display": "Malzemeler basit: bitki, havadan karbondioksit, topraktan su alır.",
         "spoken": "Malzemeler basit: bitki, havadan karbondioksit, topraktan su alır.",
         "factIds": [
@@ -102,7 +96,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l9",
+        "id": "l8",
         "display": "Güneş ışığının enerjisini yakalar ve iki şey üretir: oksijen ve glikoz. Glikoz bir şekerdir; enerjiyi kimyasal olarak depolar.",
         "spoken": "Güneş ışığının enerjisini yakalar ve iki şey üretir: oksijen ve glikoz. Glikoz bir şekerdir; enerjiyi kimyasal olarak depolar.",
         "factIds": [
@@ -110,7 +104,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l10",
+        "id": "l9",
         "display": "Bitki oksijeni havaya geri verir, enerjiyi ise glikoz moleküllerinde saklar.",
         "spoken": "Bitki oksijeni havaya geri verir, enerjiyi ise glikoz moleküllerinde saklar.",
         "factIds": [
@@ -118,7 +112,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l11",
+        "id": "l10",
         "display": "Bütün bunlar nerede olur? Bitki hücrelerinin içindeki kloroplast adlı minik organellerde.",
         "spoken": "Bütün bunlar nerede olur? Bitki hücrelerinin içindeki kloroplast adlı minik organellerde.",
         "factIds": [
@@ -126,7 +120,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l12",
+        "id": "l11",
         "display": "Kloroplastlarda klorofil adlı bir pigment, yani renk maddesi bulunur. Işığın enerjisini soğuran odur.",
         "spoken": "Kloroplastlarda klorofil adlı bir pigment, yani renk maddesi bulunur. Işığın enerjisini soğuran odur.",
         "factIds": [
@@ -135,7 +129,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l13",
+        "id": "l12",
         "display": "Klorofil, ışığın mavi ve kırmızı dalgalarını soğurur; yeşil dalgaları ise yansıtır. Yapraklar bu yüzden yeşil görünür.",
         "spoken": "Klorofil, ışığın mavi ve kırmızı dalgalarını soğurur; yeşil dalgaları ise yansıtır. Yapraklar bu yüzden yeşil görünür.",
         "factIds": [
@@ -143,7 +137,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l14",
+        "id": "l13",
         "display": "Yani bitkiler, kullanmadığı rengi bize yolluyor. Yeşil aslında artan renk!",
         "spoken": "Yani bitkiler, kullanmadığı rengi bize yolluyor. Yeşil aslında artan renk!",
         "factIds": [
@@ -156,7 +150,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "finding",
     "lines": [
       {
-        "id": "l15",
+        "id": "l14",
         "display": "Şimdi yaprağın içindeki fabrikaya girelim. Fotosentez iki aşamada gerçekleşir.",
         "spoken": "Şimdi yaprağın içindeki fabrikaya girelim. Fotosentez iki aşamada gerçekleşir.",
         "factIds": [
@@ -165,7 +159,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l16",
+        "id": "l15",
         "display": "Birinci aşama: ışığa bağımlı tepkimeler. Kloroplastın içindeki tilakoit zarında gerçekleşir ve sürekli Güneş ışığı ister.",
         "spoken": "Birinci aşama: ışığa bağımlı tepkimeler. Kloroplastın içindeki tilakoit zarında gerçekleşir ve sürekli Güneş ışığı ister.",
         "factIds": [
@@ -173,7 +167,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l17",
+        "id": "l16",
         "display": "Burada su molekülleri elektron kaybeder; buna yükseltgenme denir. Su, oksijene dönüşür.",
         "spoken": "Burada su molekülleri elektron kaybeder; buna yükseltgenme denir. Su, oksijene dönüşür.",
         "factIds": [
@@ -181,7 +175,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l18",
+        "id": "l17",
         "display": "Işığın enerjisi ise ATP ve NADPH adlı iki enerji taşıyıcı moleküle yüklenir.",
         "spoken": "Işığın enerjisi ise A Te Pe ve En A De Pe Ha adlı iki enerji taşıyıcı moleküle yüklenir.",
         "factIds": [
@@ -189,13 +183,13 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l19",
+        "id": "l18",
         "display": "Yani ATP, bitkinin şarjlı pili. Sonunda benim de anladığım bir şey!",
         "spoken": "Yani A Te Pe, bitkinin şarjlı pili. Sonunda benim de anladığım bir şey!",
         "factIds": []
       },
       {
-        "id": "l20",
+        "id": "l19",
         "display": "İkinci aşama: Calvin döngüsü. Işığa bağımlı değildir ve kloroplastın stroma adlı bölümünde gerçekleşir.",
         "spoken": "İkinci aşama: Kalvin döngüsü. Işığa bağımlı değildir ve kloroplastın stroma adlı bölümünde gerçekleşir.",
         "factIds": [
@@ -203,7 +197,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l21",
+        "id": "l20",
         "display": "Bu aşamada ATP ve NADPH'deki enerji kullanılır ve karbondioksitten glikoz gibi karbonhidrat molekülleri kurulur.",
         "spoken": "Bu aşamada A Te Pe ve En A De Pe Ha'daki enerji kullanılır ve karbondioksitten glikoz gibi karbonhidrat molekülleri kurulur.",
         "factIds": [
@@ -211,7 +205,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l22",
+        "id": "l21",
         "display": "Özetle: ışığın enerjisi önce pillere, sonra şekere aktarılır.",
         "spoken": "Özetle: ışığın enerjisi önce pillere, sonra şekere aktarılır.",
         "factIds": [
@@ -220,7 +214,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l23",
+        "id": "l22",
         "display": "Peki bitki glikozu ne yapar? Topraktan aldığı besin maddeleriyle birlikte yeni yapraklar ve başka bölümler üretir.",
         "spoken": "Peki bitki glikozu ne yapar? Topraktan aldığı besin maddeleriyle birlikte yeni yapraklar ve başka bölümler üretir.",
         "factIds": [
@@ -233,7 +227,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "importance",
     "lines": [
       {
-        "id": "l24",
+        "id": "l23",
         "display": "Bu olay yalnızca bitkiler için önemli değildir. National Geographic'e göre Dünya'daki yaşamın çoğu fotosenteze bağlıdır.",
         "spoken": "Bu olay yalnızca bitkiler için önemli değildir. Neşınıl Ciyografik'e göre Dünya'daki yaşamın çoğu fotosenteze bağlıdır.",
         "factIds": [
@@ -241,7 +235,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l25",
+        "id": "l24",
         "display": "Çünkü karadan denize, her ekosistemde besin ağları fotosentezle başlar. Bitkiyi yiyen de, onu yiyen de enerjisini en başta buradan alır.",
         "spoken": "Çünkü karadan denize, her ekosistemde besin ağları fotosentezle başlar. Bitkiyi yiyen de, onu yiyen de enerjisini en başta buradan alır.",
         "factIds": [
@@ -249,7 +243,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l26",
+        "id": "l25",
         "display": "Soluduğun oksijen de fotosentezin ürünüdür.",
         "spoken": "Soluduğun oksijen de fotosentezin ürünüdür.",
         "factIds": [
@@ -258,7 +252,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l27",
+        "id": "l26",
         "display": "Fotosentez yapanlar yalnızca bitkiler değildir: algler ve bazı bakteri türleri de yapar.",
         "spoken": "Fotosentez yapanlar yalnızca bitkiler değildir: algler ve bazı bakteri türleri de yapar.",
         "factIds": [
@@ -266,12 +260,18 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l28",
+        "id": "l27",
         "display": "Peki sonbaharda yapraklar neden renk değiştirir? NASA'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar.",
         "spoken": "Peki sonbaharda yapraklar neden renk değiştirir? Nasa'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar.",
         "factIds": [
           "f13"
         ]
+      },
+      {
+        "id": "l28",
+        "display": "Ben sonbaharda renk değiştirmem. Ama pilim azalınca ışığım kırmızıya döner!",
+        "spoken": "Ben sonbaharda renk değiştirmem. Ama pilim azalınca ışığım kırmızıya döner!",
+        "factIds": []
       },
       {
         "id": "l29",
@@ -296,6 +296,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         "display": "Deney bitince dolaptaki bitkiyi yeniden ışığa çıkarmayı unutma!",
         "spoken": "Deney bitince dolaptaki bitkiyi yeniden ışığa çıkarmayı unutma!",
         "factIds": []
+      },
+      {
+        "id": "l33",
+        "display": "Yoksa bitki sana küser. Ben de küserim!",
+        "spoken": "Yoksa bitki sana küser. Ben de küserim!",
+        "factIds": []
       }
     ]
   },
@@ -303,7 +309,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "limitations",
     "lines": [
       {
-        "id": "l33",
+        "id": "l34",
         "display": "Bunu biliyor muydun? National Geographic'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir.",
         "spoken": "Bunu biliyor muydun? Neşınıl Ciyografik'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir.",
         "factIds": [
@@ -311,7 +317,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l34",
+        "id": "l35",
         "display": "Hızlı soru! Işığın enerjisini soğuran yeşil pigmentin adı neydi?",
         "spoken": "Hızlı soru! Işığın enerjisini soğuran yeşil pigmentin adı neydi?",
         "factIds": [
@@ -319,18 +325,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l35",
+        "id": "l36",
         "display": "Düşün bakalım... Evet: klorofil!",
         "spoken": "Düşün bakalım... Evet: klorofil!",
         "factIds": [
           "f6"
         ]
-      },
-      {
-        "id": "l36",
-        "display": "Bende klorofil yok. Ama şarj ışığım yeşil yanıyor; o da bir şey!",
-        "spoken": "Bende klorofil yok. Ama şarj ışığım yeşil yanıyor; o da bir şey!",
-        "factIds": []
       },
       {
         "id": "l37",

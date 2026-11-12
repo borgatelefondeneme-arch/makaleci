@@ -62,18 +62,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "lines": [
       {
         "id": "l4",
-        "display": "Baştan söyleyeyim: olay yerinde ben yoktum. O zamanlar daha üretilmemiştim!",
-        "spoken": "Baştan söyleyeyim: olay yerinde ben yoktum. O zamanlar daha üretilmemiştim!",
-        "factIds": []
-      },
-      {
-        "id": "l5",
         "display": "Üç sorumuz var. O gün ne oldu? Bilim insanları bunu nereden biliyor? Ve kimler hayatta kaldı?",
         "spoken": "Üç sorumuz var. O gün ne oldu? Bilim insanları bunu nereden biliyor? Ve kimler hayatta kaldı?",
         "factIds": []
       },
       {
-        "id": "l6",
+        "id": "l5",
         "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
         "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
         "factIds": []
@@ -84,7 +78,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "method",
     "lines": [
       {
-        "id": "l7",
+        "id": "l6",
         "display": "Londra'daki Doğa Tarihi Müzesi'ne göre 66 milyon yıl önce dinozorlar çok kötü bir gün geçirdi.",
         "spoken": "Londra'daki Doğa Tarihi Müzesi'ne göre altmış altı milyon yıl önce dinozorlar çok kötü bir gün geçirdi.",
         "factIds": [
@@ -92,7 +86,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l8",
+        "id": "l7",
         "display": "Dünya'daki hayvanların yaklaşık %75'i aynı dönemde yok oldu.",
         "spoken": "Dünya'daki hayvanların yaklaşık yüzde yetmiş beşi aynı dönemde yok oldu.",
         "factIds": [
@@ -100,7 +94,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l9",
+        "id": "l8",
         "display": "Bu kadar çok canlının birlikte yok olmasına kitlesel yok oluş denir. National Geographic'e göre bu, Dünya tarihindeki beşinci kitlesel yok oluştu.",
         "spoken": "Bu kadar çok canlının birlikte yok olmasına kitlesel yok oluş denir. Neşınıl Ciyografik'e göre bu, Dünya tarihindeki beşinci kitlesel yok oluştu.",
         "factIds": [
@@ -108,7 +102,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l10",
+        "id": "l9",
         "display": "Baş şüpheli: bir asteroit. Asteroitler, Güneş'in çevresinde dolanan kayalık gök cisimleridir.",
         "spoken": "Baş şüpheli: bir asteroit. Asteroitler, Güneş'in çevresinde dolanan kayalık gök cisimleridir.",
         "factIds": [
@@ -116,7 +110,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l11",
+        "id": "l10",
         "display": "NASA'ya göre Güneş sisteminin yaklaşık 4,6 milyar yıl önceki oluşumundan arta kalan parçalardır.",
         "spoken": "Nasa'ya göre Güneş sisteminin yaklaşık dört virgül altı milyar yıl önceki oluşumundan arta kalan parçalardır.",
         "factIds": [
@@ -124,7 +118,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l12",
+        "id": "l11",
         "display": "Bu asteroidin genişliği 10–15 kilometre arasındaydı ve bugünkü Meksika'da, Yucatán Yarımadası'na çarptı.",
         "spoken": "Bu asteroidin genişliği on ile on beş kilometre arasındaydı ve bugünkü Meksika'da, Yukatan Yarımadası'na çarptı.",
         "factIds": [
@@ -133,7 +127,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l13",
+        "id": "l12",
         "display": "Çok yüksek hızla çarptı ve adeta buharlaştı. Geriye 150 kilometre çapında bir krater bıraktı: Chicxulub krateri.",
         "spoken": "Çok yüksek hızla çarptı ve adeta buharlaştı. Geriye yüz elli kilometre çapında bir krater bıraktı: Çikşulub krateri.",
         "factIds": [
@@ -142,7 +136,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l14",
+        "id": "l13",
         "display": "Chicxulub. Söylemesi zor, biliyorum. Benim ses kartım bile iki kez denedi!",
         "spoken": "Çik, şu, lub. Söylemesi zor, biliyorum. Benim ses kartım bile iki kez denedi!",
         "factIds": []
@@ -153,7 +147,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "finding",
     "lines": [
       {
-        "id": "l15",
+        "id": "l14",
         "display": "Çarpışma anında dev bir patlama dalgası ve sıcak dalgası yayıldı. Atmosfere çok büyük miktarda madde savruldu.",
         "spoken": "Çarpışma anında dev bir patlama dalgası ve sıcak dalgası yayıldı. Atmosfere çok büyük miktarda madde savruldu.",
         "factIds": [
@@ -161,7 +155,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l16",
+        "id": "l15",
         "display": "Dev dalgalar Amerika kıtalarının bazı bölgelerini kapladı. Büyük yangınlar çıktı.",
         "spoken": "Dev dalgalar Amerika kıtalarının bazı bölgelerini kapladı. Büyük yangınlar çıktı.",
         "factIds": [
@@ -169,7 +163,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l17",
+        "id": "l16",
         "display": "Ama asıl felaket sonra geldi. Kurum bütün Dünya'ya yayıldı.",
         "spoken": "Ama asıl felaket sonra geldi. Kurum bütün Dünya'ya yayıldı.",
         "factIds": [
@@ -177,7 +171,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l18",
+        "id": "l17",
         "display": "Güneş tamamen kapanmadı; ama yeryüzüne ulaşan ışık azaldı. Bu da bitkilerin büyümesini etkiledi.",
         "spoken": "Güneş tamamen kapanmadı; ama yeryüzüne ulaşan ışık azaldı. Bu da bitkilerin büyümesini etkiledi.",
         "factIds": [
@@ -185,7 +179,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l19",
+        "id": "l18",
         "display": "Gerisi domino taşları gibiydi: etki, besin zincirinin basamaklarını birer birer devirdi ve ekosistem çöktü.",
         "spoken": "Gerisi domino taşları gibiydi: etki, besin zincirinin basamaklarını birer birer devirdi ve ekosistem çöktü.",
         "factIds": [
@@ -193,7 +187,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l20",
+        "id": "l19",
         "display": "Peki bunu nereden biliyoruz? İpucu, kayaların arasındaki ince bir kil tabakasında saklı.",
         "spoken": "Peki bunu nereden biliyoruz? İpucu, kayaların arasındaki ince bir kil tabakasında saklı.",
         "factIds": [
@@ -201,7 +195,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l21",
+        "id": "l20",
         "display": "1980'de fizikçi Luis Alvarez ve jeolog oğlu Walter, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü.",
         "spoken": "Bin dokuz yüz seksende fizikçi Luis Alvares ve jeolog oğlu Voltır, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü.",
         "factIds": [
@@ -209,12 +203,18 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l22",
+        "id": "l21",
         "display": "İridyum, Dünya'da bulunan en nadir metallerden biridir.",
         "spoken": "İridyum, Dünya'da bulunan en nadir metallerden biridir.",
         "factIds": [
           "f9"
         ]
+      },
+      {
+        "id": "l22",
+        "display": "Keşke ben de nadir bir metalden yapılmış olsaydım. Ama çoğum alüminyum!",
+        "spoken": "Keşke ben de nadir bir metalden yapılmış olsaydım. Ama çoğum alüminyum!",
+        "factIds": []
       },
       {
         "id": "l23",
@@ -310,6 +310,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
       },
       {
         "id": "l34",
+        "display": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
+        "spoken": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
+        "factIds": []
+      },
+      {
+        "id": "l35",
         "display": "National Geographic'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi.",
         "spoken": "Neşınıl Ciyografik'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi.",
         "factIds": [
@@ -317,13 +323,13 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l35",
+        "id": "l36",
         "display": "Şimdi sıra sende! Dört domino taşı diz ve üzerlerine küçük kâğıtlarla şunları yaz: Güneş ışığı, bitki, otçul, etçil.",
         "spoken": "Şimdi sıra sende! Dört domino taşı diz ve üzerlerine küçük kâğıtlarla şunları yaz: Güneş ışığı, bitki, otçul, etçil.",
         "factIds": []
       },
       {
-        "id": "l36",
+        "id": "l37",
         "display": "İlk taşı devir. Zincirin bir halkası bozulunca ötekilere ne oluyor? Ekosistemin çöküşü işte böyle işler.",
         "spoken": "İlk taşı devir. Zincirin bir halkası bozulunca ötekilere ne oluyor? Ekosistemin çöküşü işte böyle işler.",
         "factIds": [
@@ -336,7 +342,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
     "id": "limitations",
     "lines": [
       {
-        "id": "l37",
+        "id": "l38",
         "display": "Bunu biliyor muydun? NASA'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli.",
         "spoken": "Bunu biliyor muydun? Nasa'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli.",
         "factIds": [
@@ -344,7 +350,7 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l38",
+        "id": "l39",
         "display": "Hızlı soru! Dinozorların bugün yaşayan temsilcileri hangi hayvanlar?",
         "spoken": "Hızlı soru! Dinozorların bugün yaşayan temsilcileri hangi hayvanlar?",
         "factIds": [
@@ -352,18 +358,12 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
         ]
       },
       {
-        "id": "l39",
+        "id": "l40",
         "display": "Düşün bakalım... Evet: kuşlar!",
         "spoken": "Düşün bakalım... Evet: kuşlar!",
         "factIds": [
           "f14"
         ]
-      },
-      {
-        "id": "l40",
-        "display": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
-        "spoken": "Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!",
-        "factIds": []
       },
       {
         "id": "l41",
@@ -390,8 +390,8 @@ HAREKET KURALI: hiçbir sahne durağan kalmamalı. Sahne en çok 3 satır sürer
       },
       {
         "id": "l44",
-        "display": "Abone olmayı ve zili açmayı unutma. Ben de gökyüzünü kollamaya gidiyorum; asteroit görürsem haber veririm!",
-        "spoken": "Abone olmayı ve zili açmayı unutma. Ben de gökyüzünü kollamaya gidiyorum; asteroit görürsem haber veririm!",
+        "display": "Abone olmayı ve zili açmayı unutma. Arada bir gökyüzüne bakmayı da!",
+        "spoken": "Abone olmayı ve zili açmayı unutma. Arada bir gökyüzüne bakmayı da!",
         "factIds": []
       }
     ]

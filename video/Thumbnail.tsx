@@ -4,6 +4,7 @@ import type { EpisodeProps } from "../schemas/index";
 import { Background } from "./components/Background";
 import { ensureFonts } from "./fonts";
 import { C, F, GRADIENT } from "./theme";
+import { lookOf } from "./look";
 
 ensureFonts();
 
@@ -12,7 +13,7 @@ export const Thumbnail: React.FC<EpisodeProps> = ({ script, paper }) => {
   const last = words[words.length - 1], head = words.slice(0, -1).join(" ");
   return (
   <AbsoluteFill>
-    <Background />
+    <Background look={{ ...lookOf(script.episodeNumber), motifs: [] }} />
     <div style={{ position: "absolute", left: 90, top: 60 }}>
       {/* thumbnail'de yüksek çözünürlüklü özgün görsel kullanılır */}
       <Img src={staticFile("robot/point.png")} style={{ height: 940 }} />

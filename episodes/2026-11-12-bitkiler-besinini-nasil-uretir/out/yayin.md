@@ -1,6 +1,6 @@
 # Bitkiler besinini nasıl üretir?
 
-**Günün Sorusu #11** · Bitkiler besinini nasıl üretir? · süre 6:19
+**Günün Sorusu #11** · Bitkiler besinini nasıl üretir? · süre 6:15
 
 ## Açıklama
 
@@ -11,11 +11,11 @@ Bir ağaç acıkınca ne yapar? Bu bölümde fotosentezi; bitkilerin ışık, su
 0:00 Açılış
 0:07 Giriş
 0:22 Günün sorusu
-0:45 Nasıl oluyor?
-1:54 İşin sırrı
-3:07 Sen de dene
-4:20 Bunu biliyor muydun?
-5:52 Bugün bunu öğrendik
+0:38 Nasıl oluyor?
+1:46 İşin sırrı
+3:00 Sen de dene
+4:22 Bunu biliyor muydun?
+5:49 Bugün bunu öğrendik
 
 ## Kaynaklar
 
@@ -85,5 +85,5 @@ _Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler M
 ## Üretim notları
 
 - Seslendirme: ElevenLabs
-- 498 kelime, 22 sahne, abone ol hatırlatması videonun %60.9 noktasında
+- 489 kelime, 21 sahne, abone ol hatırlatması videonun %61.1 noktasında
 - Thumbnail: `thumbnail.png`

@@ -32,7 +32,6 @@ e.sec("hook", [
     L("Bugün bir yaprağın içine giriyoruz!"),
 ])
 e.sec("context", [
-    L("Ben de enerjimi kendim üretmek isterdim. Ama bende yaprak yok, yalnızca şarj girişi var!"),
     L("Üç sorumuz var. Bitki besinini neyle üretir? Yaprağın içinde neler olur? Ve bu olay bizim için neden hayati?"),
     L("Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum."),
 ])
@@ -63,16 +62,17 @@ e.sec("importance", [
     L("Soluduğun oksijen de fotosentezin ürünüdür.", [1, 4]),
     L("Fotosentez yapanlar yalnızca bitkiler değildir: algler ve bazı bakteri türleri de yapar.", [11]),
     L("Peki sonbaharda yapraklar neden renk değiştirir? NASA'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar.", [13], "Peki sonbaharda yapraklar neden renk değiştirir? Nasa'ya göre yeşil klorofil azalınca öteki pigmentler ortaya çıkar."),
+    L("Ben sonbaharda renk değiştirmem. Ama pilim azalınca ışığım kırmızıya döner!"),
     L("Şimdi sıra sende! Aynı türden iki küçük saksı bitkisi al. Birini pencere önüne, ötekini karanlık bir dolaba koy."),
     L("İkisine de aynı miktarda su ver. Bir hafta boyunca her gün ikisini de gözle: renklerine ve yapraklarına bak."),
     L("Gözlemlerini bir tabloya yaz. Işık eksik kalınca bitkide ne değişiyor?"),
     L("Deney bitince dolaptaki bitkiyi yeniden ışığa çıkarmayı unutma!"),
+    L("Yoksa bitki sana küser. Ben de küserim!"),
 ])
 e.sec("limitations", [
     L("Bunu biliyor muydun? National Geographic'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir.", [12], f"Bunu biliyor muydun? {NGs}'e göre soluduğumuz oksijenin çoğu, okyanustaki minik bitkilerden gelir."),
     L("Hızlı soru! Işığın enerjisini soğuran yeşil pigmentin adı neydi?", [6]),
     L("Düşün bakalım... Evet: klorofil!", [6]),
-    L("Bende klorofil yok. Ama şarj ışığım yeşil yanıyor; o da bir şey!"),
     L("Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!"),
 ])
 e.sec("summary", [
@@ -82,7 +82,7 @@ e.sec("summary", [
 ])
 S = e.S
 S(3, {"type": "hook", "question": "Bir ağaç acıkınca ne yapar?", "emoji": "🌳"}, ["🍃", "☀️", "💧", "🌱"], ["", "IŞIKLA BESİN!", "YAPRAĞIN İÇİNE!"], extra=[1])
-S(1, {"type": "spotlight", "title": "Kendi enerjini üret", "emoji": "🤖", "chips": [{"label": "Yaprağım yok", "emoji": "🍃"}, {"label": "Şarj girişim var", "emoji": "🔌"}, {"label": "Bitkileri kıskandım!", "emoji": "😅"}]}, ["🔋", "🌿"])
+#S(1, {"type": "spotlight", "title": "Kendi enerjini üret", "emoji": "🤖", "chips": [{"label": "Yaprağım yok", "emoji": "🍃"}, {"label": "Şarj girişim var", "emoji": "🔌"}, {"label": "Bitkileri kıskandım!", "emoji": "😅"}]}, ["🔋", "🌿"])
 S(2, {"type": "bullets", "title": "Bugünün soruları", "items": ["Bitki besinini neyle üretir?", "Yaprağın içinde neler olur?", "Bu olay bizim için neden hayati?"]}, ["❓", "🔎", "📖"], ["ÜÇ SORU", "SÖZLÜK AÇIKLAMADA 📖"])
 S(2, {"type": "diagram", "title": "Fotosentezin malzemeleri", "layout": "flow", "nodes": [{"label": "Güneş ışığı", "emoji": "☀️"}, {"label": "Su: topraktan", "emoji": "💧"}, {"label": "Karbondioksit: havadan", "emoji": "💨"}]}, ["🌱", "🧪"], ["FOTOSENTEZ", "ÜÇ MALZEME"])
 S(2, {"type": "comparison", "title": "Fotosentezin ürünleri", "left": {"title": "Oksijen 🫧", "items": ["Havaya geri verilir"]}, "right": {"title": "Glikoz 🍬", "items": ["Bir şeker", "Enerjiyi depolar"]}}, ["🍃", "⚡"], ["OKSİJEN + GLİKOZ", "ENERJİ DEPOSU 🍬"])
@@ -96,11 +96,11 @@ S(2, {"type": "bullets", "title": "Özet", "items": ["Işık enerjisi → ATP ve
 S(1, {"type": "big-number", "value": "Yaşamın çoğu", "label": "fotosenteze bağlı", "sub": "National Geographic", "icon": "🌍"}, ["🌳", "🐾"], ["HAYATİ!"])
 S(2, {"type": "diagram", "title": "Besin ağı fotosentezle başlar", "layout": "flow", "nodes": [{"label": "Güneş", "emoji": "☀️"}, {"label": "Bitki", "emoji": "🌱"}, {"label": "Bitkiyi yiyen", "emoji": "🐛"}, {"label": "Onu yiyen", "emoji": "🐦"}]}, ["🕸️", "🫧"], ["BESİN AĞI", "OKSİJEN DE BURADAN 🫧"])
 S(1, {"type": "spotlight", "title": "Kimler fotosentez yapar?", "emoji": "☀️", "chips": [{"label": "Bitkiler", "emoji": "🌳"}, {"label": "Algler", "emoji": "🌊"}, {"label": "Bazı bakteriler", "emoji": "🦠"}]}, ["🔬", "🍃"], ["YALNIZCA BİTKİLER DEĞİL"])
-S(1, {"type": "comparison", "title": "Sonbaharda yapraklar", "left": {"title": "Yazın 🍃", "items": ["Klorofil bol", "Yapraklar yeşil"]}, "right": {"title": "Sonbaharda 🍂", "items": ["Klorofil azalır", "Öteki pigmentler görünür"]}}, ["🍁", "🍂"], ["SONBAHAR RENKLERİ 🍂"])
+S(2, {"type": "comparison", "title": "Sonbaharda yapraklar", "left": {"title": "Yazın 🍃", "items": ["Klorofil bol", "Yapraklar yeşil"]}, "right": {"title": "Sonbaharda 🍂", "items": ["Klorofil azalır", "Öteki pigmentler görünür"]}}, ["🍁", "🍂"], ["SONBAHAR RENKLERİ 🍂", "KIRMIZI IŞIK 🔴"])
 S(3, {"type": "bullets", "title": "Sen de dene: ışık deneyi 🔬", "items": ["Aynı türden iki saksı bitkisi", "Biri pencerede, biri karanlık dolapta", "İkisine de aynı miktarda su", "Bir hafta gözle ve tabloya yaz"]}, ["🪴", "📓", "💧"], ["DENEY ZAMANI 🔬", "HER GÜN GÖZLE 👀", "TABLO TUT 📓"])
-S(1, {"type": "spotlight", "title": "Unutma!", "emoji": "🪴", "chips": [{"label": "Deney bitince bitkiyi ışığa çıkar", "emoji": "☀️"}, {"label": "Ona iyi bak", "emoji": "💚"}]}, ["🌱", "💧"], ["IŞIĞA ÇIKAR ☀️"])
+S(2, {"type": "spotlight", "title": "Unutma!", "emoji": "🪴", "chips": [{"label": "Deney bitince bitkiyi ışığa çıkar", "emoji": "☀️"}, {"label": "Ona iyi bak", "emoji": "💚"}]}, ["🌱", "💧"], ["IŞIĞA ÇIKAR ☀️", "KÜSERİM 😤"])
 S(1, {"type": "big-number", "value": "Okyanus", "label": "Soluduğumuz oksijenin çoğunun kaynağı", "sub": "Minik deniz bitkileri", "icon": "🌊"}, ["🫧", "🐟"], ["BUNU BİLİYOR MUYDUN?"])
-S(3, {"type": "hook", "question": "Işığı soğuran yeşil pigmentin adı ne?", "emoji": "🤔"}, ["🍃", "🟢"], ["HIZLI SORU!", "KLOROFİL ✅", "YEŞİL IŞIK 🟢"])
+S(2, {"type": "hook", "question": "Işığı soğuran yeşil pigmentin adı ne?", "emoji": "🤔"}, ["🍃", "🟢"], ["HIZLI SORU!", "KLOROFİL ✅"])
 S(1, {"type": "song"})
 S(3, {"type": "outro"})
 script = {"paperId": PID, "episodeNumber": 11, "videoTitle": "Bitkiler besinini nasıl üretir?", "paperTitleTr": "Bitkiler besinini nasıl üretir?",

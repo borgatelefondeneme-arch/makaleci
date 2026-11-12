@@ -31,7 +31,7 @@ export const Stickers: React.FC<{ items: string[]; frame: number; beats: number[
 };
 
 // Her cümlede beliren büyük anahtar kelime (içerik ile altyazı arasında).
-export const Keyword: React.FC<{ words: string[]; beats: number[]; ends: number[]; frame: number }> = ({ words, beats, ends, frame }) => {
+export const Keyword: React.FC<{ words: string[]; beats: number[]; ends: number[]; frame: number; variant?: number }> = ({ words, beats, ends, frame, variant = 0 }) => {
   const k = activeIndex(beats, frame);
   const w = words[k];
   if (!w || frame < beats[k]) return null;
@@ -39,7 +39,15 @@ export const Keyword: React.FC<{ words: string[]; beats: number[]; ends: number[
   const out = interpolate(frame, [ends[k] - 2, ends[k] + 8], [1, 0], clamp);
   return (
     <div style={{ position: "absolute", left: 0, width: W, bottom: 146, display: "flex", justifyContent: "center", opacity: Math.min(1, p * 2) * out }}>
-      <div style={{ backgroundImage: GRADIENT, color: "#fff", fontFamily: F.head, fontWeight: 800, fontSize: 46, letterSpacing: 1, padding: "10px 40px", borderRadius: 60, boxShadow: `0 14px 34px ${C.shadow}`, transform: `scale(${0.6 + 0.4 * p}) rotate(${(1 - p) * -5 + Math.sin(frame / 20) * 1.2}deg)` }}>{w}</div>
+      {variant === 1 ? (
+        // beyaz kart + renkli şerit: soldan kayarak gelir
+        <div style={{ background: "#fff", color: C.text, borderLeft: `14px solid ${C.yellow}`, fontFamily: F.head, fontWeight: 800, fontSize: 46, letterSpacing: 1, padding: "10px 38px 10px 28px", borderRadius: 18, boxShadow: `0 14px 34px ${C.shadow}`, transform: `translateX(${(1 - p) * -80}px) scale(${0.9 + 0.1 * p})` }}>{w}</div>
+      ) : variant === 2 ? (
+        // lacivert eğik etiket: yukarıdan düşer
+        <div style={{ background: C.text, color: "#fff", fontFamily: F.head, fontWeight: 800, fontSize: 46, letterSpacing: 2, padding: "10px 40px", borderRadius: 12, boxShadow: `0 14px 34px ${C.shadow}`, borderBottom: `8px solid ${C.gold}`, transform: `translateY(${(1 - p) * -40}px) rotate(${-2 + Math.sin(frame / 22) * 1.2}deg)` }}>{w}</div>
+      ) : (
+        <div style={{ backgroundImage: GRADIENT, color: "#fff", fontFamily: F.head, fontWeight: 800, fontSize: 46, letterSpacing: 1, padding: "10px 40px", borderRadius: 60, boxShadow: `0 14px 34px ${C.shadow}`, transform: `scale(${0.6 + 0.4 * p}) rotate(${(1 - p) * -5 + Math.sin(frame / 20) * 1.2}deg)` }}>{w}</div>
+      )}
     </div>
   );
 };

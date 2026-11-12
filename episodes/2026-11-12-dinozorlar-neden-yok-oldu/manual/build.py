@@ -40,7 +40,6 @@ e.sec("hook", [
     L("Bugün Dünya tarihinin en ünlü dedektiflik hikâyesini çözüyoruz!"),
 ])
 e.sec("context", [
-    L("Baştan söyleyeyim: olay yerinde ben yoktum. O zamanlar daha üretilmemiştim!"),
     L("Üç sorumuz var. O gün ne oldu? Bilim insanları bunu nereden biliyor? Ve kimler hayatta kaldı?"),
     L("Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum."),
 ])
@@ -63,6 +62,7 @@ e.sec("finding", [
     L("Peki bunu nereden biliyoruz? İpucu, kayaların arasındaki ince bir kil tabakasında saklı.", [9]),
     L("1980'de fizikçi Luis Alvarez ve jeolog oğlu Walter, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü.", [9], "Bin dokuz yüz seksende fizikçi Luis Alvares ve jeolog oğlu Voltır, iridyumca zengin bu kil tabakasının büyük bir asteroit çarpmasından kaynaklandığını öne sürdü."),
     L("İridyum, Dünya'da bulunan en nadir metallerden biridir.", [9]),
+    L("Keşke ben de nadir bir metalden yapılmış olsaydım. Ama çoğum alüminyum!"),
     L("Başta bu fikir tartışmalıydı. Sonra krater bulundu: yaşı, yok oluşla tam olarak aynıydı!", [10]),
     L("Bugün bu, en yaygın kabul gören açıklamadır.", [10]),
 ])
@@ -76,6 +76,7 @@ e.sec("importance", [
     L("Ve işte büyük sürpriz: dinozorların hepsi yok olmadı. Dinozorlar, kuşlar olarak hayatta kaldı!", [14]),
     L("Kuşlar, teropod denen etçil bir dinozor grubundan evrildi. Küçük olmaları, çok çeşitli besinler yiyebilmeleri ve uçabilmeleri büyük olasılıkla onlara yardım etti.", [15]),
     L("Bugün en az 11.000 kuş türü var. Yani penceredeki serçe, yaşayan bir dinozor!", [15], "Bugün en az on bir bin kuş türü var. Yani penceredeki serçe, yaşayan bir dinozor!"),
+    L("Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!"),
     L("National Geographic'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi.", [16], f"{NGs}'e göre dinozorların yok oluşu, memelilerin gelişip büyümesine olanak verdi."),
     L("Şimdi sıra sende! Dört domino taşı diz ve üzerlerine küçük kâğıtlarla şunları yaz: Güneş ışığı, bitki, otçul, etçil."),
     L("İlk taşı devir. Zincirin bir halkası bozulunca ötekilere ne oluyor? Ekosistemin çöküşü işte böyle işler.", [8]),
@@ -84,17 +85,16 @@ e.sec("limitations", [
     L("Bunu biliyor muydun? NASA'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli.", [17], "Bunu biliyor muydun? Nasa'nın bir birimi, Dünya için tehlike oluşturabilecek asteroitleri bulmak ve izlemekle görevli."),
     L("Hızlı soru! Dinozorların bugün yaşayan temsilcileri hangi hayvanlar?", [14]),
     L("Düşün bakalım... Evet: kuşlar!", [14]),
-    L("Bir dahaki sefere bir güvercin görürsen selam ver. Sonuçta çok eski bir aileden geliyor!"),
     L("Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!"),
 ])
 e.sec("summary", [
     L("İşte bugün öğrendiklerimiz!"),
     L("Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!"),
-    L("Abone olmayı ve zili açmayı unutma. Ben de gökyüzünü kollamaya gidiyorum; asteroit görürsem haber veririm!"),
+    L("Abone olmayı ve zili açmayı unutma. Arada bir gökyüzüne bakmayı da!"),
 ])
 S = e.S
 S(3, {"type": "hook", "question": "Dinozorları ne yok etti?", "emoji": "🦖"}, ["🦕", "☄️", "🌋", "🔍"], ["", "NASIL BİLİYORUZ?", "DEDEKTİFLİK ZAMANI 🔍"])
-S(1, {"type": "spotlight", "title": "Tanık değilim", "emoji": "🤖", "chips": [{"label": "Olay yerinde yoktum", "emoji": "🙅"}, {"label": "Daha üretilmemiştim", "emoji": "🏭"}, {"label": "İpuçlarını izleyeceğiz", "emoji": "🔍"}]}, ["🕵️", "🦴"])
+#S(1, {"type": "spotlight", "title": "Tanık değilim", "emoji": "🤖", "chips": [{"label": "Olay yerinde yoktum", "emoji": "🙅"}, {"label": "Daha üretilmemiştim", "emoji": "🏭"}, {"label": "İpuçlarını izleyeceğiz", "emoji": "🔍"}]}, ["🕵️", "🦴"])
 S(2, {"type": "bullets", "title": "Bugünün soruları", "items": ["O gün ne oldu?", "Bilim insanları bunu nereden biliyor?", "Kimler hayatta kaldı?"]}, ["❓", "🔎", "📖"], ["ÜÇ SORU", "SÖZLÜK AÇIKLAMADA 📖"])
 S(1, {"type": "big-number", "value": "66 milyon", "unit": "yıl önce", "label": "Dinozorların çok kötü günü", "sub": "Doğa Tarihi Müzesi", "icon": "🦖"}, ["📅", "🦕"], ["ÇOK KÖTÜ BİR GÜN"])
 S(2, {"type": "spotlight", "title": "Kitlesel yok oluş", "emoji": "🦕", "chips": [{"label": "Hayvanların yaklaşık %75'i yok oldu", "emoji": "📉"}, {"label": "Çok sayıda canlı, birlikte", "emoji": "🐾"}, {"label": "Dünya tarihindeki beşincisi", "emoji": "🖐️"}]}, ["🦴", "🌍"], ["YAKLAŞIK DÖRTTE ÜÇÜ", "KİTLESEL YOK OLUŞ"])
@@ -104,17 +104,18 @@ S(1, {"type": "spotlight", "title": "Chicxulub", "emoji": "🗣️", "chips": [{
 S(2, {"type": "diagram", "title": "İlk anlar", "layout": "flow", "nodes": [{"label": "Patlama ve sıcak dalgası", "emoji": "💥"}, {"label": "Atmosfere savrulan madde", "emoji": "🌫️"}, {"label": "Dev dalgalar", "emoji": "🌊"}, {"label": "Yangınlar", "emoji": "🔥"}]}, ["☄️", "🌎"], ["PATLAMA DALGASI 💥", "DALGALAR + YANGIN"])
 S(2, {"type": "meter", "title": "Yeryüzüne ulaşan ışık", "label": "Güneş ışığı", "emoji": "☀️", "phases": [{"label": "Kurum bütün Dünya'ya yayılır", "level": 0.6, "emoji": "🌫️"}, {"label": "Işık azalır: bitkiler etkilenir", "level": 0.22, "emoji": "🌿"}], "note": NOTE}, ["🌥️", "🥀"], ["KURUM 🌫️", "IŞIK AZALDI"])
 S(1, {"type": "diagram", "title": "Domino etkisi", "layout": "flow", "nodes": [{"label": "Bitkiler", "emoji": "🌿"}, {"label": "Bitki yiyenler", "emoji": "🦕"}, {"label": "Et yiyenler", "emoji": "🦖"}, {"label": "Ekosistem çöker", "emoji": "📉"}]}, ["🁢", "⛓️"], ["DOMİNO ETKİSİ"])
-S(3, {"type": "spotlight", "title": "İpucu: iridyum", "emoji": "🔍", "chips": [{"label": "İnce bir kil tabakası", "emoji": "🪨"}, {"label": "İridyumca zengin", "emoji": "✨"}, {"label": "1980: Alvarez baba ve oğul", "emoji": "👨‍🔬"}, {"label": "İridyum: en nadir metallerden", "emoji": "💎"}]}, ["🕵️", "🧪"], ["KİL TABAKASI", "ALVAREZ KURAMI", "İRİDYUM 💎"])
+S(2, {"type": "spotlight", "title": "İpucu: kil tabakası", "emoji": "🔍", "chips": [{"label": "İnce bir kil tabakası", "emoji": "🪨"}, {"label": "İridyumca zengin", "emoji": "✨"}, {"label": "1980: Alvarez baba ve oğul", "emoji": "👨‍🔬"}]}, ["🕵️", "🧪"], ["KİL TABAKASI", "ALVAREZ KURAMI"])
+S(2, {"type": "big-number", "value": "İridyum", "label": "Dünya'daki en nadir metallerden biri", "sub": "Doğa Tarihi Müzesi", "icon": "💎"}, ["✨", "🤖"], ["İRİDYUM 💎", "BEN ALÜMİNYUMUM 😅"])
 S(2, {"type": "comparison", "title": "Kanıtlar birleşiyor", "left": {"title": "Kil tabakası 🪨", "items": ["İridyumca zengin", "Kayalarda izlenebiliyor"]}, "right": {"title": "Krater 🕳️", "items": ["Bulundu", "Yaşı yok oluşla aynı"]}}, ["🧩", "✅"], ["KRATER BULUNDU!", "EN YAYGIN AÇIKLAMA ✅"])
 S(3, {"type": "bullets", "title": "Tek suçlu asteroit değil", "items": ["İklim zaten değişiyordu", "Hindistan'da iki milyon yıl volkanik etkinlik", "Asteroit: son darbe", "Ayrıntılar hâlâ tartışılıyor"]}, ["🌋", "🌡️"], ["İKLİM DEĞİŞİYORDU", "VOLKANLAR 🌋", "SON DARBE ☄️"])
 S(2, {"type": "spotlight", "title": "Kimler yok oldu?", "emoji": "🦴", "chips": [{"label": "Pterozorlar: uçan sürüngenler", "emoji": "🦅"}, {"label": "Büyük deniz sürüngenleri", "emoji": "🌊"}, {"label": "Ammonitler", "emoji": "🐚"}, {"label": "25 kg'dan ağır kara hayvanları", "emoji": "⚖️"}]}, ["🦕", "🤖"], ["YOK OLANLAR", "BEN HAFİFİM 😄"])
 S(1, {"type": "comparison", "title": "Kimler kurtuldu?", "left": {"title": "Küçük hayvanlar 🐭", "items": ["Hayatta kalanlar küçüktü"]}, "right": {"title": "Bitkiler 🌱", "items": ["Tohum ve polen dayanıklı", "Daha az etkilendiler"]}}, ["🌰", "🐁"], ["KÜÇÜKLER KURTULDU"])
 S(1, {"type": "big-number", "value": "Kuşlar", "label": "Yaşayan dinozorlar", "sub": "Dinozorlar kuşlar olarak hayatta kaldı", "icon": "🐦"}, ["🦖", "🪶"], ["BÜYÜK SÜRPRİZ! 🐦"])
-S(2, {"type": "spotlight", "title": "Kuşlar neden başardı?", "emoji": "🐦", "chips": [{"label": "Teropodlardan evrildiler", "emoji": "🦖"}, {"label": "Küçük beden", "emoji": "🤏"}, {"label": "Çok çeşitli besin", "emoji": "🌰"}, {"label": "Uçabilme", "emoji": "🪽"}, {"label": "Bugün en az 11.000 tür", "emoji": "🌍"}]}, ["🪶", "🐤"], ["TEROPOD 🦖", "SERÇE = DİNOZOR!"])
+S(3, {"type": "spotlight", "title": "Kuşlar neden başardı?", "emoji": "🐦", "chips": [{"label": "Teropodlardan evrildiler", "emoji": "🦖"}, {"label": "Küçük beden", "emoji": "🤏"}, {"label": "Çok çeşitli besin", "emoji": "🌰"}, {"label": "Uçabilme", "emoji": "🪽"}, {"label": "Bugün en az 11.000 tür", "emoji": "🌍"}]}, ["🪶", "🐤"], ["TEROPOD 🦖", "SERÇE = DİNOZOR!", "SELAM VER 🕊️"])
 S(1, {"type": "bullets", "title": "Sıra memelilerde", "items": ["Dinozorlardan sonra geliştiler", "Zamanla büyüdüler"]}, ["🐭", "🐘"], ["MEMELİLER 🐭"])
 S(2, {"type": "diagram", "title": "Sen de dene: domino besin zinciri", "layout": "flow", "nodes": [{"label": "Güneş ışığı", "emoji": "☀️"}, {"label": "Bitki", "emoji": "🌿"}, {"label": "Otçul", "emoji": "🦕"}, {"label": "Etçil", "emoji": "🦖"}]}, ["🁢", "📓"], ["DENEY ZAMANI 🔬", "İLK TAŞI DEVİR!"])
 S(1, {"type": "spotlight", "title": "Gökyüzü nöbeti", "emoji": "🛰️", "chips": [{"label": "NASA asteroitleri bulur", "emoji": "🔭"}, {"label": "İzler", "emoji": "📡"}, {"label": "Tehlikeli olabilecekleri inceler", "emoji": "☄️"}]}, ["🌍", "🛡️"], ["BUNU BİLİYOR MUYDUN?"])
-S(3, {"type": "hook", "question": "Dinozorların yaşayan temsilcileri kim?", "emoji": "🤔"}, ["🦖", "🐦"], ["HIZLI SORU!", "KUŞLAR ✅", "SELAM VER 🕊️"])
+S(2, {"type": "hook", "question": "Dinozorların yaşayan temsilcileri kim?", "emoji": "🤔"}, ["🦖", "🐦"], ["HIZLI SORU!", "KUŞLAR ✅"])
 S(1, {"type": "song"})
 S(3, {"type": "outro"})
 script = {"paperId": PID, "episodeNumber": 12, "videoTitle": "Dinozorlar neden yok oldu?", "paperTitleTr": "Dinozorlar neden yok oldu?",

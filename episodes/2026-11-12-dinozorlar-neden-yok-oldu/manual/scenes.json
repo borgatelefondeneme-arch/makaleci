@@ -36,45 +36,8 @@
    "id": "s2",
    "section": "context",
    "lineIds": [
-    "l4"
-   ],
-   "visual": {
-    "type": "spotlight",
-    "title": "Tanık değilim",
-    "emoji": "🤖",
-    "chips": [
-     {
-      "label": "Olay yerinde yoktum",
-      "emoji": "🙅"
-     },
-     {
-      "label": "Daha üretilmemiştim",
-      "emoji": "🏭"
-     },
-     {
-      "label": "İpuçlarını izleyeceğiz",
-      "emoji": "🔍"
-     }
-    ]
-   },
-   "mascot": {
-    "state": "talk",
-    "x": 0.87,
-    "y": 0.54,
-    "scale": 1.15
-   },
-   "factIds": [],
-   "stickers": [
-    "🕵️",
-    "🦴"
-   ]
-  },
-  {
-   "id": "s3",
-   "section": "context",
-   "lineIds": [
-    "l5",
-    "l6"
+    "l4",
+    "l5"
    ],
    "visual": {
     "type": "bullets",
@@ -103,10 +66,10 @@
    ]
   },
   {
-   "id": "s4",
+   "id": "s3",
    "section": "method",
    "lineIds": [
-    "l7"
+    "l6"
    ],
    "visual": {
     "type": "big-number",
@@ -134,11 +97,11 @@
    ]
   },
   {
-   "id": "s5",
+   "id": "s4",
    "section": "method",
    "lineIds": [
-    "l8",
-    "l9"
+    "l7",
+    "l8"
    ],
    "visual": {
     "type": "spotlight",
@@ -179,11 +142,11 @@
    ]
   },
   {
-   "id": "s6",
+   "id": "s5",
    "section": "method",
    "lineIds": [
-    "l10",
-    "l11"
+    "l9",
+    "l10"
    ],
    "visual": {
     "type": "diagram",
@@ -223,11 +186,11 @@
    ]
   },
   {
-   "id": "s7",
+   "id": "s6",
    "section": "method",
    "lineIds": [
-    "l12",
-    "l13"
+    "l11",
+    "l12"
    ],
    "visual": {
     "type": "comparison",
@@ -270,10 +233,10 @@
    ]
   },
   {
-   "id": "s8",
+   "id": "s7",
    "section": "method",
    "lineIds": [
-    "l14"
+    "l13"
    ],
    "visual": {
     "type": "spotlight",
@@ -310,11 +273,11 @@
    ]
   },
   {
-   "id": "s9",
+   "id": "s8",
    "section": "finding",
    "lineIds": [
-    "l15",
-    "l16"
+    "l14",
+    "l15"
    ],
    "visual": {
     "type": "diagram",
@@ -359,11 +322,11 @@
    ]
   },
   {
-   "id": "s10",
+   "id": "s9",
    "section": "finding",
    "lineIds": [
-    "l17",
-    "l18"
+    "l16",
+    "l17"
    ],
    "visual": {
     "type": "meter",
@@ -403,10 +366,10 @@
    ]
   },
   {
-   "id": "s11",
+   "id": "s10",
    "section": "finding",
    "lineIds": [
-    "l19"
+    "l18"
    ],
    "visual": {
     "type": "diagram",
@@ -449,16 +412,15 @@
    ]
   },
   {
-   "id": "s12",
+   "id": "s11",
    "section": "finding",
    "lineIds": [
-    "l20",
-    "l21",
-    "l22"
+    "l19",
+    "l20"
    ],
    "visual": {
     "type": "spotlight",
-    "title": "İpucu: iridyum",
+    "title": "İpucu: kil tabakası",
     "emoji": "🔍",
     "chips": [
      {
@@ -472,10 +434,6 @@
      {
       "label": "1980: Alvarez baba ve oğul",
       "emoji": "👨‍🔬"
-     },
-     {
-      "label": "İridyum: en nadir metallerden",
-      "emoji": "💎"
      }
     ]
    },
@@ -494,8 +452,39 @@
    ],
    "keywords": [
     "KİL TABAKASI",
-    "ALVAREZ KURAMI",
-    "İRİDYUM 💎"
+    "ALVAREZ KURAMI"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "finding",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "İridyum",
+    "label": "Dünya'daki en nadir metallerden biri",
+    "sub": "Doğa Tarihi Müzesi",
+    "icon": "💎"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "✨",
+    "🤖"
+   ],
+   "keywords": [
+    "İRİDYUM 💎",
+    "BEN ALÜMİNYUMUM 😅"
    ]
   },
   {
@@ -702,7 +691,8 @@
    "section": "importance",
    "lineIds": [
     "l32",
-    "l33"
+    "l33",
+    "l34"
    ],
    "visual": {
     "type": "spotlight",
@@ -746,14 +736,15 @@
    ],
    "keywords": [
     "TEROPOD 🦖",
-    "SERÇE = DİNOZOR!"
+    "SERÇE = DİNOZOR!",
+    "SELAM VER 🕊️"
    ]
   },
   {
    "id": "s19",
    "section": "importance",
    "lineIds": [
-    "l34"
+    "l35"
    ],
    "visual": {
     "type": "bullets",
@@ -784,8 +775,8 @@
    "id": "s20",
    "section": "importance",
    "lineIds": [
-    "l35",
-    "l36"
+    "l36",
+    "l37"
    ],
    "visual": {
     "type": "diagram",
@@ -832,7 +823,7 @@
    "id": "s21",
    "section": "limitations",
    "lineIds": [
-    "l37"
+    "l38"
    ],
    "visual": {
     "type": "spotlight",
@@ -874,7 +865,6 @@
    "id": "s22",
    "section": "limitations",
    "lineIds": [
-    "l38",
     "l39",
     "l40"
    ],
@@ -898,8 +888,7 @@
    ],
    "keywords": [
     "HIZLI SORU!",
-    "KUŞLAR ✅",
-    "SELAM VER 🕊️"
+    "KUŞLAR ✅"
    ]
   },
   {

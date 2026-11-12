@@ -1,6 +1,6 @@
 # Dinozorlar neden yok oldu?
 
-**Günün Sorusu #12** · Dinozorlar neden yok oldu? · süre 7:02
+**Günün Sorusu #12** · Dinozorlar neden yok oldu? · süre 7:00
 
 ## Açıklama
 
@@ -11,11 +11,11 @@ Dinozorları ne yok etti ve bunu nereden biliyoruz? Bu bölümde 66 milyon yıl 
 0:00 Açılış
 0:07 Giriş
 0:26 Günün sorusu
-0:47 Nasıl oluyor?
-1:55 İşin sırrı
+0:40 Nasıl oluyor?
+1:49 İşin sırrı
 3:11 Sen de dene
-5:01 Bunu biliyor muydun?
-6:35 Bugün bunu öğrendik
+5:08 Bunu biliyor muydun?
+6:36 Bugün bunu öğrendik
 
 ## Kaynaklar
 
@@ -92,5 +92,5 @@ _Müzik ElevenLabs Music ile yapay zekâ kullanılarak üretilmiştir; sözler M
 ## Üretim notları
 
 - Seslendirme: ElevenLabs
-- 577 kelime, 24 sahne, abone ol hatırlatması videonun %60.4 noktasında
+- 574 kelime, 24 sahne, abone ol hatırlatması videonun %60.7 noktasında
 - Thumbnail: `thumbnail.png`

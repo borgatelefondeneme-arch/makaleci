@@ -22,6 +22,7 @@ import { Song } from "./scenes/Song";
 import { SourceCard } from "./scenes/SourceCard";
 import { clamp } from "./anim";
 import { XFADE } from "./theme";
+import { Look, lookOf } from "./look";
 
 ensureFonts();
 
@@ -34,12 +35,17 @@ const REGISTRY: { [K in Scene["visual"]["type"]]: React.FC<SceneProps<K>> } = {
 
 // Sahne kabuğu: geçişler sahneden sahneye değişir (kayma, yükselme, yakınlaşma); sahne boyunca kamera
 // çok yavaş yaklaşır ve kayar, böylece hiçbir kare tamamen durağan kalmaz.
-const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: boolean; children: (frame: number) => React.ReactNode }> = ({ dur, last, index, camera, children }) => {
+const SceneShell: React.FC<{ dur: number; last: boolean; index: number; camera: boolean; look?: Look; children: (frame: number) => React.ReactNode }> = ({ dur, last, index, camera, look, children }) => {
   const f = useCurrentFrame();
   const inP = interpolate(f, [5, XFADE + 6], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
   const outP = last ? 0 : interpolate(f, [dur - 2, dur + 7], [0, 1], clamp);
-  const kind = index % 4;
-  const enter = kind === 0 ? `translateX(${(1 - inP) * 90}px)` : kind === 1 ? `translateY(${(1 - inP) * 70}px)` : kind === 2 ? `scale(${0.9 + 0.1 * inP})` : `translateX(${(1 - inP) * -90}px) rotate(${(1 - inP) * -1.5}deg)`;
+  // Giriş hareketi havuzu (8 tür); sırası bölümden bölüme değişir.
+  const kind = look ? (look.enterOffset + index * look.enterStep) % 8 : index % 4;
+  const q = 1 - inP;
+  const enter = [
+    `translateX(${q * 90}px)`, `translateY(${q * 70}px)`, `scale(${0.9 + 0.1 * inP})`, `translateX(${q * -90}px) rotate(${q * -1.5}deg)`,
+    `scale(${1 + 0.12 * q})`, `translateY(${q * -70}px)`, `rotate(${q * 3}deg) scale(${0.94 + 0.06 * inP})`, `translateX(${q * 120}px) skewX(${q * -6}deg)`,
+  ][kind];
   const t = Math.min(1, f / Math.max(1, dur));
   const cam = camera ? `scale(${1 + 0.035 * t}) translate(${(index % 2 ? -1 : 1) * 14 * t}px, ${-8 * t}px)` : "";
   return (
@@ -79,15 +85,17 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   cues.push({ startFrame: tailStart, cue: { state: "talk", x: 0.14, y: 0.5, scale: 1.4, pose: "wave" } });
   const visits: Visit[] = [{ start: 0, end: voice.introFrames + 8, outFrames: 34 }, { start: lastV.startFrame - 4, end: voice.totalFrames - 12, outFrames: 60 }];
   // Ara sahnelerde yalnızca kafa görünür: açılıştan sonra belirir, şarkıdan (yoksa kapanıştan) önce çekilir.
+  const shift = lookOf(script.episodeNumber).cornerShift;
   const headOn = (i: number) => i < plan.scenes.length - 1 && plan.scenes[i].visual.type !== "song";
-  const headScenes = plan.scenes.map((_, i) => ({ startFrame: voice.scenes[i].startFrame, corner: cornerOf(i) })).filter((_, i) => headOn(i));
+  const headScenes = plan.scenes.map((_, i) => ({ startFrame: voice.scenes[i].startFrame, corner: cornerOf(i + shift) })).filter((_, i) => headOn(i));
   const headTo = voice.song ? voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.startFrame + voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.lineEndFrames.slice(-1)[0] : lastV.startFrame - 8;
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
+  const look = lookOf(script.episodeNumber, script.song?.cast.map((c) => c.emoji) ?? plan.scenes[0]?.stickers ?? []);
   const cur = plan.scenes.find((_, i) => f >= voice.scenes[i].startFrame && f < voice.scenes[i].startFrame + voice.scenes[i].durationFrames);
   return (
     <AbsoluteFill style={{ background: "#FBF8F3" }}>
       <AbsoluteFill style={{ opacity: fadeOut }}>
-        <Background />
+        <Background look={look} />
         <Sequence durationInFrames={voice.introFrames + XFADE} name="Açılış">
           <SceneShell dur={voice.introFrames} last={false} index={0} camera={false}>{(fr) => <Intro frame={fr} data={data} />}</SceneShell>
         </Sequence>
@@ -97,11 +105,11 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
           const Comp = REGISTRY[sc.visual.type] as React.FC<SceneProps<any>>;
           return (
             <Sequence key={sc.id} from={v.startFrame} durationInFrames={v.durationFrames + (last ? 0 : XFADE)} name={`${sc.id} · ${sc.visual.type}`}>
-              <SceneShell dur={v.durationFrames} last={last} index={i} camera={!last && sc.visual.type !== "song"}>
+              <SceneShell dur={v.durationFrames} last={last} index={i} look={look} camera={!last && sc.visual.type !== "song"}>
                 {(fr) => (<>
-                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerOf(i)) : undefined} /> : null}
+                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerOf(i + shift)) : undefined} /> : null}
                   <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />
-                  {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} /> : null}
+                  {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} variant={look.keyword} /> : null}
                 </>)}
               </SceneShell>
             </Sequence>

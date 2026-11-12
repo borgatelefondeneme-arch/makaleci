@@ -3,9 +3,9 @@
   "fps": 30,
   "introFrames": 221,
   "outroTailFrames": 270,
-  "totalFrames": 11373,
-  "durationSec": 379.1,
-  "wordCount": 498,
+  "totalFrames": 11270,
+  "durationSec": 375.67,
+  "wordCount": 489,
   "audioFile": "audio/narration.wav",
   "scenes": [
     {
@@ -27,18 +27,6 @@
     {
       "sceneId": "s2",
       "startFrame": 674,
-      "durationFrames": 224,
-      "audioStartFrame": 8,
-      "lineStartFrames": [
-        8
-      ],
-      "lineEndFrames": [
-        212
-      ]
-    },
-    {
-      "sceneId": "s3",
-      "startFrame": 898,
       "durationFrames": 469,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -51,8 +39,8 @@
       ]
     },
     {
-      "sceneId": "s4",
-      "startFrame": 1367,
+      "sceneId": "s3",
+      "startFrame": 1143,
       "durationFrames": 569,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -65,8 +53,8 @@
       ]
     },
     {
-      "sceneId": "s5",
-      "startFrame": 1936,
+      "sceneId": "s4",
+      "startFrame": 1712,
       "durationFrames": 518,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -79,8 +67,8 @@
       ]
     },
     {
-      "sceneId": "s6",
-      "startFrame": 2454,
+      "sceneId": "s5",
+      "startFrame": 2230,
       "durationFrames": 758,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -95,8 +83,8 @@
       ]
     },
     {
-      "sceneId": "s7",
-      "startFrame": 3212,
+      "sceneId": "s6",
+      "startFrame": 2988,
       "durationFrames": 221,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -107,8 +95,8 @@
       ]
     },
     {
-      "sceneId": "s8",
-      "startFrame": 3433,
+      "sceneId": "s7",
+      "startFrame": 3209,
       "durationFrames": 193,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -119,8 +107,8 @@
       ]
     },
     {
-      "sceneId": "s9",
-      "startFrame": 3626,
+      "sceneId": "s8",
+      "startFrame": 3402,
       "durationFrames": 779,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -135,8 +123,8 @@
       ]
     },
     {
-      "sceneId": "s10",
-      "startFrame": 4405,
+      "sceneId": "s9",
+      "startFrame": 4181,
       "durationFrames": 200,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -147,8 +135,8 @@
       ]
     },
     {
-      "sceneId": "s11",
-      "startFrame": 4605,
+      "sceneId": "s10",
+      "startFrame": 4381,
       "durationFrames": 567,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -161,8 +149,8 @@
       ]
     },
     {
-      "sceneId": "s12",
-      "startFrame": 5172,
+      "sceneId": "s11",
+      "startFrame": 4948,
       "durationFrames": 466,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -175,8 +163,8 @@
       ]
     },
     {
-      "sceneId": "s13",
-      "startFrame": 5638,
+      "sceneId": "s12",
+      "startFrame": 5414,
       "durationFrames": 288,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -187,8 +175,8 @@
       ]
     },
     {
-      "sceneId": "s14",
-      "startFrame": 5926,
+      "sceneId": "s13",
+      "startFrame": 5702,
       "durationFrames": 464,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -201,8 +189,8 @@
       ]
     },
     {
-      "sceneId": "s15",
-      "startFrame": 6390,
+      "sceneId": "s14",
+      "startFrame": 6166,
       "durationFrames": 218,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -213,20 +201,22 @@
       ]
     },
     {
-      "sceneId": "s16",
-      "startFrame": 6608,
-      "durationFrames": 298,
+      "sceneId": "s15",
+      "startFrame": 6384,
+      "durationFrames": 474,
       "audioStartFrame": 8,
       "lineStartFrames": [
-        8
+        8,
+        287
       ],
       "lineEndFrames": [
-        287
+        276,
+        462
       ]
     },
     {
-      "sceneId": "s17",
-      "startFrame": 6906,
+      "sceneId": "s16",
+      "startFrame": 6858,
       "durationFrames": 737,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -241,20 +231,22 @@
       ]
     },
     {
-      "sceneId": "s18",
-      "startFrame": 7643,
-      "durationFrames": 162,
+      "sceneId": "s17",
+      "startFrame": 7595,
+      "durationFrames": 270,
       "audioStartFrame": 8,
       "lineStartFrames": [
-        8
+        8,
+        158
       ],
       "lineEndFrames": [
-        150
+        145,
+        258
       ]
     },
     {
-      "sceneId": "s19",
-      "startFrame": 7805,
+      "sceneId": "s18",
+      "startFrame": 7865,
       "durationFrames": 262,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -265,24 +257,22 @@
       ]
     },
     {
-      "sceneId": "s20",
-      "startFrame": 8067,
-      "durationFrames": 438,
+      "sceneId": "s19",
+      "startFrame": 8127,
+      "durationFrames": 275,
       "audioStartFrame": 8,
       "lineStartFrames": [
         8,
-        165,
-        274
+        163
       ],
       "lineEndFrames": [
-        150,
-        256,
-        426
+        162,
+        261
       ]
     },
     {
-      "sceneId": "s21",
-      "startFrame": 8505,
+      "sceneId": "s20",
+      "startFrame": 8402,
       "durationFrames": 2075,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -293,8 +283,8 @@
       ]
     },
     {
-      "sceneId": "s22",
-      "startFrame": 10580,
+      "sceneId": "s21",
+      "startFrame": 10477,
       "durationFrames": 793,
       "audioStartFrame": 8,
       "lineStartFrames": [
@@ -486,2389 +476,2344 @@
       "end": 22.085
     },
     {
-      "text": "Ben",
-      "start": 22.733,
-      "end": 22.991
-    },
-    {
-      "text": "de",
-      "start": 23.034,
-      "end": 23.077
-    },
-    {
-      "text": "enerjimi",
-      "start": 23.163,
-      "end": 23.68
-    },
-    {
-      "text": "kendim",
-      "start": 23.766,
-      "end": 24.11
-    },
-    {
-      "text": "üretmek",
-      "start": 24.196,
-      "end": 24.54
-    },
-    {
-      "text": "isterdim.",
-      "start": 24.712,
-      "end": 25.658
-    },
-    {
-      "text": "Ama",
-      "start": 25.701,
-      "end": 25.83
-    },
-    {
-      "text": "bende",
-      "start": 25.916,
-      "end": 26.26
-    },
-    {
-      "text": "yaprak",
-      "start": 26.346,
-      "end": 26.69
-    },
-    {
-      "text": "yok,",
-      "start": 26.776,
-      "end": 27.465
-    },
-    {
-      "text": "yalnızca",
-      "start": 27.551,
-      "end": 28.153
-    },
-    {
-      "text": "şarj",
-      "start": 28.239,
-      "end": 28.583
-    },
-    {
-      "text": "girişi",
-      "start": 28.669,
-      "end": 28.927
-    },
-    {
-      "text": "var!",
-      "start": 29.013,
-      "end": 29.529
-    },
-    {
       "text": "Üç",
-      "start": 30.2,
-      "end": 30.372
+      "start": 22.733,
+      "end": 22.905
     },
     {
       "text": "sorumuz",
-      "start": 30.458,
-      "end": 30.888
+      "start": 22.991,
+      "end": 23.422
     },
     {
       "text": "var.",
-      "start": 31.06,
-      "end": 31.748
+      "start": 23.594,
+      "end": 24.282
     },
     {
       "text": "Bitki",
-      "start": 31.877,
-      "end": 32.092
+      "start": 24.411,
+      "end": 24.626
     },
     {
       "text": "besinini",
-      "start": 32.222,
-      "end": 32.695
+      "start": 24.755,
+      "end": 25.228
     },
     {
       "text": "neyle",
-      "start": 32.781,
-      "end": 33.039
+      "start": 25.314,
+      "end": 25.572
     },
     {
       "text": "üretir?",
-      "start": 33.125,
-      "end": 34.157
+      "start": 25.658,
+      "end": 26.69
     },
     {
       "text": "Yaprağın",
-      "start": 34.243,
-      "end": 34.673
+      "start": 26.776,
+      "end": 27.206
     },
     {
       "text": "içinde",
-      "start": 34.759,
-      "end": 35.189
+      "start": 27.292,
+      "end": 27.723
     },
     {
       "text": "neler",
-      "start": 35.232,
-      "end": 35.533
+      "start": 27.766,
+      "end": 28.067
     },
     {
       "text": "olur?",
-      "start": 35.619,
-      "end": 36.351
+      "start": 28.153,
+      "end": 28.884
     },
     {
       "text": "Ve",
-      "start": 36.394,
-      "end": 36.566
+      "start": 28.927,
+      "end": 29.099
     },
     {
       "text": "bu",
-      "start": 36.652,
-      "end": 36.738
+      "start": 29.185,
+      "end": 29.271
     },
     {
       "text": "olay",
-      "start": 36.824,
-      "end": 37.168
+      "start": 29.357,
+      "end": 29.701
     },
     {
       "text": "bizim",
-      "start": 37.254,
-      "end": 37.426
+      "start": 29.787,
+      "end": 29.959
     },
     {
       "text": "için",
-      "start": 37.512,
-      "end": 37.856
+      "start": 30.045,
+      "end": 30.389
     },
     {
       "text": "neden",
-      "start": 37.899,
-      "end": 38.2
+      "start": 30.432,
+      "end": 30.733
     },
     {
       "text": "hayati?",
-      "start": 38.286,
-      "end": 39.605
+      "start": 30.819,
+      "end": 32.139
     },
     {
       "text": "Bilmediğin",
-      "start": 39.633,
-      "end": 40.178
+      "start": 32.167,
+      "end": 32.712
     },
     {
       "text": "kelimeler",
-      "start": 40.265,
-      "end": 40.609
+      "start": 32.798,
+      "end": 33.142
     },
     {
       "text": "olursa",
-      "start": 40.695,
-      "end": 41.211
+      "start": 33.228,
+      "end": 33.744
     },
     {
       "text": "merak",
-      "start": 41.34,
-      "end": 41.641
+      "start": 33.873,
+      "end": 34.174
     },
     {
       "text": "etme.",
-      "start": 41.727,
-      "end": 42.444
+      "start": 34.26,
+      "end": 34.977
     },
     {
       "text": "Sana",
-      "start": 42.472,
-      "end": 42.673
+      "start": 35.005,
+      "end": 35.206
     },
     {
       "text": "açıklamalarda",
-      "start": 42.716,
-      "end": 43.533
+      "start": 35.249,
+      "end": 36.067
     },
     {
       "text": "bir",
-      "start": 43.619,
-      "end": 43.705
+      "start": 36.153,
+      "end": 36.239
     },
     {
       "text": "sözlük",
-      "start": 43.748,
-      "end": 44.135
+      "start": 36.282,
+      "end": 36.669
     },
     {
       "text": "bırakıyorum.",
-      "start": 44.192,
-      "end": 45.168
+      "start": 36.726,
+      "end": 37.701
     },
     {
       "text": "Neşınıl",
-      "start": 45.833,
-      "end": 46.392
+      "start": 38.367,
+      "end": 38.926
     },
     {
       "text": "Ciyografik'e",
-      "start": 46.435,
-      "end": 47.124
+      "start": 38.969,
+      "end": 39.657
     },
     {
       "text": "göre",
-      "start": 47.167,
-      "end": 47.468
+      "start": 39.7,
+      "end": 40.001
     },
     {
       "text": "fotosentez,",
-      "start": 47.898,
-      "end": 49.188
+      "start": 40.431,
+      "end": 41.722
     },
     {
       "text": "bitkilerin",
-      "start": 49.274,
-      "end": 49.79
+      "start": 41.808,
+      "end": 42.324
     },
     {
       "text": "Güneş",
-      "start": 49.962,
-      "end": 50.22
+      "start": 42.496,
+      "end": 42.754
     },
     {
       "text": "ışığını,",
-      "start": 50.306,
-      "end": 51.081
+      "start": 42.84,
+      "end": 43.614
     },
     {
       "text": "suyu",
-      "start": 51.167,
-      "end": 51.511
+      "start": 43.7,
+      "end": 44.044
     },
     {
       "text": "ve",
-      "start": 51.597,
-      "end": 51.683
+      "start": 44.13,
+      "end": 44.216
     },
     {
       "text": "karbondioksiti",
-      "start": 51.769,
-      "end": 52.715
+      "start": 44.302,
+      "end": 45.248
     },
     {
       "text": "kullanarak",
-      "start": 52.758,
-      "end": 53.403
+      "start": 45.291,
+      "end": 45.937
     },
     {
       "text": "oksijen",
-      "start": 53.747,
-      "end": 54.349
+      "start": 46.281,
+      "end": 46.883
     },
     {
       "text": "ve",
-      "start": 54.392,
-      "end": 54.435
+      "start": 46.926,
+      "end": 46.969
     },
     {
       "text": "şeker",
-      "start": 54.608,
-      "end": 54.952
+      "start": 47.141,
+      "end": 47.485
     },
     {
       "text": "biçiminde",
-      "start": 55.038,
-      "end": 55.554
+      "start": 47.571,
+      "end": 48.087
     },
     {
       "text": "enerji",
-      "start": 55.64,
-      "end": 56.156
+      "start": 48.173,
+      "end": 48.689
     },
     {
       "text": "ürettiği",
-      "start": 56.199,
-      "end": 56.672
+      "start": 48.732,
+      "end": 49.205
     },
     {
       "text": "süreçtir.",
-      "start": 56.715,
-      "end": 57.704
+      "start": 49.248,
+      "end": 50.238
     },
     {
       "text": "Malzemeler",
-      "start": 58.048,
-      "end": 58.737
+      "start": 50.582,
+      "end": 51.27
     },
     {
       "text": "basit:",
-      "start": 58.866,
-      "end": 59.769
+      "start": 51.399,
+      "end": 52.302
     },
     {
       "text": "bitki,",
-      "start": 59.855,
-      "end": 60.629
+      "start": 52.388,
+      "end": 53.162
     },
     {
       "text": "havadan",
-      "start": 60.672,
-      "end": 61.059
+      "start": 53.205,
+      "end": 53.592
     },
     {
       "text": "karbondioksit,",
-      "start": 61.145,
-      "end": 62.522
+      "start": 53.678,
+      "end": 55.055
     },
     {
       "text": "topraktan",
-      "start": 62.651,
-      "end": 63.21
+      "start": 55.184,
+      "end": 55.743
     },
     {
       "text": "su",
-      "start": 63.296,
-      "end": 63.468
+      "start": 55.829,
+      "end": 56.001
     },
     {
       "text": "alır.",
-      "start": 63.554,
-      "end": 64.156
+      "start": 56.087,
+      "end": 56.689
     },
     {
       "text": "Güneş",
-      "start": 64.8,
-      "end": 65.144
+      "start": 57.333,
+      "end": 57.677
     },
     {
       "text": "ışığının",
-      "start": 65.23,
-      "end": 65.66
+      "start": 57.763,
+      "end": 58.194
     },
     {
       "text": "enerjisini",
-      "start": 65.832,
-      "end": 66.348
+      "start": 58.366,
+      "end": 58.882
     },
     {
       "text": "yakalar",
-      "start": 66.405,
-      "end": 66.865
+      "start": 58.939,
+      "end": 59.398
     },
     {
       "text": "ve",
-      "start": 67.123,
-      "end": 67.209
+      "start": 59.656,
+      "end": 59.742
     },
     {
       "text": "iki",
-      "start": 67.381,
-      "end": 67.553
+      "start": 59.914,
+      "end": 60.086
     },
     {
       "text": "şey",
-      "start": 67.639,
-      "end": 67.811
+      "start": 60.172,
+      "end": 60.344
     },
     {
       "text": "üretir:",
-      "start": 67.897,
-      "end": 68.757
+      "start": 60.43,
+      "end": 61.29
     },
     {
       "text": "oksijen",
-      "start": 68.886,
-      "end": 69.359
+      "start": 61.419,
+      "end": 61.892
     },
     {
       "text": "ve",
-      "start": 69.445,
-      "end": 69.531
+      "start": 61.978,
+      "end": 62.065
     },
     {
       "text": "glikoz.",
-      "start": 69.617,
-      "end": 70.563
+      "start": 62.151,
+      "end": 63.097
     },
     {
       "text": "Glikoz",
-      "start": 70.822,
-      "end": 71.338
+      "start": 63.355,
+      "end": 63.871
     },
     {
       "text": "bir",
-      "start": 71.424,
-      "end": 71.51
+      "start": 63.957,
+      "end": 64.043
     },
     {
       "text": "şekerdir;",
-      "start": 71.596,
-      "end": 72.499
+      "start": 64.129,
+      "end": 65.032
     },
     {
       "text": "enerjiyi",
-      "start": 72.714,
-      "end": 73.316
+      "start": 65.247,
+      "end": 65.849
     },
     {
       "text": "kimyasal",
-      "start": 73.402,
-      "end": 74.004
+      "start": 65.935,
+      "end": 66.538
     },
     {
       "text": "olarak",
-      "start": 74.133,
-      "end": 74.348
+      "start": 66.667,
+      "end": 66.882
     },
     {
       "text": "depolar.",
-      "start": 74.434,
-      "end": 75.037
+      "start": 66.968,
+      "end": 67.57
     },
     {
       "text": "Bitki",
-      "start": 75.553,
-      "end": 75.983
+      "start": 68.086,
+      "end": 68.516
     },
     {
       "text": "oksijeni",
-      "start": 76.155,
-      "end": 76.757
+      "start": 68.688,
+      "end": 69.29
     },
     {
       "text": "havaya",
-      "start": 76.8,
-      "end": 77.101
+      "start": 69.333,
+      "end": 69.634
     },
     {
       "text": "geri",
-      "start": 77.187,
-      "end": 77.445
+      "start": 69.72,
+      "end": 69.978
     },
     {
       "text": "verir,",
-      "start": 77.531,
-      "end": 78.219
+      "start": 70.065,
+      "end": 70.753
     },
     {
       "text": "enerjiyi",
-      "start": 78.391,
-      "end": 78.822
+      "start": 70.925,
+      "end": 71.355
     },
     {
       "text": "ise",
-      "start": 78.994,
-      "end": 79.166
+      "start": 71.527,
+      "end": 71.699
     },
     {
       "text": "glikoz",
-      "start": 79.338,
-      "end": 79.768
+      "start": 71.871,
+      "end": 72.301
     },
     {
       "text": "moleküllerinde",
-      "start": 79.854,
-      "end": 80.542
+      "start": 72.387,
+      "end": 73.075
     },
     {
       "text": "saklar.",
-      "start": 80.628,
-      "end": 81.402
+      "start": 73.161,
+      "end": 73.935
     },
     {
       "text": "Bütün",
-      "start": 82.067,
-      "end": 82.411
+      "start": 74.6,
+      "end": 74.944
     },
     {
       "text": "bunlar",
-      "start": 82.468,
-      "end": 82.755
+      "start": 75.001,
+      "end": 75.288
     },
     {
       "text": "nerede",
-      "start": 82.841,
-      "end": 83.185
+      "start": 75.374,
+      "end": 75.718
     },
     {
       "text": "olur?",
-      "start": 83.271,
-      "end": 83.873
+      "start": 75.804,
+      "end": 76.406
     },
     {
       "text": "Bitki",
-      "start": 84.131,
-      "end": 84.475
+      "start": 76.665,
+      "end": 77.009
     },
     {
       "text": "hücrelerinin",
-      "start": 84.561,
-      "end": 85.163
+      "start": 77.095,
+      "end": 77.697
     },
     {
       "text": "içindeki",
-      "start": 85.206,
-      "end": 85.766
+      "start": 77.74,
+      "end": 78.299
     },
     {
       "text": "kloroplast",
-      "start": 85.938,
-      "end": 86.712
+      "start": 78.471,
+      "end": 79.245
     },
     {
       "text": "adlı",
-      "start": 86.798,
-      "end": 87.056
+      "start": 79.331,
+      "end": 79.589
     },
     {
       "text": "minik",
-      "start": 87.142,
-      "end": 87.486
+      "start": 79.675,
+      "end": 80.019
     },
     {
       "text": "organellerde.",
-      "start": 87.572,
-      "end": 88.776
+      "start": 80.105,
+      "end": 81.31
     },
     {
       "text": "Kloroplastlarda",
-      "start": 89.034,
-      "end": 90.153
+      "start": 81.568,
+      "end": 82.686
     },
     {
       "text": "klorofil",
-      "start": 90.325,
-      "end": 90.841
+      "start": 82.858,
+      "end": 83.374
     },
     {
       "text": "adlı",
-      "start": 90.927,
-      "end": 91.185
+      "start": 83.46,
+      "end": 83.718
     },
     {
       "text": "bir",
-      "start": 91.271,
-      "end": 91.357
+      "start": 83.804,
+      "end": 83.89
     },
     {
       "text": "pigment,",
-      "start": 91.443,
-      "end": 92.303
+      "start": 83.976,
+      "end": 84.837
     },
     {
       "text": "yani",
-      "start": 92.346,
-      "end": 92.733
+      "start": 84.88,
+      "end": 85.267
     },
     {
       "text": "renk",
-      "start": 92.905,
-      "end": 93.163
+      "start": 85.439,
+      "end": 85.697
     },
     {
       "text": "maddesi",
-      "start": 93.249,
-      "end": 93.68
+      "start": 85.783,
+      "end": 86.213
     },
     {
       "text": "bulunur.",
-      "start": 93.766,
-      "end": 94.454
+      "start": 86.299,
+      "end": 86.987
     },
     {
       "text": "Işığın",
-      "start": 94.712,
-      "end": 95.142
+      "start": 87.245,
+      "end": 87.675
     },
     {
       "text": "enerjisini",
-      "start": 95.228,
-      "end": 95.916
+      "start": 87.761,
+      "end": 88.449
     },
     {
       "text": "soğuran",
-      "start": 96.002,
-      "end": 96.432
+      "start": 88.535,
+      "end": 88.966
     },
     {
       "text": "odur.",
-      "start": 96.604,
-      "end": 97.292
+      "start": 89.138,
+      "end": 89.826
     },
     {
       "text": "Klorofil,",
-      "start": 97.551,
-      "end": 98.368
+      "start": 90.084,
+      "end": 90.901
     },
     {
       "text": "ışığın",
-      "start": 98.497,
-      "end": 98.927
+      "start": 91.03,
+      "end": 91.46
     },
     {
       "text": "mavi",
-      "start": 99.013,
-      "end": 99.443
+      "start": 91.546,
+      "end": 91.976
     },
     {
       "text": "ve",
-      "start": 99.529,
-      "end": 99.615
+      "start": 92.062,
+      "end": 92.148
     },
     {
       "text": "kırmızı",
-      "start": 99.701,
-      "end": 100.088
+      "start": 92.234,
+      "end": 92.622
     },
     {
       "text": "dalgalarını",
-      "start": 100.131,
-      "end": 100.733
+      "start": 92.665,
+      "end": 93.267
     },
     {
       "text": "soğurur;",
-      "start": 100.819,
-      "end": 101.68
+      "start": 93.353,
+      "end": 94.213
     },
     {
       "text": "yeşil",
-      "start": 101.766,
-      "end": 102.11
+      "start": 94.299,
+      "end": 94.643
     },
     {
       "text": "dalgaları",
-      "start": 102.196,
-      "end": 102.669
+      "start": 94.729,
+      "end": 95.202
     },
     {
       "text": "ise",
-      "start": 102.712,
-      "end": 102.97
+      "start": 95.245,
+      "end": 95.503
     },
     {
       "text": "yansıtır.",
-      "start": 103.013,
-      "end": 103.744
+      "start": 95.546,
+      "end": 96.277
     },
     {
       "text": "Yapraklar",
-      "start": 104.174,
-      "end": 104.776
+      "start": 96.708,
+      "end": 97.31
     },
     {
       "text": "bu",
-      "start": 104.862,
-      "end": 104.948
+      "start": 97.396,
+      "end": 97.482
     },
     {
       "text": "yüzden",
-      "start": 104.991,
-      "end": 105.378
+      "start": 97.525,
+      "end": 97.912
     },
     {
       "text": "yeşil",
-      "start": 105.465,
-      "end": 105.809
+      "start": 97.998,
+      "end": 98.342
     },
     {
       "text": "görünür.",
-      "start": 105.895,
-      "end": 106.669
+      "start": 98.428,
+      "end": 99.202
     },
     {
       "text": "Yani",
-      "start": 107.333,
-      "end": 107.677
+      "start": 99.867,
+      "end": 100.211
     },
     {
       "text": "bitkiler,",
-      "start": 107.806,
-      "end": 108.624
+      "start": 100.34,
+      "end": 101.157
     },
     {
       "text": "kullanmadığı",
-      "start": 108.667,
-      "end": 109.398
+      "start": 101.2,
+      "end": 101.931
     },
     {
       "text": "rengi",
-      "start": 109.441,
-      "end": 109.742
+      "start": 101.974,
+      "end": 102.275
     },
     {
       "text": "bize",
-      "start": 109.785,
-      "end": 110.086
+      "start": 102.318,
+      "end": 102.619
     },
     {
       "text": "yolluyor.",
-      "start": 110.172,
-      "end": 110.989
+      "start": 102.705,
+      "end": 103.523
     },
     {
       "text": "Yeşil",
-      "start": 111.29,
-      "end": 111.806
+      "start": 103.824,
+      "end": 104.34
     },
     {
       "text": "aslında",
-      "start": 112.151,
-      "end": 112.667
+      "start": 104.684,
+      "end": 105.2
     },
     {
       "text": "artan",
-      "start": 112.753,
-      "end": 113.269
+      "start": 105.286,
+      "end": 105.802
     },
     {
       "text": "renk!",
-      "start": 113.355,
-      "end": 114.043
+      "start": 105.888,
+      "end": 106.576
     },
     {
       "text": "Şimdi",
-      "start": 114.7,
-      "end": 115.044
+      "start": 107.233,
+      "end": 107.577
     },
     {
       "text": "yaprağın",
-      "start": 115.13,
-      "end": 115.56
+      "start": 107.663,
+      "end": 108.094
     },
     {
       "text": "içindeki",
-      "start": 115.646,
-      "end": 116.076
+      "start": 108.18,
+      "end": 108.61
     },
     {
       "text": "fabrikaya",
-      "start": 116.162,
-      "end": 116.678
+      "start": 108.696,
+      "end": 109.212
     },
     {
       "text": "girelim.",
-      "start": 116.722,
-      "end": 117.625
+      "start": 109.255,
+      "end": 110.158
     },
     {
       "text": "Fotosentez",
-      "start": 117.74,
-      "end": 118.571
+      "start": 110.273,
+      "end": 111.104
     },
     {
       "text": "iki",
-      "start": 118.7,
-      "end": 118.829
+      "start": 111.233,
+      "end": 111.362
     },
     {
       "text": "aşamada",
-      "start": 118.915,
-      "end": 119.345
+      "start": 111.448,
+      "end": 111.878
     },
     {
       "text": "gerçekleşir.",
-      "start": 119.474,
-      "end": 120.377
+      "start": 112.008,
+      "end": 112.911
     },
     {
       "text": "Birinci",
-      "start": 121.133,
-      "end": 121.563
+      "start": 113.667,
+      "end": 114.097
     },
     {
       "text": "aşama:",
-      "start": 121.649,
-      "end": 122.51
+      "start": 114.183,
+      "end": 115.043
     },
     {
       "text": "ışığa",
-      "start": 122.639,
-      "end": 122.94
+      "start": 115.172,
+      "end": 115.473
     },
     {
       "text": "bağımlı",
-      "start": 123.026,
-      "end": 123.413
+      "start": 115.559,
+      "end": 115.946
     },
     {
       "text": "tepkimeler.",
-      "start": 123.456,
-      "end": 124.531
+      "start": 115.989,
+      "end": 117.065
     },
     {
       "text": "Kloroplastın",
-      "start": 124.832,
-      "end": 125.606
+      "start": 117.366,
+      "end": 118.14
     },
     {
       "text": "içindeki",
-      "start": 125.649,
-      "end": 126.123
+      "start": 118.183,
+      "end": 118.656
     },
     {
       "text": "tilakoit",
-      "start": 126.209,
-      "end": 126.811
+      "start": 118.742,
+      "end": 119.344
     },
     {
       "text": "zarında",
-      "start": 126.897,
-      "end": 127.155
+      "start": 119.43,
+      "end": 119.688
     },
     {
       "text": "gerçekleşir",
-      "start": 127.241,
-      "end": 128.015
+      "start": 119.774,
+      "end": 120.548
     },
     {
       "text": "ve",
-      "start": 128.273,
-      "end": 128.445
+      "start": 120.806,
+      "end": 120.978
     },
     {
       "text": "sürekli",
-      "start": 128.531,
-      "end": 128.961
+      "start": 121.065,
+      "end": 121.495
     },
     {
       "text": "Güneş",
-      "start": 129.047,
-      "end": 129.391
+      "start": 121.581,
+      "end": 121.925
     },
     {
       "text": "ışığı",
-      "start": 129.477,
-      "end": 129.735
+      "start": 122.011,
+      "end": 122.269
     },
     {
       "text": "ister.",
-      "start": 129.994,
-      "end": 130.596
+      "start": 122.527,
+      "end": 123.129
     },
     {
       "text": "Burada",
-      "start": 130.94,
-      "end": 131.37
+      "start": 123.473,
+      "end": 123.903
     },
     {
       "text": "su",
-      "start": 131.542,
-      "end": 131.628
+      "start": 124.075,
+      "end": 124.161
     },
     {
       "text": "molekülleri",
-      "start": 131.714,
-      "end": 132.402
+      "start": 124.247,
+      "end": 124.935
     },
     {
       "text": "elektron",
-      "start": 132.488,
-      "end": 133.004
+      "start": 125.022,
+      "end": 125.538
     },
     {
       "text": "kaybeder;",
-      "start": 133.09,
-      "end": 133.908
+      "start": 125.624,
+      "end": 126.441
     },
     {
       "text": "buna",
-      "start": 134.123,
-      "end": 134.381
+      "start": 126.656,
+      "end": 126.914
     },
     {
       "text": "yükseltgenme",
-      "start": 134.467,
-      "end": 135.327
+      "start": 127,
+      "end": 127.86
     },
     {
       "text": "denir.",
-      "start": 135.413,
-      "end": 136.058
+      "start": 127.946,
+      "end": 128.591
     },
     {
       "text": "Su,",
-      "start": 136.359,
-      "end": 136.746
+      "start": 128.892,
+      "end": 129.28
     },
     {
       "text": "oksijene",
-      "start": 136.875,
-      "end": 137.391
+      "start": 129.409,
+      "end": 129.925
     },
     {
       "text": "dönüşür.",
-      "start": 137.477,
-      "end": 138.295
+      "start": 130.011,
+      "end": 130.828
     },
     {
       "text": "Işığın",
-      "start": 138.596,
-      "end": 139.026
+      "start": 131.129,
+      "end": 131.559
     },
     {
       "text": "enerjisi",
-      "start": 139.198,
-      "end": 139.628
+      "start": 131.731,
+      "end": 132.161
     },
     {
       "text": "ise",
-      "start": 139.843,
-      "end": 140.058
+      "start": 132.376,
+      "end": 132.591
     },
     {
       "text": "A",
-      "start": 140.488,
-      "end": 140.66
+      "start": 133.022,
+      "end": 133.194
     },
     {
       "text": "Te",
-      "start": 140.746,
-      "end": 140.918
+      "start": 133.28,
+      "end": 133.452
     },
     {
       "text": "Pe",
-      "start": 141.047,
-      "end": 141.176
+      "start": 133.581,
+      "end": 133.71
     },
     {
       "text": "ve",
-      "start": 141.52,
-      "end": 141.692
+      "start": 134.054,
+      "end": 134.226
     },
     {
       "text": "En",
-      "start": 141.865,
-      "end": 142.123
+      "start": 134.398,
+      "end": 134.656
     },
     {
       "text": "A",
-      "start": 142.295,
-      "end": 142.381
+      "start": 134.828,
+      "end": 134.914
     },
     {
       "text": "De",
-      "start": 142.467,
-      "end": 142.639
+      "start": 135,
+      "end": 135.172
     },
     {
       "text": "Pe",
-      "start": 142.725,
-      "end": 142.811
+      "start": 135.258,
+      "end": 135.344
     },
     {
       "text": "Ha",
-      "start": 142.897,
-      "end": 143.069
+      "start": 135.43,
+      "end": 135.602
     },
     {
       "text": "adlı",
-      "start": 143.155,
-      "end": 143.499
+      "start": 135.688,
+      "end": 136.032
     },
     {
       "text": "iki",
-      "start": 143.671,
-      "end": 143.929
+      "start": 136.204,
+      "end": 136.462
     },
     {
       "text": "enerji",
-      "start": 144.015,
-      "end": 144.445
+      "start": 136.548,
+      "end": 136.978
     },
     {
       "text": "taşıyıcı",
-      "start": 144.531,
-      "end": 144.961
+      "start": 137.065,
+      "end": 137.495
     },
     {
       "text": "moleküle",
-      "start": 145.047,
-      "end": 145.477
+      "start": 137.581,
+      "end": 138.011
     },
     {
       "text": "yüklenir.",
-      "start": 145.563,
-      "end": 146.424
+      "start": 138.097,
+      "end": 138.957
     },
     {
       "text": "Yani",
-      "start": 147.1,
-      "end": 147.616
+      "start": 139.633,
+      "end": 140.149
     },
     {
       "text": "A",
-      "start": 147.874,
-      "end": 147.96
+      "start": 140.408,
+      "end": 140.494
     },
     {
       "text": "Te",
-      "start": 148.046,
-      "end": 148.218
+      "start": 140.58,
+      "end": 140.752
     },
     {
       "text": "Pe,",
-      "start": 148.304,
-      "end": 148.562
+      "start": 140.838,
+      "end": 141.096
     },
     {
       "text": "bitkinin",
-      "start": 148.82,
-      "end": 149.337
+      "start": 141.354,
+      "end": 141.87
     },
     {
       "text": "şarjlı",
-      "start": 149.423,
-      "end": 149.853
+      "start": 141.956,
+      "end": 142.386
     },
     {
       "text": "pili.",
-      "start": 149.939,
-      "end": 150.584
+      "start": 142.472,
+      "end": 143.117
     },
     {
       "text": "Sonunda",
-      "start": 150.885,
-      "end": 151.315
+      "start": 143.418,
+      "end": 143.848
     },
     {
       "text": "benim",
-      "start": 151.401,
-      "end": 151.659
+      "start": 143.934,
+      "end": 144.192
     },
     {
       "text": "de",
-      "start": 151.745,
-      "end": 151.831
+      "start": 144.278,
+      "end": 144.365
     },
     {
       "text": "anladığım",
-      "start": 151.917,
-      "end": 152.347
+      "start": 144.451,
+      "end": 144.881
     },
     {
       "text": "bir",
-      "start": 152.433,
-      "end": 152.519
+      "start": 144.967,
+      "end": 145.053
     },
     {
       "text": "şey!",
-      "start": 152.562,
-      "end": 153.122
+      "start": 145.096,
+      "end": 145.655
     },
     {
       "text": "İkinci",
-      "start": 153.767,
-      "end": 154.197
+      "start": 146.3,
+      "end": 146.73
     },
     {
       "text": "aşama:",
-      "start": 154.24,
-      "end": 155.057
+      "start": 146.773,
+      "end": 147.59
     },
     {
       "text": "Kalvin",
-      "start": 155.186,
-      "end": 155.487
+      "start": 147.719,
+      "end": 148.02
     },
     {
       "text": "döngüsü.",
-      "start": 155.573,
-      "end": 156.691
+      "start": 148.106,
+      "end": 149.225
     },
     {
       "text": "Işığa",
-      "start": 156.777,
-      "end": 157.122
+      "start": 149.311,
+      "end": 149.655
     },
     {
       "text": "bağımlı",
-      "start": 157.208,
-      "end": 157.552
+      "start": 149.741,
+      "end": 150.085
     },
     {
       "text": "değildir",
-      "start": 157.638,
-      "end": 158.154
+      "start": 150.171,
+      "end": 150.687
     },
     {
       "text": "ve",
-      "start": 158.498,
-      "end": 158.584
+      "start": 151.031,
+      "end": 151.117
     },
     {
       "text": "kloroplastın",
-      "start": 158.67,
-      "end": 159.53
+      "start": 151.203,
+      "end": 152.063
     },
     {
       "text": "stroma",
-      "start": 159.616,
-      "end": 160.046
+      "start": 152.149,
+      "end": 152.58
     },
     {
       "text": "adlı",
-      "start": 160.132,
-      "end": 160.304
+      "start": 152.666,
+      "end": 152.838
     },
     {
       "text": "bölümünde",
-      "start": 160.39,
-      "end": 160.82
+      "start": 152.924,
+      "end": 153.354
     },
     {
       "text": "gerçekleşir.",
-      "start": 160.949,
-      "end": 162.283
+      "start": 153.483,
+      "end": 154.816
     },
     {
       "text": "Bu",
-      "start": 162.326,
-      "end": 162.369
+      "start": 154.859,
+      "end": 154.902
     },
     {
       "text": "aşamada",
-      "start": 162.455,
-      "end": 163.057
+      "start": 154.988,
+      "end": 155.59
     },
     {
       "text": "A",
-      "start": 163.487,
-      "end": 163.745
+      "start": 156.02,
+      "end": 156.278
     },
     {
       "text": "Te",
-      "start": 163.831,
-      "end": 163.917
+      "start": 156.365,
+      "end": 156.451
     },
     {
       "text": "Pe",
-      "start": 164.003,
-      "end": 164.261
+      "start": 156.537,
+      "end": 156.795
     },
     {
       "text": "ve",
-      "start": 164.519,
-      "end": 164.605
+      "start": 157.053,
+      "end": 157.139
     },
     {
       "text": "En",
-      "start": 164.863,
-      "end": 165.035
+      "start": 157.397,
+      "end": 157.569
     },
     {
       "text": "A",
-      "start": 165.208,
-      "end": 165.294
+      "start": 157.741,
+      "end": 157.827
     },
     {
       "text": "De",
-      "start": 165.38,
-      "end": 165.552
+      "start": 157.913,
+      "end": 158.085
     },
     {
       "text": "Pe",
-      "start": 165.638,
-      "end": 165.724
+      "start": 158.171,
+      "end": 158.257
     },
     {
       "text": "Ha'daki",
-      "start": 165.81,
-      "end": 166.24
+      "start": 158.343,
+      "end": 158.773
     },
     {
       "text": "enerji",
-      "start": 166.326,
-      "end": 166.67
+      "start": 158.859,
+      "end": 159.203
     },
     {
       "text": "kullanılır",
-      "start": 166.756,
-      "end": 167.358
+      "start": 159.289,
+      "end": 159.891
     },
     {
       "text": "ve",
-      "start": 167.702,
-      "end": 167.788
+      "start": 160.235,
+      "end": 160.322
     },
     {
       "text": "karbondioksitten",
-      "start": 167.874,
-      "end": 168.992
+      "start": 160.408,
+      "end": 161.526
     },
     {
       "text": "glikoz",
-      "start": 169.078,
-      "end": 169.509
+      "start": 161.612,
+      "end": 162.042
     },
     {
       "text": "gibi",
-      "start": 169.595,
-      "end": 169.767
+      "start": 162.128,
+      "end": 162.3
     },
     {
       "text": "karbonhidrat",
-      "start": 169.853,
-      "end": 170.541
+      "start": 162.386,
+      "end": 163.074
     },
     {
       "text": "molekülleri",
-      "start": 170.627,
-      "end": 171.143
+      "start": 163.16,
+      "end": 163.676
     },
     {
       "text": "kurulur.",
-      "start": 171.229,
-      "end": 172.003
+      "start": 163.762,
+      "end": 164.537
     },
     {
       "text": "Özetle:",
-      "start": 172.667,
-      "end": 173.785
+      "start": 165.2,
+      "end": 166.318
     },
     {
       "text": "ışığın",
-      "start": 173.914,
-      "end": 174.215
+      "start": 166.447,
+      "end": 166.748
     },
     {
       "text": "enerjisi",
-      "start": 174.301,
-      "end": 174.989
+      "start": 166.834,
+      "end": 167.523
     },
     {
       "text": "önce",
-      "start": 175.247,
-      "end": 175.591
+      "start": 167.781,
+      "end": 168.125
     },
     {
       "text": "pillere,",
-      "start": 175.677,
-      "end": 176.452
+      "start": 168.211,
+      "end": 168.985
     },
     {
       "text": "sonra",
-      "start": 176.581,
-      "end": 176.882
+      "start": 169.114,
+      "end": 169.415
     },
     {
       "text": "şekere",
-      "start": 176.968,
-      "end": 177.312
+      "start": 169.501,
+      "end": 169.845
     },
     {
       "text": "aktarılır.",
-      "start": 177.441,
-      "end": 178.344
+      "start": 169.974,
+      "end": 170.877
     },
     {
       "text": "Peki",
-      "start": 178.688,
-      "end": 179.032
+      "start": 171.222,
+      "end": 171.566
     },
     {
       "text": "bitki",
-      "start": 179.29,
-      "end": 179.634
+      "start": 171.824,
+      "end": 172.168
     },
     {
       "text": "glikozu",
-      "start": 179.677,
-      "end": 180.151
+      "start": 172.211,
+      "end": 172.684
     },
     {
       "text": "ne",
-      "start": 180.194,
-      "end": 180.237
+      "start": 172.727,
+      "end": 172.77
     },
     {
       "text": "yapar?",
-      "start": 180.323,
-      "end": 181.183
+      "start": 172.856,
+      "end": 173.716
     },
     {
       "text": "Topraktan",
-      "start": 181.527,
-      "end": 182.129
+      "start": 174.06,
+      "end": 174.662
     },
     {
       "text": "aldığı",
-      "start": 182.258,
-      "end": 182.473
+      "start": 174.791,
+      "end": 175.006
     },
     {
       "text": "besin",
-      "start": 182.559,
-      "end": 182.817
+      "start": 175.092,
+      "end": 175.351
     },
     {
       "text": "maddeleriyle",
-      "start": 182.903,
-      "end": 183.591
+      "start": 175.437,
+      "end": 176.125
     },
     {
       "text": "birlikte",
-      "start": 183.677,
-      "end": 184.194
+      "start": 176.211,
+      "end": 176.727
     },
     {
       "text": "yeni",
-      "start": 184.538,
-      "end": 184.71
+      "start": 177.071,
+      "end": 177.243
     },
     {
       "text": "yapraklar",
-      "start": 184.796,
-      "end": 185.484
+      "start": 177.329,
+      "end": 178.017
     },
     {
       "text": "ve",
-      "start": 185.656,
-      "end": 185.742
+      "start": 178.189,
+      "end": 178.275
     },
     {
       "text": "başka",
-      "start": 185.914,
-      "end": 186.172
+      "start": 178.447,
+      "end": 178.705
     },
     {
       "text": "bölümler",
-      "start": 186.258,
-      "end": 186.688
+      "start": 178.791,
+      "end": 179.222
     },
     {
       "text": "üretir.",
-      "start": 186.731,
-      "end": 187.548
+      "start": 179.265,
+      "end": 180.082
     },
     {
       "text": "Bu",
-      "start": 188.2,
-      "end": 188.286
+      "start": 180.733,
+      "end": 180.819
     },
     {
       "text": "olay",
-      "start": 188.458,
-      "end": 188.802
+      "start": 180.991,
+      "end": 181.335
     },
     {
       "text": "yalnızca",
-      "start": 188.888,
-      "end": 189.49
+      "start": 181.422,
+      "end": 182.024
     },
     {
       "text": "bitkiler",
-      "start": 189.576,
-      "end": 189.92
+      "start": 182.11,
+      "end": 182.454
     },
     {
       "text": "için",
-      "start": 190.006,
-      "end": 190.178
+      "start": 182.54,
+      "end": 182.712
     },
     {
       "text": "önemli",
-      "start": 190.265,
-      "end": 190.609
+      "start": 182.798,
+      "end": 183.142
     },
     {
       "text": "değildir.",
-      "start": 190.695,
-      "end": 191.813
+      "start": 183.228,
+      "end": 184.346
     },
     {
       "text": "Neşınıl",
-      "start": 191.899,
-      "end": 192.286
+      "start": 184.432,
+      "end": 184.819
     },
     {
       "text": "Ciyografik'e",
-      "start": 192.329,
-      "end": 193.017
+      "start": 184.862,
+      "end": 185.551
     },
     {
       "text": "göre",
-      "start": 193.103,
-      "end": 193.705
+      "start": 185.637,
+      "end": 186.239
     },
     {
       "text": "Dünya'daki",
-      "start": 193.748,
-      "end": 194.394
+      "start": 186.282,
+      "end": 186.927
     },
     {
       "text": "yaşamın",
-      "start": 194.48,
-      "end": 194.91
+      "start": 187.013,
+      "end": 187.443
     },
     {
       "text": "çoğu",
-      "start": 194.996,
-      "end": 195.426
+      "start": 187.529,
+      "end": 187.959
     },
     {
       "text": "fotosenteze",
-      "start": 195.512,
-      "end": 196.286
+      "start": 188.045,
+      "end": 188.819
     },
     {
       "text": "bağlıdır.",
-      "start": 196.372,
-      "end": 197.146
+      "start": 188.905,
+      "end": 189.68
     },
     {
       "text": "Çünkü",
-      "start": 197.8,
-      "end": 198.23
+      "start": 190.333,
+      "end": 190.763
     },
     {
       "text": "karadan",
-      "start": 198.316,
-      "end": 198.832
+      "start": 190.849,
+      "end": 191.366
     },
     {
       "text": "denize,",
-      "start": 198.918,
-      "end": 199.692
+      "start": 191.452,
+      "end": 192.226
     },
     {
       "text": "her",
-      "start": 199.822,
-      "end": 199.951
+      "start": 192.355,
+      "end": 192.484
     },
     {
       "text": "ekosistemde",
-      "start": 200.037,
-      "end": 200.897
+      "start": 192.57,
+      "end": 193.43
     },
     {
       "text": "besin",
-      "start": 200.983,
-      "end": 201.327
+      "start": 193.516,
+      "end": 193.86
     },
     {
       "text": "ağları",
-      "start": 201.413,
-      "end": 201.757
+      "start": 193.946,
+      "end": 194.29
     },
     {
       "text": "fotosentezle",
-      "start": 201.843,
-      "end": 202.703
+      "start": 194.376,
+      "end": 195.237
     },
     {
       "text": "başlar.",
-      "start": 202.746,
-      "end": 203.305
+      "start": 195.28,
+      "end": 195.839
     },
     {
       "text": "Bitkiyi",
-      "start": 203.822,
-      "end": 204.338
+      "start": 196.355,
+      "end": 196.871
     },
     {
       "text": "yiyen",
-      "start": 204.424,
-      "end": 204.768
+      "start": 196.957,
+      "end": 197.301
     },
     {
       "text": "de,",
-      "start": 204.897,
-      "end": 205.198
+      "start": 197.43,
+      "end": 197.731
     },
     {
       "text": "onu",
-      "start": 205.37,
-      "end": 205.542
+      "start": 197.903,
+      "end": 198.075
     },
     {
       "text": "yiyen",
-      "start": 205.628,
-      "end": 205.972
+      "start": 198.161,
+      "end": 198.505
     },
     {
       "text": "de",
-      "start": 206.101,
-      "end": 206.23
+      "start": 198.634,
+      "end": 198.763
     },
     {
       "text": "enerjisini",
-      "start": 206.574,
-      "end": 207.262
+      "start": 199.108,
+      "end": 199.796
     },
     {
       "text": "en",
-      "start": 207.434,
-      "end": 207.606
+      "start": 199.968,
+      "end": 200.14
     },
     {
       "text": "başta",
-      "start": 207.692,
-      "end": 208.037
+      "start": 200.226,
+      "end": 200.57
     },
     {
       "text": "buradan",
-      "start": 208.123,
-      "end": 208.467
+      "start": 200.656,
+      "end": 201
     },
     {
       "text": "alır.",
-      "start": 208.51,
-      "end": 209.112
+      "start": 201.043,
+      "end": 201.645
     },
     {
       "text": "Soluduğun",
-      "start": 209.413,
-      "end": 209.929
+      "start": 201.946,
+      "end": 202.462
     },
     {
       "text": "oksijen",
-      "start": 210.015,
-      "end": 210.531
+      "start": 202.548,
+      "end": 203.065
     },
     {
       "text": "de",
-      "start": 210.617,
-      "end": 210.703
+      "start": 203.151,
+      "end": 203.237
     },
     {
       "text": "fotosentezin",
-      "start": 210.875,
-      "end": 211.649
+      "start": 203.409,
+      "end": 204.183
     },
     {
       "text": "ürünüdür.",
-      "start": 211.735,
-      "end": 212.596
+      "start": 204.269,
+      "end": 205.129
     },
     {
       "text": "Fotosentez",
-      "start": 213.267,
-      "end": 214.041
+      "start": 205.8,
+      "end": 206.574
     },
     {
       "text": "yapanlar",
-      "start": 214.084,
-      "end": 214.643
+      "start": 206.617,
+      "end": 207.176
     },
     {
       "text": "yalnızca",
-      "start": 214.729,
-      "end": 215.245
+      "start": 207.262,
+      "end": 207.778
     },
     {
       "text": "bitkiler",
-      "start": 215.331,
-      "end": 215.761
+      "start": 207.865,
+      "end": 208.295
     },
     {
       "text": "değildir:",
-      "start": 215.847,
-      "end": 216.88
+      "start": 208.381,
+      "end": 209.413
     },
     {
       "text": "algler",
-      "start": 216.966,
-      "end": 217.482
+      "start": 209.499,
+      "end": 210.015
     },
     {
       "text": "ve",
-      "start": 217.568,
-      "end": 217.654
+      "start": 210.101,
+      "end": 210.187
     },
     {
       "text": "bazı",
-      "start": 217.74,
-      "end": 218.084
+      "start": 210.273,
+      "end": 210.617
     },
     {
       "text": "bakteri",
-      "start": 218.127,
-      "end": 218.557
+      "start": 210.66,
+      "end": 211.09
     },
     {
       "text": "türleri",
-      "start": 218.6,
-      "end": 218.944
+      "start": 211.133,
+      "end": 211.477
     },
     {
       "text": "de",
-      "start": 219.03,
-      "end": 219.116
+      "start": 211.563,
+      "end": 211.649
     },
     {
       "text": "yapar.",
-      "start": 219.173,
-      "end": 219.89
+      "start": 211.706,
+      "end": 212.424
     },
     {
       "text": "Peki",
-      "start": 220.533,
-      "end": 220.791
+      "start": 213.067,
+      "end": 213.325
     },
     {
       "text": "sonbaharda",
-      "start": 220.963,
-      "end": 221.566
+      "start": 213.497,
+      "end": 214.185
     },
     {
       "text": "yapraklar",
-      "start": 221.652,
-      "end": 222.254
+      "start": 214.228,
+      "end": 214.787
     },
     {
       "text": "neden",
-      "start": 222.34,
-      "end": 222.684
+      "start": 214.873,
+      "end": 215.217
     },
     {
       "text": "renk",
-      "start": 222.77,
-      "end": 222.942
+      "start": 215.303,
+      "end": 215.475
     },
     {
       "text": "değiştirir?",
-      "start": 222.985,
-      "end": 223.974
+      "start": 215.518,
+      "end": 216.508
     },
     {
       "text": "Nasa'ya",
-      "start": 224.318,
-      "end": 224.748
+      "start": 216.852,
+      "end": 217.282
     },
     {
       "text": "göre",
-      "start": 224.834,
-      "end": 225.178
+      "start": 217.368,
+      "end": 217.626
     },
     {
       "text": "yeşil",
-      "start": 225.523,
-      "end": 225.867
+      "start": 217.97,
+      "end": 218.314
     },
     {
       "text": "klorofil",
-      "start": 225.953,
-      "end": 226.469
+      "start": 218.4,
+      "end": 218.916
     },
     {
       "text": "azalınca",
-      "start": 226.555,
-      "end": 227.243
+      "start": 219.002,
+      "end": 219.604
     },
     {
       "text": "öteki",
-      "start": 227.587,
-      "end": 227.931
+      "start": 219.862,
+      "end": 220.206
     },
     {
       "text": "pigmentler",
-      "start": 228.017,
-      "end": 228.619
+      "start": 220.292,
+      "end": 220.809
     },
     {
       "text": "ortaya",
-      "start": 228.748,
-      "end": 229.049
+      "start": 220.895,
+      "end": 221.239
     },
     {
       "text": "çıkar.",
-      "start": 229.135,
-      "end": 229.824
-    },
-    {
-      "text": "Şimdi",
-      "start": 230.467,
-      "end": 230.897
-    },
-    {
-      "text": "sıra",
-      "start": 230.983,
-      "end": 231.155
-    },
-    {
-      "text": "sende!",
-      "start": 231.241,
-      "end": 232.101
-    },
-    {
-      "text": "Aynı",
-      "start": 232.445,
-      "end": 232.703
-    },
-    {
-      "text": "türden",
-      "start": 232.789,
-      "end": 233.305
-    },
-    {
-      "text": "iki",
-      "start": 233.391,
-      "end": 233.563
-    },
-    {
-      "text": "küçük",
-      "start": 233.649,
-      "end": 233.908
-    },
-    {
-      "text": "saksı",
-      "start": 233.994,
-      "end": 234.338
-    },
-    {
-      "text": "bitkisi",
-      "start": 234.424,
-      "end": 234.768
-    },
-    {
-      "text": "al.",
-      "start": 234.854,
-      "end": 235.628
-    },
-    {
-      "text": "Birini",
-      "start": 235.714,
-      "end": 236.058
-    },
-    {
-      "text": "pencere",
-      "start": 236.101,
-      "end": 236.574
-    },
-    {
-      "text": "önüne,",
-      "start": 236.66,
-      "end": 237.348
-    },
-    {
-      "text": "ötekini",
-      "start": 237.391,
-      "end": 237.865
-    },
-    {
-      "text": "karanlık",
-      "start": 237.951,
-      "end": 238.381
-    },
-    {
-      "text": "bir",
-      "start": 238.467,
-      "end": 238.553
-    },
-    {
-      "text": "dolaba",
-      "start": 238.639,
-      "end": 238.983
-    },
-    {
-      "text": "koy.",
-      "start": 239.069,
-      "end": 239.929
-    },
-    {
-      "text": "İkisine",
-      "start": 239.972,
-      "end": 240.445
-    },
-    {
-      "text": "de",
-      "start": 240.574,
-      "end": 240.703
-    },
-    {
-      "text": "aynı",
-      "start": 240.789,
-      "end": 241.047
-    },
-    {
-      "text": "miktarda",
-      "start": 241.09,
-      "end": 241.649
-    },
-    {
-      "text": "su",
-      "start": 241.735,
-      "end": 241.822
-    },
-    {
-      "text": "ver.",
-      "start": 241.994,
-      "end": 242.768
-    },
-    {
-      "text": "Bir",
-      "start": 242.811,
-      "end": 242.94
-    },
-    {
-      "text": "hafta",
-      "start": 243.026,
-      "end": 243.284
-    },
-    {
-      "text": "boyunca",
-      "start": 243.37,
-      "end": 243.8
-    },
-    {
-      "text": "her",
-      "start": 244.058,
-      "end": 244.23
-    },
-    {
-      "text": "gün",
-      "start": 244.316,
-      "end": 244.574
-    },
-    {
-      "text": "ikisini",
-      "start": 244.66,
-      "end": 245.004
-    },
-    {
-      "text": "de",
-      "start": 245.09,
-      "end": 245.176
-    },
-    {
-      "text": "gözle:",
-      "start": 245.219,
-      "end": 246.295
-    },
-    {
-      "text": "renklerine",
-      "start": 246.381,
-      "end": 246.983
-    },
-    {
-      "text": "ve",
-      "start": 247.069,
-      "end": 247.155
-    },
-    {
-      "text": "yapraklarına",
-      "start": 247.198,
-      "end": 247.929
-    },
-    {
-      "text": "bak.",
-      "start": 248.101,
-      "end": 248.789
-    },
-    {
-      "text": "Gözlemlerini",
-      "start": 248.832,
-      "end": 249.563
-    },
-    {
-      "text": "bir",
-      "start": 249.649,
-      "end": 249.735
-    },
-    {
-      "text": "tabloya",
-      "start": 249.822,
-      "end": 250.295
-    },
-    {
-      "text": "yaz.",
-      "start": 250.338,
-      "end": 251.284
-    },
-    {
-      "text": "Işık",
-      "start": 251.327,
-      "end": 251.542
-    },
-    {
-      "text": "eksik",
-      "start": 251.628,
-      "end": 251.972
-    },
-    {
-      "text": "kalınca",
-      "start": 252.058,
-      "end": 252.574
-    },
-    {
-      "text": "bitkide",
-      "start": 252.746,
-      "end": 253.176
-    },
-    {
-      "text": "ne",
-      "start": 253.262,
-      "end": 253.348
-    },
-    {
-      "text": "değişiyor?",
-      "start": 253.434,
-      "end": 254.381
-    },
-    {
-      "text": "Deney",
-      "start": 255.033,
-      "end": 255.377
-    },
-    {
-      "text": "bitince",
-      "start": 255.463,
-      "end": 256.066
-    },
-    {
-      "text": "dolaptaki",
-      "start": 256.324,
-      "end": 256.926
-    },
-    {
-      "text": "bitkiyi",
-      "start": 257.055,
-      "end": 257.442
-    },
-    {
-      "text": "yeniden",
-      "start": 257.528,
-      "end": 257.958
-    },
-    {
-      "text": "ışığa",
-      "start": 258.044,
-      "end": 258.302
-    },
-    {
-      "text": "çıkarmayı",
-      "start": 258.388,
-      "end": 258.904
-    },
-    {
-      "text": "unutma!",
-      "start": 258.99,
-      "end": 259.765
-    },
-    {
-      "text": "Bunu",
-      "start": 260.433,
-      "end": 260.691
-    },
-    {
-      "text": "biliyor",
-      "start": 260.748,
-      "end": 261.035
-    },
-    {
-      "text": "muydun?",
-      "start": 261.078,
-      "end": 261.767
-    },
-    {
-      "text": "Neşınıl",
-      "start": 262.068,
-      "end": 262.498
-    },
-    {
-      "text": "Ciyografik'e",
-      "start": 262.541,
-      "end": 263.186
-    },
-    {
-      "text": "göre",
-      "start": 263.272,
-      "end": 263.53
-    },
-    {
-      "text": "soluduğumuz",
-      "start": 263.874,
-      "end": 264.476
-    },
-    {
-      "text": "oksijenin",
-      "start": 264.562,
-      "end": 265.165
-    },
-    {
-      "text": "çoğu,",
-      "start": 265.251,
-      "end": 265.939
-    },
-    {
-      "text": "okyanustaki",
-      "start": 266.068,
-      "end": 266.713
-    },
-    {
-      "text": "minik",
-      "start": 266.799,
-      "end": 267.057
-    },
-    {
-      "text": "bitkilerden",
-      "start": 267.143,
-      "end": 267.831
-    },
-    {
-      "text": "gelir.",
-      "start": 267.917,
-      "end": 268.519
-    },
-    {
-      "text": "Hızlı",
-      "start": 269.167,
-      "end": 269.511
-    },
-    {
-      "text": "soru!",
-      "start": 269.597,
-      "end": 270.199
-    },
-    {
-      "text": "Işığın",
-      "start": 270.457,
-      "end": 270.887
-    },
-    {
-      "text": "enerjisini",
-      "start": 271.059,
-      "end": 271.575
-    },
-    {
-      "text": "soğuran",
-      "start": 271.661,
-      "end": 272.091
-    },
-    {
-      "text": "yeşil",
-      "start": 272.177,
-      "end": 272.435
-    },
-    {
-      "text": "pigmentin",
-      "start": 272.522,
-      "end": 273.124
-    },
-    {
-      "text": "adı",
-      "start": 273.21,
-      "end": 273.382
-    },
-    {
-      "text": "neydi?",
-      "start": 273.511,
-      "end": 273.898
-    },
-    {
-      "text": "Düşün",
-      "start": 274.414,
-      "end": 274.672
-    },
-    {
-      "text": "bakalım...",
-      "start": 274.801,
-      "end": 275.79
-    },
-    {
-      "text": "Evet:",
-      "start": 275.876,
-      "end": 276.478
-    },
-    {
-      "text": "klorofil!",
-      "start": 276.651,
-      "end": 277.425
-    },
-    {
-      "text": "Bende",
-      "start": 278.027,
-      "end": 278.371
-    },
-    {
-      "text": "klorofil",
-      "start": 278.414,
-      "end": 278.887
-    },
-    {
-      "text": "yok.",
-      "start": 278.973,
-      "end": 279.532
-    },
-    {
-      "text": "Ama",
-      "start": 279.747,
-      "end": 280.005
-    },
-    {
-      "text": "şarj",
-      "start": 280.091,
-      "end": 280.435
-    },
-    {
-      "text": "ışığım",
-      "start": 280.522,
-      "end": 280.866
-    },
-    {
-      "text": "yeşil",
-      "start": 280.952,
-      "end": 281.21
-    },
-    {
-      "text": "yanıyor;",
-      "start": 281.296,
-      "end": 282.07
-    },
-    {
-      "text": "o",
-      "start": 282.113,
-      "end": 282.156
-    },
-    {
-      "text": "da",
-      "start": 282.242,
-      "end": 282.328
-    },
-    {
-      "text": "bir",
-      "start": 282.414,
-      "end": 282.5
-    },
-    {
-      "text": "şey!",
-      "start": 282.543,
-      "end": 283.102
-    },
-    {
-      "text": "Şimdi",
-      "start": 283.767,
-      "end": 284.111
-    },
-    {
-      "text": "öğrendiklerimizi",
-      "start": 284.197,
-      "end": 285.057
-    },
-    {
-      "text": "şarkıyla",
-      "start": 285.143,
-      "end": 285.659
-    },
-    {
-      "text": "tekrar",
-      "start": 285.745,
-      "end": 286.089
-    },
-    {
-      "text": "edelim.",
-      "start": 286.175,
-      "end": 286.863
-    },
-    {
-      "text": "Hazır",
-      "start": 286.949,
-      "end": 287.122
-    },
-    {
-      "text": "mısın?",
-      "start": 287.165,
-      "end": 288.068
-    },
-    {
-      "text": "Bir,",
-      "start": 288.111,
-      "end": 288.842
-    },
-    {
-      "text": "iki,",
-      "start": 289.057,
-      "end": 289.616
-    },
-    {
-      "text": "üç!",
-      "start": 289.702,
-      "end": 290.39
-    },
-    {
-      "text": "İşte",
-      "start": 352.933,
-      "end": 353.277
-    },
-    {
-      "text": "bugün",
-      "start": 353.363,
-      "end": 353.622
-    },
-    {
-      "text": "öğrendiklerimiz!",
-      "start": 353.708,
-      "end": 354.998
-    },
-    {
-      "text": "Sen",
-      "start": 355.256,
-      "end": 355.428
-    },
-    {
-      "text": "de",
-      "start": 355.514,
-      "end": 355.6
-    },
-    {
-      "text": "merak",
-      "start": 355.686,
-      "end": 355.944
-    },
-    {
-      "text": "ettiğin",
-      "start": 356.03,
-      "end": 356.288
-    },
-    {
-      "text": "soruyu",
-      "start": 356.374,
-      "end": 356.718
-    },
-    {
-      "text": "yorumlara",
-      "start": 356.804,
-      "end": 357.234
-    },
-    {
-      "text": "yaz.",
-      "start": 357.32,
-      "end": 358.095
-    },
-    {
-      "text": "Belki",
-      "start": 358.224,
-      "end": 358.439
-    },
-    {
-      "text": "bir",
-      "start": 358.525,
-      "end": 358.697
-    },
-    {
-      "text": "sonraki",
-      "start": 358.826,
-      "end": 359.127
-    },
-    {
-      "text": "videoda",
-      "start": 359.213,
-      "end": 359.643
-    },
-    {
-      "text": "onu",
-      "start": 359.729,
-      "end": 359.858
-    },
-    {
-      "text": "araştırırız!",
-      "start": 359.901,
-      "end": 361.363
-    },
-    {
-      "text": "Abone",
-      "start": 361.449,
-      "end": 361.794
-    },
-    {
-      "text": "olmayı",
-      "start": 361.88,
-      "end": 362.224
-    },
-    {
-      "text": "ve",
-      "start": 362.31,
-      "end": 362.396
-    },
-    {
-      "text": "zili",
-      "start": 362.482,
-      "end": 362.74
-    },
-    {
-      "text": "açmayı",
-      "start": 362.826,
-      "end": 363.17
-    },
-    {
-      "text": "unutma.",
-      "start": 363.256,
-      "end": 364.374
+      "start": 221.325,
+      "end": 222.013
     },
     {
       "text": "Ben",
-      "start": 364.46,
-      "end": 364.546
+      "start": 222.357,
+      "end": 222.529
     },
     {
-      "text": "de",
-      "start": 364.632,
-      "end": 364.718
+      "text": "sonbaharda",
+      "start": 222.615,
+      "end": 223.217
+    },
+    {
+      "text": "renk",
+      "start": 223.303,
+      "end": 223.475
+    },
+    {
+      "text": "değiştirmem.",
+      "start": 223.561,
+      "end": 224.335
+    },
+    {
+      "text": "Ama",
+      "start": 224.766,
+      "end": 225.024
+    },
+    {
+      "text": "pilim",
+      "start": 225.11,
+      "end": 225.368
+    },
+    {
+      "text": "azalınca",
+      "start": 225.454,
+      "end": 226.056
+    },
+    {
+      "text": "ışığım",
+      "start": 226.4,
+      "end": 226.83
+    },
+    {
+      "text": "kırmızıya",
+      "start": 226.916,
+      "end": 227.432
+    },
+    {
+      "text": "döner!",
+      "start": 227.518,
+      "end": 228.206
+    },
+    {
+      "text": "Şimdi",
+      "start": 228.867,
+      "end": 229.297
+    },
+    {
+      "text": "sıra",
+      "start": 229.383,
+      "end": 229.555
+    },
+    {
+      "text": "sende!",
+      "start": 229.641,
+      "end": 230.501
+    },
+    {
+      "text": "Aynı",
+      "start": 230.845,
+      "end": 231.103
+    },
+    {
+      "text": "türden",
+      "start": 231.189,
+      "end": 231.705
+    },
+    {
+      "text": "iki",
+      "start": 231.791,
+      "end": 231.963
+    },
+    {
+      "text": "küçük",
+      "start": 232.049,
+      "end": 232.308
+    },
+    {
+      "text": "saksı",
+      "start": 232.394,
+      "end": 232.738
+    },
+    {
+      "text": "bitkisi",
+      "start": 232.824,
+      "end": 233.168
+    },
+    {
+      "text": "al.",
+      "start": 233.254,
+      "end": 234.028
+    },
+    {
+      "text": "Birini",
+      "start": 234.114,
+      "end": 234.458
     },
     {
       "text": "pencere",
-      "start": 364.761,
-      "end": 365.148
+      "start": 234.501,
+      "end": 234.974
     },
     {
-      "text": "önüne",
-      "start": 365.234,
-      "end": 365.492
+      "text": "önüne,",
+      "start": 235.06,
+      "end": 235.748
     },
     {
-      "text": "geçeyim;",
-      "start": 365.578,
-      "end": 366.353
+      "text": "ötekini",
+      "start": 235.791,
+      "end": 236.265
     },
     {
-      "text": "fotosentez",
-      "start": 366.396,
-      "end": 367.041
+      "text": "karanlık",
+      "start": 236.351,
+      "end": 236.781
     },
     {
-      "text": "yapamam",
-      "start": 367.127,
-      "end": 367.643
+      "text": "bir",
+      "start": 236.867,
+      "end": 236.953
     },
     {
-      "text": "ama",
-      "start": 367.815,
-      "end": 367.987
+      "text": "dolaba",
+      "start": 237.039,
+      "end": 237.383
     },
     {
-      "text": "güneşlenmeyi",
-      "start": 368.073,
-      "end": 368.804
+      "text": "koy.",
+      "start": 237.469,
+      "end": 238.329
     },
     {
-      "text": "severim!",
-      "start": 368.847,
-      "end": 369.622
+      "text": "İkisine",
+      "start": 238.372,
+      "end": 238.845
+    },
+    {
+      "text": "de",
+      "start": 238.974,
+      "end": 239.103
+    },
+    {
+      "text": "aynı",
+      "start": 239.189,
+      "end": 239.447
+    },
+    {
+      "text": "miktarda",
+      "start": 239.49,
+      "end": 240.049
+    },
+    {
+      "text": "su",
+      "start": 240.135,
+      "end": 240.222
+    },
+    {
+      "text": "ver.",
+      "start": 240.394,
+      "end": 241.168
     },
     {
       "text": "Bir",
-      "start": 371.1,
-      "end": 371.272
+      "start": 241.211,
+      "end": 241.34
+    },
+    {
+      "text": "hafta",
+      "start": 241.426,
+      "end": 241.684
+    },
+    {
+      "text": "boyunca",
+      "start": 241.77,
+      "end": 242.2
+    },
+    {
+      "text": "her",
+      "start": 242.458,
+      "end": 242.63
+    },
+    {
+      "text": "gün",
+      "start": 242.716,
+      "end": 242.974
+    },
+    {
+      "text": "ikisini",
+      "start": 243.06,
+      "end": 243.404
+    },
+    {
+      "text": "de",
+      "start": 243.49,
+      "end": 243.576
+    },
+    {
+      "text": "gözle:",
+      "start": 243.619,
+      "end": 244.695
+    },
+    {
+      "text": "renklerine",
+      "start": 244.781,
+      "end": 245.383
+    },
+    {
+      "text": "ve",
+      "start": 245.469,
+      "end": 245.555
+    },
+    {
+      "text": "yapraklarına",
+      "start": 245.598,
+      "end": 246.329
+    },
+    {
+      "text": "bak.",
+      "start": 246.501,
+      "end": 247.189
+    },
+    {
+      "text": "Gözlemlerini",
+      "start": 247.232,
+      "end": 247.963
+    },
+    {
+      "text": "bir",
+      "start": 248.049,
+      "end": 248.135
+    },
+    {
+      "text": "tabloya",
+      "start": 248.222,
+      "end": 248.695
+    },
+    {
+      "text": "yaz.",
+      "start": 248.738,
+      "end": 249.684
+    },
+    {
+      "text": "Işık",
+      "start": 249.727,
+      "end": 249.942
+    },
+    {
+      "text": "eksik",
+      "start": 250.028,
+      "end": 250.372
+    },
+    {
+      "text": "kalınca",
+      "start": 250.458,
+      "end": 250.974
+    },
+    {
+      "text": "bitkide",
+      "start": 251.146,
+      "end": 251.576
+    },
+    {
+      "text": "ne",
+      "start": 251.662,
+      "end": 251.748
+    },
+    {
+      "text": "değişiyor?",
+      "start": 251.834,
+      "end": 252.781
+    },
+    {
+      "text": "Deney",
+      "start": 253.433,
+      "end": 253.777
+    },
+    {
+      "text": "bitince",
+      "start": 253.906,
+      "end": 254.466
+    },
+    {
+      "text": "dolaptaki",
+      "start": 254.81,
+      "end": 255.326
+    },
+    {
+      "text": "bitkiyi",
+      "start": 255.412,
+      "end": 255.842
+    },
+    {
+      "text": "yeniden",
+      "start": 255.928,
+      "end": 256.358
+    },
+    {
+      "text": "ışığa",
+      "start": 256.444,
+      "end": 256.702
+    },
+    {
+      "text": "çıkarmayı",
+      "start": 256.745,
+      "end": 257.304
+    },
+    {
+      "text": "unutma!",
+      "start": 257.39,
+      "end": 257.992
+    },
+    {
+      "text": "Yoksa",
+      "start": 258.423,
+      "end": 258.853
+    },
+    {
+      "text": "bitki",
+      "start": 258.939,
+      "end": 259.197
+    },
+    {
+      "text": "sana",
+      "start": 259.24,
+      "end": 259.455
+    },
+    {
+      "text": "küser.",
+      "start": 259.541,
+      "end": 260.315
+    },
+    {
+      "text": "Ben",
+      "start": 260.573,
+      "end": 260.745
+    },
+    {
+      "text": "de",
+      "start": 260.831,
+      "end": 260.917
+    },
+    {
+      "text": "küserim!",
+      "start": 261.003,
+      "end": 261.777
+    },
+    {
+      "text": "Bunu",
+      "start": 262.433,
+      "end": 262.691
+    },
+    {
+      "text": "biliyor",
+      "start": 262.748,
+      "end": 263.035
+    },
+    {
+      "text": "muydun?",
+      "start": 263.078,
+      "end": 263.767
+    },
+    {
+      "text": "Neşınıl",
+      "start": 264.068,
+      "end": 264.498
+    },
+    {
+      "text": "Ciyografik'e",
+      "start": 264.541,
+      "end": 265.186
+    },
+    {
+      "text": "göre",
+      "start": 265.272,
+      "end": 265.53
+    },
+    {
+      "text": "soluduğumuz",
+      "start": 265.874,
+      "end": 266.476
+    },
+    {
+      "text": "oksijenin",
+      "start": 266.562,
+      "end": 267.165
+    },
+    {
+      "text": "çoğu,",
+      "start": 267.251,
+      "end": 267.939
+    },
+    {
+      "text": "okyanustaki",
+      "start": 268.068,
+      "end": 268.713
+    },
+    {
+      "text": "minik",
+      "start": 268.799,
+      "end": 269.057
+    },
+    {
+      "text": "bitkilerden",
+      "start": 269.143,
+      "end": 269.831
+    },
+    {
+      "text": "gelir.",
+      "start": 269.917,
+      "end": 270.519
+    },
+    {
+      "text": "Hızlı",
+      "start": 271.167,
+      "end": 271.511
+    },
+    {
+      "text": "soru!",
+      "start": 271.597,
+      "end": 272.414
+    },
+    {
+      "text": "Işığın",
+      "start": 272.457,
+      "end": 272.801
+    },
+    {
+      "text": "enerjisini",
+      "start": 272.887,
+      "end": 273.489
+    },
+    {
+      "text": "soğuran",
+      "start": 273.575,
+      "end": 274.005
+    },
+    {
+      "text": "yeşil",
+      "start": 274.091,
+      "end": 274.435
+    },
+    {
+      "text": "pigmentin",
+      "start": 274.565,
+      "end": 275.038
+    },
+    {
+      "text": "adı",
+      "start": 275.124,
+      "end": 275.296
+    },
+    {
+      "text": "neydi?",
+      "start": 275.425,
+      "end": 276.285
+    },
+    {
+      "text": "Düşün",
+      "start": 276.328,
+      "end": 276.586
+    },
+    {
+      "text": "bakalım...",
+      "start": 276.672,
+      "end": 277.575
+    },
+    {
+      "text": "Evet:",
+      "start": 277.618,
+      "end": 278.422
+    },
+    {
+      "text": "klorofil!",
+      "start": 278.449,
+      "end": 279.597
+    },
+    {
+      "text": "Şimdi",
+      "start": 280.333,
+      "end": 280.677
+    },
+    {
+      "text": "öğrendiklerimizi",
+      "start": 280.763,
+      "end": 281.624
+    },
+    {
+      "text": "şarkıyla",
+      "start": 281.71,
+      "end": 282.226
+    },
+    {
+      "text": "tekrar",
+      "start": 282.312,
+      "end": 282.656
+    },
+    {
+      "text": "edelim.",
+      "start": 282.742,
+      "end": 283.43
+    },
+    {
+      "text": "Hazır",
+      "start": 283.516,
+      "end": 283.688
+    },
+    {
+      "text": "mısın?",
+      "start": 283.731,
+      "end": 284.634
+    },
+    {
+      "text": "Bir,",
+      "start": 284.677,
+      "end": 285.409
+    },
+    {
+      "text": "iki,",
+      "start": 285.624,
+      "end": 286.183
+    },
+    {
+      "text": "üç!",
+      "start": 286.269,
+      "end": 286.957
+    },
+    {
+      "text": "İşte",
+      "start": 349.5,
+      "end": 349.844
+    },
+    {
+      "text": "bugün",
+      "start": 349.93,
+      "end": 350.188
+    },
+    {
+      "text": "öğrendiklerimiz!",
+      "start": 350.274,
+      "end": 351.565
+    },
+    {
+      "text": "Sen",
+      "start": 351.823,
+      "end": 351.995
+    },
+    {
+      "text": "de",
+      "start": 352.081,
+      "end": 352.167
+    },
+    {
+      "text": "merak",
+      "start": 352.253,
+      "end": 352.511
+    },
+    {
+      "text": "ettiğin",
+      "start": 352.597,
+      "end": 352.855
+    },
+    {
+      "text": "soruyu",
+      "start": 352.941,
+      "end": 353.285
+    },
+    {
+      "text": "yorumlara",
+      "start": 353.371,
+      "end": 353.801
+    },
+    {
+      "text": "yaz.",
+      "start": 353.887,
+      "end": 354.661
+    },
+    {
+      "text": "Belki",
+      "start": 354.79,
+      "end": 355.005
+    },
+    {
+      "text": "bir",
+      "start": 355.091,
+      "end": 355.263
     },
     {
       "text": "sonraki",
-      "start": 371.358,
-      "end": 371.788
+      "start": 355.392,
+      "end": 355.694
+    },
+    {
+      "text": "videoda",
+      "start": 355.78,
+      "end": 356.21
+    },
+    {
+      "text": "onu",
+      "start": 356.296,
+      "end": 356.425
+    },
+    {
+      "text": "araştırırız!",
+      "start": 356.468,
+      "end": 357.93
+    },
+    {
+      "text": "Abone",
+      "start": 358.016,
+      "end": 358.36
+    },
+    {
+      "text": "olmayı",
+      "start": 358.446,
+      "end": 358.79
+    },
+    {
+      "text": "ve",
+      "start": 358.876,
+      "end": 358.962
+    },
+    {
+      "text": "zili",
+      "start": 359.048,
+      "end": 359.306
+    },
+    {
+      "text": "açmayı",
+      "start": 359.392,
+      "end": 359.737
+    },
+    {
+      "text": "unutma.",
+      "start": 359.823,
+      "end": 360.941
+    },
+    {
+      "text": "Ben",
+      "start": 361.027,
+      "end": 361.113
+    },
+    {
+      "text": "de",
+      "start": 361.199,
+      "end": 361.285
+    },
+    {
+      "text": "pencere",
+      "start": 361.328,
+      "end": 361.715
+    },
+    {
+      "text": "önüne",
+      "start": 361.801,
+      "end": 362.059
+    },
+    {
+      "text": "geçeyim;",
+      "start": 362.145,
+      "end": 362.919
+    },
+    {
+      "text": "fotosentez",
+      "start": 362.962,
+      "end": 363.608
+    },
+    {
+      "text": "yapamam",
+      "start": 363.694,
+      "end": 364.21
+    },
+    {
+      "text": "ama",
+      "start": 364.382,
+      "end": 364.554
+    },
+    {
+      "text": "güneşlenmeyi",
+      "start": 364.64,
+      "end": 365.371
+    },
+    {
+      "text": "severim!",
+      "start": 365.414,
+      "end": 366.188
+    },
+    {
+      "text": "Bir",
+      "start": 367.667,
+      "end": 367.839
+    },
+    {
+      "text": "sonraki",
+      "start": 367.925,
+      "end": 368.355
     },
     {
       "text": "bilim",
-      "start": 371.874,
-      "end": 372.046
+      "start": 368.441,
+      "end": 368.613
     },
     {
       "text": "videosunda",
-      "start": 372.132,
-      "end": 372.648
+      "start": 368.699,
+      "end": 369.215
     },
     {
       "text": "görüşürüz!",
-      "start": 372.734,
-      "end": 373.595
+      "start": 369.301,
+      "end": 370.161
     },
     {
       "text": "Hoşça",
-      "start": 373.767,
-      "end": 374.111
+      "start": 370.333,
+      "end": 370.677
     },
     {
       "text": "kal!",
-      "start": 374.197,
-      "end": 374.713
+      "start": 370.763,
+      "end": 371.28
     }
   ],
   "amplitude": [
@@ -3529,230 +3474,6 @@
     0.048,
     0.024,
     0.003,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.037,
-    0.059,
-    0.188,
-    1,
-    0.876,
-    0.924,
-    0.57,
-    0.11,
-    0.124,
-    0.076,
-    1,
-    0.508,
-    0.53,
-    0.617,
-    0.634,
-    0.252,
-    0.517,
-    0.823,
-    0.769,
-    0.743,
-    0.777,
-    0.254,
-    0.12,
-    0.169,
-    0.356,
-    0.104,
-    0.166,
-    0.473,
-    0.357,
-    0.025,
-    0.049,
-    0.073,
-    0.632,
-    0.667,
-    0.54,
-    0.308,
-    0.123,
-    0.113,
-    0.713,
-    0.581,
-    0.069,
-    0.315,
-    0.56,
-    0.387,
-    0.864,
-    1,
-    0.662,
-    0.04,
-    0.061,
-    0.101,
-    0.291,
-    0.376,
-    0.099,
-    0.018,
-    0.223,
-    0.274,
-    0.132,
-    0.112,
-    0.043,
-    0.027,
-    0.634,
-    0.758,
-    0.636,
-    0.623,
-    0.496,
-    0.138,
-    0.048,
-    0.078,
-    0.226,
-    0.075,
-    0.074,
-    0.064,
-    0.029,
-    0.001,
-    0.003,
-    0.007,
-    0.001,
-    0.011,
-    0.007,
-    0.001,
-    0.006,
-    0.004,
-    0.006,
-    0,
-    0,
-    0,
-    0,
-    0.011,
-    0.383,
-    0.704,
-    0.43,
-    0.122,
-    1,
-    1,
-    1,
-    0.033,
-    0.512,
-    1,
-    0.91,
-    1,
-    0.507,
-    0.13,
-    0.084,
-    0.513,
-    0.731,
-    0.614,
-    0.625,
-    1,
-    1,
-    1,
-    0.055,
-    0.014,
-    0.075,
-    0.577,
-    1,
-    1,
-    0.948,
-    0.071,
-    0.025,
-    0.027,
-    0.13,
-    0.557,
-    0.89,
-    1,
-    1,
-    0.979,
-    0.057,
-    0.001,
-    0.039,
-    0.022,
-    0.012,
-    0.005,
-    0.001,
-    0.003,
-    0.01,
-    0.001,
-    0.006,
-    0.002,
-    0.001,
-    0,
-    0,
-    0,
-    0.001,
-    0.067,
-    0.128,
-    0.424,
-    1,
-    1,
-    1,
-    0.727,
-    0.261,
-    0.145,
-    0.255,
-    0.503,
-    0.531,
-    0.265,
-    0.109,
-    0.033,
-    0.213,
-    0.654,
-    0.982,
-    0.612,
-    0.255,
-    0.143,
-    0.121,
-    0.167,
-    0.386,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0.581,
-    0.158,
-    0.159,
-    0.127,
-    0.056,
-    0.506,
-    0.557,
-    0.177,
-    0.356,
-    0.271,
-    0.146,
-    0.131,
-    0.134,
-    0.392,
-    0.331,
-    0.089,
-    0.549,
-    0.679,
-    0.52,
-    0.248,
-    0.155,
-    0.054,
-    0.013,
-    0.012,
-    0.01,
-    0.006,
-    0.001,
     0,
     0,
     0,
@@ -9488,281 +9209,457 @@
     0,
     0,
     0,
-    0.001,
-    0.226,
-    0.417,
-    0.544,
-    0.064,
-    0.049,
-    0.431,
-    0.673,
-    0.606,
-    0.282,
+    0,
+    0.12,
+    0.442,
+    0.78,
+    0.195,
+    0.038,
+    0.388,
+    0.753,
+    0.597,
+    0.373,
+    0.153,
     0.083,
-    0.079,
-    0.065,
-    0.103,
-    0.513,
-    0.776,
-    0.626,
-    0.36,
-    0.114,
-    0.086,
-    0.071,
-    0.673,
-    1,
-    0.7,
-    0.499,
-    1,
-    0.938,
-    0.923,
-    0.681,
-    0.132,
-    0.228,
-    1,
-    0.856,
+    0.049,
+    0.056,
+    0.422,
+    0.654,
+    0.963,
+    0.826,
     0.374,
-    0.379,
+    0.085,
+    0.077,
+    0.519,
+    1,
+    0.899,
+    0.551,
     1,
     1,
-    0.752,
-    0.022,
-    0.033,
-    0.258,
-    0.85,
-    0.836,
-    0.722,
-    0.03,
-    0.011,
-    0.119,
-    0.397,
-    0.981,
+    0.999,
+    0.82,
+    0.173,
+    0.047,
+    0.919,
+    0.989,
+    0.345,
+    0.329,
+    0.749,
+    0.925,
+    1,
+    0.4,
+    0.006,
+    0.078,
+    0.724,
+    0.799,
+    0.753,
+    0.091,
+    0.007,
+    0.073,
+    0.203,
+    0.996,
+    1,
+    0.97,
+    0.641,
+    0.098,
+    0.11,
+    0.117,
+    0.15,
+    0.41,
+    0.444,
+    0.252,
+    0.658,
     1,
     0.854,
-    0.543,
-    0.11,
-    0.132,
-    0.136,
-    0.292,
-    0.484,
-    0.411,
-    0.089,
-    1,
-    0.977,
-    0.825,
-    0.624,
-    0.18,
-    0.189,
-    0.189,
-    0.62,
-    0.682,
-    0.768,
-    0.254,
-    0.193,
-    0.074,
-    0.005,
-    0.153,
-    0.338,
-    0.24,
-    0.212,
-    0.22,
-    0.145,
-    0.107,
-    0.117,
-    0.057,
-    0.008,
-    0.082,
-    0.164,
-    0.088,
-    0.142,
-    0.22,
-    0.282,
-    0.076,
-    0.031,
-    0.023,
-    0.02,
-    0.009,
-    0.002,
-    0,
-    0,
-    0.001,
-    0.001,
-    0,
-    0,
-    0,
-    0,
-    0.002,
-    0.002,
-    0.002,
-    0.001,
-    0.001,
-    0.002,
-    0.001,
-    0.002,
-    0.002,
-    0.062,
-    0.123,
-    0.156,
-    0.645,
-    0.904,
-    0.838,
-    0.23,
-    0.105,
-    0.326,
-    0.839,
-    0.713,
-    0.592,
-    0.639,
-    1,
-    0.647,
-    0.461,
-    0.122,
-    0.11,
-    0.388,
-    0.336,
-    0.393,
-    0.215,
-    0.328,
-    0.531,
-    0.633,
-    0.524,
-    0.539,
-    0.206,
-    0.031,
-    0.001,
-    0.001,
-    0.001,
-    0.001,
-    0.001,
-    0.001,
-    0.001,
-    0.006,
-    0.072,
-    0.114,
-    0.288,
-    0.405,
-    0.579,
-    0.259,
-    0.146,
-    0.192,
-    0.917,
-    0.885,
-    0.627,
-    0.313,
-    0.394,
+    0.712,
+    0.369,
+    0.165,
+    0.222,
+    0.616,
+    0.66,
+    0.661,
+    0.222,
+    0.158,
+    0.065,
     0.003,
-    0.031,
-    0.095,
-    0.561,
-    0.469,
-    0.393,
-    0.576,
-    0.543,
-    0.313,
-    1,
-    0.823,
-    0.063,
-    0.018,
-    0.457,
-    0.442,
-    0.347,
-    0.311,
-    0.271,
-    0.094,
-    0.589,
-    0.746,
-    0.328,
-    0.102,
-    0.568,
-    0.875,
-    0.715,
-    0.143,
-    0.41,
-    0.497,
-    0.356,
-    0.146,
-    0.201,
-    0.217,
-    0.141,
-    0.33,
-    0.719,
-    0.721,
-    0.928,
-    0.669,
-    0.59,
-    0.148,
-    0.001,
-    0.001,
-    0.001,
-    0.001,
-    0,
-    0.002,
-    0.001,
-    0,
-    0,
-    0.395,
-    0.429,
-    0.41,
-    0.011,
-    0.082,
-    0.681,
-    0.623,
-    0.133,
-    0.036,
-    0.857,
-    0.821,
-    0.225,
-    0.008,
-    0.414,
-    0.848,
-    0.558,
-    0.085,
-    0.078,
-    0.133,
-    0.515,
-    0.874,
-    0.719,
-    0.572,
-    0.116,
-    0.003,
-    0.017,
-    0.247,
-    0.928,
-    1,
-    0.754,
-    0.555,
-    0.581,
-    0.434,
-    0.486,
-    0.496,
-    0.16,
-    0.015,
-    0.036,
-    0.254,
-    0.423,
-    0.499,
-    0.263,
-    0.267,
-    0.085,
-    0.036,
-    0.143,
-    0.08,
-    0.032,
-    0.054,
-    0.138,
-    0.305,
-    0.385,
-    0.214,
-    0.068,
-    0.032,
-    0.014,
-    0.014,
-    0.014,
+    0.2,
+    0.281,
+    0.207,
+    0.185,
+    0.2,
+    0.121,
+    0.093,
+    0.112,
+    0.033,
     0.013,
+    0.124,
+    0.172,
+    0.062,
+    0.167,
+    0.281,
+    0.31,
+    0.126,
+    0.032,
+    0.026,
+    0.024,
+    0.019,
     0.007,
+    0,
+    0.002,
+    0.002,
     0.003,
     0.001,
+    0,
+    0,
+    0.001,
+    0.001,
+    0.001,
     0.002,
+    0.001,
+    0.001,
+    0.002,
+    0.007,
+    0.001,
+    0.034,
+    0.124,
+    0.134,
+    0.211,
+    1,
+    1,
+    0.672,
+    0.161,
+    0.093,
+    0.717,
+    0.858,
+    0.601,
+    0.523,
+    1,
+    0.633,
+    0.503,
+    0.098,
+    0.051,
+    0.262,
+    0.374,
+    0.42,
+    0.185,
+    0.483,
+    0.513,
+    0.586,
+    0.789,
+    0.591,
+    0.239,
+    0.008,
+    0.001,
+    0.002,
+    0.002,
+    0.001,
+    0.001,
+    0,
+    0.007,
+    0.104,
+    0.251,
+    0.422,
+    0.519,
+    0.214,
+    0.195,
+    0.18,
+    1,
+    0.851,
+    0.583,
+    0.419,
+    0.025,
+    0.057,
+    0.108,
+    0.414,
+    0.38,
+    0.403,
+    0.528,
+    0.596,
+    0.438,
+    0.929,
+    0.904,
+    0.106,
+    0.013,
+    0.366,
+    0.412,
+    0.267,
+    0.39,
+    0.225,
+    0.276,
+    0.584,
+    0.389,
+    0.094,
+    0.349,
+    0.782,
+    0.658,
+    0.183,
+    0.323,
+    0.421,
+    0.321,
+    0.182,
+    0.232,
+    0.128,
+    0.125,
+    0.499,
+    0.623,
+    0.838,
+    0.845,
+    0.762,
+    0.256,
+    0.007,
+    0.001,
+    0.001,
+    0.001,
+    0.002,
+    0.003,
+    0,
+    0.107,
+    0.428,
+    0.557,
+    0.351,
+    0.052,
+    0.574,
+    0.605,
+    0.374,
+    0.031,
+    0.718,
+    0.824,
+    0.124,
+    0.018,
+    0.578,
+    0.684,
+    0.377,
+    0.04,
+    0.076,
+    0.102,
+    0.569,
+    0.858,
+    0.803,
+    0.403,
+    0.067,
+    0.001,
+    0.115,
+    0.736,
+    0.612,
+    0.591,
+    0.776,
+    0.613,
+    0.602,
+    0.589,
+    0.306,
+    0.033,
+    0.026,
+    0.175,
+    0.327,
+    0.387,
+    0.302,
+    0.219,
+    0.024,
+    0.064,
+    0.104,
+    0.045,
+    0.005,
+    0.09,
+    0.253,
+    0.393,
+    0.253,
+    0.11,
+    0.037,
+    0.01,
+    0.006,
+    0.004,
+    0.001,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.001,
+    0,
+    0.002,
+    0.006,
+    0.001,
+    0.002,
+    0.001,
+    0.002,
+    0.002,
+    0.003,
+    0.002,
+    0,
+    0.027,
+    0.781,
+    0.869,
+    1,
+    0.871,
+    0.489,
+    0.254,
+    0.106,
+    0.064,
+    0.103,
+    1,
+    0.787,
+    0.942,
+    0.618,
+    0.125,
+    0.095,
+    1,
+    1,
+    0.624,
+    0.599,
+    1,
+    1,
+    1,
+    0.709,
+    0.125,
+    0.265,
+    0.751,
+    0.758,
+    0.325,
+    0.31,
+    0.889,
+    1,
+    0.569,
+    0.227,
+    0.095,
+    0.007,
+    0.079,
+    0.375,
+    0.491,
+    0.378,
+    0.42,
+    0.301,
+    0.152,
+    0.14,
+    0.046,
+    0.039,
+    0.318,
+    0.778,
+    0.208,
+    0.159,
+    0.114,
+    0.335,
+    0.434,
+    0.358,
+    0.175,
+    0.048,
+    0.047,
+    0.038,
+    0.015,
+    0,
+    0.002,
+    0.001,
+    0.002,
+    0.001,
+    0,
+    0,
+    0.001,
+    0.002,
+    0.003,
+    0.007,
+    0.017,
+    0.001,
+    0,
+    0.083,
+    0.586,
+    0.798,
+    0.27,
+    0.154,
+    0.841,
+    0.945,
+    0.611,
+    0.043,
+    0.001,
+    0.125,
+    0.228,
+    0.503,
+    0.397,
+    0.427,
+    0.701,
+    0.522,
+    0.156,
+    0.151,
+    0.28,
+    0.486,
+    0.692,
+    0.447,
+    0.134,
+    0.46,
+    0.95,
+    0.802,
+    0.164,
+    0.456,
+    0.59,
+    0.342,
+    0.169,
+    0.235,
+    0.122,
+    0.21,
+    0.857,
+    1,
+    1,
+    1,
+    1,
+    0.386,
+    0.01,
+    0.002,
+    0.002,
+    0.001,
+    0.002,
+    0.006,
+    0,
+    0.044,
+    0.415,
+    0.55,
+    0.282,
+    0.223,
+    0.219,
+    0.439,
+    0.799,
+    0.627,
+    0.83,
+    0.825,
+    0.689,
+    0.108,
+    0.137,
+    0.034,
+    0.056,
+    0.246,
+    0.317,
+    0.99,
+    0.669,
+    0.493,
+    0.667,
+    0.159,
+    0.303,
+    0.712,
+    0.25,
+    0.112,
+    0.268,
+    0.67,
+    1,
+    0.918,
+    1,
+    1,
+    0.384,
+    0.53,
+    0.909,
+    0.955,
+    0.809,
+    0.151,
+    0.633,
+    0.6,
+    0.452,
+    0.317,
+    0.201,
+    0.089,
+    0.024,
+    0.02,
+    0.013,
+    0.01,
+    0.003,
+    0.001,
+    0,
     0,
     0,
     0,
@@ -10523,143 +10420,251 @@
     0,
     0,
     0,
-    0.03,
-    0.063,
-    0.159,
-    0.759,
+    0.044,
+    0.066,
+    0.387,
     1,
-    0.299,
-    0.216,
-    0.592,
+    0.8,
+    0.262,
+    0.323,
+    0.698,
+    0.647,
     0.642,
-    0.566,
-    0.661,
-    0.481,
-    0.034,
-    0.342,
-    0.64,
-    0.321,
-    0.05,
-    0.211,
-    0.844,
-    0.618,
-    0.343,
-    0.132,
-    0.133,
-    0.115,
-    0.137,
-    0.295,
-    0.88,
-    0.684,
-    0.642,
-    0.411,
-    0.496,
-    0.297,
-    0.027,
-    0.001,
-    0,
-    0.001,
-    0.001,
+    0.628,
+    0.218,
+    0.039,
+    0.462,
+    0.753,
+    0.281,
+    0.045,
+    0.185,
+    0.984,
+    0.553,
+    0.247,
+    0.086,
+    0.152,
+    0.109,
+    0.135,
+    0.322,
+    0.819,
+    0.511,
+    0.507,
+    0.44,
+    0.493,
+    0.233,
     0.009,
     0.001,
-    0.031,
-    0.113,
-    0.473,
-    0.62,
-    0.375,
-    0.576,
-    1,
-    1,
-    0.877,
-    0.031,
+    0.001,
+    0.002,
+    0.002,
+    0.002,
     0.004,
-    0.074,
-    0.54,
-    0.55,
-    0.267,
-    0.043,
-    0.408,
-    0.872,
-    0.576,
+    0.009,
+    0.001,
+    0.007,
+    0.355,
+    0.731,
+    0.791,
+    0.371,
+    1,
+    1,
+    1,
     0.049,
-    0.378,
-    0.635,
-    0.394,
-    0.023,
-    0.11,
-    0.008,
-    0.025,
-    0.183,
-    0.305,
-    0.406,
-    0.449,
-    0.461,
-    0.429,
-    0.394,
-    0.253,
-    0.155,
-    0.108,
-    0.38,
-    0.504,
-    0.554,
-    0.138,
-    0.411,
-    0.59,
-    0.164,
-    0.341,
-    1,
-    0.98,
-    0.569,
-    0.08,
-    0.19,
-    0.261,
-    0.447,
-    0.184,
-    0.186,
-    0.338,
-    0.491,
-    0.999,
-    0.834,
-    0.944,
-    0.601,
-    0.038,
-    0.137,
-    0.288,
-    0.438,
-    0.052,
-    0.183,
-    0.961,
-    1,
-    1,
-    0.835,
-    0.47,
-    0.106,
-    0.287,
-    0.673,
-    0.461,
-    0.604,
-    0.61,
-    0.457,
-    0.156,
-    0.203,
-    0.344,
-    0.604,
-    0.245,
-    0.76,
+    0.01,
+    0.016,
+    0.396,
+    0.645,
+    0.244,
+    0.032,
+    0.335,
     0.78,
-    0.094,
-    0.08,
-    0.079,
-    0.077,
-    0.136,
-    0.709,
-    0.798,
-    0.605,
-    0.364,
-    0.209,
-    0.089,
+    0.523,
+    0.034,
+    0.476,
+    0.588,
+    0.356,
+    0.024,
+    0.068,
+    0.006,
+    0.02,
+    0.162,
+    0.416,
+    0.48,
+    0.497,
+    0.552,
+    0.501,
+    0.396,
+    0.189,
+    0.116,
+    0.35,
+    0.554,
+    0.611,
+    0.143,
+    0.426,
+    0.652,
+    0.274,
+    0.167,
+    0.99,
+    0.892,
+    0.442,
+    0.143,
+    0.144,
+    0.387,
+    0.351,
+    0.163,
+    0.166,
+    0.427,
+    0.776,
+    0.791,
+    0.842,
+    0.915,
+    0.078,
+    0.101,
+    0.184,
+    0.252,
+    0.011,
+    0.197,
+    0.895,
+    1,
+    1,
+    0.772,
+    0.297,
+    0.134,
+    0.219,
+    0.469,
+    0.514,
+    0.651,
+    0.568,
+    0.517,
+    0.13,
+    0.157,
+    0.298,
+    0.569,
+    0.161,
+    0.727,
+    1,
+    0.769,
     0.023,
+    0.112,
+    0.09,
+    0.201,
+    0.313,
+    0.931,
+    0.713,
+    0.554,
+    0.307,
+    0.125,
+    0.014,
+    0,
+    0,
+    0,
+    0.004,
+    0.001,
+    0.005,
+    0.002,
+    0.001,
+    0,
+    0,
+    0,
+    0,
     0.003,
+    0.007,
+    0.002,
+    0.012,
+    0.155,
+    0.315,
+    0.952,
+    1,
+    1,
+    0.183,
+    0.128,
+    0.097,
+    0.087,
+    0.683,
+    0.704,
+    0.102,
+    0.055,
+    0.108,
+    0.473,
+    0.47,
+    0.032,
+    0.037,
+    0.017,
+    0.062,
+    0.668,
+    0.61,
+    0.168,
+    0.11,
+    0.697,
+    0.626,
+    0.491,
+    0.245,
+    0.917,
+    0.741,
+    0.09,
+    0.026,
+    0.124,
+    0.578,
+    0.62,
+    0.22,
+    0.148,
+    0.121,
+    0.722,
+    1,
+    0.962,
+    0.965,
+    0.518,
+    0.308,
+    0.051,
+    0.029,
+    0.018,
+    0.01,
+    0.002,
+    0,
+    0.003,
+    0.006,
+    0.002,
+    0.006,
+    0.012,
+    0.014,
+    0.005,
+    0.005,
+    0.013,
+    0.003,
+    0,
+    0.041,
+    0.063,
+    0.275,
+    1,
+    1,
+    1,
+    1,
+    0.181,
+    0.139,
+    0.07,
+    1,
+    1,
+    0.433,
+    0.044,
+    0.429,
+    0.886,
+    0.46,
+    0.177,
+    0.092,
+    0.55,
+    1,
+    1,
+    0.395,
+    0.409,
+    0.502,
+    0.287,
+    0.064,
+    0.061,
+    0.037,
+    0.023,
+    0.01,
+    0.003,
+    0,
     0,
     0,
     0,
@@ -10947,422 +10952,259 @@
     0,
     0,
     0,
-    0,
-    0.015,
-    0.409,
-    0.809,
-    0.848,
-    0.434,
-    0.181,
-    0.07,
-    0.317,
-    1,
-    1,
-    0.337,
-    0.12,
-    0.139,
-    0.811,
-    0.914,
-    1,
-    0.828,
-    0.462,
-    0.448,
-    0.27,
-    0.166,
-    0.053,
-    0.015,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.006,
-    0.002,
-    0.002,
     0.001,
-    0.001,
-    0.002,
-    0.003,
-    0.002,
-    0,
-    0,
-    0.095,
-    0.364,
-    0.692,
-    0.34,
-    0.232,
-    0.282,
-    0.361,
-    0.811,
-    0.466,
-    0.49,
-    0.56,
-    0.272,
-    0.101,
-    0.313,
-    0.367,
-    0.519,
     0.188,
-    0.299,
-    0.788,
-    0.862,
-    0.774,
-    0.743,
-    0.298,
-    0.118,
-    0.339,
-    0.443,
+    0.476,
+    0.844,
+    0.766,
+    0.192,
+    0.085,
+    0.154,
+    0.989,
+    1,
+    0.779,
+    0.108,
+    0.09,
+    0.993,
+    0.865,
+    0.9,
+    0.815,
+    0.447,
+    0.451,
+    0.482,
+    0.218,
+    0.082,
+    0.039,
+    0.011,
+    0.003,
+    0.004,
+    0.001,
+    0.011,
+    0.003,
+    0.005,
+    0.004,
+    0.002,
+    0.004,
+    0.001,
+    0.006,
+    0.005,
+    0,
+    0.09,
+    0.285,
+    0.591,
+    0.351,
+    0.272,
+    0.252,
+    0.268,
+    0.864,
+    0.649,
+    0.545,
+    0.535,
+    0.28,
+    0.271,
+    0.557,
+    0.58,
+    0.326,
+    0.181,
+    0.706,
+    0.986,
+    0.985,
+    0.898,
+    0.52,
+    0.107,
     0.163,
-    0.091,
-    0.355,
-    0.474,
-    0.1,
-    0.403,
-    0.423,
-    0.148,
-    0.072,
-    0.072,
-    0.413,
+    0.46,
+    0.315,
+    0.109,
+    0.147,
     0.492,
-    0.575,
-    0.478,
-    0.406,
-    0.379,
-    0.302,
-    0.928,
-    0.883,
-    0.854,
-    0.609,
-    0.21,
-    0.096,
-    0.116,
-    0.119,
-    0.115,
-    0.265,
-    0.408,
-    0.27,
-    0.151,
-    0.187,
-    0.787,
-    0.774,
-    0.195,
-    0.155,
-    0.023,
-    0.057,
-    0.771,
-    0.671,
-    0.243,
-    0.042,
-    0.075,
-    0.13,
-    0.724,
-    0.88,
-    0.804,
-    0.597,
-    0.132,
-    0.075,
-    0.087,
-    0.542,
-    0.468,
-    0.113,
-    0.173,
-    0.158,
-    0.391,
-    0.896,
-    0.659,
-    0.041,
-    0.321,
-    0.441,
-    0.185,
-    0.17,
-    0.508,
-    0.756,
-    0.624,
-    0.539,
-    0.56,
-    0.636,
-    0.024,
-    0.168,
-    0.444,
-    0.345,
-    0.259,
-    0.163,
+    0.179,
+    0.263,
+    0.43,
+    0.261,
+    0.084,
     0.078,
+    0.329,
+    0.466,
+    0.624,
+    0.398,
+    0.373,
+    0.336,
+    0.356,
+    0.616,
+    0.997,
+    0.867,
+    0.747,
+    0.293,
+    0.099,
+    0.118,
+    0.129,
+    0.132,
+    0.276,
+    0.368,
+    0.298,
+    0.167,
+    0.163,
+    0.774,
+    0.961,
+    0.438,
+    0.195,
+    0.021,
+    0.042,
+    0.598,
+    0.918,
+    0.553,
+    0.079,
+    0.08,
+    0.088,
+    0.178,
+    0.807,
+    0.837,
+    0.699,
+    0.511,
+    0.169,
+    0.048,
+    0.119,
+    0.564,
+    0.361,
+    0.112,
+    0.195,
+    0.338,
+    0.81,
+    0.495,
+    0.06,
+    0.443,
+    0.403,
+    0.221,
+    0.228,
+    0.783,
+    0.824,
+    0.66,
+    0.603,
+    0.582,
+    0.343,
+    0.073,
+    0.197,
+    0.45,
+    0.308,
+    0.255,
+    0.173,
+    0.074,
+    0.004,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.004,
+    0.001,
+    0.001,
+    0.001,
+    0,
+    0,
+    0,
+    0,
+    0.004,
+    0.007,
+    0.276,
+    0.623,
+    0.418,
+    0.2,
+    0.2,
+    0.776,
+    0.945,
+    0.546,
+    0.109,
+    0.121,
+    0.473,
+    1,
+    0.398,
+    0.021,
+    0.092,
+    0.267,
+    0.626,
+    0.309,
+    0.147,
+    0.243,
+    0.156,
+    0.051,
+    0.048,
+    0.038,
     0.015,
     0,
-    0,
-    0.001,
-    0,
-    0.004,
-    0.009,
-    0.006,
-    0.001,
+    0.008,
     0.004,
     0.003,
-    0,
-    0.002,
-    0,
-    0,
-    0.004,
-    0.193,
-    0.611,
-    0.556,
-    0.196,
-    0.198,
-    0.966,
-    1,
-    0.346,
-    0.116,
-    0.103,
-    0.836,
-    0.66,
-    0.203,
-    0.034,
-    0.056,
-    0.341,
-    0.535,
-    0.242,
-    0.14,
-    0.224,
-    0.077,
-    0.04,
-    0.032,
-    0.017,
-    0.001,
-    0,
-    0,
-    0,
-    0.001,
-    0.01,
-    0.005,
-    0.002,
-    0.001,
-    0.005,
     0.007,
-    0.004,
-    0.004,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.001,
+    0.18,
+    0.743,
+    1,
+    0.993,
+    0.484,
+    0.782,
+    0.947,
+    1,
+    1,
+    0.448,
+    0.018,
+    0.029,
+    0.071,
+    0.05,
+    0.016,
+    0.006,
+    0.001,
+    0,
+    0.001,
     0.001,
     0,
     0,
     0,
-    0.029,
-    0.478,
+    0.001,
+    0,
+    0,
+    0.093,
+    0.214,
+    0.59,
+    0.403,
+    0.868,
+    1,
+    1,
+    0.96,
     1,
     1,
     1,
     0.532,
-    0.512,
-    0.919,
-    1,
-    0.694,
-    0.324,
-    0.079,
-    0.002,
-    0.041,
-    0.061,
-    0.038,
-    0.012,
-    0.004,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.154,
-    0.655,
-    0.428,
-    0.515,
-    1,
-    0.972,
-    0.935,
-    0.961,
-    1,
-    1,
-    0.873,
-    0.046,
-    0.024,
-    0.583,
-    1,
-    1,
-    0.74,
-    0.463,
-    0.199,
-    0.14,
-    0.122,
-    0.05,
-    0.013,
-    0.001,
-    0,
-    0,
-    0,
-    0,
-    0.002,
-    0.01,
-    0.004,
-    0.002,
-    0.011,
-    0.007,
-    0.002,
-    0.004,
-    0.001,
-    0.001,
-    0.009,
-    0.001,
-    0.005,
-    0.026,
-    0.597,
-    1,
-    1,
-    0.625,
-    0.136,
-    0.092,
-    0.071,
-    0.734,
-    0.663,
-    0.222,
-    0.006,
-    0.095,
-    0.543,
-    0.374,
-    0.557,
-    0.749,
-    0.76,
-    0.875,
-    1,
-    0.903,
-    0.501,
-    0.025,
-    0.155,
-    0.858,
-    0.663,
-    0.401,
-    0.224,
-    0.428,
-    0.659,
-    0.676,
-    1,
-    0.866,
-    0.55,
-    0.263,
-    0.005,
-    0.028,
-    0.035,
-    0.034,
-    0.019,
-    0.004,
-    0,
-    0,
-    0,
-    0.008,
-    0.008,
-    0.003,
-    0,
-    0,
-    0.001,
-    0.001,
-    0,
-    0,
-    0.239,
-    0.678,
-    0.727,
-    0.136,
-    0.353,
-    0.89,
-    0.661,
-    0.332,
-    0.153,
-    0.119,
-    0.163,
-    0.31,
-    1,
-    1,
-    1,
-    1,
-    1,
-    0.488,
-    0.08,
-    0.24,
-    0.382,
-    0.331,
-    0.172,
-    0.128,
-    0.142,
-    0.146,
-    0.288,
-    0.26,
-    0.294,
-    0.297,
-    0.147,
-    0.114,
-    0.129,
-    0.187,
-    0.74,
-    0.743,
-    0.672,
-    0.209,
-    0.216,
-    0.271,
-    0.992,
-    0.742,
-    0.338,
-    0.426,
-    0.734,
-    0.763,
-    0.906,
-    0.562,
-    0.148,
-    0.187,
-    0.236,
-    0.255,
-    0.33,
-    0.346,
-    0.292,
-    0.173,
-    0.11,
-    0.023,
-    0.017,
-    0.008,
-    0.004,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.107,
-    0.519,
-    0.849,
-    0.856,
-    0.081,
-    0.722,
-    0.852,
-    0.864,
-    0.139,
-    0.236,
-    0.513,
-    0.326,
-    0.167,
-    0.155,
-    0.222,
-    0.63,
-    0.553,
-    0.338,
-    0.236,
-    0.136,
-    0.062,
+    0.027,
     0.031,
-    0.015,
-    0.003,
+    1,
+    1,
+    1,
+    0.849,
+    0.615,
+    0.26,
+    0.178,
+    0.148,
+    0.076,
+    0.035,
+    0.023,
+    0.004,
     0,
     0,
     0,
     0,
     0,
+    0,
+    0,
+    0,
+    0,
+    0.001,
     0,
     0,
     0,
@@ -14247,9 +14089,9 @@
     0
   ],
   "reminder": {
-    "startFrame": 6930,
+    "startFrame": 6882,
     "durationFrames": 150,
-    "atPercent": 60.9
+    "atPercent": 61.1
   },
   "bumpers": [
     {
@@ -14258,13 +14100,13 @@
       "text": "MuMa Library'ye hoş geldin! Merhaba, ben Muma!"
     },
     {
-      "startFrame": 11133,
-      "endFrame": 11248,
+      "startFrame": 11030,
+      "endFrame": 11145,
       "text": "Bir sonraki bilim videosunda görüşürüz! Hoşça kal!"
     }
   ],
   "song": {
-    "sceneId": "s21",
+    "sceneId": "s20",
     "audioFile": "song.mp3",
     "title": "Işıktan Şeker",
     "cast": [
@@ -14289,126 +14131,126 @@
         "name": "Oksijen"
       }
     ],
-    "startFrame": 8724,
-    "endFrame": 10556,
+    "startFrame": 8621,
+    "endFrame": 10453,
     "sections": [
       {
         "label": "Giriş",
-        "startFrame": 8724,
-        "endFrame": 8874,
+        "startFrame": 8621,
+        "endFrame": 8771,
         "lines": [
           {
             "text": "Hey! Hey! Hey!",
-            "startFrame": 8747,
-            "endFrame": 8874
+            "startFrame": 8644,
+            "endFrame": 8771
           }
         ]
       },
       {
         "label": "Kıta",
-        "startFrame": 8874,
-        "endFrame": 9325,
+        "startFrame": 8771,
+        "endFrame": 9222,
         "lines": [
           {
             "text": "Havadan karbondioksit, topraktan su",
-            "startFrame": 8879,
-            "endFrame": 8996
+            "startFrame": 8776,
+            "endFrame": 8893
           },
           {
             "text": "Güneşin ışığı yaprağa konar",
-            "startFrame": 8996,
-            "endFrame": 9106
+            "startFrame": 8893,
+            "endFrame": 9003
           },
           {
             "text": "Kloroplastta klorofil yakalar",
-            "startFrame": 9106,
-            "endFrame": 9207
+            "startFrame": 9003,
+            "endFrame": 9104
           },
           {
             "text": "Mavi, kırmızı içeri; yeşil yansır",
-            "startFrame": 9207,
-            "endFrame": 9325
+            "startFrame": 9104,
+            "endFrame": 9222
           }
         ]
       },
       {
         "label": "Nakarat",
-        "startFrame": 9325,
-        "endFrame": 9715,
+        "startFrame": 9222,
+        "endFrame": 9612,
         "lines": [
           {
             "text": "Fotosentez! Işıktan şeker!",
-            "startFrame": 9329,
-            "endFrame": 9417
+            "startFrame": 9226,
+            "endFrame": 9314
           },
           {
             "text": "Oksijen havaya, enerji glikoza",
-            "startFrame": 9417,
-            "endFrame": 9530
+            "startFrame": 9314,
+            "endFrame": 9427
           },
           {
             "text": "Önce ışık pillere dolar",
-            "startFrame": 9530,
-            "endFrame": 9618
+            "startFrame": 9427,
+            "endFrame": 9515
           },
           {
             "text": "Calvin döngüsü şekeri kurar",
-            "startFrame": 9618,
-            "endFrame": 9715
+            "startFrame": 9515,
+            "endFrame": 9612
           }
         ]
       },
       {
         "label": "Kıta",
-        "startFrame": 9715,
-        "endFrame": 10165,
+        "startFrame": 9612,
+        "endFrame": 10062,
         "lines": [
           {
             "text": "Tilakoitte ışık, stromada döngü",
-            "startFrame": 9719,
-            "endFrame": 9849
+            "startFrame": 9616,
+            "endFrame": 9746
           },
           {
             "text": "ATP taşır enerji yükünü",
-            "startFrame": 9849,
-            "endFrame": 9952
+            "startFrame": 9746,
+            "endFrame": 9849
           },
           {
             "text": "Besin ağları burada başlar",
-            "startFrame": 9952,
-            "endFrame": 10063
+            "startFrame": 9849,
+            "endFrame": 9960
           },
           {
             "text": "Algler, bakteriler de yapar",
-            "startFrame": 10063,
-            "endFrame": 10165
+            "startFrame": 9960,
+            "endFrame": 10062
           }
         ]
       },
       {
         "label": "Nakarat",
-        "startFrame": 10165,
-        "endFrame": 10556,
+        "startFrame": 10062,
+        "endFrame": 10453,
         "lines": [
           {
             "text": "Fotosentez! Işıktan şeker!",
-            "startFrame": 10170,
-            "endFrame": 10258
+            "startFrame": 10067,
+            "endFrame": 10155
           },
           {
             "text": "Oksijen havaya, enerji glikoza",
-            "startFrame": 10258,
-            "endFrame": 10371
+            "startFrame": 10155,
+            "endFrame": 10268
           },
           {
             "text": "Soluduğun oksijen onların işi",
-            "startFrame": 10371,
-            "endFrame": 10483
+            "startFrame": 10268,
+            "endFrame": 10380
           },
           {
             "text": "Muma'yla öğrendik, hey!",
-            "startFrame": 10483,
-            "endFrame": 10556
+            "startFrame": 10380,
+            "endFrame": 10453
           }
         ]
       }
