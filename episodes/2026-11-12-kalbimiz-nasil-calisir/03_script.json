@@ -1,0 +1,518 @@
+{
+  "paperId": "topic:kalbimiz-nasil-calisir",
+  "episodeNumber": 9,
+  "videoTitle": "Kalbimiz nasıl çalışır?",
+  "paperTitleTr": "Kalbimiz nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Şu an göğsünde, sen hiç düşünmeden çalışan bir pompa var. Dün gece sen uyurken de çalıştı!",
+          "spoken": "Şu an göğsünde, sen hiç düşünmeden çalışan bir pompa var. Dün gece sen uyurken de çalıştı!",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Yumruğun kadar bir kas, kanı bütün vücuduna nasıl ulaştırıyor?",
+          "spoken": "Yumruğun kadar bir kas, kanı bütün vücuduna nasıl ulaştırıyor?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Bugün kalbin içine giriyoruz!",
+          "spoken": "Bugün kalbin içine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Benim kalbim yok, pilim var. Yine de bu konuya kalbimi... yani pilimi koydum!",
+          "spoken": "Benim kalbim yok, pilim var. Yine de bu konuya kalbimi... yani pilimi koydum!",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Üç sorumuz var. Kalbin içinde neler var? Kan vücutta hangi yolu izler? Ve kalbe atmasını kim söyler?",
+          "spoken": "Üç sorumuz var. Kalbin içinde neler var? Kan vücutta hangi yolu izler? Ve kalbe atmasını kim söyler?",
+          "factIds": []
+        },
+        {
+          "id": "l6",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l7",
+          "display": "Britanya Kalp Vakfı'na göre kalp bir kastır. Yaklaşık yumruğun büyüklüğündedir ve göğsünün ortasında, hafifçe sola yatık durur.",
+          "spoken": "Britanya Kalp Vakfı'na göre kalp bir kastır. Yaklaşık yumruğun büyüklüğündedir ve göğsünün ortasında, hafifçe sola yatık durur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Görevi pompalamaktır. KidsHealth'e göre genellikle dakikada 60–100 kez atar.",
+          "spoken": "Görevi pompalamaktır. Kids Helt'e göre genellikle dakikada altmış ile yüz kez atar.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Peki kan neden bu kadar önemli? Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre kan, organlarının çalışması için gereken oksijeni ve besinleri taşır.",
+          "spoken": "Peki kan neden bu kadar önemli? Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'e göre kan, organlarının çalışması için gereken oksijeni ve besinleri taşır.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Dönerken de karbondioksiti ve atıkları toplayıp götürür.",
+          "spoken": "Dönerken de karbondioksiti ve atıkları toplayıp götürür.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Kalbin içinde dört odacık vardır. Üstteki ikisine kulakçık denir: kalbe gelen kanı karşılarlar.",
+          "spoken": "Kalbin içinde dört odacık vardır. Üstteki ikisine kulakçık denir: kalbe gelen kanı karşılarlar.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Alttaki ikisine karıncık denir: kanı kalpten dışarı pompalarlar.",
+          "spoken": "Alttaki ikisine karıncık denir: kanı kalpten dışarı pompalarlar.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Kalbin sağ ve sol tarafı, septum adlı ince bir kas duvarla birbirinden ayrılır.",
+          "spoken": "Kalbin sağ ve sol tarafı, septum adlı ince bir kas duvarla birbirinden ayrılır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Kalpte dört de kapakçık bulunur. Her atışta açılıp kapanan kapılar gibidirler.",
+          "spoken": "Kalpte dört de kapakçık bulunur. Her atışta açılıp kapanan kapılar gibidirler.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Benim de kapağım var. Ama o pil kapağı!",
+          "spoken": "Benim de kapağım var. Ama o pil kapağı!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l16",
+          "display": "Şimdi kanın yolculuğunu izleyelim. Vücudu dolaşıp oksijeni azalmış kan, önce sağ kulakçığa gelir.",
+          "spoken": "Şimdi kanın yolculuğunu izleyelim. Vücudu dolaşıp oksijeni azalmış kan, önce sağ kulakçığa gelir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Oradan sağ karıncığa geçer. Sağ karıncık bu kanı akciğerlere pompalar.",
+          "spoken": "Oradan sağ karıncığa geçer. Sağ karıncık bu kanı akciğerlere pompalar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Akciğerlerde kan oksijen alır ve karbondioksit bırakır.",
+          "spoken": "Akciğerlerde kan oksijen alır ve karbondioksit bırakır.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Kalpten akciğerlere gidip geri dönen bu kısa tura küçük dolaşım denir.",
+          "spoken": "Kalpten akciğerlere gidip geri dönen bu kısa tura küçük dolaşım denir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Oksijence zengin kan sol kulakçığa döner, oradan sol karıncığa geçer.",
+          "spoken": "Oksijence zengin kan sol kulakçığa döner, oradan sol karıncığa geçer.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Sol karıncık, sağdakinden biraz daha büyüktür ve kanı bütün vücuda pompalar.",
+          "spoken": "Sol karıncık, sağdakinden biraz daha büyüktür ve kanı bütün vücuda pompalar.",
+          "factIds": [
+            "f7",
+            "f19"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Kan kalpten aort adlı damarla çıkar. Aort, vücudun en büyük atardamarıdır. Bu uzun tura büyük dolaşım denir.",
+          "spoken": "Kan kalpten aort adlı damarla çıkar. Aort, vücudun en büyük atardamarıdır. Bu uzun tura büyük dolaşım denir.",
+          "factIds": [
+            "f9",
+            "f8"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Damarların üç türü var. Atardamarlar kanı kalpten uzağa taşır. Toplardamarlar kalbe geri getirir.",
+          "spoken": "Damarların üç türü var. Atardamarlar kanı kalpten uzağa taşır. Toplardamarlar kalbe geri getirir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Kılcal damarlar ise çok incedir: en küçük atardamarları en küçük toplardamarlara bağlar.",
+          "spoken": "Kılcal damarlar ise çok incedir: en küçük atardamarları en küçük toplardamarlara bağlar.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Peki o ünlü ses? Lub-dub! KidsHealth'e göre bu, kapakçıkların kapanma sesidir: önce bir grup kapanır, lub; sonra öteki grup, dub.",
+          "spoken": "Peki o ünlü ses? Lab-dab! Kids Helt'e göre bu, kapakçıkların kapanma sesidir: önce bir grup kapanır, lab; sonra öteki grup, dab.",
+          "factIds": [
+            "f11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Kalbe atmasını kim söyler? Kendi içindeki küçük bir doku: sinüs düğümü. Sağ kulakçığın duvarında yer alır.",
+          "spoken": "Kalbe atmasını kim söyler? Kendi içindeki küçük bir doku: sinüs düğümü. Sağ kulakçığın duvarında yer alır.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Sinüs düğümü bir elektrik sinyali gönderir ve kalp kası kasılır. Atışın hızını o belirlediği için ona kalbin doğal pili de denir.",
+          "spoken": "Sinüs düğümü bir elektrik sinyali gönderir ve kalp kası kasılır. Atışın hızını o belirlediği için ona kalbin doğal pili de denir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Demek ki senin de bir pilin var. Kardeş sayılırız!",
+          "spoken": "Demek ki senin de bir pilin var. Kardeş sayılırız!",
+          "factIds": []
+        },
+        {
+          "id": "l29",
+          "display": "Britanya Kalp Vakfı'na göre kalbin her gün yaklaşık 100.000 kez atar.",
+          "spoken": "Britanya Kalp Vakfı'na göre kalbin her gün yaklaşık yüz bin kez atar.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Koşarken kalbin neden hızlanır? Çünkü kasların daha çok oksijene ihtiyaç duyar; kalp de daha hızlı pompalar.",
+          "spoken": "Koşarken kalbin neden hızlanır? Çünkü kasların daha çok oksijene ihtiyaç duyar; kalp de daha hızlı pompalar.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Kalbini korumak için CDC'nin önerisi şu: 6–17 yaş arasındakiler her gün en az 60 dakika hareket etmeli.",
+          "spoken": "Kalbini korumak için Si Di Si'nin önerisi şu: altı ile on yedi yaş arasındakiler her gün en az altmış dakika hareket etmeli.",
+          "factIds": [
+            "f17"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Dengeli beslenmek ve sigaradan uzak durmak da kalbi korur.",
+          "spoken": "Dengeli beslenmek ve sigaradan uzak durmak da kalbi korur.",
+          "factIds": [
+            "f18"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Şimdi sıra sende! İşaret ve orta parmağını bileğinin iç yüzüne, başparmağının hemen altına koy. Hissettiğin vuruşlar nabzındır.",
+          "spoken": "Şimdi sıra sende! İşaret ve orta parmağını bileğinin iç yüzüne, başparmağının hemen altına koy. Hissettiğin vuruşlar nabzındır.",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Otuz saniye boyunca vuruşları say ve ikiyle çarp. Bu, kalbinin bir dakikadaki atış sayısıdır.",
+          "spoken": "Otuz saniye boyunca vuruşları say ve ikiyle çarp. Bu, kalbinin bir dakikadaki atış sayısıdır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l35",
+          "display": "Sonra yirmi kez zıpla ve yeniden say. Sayı arttı mı? Kasların oksijen istedi, kalbin hızlandı!",
+          "spoken": "Sonra yirmi kez zıpla ve yeniden say. Sayı arttı mı? Kasların oksijen istedi, kalbin hızlandı!",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Bir uyarı: kendini zorlama; yorulursan dinlen.",
+          "spoken": "Bir uyarı: kendini zorlama; yorulursan dinlen.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l37",
+          "display": "Bunu biliyor muydun? Kalp atarken elektrik sinyali önce kulakçıkları kasar. Böylece kalp düzenli ve eşgüdümlü bir ritimle çalışır.",
+          "spoken": "Bunu biliyor muydun? Kalp atarken elektrik sinyali önce kulakçıkları kasar. Böylece kalp düzenli ve eşgüdümlü bir ritimle çalışır.",
+          "factIds": [
+            "f20"
+          ]
+        },
+        {
+          "id": "l38",
+          "display": "Hızlı soru! Kanı akciğerlere hangi odacık pompalar: sağ karıncık mı, sol karıncık mı?",
+          "spoken": "Hızlı soru! Kanı akciğerlere hangi odacık pompalar: sağ karıncık mı, sol karıncık mı?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l39",
+          "display": "Düşün bakalım... Evet: sağ karıncık!",
+          "spoken": "Düşün bakalım... Evet: sağ karıncık!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l40",
+          "display": "Sol karıncık ise bütün vücuda pompalar. Ağır işi o almış; ben olsam ek şarj isterdim!",
+          "spoken": "Sol karıncık ise bütün vücuda pompalar. Ağır işi o almış; ben olsam ek şarj isterdim!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l41",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l42",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l43",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l44",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de pilimi şarja takayım; ne de olsa benim kalbim o!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de pilimi şarja takayım; ne de olsa benim kalbim o!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Kalp dört odacıklı bir kas pompasıdır",
+    "Sağ taraf kanı akciğerlere, sol taraf bütün vücuda pompalar",
+    "Sinüs düğümünün elektrik sinyali kalbi attırır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "Göğsümdeki Pompa",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "❤️",
+        "name": "Kalp"
+      },
+      {
+        "emoji": "🫁",
+        "name": "Akciğer"
+      },
+      {
+        "emoji": "🔴",
+        "name": "Atardamar"
+      },
+      {
+        "emoji": "🔵",
+        "name": "Toplardamar"
+      },
+      {
+        "emoji": "⚡",
+        "name": "Sinüs düğümü"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Yumruk kadar bir kas, göğsümde atar",
+          "Dört odacığı var, kapakçıklar açılır",
+          "Sağ taraf kanı akciğere yollar",
+          "Kan oksijen alır, geri döner"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Lub-dub, lub-dub, durmadan atar!",
+          "Kalbim kanı vücuda pompalar",
+          "Atardamar götürür, toplardamar getirir",
+          "Kılcal damarlar ikisini birleştirir"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Sol karıncık kanı aorta iter",
+          "Sinüs düğümü sinyali verir",
+          "Koşunca kaslarım oksijen ister",
+          "Kalbim hızlanır, yetiştirir"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Lub-dub, lub-dub, durmadan atar!",
+          "Kalbim kanı vücuda pompalar",
+          "Her gün hareket et, kalbini koru",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Yumruk kadar bir kas, kanı bütün vücuda nasıl ulaştırır? Bu bölümde kalbin dört odacığını, kapakçıkları, küçük ve büyük dolaşımı; atardamar, toplardamar ve kılcal damarları; lub-dub sesinin nereden geldiğini ve kalbin doğal pili olan sinüs düğümünü keşfediyoruz. Koşunca kalbimiz neden hızlanır, kalbimizi nasıl koruruz? Sonunda nabız ölçme deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Kulakçık",
+      "meaning": "Kalbin üstteki iki odacığından her biri; kalbe gelen kanı alır."
+    },
+    {
+      "term": "Karıncık",
+      "meaning": "Kalbin alttaki iki odacığından her biri; kanı kalpten dışarı pompalar."
+    },
+    {
+      "term": "Septum",
+      "meaning": "Kalbin sağ ve sol tarafını ayıran kas duvar."
+    },
+    {
+      "term": "Kapakçık",
+      "meaning": "Kalpte her atışta açılıp kapanan, kapı gibi çalışan yapı."
+    },
+    {
+      "term": "Aort",
+      "meaning": "Kalpten çıkan, vücudun en büyük atardamarı."
+    },
+    {
+      "term": "Atardamar",
+      "meaning": "Kanı kalpten uzağa taşıyan damar."
+    },
+    {
+      "term": "Toplardamar",
+      "meaning": "Kanı kalbe geri getiren damar."
+    },
+    {
+      "term": "Kılcal damar",
+      "meaning": "En küçük atardamarları en küçük toplardamarlara bağlayan çok ince damar."
+    },
+    {
+      "term": "Sinüs düğümü",
+      "meaning": "Sağ kulakçığın duvarında, kalbi attıran elektrik sinyalini başlatan doku."
+    }
+  ]
+}

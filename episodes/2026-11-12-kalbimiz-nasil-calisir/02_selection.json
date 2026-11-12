@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:kalbimiz-nasil-calisir",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:kalbimiz-nasil-calisir",
+    "title": "Kalbimiz nasıl çalışır?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-12",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-12T04:04:40.909Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-12T04:04:40.913Z",
+  "decidedAt": "2026-11-12T04:04:40.913Z"
+}
