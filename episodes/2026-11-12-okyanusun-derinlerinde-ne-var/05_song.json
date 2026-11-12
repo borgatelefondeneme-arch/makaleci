@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Derinlerin Işığı",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "İlk iki yüz metre güneşle dolu",
+          "start": 5.15,
+          "end": 8.87
+        },
+        {
+          "text": "Sonra alacakaranlık, ışık solar",
+          "start": 8.87,
+          "end": 12.87
+        },
+        {
+          "text": "Bin metrenin altı zifiri karanlık",
+          "start": 12.87,
+          "end": 16.87
+        },
+        {
+          "text": "Her on metrede basınç artar",
+          "start": 16.87,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Dal dal dal, derinlere dal!",
+          "start": 20.17,
+          "end": 22.79
+        },
+        {
+          "text": "Karanlıkta ışıklar yanar",
+          "start": 22.79,
+          "end": 25.68
+        },
+        {
+          "text": "Biyolüminesans: canlının feneri",
+          "start": 25.68,
+          "end": 29.35
+        },
+        {
+          "text": "Lusiferin parlar, soğuk ışık verir",
+          "start": 29.35,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Fener balığı avını ışıkla çeker",
+          "start": 33.18,
+          "end": 37.23
+        },
+        {
+          "text": "Vampir kalamar parlak salgı fırlatır",
+          "start": 37.23,
+          "end": 41.01
+        },
+        {
+          "text": "Bacalarda su kaynamaz basınçtan",
+          "start": 41.01,
+          "end": 44.53
+        },
+        {
+          "text": "Haritası çıkmamış nice yer var",
+          "start": 44.53,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Dal dal dal, derinlere dal!",
+          "start": 48.19,
+          "end": 51.25
+        },
+        {
+          "text": "Karanlıkta ışıklar yanar",
+          "start": 51.25,
+          "end": 54.62
+        },
+        {
+          "text": "Keşfedilecek çok şey var daha",
+          "start": 54.62,
+          "end": 58.29
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.29,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

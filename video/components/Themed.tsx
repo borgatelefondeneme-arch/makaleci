@@ -126,7 +126,7 @@ export const Actors: React.FC<{ actors: Actor[]; t: number; ground: number; mode
       const hop = Math.abs(Math.sin((Math.PI * t) / beat));
       if (a.kind === "walk" || a.kind === "swim") {
         if (p > 1) return null;
-        const y = a.kind === "swim" ? ground - 60 + Math.sin(t / 14 + i) * 26 : ground - hop * (show ? 34 * energy : 10);
+        const y = a.kind === "swim" ? (show ? 660 + (i % 3) * 120 : ground - 60) + Math.sin(t / 14 + i) * 26 : ground - hop * (show ? 34 * energy : 10);
         return <Sprite key={i} emoji={a.emoji} x={xAt(p)} y={y} size={size} right={right} facesRight={a.facesRight} rot={Math.sin(t / 6 + i) * 4} />;
       }
       if (a.kind === "fly") {

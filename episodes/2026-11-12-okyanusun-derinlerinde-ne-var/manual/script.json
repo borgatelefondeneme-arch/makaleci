@@ -1,0 +1,534 @@
+{
+ "paperId": "topic:okyanusun-derinlerinde-ne-var",
+ "episodeNumber": 15,
+ "videoTitle": "Okyanusun derinlerinde ne var?",
+ "paperTitleTr": "Okyanusun derinlerinde ne var?",
+ "theme": {
+  "backdrop": "ocean",
+  "actors": [
+   {
+    "kind": "swim",
+    "emoji": "🐟",
+    "every": 13
+   },
+   {
+    "kind": "swim",
+    "emoji": "🐙",
+    "every": 21
+   },
+   {
+    "kind": "swim",
+    "emoji": "🦑",
+    "every": 27
+   },
+   {
+    "kind": "swim",
+    "emoji": "🐡",
+    "every": 17,
+    "size": 80
+   }
+  ]
+ },
+ "takeaways": [
+  "Derine indikçe ışık azalır, basınç artar",
+  "Karanlıkta birçok canlı kendi ışığını üretir: biyolüminesans",
+  "Deniz tabanının çoğunun haritası henüz çıkarılmadı"
+ ],
+ "description": "Güneş ışığının ulaşmadığı derinlerde kimler yaşar? Bu bölümde okyanusun derinliğini, güneşli, alacakaranlık ve karanlık bölgeleri; derinlikle artan basıncı; biyolüminesansı, lusiferini, fener balığını ve vampir kalamarı; hidrotermal bacaları keşfediyoruz. Deniz tabanının ne kadarını tanıyoruz, derinler nasıl inceleniyor? Sonunda derin deniz posteri etkinliği ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Fotosentez",
+   "meaning": "Bitkilerin ve alglerin ışıkla besin üretmesi."
+  },
+  {
+   "term": "Basınç",
+   "meaning": "Bir yüzeye uygulanan itme kuvveti; suyun altında üstteki suyun ağırlığından doğar."
+  },
+  {
+   "term": "Atmosfer",
+   "meaning": "Burada bir basınç birimi: deniz kıyısında havanın yaptığı basınç kadar."
+  },
+  {
+   "term": "Biyolüminesans",
+   "meaning": "Bir canlının kimyasal tepkimeyle kendi ışığını üretmesi."
+  },
+  {
+   "term": "Lusiferin",
+   "meaning": "Biyolüminesansta ışığı üreten madde."
+  },
+  {
+   "term": "Hidrotermal baca",
+   "meaning": "Deniz tabanında, suyun magmayla karşılaşıp ısındığı yerlerde oluşan sıcak su çıkışı."
+  },
+  {
+   "term": "Magma",
+   "meaning": "Yerin altındaki erimiş kaya."
+  },
+  {
+   "term": "Sonar",
+   "meaning": "Ses dalgalarıyla deniz tabanını ölçen cihaz."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "swim",
+    "emoji": "🦈",
+    "every": 8,
+    "size": 260
+   },
+   {
+    "kind": "swim",
+    "emoji": "🐙",
+    "every": 10
+   },
+   {
+    "kind": "swim",
+    "emoji": "🐢",
+    "every": 12
+   },
+   {
+    "kind": "swarm",
+    "emoji": "🐠"
+   },
+   {
+    "kind": "chase",
+    "emoji": "🐋",
+    "emoji2": "🦑",
+    "every": 14,
+    "size": 280
+   }
+  ],
+  "title": "Derinlerin Işığı",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "🐟",
+    "name": "Fener balığı"
+   },
+   {
+    "emoji": "🦑",
+    "name": "Vampir kalamar"
+   },
+   {
+    "emoji": "🐋",
+    "name": "Balina"
+   },
+   {
+    "emoji": "✨",
+    "name": "Işık"
+   },
+   {
+    "emoji": "🌋",
+    "name": "Baca"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "İlk iki yüz metre güneşle dolu",
+     "Sonra alacakaranlık, ışık solar",
+     "Bin metrenin altı zifiri karanlık",
+     "Her on metrede basınç artar"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Dal dal dal, derinlere dal!",
+     "Karanlıkta ışıklar yanar",
+     "Biyolüminesans: canlının feneri",
+     "Lusiferin parlar, soğuk ışık verir"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Fener balığı avını ışıkla çeker",
+     "Vampir kalamar parlak salgı fırlatır",
+     "Bacalarda su kaynamaz basınçtan",
+     "Haritası çıkmamış nice yer var"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Dal dal dal, derinlere dal!",
+     "Karanlıkta ışıklar yanar",
+     "Keşfedilecek çok şey var daha",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Okyanus, gezegenimizin yüzeyinin %70'inden fazlasını kaplar. Ama derinlerini neredeyse hiç görmedik!",
+     "spoken": "Okyanus, gezegenimizin yüzeyinin yüzde yetmişinden fazlasını kaplar. Ama derinlerini neredeyse hiç görmedik!",
+     "factIds": [
+      "f1",
+      "f16"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Güneş ışığının hiç ulaşmadığı o karanlıkta kimler yaşıyor? Ve kendi ışığını üreten canlılar gerçek mi?",
+     "spoken": "Güneş ışığının hiç ulaşmadığı o karanlıkta kimler yaşıyor? Ve kendi ışığını üreten canlılar gerçek mi?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün denizin dibine dalıyoruz!",
+     "spoken": "Bugün denizin dibine dalıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Okyanus ne kadar derin? Işık ve basınç derinlikle nasıl değişir? Ve karanlıkta canlılar nasıl yaşar?",
+     "spoken": "Üç sorumuz var. Okyanus ne kadar derin? Işık ve basınç derinlikle nasıl değişir? Ve karanlıkta canlılar nasıl yaşar?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "ABD Ulusal Okyanus ve Atmosfer Dairesi NOAA'ya göre Dünya'daki suyun yaklaşık %97'si okyanustadır.",
+     "spoken": "A Be De Ulusal Okyanus ve Atmosfer Dairesi, Noa'ya göre Dünya'daki suyun yaklaşık yüzde doksan yedisi okyanustadır.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Okyanusun ortalama derinliği 3.682 metredir.",
+     "spoken": "Okyanusun ortalama derinliği üç bin altı yüz seksen iki metredir.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "En derin noktası Büyük Okyanus'taki Mariana Çukuru'ndadır. Challenger Derinliği denen bu yer 10.935 metre derinliktedir.",
+     "spoken": "En derin noktası Büyük Okyanus'taki Mariana Çukuru'ndadır. Çelıncır Derinliği denen bu yer on bin dokuz yüz otuz beş metre derinliktedir.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Ben oraya inemem. Su geçirmezlik belgem yok!",
+     "spoken": "Ben oraya inemem. Su geçirmezlik belgem yok!",
+     "factIds": []
+    },
+    {
+     "id": "l10",
+     "display": "Derine indikçe iki şey hızla değişir: ışık ve basınç. Önce ışığa bakalım.",
+     "spoken": "Derine indikçe iki şey hızla değişir: ışık ve basınç. Önce ışığa bakalım.",
+     "factIds": []
+    },
+    {
+     "id": "l11",
+     "display": "İlk 200 metreye güneşli bölge denir. Fotosentez yalnızca burada mümkündür; çünkü daha derine neredeyse hiç ışık ulaşmaz.",
+     "spoken": "İlk iki yüz metreye güneşli bölge denir. Fotosentez yalnızca burada mümkündür; çünkü daha derine neredeyse hiç ışık ulaşmaz.",
+     "factIds": [
+      "f3",
+      "f6"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "200 ile 1.000 metre arası alacakaranlık bölgesidir. Burada kayda değer ışık nadiren bulunur.",
+     "spoken": "İki yüz ile bin metre arası alacakaranlık bölgesidir. Burada kayda değer ışık nadiren bulunur.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "1.000 metrenin altına ise Güneş ışığı hiç ulaşmaz. Burası zifiri karanlıktır.",
+     "spoken": "Bin metrenin altına ise Güneş ışığı hiç ulaşmaz. Burası zifiri karanlıktır.",
+     "factIds": [
+      "f5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l14",
+     "display": "Şimdi basınç. Üstündeki su seni aşağı doğru iter; ne kadar derine inersen basınç o kadar artar.",
+     "spoken": "Şimdi basınç. Üstündeki su seni aşağı doğru iter; ne kadar derine inersen basınç o kadar artar.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "NOAA'ya göre yaklaşık her on metrede basınç bir atmosfer daha artar. Bir atmosfer, deniz kıyısında havanın üstümüze yaptığı basınç kadardır.",
+     "spoken": "Noa'ya göre yaklaşık her on metrede basınç bir atmosfer daha artar. Bir atmosfer, deniz kıyısında havanın üstümüze yaptığı basınç kadardır.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Peki canlılar buna nasıl dayanır? Örneğin balinaların bedenleri daha esnektir; bu sayede büyük basınç değişimlerine dayanabilirler.",
+     "spoken": "Peki canlılar buna nasıl dayanır? Örneğin balinaların bedenleri daha esnektir; bu sayede büyük basınç değişimlerine dayanabilirler.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Karanlığa gelince: derinlerdeki pek çok canlı kendi ışığını üretir! Buna biyolüminesans denir: bir canlının kimyasal tepkimeyle ışık üretmesi.",
+     "spoken": "Karanlığa gelince: derinlerdeki pek çok canlı kendi ışığını üretir! Buna biyolüminesans denir: bir canlının kimyasal tepkimeyle ışık üretmesi.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "200 ile 1.000 metre arasında yaşayan hayvanların %80'i biyolüminesanstır.",
+     "spoken": "İki yüz ile bin metre arasında yaşayan hayvanların yüzde sekseni biyolüminesanstır.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "National Geographic'e göre bu ışığı üreten maddenin adı lusiferindir. Üstelik bu soğuk bir ışıktır: çok az ısı yayar.",
+     "spoken": "Neşınıl Ciyografik'e göre bu ışığı üreten maddenin adı lusiferindir. Üstelik bu soğuk bir ışıktır: çok az ısı yayar.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Canlılar bu ışığı av yakalamak, düşmandan korunmak ve eş bulmak için kullanır.",
+     "spoken": "Canlılar bu ışığı av yakalamak, düşmandan korunmak ve eş bulmak için kullanır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "En ünlüsü fener balığı: başından uzanan ipliğin ucundaki topu yakar ve avını kendine çeker.",
+     "spoken": "En ünlüsü fener balığı: başından uzanan ipliğin ucundaki topu yakar ve avını kendine çeker.",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Başında lamba taşıyan bir balık! Bence antenimdeki yıldızı kıskanmış.",
+     "spoken": "Başında lamba taşıyan bir balık! Bence antenimdeki yıldızı kıskanmış.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l23",
+     "display": "Vampir kalamar ise tehlike anında yapışkan ve parlayan bir salgı fırlatır; düşmanını şaşırtıp oyalar.",
+     "spoken": "Vampir kalamar ise tehlike anında yapışkan ve parlayan bir salgı fırlatır; düşmanını şaşırtıp oyalar.",
+     "factIds": [
+      "f14"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Derinlerde bir sürpriz daha var: hidrotermal bacalar. Deniz suyunun magmayla karşılaştığı yerlerde oluşurlar.",
+     "spoken": "Derinlerde bir sürpriz daha var: hidrotermal bacalar. Deniz suyunun magmayla karşılaştığı yerlerde oluşurlar.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Bu bacalardaki su çok sıcaktır; ama o derinlikteki aşırı basınç yüzünden kaynamaz.",
+     "spoken": "Bu bacalardaki su çok sıcaktır; ama o derinlikteki aşırı basınç yüzünden kaynamaz.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Bilim insanları bu bacaları ilk kez 1977'de, Galapagos Adaları yakınında keşfetti. Çevrelerinde daha önce hiç görülmemiş pek çok canlı vardı.",
+     "spoken": "Bilim insanları bu bacaları ilk kez bin dokuz yüz yetmiş yedide, Galapagos Adaları yakınında keşfetti. Çevrelerinde daha önce hiç görülmemiş pek çok canlı vardı.",
+     "factIds": [
+      "f15"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Peki okyanusu ne kadar tanıyoruz? Nisan 2026 itibarıyla deniz tabanının yalnızca %28,7'sinin haritası çıkarılmıştı.",
+     "spoken": "Peki okyanusu ne kadar tanıyoruz? Nisan iki bin yirmi altı itibarıyla deniz tabanının yalnızca yüzde yirmi sekiz virgül yedisinin haritası çıkarılmıştı.",
+     "factIds": [
+      "f16"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Derin deniz tabanının gözle görülen kısmı ise %0,001'den az!",
+     "spoken": "Derin deniz tabanının gözle görülen kısmı ise yüz binde birden az!",
+     "factIds": [
+      "f16"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Bilim insanları derinleri, gemilere takılan sonar cihazlarıyla ve uzaktan kumandalı araçlarla inceler.",
+     "spoken": "Bilim insanları derinleri, gemilere takılan sonar cihazlarıyla ve uzaktan kumandalı araçlarla inceler.",
+     "factIds": [
+      "f17"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "Uzaktan kumandalı araçlar benim kuzenlerim sayılır. Aile toplantılarımız biraz ıslak geçiyor!",
+     "spoken": "Uzaktan kumandalı araçlar benim kuzenlerim sayılır. Aile toplantılarımız biraz ıslak geçiyor!",
+     "factIds": []
+    },
+    {
+     "id": "l31",
+     "display": "Tahminlere göre okyanusta 700.000 ile 1 milyon arasında tür yaşıyor olabilir.",
+     "spoken": "Tahminlere göre okyanusta yedi yüz bin ile bir milyon arasında tür yaşıyor olabilir.",
+     "factIds": [
+      "f18"
+     ]
+    },
+    {
+     "id": "l32",
+     "display": "Şimdi sıra sende! Büyük bir kâğıdı üçe böl: güneşli bölge, alacakaranlık bölgesi ve karanlık bölge.",
+     "spoken": "Şimdi sıra sende! Büyük bir kâğıdı üçe böl: güneşli bölge, alacakaranlık bölgesi ve karanlık bölge.",
+     "factIds": []
+    },
+    {
+     "id": "l33",
+     "display": "Her bölgeye oraya uygun canlılar çiz. Karanlık bölgedekileri fosforlu kalemle boya; ışığı kapatınca kendi derin denizin parlasın!",
+     "spoken": "Her bölgeye oraya uygun canlılar çiz. Karanlık bölgedekileri fosforlu kalemle boya; ışığı kapatınca kendi derin denizin parlasın!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l34",
+     "display": "Bunu biliyor muydun? NOAA'ya göre biyolüminesansın asıl işlevinin ne olduğu hâlâ tam olarak bilinmiyor.",
+     "spoken": "Bunu biliyor muydun? Noa'ya göre biyolüminesansın asıl işlevinin ne olduğu hâlâ tam olarak bilinmiyor.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l35",
+     "display": "Hızlı soru! Fotosentez okyanusun hangi bölgesinde yapılabilir?",
+     "spoken": "Hızlı soru! Fotosentez okyanusun hangi bölgesinde yapılabilir?",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l36",
+     "display": "Düşün bakalım... Evet: ilk 200 metredeki güneşli bölgede!",
+     "spoken": "Düşün bakalım... Evet: ilk iki yüz metredeki güneşli bölgede!",
+     "factIds": [
+      "f3",
+      "f6"
+     ]
+    },
+    {
+     "id": "l37",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l38",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l39",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l40",
+     "display": "Abone olmayı ve zili açmayı unutma. Ben yüzeyde kalıyorum; aşağıdaki kuzenlerime selam söyle!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Ben yüzeyde kalıyorum; aşağıdaki kuzenlerime selam söyle!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

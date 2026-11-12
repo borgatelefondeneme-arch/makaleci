@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 14,
+  "lastEpisodeNumber": 15,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -56,6 +56,10 @@
     "topic:arilar-neden-bu-kadar-onemli": {
       "id": "2026-11-12-arilar-neden-bu-kadar-onemli",
       "episodeNumber": 14
+    },
+    "topic:okyanusun-derinlerinde-ne-var": {
+      "id": "2026-11-12-okyanusun-derinlerinde-ne-var",
+      "episodeNumber": 15
     }
   }
 }

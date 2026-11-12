@@ -1,0 +1,753 @@
+{
+  "paperId": "topic:okyanusun-derinlerinde-ne-var",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Okyanusun derinlerinde ne var?",
+        "emoji": "🌊"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f16"
+      ],
+      "stickers": [
+        "🐙",
+        "🐟",
+        "🦑",
+        "🐚"
+      ],
+      "keywords": [
+        "",
+        "KARANLIKTA KİM VAR?",
+        "DİBE DALIYORUZ!"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Okyanus ne kadar derin?",
+          "Işık ve basınç derinlikle nasıl değişir?",
+          "Karanlıkta canlılar nasıl yaşar?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "🔎",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "%97",
+        "label": "Dünya'daki suyun okyanustaki payı",
+        "sub": "NOAA",
+        "icon": "🌍"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1"
+      ],
+      "stickers": [
+        "💧",
+        "🌊"
+      ],
+      "keywords": [
+        "SUYUN ÇOĞU BURADA"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l7",
+        "l8",
+        "l9"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Ne kadar derin?",
+        "left": {
+          "title": "Ortalama 🌊",
+          "items": [
+            "3.682 metre"
+          ]
+        },
+        "right": {
+          "title": "En derin nokta ⬇️",
+          "items": [
+            "10.935 metre",
+            "Challenger Derinliği",
+            "Mariana Çukuru"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2",
+        "f9"
+      ],
+      "stickers": [
+        "📏",
+        "🤿"
+      ],
+      "keywords": [
+        "ORTALAMA DERİNLİK",
+        "MARİANA ÇUKURU",
+        "BELGEM YOK 😅"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l10"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Derine indikçe",
+        "emoji": "🤿",
+        "chips": [
+          {
+            "label": "Işık azalır",
+            "emoji": "🔦"
+          },
+          {
+            "label": "Basınç artar",
+            "emoji": "⬇️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🌊",
+        "🫧"
+      ],
+      "keywords": [
+        "IŞIK + BASINÇ"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "method",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Okyanusun ışık bölgeleri",
+        "rows": [
+          {
+            "label": "Güneşli bölge: ilk 200 m",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Alacakaranlık: 200–1.000 m",
+            "emoji": "🌆"
+          },
+          {
+            "label": "Karanlık bölge: 1.000 m altı",
+            "emoji": "🌑"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "highlightRow": 0,
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "keywords": [
+        "GÜNEŞLİ BÖLGE ☀️",
+        "ALACAKARANLIK 🌆",
+        "ZİFİRİ KARANLIK 🌑"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Basınç",
+        "label": "Basınç",
+        "emoji": "🐋",
+        "phases": [
+          {
+            "label": "Üstündeki su aşağı iter",
+            "level": 0.3,
+            "emoji": "⬇️"
+          },
+          {
+            "label": "Her on metrede bir atmosfer daha",
+            "level": 0.65,
+            "emoji": "📈"
+          },
+          {
+            "label": "Balinalar: esnek beden",
+            "level": 0.9,
+            "emoji": "🐋"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f8"
+      ],
+      "stickers": [
+        "🤿",
+        "🫧"
+      ],
+      "keywords": [
+        "BASINÇ ARTAR",
+        "BİR ATMOSFER DAHA",
+        "ESNEK BEDEN 🐋"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Biyolüminesans",
+        "emoji": "✨",
+        "chips": [
+          {
+            "label": "Canlının ürettiği ışık",
+            "emoji": "💡"
+          },
+          {
+            "label": "Kimyasal tepkimeyle",
+            "emoji": "🧪"
+          },
+          {
+            "label": "200–1.000 m arasındaki hayvanların %80'i",
+            "emoji": "🐟"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🪼",
+        "🦑"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "KENDİ IŞIĞI! ✨",
+        "ÇOK YAYGIN"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Işık ne işe yarar?",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Lusiferin: ışığı üretir",
+            "emoji": "🧪"
+          },
+          {
+            "label": "Av yakalamak",
+            "emoji": "🎣"
+          },
+          {
+            "label": "Korunmak",
+            "emoji": "🛡️"
+          },
+          {
+            "label": "Eş bulmak",
+            "emoji": "💞"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11",
+        "f12"
+      ],
+      "stickers": [
+        "❄️",
+        "💡"
+      ],
+      "keywords": [
+        "LUSİFERİN • SOĞUK IŞIK",
+        "ÜÇ İŞLEV"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "finding",
+      "lineIds": [
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Fener balığı",
+        "label": "Ucundaki topu yakar, avını çeker",
+        "sub": "National Geographic",
+        "icon": "💡"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🐟",
+        "🎣"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "FENER BALIĞI 🎣",
+        "YILDIZIMI KISKANDI ⭐"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l23"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Vampir kalamar",
+        "emoji": "🦑",
+        "chips": [
+          {
+            "label": "Yapışkan, parlayan salgı fırlatır",
+            "emoji": "✨"
+          },
+          {
+            "label": "Düşmanı şaşırtır ve oyalar",
+            "emoji": "😵"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f14"
+      ],
+      "stickers": [
+        "🌑",
+        "🫧"
+      ],
+      "keywords": [
+        "VAMPİR KALAMAR 🦑"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l24",
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Hidrotermal bacalar",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Deniz suyu magmayla karşılaşır",
+            "emoji": "🌋"
+          },
+          {
+            "label": "Çok sıcak su",
+            "emoji": "♨️"
+          },
+          {
+            "label": "Basınç yüzünden kaynamaz",
+            "emoji": "🚫"
+          },
+          {
+            "label": "1977: keşif ve yeni canlılar",
+            "emoji": "🔎"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f15"
+      ],
+      "stickers": [
+        "🪸",
+        "🦐"
+      ],
+      "fx": "erupt",
+      "keywords": [
+        "HİDROTERMAL BACA",
+        "KAYNAMAZ!",
+        "GALAPAGOS YAKINI"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "%28,7",
+        "label": "Deniz tabanının haritası çıkarılan kısmı",
+        "sub": "Nisan 2026 • Görülen kısım: %0,001'den az",
+        "icon": "🗺️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f16"
+      ],
+      "stickers": [
+        "🧭",
+        "🚢"
+      ],
+      "keywords": [
+        "HARİTASI EKSİK",
+        "NEREDEYSE HİÇ GÖRMEDİK"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "importance",
+      "lineIds": [
+        "l29",
+        "l30"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Derinler nasıl incelenir?",
+        "left": {
+          "title": "Sonar 📡",
+          "items": [
+            "Gemilere takılır",
+            "Tabanı ayrıntılı gösterir"
+          ]
+        },
+        "right": {
+          "title": "Uzaktan kumandalı araç 🤖",
+          "items": [
+            "Derine iner",
+            "Muma'nın kuzenleri!"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f17"
+      ],
+      "stickers": [
+        "🚢",
+        "🎮"
+      ],
+      "keywords": [
+        "SONAR + ARAÇLAR",
+        "KUZENLERİM 🤖"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "importance",
+      "lineIds": [
+        "l31"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "1 milyon",
+        "label": "türe kadar canlı yaşıyor olabilir",
+        "sub": "Tahmin: 700.000 ile 1 milyon arası",
+        "icon": "🐠"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f18"
+      ],
+      "stickers": [
+        "🐙",
+        "🦈"
+      ],
+      "keywords": [
+        "KALABALIK!"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "importance",
+      "lineIds": [
+        "l32",
+        "l33"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: derin deniz posteri 🎨",
+        "items": [
+          "Kâğıdı üç bölgeye ayır",
+          "Her bölgeye uygun canlılar çiz",
+          "Karanlık bölgeyi fosforlu kalemle boya",
+          "Işığı kapat: denizin parlasın!"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🖍️",
+        "✨"
+      ],
+      "keywords": [
+        "POSTER ZAMANI 🎨",
+        "KARANLIKTA PARLAR ✨"
+      ]
+    },
+    {
+      "id": "s17",
+      "section": "limitations",
+      "lineIds": [
+        "l34"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Hâlâ bir sır",
+        "emoji": "❓",
+        "chips": [
+          {
+            "label": "Biyolüminesansın asıl işlevi ne?",
+            "emoji": "✨"
+          },
+          {
+            "label": "Henüz tam olarak bilinmiyor",
+            "emoji": "🔬"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🪼",
+        "📚"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s18",
+      "section": "limitations",
+      "lineIds": [
+        "l35",
+        "l36"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Fotosentez hangi bölgede yapılabilir?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f6"
+      ],
+      "stickers": [
+        "☀️",
+        "🌿"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "GÜNEŞLİ BÖLGE ✅"
+      ]
+    },
+    {
+      "id": "s19",
+      "section": "limitations",
+      "lineIds": [
+        "l37"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s20",
+      "section": "summary",
+      "lineIds": [
+        "l38",
+        "l39",
+        "l40"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}
