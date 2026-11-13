@@ -84,7 +84,7 @@ export type Line = z.infer<typeof Line>;
 
 // --- Konuya özel sahneleme (kullanıcı kararı: görseller konuya göre kurulur) ---
 // Arka plan dünyası: konu neredeyse orası (uzay, yer altı, çayır, okyanus, fırtına).
-export const Backdrop = z.enum(["space", "underground", "meadow", "ocean", "storm", "mouth", "aurora", "sky", "micro"]);
+export const Backdrop = z.enum(["space", "underground", "meadow", "ocean", "storm", "mouth", "aurora", "sky", "micro", "snow"]);
 // Sahnede hareket eden konu karakteri (emoji). kind: yürür, uçar, kovalar (emoji2 kaçar), yüzer, kazar, zıplar, döner, sürü.
 export const Actor = z.object({
   kind: z.enum(["walk", "fly", "chase", "swim", "dig", "hop", "orbit", "swarm"]),

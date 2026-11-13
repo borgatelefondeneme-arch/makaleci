@@ -7,10 +7,10 @@ import { clamp } from "../anim";
 // Konuya özel sahneleme: arka plan dünyaları, ortamda gezen karakterler ve sahne efektleri.
 // Koyu dünyalarda (uzay, okyanus, yer altı, fırtına) içerik krem bir panonun üstünde durur; dünya çevresinde ve altında görünür.
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -82,6 +82,33 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
           {Array.from({ length: 90 }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
           <path d={`M 0 ${H} V 1010 Q 480 980 960 1004 T ${W} 996 V ${H} Z`} fill="#2E3A52" />
         </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "snow") {
+    // karlı kış: soluk mavi gök, farklı hızlarda yağan kar taneleri, çam ağaçları ve karlı tepeler
+    return (
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #B9D7EE 0%, #DCEBF6 60%, #F3F8FC 100%)", overflow: "hidden" }}>
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          <path d={`M 0 ${H} V 900 Q 360 830 760 890 T 1500 860 T ${W} 880 V ${H} Z`} fill="#FFFFFF" />
+          <path d={`M 0 ${H} V 970 Q 600 920 1100 965 T ${W} 950 V ${H} Z`} fill="#EAF2F9" />
+          {[60, 230, 1640, 1800].map((x, k) => (
+            <g key={k} transform={`translate(${x} ${860 + (k % 2) * 30})`}>
+              {[0, 1, 2].map((t) => <path key={t} d={`M 0 ${-200 + t * 60} L ${-70 + t * -12} ${-110 + t * 60} L ${70 + t * 12} ${-110 + t * 60} Z`} fill="#2F6B55" />)}
+              {[0, 1, 2].map((t) => <path key={`s${t}`} d={`M 0 ${-200 + t * 60} L ${-30 + t * -6} ${-160 + t * 60} L ${30 + t * 6} ${-160 + t * 60} Z`} fill="#FFFFFF" opacity={0.9} />)}
+              <rect x={-12} y={-50} width={24} height={50} fill="#6B4A32" />
+            </g>
+          ))}
+          {Array.from({ length: 110 }, (_, i) => {
+            const sp = 0.8 + rnd(i, 3) * 2.2, r = 3 + rnd(i, 4) * 6;
+            const y = ((rnd(i, 2) * H + f * sp) % (H + 40)) - 20, x = rnd(i, 1) * W + Math.sin(f / (30 + i % 20) + i) * 30;
+            return <circle key={i} cx={x} cy={y} r={r} fill="#FFFFFF" opacity={0.85} />;
+          })}
+        </svg>
+        {Array.from({ length: 7 }, (_, i) => {
+          const y = ((rnd(i, 7) * H + f * (0.7 + rnd(i, 8))) % (H + 120)) - 60;
+          return <div key={i} style={{ position: "absolute", left: 80 + rnd(i, 9) * (W - 200), top: y, fontSize: 50 + rnd(i, 10) * 40, opacity: 0.7, fontFamily: F.head, transform: `rotate(${f * (0.5 + rnd(i, 11))}deg)` }}>❄️</div>;
+        })}
       </AbsoluteFill>
     );
   }
