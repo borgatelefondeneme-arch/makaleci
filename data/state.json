@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 21,
+  "lastEpisodeNumber": 22,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -84,6 +84,10 @@
     "topic:mikroplar-nedir": {
       "id": "2026-11-12-mikroplar-nedir",
       "episodeNumber": 21
+    },
+    "topic:kar-taneleri-nasil-olusur": {
+      "id": "2026-11-13-kar-taneleri-nasil-olusur",
+      "episodeNumber": 22
     }
   }
 }

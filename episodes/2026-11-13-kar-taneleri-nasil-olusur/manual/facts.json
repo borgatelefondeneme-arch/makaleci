@@ -1,0 +1,179 @@
+{
+ "paperId": "topic:kar-taneleri-nasil-olusur",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "How do snowflakes form? Get the science behind snow",
+   "publisher": "NOAA",
+   "url": "https://www.noaa.gov/stories/how-do-snowflakes-form-get-science-behind-snow"
+  },
+  {
+   "id": "k2",
+   "title": "Severe Weather 101: Winter Weather Types",
+   "publisher": "NSSL",
+   "url": "https://www.nssl.noaa.gov/education/svrwx101/winter/types/"
+  },
+  {
+   "id": "k3",
+   "title": "Science of Snow",
+   "publisher": "NSIDC",
+   "url": "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"
+  },
+  {
+   "id": "k4",
+   "title": "Quick Facts About Snow",
+   "publisher": "NSIDC",
+   "url": "https://nsidc.org/learn/parts-cryosphere/snow/quick-facts-about-snow"
+  },
+  {
+   "id": "k5",
+   "title": "Snow",
+   "publisher": "Met Office",
+   "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/snow"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Bir kar tanesi, çok soğuk bir su damlacığı gökyüzünde bir polen ya da toz parçacığının üzerinde donunca oluşmaya başlar; su buharı ilk kristalin üzerinde donarak yeni kristaller kurar.",
+   "numbers": [],
+   "quote": "A snowflake begins to form when an extremely cold water droplet freezes onto a pollen or dust particle in the sky. / water vapor freezes onto the primary crystal, building new crystals",
+   "location": "NOAA — How do snowflakes form?"
+  },
+  {
+   "id": "f2",
+   "kind": "number",
+   "statement": "Sıcaklık 0°C'nin altına düşünce su buharı sıvı evreye geçmeden doğrudan buza dönüşür.",
+   "numbers": [
+    "0"
+   ],
+   "quote": "when temperatures drop below 0°C (32°F), water vapor condenses directly into ice without going through the liquid stage.",
+   "location": "NSIDC — Quick Facts About Snow"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Kar taneleri bulutlardan düşen tek buz kristalleri ya da buz kristali kümeleridir; çok sayıda kar kristalinin birikimidir.",
+   "numbers": [],
+   "quote": "Snowflakes are single ice crystals or clusters of ice crystals that fall from a cloud. / Snowflakes are accumulations of many snow crystals.",
+   "location": "NSIDC — Science of Snow"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Kar tanelerinin biçimi, kristalin su moleküllerinin önceden belirlenmiş yerlere dizilmesindeki iç düzeni yansıtır; altıgen biçim her zaman korunur.",
+   "numbers": [],
+   "quote": "reflect the internal order of the crystal's water molecules as they arrange themselves in predetermined spaces / Although the six-sided shape is always maintained",
+   "location": "NOAA — How do snowflakes form?"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Kristalin biçimini en çok oluştuğu sıcaklık, daha az ölçüde de havanın nemi belirler; daha az soğukta uzun iğne gibi kristaller, çok daha soğukta çok yassı levha gibi kristaller görülür (kaynakta Fahrenhayt değerleriyle).",
+   "numbers": [],
+   "quote": "it is the temperature at which a crystal forms — and to a lesser extent the humidity of the air / we see long needle-like crystals at 23 degrees F and very flat plate-like crystals at 5 degrees F.",
+   "location": "NOAA — How do snowflakes form?"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Kar tanelerinin her biri gökyüzünden yere biraz farklı yollar izler; bu yüzden prizmalardan iğnelere, tanıdık dantel desenine kadar hepsi benzersiz görünme eğilimindedir.",
+   "numbers": [],
+   "quote": "individual snowflakes all follow slightly different paths from the sky to the ground / they all tend to look unique, resembling everything from prisms and needles to the familiar lacy pattern.",
+   "location": "NOAA — How do snowflakes form?"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Temiz kar görünür güneş ışığının çoğunu yansıtır ve beyaz görünür; aslında yarı saydamdır; kar tanesinin çok sayıdaki yüzü ışığı her yöne saçar.",
+   "numbers": [],
+   "quote": "Clean snow, however, reflects most of the visible sunlight, creating a white appearance. / Snow appears white, but it is actually translucent. / The many sides of a snowflake scatter light, diffusing the color spectrum in many directions.",
+   "location": "NSIDC — Science of Snow; NSIDC — Quick Facts About Snow"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Kar, bir evin tavanındaki yalıtıma benzer iyi bir yalıtkandır; bir kar katmanının toplam hacminin çoğu havadır.",
+   "numbers": [],
+   "quote": "snow is a good insulator, similar to the insulation in the ceiling of a house / most of the total volume of a snow layer is made up of air",
+   "location": "NSIDC — Science of Snow"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Taze kar sesi bastırır, çünkü ses dalgalarını emer.",
+   "numbers": [],
+   "quote": "Fresh snow cover dampens sound because it absorbs sound waves.",
+   "location": "NSIDC — Quick Facts About Snow"
+  },
+  {
+   "id": "f10",
+   "kind": "number",
+   "statement": "Kar tanelerinin çoğu 1,3 santimetreden küçüktür; çok daha büyükleri 5 santimetreye yaklaşabilir.",
+   "numbers": [
+    "1.3",
+    "5"
+   ],
+   "quote": "Most snowflakes are less than 1.3 centimeters (0.5 inches) across. / nearing 5 centimeters (2 inches) across",
+   "location": "NSIDC — Science of Snow"
+  },
+  {
+   "id": "f11",
+   "kind": "number",
+   "statement": "Sulu kar, kar taneleri ince bir ılık hava katmanından geçerken yalnızca kısmen eridiğinde oluşur; donan yağmur, kar taneleri daha ılık bir katmanda tamamen erir ve 0°C'deki ya da daha soğuk her şeye değer değmez yeniden donar.",
+   "numbers": [
+    "0"
+   ],
+   "quote": "Sleet occurs when snowflakes only partially melt when they fall through a shallow layer of warm air. / Freezing rain occurs when snowflakes descend into a warmer layer of air and melt completely. / they instantly refreeze upon contact with anything that is at or below 0 degrees C",
+   "location": "NOAA NSSL — Severe Weather 101: Winter Weather Types"
+  },
+  {
+   "id": "f12",
+   "kind": "number",
+   "statement": "Graupel, yuvarlaklaşmış, opak, 2–5 milimetrelik kar taneciklerinden oluşur; bazen doluyla karıştırılır ama dokusu daha yumuşak ve ufalanır.",
+   "numbers": [
+    "2",
+    "5"
+   ],
+   "quote": "Graupel consists of snowflakes that become rounded, opaque pellets ranging from 2 to 5 millimeters / Graupel is sometimes mistaken for hail, but tends to have a texture that is softer and more crumbly.",
+   "location": "NSIDC — Science of Snow"
+  },
+  {
+   "id": "f13",
+   "kind": "number",
+   "statement": "Kar, atmosfer sıcaklığı donma noktasında ya da altındayken (0°C) oluşur; karın yağması için sıfırın altında olması gerektiği bir efsanedir.",
+   "numbers": [
+    "0"
+   ],
+   "quote": "Snow forms when the atmospheric temperature is at or below freezing (0°C or 32°F). / It is a myth that it needs to be below zero to snow.",
+   "location": "NSIDC — Science of Snow; Met Office — Snow"
+  },
+  {
+   "id": "f14",
+   "kind": "claim",
+   "statement": "Kar taneleri bulutlardaki minik buz kristallerinin birbirine yapışmasıyla oluşur.",
+   "numbers": [],
+   "quote": "Snow forms when tiny ice crystals in clouds stick together to become snowflakes.",
+   "location": "Met Office — Snow"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Wilson Bentley, hobisi kar tanelerini fotoğraflamak olan bir çiftçiydi.",
+   "numbers": [],
+   "quote": "Bentley was a farmer whose hobby was photographing snow flakes.",
+   "location": "NOAA — How do snowflakes form?"
+  },
+  {
+   "id": "f16",
+   "kind": "claim",
+   "statement": "Küreme kar asla yenmemelidir; içinde kir ve magnezyum klorür gibi kimyasallar vardır; düşük rüzgâr soğuğuna maruz kalmak donmaya ya da hipotermiye yol açabilir.",
+   "numbers": [],
+   "quote": "never eat plowed snow, which contains snow, dirt, and chemicals like magnesium chloride. / Exposure to low wind chill values can result in frostbite or hypothermia.",
+   "location": "NSIDC — Quick Facts About Snow; NSIDC — Science of Snow"
+  }
+ ]
+}

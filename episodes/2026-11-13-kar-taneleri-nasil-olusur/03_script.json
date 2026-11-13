@@ -1,0 +1,487 @@
+{
+  "paperId": "topic:kar-taneleri-nasil-olusur",
+  "episodeNumber": 22,
+  "videoTitle": "Kar taneleri nasıl oluşur?",
+  "paperTitleTr": "Kar taneleri nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Gökyüzünden yavaşça süzülen beyaz taneler... Her birinin altı kolu var ve hepsi birbirinden farklı görünüyor!",
+          "spoken": "Gökyüzünden yavaşça süzülen beyaz taneler... Her birinin altı kolu var ve hepsi birbirinden farklı görünüyor!",
+          "factIds": [
+            "f4",
+            "f6"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bir kar tanesi nasıl oluşur? Ve neden hep altı köşelidir?",
+          "spoken": "Bir kar tanesi nasıl oluşur? Ve neden hep altı köşelidir?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir bulutun içinde, buzdan bir sanat eserinin doğuşunu izliyoruz!",
+          "spoken": "Bugün bir bulutun içinde, buzdan bir sanat eserinin doğuşunu izliyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Kar tanesi nasıl oluşur? Biçimini ne belirler? Ve kar neden beyazdır?",
+          "spoken": "Üç sorumuz var. Kar tanesi nasıl oluşur? Biçimini ne belirler? Ve kar neden beyazdır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Ulusal Okyanus ve Atmosfer Dairesi NOAA'ya göre her şey bulutun içinde başlar: çok soğuk bir su damlacığı, havadaki bir polen ya da toz parçacığının üzerinde donar.",
+          "spoken": "A Be De Ulusal Okyanus ve Atmosfer Dairesi, Noa'ya göre her şey bulutun içinde başlar: çok soğuk bir su damlacığı, havadaki bir polen ya da toz parçacığının üzerinde donar.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Yani her kar tanesinin kalbinde minicik bir toz zerresi var. Ben de tozlanırım ama kimse beni kar tanesi sanmaz!",
+          "spoken": "Yani her kar tanesinin kalbinde minicik bir toz zerresi var. Ben de tozlanırım ama kimse beni kar tanesi sanmaz!",
+          "factIds": []
+        },
+        {
+          "id": "l8",
+          "display": "Sonra havadaki su buharı bu ilk kristalin üzerinde donar ve yeni kristaller ekler.",
+          "spoken": "Sonra havadaki su buharı bu ilk kristalin üzerinde donar ve yeni kristaller ekler.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Sıcaklık 0 derecenin altına düşünce su buharı sıvı olmadan, doğrudan buza dönüşebilir.",
+          "spoken": "Sıcaklık sıfır derecenin altına düşünce su buharı sıvı olmadan, doğrudan buza dönüşebilir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Kar tanesi aslında çok sayıda kar kristalinin bir araya gelmesiyle oluşur.",
+          "spoken": "Kar tanesi aslında çok sayıda kar kristalinin bir araya gelmesiyle oluşur.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Neden altı köşeli? NOAA'ya göre bu biçim, su moleküllerinin kristalin içinde belirli yerlere dizilmesinden gelir. Bu yüzden altıgen yapı her zaman korunur.",
+          "spoken": "Neden altı köşeli? Noa'ya göre bu biçim, su moleküllerinin kristalin içinde belirli yerlere dizilmesinden gelir. Bu yüzden altıgen yapı her zaman korunur.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Peki biçimini ne belirler? En çok, kristalin oluştuğu sıcaklık; biraz da havanın nemi.",
+          "spoken": "Peki biçimini ne belirler? En çok, kristalin oluştuğu sıcaklık; biraz da havanın nemi.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Örneğin hava donma noktasının biraz altındayken uzun iğneler, çok daha soğukken ise çok yassı levhalar oluşur.",
+          "spoken": "Örneğin hava donma noktasının biraz altındayken uzun iğneler, çok daha soğukken ise çok yassı levhalar oluşur.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Her kar tanesi yere inerken biraz farklı bir yoldan geçer. Farklı sıcaklıklar, farklı nem... Bu yüzden her biri benzersiz görünme eğilimindedir.",
+          "spoken": "Her kar tanesi yere inerken biraz farklı bir yoldan geçer. Farklı sıcaklıklar, farklı nem... Bu yüzden her biri benzersiz görünme eğilimindedir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Prizmalar, iğneler ve o tanıdık dantel desenleri hep bu yolculuğun sonucu.",
+          "spoken": "Prizmalar, iğneler ve o tanıdık dantel desenleri hep bu yolculuğun sonucu.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Kar tanelerinin çoğu 1,3 santimetreden küçüktür. Çok daha büyükleri 5 santimetreye yaklaşabilir.",
+          "spoken": "Kar tanelerinin çoğu bir virgül üç santimetreden küçüktür. Çok daha büyükleri beş santimetreye yaklaşabilir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Kar yağması için hava ne kadar soğuk olmalı? Ulusal Kar ve Buz Veri Merkezi NSIDC'ye göre kar, sıcaklık 0 derecede ya da altındayken oluşur.",
+          "spoken": "Kar yağması için hava ne kadar soğuk olmalı? Ulusal Kar ve Buz Veri Merkezi, En Es Ay Di Si'ye göre kar, sıcaklık sıfır derecede ya da altındayken oluşur.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Hatta İngiltere Meteoroloji Ofisi'ne göre yerde sıcaklığın sıfırın altında olması gerektiği bir efsanedir.",
+          "spoken": "Hatta İngiltere Meteoroloji Ofisi'ne göre yerde sıcaklığın sıfırın altında olması gerektiği bir efsanedir.",
+          "factIds": [
+            "f13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l19",
+          "display": "Kar neden beyazdır? Aslında kar yarı saydamdır! Ama kar tanesinin sayısız yüzü ışığı her yöne saçar ve bize beyaz görünür.",
+          "spoken": "Kar neden beyazdır? Aslında kar yarı saydamdır! Ama kar tanesinin sayısız yüzü ışığı her yöne saçar ve bize beyaz görünür.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Kar, iyi bir yalıtkandır; tıpkı evlerin tavanındaki yalıtım gibi. Çünkü bir kar katmanının büyük kısmı havadır.",
+          "spoken": "Kar, iyi bir yalıtkandır; tıpkı evlerin tavanındaki yalıtım gibi. Çünkü bir kar katmanının büyük kısmı havadır.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Benim de yalıtımım var. Kablolarımın çevresinde, kardan değil plastikten!",
+          "spoken": "Benim de yalıtımım var. Kablolarımın çevresinde, kardan değil plastikten!",
+          "factIds": []
+        },
+        {
+          "id": "l22",
+          "display": "Karlı bir günde dışarısı neden sessizdir? Taze kar, ses dalgalarını emer.",
+          "spoken": "Karlı bir günde dışarısı neden sessizdir? Taze kar, ses dalgalarını emer.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Kışın gökten başka şeyler de düşer. Kar taneleri ılık bir hava katmanından geçerken kısmen eriyip yeniden donarsa sulu kar olur.",
+          "spoken": "Kışın gökten başka şeyler de düşer. Kar taneleri ılık bir hava katmanından geçerken kısmen eriyip yeniden donarsa sulu kar olur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Tamamen erir ve yerdeki soğuk yüzeylere değer değmez donarsa buna donan yağmur denir.",
+          "spoken": "Tamamen erir ve yerdeki soğuk yüzeylere değer değmez donarsa buna donan yağmur denir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Bir de graupel var: yuvarlaklaşmış, 2–5 milimetrelik kar tanecikleri. Doluya benzer ama daha yumuşaktır ve kolay ufalanır.",
+          "spoken": "Bir de graupel var: yuvarlaklaşmış, iki ile beş milimetrelik kar tanecikleri. Doluya benzer ama daha yumuşaktır ve kolay ufalanır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Şimdi sıra sende! Karlı bir günde koyu renkli bir kumaşı birkaç dakika dondurucuda soğut, sonra dışarı çıkıp üstüne düşen kar tanelerine büyüteçle bak.",
+          "spoken": "Şimdi sıra sende! Karlı bir günde koyu renkli bir kumaşı birkaç dakika dondurucuda soğut, sonra dışarı çıkıp üstüne düşen kar tanelerine büyüteçle bak.",
+          "factIds": []
+        },
+        {
+          "id": "l27",
+          "display": "Kaç köşe sayıyorsun? İğne mi, levha mı, dantel mi? Gördüklerini çiz.",
+          "spoken": "Kaç köşe sayıyorsun? İğne mi, levha mı, dantel mi? Gördüklerini çiz.",
+          "factIds": []
+        },
+        {
+          "id": "l28",
+          "display": "Unutma: sıkı giyin, çok soğukta uzun süre kalma. Ve yol kenarındaki karı asla yeme; içinde kir ve kimyasallar olabilir.",
+          "spoken": "Unutma: sıkı giyin, çok soğukta uzun süre kalma. Ve yol kenarındaki karı asla yeme; içinde kir ve kimyasallar olabilir.",
+          "factIds": [
+            "f16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l29",
+          "display": "Bunu biliyor muydun? Wilson Bentley adında bir çiftçinin hobisi, kar tanelerini fotoğraflamaktı.",
+          "spoken": "Bunu biliyor muydun? Wilson Bentley adında bir çiftçinin hobisi, kar tanelerini fotoğraflamaktı.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Hızlı soru! Kar taneleri kaç köşelidir?",
+          "spoken": "Hızlı soru! Kar taneleri kaç köşelidir?",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Düşün bakalım... Evet: altı!",
+          "spoken": "Düşün bakalım... Evet: altı!",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l35",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de antenimdeki karı silkeleyip gidiyorum!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de antenimdeki karı silkeleyip gidiyorum!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Kar tanesi bir toz zerresi çevresinde donan su ile başlar",
+    "Biçimi sıcaklık ve nem belirler; altıgen yapı hep korunur",
+    "Kar ışığı saçtığı için beyaz görünür, sesi emer ve yalıtır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "snow",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🦊",
+        "size": 96,
+        "every": 19
+      },
+      {
+        "kind": "hop",
+        "emoji": "🐇",
+        "size": 80
+      },
+      {
+        "kind": "fly",
+        "emoji": "🐦",
+        "every": 25
+      }
+    ]
+  },
+  "song": {
+    "title": "Buzdan Yıldızlar",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "❄️",
+        "name": "Kar tanesi"
+      },
+      {
+        "emoji": "☁️",
+        "name": "Bulut"
+      },
+      {
+        "emoji": "🌡️",
+        "name": "Sıcaklık"
+      },
+      {
+        "emoji": "⛄",
+        "name": "Kardan adam"
+      },
+      {
+        "emoji": "🔍",
+        "name": "Büyüteç"
+      }
+    ],
+    "show": [
+      {
+        "kind": "hop",
+        "emoji": "⛄"
+      },
+      {
+        "kind": "hop",
+        "emoji": "❄️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "☃️"
+      },
+      {
+        "kind": "chase",
+        "emoji": "🦊",
+        "emoji2": "🐇",
+        "size": 220,
+        "every": 8
+      },
+      {
+        "kind": "swarm",
+        "emoji": "❄️"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Bulutta bir toz zerresi bekler",
+          "Soğuk bir damla üstünde donar",
+          "Buhar donar, kristal büyür",
+          "Altı köşeli bir yıldız olur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kar tanesi, kar tanesi, süzül yere!",
+          "Sıcaklık çizer her desenini",
+          "İğne, levha, dantel gibi",
+          "Hepsi kendi yolundan iner"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Işığı saçar, beyaz görünür",
+          "Havayla dolu, sıcak tutar",
+          "Sesleri emer, dünya susar",
+          "Sulu kar, graupel de yağar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Kar tanesi, kar tanesi, süzül yere!",
+          "Sıcaklık çizer her desenini",
+          "Büyüteci al, köşeleri say",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Gökten düşen kar taneleri nasıl oluşur, neden hep altı köşelidir? Bu bölümde bulutun içinde bir toz zerresi çevresinde başlayan kristal büyümesini, sıcaklık ve nemin kar tanesinin biçimini nasıl belirlediğini; karın neden beyaz göründüğünü, neden sessiz olduğunu ve nasıl yalıttığını; sulu kar, donan yağmur ve graupeli keşfediyoruz. Sonunda kar tanesi avı etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Kristal",
+      "meaning": "Molekülleri düzenli bir desenle dizilmiş katı madde."
+    },
+    {
+      "term": "Su buharı",
+      "meaning": "Suyun gaz hâli."
+    },
+    {
+      "term": "Altıgen",
+      "meaning": "Altı kenarı ve altı köşesi olan şekil."
+    },
+    {
+      "term": "Nem",
+      "meaning": "Havadaki su buharı miktarı."
+    },
+    {
+      "term": "Yarı saydam",
+      "meaning": "Işığın bir kısmını geçiren madde."
+    },
+    {
+      "term": "Yalıtkan",
+      "meaning": "Isıyı ya da elektriği kolay geçirmeyen madde."
+    },
+    {
+      "term": "Sulu kar",
+      "meaning": "Kısmen eriyip yeniden donan kar."
+    },
+    {
+      "term": "Graupel",
+      "meaning": "Yuvarlaklaşmış, yumuşak kar tanecikleri."
+    }
+  ]
+}

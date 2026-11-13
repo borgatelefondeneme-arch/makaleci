@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Buzdan Yıldızlar",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Bulutta bir toz zerresi bekler",
+          "start": 5.15,
+          "end": 9.03
+        },
+        {
+          "text": "Soğuk bir damla üstünde donar",
+          "start": 9.03,
+          "end": 12.91
+        },
+        {
+          "text": "Buhar donar, kristal büyür",
+          "start": 12.91,
+          "end": 16.14
+        },
+        {
+          "text": "Altı köşeli bir yıldız olur",
+          "start": 16.14,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kar tanesi, kar tanesi, süzül yere!",
+          "start": 20.17,
+          "end": 24
+        },
+        {
+          "text": "Sıcaklık çizer her desenini",
+          "start": 24,
+          "end": 27.28
+        },
+        {
+          "text": "İğne, levha, dantel gibi",
+          "start": 27.28,
+          "end": 30.02
+        },
+        {
+          "text": "Hepsi kendi yolundan iner",
+          "start": 30.02,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Işığı saçar, beyaz görünür",
+          "start": 33.18,
+          "end": 37.14
+        },
+        {
+          "text": "Havayla dolu, sıcak tutar",
+          "start": 37.14,
+          "end": 40.77
+        },
+        {
+          "text": "Sesleri emer, dünya susar",
+          "start": 40.77,
+          "end": 44.4
+        },
+        {
+          "text": "Sulu kar, graupel de yağar",
+          "start": 44.4,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kar tanesi, kar tanesi, süzül yere!",
+          "start": 48.19,
+          "end": 52.02
+        },
+        {
+          "text": "Sıcaklık çizer her desenini",
+          "start": 52.02,
+          "end": 55.3
+        },
+        {
+          "text": "Büyüteci al, köşeleri say",
+          "start": 55.3,
+          "end": 58.59
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.59,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

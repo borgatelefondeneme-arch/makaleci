@@ -1,0 +1,697 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kar taneleri nasıl oluşur?",
+    "emoji": "❄️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4",
+    "f6"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "☃️",
+    "🌨️",
+    "🧣",
+    "⛄"
+   ],
+   "keywords": [
+    "",
+    "NEDEN ALTI KÖŞE?",
+    "BULUTUN İÇİNE!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Kar tanesi nasıl oluşur?",
+     "Biçimini ne belirler?",
+     "Kar neden beyazdır?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "🔎",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Bir kar tanesi doğuyor",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Polen ya da toz",
+      "emoji": "🟤"
+     },
+     {
+      "label": "Çok soğuk damlacık donar",
+      "emoji": "💧"
+     },
+     {
+      "label": "İlk kristal",
+      "emoji": "❄️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "☁️",
+    "🤖"
+   ],
+   "keywords": [
+    "TOZ ZERRESİ",
+    "TOZLU MUMA 😅"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Kristal büyüyor",
+    "label": "Kristal",
+    "emoji": "❄️",
+    "phases": [
+     {
+      "label": "Su buharı üzerinde donar",
+      "level": 0.4,
+      "emoji": "♨️"
+     },
+     {
+      "label": "0°C altı: buhar doğrudan buza",
+      "level": 0.7,
+      "emoji": "🧊"
+     },
+     {
+      "label": "Çok sayıda kristal: kar tanesi",
+      "level": 0.95,
+      "emoji": "❄️"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "stickers": [
+    "☁️",
+    "🌨️"
+   ],
+   "keywords": [
+    "YENİ KRİSTALLER",
+    "BUHAR → BUZ",
+    "KAR TANESİ ❄️"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l11"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Neden altı köşe?",
+    "emoji": "❄️",
+    "chips": [
+     {
+      "label": "Su molekülleri belirli yerlere dizilir",
+      "emoji": "💧"
+     },
+     {
+      "label": "Altıgen yapı hep korunur",
+      "emoji": "⬡"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🔬",
+    "✨"
+   ],
+   "keywords": [
+    "ALTIGEN ⬡"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Biçimi sıcaklık belirler",
+    "left": {
+     "title": "Az soğuk 🌡️",
+     "items": [
+      "Uzun iğneler"
+     ]
+    },
+    "right": {
+     "title": "Çok soğuk 🥶",
+     "items": [
+      "Yassı levhalar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🌡️",
+    "💧"
+   ],
+   "keywords": [
+    "SICAKLIK + NEM",
+    "İĞNE / LEVHA"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Benzersiz yolculuk",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Bulut",
+      "emoji": "☁️"
+     },
+     {
+      "label": "Farklı sıcaklık",
+      "emoji": "🌡️"
+     },
+     {
+      "label": "Farklı nem",
+      "emoji": "💧"
+     },
+     {
+      "label": "Benzersiz desen",
+      "emoji": "❄️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "stickers": [
+    "✨",
+    "🎨"
+   ],
+   "keywords": [
+    "FARKLI YOL",
+    "PRİZMA • İĞNE • DANTEL"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l16"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "1,3",
+    "unit": "cm",
+    "label": "Çoğu kar tanesi bundan küçük",
+    "sub": "Büyükleri 5 santimetreye yaklaşabilir",
+    "icon": "📏"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "❄️",
+    "🔍"
+   ],
+   "keywords": [
+    "KÜÇÜCÜK!"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Ne kadar soğuk?",
+    "emoji": "🌡️",
+    "chips": [
+     {
+      "label": "0°C ya da altı",
+      "emoji": "❄️"
+     },
+     {
+      "label": "'Sıfırın altı şart' bir efsane",
+      "emoji": "❌"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "⛄",
+    "🧤"
+   ],
+   "keywords": [
+    "SIFIR DERECE",
+    "EFSANE ❌"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kar neden beyaz?",
+    "left": {
+     "title": "Aslında ❄️",
+     "items": [
+      "Yarı saydam"
+     ]
+    },
+    "right": {
+     "title": "Ama 🌈",
+     "items": [
+      "Sayısız yüz ışığı her yöne saçar",
+      "Beyaz görünür"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "☀️",
+    "✨"
+   ],
+   "keywords": [
+    "IŞIK SAÇILIR",
+    "KAR = YALITIM 🏠"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sessiz kar",
+    "emoji": "🤫",
+    "chips": [
+     {
+      "label": "Kar katmanı çoğunlukla hava",
+      "emoji": "💨"
+     },
+     {
+      "label": "Taze kar sesi emer",
+      "emoji": "🔇"
+     },
+     {
+      "label": "Muma: plastik yalıtım!",
+      "emoji": "🔌"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8",
+    "f9"
+   ],
+   "stickers": [
+    "❄️",
+    "🏔️"
+   ],
+   "keywords": [
+    "PLASTİK YALITIM 🔌",
+    "SESSİZLİK 🤫"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kışın gökten düşenler",
+    "rows": [
+     {
+      "label": "Kar",
+      "emoji": "❄️"
+     },
+     {
+      "label": "Sulu kar: kısmen erir",
+      "emoji": "🌨️"
+     },
+     {
+      "label": "Donan yağmur: tamamen erir",
+      "emoji": "🧊"
+     },
+     {
+      "label": "Graupel: 2–5 mm tanecik",
+      "emoji": "⚪"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f12"
+   ],
+   "keywords": [
+    "SULU KAR",
+    "DONAN YAĞMUR",
+    "GRAUPEL"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Sen de dene: kar tanesi avı",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Koyu kumaşı soğut",
+      "emoji": "🧣"
+     },
+     {
+      "label": "Kar tanelerini yakala",
+      "emoji": "❄️"
+     },
+     {
+      "label": "Büyüteçle bak",
+      "emoji": "🔍"
+     },
+     {
+      "label": "Köşeleri say, çiz",
+      "emoji": "✏️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "📓",
+    "🧤"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "KÖŞELERİ SAY"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Güvenlik",
+    "items": [
+     "Sıkı giyin, soğukta uzun kalma",
+     "Yol kenarındaki karı asla yeme"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16"
+   ],
+   "stickers": [
+    "⚠️",
+    "🧥"
+   ],
+   "keywords": [
+    "GÜVENLİK ⚠️"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Wilson Bentley",
+    "emoji": "📷",
+    "chips": [
+     {
+      "label": "Bir çiftçi",
+      "emoji": "🧑‍🌾"
+     },
+     {
+      "label": "Hobisi: kar tanelerini fotoğraflamak",
+      "emoji": "❄️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "📸",
+    "❄️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kar taneleri kaç köşelidir?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "❄️",
+    "⬡"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "ALTI ✅"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "limitations",
+   "lineIds": [
+    "l32"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s18",
+   "section": "summary",
+   "lineIds": [
+    "l33",
+    "l34",
+    "l35"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}
