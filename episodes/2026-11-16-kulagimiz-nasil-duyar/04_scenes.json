@@ -1,0 +1,623 @@
+{
+  "paperId": "topic:kulagimiz-nasil-duyar",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kulağımız nasıl duyar?",
+        "emoji": "👂"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🎵",
+        "🔊"
+      ],
+      "keywords": [
+        "",
+        "SES NASIL GİRER?",
+        "KULAĞIN İÇİNE!"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Ses nedir?",
+          "Kulağın içinde neler olur?",
+          "Kulaklarımızı nasıl koruruz?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Sesin iki özelliği",
+        "left": {
+          "title": "Frekans 〰️",
+          "items": [
+            "Saniyedeki tekrar sayısı",
+            "İnce ya da kalın"
+          ]
+        },
+        "right": {
+          "title": "Genlik 📶",
+          "items": [
+            "Dalganın gücü",
+            "Desibelle ölçülür"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🎵",
+        "🔊"
+      ],
+      "keywords": [
+        "SES DALGASI",
+        "FREKANS",
+        "DESİBEL"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "20–20.000",
+        "unit": "Hz",
+        "label": "İnsanın duyabildiği frekanslar",
+        "sub": "Ulusal Park Servisi",
+        "icon": "👂"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🎧",
+        "🤖"
+      ],
+      "keywords": [
+        "DUYMA ARALIĞI",
+        "KULAK MEMESİ YOK 😅"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Dış ve orta kulak",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Dış kulak toplar",
+            "emoji": "👂"
+          },
+          {
+            "label": "Kulak kanalı",
+            "emoji": "➡️"
+          },
+          {
+            "label": "Kulak zarı titreşir",
+            "emoji": "🥁"
+          },
+          {
+            "label": "Çekiç, örs, üzengi",
+            "emoji": "🦴"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4",
+        "f5"
+      ],
+      "stickers": [
+        "🔊",
+        "〰️"
+      ],
+      "keywords": [
+        "KULAK KANALI",
+        "KULAK ZARI 🥁",
+        "EN KÜÇÜK KEMİK!"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Koklea",
+        "emoji": "🐌",
+        "chips": [
+          {
+            "label": "Salyangoz biçimli",
+            "emoji": "🐌"
+          },
+          {
+            "label": "Sıvı dolu",
+            "emoji": "💧"
+          },
+          {
+            "label": "Tüy hücreleri",
+            "emoji": "🌾"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "〰️",
+        "🔬"
+      ],
+      "keywords": [
+        "KOKLEA 🐌",
+        "TÜY HÜCRELERİ"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l16",
+        "l17"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Titreşimden sinyale",
+        "rows": [
+          {
+            "label": "Tüy hücreleri hareket eder",
+            "emoji": "🌾"
+          },
+          {
+            "label": "Elektrik sinyali",
+            "emoji": "⚡"
+          },
+          {
+            "label": "İşitme siniri",
+            "emoji": "🧵"
+          },
+          {
+            "label": "Beyin: ses!",
+            "emoji": "🧠"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "highlightRow": 3,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "keywords": [
+        "İNCE / KALIN",
+        "SİNYAL → BEYİN 🧠"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Tüy hücreleri",
+        "label": "Sağlam hücre",
+        "emoji": "🌾",
+        "phases": [
+          {
+            "label": "Hasar görünce yeniden çıkmaz",
+            "level": 0.55,
+            "emoji": "⚠️"
+          },
+          {
+            "label": "Gürültü işitme kaybının çoğu buradan",
+            "level": 0.3,
+            "emoji": "🔊"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "⚠️",
+        "👂"
+      ],
+      "keywords": [
+        "YENİDEN ÇIKMAZ ⚠️",
+        "GÜRÜLTÜ"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Ne kadar yüksek? (dBA)",
+        "unit": "dBA",
+        "bars": [
+          {
+            "label": "Normal konuşma (en çok)",
+            "value": 70,
+            "display": "70"
+          },
+          {
+            "label": "Zarar sınırı",
+            "value": 85,
+            "display": "85",
+            "highlight": true
+          },
+          {
+            "label": "Siren (en çok)",
+            "value": 129,
+            "display": "129"
+          },
+          {
+            "label": "Havai fişek (en çok)",
+            "value": 160,
+            "display": "160"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9",
+        "f10"
+      ],
+      "stickers": [
+        "🔊",
+        "🎆"
+      ],
+      "keywords": [
+        "85 VE ÜSTÜ ⚠️",
+        "HAVAİ FİŞEK 🎆"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Kulaklarını koru",
+        "items": [
+          "Ses yüksekse hasar çabuk",
+          "Kulaklıkta sesi kıs",
+          "Gürültüde kulak tıkacı",
+          "Uzaklaş"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9",
+        "f11"
+      ],
+      "stickers": [
+        "🎧",
+        "🛡️"
+      ],
+      "keywords": [
+        "DAHA YÜKSEK = DAHA ÇABUK",
+        "SESİ KIS 🎧"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l24",
+        "l25"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Denge",
+        "emoji": "🎢",
+        "chips": [
+          {
+            "label": "Vestibüler sistem",
+            "emoji": "👂"
+          },
+          {
+            "label": "Üç yarım daire kanalı",
+            "emoji": "➰"
+          },
+          {
+            "label": "Başın dönüşünü bildirir",
+            "emoji": "🔄"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "⚖️",
+        "🤖"
+      ],
+      "keywords": [
+        "DENGE ⚖️",
+        "TEKERLEKLERİM 😅"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Sen de dene: sesi hisset",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Elini boğazına koy",
+            "emoji": "✋"
+          },
+          {
+            "label": "Uzun bir ses çıkar",
+            "emoji": "🎵"
+          },
+          {
+            "label": "Titreşimi hisset",
+            "emoji": "〰️"
+          },
+          {
+            "label": "İnce ve kalın: fark var mı?",
+            "emoji": "🔎"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "🎤",
+        "📓"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "İNCE / KALIN"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l28"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "120+",
+        "unit": "dB",
+        "label": "Gök gürültüsü: kulakta acıya yol açabilir",
+        "sub": "Ulusal Park Servisi",
+        "icon": "⛈️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "⚡",
+        "👂"
+      ],
+      "fx": "flash",
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l29",
+        "l30"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Vücudun en küçük kemiği hangisi?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🦴",
+        "👂"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "ÜZENGİ ✅"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "limitations",
+      "lineIds": [
+        "l31"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s16",
+      "section": "summary",
+      "lineIds": [
+        "l32",
+        "l33",
+        "l34"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

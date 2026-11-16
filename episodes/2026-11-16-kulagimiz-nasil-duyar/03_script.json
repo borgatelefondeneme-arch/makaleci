@@ -1,0 +1,463 @@
+{
+  "paperId": "topic:kulagimiz-nasil-duyar",
+  "episodeNumber": 24,
+  "videoTitle": "Kulağımız nasıl duyar?",
+  "paperTitleTr": "Kulağımız nasıl duyar?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Bir arkadaşın adını fısıldıyor, sen hemen dönüp bakıyorsun. Bu kadar küçük bir sesi nasıl yakaladın?",
+          "spoken": "Bir arkadaşın adını fısıldıyor, sen hemen dönüp bakıyorsun. Bu kadar küçük bir sesi nasıl yakaladın?",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Ses kulağına nasıl girer? Ve beynin onu nasıl anlar?",
+          "spoken": "Ses kulağına nasıl girer? Ve beynin onu nasıl anlar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir ses dalgasının peşinden kulağının içine giriyoruz!",
+          "spoken": "Bugün bir ses dalgasının peşinden kulağının içine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Ses nedir? Kulağın içinde neler olur? Ve kulaklarımızı nasıl koruruz?",
+          "spoken": "Üç sorumuz var. Ses nedir? Kulağın içinde neler olur? Ve kulaklarımızı nasıl koruruz?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Ulusal Park Servisi'ne göre ses, hava ya da su gibi bir ortamda dalgalar hâlinde ilerler.",
+          "spoken": "ABD Ulusal Park Servisi'ne göre ses, hava ya da su gibi bir ortamda dalgalar hâlinde ilerler.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Sesin iki önemli özelliği var. Frekans, dalganın saniyede kaç kez tekrarlandığıdır; sesi ince ya da kalın yapar.",
+          "spoken": "Sesin iki önemli özelliği var. Frekans, dalganın saniyede kaç kez tekrarlandığıdır; sesi ince ya da kalın yapar.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Genlik ise dalganın gücüdür; sesin yüksekliğini belirler. Desibel denen birimle ölçülür.",
+          "spoken": "Genlik ise dalganın gücüdür; sesin yüksekliğini belirler. Desibel denen birimle ölçülür.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Normal işiten insanlar 20 ile 20.000 hertz arasındaki sesleri duyabilir.",
+          "spoken": "Normal işiten insanlar yirmi ile yirmi bin hertz arasındaki sesleri duyabilir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Benim mikrofonum da bu aralığı duyuyor. Ama kulak memesi takmayı unutmuşlar!",
+          "spoken": "Benim mikrofonum da bu aralığı duyuyor. Ama kulak memesi takmayı unutmuşlar!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Yolculuk dış kulakta başlar. KidsHealth'e göre dış kulak sesleri toplar ve kulak kanalına yönlendirir; ses dalgaları kanal boyunca kulak zarına ulaşır.",
+          "spoken": "Yolculuk dış kulakta başlar. Kids Helt'e göre dış kulak sesleri toplar ve kulak kanalına yönlendirir; ses dalgaları kanal boyunca kulak zarına ulaşır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Kulak zarı ses dalgalarıyla titreşir ve titreşimi orta kulaktaki üç minik kemiğe iletir: çekiç, örs ve üzengi.",
+          "spoken": "Kulak zarı ses dalgalarıyla titreşir ve titreşimi orta kulaktaki üç minik kemiğe iletir: çekiç, örs ve üzengi.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Üzengi, vücudundaki en küçük kemiktir!",
+          "spoken": "Üzengi, vücudundaki en küçük kemiktir!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Bu kemikler titreşimi güçlendirir ve salyangoz biçimli, sıvı dolu bir yapıya gönderir: koklea.",
+          "spoken": "Bu kemikler titreşimi güçlendirir ve salyangoz biçimli, sıvı dolu bir yapıya gönderir: koklea.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre kokleanın içinde tüy hücreleri denen duyu hücreleri vardır. Sıvıdaki dalgayla birlikte hareket ederler.",
+          "spoken": "Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'ye göre kokleanın içinde tüy hücreleri denen duyu hücreleri vardır. Sıvıdaki dalgayla birlikte hareket ederler.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Kokleanın geniş ucundaki tüy hücreleri ince sesleri, merkeze yakın olanlar kalın sesleri algılar.",
+          "spoken": "Kokleanın geniş ucundaki tüy hücreleri ince sesleri, merkeze yakın olanlar kalın sesleri algılar.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Tüy hücreleri hareket edince içlerine kimyasallar akar ve bir elektrik sinyali oluşur. İşitme siniri bu sinyali beyne taşır; beyin de onu tanıdığımız bir sese dönüştürür.",
+          "spoken": "Tüy hücreleri hareket edince içlerine kimyasallar akar ve bir elektrik sinyali oluşur. İşitme siniri bu sinyali beyne taşır; beyin de onu tanıdığımız bir sese dönüştürür.",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "İşte kötü haber: NIH'ye göre insanın tüy hücreleri bir kez hasar görürse yeniden çıkmaz.",
+          "spoken": "İşte kötü haber: En Ay Eyç'ye göre insanın tüy hücreleri bir kez hasar görürse yeniden çıkmaz.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Gürültünün yol açtığı işitme kaybının çoğu, bu hücrelerin hasar görüp ölmesinden kaynaklanır.",
+          "spoken": "Gürültünün yol açtığı işitme kaybının çoğu, bu hücrelerin hasar görüp ölmesinden kaynaklanır.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "70 desibel ve altındaki sesler uzun süre dinlense bile genellikle zarar vermez. Ama 85 desibel ve üstüne uzun ya da sık sık maruz kalmak işitmeye zarar verebilir.",
+          "spoken": "Yetmiş desibel ve altındaki sesler uzun süre dinlense bile genellikle zarar vermez. Ama seksen beş desibel ve üstüne uzun ya da sık sık maruz kalmak işitmeye zarar verebilir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Karşılaştırma için: normal konuşma 60–70, sirenler 110–129, havai fişek gösterisi ise 140–160 desibele kadar çıkabilir.",
+          "spoken": "Karşılaştırma için: normal konuşma altmış ile yetmiş, sirenler yüz on ile yüz yirmi dokuz, havai fişek gösterisi ise yüz kırk ile yüz altmış desibele kadar çıkabilir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Ses ne kadar yüksekse, hasar o kadar çabuk oluşur.",
+          "spoken": "Ses ne kadar yüksekse, hasar o kadar çabuk oluşur.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Korunmak kolay: kulaklıkla dinlerken sesi kıs. Gürültülü bir yerde kulak tıkacı kullan. Gürültüyü azaltamıyorsan ondan uzaklaş.",
+          "spoken": "Korunmak kolay: kulaklıkla dinlerken sesi kıs. Gürültülü bir yerde kulak tıkacı kullan. Gürültüyü azaltamıyorsan ondan uzaklaş.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Kulağın bir görevi daha var: dengeni korur. İç kulaktaki yarım daire kanalları, başının ne zaman döndüğünü beynine bildirir.",
+          "spoken": "Kulağın bir görevi daha var: dengeni korur. İç kulaktaki yarım daire kanalları, başının ne zaman döndüğünü beynine bildirir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Ben dönerken dengemi kaybetmem. Ama tekerleklerim kayarsa o başka!",
+          "spoken": "Ben dönerken dengemi kaybetmem. Ama tekerleklerim kayarsa o başka!",
+          "factIds": []
+        },
+        {
+          "id": "l26",
+          "display": "Şimdi sıra sende! Elini boğazına koy ve uzun bir ses çıkar. Hissettiğin titreşim, sesin kaynağıdır.",
+          "spoken": "Şimdi sıra sende! Elini boğazına koy ve uzun bir ses çıkar. Hissettiğin titreşim, sesin kaynağıdır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Sonra önce ince, sonra kalın bir ses çıkar. Titreşim nasıl değişiyor?",
+          "spoken": "Sonra önce ince, sonra kalın bir ses çıkar. Titreşim nasıl değişiyor?",
+          "factIds": [
+            "f2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l28",
+          "display": "Bunu biliyor muydun? Gök gürültüsü 120 desibeli aşabilir; bu, kulakta acı hissettirecek kadar yüksek bir sestir.",
+          "spoken": "Bunu biliyor muydun? Gök gürültüsü yüz yirmi desibeli aşabilir; bu, kulakta acı hissettirecek kadar yüksek bir sestir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Hızlı soru! Vücudun en küçük kemiği hangisi?",
+          "spoken": "Hızlı soru! Vücudun en küçük kemiği hangisi?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Düşün bakalım... Evet: kulağındaki üzengi kemiği!",
+          "spoken": "Düşün bakalım... Evet: kulağındaki üzengi kemiği!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l32",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Abone olmayı ve zili açmayı unutma. Bu videoyu da çok yüksek sesle izleme!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bu videoyu da çok yüksek sesle izleme!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Ses dalgaları kulak zarını ve üç minik kemiği titreştirir",
+    "Koklea'daki tüy hücreleri titreşimi elektrik sinyaline çevirir",
+    "Tüy hücreleri yenilenmez: yüksek sesten korunmak gerekir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "meadow",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🐦",
+        "every": 28
+      }
+    ]
+  },
+  "song": {
+    "title": "Kulaktaki Yolculuk",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "👂",
+        "name": "Kulak"
+      },
+      {
+        "emoji": "🥁",
+        "name": "Kulak zarı"
+      },
+      {
+        "emoji": "🐌",
+        "name": "Koklea"
+      },
+      {
+        "emoji": "🧠",
+        "name": "Beyin"
+      },
+      {
+        "emoji": "🎧",
+        "name": "Kulaklık"
+      }
+    ],
+    "show": [
+      {
+        "kind": "hop",
+        "emoji": "🎵"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🥁"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🎶"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🐦",
+        "every": 8
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Ses dalga olur, havada yol alır",
+          "Dış kulak toplar, kanala yollar",
+          "Kulak zarı titrer, kemikler sallanır",
+          "Çekiç, örs, üzengi sesi büyütür"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Duy, duy, dünyayı duy!",
+          "Kokleada tüy hücreleri dans eder",
+          "Titreşim sinyale, sinyal beyne",
+          "Ses anlam kazanır bir anda"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "İnce sesler bir uçta, kalınlar içeride",
+          "Tüy hücreleri bir kez gider, gelmez",
+          "Seksen beş desibel üstü dikkat",
+          "Sesi kıs, kulağını koru"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Duy, duy, dünyayı duy!",
+          "Kokleada tüy hücreleri dans eder",
+          "Elini boğazına koy, titreşimi hisset",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Fısıltıyı bile nasıl duyarız? Bu bölümde sesin dalga olarak nasıl ilerlediğini, frekans ve desibeli; dış kulaktan kulak zarına, çekiç, örs ve üzengiye, oradan kokleaya ve tüy hücrelerine uzanan yolculuğu; işitme sinirinin sinyali beyne taşımasını keşfediyoruz. Tüy hücreleri neden korunmalı, kulaklarımızı nasıl koruruz, denge nasıl sağlanır? Sonunda sesi hisset etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Ses dalgası",
+      "meaning": "Havada ya da suda titreşim olarak yayılan ses."
+    },
+    {
+      "term": "Frekans",
+      "meaning": "Ses dalgasının saniyede kaç kez tekrarlandığı; sesi ince ya da kalın yapar."
+    },
+    {
+      "term": "Desibel",
+      "meaning": "Sesin yüksekliğini ölçen birim."
+    },
+    {
+      "term": "Kulak zarı",
+      "meaning": "Ses dalgalarıyla titreşen ince zar."
+    },
+    {
+      "term": "Koklea",
+      "meaning": "İç kulakta, salyangoz biçimli, sıvı dolu işitme organı."
+    },
+    {
+      "term": "Tüy hücreleri",
+      "meaning": "Kokleada titreşimi elektrik sinyaline çeviren duyu hücreleri."
+    },
+    {
+      "term": "İşitme siniri",
+      "meaning": "İşitme sinyallerini beyne taşıyan sinir."
+    },
+    {
+      "term": "Vestibüler sistem",
+      "meaning": "İç kulakta dengeyi sağlayan bölüm."
+    }
+  ]
+}

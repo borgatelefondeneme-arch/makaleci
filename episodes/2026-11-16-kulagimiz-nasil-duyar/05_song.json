@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Kulaktaki Yolculuk",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Ses dalga olur, havada yol alır",
+          "start": 5.15,
+          "end": 8.87
+        },
+        {
+          "text": "Dış kulak toplar, kanala yollar",
+          "start": 8.87,
+          "end": 12.3
+        },
+        {
+          "text": "Kulak zarı titrer, kemikler sallanır",
+          "start": 12.3,
+          "end": 16.3
+        },
+        {
+          "text": "Çekiç, örs, üzengi sesi büyütür",
+          "start": 16.3,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Duy, duy, dünyayı duy!",
+          "start": 20.17,
+          "end": 22.45
+        },
+        {
+          "text": "Kokleada tüy hücreleri dans eder",
+          "start": 22.45,
+          "end": 26.45
+        },
+        {
+          "text": "Titreşim sinyale, sinyal beyne",
+          "start": 26.45,
+          "end": 29.88
+        },
+        {
+          "text": "Ses anlam kazanır bir anda",
+          "start": 29.88,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "İnce sesler bir uçta, kalınlar içeride",
+          "start": 33.18,
+          "end": 37.75
+        },
+        {
+          "text": "Tüy hücreleri bir kez gider, gelmez",
+          "start": 37.75,
+          "end": 41.46
+        },
+        {
+          "text": "Seksen beş desibel üstü dikkat",
+          "start": 41.46,
+          "end": 44.89
+        },
+        {
+          "text": "Sesi kıs, kulağını koru",
+          "start": 44.89,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Duy, duy, dünyayı duy!",
+          "start": 48.19,
+          "end": 50.38
+        },
+        {
+          "text": "Kokleada tüy hücreleri dans eder",
+          "start": 50.38,
+          "end": 54.21
+        },
+        {
+          "text": "Elini boğazına koy, titreşimi hisset",
+          "start": 54.21,
+          "end": 58.59
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.59,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
