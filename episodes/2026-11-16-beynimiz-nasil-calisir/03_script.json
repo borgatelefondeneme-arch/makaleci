@@ -1,0 +1,477 @@
+{
+  "paperId": "topic:beynimiz-nasil-calisir",
+  "episodeNumber": 27,
+  "videoTitle": "Beynimiz nasıl çalışır?",
+  "paperTitleTr": "Beynimiz nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Şu an bu cümleyi duyuyor, anlıyor ve hatırlıyorsun. Bunu yapan, kafatasının içindeki organ: beynin!",
+          "spoken": "Şu an bu cümleyi duyuyor, anlıyor ve hatırlıyorsun. Bunu yapan, kafatasının içindeki organ: beynin!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Beyin bu kadar işi nasıl yapar? Ve yeni bir şey öğrendiğinde içinde ne değişir?",
+          "spoken": "Beyin bu kadar işi nasıl yapar? Ve yeni bir şey öğrendiğinde içinde ne değişir?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün beyninin içine, sinir hücrelerinin dünyasına gidiyoruz!",
+          "spoken": "Bugün beyninin içine, sinir hücrelerinin dünyasına gidiyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Beynin bölümleri ne iş yapar? Sinir hücreleri nasıl haberleşir? Ve öğrendiğimizde ne olur?",
+          "spoken": "Üç sorumuz var. Beynin bölümleri ne iş yapar? Sinir hücreleri nasıl haberleşir? Ve öğrendiğimizde ne olur?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "KidsHealth'e göre beyin; ne düşündüğünü, ne hissettiğini, nasıl öğrenip hatırladığını, nasıl hareket edip konuştuğunu kontrol eder.",
+          "spoken": "Kids Helt'e göre beyin; ne düşündüğünü, ne hissettiğini, nasıl öğrenip hatırladığını, nasıl hareket edip konuştuğunu kontrol eder.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Bu değerli organı kafatası korur. Ayrıca zar katmanları ve özel bir sıvı onu yastık gibi sarar.",
+          "spoken": "Bu değerli organı kafatası korur. Ayrıca zar katmanları ve özel bir sıvı onu yastık gibi sarar.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "En büyük bölüm büyük beyindir. Sağ ve sol iki yarıya ayrılır; bunlara yarım küre denir.",
+          "spoken": "En büyük bölüm büyük beyindir. Sağ ve sol iki yarıya ayrılır; bunlara yarım küre denir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Büyük beynin dört lobu vardır. Alnının arkasındaki alın lobu, karmaşık düşünmenin çoğunu yapar.",
+          "spoken": "Büyük beynin dört lobu vardır. Alnının arkasındaki alın lobu, karmaşık düşünmenin çoğunu yapar.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Yan lob dokunma, tat ve sıcaklık bilgisini işler. Kulaklarına yakın şakak lobu, sesleri ve dili anlamanı sağlar.",
+          "spoken": "Yan lob dokunma, tat ve sıcaklık bilgisini işler. Kulaklarına yakın şakak lobu, sesleri ve dili anlamanı sağlar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Başının arkasındaki art kafa lobu ise gözlerinden gelen görüntüleri işler.",
+          "spoken": "Başının arkasındaki art kafa lobu ise gözlerinden gelen görüntüleri işler.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Beyincik dengeni ve hareketlerinin uyumunu sağlar. Beyin sapı ise nefes alma ve kalp atışı gibi otomatik işleri yönetir.",
+          "spoken": "Beyincik dengeni ve hareketlerinin uyumunu sağlar. Beyin sapı ise nefes alma ve kalp atışı gibi otomatik işleri yönetir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Benim de bir işlemcim var. Ama dört lobu yok; olsa olsa dört düğmesi var!",
+          "spoken": "Benim de bir işlemcim var. Ama dört lobu yok; olsa olsa dört düğmesi var!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Şimdi beynin yapı taşlarına bakalım. BrainFacts'e göre beynin temel çalışma birimi nörondur: bilgi iletmek için özelleşmiş bir hücre.",
+          "spoken": "Şimdi beynin yapı taşlarına bakalım. Breyn Fekts'e göre beynin temel çalışma birimi nörondur: bilgi iletmek için özelleşmiş bir hücre.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Beyninde milyarlarca nöron var.",
+          "spoken": "Beyninde milyarlarca nöron var.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Bir nöronun hücre gövdesi, dendritleri ve bir aksonu vardır. Dendritler başka nöronlardan gelen mesajları alır.",
+          "spoken": "Bir nöronun hücre gövdesi, dendritleri ve bir aksonu vardır. Dendritler başka nöronlardan gelen mesajları alır.",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Akson mesajı bir elektrik uyarısı olarak iletir. Bazı aksonlar santimetrenin küçük bir parçası kadar kısa, bazıları bir metreye kadar uzundur.",
+          "spoken": "Akson mesajı bir elektrik uyarısı olarak iletir. Bazı aksonlar santimetrenin küçük bir parçası kadar kısa, bazıları bir metreye kadar uzundur.",
+          "factIds": [
+            "f7",
+            "f8"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Birçok akson, miyelin denen katmanlı bir kılıfla kaplıdır. Miyelin, elektrik sinyalini hızlandırır.",
+          "spoken": "Birçok akson, miyelin denen katmanlı bir kılıfla kaplıdır. Miyelin, elektrik sinyalini hızlandırır.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "İki nöronun buluştuğu temas noktasına sinaps denir. Mesaj burada bir nörondan ötekine geçer.",
+          "spoken": "İki nöronun buluştuğu temas noktasına sinaps denir. Mesaj burada bir nörondan ötekine geçer.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Yani beynin, elektrik ve kimyasalları birlikte kullanan dev bir haberleşme ağıdır.",
+          "spoken": "Yani beynin, elektrik ve kimyasalları birlikte kullanan dev bir haberleşme ağıdır.",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l21",
+          "display": "Peki öğrendiğinde ne olur? KidsHealth'e göre öğrendikçe mesajlar bir nörondan ötekine tekrar tekrar gider.",
+          "spoken": "Peki öğrendiğinde ne olur? Kids Helt'e göre öğrendikçe mesajlar bir nörondan ötekine tekrar tekrar gider.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Bu mesajlar beyninde yollar oluşturur ve bu yollar belleğin temelidir.",
+          "spoken": "Bu mesajlar beyninde yollar oluşturur ve bu yollar belleğin temelidir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bu yüzden yeni bir şey ilk başta çok dikkat ister, ama tekrar ettikçe kolaylaşır. Bisiklete binmeyi düşün!",
+          "spoken": "Bu yüzden yeni bir şey ilk başta çok dikkat ister, ama tekrar ettikçe kolaylaşır. Bisiklete binmeyi düşün!",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Birçok bilim insanı, beyni hep yeni şeyler öğrenmeye zorlamanın önemli olduğuna inanır. Böylece yeni bağlantılar kurulur.",
+          "spoken": "Birçok bilim insanı, beyni hep yeni şeyler öğrenmeye zorlamanın önemli olduğuna inanır. Böylece yeni bağlantılar kurulur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Uyku da çok önemli. Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre uyku öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
+          "spoken": "Uyku da çok önemli. Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'ye göre uyku öğrenmeye ve uzun süreli anıların oluşmasına yardım eder.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Yeterince uyumazsan odaklanmak ve net düşünmek zorlaşabilir.",
+          "spoken": "Yeterince uyumazsan odaklanmak ve net düşünmek zorlaşabilir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Ben uyumam, ama yeniden başlatınca ben de daha iyi düşünürüm!",
+          "spoken": "Ben uyumam, ama yeniden başlatınca ben de daha iyi düşünürüm!",
+          "factIds": []
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi sıra sende! Hiç denemediğin bir şeyi seç: örneğin ayakkabı bağını yeni bir yöntemle bağlamak.",
+          "spoken": "Şimdi sıra sende! Hiç denemediğin bir şeyi seç: örneğin ayakkabı bağını yeni bir yöntemle bağlamak.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Bir hafta boyunca her gün dene ve kaç saniyede yaptığını not et. Süre kısalıyor mu? İşte beynindeki yol güçleniyor!",
+          "spoken": "Bir hafta boyunca her gün dene ve kaç saniyede yaptığını not et. Süre kısalıyor mu? İşte beynindeki yol güçleniyor!",
+          "factIds": [
+            "f10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "Bunu biliyor muydun? Beyninde, nöronlardan en az on kat fazla glia denen yardımcı hücre vardır.",
+          "spoken": "Bunu biliyor muydun? Beyninde, nöronlardan en az on kat fazla glia denen yardımcı hücre vardır.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Hızlı soru! İki nöronun buluştuğu temas noktasının adı neydi?",
+          "spoken": "Hızlı soru! İki nöronun buluştuğu temas noktasının adı neydi?",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Düşün bakalım... Evet: sinaps!",
+          "spoken": "Düşün bakalım... Evet: sinaps!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l34",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l35",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l36",
+          "display": "Abone olmayı ve zili açmayı unutma. Bu gece de iyi uyu; beynin teşekkür edecek!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bu gece de iyi uyu; beynin teşekkür edecek!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Beynin lobları, beyinciği ve beyin sapı farklı işler yapar",
+    "Nöronlar elektrik ve kimyasallarla sinapslarda haberleşir",
+    "Tekrar ve uyku öğrenmeyi güçlendirir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "micro",
+    "actors": []
+  },
+  "song": {
+    "title": "Kafamdaki Ağ",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🧠",
+        "name": "Beyin"
+      },
+      {
+        "emoji": "⚡",
+        "name": "Sinyal"
+      },
+      {
+        "emoji": "🤝",
+        "name": "Sinaps"
+      },
+      {
+        "emoji": "💾",
+        "name": "Bellek"
+      },
+      {
+        "emoji": "😴",
+        "name": "Uyku"
+      }
+    ],
+    "show": [
+      {
+        "kind": "hop",
+        "emoji": "💡"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧠"
+      },
+      {
+        "kind": "hop",
+        "emoji": "⚡"
+      },
+      {
+        "kind": "hop",
+        "emoji": "📚"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Alın lobu düşünür, şakak duyar",
+          "Art kafa görür, yan lob dokunur",
+          "Beyincik dengede tutar beni",
+          "Beyin sapı nefesimi yönetir"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Nöron nörona mesaj yollar!",
+          "Dendrit alır, akson iletir",
+          "Sinapsta buluşur, ağ büyür",
+          "Kafamda bir şehir ışıl ışıl"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Miyelin kılıf hızlandırır",
+          "Tekrar ettikçe yollar açılır",
+          "Yollar bellek olur, iş kolaylaşır",
+          "Uyku gelir, anılar kalır"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Nöron nörona mesaj yollar!",
+          "Dendrit alır, akson iletir",
+          "Yeni bir şey dene, her gün biraz",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Beynimiz düşünmeyi, hatırlamayı ve hareket etmeyi nasıl yönetir? Bu bölümde büyük beynin yarım kürelerini ve dört lobunu, beyinciği ve beyin sapını; nöronları, dendritleri, aksonları, miyelini ve sinapsları keşfediyoruz. Öğrendiğimizde beynimizde ne değişir, uyku neden önemlidir? Sonunda yeni beceri etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Büyük beyin",
+      "meaning": "Beynin en büyük bölümü; iki yarım küreden ve dört lobdan oluşur."
+    },
+    {
+      "term": "Lob",
+      "meaning": "Büyük beynin farklı işler yapan bölümlerinden her biri."
+    },
+    {
+      "term": "Beyincik",
+      "meaning": "Dengeyi ve hareketlerin uyumunu sağlayan beyin bölümü."
+    },
+    {
+      "term": "Beyin sapı",
+      "meaning": "Nefes alma, kalp atışı gibi otomatik işleri yöneten bölüm."
+    },
+    {
+      "term": "Nöron",
+      "meaning": "Bilgi ileten sinir hücresi."
+    },
+    {
+      "term": "Akson",
+      "meaning": "Nöronun mesajı elektrik uyarısı olarak ileten uzun uzantısı."
+    },
+    {
+      "term": "Miyelin",
+      "meaning": "Aksonu saran ve sinyali hızlandıran kılıf."
+    },
+    {
+      "term": "Sinaps",
+      "meaning": "İki nöronun haberleştiği temas noktası."
+    }
+  ]
+}

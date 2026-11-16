@@ -1,0 +1,653 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Beynimiz nasıl çalışır?",
+    "emoji": "🧠"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "💡",
+    "⚡"
+   ],
+   "keywords": [
+    "",
+    "ÖĞRENİNCE NE DEĞİŞİR?",
+    "SİNİR HÜCRELERİ"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Beynin bölümleri ne iş yapar?",
+     "Sinir hücreleri nasıl haberleşir?",
+     "Öğrendiğimizde ne olur?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Beyin",
+    "emoji": "🧠",
+    "chips": [
+     {
+      "label": "Düşünme ve duygular",
+      "emoji": "💭"
+     },
+     {
+      "label": "Öğrenme ve hatırlama",
+      "emoji": "📚"
+     },
+     {
+      "label": "Hareket ve konuşma",
+      "emoji": "🗣️"
+     },
+     {
+      "label": "Kafatası ve sıvıyla korunur",
+      "emoji": "🛡️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "💡",
+    "🛡️"
+   ],
+   "keywords": [
+    "KONTROL MERKEZİ",
+    "KORUNUR 🛡️"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Büyük beynin dört lobu",
+    "rows": [
+     {
+      "label": "Alın lobu: düşünme",
+      "emoji": "💭"
+     },
+     {
+      "label": "Yan lob: dokunma, tat, sıcaklık",
+      "emoji": "✋"
+     },
+     {
+      "label": "Şakak lobu: ses ve dil",
+      "emoji": "👂"
+     },
+     {
+      "label": "Art kafa lobu: görme",
+      "emoji": "👁️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "keywords": [
+    "YARIM KÜRELER",
+    "ALIN LOBU",
+    "YAN VE ŞAKAK LOBU"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l11"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Art kafa lobu",
+    "label": "Gözlerden gelen görüntüleri işler",
+    "sub": "KidsHealth",
+    "icon": "👁️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🖼️",
+    "🧠"
+   ],
+   "keywords": [
+    "GÖRME 👁️"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "method",
+   "lineIds": [
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Beyincik ve beyin sapı",
+    "left": {
+     "title": "Beyincik ⚖️",
+     "items": [
+      "Denge",
+      "Hareket uyumu"
+     ]
+    },
+    "right": {
+     "title": "Beyin sapı 🫀",
+     "items": [
+      "Nefes alma",
+      "Kalp atışı"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🤸",
+    "🤖"
+   ],
+   "keywords": [
+    "OTOMATİK İŞLER",
+    "DÖRT DÜĞME 😅"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Nöron",
+    "emoji": "🔌",
+    "chips": [
+     {
+      "label": "Beynin temel birimi",
+      "emoji": "🧱"
+     },
+     {
+      "label": "Bilgi iletir",
+      "emoji": "📨"
+     },
+     {
+      "label": "Milyarlarca nöron",
+      "emoji": "🔢"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f9"
+   ],
+   "stickers": [
+    "🧠",
+    "⚡"
+   ],
+   "keywords": [
+    "NÖRON",
+    "MİLYARLARCA"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l16",
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Mesajın yolculuğu",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Dendrit: mesajı alır",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Hücre gövdesi",
+      "emoji": "⚪"
+     },
+     {
+      "label": "Akson: elektrik uyarısı",
+      "emoji": "⚡"
+     },
+     {
+      "label": "Miyelin hızlandırır",
+      "emoji": "🚀"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7",
+    "f8"
+   ],
+   "stickers": [
+    "📨",
+    "🧠"
+   ],
+   "keywords": [
+    "DENDRİT",
+    "AKSON ⚡",
+    "MİYELİN"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Sinaps",
+    "label": "Mesaj",
+    "emoji": "✉️",
+    "phases": [
+     {
+      "label": "İki nöronun temas noktası",
+      "level": 0.5,
+      "emoji": "🤝"
+     },
+     {
+      "label": "Elektrik + kimya: dev ağ",
+      "level": 0.9,
+      "emoji": "🕸️"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "⚡",
+    "🧪"
+   ],
+   "keywords": [
+    "SİNAPS",
+    "ELEKTROKİMYASAL AĞ"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Öğrenince ne olur?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Mesaj tekrar tekrar gider",
+      "emoji": "🔁"
+     },
+     {
+      "label": "Beyinde yol oluşur",
+      "emoji": "🛤️"
+     },
+     {
+      "label": "Bellek",
+      "emoji": "💾"
+     },
+     {
+      "label": "İş kolaylaşır",
+      "emoji": "🚲"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "📚",
+    "🧠"
+   ],
+   "keywords": [
+    "TEKRAR 🔁",
+    "YOLLAR = BELLEK",
+    "BİSİKLET 🚲"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l24"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Yeni şeyler öğren",
+    "emoji": "🧩",
+    "chips": [
+     {
+      "label": "Beyni zorla",
+      "emoji": "💪"
+     },
+     {
+      "label": "Yeni bağlantılar",
+      "emoji": "🔗"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "📖",
+    "🎨"
+   ],
+   "keywords": [
+    "YENİ BAĞLANTILAR"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Uyku ve öğrenme",
+    "left": {
+     "title": "Yeterli uyku 😴",
+     "items": [
+      "Öğrenmeye yardım eder",
+      "Uzun süreli anılar"
+     ]
+    },
+    "right": {
+     "title": "Az uyku 🥱",
+     "items": [
+      "Odaklanmak zor",
+      "Net düşünmek zor"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "🌙",
+    "🤖"
+   ],
+   "keywords": [
+    "UYKU 😴",
+    "AZ UYKU 🥱",
+    "YENİDEN BAŞLAT 🔄"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: yeni beceri",
+    "items": [
+     "Hiç denemediğin bir şey seç",
+     "Bir hafta her gün dene",
+     "Süreyi not et",
+     "Süre kısalıyor mu?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "⏱️",
+    "📓"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "YOL GÜÇLENİYOR 🛤️"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "10 kat",
+    "label": "Gliadan, nörondan en az bu kadar fazla",
+    "sub": "BrainFacts",
+    "icon": "🧠"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🔬",
+    "✨"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "İki nöronun buluştuğu noktanın adı ne?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🧠",
+    "🤝"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "SİNAPS ✅"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l33"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s17",
+   "section": "summary",
+   "lineIds": [
+    "l34",
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

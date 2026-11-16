@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Kafamdaki Ağ",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Alın lobu düşünür, şakak duyar",
+          "start": 5.15,
+          "end": 9.02
+        },
+        {
+          "text": "Art kafa görür, yan lob dokunur",
+          "start": 9.02,
+          "end": 12.58
+        },
+        {
+          "text": "Beyincik dengede tutar beni",
+          "start": 12.58,
+          "end": 16.15
+        },
+        {
+          "text": "Beyin sapı nefesimi yönetir",
+          "start": 16.15,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Nöron nörona mesaj yollar!",
+          "start": 20.17,
+          "end": 23.31
+        },
+        {
+          "text": "Dendrit alır, akson iletir",
+          "start": 23.31,
+          "end": 26.45
+        },
+        {
+          "text": "Sinapsta buluşur, ağ büyür",
+          "start": 26.45,
+          "end": 29.6
+        },
+        {
+          "text": "Kafamda bir şehir ışıl ışıl",
+          "start": 29.6,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Miyelin kılıf hızlandırır",
+          "start": 33.18,
+          "end": 36.65
+        },
+        {
+          "text": "Tekrar ettikçe yollar açılır",
+          "start": 36.65,
+          "end": 40.45
+        },
+        {
+          "text": "Yollar bellek olur, iş kolaylaşır",
+          "start": 40.45,
+          "end": 44.56
+        },
+        {
+          "text": "Uyku gelir, anılar kalır",
+          "start": 44.56,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Nöron nörona mesaj yollar!",
+          "start": 48.19,
+          "end": 51.48
+        },
+        {
+          "text": "Dendrit alır, akson iletir",
+          "start": 51.48,
+          "end": 54.77
+        },
+        {
+          "text": "Yeni bir şey dene, her gün biraz",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
