@@ -97,7 +97,10 @@ export const Spotlight: React.FC<SceneProps<"spotlight">> = ({ visual, frame, be
 
 // ---------- Evre çizgisi: sahne boyunca çizilir ----------
 export const Stages: React.FC<SceneProps<"stages">> = ({ visual, frame, dur }) => {
-  const AW = 1480, AH = 520, x0 = 330, x1 = AW - 30, top = 50, gap = (AH - 100) / (visual.rows.length - 1);
+  // Etiket sütunu en uzun etikete göre genişler; sol kenardan taşmaz (Manrope 800, 34 px ≈ 19 px/karakter).
+  const longest = Math.max(...visual.rows.map((r) => r.label.length * 19 + 46 + (r.emoji ? 60 : 0)));
+  const fs = longest > 640 ? 30 : 34, x0 = Math.max(330, Math.min(700, Math.round(longest * (fs / 34))) + 30);
+  const AW = 1480, AH = 520, x1 = AW - 30, top = 50, gap = (AH - 100) / (visual.rows.length - 1);
   const X = (i: number) => x0 + ((x1 - x0) * i) / (visual.path.length - 1), Y = (r: number) => top + r * gap;
   const prog = interpolate(frame, [18, Math.max(60, dur - 30)], [0, visual.path.length - 1], clamp);
   const seg = Math.min(visual.path.length - 2, Math.floor(prog)), t = prog - seg;
@@ -120,9 +123,9 @@ export const Stages: React.FC<SceneProps<"stages">> = ({ visual, frame, dur }) =
         {visual.rows.map((r, i) => {
           const on = curRow === i;
           return (
-            <div key={i} style={{ position: "absolute", left: 0, top: Y(i) - 36, width: 300, display: "flex", alignItems: "center", gap: 14, justifyContent: "flex-end", transform: `scale(${on ? 1.1 : 1})`, transformOrigin: "right center" }}>
+            <div key={i} style={{ position: "absolute", left: 0, top: Y(i) - 36, width: x0 - 30, display: "flex", alignItems: "center", gap: 14, justifyContent: "flex-end", transform: `scale(${on ? 1.1 : 1})`, transformOrigin: "right center" }}>
               {r.emoji && <span style={{ fontSize: 46, fontFamily: F.head, transform: `rotate(${on ? Math.sin(frame / 5) * 12 : 0}deg)`, display: "inline-block" }}>{r.emoji}</span>}
-              <span style={{ fontFamily: F.head, fontWeight: 800, fontSize: 34, color: on ? "#fff" : C.text, background: on ? (i === visual.highlightRow ? C.yellow : C.teal) : "#fff", border: `3px solid ${on ? "transparent" : C.cardLine}`, borderRadius: 24, padding: "8px 20px", whiteSpace: "nowrap" }}>{r.label}</span>
+              <span style={{ fontFamily: F.head, fontWeight: 800, fontSize: fs, color: on ? "#fff" : C.text, background: on ? (i === visual.highlightRow ? C.yellow : C.teal) : "#fff", border: `3px solid ${on ? "transparent" : C.cardLine}`, borderRadius: 24, padding: "8px 20px", whiteSpace: "nowrap" }}>{r.label}</span>
             </div>
           );
         })}
