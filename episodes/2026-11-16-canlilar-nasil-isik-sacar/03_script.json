@@ -1,0 +1,485 @@
+{
+  "paperId": "topic:canlilar-nasil-isik-sacar",
+  "episodeNumber": 29,
+  "videoTitle": "Canlılar nasıl ışık saçar?",
+  "paperTitleTr": "Canlılar nasıl ışık saçar?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Bir yaz gecesi çayırda minik ışıklar yanıp sönüyor. Bunlar lamba değil, ateşböcekleri!",
+          "spoken": "Bir yaz gecesi çayırda minik ışıklar yanıp sönüyor. Bunlar lamba değil, ateşböcekleri!",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki bir canlı, pil ya da kablo olmadan nasıl ışık yapar?",
+          "spoken": "Peki bir canlı, pil ya da kablo olmadan nasıl ışık yapar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün ışık saçan canlıların sırrını çözüyoruz!",
+          "spoken": "Bugün ışık saçan canlıların sırrını çözüyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Canlılar ışığı nasıl üretir? Bu ışık neden sıcak değildir? Ve neden ışık saçarlar?",
+          "spoken": "Üç sorumuz var. Canlılar ışığı nasıl üretir? Bu ışık neden sıcak değildir? Ve neden ışık saçarlar?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre canlıların vücutlarındaki kimyasal tepkimelerle saçtıkları ışığa biyolüminesans denir.",
+          "spoken": "Neşınıl Ciyogrefik'e göre canlıların vücutlarındaki kimyasal tepkimelerle saçtıkları ışığa biyolüminesans denir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "ABD Milli Parklar Servisi'ne göre bunu yalnızca ateşböcekleri yapmaz; bazı mantarlar, balıklar, karidesler, denizanaları ve planktonlar da yapar.",
+          "spoken": "ABD Milli Parklar Servisi'ne göre bunu yalnızca ateşböcekleri yapmaz; bazı mantarlar, balıklar, karidesler, denizanaları ve planktonlar da yapar.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Bu tepkimenin iki yıldızı var: lusiferin ve lusiferaz. Işığı asıl üreten bileşik lusiferindir.",
+          "spoken": "Bu tepkimenin iki yıldızı var: lusiferin ve lusiferaz. Işığı asıl üreten bileşik lusiferindir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Ateşböcekleri lusiferini oksijenle ve lusiferaz denen bir enzimle karıştırır. Sonuç: ışık!",
+          "spoken": "Ateşböcekleri lusiferini oksijenle ve lusiferaz denen bir enzimle karıştırır. Sonuç: ışık!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Bazı canlılar lusiferaz yerine fotoprotein kullanır. Fotoproteinler ışık yapmak için çoğu zaman bir kalsiyum iyonuna ihtiyaç duyar.",
+          "spoken": "Bazı canlılar lusiferaz yerine fotoprotein kullanır. Fotoproteinler ışık yapmak için çoğu zaman bir kalsiyum iyonuna ihtiyaç duyar.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim de anten yıldızım parlıyor. Ama benimki tamamen pilden; içimde bir gram lusiferin yok!",
+          "spoken": "Benim de anten yıldızım parlıyor. Ama benimki tamamen pilden; içimde bir gram lusiferin yok!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Bu ışığın şaşırtıcı bir özelliği var: Soğuk ışıktır.",
+          "spoken": "Bu ışığın şaşırtıcı bir özelliği var: Soğuk ışıktır.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "National Geographic'e göre soğuk ışık, ışığın yüzde 20'sinden azının ısıya dönüşmesi demektir.",
+          "spoken": "Neşınıl Ciyogrefik'e göre soğuk ışık, ışığın yüzde yirmisinden azının ısıya dönüşmesi demektir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Eski tip akkor ampullerle karşılaştıralım. Milli Parklar Servisi'ne göre bu ampuller enerjilerinin yalnızca yüzde 10 kadarını ışığa çevirir; yüzde 90'ı ısı olur.",
+          "spoken": "Eski tip akkor ampullerle karşılaştıralım. Milli Parklar Servisi'ne göre bu ampuller enerjilerinin yalnızca yüzde on kadarını ışığa çevirir; yüzde doksanı ısı olur.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Ateşböceğinin parıltısı ise neredeyse yüzde 100 ışıktır ve çok az ısı üretir.",
+          "spoken": "Ateşböceğinin parıltısı ise neredeyse yüzde yüz ışıktır ve çok az ısı üretir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Ben eski bir ampul olsaydım, kafam hep sıcacık olurdu. Neyse ki ben LED'liyim!",
+          "spoken": "Ben eski bir ampul olsaydım, kafam hep sıcacık olurdu. Neyse ki ben LED'liyim!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l17",
+          "display": "Peki canlılar neden ışık saçar? National Geographic'e göre avlanmak, avcılara karşı korunmak ve eş bulmak için.",
+          "spoken": "Peki canlılar neden ışık saçar? Neşınıl Ciyogrefik'e göre avlanmak, avcılara karşı korunmak ve eş bulmak için.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Ateşböceklerinde ışığın önemli bir görevi eş bulmaktır. Her türün kendine özgü bir yanıp sönme deseni vardır.",
+          "spoken": "Ateşböceklerinde ışığın önemli bir görevi eş bulmaktır. Her türün kendine özgü bir yanıp sönme deseni vardır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Örneğin eşzamanlı yanıp sönen bir türde, 5 ile 8 arası parlamayı 8 saniyelik bir karanlık izler.",
+          "spoken": "Örneğin eşzamanlı yanıp sönen bir türde, beş ile sekiz arası parlamayı sekiz saniyelik bir karanlık izler.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Derin denizde ise fener balığı, ışığını avını cezbetmek için kullanır.",
+          "spoken": "Derin denizde ise fener balığı, ışığını avını cezbetmek için kullanır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Baltabalığı gibi bazı balıklar karşı aydınlatma denen bir kamuflaj kullanır. Karınlarındaki ışık organları aşağıya bakar.",
+          "spoken": "Baltabalığı gibi bazı balıklar karşı aydınlatma denen bir kamuflaj kullanır. Karınlarındaki ışık organları aşağıya bakar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Alttan çıkan ışığı yukarıdan gelen ışığa eşitlerler. Böylece gölgeleri kaybolur ve aşağıdan bakan avcılara neredeyse görünmez olurlar.",
+          "spoken": "Alttan çıkan ışığı yukarıdan gelen ışığa eşitlerler. Böylece gölgeleri kaybolur ve aşağıdan bakan avcılara neredeyse görünmez olurlar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Birçok kalamar türü avcılarını ürkütmek için parlar. Bazı böcek larvaları da zehirli olduklarını göstermek için ışık saçar.",
+          "spoken": "Birçok kalamar türü avcılarını ürkütmek için parlar. Bazı böcek larvaları da zehirli olduklarını göstermek için ışık saçar.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Yani ışık; bir av tuzağı, bir görünmezlik pelerini ya da bir uyarı tabelası olabilir!",
+          "spoken": "Yani ışık; bir av tuzağı, bir görünmezlik pelerini ya da bir uyarı tabelası olabilir!",
+          "factIds": [
+            "f12",
+            "f13",
+            "f15"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Denizdeki biyolüminesansın çoğu mavi-yeşil renktedir. Çünkü bu renkler derin okyanusta daha kolay görülür.",
+          "spoken": "Denizdeki biyolüminesansın çoğu mavi-yeşil renktedir. Çünkü bu renkler derin okyanusta daha kolay görülür.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Ateşböceklerinin çoğu yeşilimsi sarı ışık saçar; bazı türlerinki ise maviye ya da beyaza kaçar.",
+          "spoken": "Ateşböceklerinin çoğu yeşilimsi sarı ışık saçar; bazı türlerinki ise maviye ya da beyaza kaçar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Ben hangi renkte parlıyorum biliyor musun? Utanınca kıpkırmızı!",
+          "spoken": "Ben hangi renkte parlıyorum biliyor musun? Utanınca kıpkırmızı!",
+          "factIds": []
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi sıra sende! Yazın ateşböceklerinin yaşadığı bir yerdeysen, akşam karanlığında bir yetişkinle dışarı çık.",
+          "spoken": "Şimdi sıra sende! Yazın ateşböceklerinin yaşadığı bir yerdeysen, akşam karanlığında bir yetişkinle dışarı çık.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Işıkları dikkatle izle ve yanıp sönmeleri say. Hepsi aynı desende mi? Ateşböceklerini yakalama, yalnızca izle!",
+          "spoken": "Işıkları dikkatle izle ve yanıp sönmeleri say. Hepsi aynı desende mi? Ateşböceklerini yakalama, yalnızca izle!",
+          "factIds": [
+            "f10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "Bunu biliyor muydun? National Geographic'e göre tatlı sulara özgü ışık saçan canlı neredeyse yoktur.",
+          "spoken": "Bunu biliyor muydun? Neşınıl Ciyogrefik'e göre tatlı sulara özgü ışık saçan canlı neredeyse yoktur.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Bir de demiryolu solucanı var: başı kırmızı, gövdesi yeşil parlar. Yürüyen bir trafik ışığı gibi!",
+          "spoken": "Bir de demiryolu solucanı var: başı kırmızı, gövdesi yeşil parlar. Yürüyen bir trafik ışığı gibi!",
+          "factIds": [
+            "f17"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Hızlı soru! Işığı asıl üreten bileşiğin adı neydi?",
+          "spoken": "Hızlı soru! Işığı asıl üreten bileşiğin adı neydi?",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Düşün bakalım... Evet: lusiferin!",
+          "spoken": "Düşün bakalım... Evet: lusiferin!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l35",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l36",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l37",
+          "display": "Abone olmayı ve zili açmayı unutma. Işığın hiç sönmesin!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Işığın hiç sönmesin!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Canlılar ışığı lusiferinle yapılan kimyasal tepkimelerle üretir",
+    "Bu ışık soğuktur: çok az ısı üretir",
+    "Işık av, korunma ve eş bulma için kullanılır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "night",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🦉",
+        "every": 34
+      }
+    ]
+  },
+  "song": {
+    "title": "Gecenin Fenerleri",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "✨",
+        "name": "Işık"
+      },
+      {
+        "emoji": "🧪",
+        "name": "Lusiferin"
+      },
+      {
+        "emoji": "🐟",
+        "name": "Fener balığı"
+      },
+      {
+        "emoji": "🪼",
+        "name": "Denizanası"
+      },
+      {
+        "emoji": "🌙",
+        "name": "Gece"
+      }
+    ],
+    "show": [
+      {
+        "kind": "hop",
+        "emoji": "✨"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🐟"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🪼"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🍄"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Gece çöktü, çayır karanlık",
+          "Ateşböceği yaktı fenerini",
+          "Lusiferin, oksijen bir araya",
+          "Lusiferaz karıştırır, parlar ışık"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, parla, soğuk ışık!",
+          "Isı yok, yalnızca parıltı",
+          "Eşini çağırır kendi deseniyle",
+          "Gecenin fenerleri yanar"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Derin denizde mavi-yeşil",
+          "Fener balığı tuzak kurar",
+          "Baltabalığı gölgesini siler",
+          "Kalamar parlar, avcı kaçar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, parla, soğuk ışık!",
+          "Isı yok, yalnızca parıltı",
+          "Akşam çık, ışıkları say",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Ateşböcekleri, denizanaları, fener balıkları ve mantarlar nasıl ışık saçar? Bu bölümde biyolüminesansı; lusiferin, lusiferaz ve fotoproteinlerle yapılan kimyasal tepkimeyi, soğuk ışığı, ateşböceklerinin yanıp sönme desenlerini, fener balığının av tuzağını ve baltabalığının karşı aydınlatma kamuflajını keşfediyoruz. Sonunda ateşböceği gözlemi etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Biyolüminesans",
+      "meaning": "Canlıların vücutlarındaki kimyasal tepkimelerle ışık saçması."
+    },
+    {
+      "term": "Lusiferin",
+      "meaning": "Biyolüminesansta ışığı asıl üreten bileşik."
+    },
+    {
+      "term": "Lusiferaz",
+      "meaning": "Lusiferinin ışık saçan tepkimesine yardım eden enzim."
+    },
+    {
+      "term": "Fotoprotein",
+      "meaning": "Bazı canlılarda lusiferaz yerine ışık tepkimesinde görev alan protein."
+    },
+    {
+      "term": "Soğuk ışık",
+      "meaning": "Çok az ısı üreten ışık."
+    },
+    {
+      "term": "Karşı aydınlatma",
+      "meaning": "Bazı deniz canlılarının alttan ışık saçarak gölgelerini gizlediği kamuflaj."
+    },
+    {
+      "term": "Kamuflaj",
+      "meaning": "Bir canlının çevresine uyum sağlayarak gizlenmesi."
+    }
+  ]
+}

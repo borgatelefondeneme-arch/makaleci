@@ -10,10 +10,10 @@ import { clamp } from "../anim";
 export const CALM = { density: 0.45, speed: 0.6, ambientActors: 2, ambientEvery: 1.8, fx: 0.4 };
 const dn = (n: number) => Math.max(3, Math.round(n * CALM.density));
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow" | "gut";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow" | "gut" | "night";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, gut: { panel: true, dark: false, ground: 985 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, gut: { panel: true, dark: false, ground: 985 }, night: { panel: true, dark: true, ground: 960 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -188,6 +188,23 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         {row(true)}{row(false)}
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: dn(18) }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "night") {
+    // yaz gecesi: yıldızlı gök (ay yok: pano ve köşe kafasıyla çakışıyordu), koyu tepeler, yavaşça yanıp sönen ateşböcekleri
+    return (
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #0E1730 0%, #1B2A4C 60%, #2A3B5C 100%)", overflow: "hidden" }}>
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {Array.from({ length: dn(80) }, (_, i) => <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * H * 0.7} r={1 + rnd(i, 3) * 2.2} fill="#fff" opacity={0.35 + 0.45 * Math.abs(Math.sin(f / (20 + rnd(i, 4) * 30) + i))} />)}
+          <path d={`M 0 ${H} V 880 Q 420 790 860 870 T ${W} 840 V ${H} Z`} fill="#1A2B3F" />
+          <path d={`M 0 ${H} V 950 Q 520 880 1040 950 T ${W} 925 V ${H} Z`} fill="#13202F" />
+          {Array.from({ length: dn(22) }, (_, i) => {
+            const x = rnd(i, 5) * W + Math.sin(f / (60 + rnd(i, 6) * 40) + i) * 60, y = 700 + rnd(i, 7) * 360 + Math.cos(f / (50 + rnd(i, 8) * 40) + i) * 30;
+            const on = Math.max(0, Math.sin(f / (22 + rnd(i, 9) * 20) + i * 2.1));
+            return <g key={i} opacity={on}><circle cx={x} cy={y} r={16} fill="#E8FF8A" opacity={0.25} /><circle cx={x} cy={y} r={5} fill="#F4FFB0" /></g>;
+          })}
         </svg>
       </AbsoluteFill>
     );

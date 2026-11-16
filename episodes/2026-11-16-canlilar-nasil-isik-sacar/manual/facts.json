@@ -1,0 +1,166 @@
+{
+ "paperId": "topic:canlilar-nasil-isik-sacar",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Bioluminescence",
+   "publisher": "National Geographic",
+   "url": "https://education.nationalgeographic.org/resource/bioluminescence/"
+  },
+  {
+   "id": "k2",
+   "title": "Fireflies",
+   "publisher": "Milli Parklar Servisi",
+   "url": "https://www.nps.gov/grsm/learn/nature/fireflies.htm"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Biyolüminesans, canlıların vücutlarındaki kimyasal tepkimelerle saçtığı ışıktır.",
+   "numbers": [],
+   "quote": "Bioluminescence is light emitted by living things through chemical reactions in their bodies.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Biyolüminesans ateşböceklerinin yanı sıra bazı mantarlarda, balıklarda, karideslerde, denizanalarında ve planktonlarda da görülür; bazıları karada yaşar.",
+   "numbers": [],
+   "quote": "a natural process also seen in certain fungi, fish, shrimp, jellyfish, plankton / Some bioluminescent organisms, including fireflies and fungi, are found on land.",
+   "location": "National Park Service (Great Smoky Mountains) — Fireflies; National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Biyolüminesans lusiferin ve lusiferaz ya da fotoprotein gerektirir; ışığı asıl üreten bileşik lusiferindir; ateşböcekleri lusiferini oksijen ve lusiferaz enzimiyle karıştırır.",
+   "numbers": [],
+   "quote": "requires two unique chemicals: luciferin and either luciferase or photoprotein / Luciferin is the compound that actually produces light. / fireflies mix the chemical luciferin with oxygen and the enzyme luciferase",
+   "location": "National Geographic Education — Bioluminescence; National Park Service (Great Smoky Mountains) — Fireflies"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Fotoproteinler ışık yapmak için başka bir etkene, çoğu zaman bir kalsiyum iyonuna ihtiyaç duyar.",
+   "numbers": [],
+   "quote": "need another agent, often an ion of the element calcium, to produce light",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f5",
+   "kind": "number",
+   "statement": "Soğuk ışık, ışığın yüzde 20'sinden azının ısı olarak yayılması demektir.",
+   "numbers": [
+    "20"
+   ],
+   "quote": "Cold light means less than 20% of the light generates thermal radiation, or heat.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f6",
+   "kind": "number",
+   "statement": "Akkor ampuller enerjilerinin yalnızca yaklaşık yüzde 10'unu ışık, yüzde 90'ını ısı olarak yayar; ateşböceğinin parıltısı neredeyse yüzde 100 ışıktır ve çok az ısı üretir.",
+   "numbers": [
+    "10",
+    "90",
+    "100"
+   ],
+   "quote": "traditional incandescent bulbs emit only about 10% of their energy as light, with the remaining 90% as heat. / resulting in a 'cool' glow that boasts nearly 100% light / generate light with minimal heat",
+   "location": "National Park Service (Great Smoky Mountains) — Fireflies"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Işık saçan deniz canlıları arasında balıklar, bakteriler ve denizanaları vardır; dinoflagellatlar mavimsi yeşil parlar.",
+   "numbers": [],
+   "quote": "These bioluminescent marine species include fish, bacteria, and jellies. / Dinoflagellates, for instance, bioluminesce in a bluish-green color.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Denizdeki biyolüminesansın çoğu görünür ışığın mavi-yeşil bölümündedir; bu renkler derin okyanusta daha kolay görülür.",
+   "numbers": [],
+   "quote": "Most marine bioluminescence, for instance, is expressed in the blue-green part of the visible light spectrum. / These colors are more easily visible in the deep ocean.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Ateşböceği türlerinin çoğu yeşilimsi sarı ışık saçar, bazı türler mavi ya da beyaza yakın ışık saçar.",
+   "numbers": [],
+   "quote": "Most species emit a greenish-yellow light, but some species showcase more of a blue or white hue.",
+   "location": "National Park Service (Great Smoky Mountains) — Fireflies"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Ateşböceğinin yanıp sönmesinin önemli bir amacı eş çekmektir; her türün kendine özgü bir yanıp sönme deseni vardır.",
+   "numbers": [],
+   "quote": "The enchanting flash of a firefly serves a vital purpose: attracting a mate. / Each species of firefly possesses a unique flash pattern that plays a crucial role in their mating display.",
+   "location": "National Park Service (Great Smoky Mountains) — Fireflies"
+  },
+  {
+   "id": "f11",
+   "kind": "number",
+   "statement": "Eşzamanlı ateşböceğinde 5 ile 8 arası belirgin parlamayı 8 saniyelik bir karanlık izler.",
+   "numbers": [
+    "5",
+    "8"
+   ],
+   "quote": "a remarkable sequence of five to eight distinct flashes, followed by an eight-second pause of darkness",
+   "location": "National Park Service (Great Smoky Mountains) — Fireflies"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Biyolüminesansı kullanan en ünlü avcı belki de avını cezbetmek için kullanan fener balığıdır.",
+   "numbers": [],
+   "quote": "The most famous predator to use bioluminescence may be the anglerfish, which uses bioluminescence to lure prey.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "Birçok deniz canlısı kendini korumak için karşı aydınlatma denen bir kamuflaj kullanır; baltabalıklarının ışık organları aşağı bakar, alttan çıkan ışığı yukarıdan gelen ışığa eşitler, böylece gölgelerini gizleyip aşağıdan bakan avcılara neredeyse görünmez olurlar.",
+   "numbers": [],
+   "quote": "Many marine species use a technique called counterillumination to protect themselves. / Hatchetfish have light-producing organs that point downward. / They adjust the amount of light coming from their undersides to match the light coming from above. / they disguise their shadows and become virtually invisible to predators looking up.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f14",
+   "kind": "claim",
+   "statement": "Canlılar biyolüminesansı avlanmak, avcılara karşı korunmak ve eş bulmak için kullanır.",
+   "numbers": [],
+   "quote": "Bioluminescence is used by living things to hunt prey, defend against predators, find mates",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Birçok kalamar türü avcılarını ürkütmek için parlar; bazı böcek larvaları zehirli olduklarını avcılara bildirmek için ışık saçar.",
+   "numbers": [],
+   "quote": "Many species of squid, for instance, flash to startle predators, such as fish. / light up to warn predators that they are toxic.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f16",
+   "kind": "claim",
+   "statement": "Tatlı su ortamlarına özgü ışık saçan canlı neredeyse yoktur.",
+   "numbers": [],
+   "quote": "There are almost no bioluminescent organisms native to freshwater habitats.",
+   "location": "National Geographic Education — Bioluminescence"
+  },
+  {
+   "id": "f17",
+   "kind": "claim",
+   "statement": "Demiryolu solucanının başı kırmızı, gövdesi yeşil parlar.",
+   "numbers": [],
+   "quote": "The head of the railroad worm glows red, while its body glows green.",
+   "location": "National Geographic Education — Bioluminescence"
+  }
+ ]
+}

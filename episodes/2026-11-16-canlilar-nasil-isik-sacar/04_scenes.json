@@ -1,0 +1,621 @@
+{
+  "paperId": "topic:canlilar-nasil-isik-sacar",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Canlılar nasıl ışık saçar?",
+        "emoji": "✨"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🌙",
+        "🌾"
+      ],
+      "keywords": [
+        "ATEŞBÖCEKLERİ",
+        "PİLSİZ IŞIK?",
+        ""
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Canlılar ışığı nasıl üretir?",
+          "Bu ışık neden sıcak değil?",
+          "Neden ışık saçarlar?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Biyolüminesans",
+        "emoji": "✨",
+        "chips": [
+          {
+            "label": "Kimyasal tepkimeyle ışık",
+            "emoji": "🧪"
+          },
+          {
+            "label": "Mantarlar",
+            "emoji": "🍄"
+          },
+          {
+            "label": "Denizanaları",
+            "emoji": "🪼"
+          },
+          {
+            "label": "Planktonlar",
+            "emoji": "🦠"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "stickers": [
+        "🌙",
+        "🐟"
+      ],
+      "keywords": [
+        "BİYOLÜMİNESANS",
+        "KARADA DA DENİZDE DE",
+        "LUSİFERİN"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10",
+        "l11"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Işık tarifi",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Lusiferin",
+            "emoji": "🧪"
+          },
+          {
+            "label": "Oksijen",
+            "emoji": "💨"
+          },
+          {
+            "label": "Lusiferaz enzimi",
+            "emoji": "🔧"
+          },
+          {
+            "label": "Işık!",
+            "emoji": "💡"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "✨",
+        "🔋"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "KARIŞTIR!",
+        "FOTOPROTEİN",
+        "PİLLİ MUMA 🔋"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "%20",
+        "label": "Soğuk ışıkta ısıya dönüşen pay bundan az",
+        "sub": "National Geographic",
+        "icon": "❄️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🌡️",
+        "💡"
+      ],
+      "keywords": [
+        "SOĞUK IŞIK ❄️",
+        "ISI AZ"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Enerjinin ne kadarı ışık olur? (%)",
+        "unit": "%",
+        "bars": [
+          {
+            "label": "Akkor ampul: ışık",
+            "value": 10,
+            "display": "%10"
+          },
+          {
+            "label": "Akkor ampul: ısı",
+            "value": 90,
+            "display": "%90"
+          },
+          {
+            "label": "Ateşböceği: ışık",
+            "value": 100,
+            "display": "%100'e yakın",
+            "highlight": true
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "💡",
+        "🔥"
+      ],
+      "keywords": [
+        "AMPUL 🔥",
+        "ATEŞBÖCEĞİ ✨",
+        "LED'Lİ MUMA 😄"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "importance",
+      "lineIds": [
+        "l17",
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Ateşböceğinin ışık mesajı",
+        "label": "Işık",
+        "emoji": "✨",
+        "phases": [
+          {
+            "label": "Eş bulmak için yanar",
+            "level": 0.6,
+            "emoji": "💌"
+          },
+          {
+            "label": "Her türün kendi deseni",
+            "level": 0.8,
+            "emoji": "🔦"
+          },
+          {
+            "label": "Parlamalar, sonra karanlık",
+            "level": 0.1,
+            "emoji": "🌑"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f11",
+        "f14"
+      ],
+      "stickers": [
+        "🌾",
+        "🌙"
+      ],
+      "keywords": [
+        "NEDEN PARLAR?",
+        "EŞ BULMAK 💌",
+        "DESEN"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l20"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Fener balığı",
+        "label": "Işığıyla avını cezbeder",
+        "sub": "National Geographic",
+        "icon": "🎣"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🐟",
+        "🌊"
+      ],
+      "keywords": [
+        "AV TUZAĞI 🎣"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Karşı aydınlatma",
+        "rows": [
+          {
+            "label": "Işık organı aşağı bakar",
+            "emoji": "🐟"
+          },
+          {
+            "label": "Yukarıdaki ışığa eşitler",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Gölge kaybolur",
+            "emoji": "👻"
+          },
+          {
+            "label": "Avcı göremez",
+            "emoji": "🦈"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "keywords": [
+        "KAMUFLAJ",
+        "GÖRÜNMEZ 👻"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Işığın işleri",
+        "left": {
+          "title": "Bulmak için 🔎",
+          "items": [
+            "Fener balığı: av",
+            "Ateşböceği: eş"
+          ]
+        },
+        "right": {
+          "title": "Korunmak için 🛡️",
+          "items": [
+            "Baltabalığı: görünmez",
+            "Kalamar: ürkütür",
+            "Larvalar: uyarır"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12",
+        "f13",
+        "f15"
+      ],
+      "stickers": [
+        "🦑",
+        "🛡️"
+      ],
+      "keywords": [
+        "ÜRKÜT! 🦑",
+        "UYARI ⚠️"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Işığın rengi",
+        "emoji": "🎨",
+        "chips": [
+          {
+            "label": "Deniz: mavi-yeşil",
+            "emoji": "🌊"
+          },
+          {
+            "label": "Ateşböceği: yeşilimsi sarı",
+            "emoji": "🟡"
+          },
+          {
+            "label": "Bazıları: mavi ya da beyaz",
+            "emoji": "⚪"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8",
+        "f9"
+      ],
+      "stickers": [
+        "🌊",
+        "😳"
+      ],
+      "keywords": [
+        "MAVİ-YEŞİL",
+        "YEŞİLİMSİ SARI",
+        "KIPKIRMIZI 😳"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l28",
+        "l29"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: ışıkları say",
+        "items": [
+          "Bir yetişkinle akşam dışarı çık",
+          "Yanıp sönmeleri say",
+          "Desenleri karşılaştır",
+          "Yakalama, yalnızca izle"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🌙",
+        "📓"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "YALNIZCA İZLE 👀"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Neredeyse yok",
+        "label": "Tatlı sulara özgü ışık saçan canlı",
+        "sub": "National Geographic",
+        "icon": "🏞️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f16",
+        "f17"
+      ],
+      "stickers": [
+        "🚦",
+        "🪱"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?",
+        "TRAFİK IŞIĞI 🚦"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l32",
+        "l33"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Işığı asıl üreten bileşiğin adı ne?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🧪",
+        "✨"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "LUSİFERİN ✅"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "limitations",
+      "lineIds": [
+        "l34"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s16",
+      "section": "summary",
+      "lineIds": [
+        "l35",
+        "l36",
+        "l37"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}
