@@ -1,0 +1,140 @@
+{
+  "paperId": "topic:kemiklerimiz-neden-guclu",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Bones, Muscles & Joints",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/bones.html"
+    },
+    {
+      "id": "k2",
+      "title": "Broken Bones (Fractures)",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/broken-bones.html"
+    },
+    {
+      "id": "k3",
+      "title": "Child Activity: An Overview",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html"
+    },
+    {
+      "id": "k4",
+      "title": "Calcium",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/calcium/"
+    },
+    {
+      "id": "k5",
+      "title": "Vitamin D",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Kemikler vücudumuza destek olur ve biçimini oluşturur; kafatası beyni korur; kaburgalar kalbi ve akciğerleri barındıran bir kafes oluşturur; kaslar eklemleri çekerek hareket etmemizi sağlar.",
+      "numbers": [],
+      "quote": "Bones provide support for our bodies and help form our shape. / The skull protects the brain and forms the shape of the face. / The ribs form a cage that shelters the heart and lungs / Muscles pull on the joints, allowing us to move.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Kemikler kalsiyum depolar ve gerektiğinde bir kısmını kana verir; vücudun kan hücrelerinin çoğu kemiklerin içindeki yumuşak kemik iliğinde yapılır.",
+      "numbers": [],
+      "quote": "Bones store calcium and release some into the bloodstream when it's needed by other parts of the body. / In this soft bone is where most of the body's blood cells are made.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Kemikler kolajen adlı bir proteinden yapılmış bir çatı ile kalsiyum fosfat adlı bir mineralden oluşur.",
+      "numbers": [],
+      "quote": "Bones are made up of a framework of a protein called collagen with a mineral called calcium phosphate",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Kompakt kemik kemiğin katı, sert dış kısmıdır; içinden kan damarları ve sinirler taşıyan delikler ve kanallar geçer; süngere benzeyen süngerimsi kemik kompakt kemiğin içindedir.",
+      "numbers": [],
+      "quote": "Compact bone is the solid, hard outside part of the bone. / Holes and channels run through it, carrying blood vessels and nerves. / Cancellous (KAN-suh-lus) bone, which looks like a sponge, is inside compact bone.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Vücut kemiklerin canlı dokusunu sürekli yeniler ve yeniden biçimlendirir; osteoblastlar yeni kemik yapar ve hasarı onarır; osteoklastlar kemiği yıkar ve biçimlendirir.",
+      "numbers": [],
+      "quote": "a body constantly renews and reshapes the bones' living tissue. / osteoblasts (AHS-tee-uh-blastz), which make new bone and help repair damage / osteoclasts (AHS-tee-o-klasts), which break down bone and help to sculpt and shape it",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Çocukların ve genç ergenlerin kemiklerinde büyüme plakları denen 'büyüme bölgeleri' vardır; kızlar daha erken olgunlaştığı için büyüme plakları daha erken sert kemiğe dönüşür.",
+      "numbers": [],
+      "quote": "The bones of kids and young teens are smaller than those of adults and contain \"growing zones\" called growth plates. / Because girls mature at an earlier age than boys, their growth plates change into hard bone at an earlier age.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Kafatasının kubbesi, doğum sırasında biraz hareket eden ve kafatası büyümesini tamamlayınca birbirine kaynayan kemik plakalardan oluşur.",
+      "numbers": [],
+      "quote": "bony plates, which move slightly during birth and then fuse together as the skull finishes growing.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Eklemler iki kemiğin buluştuğu yerdir ve iskeleti esnek yapar; kemikler birbirine bağ denen uzun, lifli kayışlarla bağlanır; kıkırdak eklemlerde kemikleri destekleyen ve koruyan esnek bir maddedir; kaslar kemiğe kiriş denen ip gibi yapılarla bağlanır; menteşe eklemler dizde ve dirsekte olduğu gibi tek yönde hareket sağlar.",
+      "numbers": [],
+      "quote": "Joints are where two bones meet. They make the skeleton flexible — without them, movement would be impossible. / Bones are fastened to other bones by long, fibrous straps called ligaments / Cartilage (KAR-tul-ij), a flexible, rubbery substance in our joints, supports bones and protects them / Skeletal muscle is attached by cord-like tendons to bone / Hinge joints allow movement in one direction, as seen in the knees and elbows.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "D vitamini vücuttaki kalsiyum ve fosfat miktarını düzenler; vücut, açık havada deriye düşen doğrudan güneş ışığıyla D vitamini üretir; kalsiyum eksikliği çocuklarda raşitizme yol açabilir.",
+      "numbers": [],
+      "quote": "Vitamin D helps regulate the amount of calcium and phosphate in the body. / The body creates vitamin D from direct sunlight on the skin when outdoors. / A lack of calcium could lead to a condition called rickets in children",
+      "location": "NHS — Vitamin D; NHS — Calcium"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "6–17 yaş arasındaki çocuk ve gençler her gün en az 60 dakika hareketli olmalıdır; zıplama ya da koşma gibi kemik güçlendiren etkinlikler haftada en az 3 gün yer almalıdır.",
+      "numbers": [
+        "6",
+        "17",
+        "60",
+        "3"
+      ],
+      "quote": "Children and adolescents 6 to 17 need to be active for at least 60 minutes every day. / Includes activities such as jumping or running, at least 3 days a week.",
+      "location": "CDC — Child Activity: An Overview"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Kırık kemiklerin, özellikle çocuklarda, iyileşme yeteneği çok yüksektir; kırık uçları kallus denen yeni dokuyla birleşir; kallus başta yumuşaktır, sonraki haftalarda sertleşir; kırıkların çoğu alçı, atel ya da destekle tedavi edilir; tam iyileşme genellikle birkaç ay sürer; çocukların kemikleri daha yumuşak olduğu için tamamen kırılmaktan çok bükülür.",
+      "numbers": [],
+      "quote": "Broken bones have an amazing ability to heal, especially in children. / This is called a callus, and it joins the broken bones together. / It's soft at first, then gets harder and stronger over the following weeks. / Doctors treat most broken bones with a cast, splint, or brace. / Broken bones usually take a few months to heal completely. / Kids' bones are more likely to bend than break completely because they're softer.",
+      "location": "Nemours KidsHealth — Broken Bones"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Sardalya gibi kılçığıyla yenen balıklar kalsiyum kaynağıdır; kalsiyum kemikleri yapmaya ve dişleri sağlıklı tutmaya yardım eder.",
+      "numbers": [],
+      "quote": "fish where you eat the bones – such as sardines and pilchards / helping build bones and keep teeth healthy",
+      "location": "NHS — Calcium"
+    }
+  ]
+}

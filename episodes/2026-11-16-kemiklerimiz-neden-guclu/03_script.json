@@ -1,0 +1,475 @@
+{
+  "paperId": "topic:kemiklerimiz-neden-guclu",
+  "episodeNumber": 25,
+  "videoTitle": "Kemiklerimiz neden güçlü?",
+  "paperTitleTr": "Kemiklerimiz neden güçlü?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Koşuyorsun, zıplıyorsun, düşüp kalkıyorsun. Bütün bu yükü taşıyan şey içinde gizli: iskeletin!",
+          "spoken": "Koşuyorsun, zıplıyorsun, düşüp kalkıyorsun. Bütün bu yükü taşıyan şey içinde gizli: iskeletin!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Kemikler nasıl bu kadar güçlü? Ve kırılınca nasıl kendi kendine iyileşir?",
+          "spoken": "Kemikler nasıl bu kadar güçlü? Ve kırılınca nasıl kendi kendine iyileşir?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün kemiklerinin içine bakıyoruz!",
+          "spoken": "Bugün kemiklerinin içine bakıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Kemikler ne işe yarar? Neyden yapılmıştır? Ve onları nasıl güçlü tutarız?",
+          "spoken": "Üç sorumuz var. Kemikler ne işe yarar? Neyden yapılmıştır? Ve onları nasıl güçlü tutarız?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "KidsHealth'e göre kemikler vücudumuza destek olur ve biçimini oluşturur.",
+          "spoken": "Kids Helt'e göre kemikler vücudumuza destek olur ve biçimini oluşturur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Aynı zamanda bir kalkandır: kafatası beyni korur, kaburgalar ise kalbi ve akciğerleri saran bir kafes oluşturur.",
+          "spoken": "Aynı zamanda bir kalkandır: kafatası beyni korur, kaburgalar ise kalbi ve akciğerleri saran bir kafes oluşturur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Kaslar kemikleri çeker ve biz hareket ederiz.",
+          "spoken": "Kaslar kemikleri çeker ve biz hareket ederiz.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Ama kemiklerin gizli görevleri de var. Kan hücrelerinin çoğu, kemiklerin içindeki yumuşak kemik iliğinde yapılır.",
+          "spoken": "Ama kemiklerin gizli görevleri de var. Kan hücrelerinin çoğu, kemiklerin içindeki yumuşak kemik iliğinde yapılır.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Kemikler bir de kalsiyum deposudur; vücudun başka yerlerinin ihtiyacı olunca kana kalsiyum verirler.",
+          "spoken": "Kemikler bir de kalsiyum deposudur; vücudun başka yerlerinin ihtiyacı olunca kana kalsiyum verirler.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim iskeletim metal. Ama içinde kan hücresi üretmiyor; olsa olsa biraz pas!",
+          "spoken": "Benim iskeletim metal. Ama içinde kan hücresi üretmiyor; olsa olsa biraz pas!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Peki kemik neden hem sert hem dayanıklı? Kolajen denen bir protein bir çatı kurar; kalsiyum fosfat denen mineral de onu sertleştirir.",
+          "spoken": "Peki kemik neden hem sert hem dayanıklı? Kolajen denen bir protein bir çatı kurar; kalsiyum fosfat denen mineral de onu sertleştirir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Kemiğin dışında kompakt kemik vardır: katı ve serttir. İçinden kan damarları ve sinirler taşıyan kanallar geçer.",
+          "spoken": "Kemiğin dışında kompakt kemik vardır: katı ve serttir. İçinden kan damarları ve sinirler taşıyan kanallar geçer.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "İçeride ise süngere benzeyen süngerimsi kemik bulunur.",
+          "spoken": "İçeride ise süngere benzeyen süngerimsi kemik bulunur.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Kemik canlı bir dokudur ve vücut onu sürekli yeniler. Osteoblast denen hücreler yeni kemik yapar ve hasarı onarır.",
+          "spoken": "Kemik canlı bir dokudur ve vücut onu sürekli yeniler. Osteoblast denen hücreler yeni kemik yapar ve hasarı onarır.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Osteoklast denen hücreler ise eski kemiği yıkar ve biçimlendirir. Yıkan ve yapan iki ekip, kemiği hep yenileyen bir inşaat gibi.",
+          "spoken": "Osteoklast denen hücreler ise eski kemiği yıkar ve biçimlendirir. Yıkan ve yapan iki ekip, kemiği hep yenileyen bir inşaat gibi.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Çocukların kemiklerinde büyüme plakları denen büyüme bölgeleri vardır. Boyunun uzaması buralarda olur.",
+          "spoken": "Çocukların kemiklerinde büyüme plakları denen büyüme bölgeleri vardır. Boyunun uzaması buralarda olur.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Kızlar daha erken olgunlaştığı için büyüme plakaları da daha erken sert kemiğe dönüşür.",
+          "spoken": "Kızlar daha erken olgunlaştığı için büyüme plakaları da daha erken sert kemiğe dönüşür.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Kafatası da doğumda tek parça değildir: birbirine kaynayan kemik plakalardan oluşur.",
+          "spoken": "Kafatası da doğumda tek parça değildir: birbirine kaynayan kemik plakalardan oluşur.",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l20",
+          "display": "İki kemiğin buluştuğu yere eklem denir. Eklemler sayesinde iskelet esnektir; onlar olmasa hareket edemezdik.",
+          "spoken": "İki kemiğin buluştuğu yere eklem denir. Eklemler sayesinde iskelet esnektir; onlar olmasa hareket edemezdik.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Kemikleri birbirine bağ denen lifli kayışlar bağlar. Kasları kemiğe ise kiriş denen ip gibi yapılar bağlar. Eklemleri de esnek kıkırdak korur.",
+          "spoken": "Kemikleri birbirine bağ denen lifli kayışlar bağlar. Kasları kemiğe ise kiriş denen ip gibi yapılar bağlar. Eklemleri de esnek kıkırdak korur.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Dizin ve dirseğin menteşe eklemdir: kapı menteşesi gibi tek yönde hareket eder.",
+          "spoken": "Dizin ve dirseğin menteşe eklemdir: kapı menteşesi gibi tek yönde hareket eder.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Kemikleri güçlü tutmanın yolu: kalsiyum, D vitamini ve hareket. İngiltere Ulusal Sağlık Servisi NHS'e göre vücut, deriye düşen güneş ışığıyla D vitamini üretir.",
+          "spoken": "Kemikleri güçlü tutmanın yolu: kalsiyum, D vitamini ve hareket. İngiltere Ulusal Sağlık Servisi, En Eyç Es'e göre vücut, deriye düşen güneş ışığıyla D vitamini üretir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "D vitamini, vücuttaki kalsiyumun düzenlenmesine yardım eder.",
+          "spoken": "D vitamini, vücuttaki kalsiyumun düzenlenmesine yardım eder.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "CDC'ye göre 6–17 yaş arasındakiler her gün en az 60 dakika hareket etmeli. Koşmak ve zıplamak gibi kemik güçlendiren etkinlikler de haftada en az 3 gün olmalı.",
+          "spoken": "Si Di Si'ye göre altı ile on yedi yaş arasındakiler her gün en az altmış dakika hareket etmeli. Koşmak ve zıplamak gibi kemik güçlendiren etkinlikler de haftada en az üç gün olmalı.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Kemik kırılırsa ne olur? KidsHealth'e göre kırık kemikler, özellikle çocuklarda, çok iyi iyileşir.",
+          "spoken": "Kemik kırılırsa ne olur? Kids Helt'e göre kırık kemikler, özellikle çocuklarda, çok iyi iyileşir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Kırık uçlar arasında kallus denen yeni bir doku oluşur. Başta yumuşaktır, haftalar içinde sertleşir. Tam iyileşme birkaç ay sürebilir.",
+          "spoken": "Kırık uçlar arasında kallus denen yeni bir doku oluşur. Başta yumuşaktır, haftalar içinde sertleşir. Tam iyileşme birkaç ay sürebilir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi sıra sende! Kolunu bük ve aç; sonra bileğini döndür. Hangi eklem tek yönde, hangisi çok yönde hareket ediyor?",
+          "spoken": "Şimdi sıra sende! Kolunu bük ve aç; sonra bileğini döndür. Hangi eklem tek yönde, hangisi çok yönde hareket ediyor?",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Sonra bu hafta kaç gün koştuğunu ya da zıpladığını bir tabloya yaz. Haftada üç güne ulaşabilecek misin?",
+          "spoken": "Sonra bu hafta kaç gün koştuğunu ya da zıpladığını bir tabloya yaz. Haftada üç güne ulaşabilecek misin?",
+          "factIds": [
+            "f10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "Bunu biliyor muydun? Çocukların kemikleri daha yumuşak olduğu için, tamamen kırılmaktan çok bükülme eğilimindedir.",
+          "spoken": "Bunu biliyor muydun? Çocukların kemikleri daha yumuşak olduğu için, tamamen kırılmaktan çok bükülme eğilimindedir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Hızlı soru! Yeni kemik yapan hücrelerin adı neydi?",
+          "spoken": "Hızlı soru! Yeni kemik yapan hücrelerin adı neydi?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Düşün bakalım... Evet: osteoblastlar!",
+          "spoken": "Düşün bakalım... Evet: osteoblastlar!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l34",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l35",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l36",
+          "display": "Abone olmayı ve zili açmayı unutma. Ben de eklemlerimi yağlamaya gidiyorum!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Ben de eklemlerimi yağlamaya gidiyorum!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "İskelet destek olur, organları korur ve kaslarla hareket ettirir",
+    "Kemik canlıdır: osteoblastlar yapar, osteoklastlar yıkar",
+    "Kalsiyum, D vitamini ve hareket kemikleri güçlendirir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "song": {
+    "title": "İçimdeki Çatı",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🦴",
+        "name": "Kemik"
+      },
+      {
+        "emoji": "💪",
+        "name": "Kas"
+      },
+      {
+        "emoji": "☀️",
+        "name": "D vitamini"
+      },
+      {
+        "emoji": "🥛",
+        "name": "Kalsiyum"
+      },
+      {
+        "emoji": "🏃",
+        "name": "Hareket"
+      }
+    ],
+    "show": [
+      {
+        "kind": "hop",
+        "emoji": "🤸"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🦴"
+      },
+      {
+        "kind": "hop",
+        "emoji": "⚽"
+      },
+      {
+        "kind": "chase",
+        "emoji": "🐕",
+        "emoji2": "🦴",
+        "size": 210,
+        "every": 8
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Kafatası korur beyni sıkıca",
+          "Kaburgalar kafes, kalbe kalkan",
+          "Kaslar çeker, kemikler oynar",
+          "İlikte kan hücreleri doğar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Güçlü kemik, sağlam iskelet!",
+          "Kolajen çatı, mineral sertlik",
+          "Osteoblast yapar, osteoklast yıkar",
+          "Kemiğim canlı, hep yenilenir"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Eklemde buluşur iki kemik",
+          "Bağlar tutar, kiriş kası bağlar",
+          "Kırılırsa kallus birleştirir",
+          "Haftalar geçer, kemik iyileşir"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Güçlü kemik, sağlam iskelet!",
+          "Kolajen çatı, mineral sertlik",
+          "Güneşe çık, koş ve zıpla",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Koşarken, zıplarken bütün yükü taşıyan iskeletimiz nasıl bu kadar güçlü? Bu bölümde kemiklerin görevlerini, kemik iliğini ve kalsiyum deposunu; kolajen ve kalsiyum fosfattan oluşan yapıyı, kompakt ve süngerimsi kemiği; osteoblast ve osteoklastları, büyüme plakalarını, eklemleri, bağları ve kirişleri keşfediyoruz. Kırık kemik nasıl iyileşir, kemikleri nasıl güçlü tutarız? Sonunda eklem dedektifi etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "İskelet",
+      "meaning": "Vücuttaki bütün kemiklerin oluşturduğu çatı."
+    },
+    {
+      "term": "Kemik iliği",
+      "meaning": "Kemiklerin içindeki, kan hücrelerinin yapıldığı yumuşak doku."
+    },
+    {
+      "term": "Kolajen",
+      "meaning": "Kemiğe esneklik veren protein."
+    },
+    {
+      "term": "Osteoblast",
+      "meaning": "Yeni kemik yapan hücre."
+    },
+    {
+      "term": "Osteoklast",
+      "meaning": "Eski kemiği yıkıp biçimlendiren hücre."
+    },
+    {
+      "term": "Büyüme plakası",
+      "meaning": "Çocukların kemiklerinde boy uzamasının olduğu bölge."
+    },
+    {
+      "term": "Eklem",
+      "meaning": "İki kemiğin buluştuğu yer."
+    },
+    {
+      "term": "Kallus",
+      "meaning": "Kırık kemiğin uçlarını birleştiren yeni doku."
+    }
+  ]
+}

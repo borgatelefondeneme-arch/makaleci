@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:kemiklerimiz-neden-guclu",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:kemiklerimiz-neden-guclu",
+    "title": "Kemiklerimiz neden güçlü?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-16",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-16T07:15:13.403Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-16T07:15:13.406Z",
+  "decidedAt": "2026-11-16T07:15:13.406Z"
+}

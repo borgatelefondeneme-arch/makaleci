@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 24,
+  "lastEpisodeNumber": 25,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -96,6 +96,10 @@
     "topic:kulagimiz-nasil-duyar": {
       "id": "2026-11-16-kulagimiz-nasil-duyar",
       "episodeNumber": 24
+    },
+    "topic:kemiklerimiz-neden-guclu": {
+      "id": "2026-11-16-kemiklerimiz-neden-guclu",
+      "episodeNumber": 25
     }
   }
 }

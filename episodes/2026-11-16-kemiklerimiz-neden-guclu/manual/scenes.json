@@ -1,0 +1,616 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kemiklerimiz neden güçlü?",
+    "emoji": "🦴"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🏃",
+    "🤸"
+   ],
+   "keywords": [
+    "",
+    "KENDİ KENDİNE İYİLEŞİR!",
+    "KEMİĞİN İÇİNE!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Kemikler ne işe yarar?",
+     "Neyden yapılmıştır?",
+     "Onları nasıl güçlü tutarız?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "İskeletin görevleri",
+    "emoji": "🦴",
+    "chips": [
+     {
+      "label": "Destek ve biçim",
+      "emoji": "🏛️"
+     },
+     {
+      "label": "Kafatası: beyni korur",
+      "emoji": "🧠"
+     },
+     {
+      "label": "Kaburgalar: kalp ve akciğer",
+      "emoji": "🫁"
+     },
+     {
+      "label": "Kaslarla hareket",
+      "emoji": "💪"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🛡️",
+    "🏃"
+   ],
+   "keywords": [
+    "DESTEK",
+    "KALKAN 🛡️",
+    "HAREKET"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Gizli görevler",
+    "left": {
+     "title": "Kemik iliği 🩸",
+     "items": [
+      "Kan hücrelerinin çoğu burada yapılır"
+     ]
+    },
+    "right": {
+     "title": "Kalsiyum deposu 🧱",
+     "items": [
+      "Gerekince kana kalsiyum verir"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🩸",
+    "🤖"
+   ],
+   "keywords": [
+    "KEMİK İLİĞİ",
+    "KALSİYUM DEPOSU",
+    "METAL İSKELET 🤖"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Bir kemiğin içi",
+    "rows": [
+     {
+      "label": "Kolajen çatı + kalsiyum fosfat",
+      "emoji": "🧱"
+     },
+     {
+      "label": "Kompakt kemik: sert dış",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Süngerimsi kemik: iç",
+      "emoji": "🧽"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2
+    ],
+    "highlightRow": 0,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "keywords": [
+    "KOLAJEN + MİNERAL",
+    "KOMPAKT KEMİK",
+    "SÜNGERİMSİ KEMİK"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kemik hep yenilenir",
+    "left": {
+     "title": "Osteoblast 🔨",
+     "items": [
+      "Yeni kemik yapar",
+      "Hasarı onarır"
+     ]
+    },
+    "right": {
+     "title": "Osteoklast 🧹",
+     "items": [
+      "Eski kemiği yıkar",
+      "Biçimlendirir"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🏗️",
+    "🦴"
+   ],
+   "keywords": [
+    "CANLI DOKU",
+    "YIKAN VE YAPAN"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Büyüme",
+    "emoji": "📏",
+    "chips": [
+     {
+      "label": "Büyüme plakaları",
+      "emoji": "🌱"
+     },
+     {
+      "label": "Kızlarda daha erken kapanır",
+      "emoji": "⏳"
+     },
+     {
+      "label": "Kafatası plakaları kaynaşır",
+      "emoji": "🧩"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "stickers": [
+    "📐",
+    "🧒"
+   ],
+   "keywords": [
+    "BÜYÜME PLAKASI",
+    "ERKEN KAPANIR",
+    "KAFATASI"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l20",
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Eklemler ve bağlantılar",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Eklem: iki kemik buluşur",
+      "emoji": "🦴"
+     },
+     {
+      "label": "Bağ: kemiği kemiğe",
+      "emoji": "🎗️"
+     },
+     {
+      "label": "Kiriş: kası kemiğe",
+      "emoji": "🪢"
+     },
+     {
+      "label": "Kıkırdak: korur",
+      "emoji": "🛡️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🦵",
+    "💪"
+   ],
+   "keywords": [
+    "EKLEM",
+    "BAĞ • KİRİŞ • KIKIRDAK",
+    "MENTEŞE EKLEM 🚪"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Güçlü kemik tarifi",
+    "label": "Güç",
+    "emoji": "🦴",
+    "phases": [
+     {
+      "label": "Güneş ışığı: D vitamini",
+      "level": 0.5,
+      "emoji": "☀️"
+     },
+     {
+      "label": "D vitamini kalsiyumu düzenler",
+      "level": 0.85,
+      "emoji": "🥛"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "☀️",
+    "🐟"
+   ],
+   "keywords": [
+    "D VİTAMİNİ ☀️",
+    "KALSİYUM"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l25"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "60",
+    "unit": "dakika",
+    "label": "Her gün hareket (6–17 yaş)",
+    "sub": "Kemik güçlendiren etkinlik: haftada en az 3 gün",
+    "icon": "🏃"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "⚽",
+    "🤸"
+   ],
+   "keywords": [
+    "HER GÜN HAREKET"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Kırık nasıl iyileşir?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Kırık",
+      "emoji": "💥"
+     },
+     {
+      "label": "Kallus oluşur",
+      "emoji": "🩹"
+     },
+     {
+      "label": "Haftalarca sertleşir",
+      "emoji": "🧱"
+     },
+     {
+      "label": "Birkaç ayda iyileşir",
+      "emoji": "✅"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🩼",
+    "🦴"
+   ],
+   "keywords": [
+    "ÇOK İYİ İYİLEŞİR",
+    "KALLUS 🩹"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: eklem dedektifi",
+    "items": [
+     "Kolunu bük ve aç",
+     "Bileğini döndür",
+     "Hangisi tek yönde?",
+     "Haftalık hareket tablosu tut"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8",
+    "f10"
+   ],
+   "stickers": [
+    "📓",
+    "🏃"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "HAFTADA ÜÇ GÜN"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Esnek çocuk kemikleri",
+    "emoji": "🧒",
+    "chips": [
+     {
+      "label": "Daha yumuşak",
+      "emoji": "🌿"
+     },
+     {
+      "label": "Kırılmaktan çok bükülür",
+      "emoji": "↪️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🦴",
+    "🌱"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Yeni kemik yapan hücrelerin adı ne?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🦴",
+    "🔨"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "OSTEOBLAST ✅"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l33"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s16",
+   "section": "summary",
+   "lineIds": [
+    "l34",
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}
