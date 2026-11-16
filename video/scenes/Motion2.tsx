@@ -126,8 +126,6 @@ export const Stages: React.FC<SceneProps<"stages">> = ({ visual, frame, dur }) =
             </div>
           );
         })}
-        {/* yükselen "z"ler */}
-        {[0, 1, 2].map((k) => { const tt = ((frame + k * 25) % 75) / 75; return <div key={k} style={{ position: "absolute", left: hx + 20 + tt * 40, top: hy - 40 - tt * 90, fontFamily: F.head, fontWeight: 800, fontSize: 30 + tt * 26, color: C.purple, opacity: (1 - tt) * 0.8 }}>z</div>; })}
       </div>
       {visual.note && <div style={{ fontFamily: F.body, fontSize: 24, color: C.dim, marginTop: 8 }}>{visual.note}</div>}
     </Stage>
