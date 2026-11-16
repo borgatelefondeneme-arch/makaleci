@@ -6,6 +6,9 @@ import { clamp } from "../anim";
 
 // Konuya özel sahneleme: arka plan dünyaları, ortamda gezen karakterler ve sahne efektleri.
 // Koyu dünyalarda (uzay, okyanus, yer altı, fırtına) içerik krem bir panonun üstünde durur; dünya çevresinde ve altında görünür.
+// Sakin mod (kullanıcı kararı: fazla hareket dikkati dağıtıyor): parçacık yoğunluğu ve arka plan hızı düşürüldü.
+export const CALM = { density: 0.45, speed: 0.6, ambientActors: 2, ambientEvery: 1.8, fx: 0.4 };
+const dn = (n: number) => Math.max(3, Math.round(n * CALM.density));
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
 export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
@@ -16,13 +19,13 @@ export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; gr
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
 
 export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
-  const f = useCurrentFrame();
+  const f = useCurrentFrame() * CALM.speed;
   if (name === "space") {
     return (
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #141B3A 0%, #252E63 55%, #4A3F7A 100%)", overflow: "hidden" }}>
         <div style={{ position: "absolute", left: -200, top: 200, width: 2400, height: 520, background: "radial-gradient(closest-side, rgba(190,170,255,0.28), transparent)", transform: "rotate(-14deg)" }} />
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          {Array.from({ length: 130 }, (_, i) => {
+          {Array.from({ length: dn(130) }, (_, i) => {
             const tw = 0.45 + 0.55 * Math.abs(Math.sin(f / (16 + rnd(i, 4) * 30) + i));
             return <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * H} r={1.4 + rnd(i, 3) * 3.4} fill={["#fff", "#FFE9B8", "#CFE0FF"][i % 3]} opacity={tw} />;
           })}
@@ -54,7 +57,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
             let d = `M 0 ${y0}`; for (let x = 0; x <= W; x += 60) d += ` L ${x} ${y0 + Math.sin(x / (170 + i * 40) + i * 2) * (10 + i * 2)}`;
             return <path key={i} d={d + ` V ${H} H 0 Z`} fill={col} />;
           })}
-          {Array.from({ length: 46 }, (_, i) => <ellipse key={i} cx={rnd(i, 1) * W} cy={170 + rnd(i, 2) * 900} rx={5 + rnd(i, 3) * 14} ry={4 + rnd(i, 4) * 9} fill="#5E4330" opacity={0.25} />)}
+          {Array.from({ length: dn(46) }, (_, i) => <ellipse key={i} cx={rnd(i, 1) * W} cy={170 + rnd(i, 2) * 900} rx={5 + rnd(i, 3) * 14} ry={4 + rnd(i, 4) * 9} fill="#5E4330" opacity={0.25} />)}
         </svg>
         {["🦴", "🐚", "🦷", "🐌", "🦴", "🐚", "🍂", "🦕"].map((e, i) => (
           <div key={i} style={{ position: "absolute", left: [30, 1780, 60, 1800, 1760, 40, 420, 1420][i], top: [250, 300, 520, 560, 800, 780, 960, 970][i], fontSize: 78, opacity: 0.5, fontFamily: F.head, filter: "grayscale(0.5) sepia(0.4)", transform: `rotate(${(i * 47) % 360 + Math.sin(f / 90 + i) * 4}deg)` }}>{e}</div>
@@ -67,7 +70,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #7FD0E8 0%, #2C8FB8 45%, #134B78 100%)", overflow: "hidden" }}>
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {[0, 1, 2, 3].map((k) => <path key={k} d={`M ${300 + k * 420} -20 L ${120 + k * 420 + Math.sin(f / 60 + k) * 60} ${H} L ${420 + k * 420 + Math.sin(f / 60 + k) * 60} ${H} Z`} fill="#fff" opacity={0.07} />)}
-          {Array.from({ length: 34 }, (_, i) => { const r = 6 + rnd(i, 3) * 20, y = ((rnd(i, 2) * H - f * (0.8 + rnd(i, 4) * 1.6)) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W + Math.sin(f / 30 + i) * 14} cy={y} r={r} fill="none" stroke="#fff" strokeWidth={3} opacity={0.35} />; })}
+          {Array.from({ length: dn(34) }, (_, i) => { const r = 6 + rnd(i, 3) * 20, y = ((rnd(i, 2) * H - f * (0.8 + rnd(i, 4) * 1.6)) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W + Math.sin(f / 30 + i) * 14} cy={y} r={r} fill="none" stroke="#fff" strokeWidth={3} opacity={0.35} />; })}
           {[0, 1].map((k) => { let d = `M 0 ${H}`; for (let x = 0; x <= W; x += 50) d += ` L ${x} ${H - 70 - k * 40 + Math.sin(x / 140 + k * 2 + f / 50) * 16}`; return <path key={k} d={d + ` L ${W} ${H} Z`} fill={["#E8D2A0", "#D6BC84"][k]} />; })}
         </svg>
         {["🌿", "🪸", "🌿", "🪸", "🐚"].map((e, i) => <div key={i} style={{ position: "absolute", left: [30, 150, 1700, 1810, 900][i], bottom: 30 + (i % 2) * 14, fontSize: 96, fontFamily: F.head, transformOrigin: "50% 100%", transform: `rotate(${Math.sin(f / 30 + i) * 8}deg)` }}>{e}</div>)}
@@ -77,9 +80,9 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
   if (name === "storm") {
     return (
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #3C4763 0%, #5C6B8C 55%, #8E9BB8 100%)", overflow: "hidden" }}>
-        {Array.from({ length: 9 }, (_, i) => <div key={i} style={{ position: "absolute", left: ((i * 290 + f * (0.5 + (i % 3) * 0.25)) % (W + 500)) - 300, top: [-20, 30, 0, 50, 10, 40, -10, 20, 60][i], fontSize: 190 + (i % 3) * 50, opacity: 0.85, fontFamily: F.head, filter: "brightness(0.78)" }}>☁️</div>)}
+        {Array.from({ length: dn(9) }, (_, i) => <div key={i} style={{ position: "absolute", left: ((i * 290 + f * (0.5 + (i % 3) * 0.25)) % (W + 500)) - 300, top: [-20, 30, 0, 50, 10, 40, -10, 20, 60][i], fontSize: 190 + (i % 3) * 50, opacity: 0.85, fontFamily: F.head, filter: "brightness(0.78)" }}>☁️</div>)}
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          {Array.from({ length: 90 }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
+          {Array.from({ length: dn(90) }, (_, i) => { const y = ((rnd(i, 2) * H + f * (16 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * (W + 200) - 100 - y * 0.12; return <line key={i} x1={x} y1={y} x2={x - 5} y2={y + 30} stroke="#DCE8FF" strokeWidth={3} strokeLinecap="round" opacity={0.4} />; })}
           <path d={`M 0 ${H} V 1010 Q 480 980 960 1004 T ${W} 996 V ${H} Z`} fill="#2E3A52" />
         </svg>
       </AbsoluteFill>
@@ -99,13 +102,13 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
               <rect x={-12} y={-50} width={24} height={50} fill="#6B4A32" />
             </g>
           ))}
-          {Array.from({ length: 110 }, (_, i) => {
+          {Array.from({ length: dn(110) }, (_, i) => {
             const sp = 0.8 + rnd(i, 3) * 2.2, r = 3 + rnd(i, 4) * 6;
             const y = ((rnd(i, 2) * H + f * sp) % (H + 40)) - 20, x = rnd(i, 1) * W + Math.sin(f / (30 + i % 20) + i) * 30;
             return <circle key={i} cx={x} cy={y} r={r} fill="#FFFFFF" opacity={0.85} />;
           })}
         </svg>
-        {Array.from({ length: 7 }, (_, i) => {
+        {Array.from({ length: dn(7) }, (_, i) => {
           const y = ((rnd(i, 7) * H + f * (0.7 + rnd(i, 8))) % (H + 120)) - 60;
           return <div key={i} style={{ position: "absolute", left: 80 + rnd(i, 9) * (W - 200), top: y, fontSize: 50 + rnd(i, 10) * 40, opacity: 0.7, fontFamily: F.head, transform: `rotate(${f * (0.5 + rnd(i, 11))}deg)` }}>❄️</div>;
         })}
@@ -117,14 +120,14 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
     return (
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #5FA8E8 0%, #A9D6F5 55%, #E6F4FD 100%)", overflow: "hidden" }}>
         <div style={{ position: "absolute", left: 1600, top: 40, width: 220, height: 220, borderRadius: "50%", background: "radial-gradient(closest-side, #FFF6C9, #FFE58A 55%, transparent)" }} />
-        {Array.from({ length: 14 }, (_, i) => {
+        {Array.from({ length: dn(14) }, (_, i) => {
           const layer = i % 3, sp = [0.7, 1.6, 3.2][layer], size = [110, 170, 260][layer];
           const x = ((rnd(i, 1) * (W + 600) - f * sp) % (W + 600) + W + 600) % (W + 600) - 300;
           const y = layer === 2 ? 800 + rnd(i, 2) * 200 : 60 + rnd(i, 2) * (layer ? 700 : 500);
           return <div key={i} style={{ position: "absolute", left: x, top: y, fontSize: size, lineHeight: 1, opacity: [0.55, 0.75, 0.95][layer], fontFamily: F.head }}>☁️</div>;
         })}
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          {Array.from({ length: 10 }, (_, i) => { const y = 120 + i * 90, x = ((rnd(i, 5) * W - f * 9) % (W + 300) + W + 300) % (W + 300) - 150; return <line key={i} x1={x} y1={y} x2={x + 140} y2={y} stroke="#fff" strokeWidth={3} strokeLinecap="round" opacity={0.35} />; })}
+          {Array.from({ length: dn(10) }, (_, i) => { const y = 120 + i * 90, x = ((rnd(i, 5) * W - f * 9) % (W + 300) + W + 300) % (W + 300) - 150; return <line key={i} x1={x} y1={y} x2={x + 140} y2={y} stroke="#fff" strokeWidth={3} strokeLinecap="round" opacity={0.35} />; })}
         </svg>
       </AbsoluteFill>
     );
@@ -134,7 +137,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
     return (
       <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 48%, #F2FBF6 0%, #DDF3E8 46%, #9CCDB8 47.5%, #38556A 49%, #24384A 100%)", overflow: "hidden" }}>
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          {Array.from({ length: 26 }, (_, i) => {
+          {Array.from({ length: dn(26) }, (_, i) => {
             const cx = W / 2 + Math.sin(f / (90 + i * 7) + i * 2.3) * 520 * rnd(i, 1) + (rnd(i, 2) - 0.5) * 300;
             const cy = H / 2 + Math.cos(f / (80 + i * 5) + i) * 330 * rnd(i, 3) + (rnd(i, 4) - 0.5) * 200;
             const k = i % 3, c = ["#7BC8A4", "#F3A6B6", "#A7B8F2"][k];
@@ -159,7 +162,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #0B1530 0%, #14284A 60%, #1E3A5C 100%)", overflow: "hidden" }}>
         <svg width={W} height={H} style={{ position: "absolute" }}>
           <defs>{["#3EE6A0", "#9B7BFF", "#5FD3FF"].map((c, k) => <linearGradient key={k} id={`au${k}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={c} stopOpacity={0} /><stop offset="0.45" stopColor={c} stopOpacity={0.9} /><stop offset="1" stopColor={c} stopOpacity={0} /></linearGradient>)}</defs>
-          {Array.from({ length: 90 }, (_, i) => <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * H * 0.8} r={1.2 + rnd(i, 3) * 2.6} fill="#fff" opacity={0.4 + 0.5 * Math.abs(Math.sin(f / (18 + rnd(i, 4) * 30) + i))} />)}
+          {Array.from({ length: dn(90) }, (_, i) => <circle key={i} cx={rnd(i, 1) * W} cy={rnd(i, 2) * H * 0.8} r={1.2 + rnd(i, 3) * 2.6} fill="#fff" opacity={0.4 + 0.5 * Math.abs(Math.sin(f / (18 + rnd(i, 4) * 30) + i))} />)}
           {curtain(40, 80, "", 70, 0)}{curtain(150, 60, "", 55, 1)}{curtain(90, 70, "", 85, 2)}
           <path d={`M 0 ${H} V 940 Q 300 880 640 930 T 1280 920 T ${W} 900 V ${H} Z`} fill="#E8F1FA" />
           <path d={`M 0 ${H} V 990 Q 500 950 1000 990 T ${W} 975 V ${H} Z`} fill="#CFE0F0" />
@@ -173,7 +176,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
     const row = (top: boolean) => (
       <svg width={W} height={260} style={{ position: "absolute", left: 0, [top ? "top" : "bottom"]: -40 + (top ? -chew : -chew) } as React.CSSProperties}>
         <path d={top ? `M 0 0 H ${W} V 120 Q ${W / 2} 210 0 120 Z` : `M 0 260 H ${W} V 140 Q ${W / 2} 50 0 140 Z`} fill="#E98A9C" />
-        {Array.from({ length: 14 }, (_, i) => {
+        {Array.from({ length: dn(14) }, (_, i) => {
           const x = 30 + i * 136, curve = Math.sin((i / 13) * Math.PI) * 60;
           const y = top ? 96 + curve : 150 - curve - 70;
           return <rect key={i} x={x} y={y} width={112} height={80} rx={30} fill="#FFFDF8" stroke="#F1E6D6" strokeWidth={4} />;
@@ -184,7 +187,7 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, #FFE3E8 0%, #F7B8C4 70%, #EE9AAB 100%)", overflow: "hidden" }}>
         {row(true)}{row(false)}
         <svg width={W} height={H} style={{ position: "absolute" }}>
-          {Array.from({ length: 18 }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
+          {Array.from({ length: dn(18) }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
         </svg>
       </AbsoluteFill>
     );
@@ -218,9 +221,9 @@ const Sprite: React.FC<{ emoji: string; x: number; y: number; size: number; righ
 export const Actors: React.FC<{ actors: Actor[]; t: number; ground: number; mode: "ambient" | "show"; beat?: number; energy?: number }> = ({ actors, t, ground, mode, beat = 15, energy = 1 }) => {
   const show = mode === "show";
   return (<>
-    {actors.map((a, i) => {
+    {(show ? actors : actors.slice(0, CALM.ambientActors)).map((a, i) => {
       const size = a.size ?? (show ? 210 : 104);
-      const period = Math.round((a.every ?? (show ? 9 : 14)) * 30);
+      const period = Math.round((a.every ?? (show ? 9 : 14)) * 30 * (show ? 1 : CALM.ambientEvery));
       const tt = ((t + i * 97) % period + period) % period;
       const dur = show ? Math.min(period, 250) : Math.min(period, 330);
       const p = tt / dur; // 0..1 geçiş; >1 ise sahne dışında
@@ -321,20 +324,20 @@ export const SceneEffect: React.FC<{ fx: string; frame: number; dur: number; bea
   if (fx === "erupt") {
     return (
       <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 0 }}>
-        {Array.from({ length: 26 }, (_, i) => { const q = ((frame * (1 + rnd(i, 1) * 0.6) + i * 11) % 60) / 60, vx = (rnd(i, 2) - 0.5) * 520; return <circle key={i} cx={W / 2 + vx * q} cy={900 - Math.sin(q * Math.PI) * (360 + rnd(i, 3) * 260) + q * 120} r={8 + rnd(i, 4) * 14} fill={["#E25D4E", "#F2B544", "#E08A55"][i % 3]} opacity={1 - q} />; })}
+        {Array.from({ length: Math.round(26 * CALM.fx) }, (_, i) => { const q = ((frame * (1 + rnd(i, 1) * 0.6) + i * 11) % 60) / 60, vx = (rnd(i, 2) - 0.5) * 520; return <circle key={i} cx={W / 2 + vx * q} cy={900 - Math.sin(q * Math.PI) * (360 + rnd(i, 3) * 260) + q * 120} r={8 + rnd(i, 4) * 14} fill={["#E25D4E", "#F2B544", "#E08A55"][i % 3]} opacity={1 - q} />; })}
       </svg>
     );
   }
   if (fx === "rain") {
     return (
       <svg width={W} height={H} style={{ position: "absolute", left: 0, top: 0 }}>
-        {Array.from({ length: 70 }, (_, i) => { const y = ((rnd(i, 2) * H + frame * (18 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * W; return <line key={i} x1={x} y1={y} x2={x - 6} y2={y + 34} stroke="#4F75B3" strokeWidth={4} strokeLinecap="round" opacity={0.35} />; })}
+        {Array.from({ length: Math.round(70 * CALM.fx) }, (_, i) => { const y = ((rnd(i, 2) * H + frame * (18 + rnd(i, 3) * 10)) % (H + 60)) - 30, x = rnd(i, 1) * W; return <line key={i} x1={x} y1={y} x2={x - 6} y2={y + 34} stroke="#4F75B3" strokeWidth={4} strokeLinecap="round" opacity={0.35} />; })}
       </svg>
     );
   }
   if (fx === "sparkle") {
     return (<>
-      {Array.from({ length: 16 }, (_, i) => { const q = ((frame + i * 13) % 50) / 50; return <div key={i} style={{ position: "absolute", left: 200 + rnd(i, 1) * (W - 400), top: 120 + rnd(i, 2) * 620, fontSize: 30 + rnd(i, 3) * 40, opacity: Math.sin(q * Math.PI), transform: `scale(${0.5 + q}) rotate(${q * 90}deg)`, fontFamily: F.head }}>✨</div>; })}
+      {Array.from({ length: Math.round(16 * CALM.fx) }, (_, i) => { const q = ((frame + i * 13) % 50) / 50; return <div key={i} style={{ position: "absolute", left: 200 + rnd(i, 1) * (W - 400), top: 120 + rnd(i, 2) * 620, fontSize: 30 + rnd(i, 3) * 40, opacity: Math.sin(q * Math.PI), transform: `scale(${0.5 + q}) rotate(${q * 90}deg)`, fontFamily: F.head }}>✨</div>; })}
     </>);
   }
   if (fx === "dig") {

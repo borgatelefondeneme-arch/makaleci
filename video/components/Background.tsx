@@ -7,10 +7,10 @@ import { DEFAULT_LOOK, Look } from "../look";
 // ışınlar ya da balonlar. Üstünde bölümün konu simgeleri soluk biçimde süzülür.
 const INK = ["#E08A55", "#4F75B3", "#7B6BD6", "#F2B544", "#17855A"];
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-const SHAPES = Array.from({ length: 26 }, (_, i) => ({ x: rnd(i, 1) * W, y: rnd(i, 2) * H, s: 10 + rnd(i, 3) * 22, sp: 0.2 + rnd(i, 4) * 0.45, ph: rnd(i, 5) * 6.28, c: INK[i % 5], kind: i % 3 }));
+const SHAPES = Array.from({ length: 12 }, (_, i) => ({ x: rnd(i, 1) * W, y: rnd(i, 2) * H, s: 10 + rnd(i, 3) * 22, sp: 0.2 + rnd(i, 4) * 0.45, ph: rnd(i, 5) * 6.28, c: INK[i % 5], kind: i % 3 }));
 
 export const Background: React.FC<{ look?: Look }> = ({ look = DEFAULT_LOOK }) => {
-  const f = useCurrentFrame();
+  const f = useCurrentFrame() * 0.6; // sakin mod
   const P = look.pastel;
   const blob = (cx: number, cy: number, r: number, color: string, k: number, o = 0.75) => (
     <div key={`b${k}`} style={{
@@ -79,7 +79,7 @@ export const Background: React.FC<{ look?: Look }> = ({ look = DEFAULT_LOOK }) =
     layer = (<>
       {blob(300, 860, 640, P[0], 0, 0.7)}{blob(1600, 240, 640, P[2], 2, 0.7)}
       <svg width={W} height={H} style={{ position: "absolute" }}>
-        {Array.from({ length: 30 }, (_, i) => {
+        {Array.from({ length: 14 }, (_, i) => {
           const r = 16 + rnd(i, 3) * 58, x = rnd(i, 1) * W + Math.sin(f / (50 + i * 3) + i) * 28, y = wrapY(rnd(i, 2) * H - f * (0.5 + rnd(i, 4) * 1.1));
           return <g key={i} opacity={0.2 + rnd(i, 5) * 0.16}><circle cx={x} cy={y} r={r} fill={P[i % 4]} stroke={INK[i % 5]} strokeWidth={3} /><circle cx={x - r * 0.35} cy={y - r * 0.35} r={r * 0.16} fill="#fff" /></g>;
         })}
@@ -90,7 +90,7 @@ export const Background: React.FC<{ look?: Look }> = ({ look = DEFAULT_LOOK }) =
     <AbsoluteFill style={{ background: `linear-gradient(160deg, ${C.bg} 0%, ${C.bg2} 100%)`, overflow: "hidden" }}>
       {layer}
       {/* konu simgeleri: soluk, yavaş süzülür; içerikle yarışmaz */}
-      {look.motifs.length > 0 && Array.from({ length: 9 }, (_, i) => {
+      {look.motifs.length > 0 && Array.from({ length: 4 }, (_, i) => {
         const size = 70 + rnd(i, 7) * 70;
         const x = rnd(i, 8) * (W - 160) + Math.sin(f / (70 + i * 9) + i * 2) * 40;
         const y = wrapY(rnd(i, 9) * H + (i % 2 ? 1 : -1) * f * (0.18 + rnd(i, 10) * 0.25));

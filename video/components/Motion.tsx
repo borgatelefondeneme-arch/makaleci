@@ -15,14 +15,14 @@ export const Stickers: React.FC<{ items: string[]; frame: number; beats: number[
   const slots = SLOTS.filter(([x, y]) => !avoid || Math.hypot(x + 43 - avoid.x, y + 43 - avoid.y) > 300);
   return (
   <>
-    {items.slice(0, slots.length).map((e, i) => {
+    {items.slice(0, Math.min(2, slots.length)).map((e, i) => {
       const [x, y] = slots[i];
       const p = pop(frame, 6 + i * 9, 8);
       const jump = beats.reduce((a, b, k) => a + (k % items.length === i ? kick(frame, b, 18) : 0), 0);
       return (
         <div key={i} style={{
-          position: "absolute", left: x, top: y + Math.sin(frame / (17 + i * 3) + i * 2) * 16 - jump * 46, fontSize: 86, lineHeight: 1, fontFamily: F.head, opacity: p * 0.95,
-          transform: `scale(${p * (1 + jump * 0.25)}) rotate(${Math.sin(frame / (23 + i * 4) + i) * 11 + jump * (i % 2 ? 14 : -14)}deg)`, filter: "drop-shadow(0 10px 14px rgba(27,34,56,0.14))",
+          position: "absolute", left: x, top: y + Math.sin(frame / (17 + i * 3) + i * 2) * 7 - jump * 16, fontSize: 86, lineHeight: 1, fontFamily: F.head, opacity: p * 0.8,
+          transform: `scale(${p * (1 + jump * 0.25)}) rotate(${Math.sin(frame / (23 + i * 4) + i) * 4 + jump * (i % 2 ? 5 : -5)}deg)`, filter: "drop-shadow(0 10px 14px rgba(27,34,56,0.14))",
         }}>{e}</div>
       );
     })}
@@ -55,7 +55,7 @@ export const Keyword: React.FC<{ words: string[]; beats: number[]; ends: number[
 // Soru sahnelerinde uçuşan soru işaretleri.
 export const QuestionMarks: React.FC<{ frame: number }> = ({ frame }) => (
   <>
-    {Array.from({ length: 9 }, (_, i) => {
+    {Array.from({ length: 4 }, (_, i) => {
       const r = (n: number) => { const x = Math.sin(i * 71.3 + n * 19.9) * 43758.5453; return x - Math.floor(x); };
       const y = H - ((frame * (1.2 + r(1) * 1.6) + r(2) * H) % (H + 200)) + 60;
       return <div key={i} style={{ position: "absolute", left: 80 + r(3) * (W - 240) + Math.sin(frame / 30 + i) * 30, top: y, fontFamily: F.head, fontWeight: 800, fontSize: 70 + r(4) * 90, color: ACCENTS[i % 4], opacity: 0.16, transform: `rotate(${Math.sin(frame / 25 + i) * 20}deg)` }}>?</div>;
