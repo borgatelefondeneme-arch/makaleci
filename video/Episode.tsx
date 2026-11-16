@@ -88,7 +88,9 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
   // Ara sahnelerde yalnızca kafa görünür: açılıştan sonra belirir, şarkıdan (yoksa kapanıştan) önce çekilir.
   const shift = lookOf(script.episodeNumber).cornerShift;
   const headOn = (i: number) => i < plan.scenes.length - 1 && plan.scenes[i].visual.type !== "song";
-  const headScenes = plan.scenes.map((_, i) => ({ startFrame: voice.scenes[i].startFrame, corner: cornerOf(i + shift) })).filter((_, i) => headOn(i));
+  // Evre sahnesinde etiketler sol kenara kadar uzanır; kafa sol üstte onları örtmesin.
+  const cornerAt = (i: number) => { const c = cornerOf(i + shift); return c === "tl" && plan.scenes[i].visual.type === "stages" ? "br" : c; };
+  const headScenes = plan.scenes.map((_, i) => ({ startFrame: voice.scenes[i].startFrame, corner: cornerAt(i) })).filter((_, i) => headOn(i));
   const headTo = voice.song ? voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.startFrame + voice.scenes.find((x) => x.sceneId === voice.song!.sceneId)!.lineEndFrames.slice(-1)[0] : lastV.startFrame - 8;
   const fadeOut = interpolate(f, [voice.totalFrames - 15, voice.totalFrames - 1], [1, 0], clamp);
   const look = lookOf(script.episodeNumber, script.song?.cast.map((c) => c.emoji) ?? plan.scenes[0]?.stickers ?? []);
@@ -114,7 +116,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
             <Sequence key={sc.id} from={v.startFrame} durationInFrames={v.durationFrames + (last ? 0 : XFADE)} name={`${sc.id} · ${sc.visual.type}`}>
               <SceneShell dur={v.durationFrames} last={last} index={i} look={look} fx={sc.fx} beats={v.lineStartFrames} camera={!last && sc.visual.type !== "song"}>
                 {(fr) => (<>
-                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerOf(i + shift)) : undefined} /> : null}
+                  {sc.stickers?.length ? <Stickers items={sc.stickers} frame={fr} beats={v.lineStartFrames} avoid={headOn(i) ? cornerCenter(cornerAt(i)) : undefined} /> : null}
                   <Comp visual={sc.visual} beats={v.lineStartFrames} dur={v.durationFrames} frame={fr} data={data} tail={last ? voice.outroTailFrames : 0} />
                   {sc.keywords?.length ? <Keyword words={sc.keywords} beats={v.lineStartFrames} ends={v.lineEndFrames} frame={fr} variant={look.keyword} /> : null}
                 </>)}
