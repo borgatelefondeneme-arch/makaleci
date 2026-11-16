@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Görünmez Koşucu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Güneş ısıtır ama eşit değil",
+          "start": 5.15,
+          "end": 9.18
+        },
+        {
+          "text": "Ilık hava yükselir, yer boşalır",
+          "start": 9.18,
+          "end": 13.2
+        },
+        {
+          "text": "Yüksek basınçtan alçağa doğru",
+          "start": 13.2,
+          "end": 16.92
+        },
+        {
+          "text": "Hava koşar, rüzgâr olur",
+          "start": 16.92,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Es rüzgâr, es, görünmez koşucu!",
+          "start": 20.17,
+          "end": 23.45
+        },
+        {
+          "text": "Gündüz denizden, gece karadan",
+          "start": 23.45,
+          "end": 26.73
+        },
+        {
+          "text": "Ekvator ısınır, kutuplar üşür",
+          "start": 26.73,
+          "end": 30.29
+        },
+        {
+          "text": "Dünya döner, yollar sapar",
+          "start": 30.29,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Alize doğudan, batı rüzgârı batıdan",
+          "start": 33.18,
+          "end": 37.66
+        },
+        {
+          "text": "Jet akımı yükseklerde hızlı",
+          "start": 37.66,
+          "end": 41.03
+        },
+        {
+          "text": "Beaufort sıfırdan on ikiye sayar",
+          "start": 41.03,
+          "end": 45.23
+        },
+        {
+          "text": "Türbin döner, ışık yanar",
+          "start": 45.23,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Es rüzgâr, es, görünmez koşucu!",
+          "start": 48.19,
+          "end": 51.62
+        },
+        {
+          "text": "Gündüz denizden, gece karadan",
+          "start": 51.62,
+          "end": 55.05
+        },
+        {
+          "text": "Pencereden bak, ağaçları say",
+          "start": 55.05,
+          "end": 58.48
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.48,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

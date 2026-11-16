@@ -1,0 +1,607 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Rüzgâr nasıl oluşur?",
+    "emoji": "🌬️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🪁",
+    "🍃"
+   ],
+   "keywords": [
+    "",
+    "BAZEN HAFİF, BAZEN SERT",
+    "GÖRÜNMEZ HAVA!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Rüzgârı ne oluşturur?",
+     "Neden belirli yönlerde eser?",
+     "Rüzgârı nasıl ölçeriz?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Rüzgâr nasıl başlar?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Güneş eşit ısıtmaz",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Ilık hava yükselir",
+      "emoji": "⬆️"
+     },
+     {
+      "label": "Alçak basınç",
+      "emoji": "🔵"
+     },
+     {
+      "label": "Hava yüksekten alçağa akar",
+      "emoji": "🌬️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2",
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🌡️",
+    "🍃"
+   ],
+   "keywords": [
+    "EŞİT OLMAYAN ISINMA",
+    "ALÇAK BASINÇ",
+    "YÜKSEKTEN ALÇAĞA"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Pil",
+    "label": "Muma rüzgârla değil, pille çalışır",
+    "sub": "Ama koşuşturmayı sever",
+    "icon": "🔋"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🤖",
+    "🍃"
+   ],
+   "keywords": [
+    "PİLLE ÇALIŞIRIM 😅"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l10",
+    "l11",
+    "l12"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kıyıda meltemler",
+    "left": {
+     "title": "Gündüz ☀️",
+     "items": [
+      "Kara çabuk ısınır",
+      "Deniz meltemi: denizden karaya"
+     ]
+    },
+    "right": {
+     "title": "Gece 🌙",
+     "items": [
+      "Kara daha çok soğur",
+      "Kara meltemi: karadan denize"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "stickers": [
+    "🌊",
+    "🏖️"
+   ],
+   "keywords": [
+    "KARA VE DENİZ",
+    "DENİZ MELTEMİ",
+    "KARA MELTEMİ"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Dünya çapında dolaşım",
+    "layout": "cycle",
+    "nodes": [
+     {
+      "label": "Ekvator: ılık hava yükselir",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Kutuplara gider",
+      "emoji": "❄️"
+     },
+     {
+      "label": "Serin hava geri akar",
+      "emoji": "🌬️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🌍",
+    "🧭"
+   ],
+   "keywords": [
+    "EKVATOR EN SICAK",
+    "BÜYÜK DOLAŞIM 🔄"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Dönen Dünya",
+    "emoji": "🌍",
+    "chips": [
+     {
+      "label": "Coriolis etkisi",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Havanın yolu sapar",
+      "emoji": "↪️"
+     },
+     {
+      "label": "Her yarım kürede üç dolaşım",
+      "emoji": "🔄"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🧭",
+    "🔄"
+   ],
+   "keywords": [
+    "CORIOLIS 🌀",
+    "ÜÇ DOLAŞIM"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Hâkim rüzgârlar ve jet akımları",
+    "left": {
+     "title": "Alçakta 🌴",
+     "items": [
+      "Alize: tropiklerde doğudan",
+      "Batı rüzgârları: orta enlemler"
+     ]
+    },
+    "right": {
+     "title": "Yüksekte ✈️",
+     "items": [
+      "Jet akımları",
+      "Saatte 480 km'ye kadar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8",
+    "f9"
+   ],
+   "stickers": [
+    "🌬️",
+    "✈️"
+   ],
+   "keywords": [
+    "ALİZE RÜZGÂRLARI",
+    "JET AKIMI ✈️"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Rüzgârı ölçmek",
+    "emoji": "📏",
+    "chips": [
+     {
+      "label": "Anemometre: hız",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Rüzgâr gülü: yön",
+      "emoji": "🧭"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10",
+    "f11"
+   ],
+   "stickers": [
+    "🌬️",
+    "📐"
+   ],
+   "keywords": [
+    "ANEMOMETRE • RÜZGÂR GÜLÜ",
+    "1805: BEAUFORT"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Beaufort ölçeği",
+    "rows": [
+     {
+      "label": "0: duman dümdüz yükselir",
+      "emoji": "💨"
+     },
+     {
+      "label": "3: yapraklar kıpırdar",
+      "emoji": "🍃"
+     },
+     {
+      "label": "7: ağaçlar sallanır",
+      "emoji": "🌳"
+     },
+     {
+      "label": "10: ağaçlar sökülür",
+      "emoji": "⚠️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 1,
+    "note": "Şematik çizim: ölçek 0'dan 12'ye kadar gider."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f12"
+   ],
+   "keywords": [
+    "0'DAN 12'YE",
+    "AĞAÇLAR SALLANIR",
+    "DIŞARI ÇIKMA ⚠️"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Rüzgârdan elektrik",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Rüzgâr",
+      "emoji": "🌬️"
+     },
+     {
+      "label": "Kanatlar döner",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Jeneratör",
+      "emoji": "⚙️"
+     },
+     {
+      "label": "Elektrik",
+      "emoji": "💡"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🔋",
+    "🏭"
+   ],
+   "keywords": [
+    "RÜZGÂR TÜRBİNİ",
+    "YENİLENEBİLİR ♻️"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: rüzgâr gözlemcisi",
+    "items": [
+     "Bir hafta, her gün pencereden bak",
+     "Ağaç, yaprak, bayrak ne yapıyor?",
+     "Beaufort sayısı ver",
+     "En rüzgârlı gün hangisi?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f12"
+   ],
+   "stickers": [
+    "📓",
+    "🪟"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "TABLO TUT 📓"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Görünmez",
+    "label": "Ama kuvvetini hep hissedersin",
+    "sub": "National Geographic",
+    "icon": "🌬️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🍃",
+    "🪁"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l29",
+    "l30"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Gündüz denizden karaya esen rüzgârın adı ne?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "stickers": [
+    "🌊",
+    "🏖️"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "DENİZ MELTEMİ ✅"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l31"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s16",
+   "section": "summary",
+   "lineIds": [
+    "l32",
+    "l33",
+    "l34"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

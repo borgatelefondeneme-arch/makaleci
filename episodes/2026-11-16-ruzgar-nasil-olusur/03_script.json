@@ -1,0 +1,473 @@
+{
+  "paperId": "topic:ruzgar-nasil-olusur",
+  "episodeNumber": 26,
+  "videoTitle": "Rüzgâr nasıl oluşur?",
+  "paperTitleTr": "Rüzgâr nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Saçlarını uçuran, uçurtmanı göğe çıkaran, ağaçları sallayan bir güç var. Ama onu hiç göremiyorsun!",
+          "spoken": "Saçlarını uçuran, uçurtmanı göğe çıkaran, ağaçları sallayan bir güç var. Ama onu hiç göremiyorsun!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Rüzgâr nereden gelir? Ve neden bazen hafif, bazen çok sert eser?",
+          "spoken": "Rüzgâr nereden gelir? Ve neden bazen hafif, bazen çok sert eser?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün görünmez havanın izini sürüyoruz!",
+          "spoken": "Bugün görünmez havanın izini sürüyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Rüzgârı ne oluşturur? Neden belirli yönlerde eser? Ve rüzgârı nasıl ölçeriz?",
+          "spoken": "Üç sorumuz var. Rüzgârı ne oluşturur? Neden belirli yönlerde eser? Ve rüzgârı nasıl ölçeriz?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre rüzgâr, Güneş'in Dünya'yı eşit olmayan biçimde ısıtmasıyla oluşan hava hareketidir.",
+          "spoken": "Neşınıl Ciyografik'e göre rüzgâr, Güneş'in Dünya'yı eşit olmayan biçimde ısıtmasıyla oluşan hava hareketidir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Hava ısınınca yoğunluğu azalır ve yükselir. Yerinde alçak basınçlı bir bölge kalır.",
+          "spoken": "Hava ısınınca yoğunluğu azalır ve yükselir. Yerinde alçak basınçlı bir bölge kalır.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Rüzgâr ise genellikle yüksek basınçlı bölgelerden alçak basınçlı bölgelere doğru eser. Hava, boşluğu doldurmak için koşar!",
+          "spoken": "Rüzgâr ise genellikle yüksek basınçlı bölgelerden alçak basınçlı bölgelere doğru eser. Hava, boşluğu doldurmak için koşar!",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Bu kadar koşuşturma bana da lazım. Ama ben rüzgârla değil, pille çalışıyorum!",
+          "spoken": "Bu kadar koşuşturma bana da lazım. Ama ben rüzgârla değil, pille çalışıyorum!",
+          "factIds": []
+        },
+        {
+          "id": "l10",
+          "display": "Bunu kıyıda her gün görebilirsin. NOAA'ya göre kara, gündüz ile gece arasında denizden çok daha fazla ısınıp soğur.",
+          "spoken": "Bunu kıyıda her gün görebilirsin. Noa'ya göre kara, gündüz ile gece arasında denizden çok daha fazla ısınıp soğur.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Gündüz karadaki ılık hava yükselir; denizdeki serin hava karaya doğru akar. Buna deniz meltemi denir.",
+          "spoken": "Gündüz karadaki ılık hava yükselir; denizdeki serin hava karaya doğru akar. Buna deniz meltemi denir.",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Gece ise kara denizden daha çok soğur ve rüzgâr tersine döner: kara meltemi.",
+          "spoken": "Gece ise kara denizden daha çok soğur ve rüzgâr tersine döner: kara meltemi.",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l13",
+          "display": "Aynı şey bütün dünyada olur. Ekvator, dünyanın geri kalanından daha çok ısınır.",
+          "spoken": "Aynı şey bütün dünyada olur. Ekvator, dünyanın geri kalanından daha çok ısınır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Ekvator'daki ılık hava yükselir ve kutuplara doğru gider. Daha serin, yoğun hava da yeryüzünde Ekvator'a doğru akıp onun yerini alır.",
+          "spoken": "Ekvator'daki ılık hava yükselir ve kutuplara doğru gider. Daha serin, yoğun hava da yeryüzünde Ekvator'a doğru akıp onun yerini alır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Ama Dünya döner! Bu dönüş, havanın yolunu saptırır. Buna Coriolis etkisi denir.",
+          "spoken": "Ama Dünya döner! Bu dönüş, havanın yolunu saptırır. Buna Koryolis etkisi denir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Bu yüzden her yarım kürede tek büyük dolaşım yerine üç ayrı dolaşım oluşur.",
+          "spoken": "Bu yüzden her yarım kürede tek büyük dolaşım yerine üç ayrı dolaşım oluşur.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Hâkim rüzgârlar da çoğunlukla doğu-batı yönünde eser. Tropiklerde doğudan esen güçlü rüzgârlara alize denir. Orta enlemlerde ise batı rüzgârları eser.",
+          "spoken": "Hâkim rüzgârlar da çoğunlukla doğu-batı yönünde eser. Tropiklerde doğudan esen güçlü rüzgârlara alize denir. Orta enlemlerde ise batı rüzgârları eser.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Yukarılarda daha da hızlıları var: jet akımları. Bu güçlü rüzgârlar saatte 480 kilometreye kadar esebilir!",
+          "spoken": "Yukarılarda daha da hızlıları var: jet akımları. Bu güçlü rüzgârlar saatte dört yüz seksen kilometreye kadar esebilir!",
+          "factIds": [
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l19",
+          "display": "Peki rüzgârı nasıl ölçeriz? Hızını anemometre ölçer. Yönünü ise rüzgâr gülü gösterir.",
+          "spoken": "Peki rüzgârı nasıl ölçeriz? Hızını anemometre ölçer. Yönünü ise rüzgâr gülü gösterir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Aletin yoksa gözlerin yeter! 1805'te Amiral Francis Beaufort, denizcilerin rüzgârı gözle tahmin etmesi için bir ölçek geliştirdi.",
+          "spoken": "Aletin yoksa gözlerin yeter! Bin sekiz yüz beşte Amiral Frensis Bofort, denizcilerin rüzgârı gözle tahmin etmesi için bir ölçek geliştirdi.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Ölçek 0'dan 12'ye kadar gider. 0'da hava sakindir ve duman dümdüz yükselir.",
+          "spoken": "Ölçek sıfırdan on ikiye kadar gider. Sıfırda hava sakindir ve duman dümdüz yükselir.",
+          "factIds": [
+            "f11",
+            "f12"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "3'te yapraklar ve ince dallar sürekli kıpırdar, hafif bir bayrak açılır. 7'de bütün ağaçlar sallanır ve rüzgâra karşı yürümek zorlaşır.",
+          "spoken": "Üçte yapraklar ve ince dallar sürekli kıpırdar, hafif bir bayrak açılır. Yedide bütün ağaçlar sallanır ve rüzgâra karşı yürümek zorlaşır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "10'da ise ağaçlar kökünden sökülebilir. Böyle havalarda dışarı çıkmamak gerekir.",
+          "spoken": "Onda ise ağaçlar kökünden sökülebilir. Böyle havalarda dışarı çıkmamak gerekir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Rüzgâr bir enerji kaynağıdır da. Rüzgâr türbinlerinin kanatlarını çevirir; kanatlar bir jeneratörü döndürür ve elektrik üretilir.",
+          "spoken": "Rüzgâr bir enerji kaynağıdır da. Rüzgâr türbinlerinin kanatlarını çevirir; kanatlar bir jeneratörü döndürür ve elektrik üretilir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Rüzgâr, doğrudan kirlilik yaratmayan, yenilenebilir bir kaynaktır. Yükseklerde daha hızlı estiği için türbin kuleleri uzun yapılır.",
+          "spoken": "Rüzgâr, doğrudan kirlilik yaratmayan, yenilenebilir bir kaynaktır. Yükseklerde daha hızlı estiği için türbin kuleleri uzun yapılır.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Şimdi sıra sende! Bir hafta boyunca her gün pencereden dışarı bak: ağaçlar, yapraklar, bayraklar ne yapıyor?",
+          "spoken": "Şimdi sıra sende! Bir hafta boyunca her gün pencereden dışarı bak: ağaçlar, yapraklar, bayraklar ne yapıyor?",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Beaufort ölçeğine göre o günün rüzgârına bir sayı ver ve tabloya yaz. En rüzgârlı gün hangisiydi?",
+          "spoken": "Beaufort ölçeğine göre o günün rüzgârına bir sayı ver ve tabloya yaz. En rüzgârlı gün hangisiydi?",
+          "factIds": [
+            "f11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l28",
+          "display": "Bunu biliyor muydun? Rüzgârı göremez ya da tutamazsın, ama kuvvetini her zaman hissedebilirsin.",
+          "spoken": "Bunu biliyor muydun? Rüzgârı göremez ya da tutamazsın, ama kuvvetini her zaman hissedebilirsin.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Hızlı soru! Gündüz denizden karaya esen rüzgârın adı nedir?",
+          "spoken": "Hızlı soru! Gündüz denizden karaya esen rüzgârın adı nedir?",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Düşün bakalım... Evet: deniz meltemi!",
+          "spoken": "Düşün bakalım... Evet: deniz meltemi!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l32",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Abone olmayı ve zili açmayı unutma.",
+          "spoken": "Abone olmayı ve zili açmayı unutma.",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Rüzgâr, Güneş'in Dünya'yı eşit ısıtmamasından doğar",
+    "Hava yüksek basınçtan alçak basınca akar; Dünya'nın dönüşü yolunu saptırır",
+    "Rüzgâr anemometreyle ve Beaufort ölçeğiyle ölçülür"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "sky",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🪁",
+        "every": 26
+      }
+    ]
+  },
+  "song": {
+    "title": "Görünmez Koşucu",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "🌬️",
+        "name": "Rüzgâr"
+      },
+      {
+        "emoji": "🌊",
+        "name": "Deniz"
+      },
+      {
+        "emoji": "🌍",
+        "name": "Dünya"
+      },
+      {
+        "emoji": "🌀",
+        "name": "Türbin"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "🪁",
+        "size": 220,
+        "every": 7
+      },
+      {
+        "kind": "fly",
+        "emoji": "🍃",
+        "every": 6
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌀"
+      },
+      {
+        "kind": "hop",
+        "emoji": "⛵"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Güneş ısıtır ama eşit değil",
+          "Ilık hava yükselir, yer boşalır",
+          "Yüksek basınçtan alçağa doğru",
+          "Hava koşar, rüzgâr olur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Es rüzgâr, es, görünmez koşucu!",
+          "Gündüz denizden, gece karadan",
+          "Ekvator ısınır, kutuplar üşür",
+          "Dünya döner, yollar sapar"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Alize doğudan, batı rüzgârı batıdan",
+          "Jet akımı yükseklerde hızlı",
+          "Beaufort sıfırdan on ikiye sayar",
+          "Türbin döner, ışık yanar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Es rüzgâr, es, görünmez koşucu!",
+          "Gündüz denizden, gece karadan",
+          "Pencereden bak, ağaçları say",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Göremediğimiz rüzgâr nereden gelir? Bu bölümde Güneş'in Dünya'yı eşit ısıtmamasını, ısınan havanın yükselmesini ve basınç farklarını; deniz ve kara meltemlerini, Ekvator'dan kutuplara uzanan dolaşımı, Coriolis etkisini, alize rüzgârlarını ve jet akımlarını keşfediyoruz. Rüzgârı nasıl ölçeriz, Beaufort ölçeği nedir, rüzgârdan nasıl elektrik üretilir? Sonunda rüzgâr gözlemcisi etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Hava basıncı",
+      "meaning": "Havanın bir yüzeye uyguladığı itme."
+    },
+    {
+      "term": "Yoğunluk",
+      "meaning": "Bir maddenin belirli bir hacimdeki kütlesi; ılık hava daha az yoğundur."
+    },
+    {
+      "term": "Meltem",
+      "meaning": "Kıyıda kara ile deniz arasında esen hafif rüzgâr."
+    },
+    {
+      "term": "Coriolis etkisi",
+      "meaning": "Dünya'nın dönmesinin rüzgârların yolunu saptırması."
+    },
+    {
+      "term": "Alize",
+      "meaning": "Tropiklerde doğudan esen düzenli, güçlü rüzgâr."
+    },
+    {
+      "term": "Jet akımı",
+      "meaning": "Atmosferin üst kısmında esen çok hızlı rüzgâr."
+    },
+    {
+      "term": "Anemometre",
+      "meaning": "Rüzgâr hızını ölçen alet."
+    },
+    {
+      "term": "Beaufort ölçeği",
+      "meaning": "Rüzgârın gücünü 0'dan 12'ye kadar gözle tahmin etmeye yarayan ölçek."
+    }
+  ]
+}
