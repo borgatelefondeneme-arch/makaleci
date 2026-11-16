@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 22,
+  "lastEpisodeNumber": 23,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -88,6 +88,10 @@
     "topic:kar-taneleri-nasil-olusur": {
       "id": "2026-11-13-kar-taneleri-nasil-olusur",
       "episodeNumber": 22
+    },
+    "topic:gunes-sistemi-nde-hangi-gezegenler-var": {
+      "id": "2026-11-16-gunes-sistemi-nde-hangi-gezegenler-var",
+      "episodeNumber": 23
     }
   }
 }

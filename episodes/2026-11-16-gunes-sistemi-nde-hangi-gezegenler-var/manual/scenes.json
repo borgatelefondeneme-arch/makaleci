@@ -1,0 +1,691 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Güneş Sistemi'nde hangi gezegenler var?",
+    "emoji": "🪐"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f7",
+    "f10"
+   ],
+   "stickers": [
+    "☀️",
+    "🌍"
+   ],
+   "keywords": [
+    "",
+    "SEKİZ DÜNYA",
+    "TURA ÇIKIYORUZ!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Güneş Sistemi nasıl oluştu?",
+     "Bir cisme ne zaman gezegen denir?",
+     "Her gezegeni özel yapan nedir?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Güneş Sistemi",
+    "emoji": "☀️",
+    "chips": [
+     {
+      "label": "Bir yıldız",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Sekiz gezegen",
+      "emoji": "🪐"
+     },
+     {
+      "label": "Beş cüce gezegen",
+      "emoji": "⚪"
+     },
+     {
+      "label": "Yüzlerce uydu",
+      "emoji": "🌙"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "🔭",
+    "✨"
+   ],
+   "keywords": [
+    "GÜNEŞ SİSTEMİ"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Nasıl oluştu?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Gaz ve toz bulutu",
+      "emoji": "☁️"
+     },
+     {
+      "label": "Çöker, dönen disk olur",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Güneş: maddenin %99'undan fazlası",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Geriye kalanlar: gezegenler",
+      "emoji": "🪐"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "⏳",
+    "🌌"
+   ],
+   "keywords": [
+    "4,6 MİLYAR YIL",
+    "GÜNEŞ DOĞDU ☀️"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Gezegen olmanın üç şartı",
+    "items": [
+     "Güneş'in çevresinde dolanmak",
+     "Kütle çekimiyle yuvarlak olmak",
+     "Yörüngesini temizlemiş olmak",
+     "Plüton: 2006'dan beri cüce gezegen"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "⚪",
+    "🤖"
+   ],
+   "keywords": [
+    "ÜÇ ŞART",
+    "PLÜTON: CÜCE GEZEGEN",
+    "SINIFA SIĞMIYORUM 😅"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l12"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Karasal gezegenler",
+    "emoji": "🪨",
+    "chips": [
+     {
+      "label": "İlk dört gezegen",
+      "emoji": "4️⃣"
+     },
+     {
+      "label": "Katı yüzey",
+      "emoji": "🧱"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🌍",
+    "🔴"
+   ],
+   "keywords": [
+    "KARASAL GEZEGENLER"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l13",
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İlk iki gezegen",
+    "left": {
+     "title": "Merkür ☿️",
+     "items": [
+      "Güneş'e en yakın",
+      "En küçük"
+     ]
+    },
+    "right": {
+     "title": "Venüs 🔥",
+     "items": [
+      "En sıcak: yaklaşık 467°C",
+      "Kalın karbondioksit atmosfer",
+      "Tersi yönde, yavaş döner"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "keywords": [
+    "MERKÜR",
+    "VENÜS 🔥",
+    "TERS DÖNÜŞ 🔄"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l16"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Dünya",
+    "label": "Şimdiye kadar yaşam bulunan tek yer",
+    "sub": "Güneş'ten üçüncü gezegen",
+    "icon": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🌱",
+    "💧"
+   ],
+   "keywords": [
+    "EVİMİZ 🌍"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kırmızı gezegen: Mars",
+    "emoji": "🔴",
+    "chips": [
+     {
+      "label": "Kırmızı: demir paslanması",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Olympus Mons: en büyük yanardağ",
+      "emoji": "🌋"
+     },
+     {
+      "label": "İki küçük uydu",
+      "emoji": "🌑"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🤖",
+    "🛰️"
+   ],
+   "keywords": [
+    "MARS 🔴",
+    "PAS KARDEŞİ 😅"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "finding",
+   "lineIds": [
+    "l19"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Asteroit kuşağı",
+    "label": "Kaya parçaları",
+    "emoji": "☄️",
+    "phases": [
+     {
+      "label": "Mars ile Jüpiter arasında",
+      "level": 0.5,
+      "emoji": "🪨"
+     },
+     {
+      "label": "En büyüğü: Ceres",
+      "level": 0.85,
+      "emoji": "⚪"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🪨",
+    "🔭"
+   ],
+   "keywords": [
+    "ASTEROİT KUŞAĞI"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l20",
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Dev Jüpiter",
+    "left": {
+     "title": "Boyut 🏀",
+     "items": [
+      "İçine 1.000 Dünya sığar",
+      "Dünya üzüm ise Jüpiter basketbol topu"
+     ]
+    },
+    "right": {
+     "title": "Özellikler 🌀",
+     "items": [
+      "Büyük Kırmızı Leke: dev fırtına",
+      "115 resmî uydu"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f10"
+   ],
+   "stickers": [
+    "🍇",
+    "🏀"
+   ],
+   "keywords": [
+    "GAZ VE BUZ DEVLERİ",
+    "1.000 DÜNYA!",
+    "BÜYÜK KIRMIZI LEKE"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Halkalı Satürn",
+    "emoji": "🪐",
+    "chips": [
+     {
+      "label": "Halkalar: buz ve kaya parçaları",
+      "emoji": "🧊"
+     },
+     {
+      "label": "Yoğunluğu sudan az",
+      "emoji": "💧"
+     },
+     {
+      "label": "274 uydu (Mart 2025)",
+      "emoji": "🌙"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "✨",
+    "🌌"
+   ],
+   "keywords": [
+    "HALKALAR",
+    "274 UYDU 🌙"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Güneş ışığının yolculuğu",
+    "rows": [
+     {
+      "label": "Dünya: yaklaşık sekiz dakika",
+      "emoji": "🌍"
+     },
+     {
+      "label": "Mars: 13 dakika",
+      "emoji": "🔴"
+     },
+     {
+      "label": "Jüpiter: 43 dakika",
+      "emoji": "🟠"
+     },
+     {
+      "label": "Satürn: 80 dakika",
+      "emoji": "🪐"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 3,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12",
+    "f13"
+   ],
+   "keywords": [
+    "URANÜS • NEPTÜN",
+    "IŞIĞIN YOLCULUĞU ☀️"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Sen de dene: gezegen sırası",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Sekiz kâğıt",
+      "emoji": "📄"
+     },
+     {
+      "label": "Gezegen adlarını yaz",
+      "emoji": "✏️"
+     },
+     {
+      "label": "Sırayla yere diz",
+      "emoji": "👣"
+     },
+     {
+      "label": "Adımları karşılaştır",
+      "emoji": "📏"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f13"
+   ],
+   "stickers": [
+    "🪐",
+    "📓"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "DIŞ GEZEGENLER UZAK"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "150 milyon",
+    "unit": "km",
+    "label": "Bir astronomik birim: Güneş–Dünya uzaklığı",
+    "sub": "NASA",
+    "icon": "📏"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "☀️",
+    "🌍"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "En sıcak gezegen hangisi?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "stickers": [
+    "🔥",
+    "🪐"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "VENÜS ✅"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "limitations",
+   "lineIds": [
+    "l32"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s18",
+   "section": "summary",
+   "lineIds": [
+    "l33",
+    "l34",
+    "l35"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

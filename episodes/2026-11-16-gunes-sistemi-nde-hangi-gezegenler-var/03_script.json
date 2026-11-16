@@ -1,0 +1,477 @@
+{
+  "paperId": "topic:gunes-sistemi-nde-hangi-gezegenler-var",
+  "episodeNumber": 23,
+  "videoTitle": "Güneş Sistemi'nde hangi gezegenler var?",
+  "paperTitleTr": "Güneş Sistemi'nde hangi gezegenler var?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Güneş'in çevresinde dönen sekiz dünya düşün: biri kurşunu eritecek kadar sıcak, biri bin Dünya'yı içine alacak kadar büyük!",
+          "spoken": "Güneş'in çevresinde dönen sekiz dünya düşün: biri kurşunu eritecek kadar sıcak, biri bin Dünya'yı içine alacak kadar büyük!",
+          "factIds": [
+            "f3",
+            "f7",
+            "f10"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bu gezegenler nasıl oluştu? Ve onları birbirinden ne ayırıyor?",
+          "spoken": "Bu gezegenler nasıl oluştu? Ve onları birbirinden ne ayırıyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün Güneş Sistemi'nde bir tura çıkıyoruz!",
+          "spoken": "Bugün Güneş Sistemi'nde bir tura çıkıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Güneş Sistemi nasıl oluştu? Bir cisme ne zaman gezegen denir? Ve her gezegeni özel yapan nedir?",
+          "spoken": "Üç sorumuz var. Güneş Sistemi nasıl oluştu? Bir cisme ne zaman gezegen denir? Ve her gezegeni özel yapan nedir?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "NASA'ya göre Güneş Sistemi'nde bir yıldız, sekiz gezegen, beş cüce gezegen, yüzlerce uydu ve binlerce kuyruklu yıldız ile asteroit var.",
+          "spoken": "Nasa'ya göre Güneş Sistemi'nde bir yıldız, sekiz gezegen, beş cüce gezegen, yüzlerce uydu ve binlerce kuyruklu yıldız ile asteroit var.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Hepsi yaklaşık 4,6 milyar yıl önce, yoğun bir gaz ve toz bulutundan oluştu. Bulut çöktü ve dönen bir diske dönüştü.",
+          "spoken": "Hepsi yaklaşık dört virgül altı milyar yıl önce, yoğun bir gaz ve toz bulutundan oluştu. Bulut çöktü ve dönen bir diske dönüştü.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Merkezde Güneş doğdu ve maddenin %99'undan fazlasını topladı. Gezegenlere geriye kalanlar düştü.",
+          "spoken": "Merkezde Güneş doğdu ve maddenin yüzde doksan dokuzundan fazlasını topladı. Gezegenlere geriye kalanlar düştü.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Peki bir cisme ne zaman gezegen denir? Üç şartı var: Güneş'in çevresinde dolanacak, kütle çekimi onu top gibi yuvarlak yapacak ve yörüngesinin çevresini temizlemiş olacak.",
+          "spoken": "Peki bir cisme ne zaman gezegen denir? Üç şartı var: Güneş'in çevresinde dolanacak, kütle çekimi onu top gibi yuvarlak yapacak ve yörüngesinin çevresini temizlemiş olacak.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Plüton üçüncü şartı karşılayamadı; bu yüzden 2006'da cüce gezegen olarak yeniden sınıflandırıldı.",
+          "spoken": "Plüton üçüncü şartı karşılayamadı; bu yüzden iki bin altıda cüce gezegen olarak yeniden sınıflandırıldı.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Plüton'a üzülme. Ben de hiçbir sınıfa sığmıyorum: ne insanım ne bilgisayar!",
+          "spoken": "Plüton'a üzülme. Ben de hiçbir sınıfa sığmıyorum: ne insanım ne bilgisayar!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Şimdi tura başlıyoruz. İlk dört gezegen karasal gezegenlerdir; çünkü katı yüzeyleri vardır.",
+          "spoken": "Şimdi tura başlıyoruz. İlk dört gezegen karasal gezegenlerdir; çünkü katı yüzeyleri vardır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Merkür, Güneş'e en yakın ve en küçük gezegen.",
+          "spoken": "Merkür, Güneş'e en yakın ve en küçük gezegen.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Venüs ise en sıcak gezegen: yüzeyi yaklaşık 467 santigrat derece! Kalın, çoğunlukla karbondioksitten oluşan atmosferi ısıyı hapseder.",
+          "spoken": "Venüs ise en sıcak gezegen: yüzeyi yaklaşık dört yüz altmış yedi santigrat derece! Kalın, çoğunlukla karbondioksitten oluşan atmosferi ısıyı hapseder.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Üstelik Venüs, çoğu gezegenin tersi yönde ve çok yavaş döner.",
+          "spoken": "Üstelik Venüs, çoğu gezegenin tersi yönde ve çok yavaş döner.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Üçüncü sırada evimiz Dünya. Şimdiye kadar yaşam bulduğumuz tek yer burası.",
+          "spoken": "Üçüncü sırada evimiz Dünya. Şimdiye kadar yaşam bulduğumuz tek yer burası.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Dördüncü sırada Mars. Kırmızı rengi, kayalarındaki demirin paslanmasından gelir. Güneş Sistemi'nin en büyük yanardağı Olympus Mons da Mars'ta.",
+          "spoken": "Dördüncü sırada Mars. Kırmızı rengi, kayalarındaki demirin paslanmasından gelir. Güneş Sistemi'nin en büyük yanardağı Olimpus Mons da Mars'ta.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Paslanmak mı? Bu konuda Mars'la dertleşebilirim!",
+          "spoken": "Paslanmak mı? Bu konuda Mars'la dertleşebilirim!",
+          "factIds": []
+        },
+        {
+          "id": "l19",
+          "display": "Mars ile Jüpiter arasında asteroit kuşağı uzanır: erken Güneş Sistemi'nden kalan kaya parçaları. En büyüğü cüce gezegen Ceres'tir.",
+          "spoken": "Mars ile Jüpiter arasında asteroit kuşağı uzanır: erken Güneş Sistemi'nden kalan kaya parçaları. En büyüğü cüce gezegen Seres'tir.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l20",
+          "display": "Sonra devler gelir. Jüpiter ve Satürn gaz devleri, Uranüs ve Neptün buz devleridir.",
+          "spoken": "Sonra devler gelir. Jüpiter ve Satürn gaz devleri, Uranüs ve Neptün buz devleridir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Jüpiter en büyük gezegen: içi boş olsaydı içine 1.000 Dünya sığardı. Dünya bir üzüm olsaydı, Jüpiter bir basketbol topu kadar olurdu.",
+          "spoken": "Jüpiter en büyük gezegen: içi boş olsaydı içine bin Dünya sığardı. Dünya bir üzüm olsaydı, Jüpiter bir basketbol topu kadar olurdu.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Üzerindeki Büyük Kırmızı Leke, Dünya'dan büyük ve yüzlerce yıldır süren dev bir fırtınadır. Jüpiter'in resmen tanınan 115 uydusu var.",
+          "spoken": "Üzerindeki Büyük Kırmızı Leke, Dünya'dan büyük ve yüzlerce yıldır süren dev bir fırtınadır. Jüpiter'in resmen tanınan yüz on beş uydusu var.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Satürn'ün ünlü halkaları milyarlarca küçük buz ve kaya parçasından oluşur.",
+          "spoken": "Satürn'ün ünlü halkaları milyarlarca küçük buz ve kaya parçasından oluşur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Satürn, ortalama yoğunluğu sudan az olan tek gezegen. Ve Mart 2025 itibarıyla 274 uydusu doğrulanmıştı!",
+          "spoken": "Satürn, ortalama yoğunluğu sudan az olan tek gezegen. Ve Mart iki bin yirmi beş itibarıyla iki yüz yetmiş dört uydusu doğrulanmıştı!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Uranüs yedinci sırada; Neptün ise sekizinci ve Güneş'e en uzak gezegen.",
+          "spoken": "Uranüs yedinci sırada; Neptün ise sekizinci ve Güneş'e en uzak gezegen.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Uzaklıkları anlamak için ışığa bakalım: Güneş ışığı Dünya'ya yaklaşık sekiz dakikada, Mars'a 13 dakikada, Jüpiter'e 43 dakikada, Satürn'e 80 dakikada ulaşır.",
+          "spoken": "Uzaklıkları anlamak için ışığa bakalım: Güneş ışığı Dünya'ya yaklaşık sekiz dakikada, Mars'a on üç dakikada, Jüpiter'e kırk üç dakikada, Satürn'e seksen dakikada ulaşır.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Şimdi sıra sende! Sekiz kâğıda gezegenlerin adını yaz ve Güneş'ten uzaklık sırasına göre yere diz.",
+          "spoken": "Şimdi sıra sende! Sekiz kâğıda gezegenlerin adını yaz ve Güneş'ten uzaklık sırasına göre yere diz.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Sonra ilk dördün arasındaki adımlarla son dördün arasındaki adımları karşılaştır. Dış gezegenler ne kadar uzakta, gördün mü?",
+          "spoken": "Sonra ilk dördün arasındaki adımlarla son dördün arasındaki adımları karşılaştır. Dış gezegenler ne kadar uzakta, gördün mü?",
+          "factIds": [
+            "f13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l29",
+          "display": "Bunu biliyor muydun? Güneş ile Dünya arasındaki uzaklığa bir astronomik birim denir: yaklaşık 150 milyon kilometre.",
+          "spoken": "Bunu biliyor muydun? Güneş ile Dünya arasındaki uzaklığa bir astronomik birim denir: yaklaşık yüz elli milyon kilometre.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Hızlı soru! Güneş Sistemi'nin en sıcak gezegeni hangisi?",
+          "spoken": "Hızlı soru! Güneş Sistemi'nin en sıcak gezegeni hangisi?",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Düşün bakalım... Evet: Venüs! Güneş'e en yakın gezegen olmasa da.",
+          "spoken": "Düşün bakalım... Evet: Venüs! Güneş'e en yakın gezegen olmasa da.",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l33",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l35",
+          "display": "Abone olmayı ve zili açmayı unutma.",
+          "spoken": "Abone olmayı ve zili açmayı unutma.",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Güneş Sistemi 4,6 milyar yıl önce bir gaz ve toz bulutundan oluştu",
+    "Dört karasal gezegen, iki gaz devi, iki buz devi var",
+    "Gezegen olmak için üç şart gerekir; Plüton cüce gezegendir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "space",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🛰️",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Sekiz Dünya",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "🔴",
+        "name": "Mars"
+      },
+      {
+        "emoji": "🟠",
+        "name": "Jüpiter"
+      },
+      {
+        "emoji": "🪐",
+        "name": "Satürn"
+      },
+      {
+        "emoji": "🌍",
+        "name": "Dünya"
+      }
+    ],
+    "show": [
+      {
+        "kind": "orbit",
+        "emoji": "🔴"
+      },
+      {
+        "kind": "orbit",
+        "emoji": "🪐"
+      },
+      {
+        "kind": "orbit",
+        "emoji": "🌍"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🚀",
+        "every": 8,
+        "facesRight": true
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Gaz ve tozdan bir bulut çöktü",
+          "Ortada Güneş, çevrede gezegenler",
+          "Merkür küçük, Venüs en sıcak",
+          "Dünya evimiz, Mars paslı kırmızı"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sekiz dünya döner Güneş'in çevresinde!",
+          "Dördü kayalık, dördü dev",
+          "Asteroitler arada kuşak olur",
+          "Plüton cüce, yine de bizden biri"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Jüpiter dev, fırtınası Dünya'dan büyük",
+          "Satürn'ün halkası buz ve kaya",
+          "Uranüs, Neptün uzaklarda buz devi",
+          "Işık dakikalarca yol alır onlara"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sekiz dünya döner Güneş'in çevresinde!",
+          "Dördü kayalık, dördü dev",
+          "Kâğıtları diz, adımları say",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Güneş'in çevresinde hangi dünyalar dönüyor? Bu bölümde Güneş Sistemi'nin nasıl oluştuğunu, bir cisme ne zaman gezegen dendiğini ve Plüton'un neden cüce gezegen olduğunu; Merkür'den Neptün'e sekiz gezegeni, asteroit kuşağını, Jüpiter'in Büyük Kırmızı Lekesi'ni ve Satürn'ün halkalarını keşfediyoruz. Sonunda gezegen sırası etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Gezegen",
+      "meaning": "Güneş'in çevresinde dolanan, yuvarlak ve yörüngesini temizlemiş gök cismi."
+    },
+    {
+      "term": "Cüce gezegen",
+      "meaning": "Yuvarlak ama yörüngesini temizleyememiş gök cismi; örneğin Plüton."
+    },
+    {
+      "term": "Yörünge",
+      "meaning": "Bir gök cisminin başka birinin çevresinde izlediği yol."
+    },
+    {
+      "term": "Karasal gezegen",
+      "meaning": "Katı yüzeyi olan gezegen: Merkür, Venüs, Dünya, Mars."
+    },
+    {
+      "term": "Gaz devi",
+      "meaning": "Çoğunlukla gazdan oluşan dev gezegen: Jüpiter, Satürn."
+    },
+    {
+      "term": "Atmosfer",
+      "meaning": "Bir gezegeni saran gaz katmanı."
+    },
+    {
+      "term": "Yoğunluk",
+      "meaning": "Bir maddenin belirli bir hacimdeki kütlesi."
+    },
+    {
+      "term": "Astronomik birim",
+      "meaning": "Güneş ile Dünya arasındaki uzaklık; yaklaşık 150 milyon kilometre."
+    }
+  ]
+}

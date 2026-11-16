@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Sekiz Dünya",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Gaz ve tozdan bir bulut çöktü",
+          "start": 5.15,
+          "end": 8.49
+        },
+        {
+          "text": "Ortada Güneş, çevrede gezegenler",
+          "start": 8.49,
+          "end": 12.74
+        },
+        {
+          "text": "Merkür küçük, Venüs en sıcak",
+          "start": 12.74,
+          "end": 16.07
+        },
+        {
+          "text": "Dünya evimiz, Mars paslı kırmızı",
+          "start": 16.07,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Sekiz dünya döner Güneş'in çevresinde!",
+          "start": 20.17,
+          "end": 23.88
+        },
+        {
+          "text": "Dördü kayalık, dördü dev",
+          "start": 23.88,
+          "end": 26.35
+        },
+        {
+          "text": "Asteroitler arada kuşak olur",
+          "start": 26.35,
+          "end": 29.81
+        },
+        {
+          "text": "Plüton cüce, yine de bizden biri",
+          "start": 29.81,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Jüpiter dev, fırtınası Dünya'dan büyük",
+          "start": 33.18,
+          "end": 37.16
+        },
+        {
+          "text": "Satürn'ün halkası buz ve kaya",
+          "start": 37.16,
+          "end": 40.34
+        },
+        {
+          "text": "Uranüs, Neptün uzaklarda buz devi",
+          "start": 40.34,
+          "end": 44.06
+        },
+        {
+          "text": "Işık dakikalarca yol alır onlara",
+          "start": 44.06,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Sekiz dünya döner Güneş'in çevresinde!",
+          "start": 48.19,
+          "end": 52.38
+        },
+        {
+          "text": "Dördü kayalık, dördü dev",
+          "start": 52.38,
+          "end": 55.18
+        },
+        {
+          "text": "Kâğıtları diz, adımları say",
+          "start": 55.18,
+          "end": 58.53
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.53,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

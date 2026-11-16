@@ -1,0 +1,185 @@
+{
+  "paperId": "topic:gunes-sistemi-nde-hangi-gezegenler-var",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Solar System Exploration",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/"
+    },
+    {
+      "id": "k2",
+      "title": "Solar System: Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/"
+    },
+    {
+      "id": "k3",
+      "title": "About the Planets",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/planets/"
+    },
+    {
+      "id": "k4",
+      "title": "What is a Planet?",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/solar-system/planets/what-is-a-planet/"
+    },
+    {
+      "id": "k5",
+      "title": "Jupiter Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/jupiter/jupiter-facts/"
+    },
+    {
+      "id": "k6",
+      "title": "Saturn: Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/saturn/facts/"
+    },
+    {
+      "id": "k7",
+      "title": "Mars: Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/mars/facts/"
+    },
+    {
+      "id": "k8",
+      "title": "Venus: Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/venus/venus-facts/"
+    },
+    {
+      "id": "k9",
+      "title": "Pluto: Facts",
+      "publisher": "NASA",
+      "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Güneş sistemimizde bir yıldız, sekiz gezegen, beş cüce gezegen, yüzlerce uydu ve binlerce kuyruklu yıldız ve asteroit vardır.",
+      "numbers": [],
+      "quote": "Our solar system has one star, eight planets, five dwarf planets, hundreds of moons and thousands of comets and asteroids.",
+      "location": "NASA Science — Solar System: Facts"
+    },
+    {
+      "id": "f2",
+      "kind": "number",
+      "statement": "Güneş sistemimiz yaklaşık 4,6 milyar yıl önce yoğun bir yıldızlar arası gaz ve toz bulutundan oluştu; bulut çöküp dönen bir disk oluşturdu; Güneş mevcut maddenin %99'undan fazlasını topladı.",
+      "numbers": [
+        "4.6",
+        "99"
+      ],
+      "quote": "Our solar system formed about 4.6 billion years ago from a dense cloud of interstellar gas and dust. / When this dust cloud collapsed, it formed a solar nebula – a spinning, swirling disk of material. / it eventually amassed more than 99% of the available matter.",
+      "location": "NASA Science — Solar System: Facts"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Sekiz gezegen: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs ve Neptün. İlk dördü katı yüzeyleri olduğu için karasal gezegenlerdir. Jüpiter ve Satürn gaz devleri, Uranüs ve Neptün buz devleridir.",
+      "numbers": [],
+      "quote": "Our solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. / These inner planets also are known as terrestrial planets because they have solid surfaces. / Jupiter and Saturn are gas giants. Uranus and Neptune are ice giants.",
+      "location": "NASA Science — About the Planets"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Asteroit kuşağı, erken güneş sisteminden kalan parçalardan oluşur; Mars ile Jüpiter arasındadır; en büyük cismi cüce gezegen Ceres'tir.",
+      "numbers": [],
+      "quote": "the asteroid belt is made of bits and pieces of the early solar system / Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter",
+      "location": "NASA Science — Solar System: Facts; NASA Science — About the Planets"
+    },
+    {
+      "id": "f5",
+      "kind": "number",
+      "statement": "Bir cismin gezegen sayılması için bir yıldızın çevresinde dolanması, küre biçimini alacak kadar kütle çekimine sahip olması ve yörüngesinin çevresini benzer boyuttaki cisimlerden temizlemiş olması gerekir. Plüton 2006'da cüce gezegen olarak yeniden sınıflandırıldı; yörüngesini temizleyemedi.",
+      "numbers": [
+        "2006"
+      ],
+      "quote": "It must orbit a star (in our cosmic neighborhood, the Sun). / It must be big enough to have enough gravity to force it into a spherical shape. / its gravity has cleared away any other objects of a similar size near its orbit / Pluto was reclassified as a dwarf planet in 2006 / has not been able to clear its orbit of debris.",
+      "location": "NASA Science — What is a Planet?; NASA Science — Pluto: Facts"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Merkür Güneş'e en yakın ve en küçük gezegendir.",
+      "numbers": [],
+      "quote": "Mercury is the planet nearest to the Sun, and the smallest planet in our solar system.",
+      "location": "NASA Science — About the Planets"
+    },
+    {
+      "id": "f7",
+      "kind": "number",
+      "statement": "Venüs'ün kalın atmosferi ısıyı hapseder ve onu güneş sisteminin en sıcak gezegeni yapar; yüzey sıcaklığı kurşunu eritecek kadardır: yaklaşık 467 santigrat derece; atmosferi çoğunlukla karbondioksittir; Venüs çoğu gezegenin tersi yönde, yavaşça döner.",
+      "numbers": [
+        "467"
+      ],
+      "quote": "Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system / about 872 degrees Fahrenheit (467 Celsius). / The atmosphere is mostly carbon dioxide / Venus spins slowly in the opposite direction from most planets.",
+      "location": "NASA Science — Venus: Facts"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Şimdiye kadar güneş sistemimizde yaşam bulduğumuz tek yer Dünya'dır; Dünya Güneş'ten üçüncü gezegendir.",
+      "numbers": [],
+      "quote": "So far, Earth is the only place we've found life in our solar system. / Earth – our home planet – is the third planet from the Sun, and the fifth largest planet.",
+      "location": "NASA Science — Solar System Exploration; NASA Science — About the Planets"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Mars'ın kırmızı görünmesinin nedeni kayalardaki demirin paslanmasıdır; güneş sisteminin en büyük yanardağı Olympus Mons Mars'tadır; Mars'ın iki küçük uydusu vardır: Phobos ve Deimos.",
+      "numbers": [],
+      "quote": "The reason Mars looks reddish is due to oxidization — or rusting — of iron in the rocks / Mars is home to the largest volcano in the solar system, Olympus Mons. / Mars has two small moons, Phobos and Deimos",
+      "location": "NASA Science — Mars: Facts"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "Jüpiter en büyük gezegendir; içi boş bir kabuk olsaydı içine 1.000 Dünya sığardı; Dünya bir üzüm olsaydı Jüpiter bir basketbol topu kadar olurdu; Büyük Kırmızı Leke, Dünya'dan büyük, yüzlerce yıldır süren dev bir fırtınadır; Jüpiter'in Uluslararası Astronomi Birliği'nin resmen tanıdığı 115 uydusu vardır.",
+      "numbers": [
+        "1.000",
+        "115"
+      ],
+      "quote": "if it were a hollow shell, 1,000 Earths could fit inside. / If Earth were the size of a grape, Jupiter would be about as big as a basketball. / a giant storm bigger than Earth that has raged for hundreds of years. / Jupiter has 115 moons that are officially recognized",
+      "location": "NASA Science — Jupiter Facts"
+    },
+    {
+      "id": "f11",
+      "kind": "number",
+      "statement": "Satürn'ün halkaları, toz gibi maddelerle kaplı milyarlarca küçük buz ve kaya parçasından oluşur; Satürn ortalama yoğunluğu sudan az olan tek gezegendir; Mart 2025 itibarıyla 274 doğrulanmış uydusu vardı.",
+      "numbers": [
+        "2025",
+        "274"
+      ],
+      "quote": "They are made of billions of small chunks of ice and rock coated with other materials such as dust. / Saturn is the only planet in our solar system with an average density that is less than water. / As of March 2025, Saturn had 274 confirmed moons",
+      "location": "NASA Science — Saturn: Facts"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Uranüs Güneş'ten yedinci ve en büyük üçüncü gezegendir; Neptün sekizinci ve en uzak gezegendir.",
+      "numbers": [],
+      "quote": "Uranus is the seventh planet from the Sun, and the third largest planet in our solar system. / Neptune is the eighth and most distant planet in our solar system.",
+      "location": "NASA Science — About the Planets"
+    },
+    {
+      "id": "f13",
+      "kind": "number",
+      "statement": "Bir astronomik birim, Güneş ile Dünya arasındaki uzaklıktır: yaklaşık 150 milyon kilometre. Güneş ışığı Dünya'ya yaklaşık sekiz dakikada, Mars'a 13 dakikada, Jüpiter'e 43 dakikada, Satürn'e 80 dakikada ulaşır.",
+      "numbers": [
+        "150",
+        "13",
+        "43",
+        "80"
+      ],
+      "quote": "One astronomical unit (or AU) is the distance from the Sun to Earth, or about 93 million miles (150 million kilometers). / about eight minutes for the Sun and Earth / it takes sunlight 13 minutes to travel from the Sun to Mars / 43 minutes to travel from the Sun to Jupiter / 80 minutes to travel from the Sun to Saturn",
+      "location": "NASA Science — Solar System: Facts; NASA Science — Venus: Facts; NASA Science — Mars: Facts; NASA Science — Jupiter Facts; NASA Science — Saturn: Facts"
+    }
+  ]
+}
