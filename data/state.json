@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 27,
+  "lastEpisodeNumber": 28,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -108,6 +108,10 @@
     "topic:beynimiz-nasil-calisir": {
       "id": "2026-11-16-beynimiz-nasil-calisir",
       "episodeNumber": 27
+    },
+    "topic:midemiz-yemegi-nasil-sindirir": {
+      "id": "2026-11-16-midemiz-yemegi-nasil-sindirir",
+      "episodeNumber": 28
     }
   }
 }

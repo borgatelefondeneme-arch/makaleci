@@ -1,0 +1,524 @@
+{
+  "paperId": "topic:midemiz-yemegi-nasil-sindirir",
+  "episodeNumber": 28,
+  "videoTitle": "Midemiz yemeği nasıl sindirir?",
+  "paperTitleTr": "Midemiz yemeği nasıl sindirir?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Az önce bir dilim ekmek yedin. Peki o ekmek şimdi nerede ve ona ne oluyor?",
+          "spoken": "Az önce bir dilim ekmek yedin. Peki o ekmek şimdi nerede ve ona ne oluyor?",
+          "factIds": []
+        },
+        {
+          "id": "l2",
+          "display": "Yediğin her lokma, vücudunun içinde uzun bir yolculuğa çıkar.",
+          "spoken": "Yediğin her lokma, vücudunun içinde uzun bir yolculuğa çıkar.",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bu yolculuğa biz de katılıyoruz: sindirim kanalının içine giriyoruz!",
+          "spoken": "Bugün bu yolculuğa biz de katılıyoruz: sindirim kanalının içine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Sindirime neden ihtiyacımız var? Lokma hangi yollardan geçer? Ve vücut onu nasıl kullanır?",
+          "spoken": "Üç sorumuz var. Sindirime neden ihtiyacımız var? Lokma hangi yollardan geçer? Ve vücut onu nasıl kullanır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "KidsHealth'e göre besin bizim yakıtımızdır. İçindeki besin öğeleri hücrelerimize enerji ve gereken maddeleri verir.",
+          "spoken": "Kids Helt'e göre besin bizim yakıtımızdır. İçindeki besin öğeleri hücrelerimize enerji ve gereken maddeleri verir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Ama önce vücudun emebileceği küçük parçalara ayrılması gerekir. İşte buna sindirim denir.",
+          "spoken": "Ama önce vücudun emebileceği küçük parçalara ayrılması gerekir. İşte buna sindirim denir.",
+          "factIds": [
+            "f1",
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Ben de yakıtla çalışırım, ama benimki bir priz. Hiç çiğnemem gerekmiyor!",
+          "spoken": "Ben de yakıtla çalışırım, ama benimki bir priz. Hiç çiğnemem gerekmiyor!",
+          "factIds": []
+        },
+        {
+          "id": "l9",
+          "display": "Sindirim midede değil, ağızda başlar. Dişlerin lokmayı koparır ve doğrar.",
+          "spoken": "Sindirim midede değil, ağızda başlar. Dişlerin lokmayı koparır ve doğrar.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Tükürük bezlerinin yaptığı tükürük de lokmayı ıslatır; böylece kolayca yutulur.",
+          "spoken": "Tükürük bezlerinin yaptığı tükürük de lokmayı ıslatır; böylece kolayca yutulur.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Tükürükte amilaz denen bir sindirim enzimi vardır. Amilaz, nişasta gibi karbonhidratları parçalamaya başlar.",
+          "spoken": "Tükürükte amilaz denen bir sindirim enzimi vardır. Amilaz, nişasta gibi karbonhidratları parçalamaya başlar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Yemeği koklamak, hatta düşünmek bile ağzını sulandırabilir. Çünkü beynin tükürük bezlerine sinyal gönderir.",
+          "spoken": "Yemeği koklamak, hatta düşünmek bile ağzını sulandırabilir. Çünkü beynin tükürük bezlerine sinyal gönderir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Benim ağzım hiç sulanmaz. Sulansaydı kısa devre yapardım!",
+          "spoken": "Benim ağzım hiç sulanmaz. Sulansaydı kısa devre yapardım!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l14",
+          "display": "Yutarken dilin lokmayı boğaza iter. NIDDK'ye göre bu sırada epiglot denen küçük bir doku kapağı soluk borunun üstüne kapanır; böylece boğulmayız.",
+          "spoken": "Yutarken dilin lokmayı boğaza iter. En Ay Di Di Key'ye göre bu sırada epiglot denen küçük bir doku kapağı soluk borunun üstüne kapanır; böylece boğulmayız.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Lokma sonra yemek borusuna girer. Yemek borusunun kasları dalga dalga kasılıp lokmayı aşağı iter. Bu dalgalara peristalsis denir.",
+          "spoken": "Lokma sonra yemek borusuna girer. Yemek borusunun kasları dalga dalga kasılıp lokmayı aşağı iter. Bu dalgalara peristalsis denir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Yemek borusunun sonunda sfinkter denen bir kas halka vardır. Genelde kapalı durur ve midedekilerin geri kaçmasını engeller.",
+          "spoken": "Yemek borusunun sonunda sfinkter denen bir kas halka vardır. Genelde kapalı durur ve midedekilerin geri kaçmasını engeller.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Mide kaslı bir torbadır. Kasları lokmayı çalkalar ve sindirim sıvılarıyla karıştırır.",
+          "spoken": "Mide kaslı bir torbadır. Kasları lokmayı çalkalar ve sindirim sıvılarıyla karıştırır.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Mide duvarındaki bezler mide asidi ve enzimler yapar. KidsHealth'e göre midedeki sindirim için asitli bir ortam gerekir.",
+          "spoken": "Mide duvarındaki bezler mide asidi ve enzimler yapar. Kids Helt'e göre midedeki sindirim için asitli bir ortam gerekir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Lokma burada koyu bir lapaya dönüşür; buna kimus denir. Mide kimusu yavaş yavaş ince bağırsağa boşaltır.",
+          "spoken": "Lokma burada koyu bir lapaya dönüşür; buna kimus denir. Mide kimusu yavaş yavaş ince bağırsağa boşaltır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Midenin çıkışında ceviz büyüklüğünde bir kas kapak vardır: pilor. Pilor, kimusu zamanı gelene kadar midede tutar.",
+          "spoken": "Midenin çıkışında ceviz büyüklüğünde bir kas kapak vardır: pilor. Pilor, kimusu zamanı gelene kadar midede tutar.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Benim de bir kapağım var: pil kapağı. Ama o pilor değil, sadece pil yeri!",
+          "spoken": "Benim de bir kapağım var: pil kapağı. Ama o pilor değil, sadece pil yeri!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l22",
+          "display": "Şimdi asıl iş başlıyor: ince bağırsak! Ona ince denmesinin nedeni genişliğidir, uzunluğu değil.",
+          "spoken": "Şimdi asıl iş başlıyor: ince bağırsak! Ona ince denmesinin nedeni genişliğidir, uzunluğu değil.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Aslında ince bağırsak, kalın bağırsaktan çok daha uzundur.",
+          "spoken": "Aslında ince bağırsak, kalın bağırsaktan çok daha uzundur.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "İnce bağırsağın kasları kimusu pankreastan, karaciğerden ve bağırsağın kendisinden gelen sindirim sıvılarıyla karıştırır.",
+          "spoken": "İnce bağırsağın kasları kimusu pankreastan, karaciğerden ve bağırsağın kendisinden gelen sindirim sıvılarıyla karıştırır.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Karaciğer safra denen bir sıvı yapar; safra yağların sindirimine yardım eder. Safra kesesi safrayı öğünler arasında saklar.",
+          "spoken": "Karaciğer safra denen bir sıvı yapar; safra yağların sindirimine yardım eder. Safra kesesi safrayı öğünler arasında saklar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Pankreas ise karbonhidratları, yağları ve proteinleri parçalayan enzimler yapar.",
+          "spoken": "Pankreas ise karbonhidratları, yağları ve proteinleri parçalayan enzimler yapar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "İnce bağırsağın iç duvarı milyonlarca mikroskobik, parmak gibi çıkıntıyla kaplıdır. Bunlara villus denir.",
+          "spoken": "İnce bağırsağın iç duvarı milyonlarca mikroskobik, parmak gibi çıkıntıyla kaplıdır. Bunlara villus denir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Sindirilmiş besinler ve su, ince bağırsağın duvarından geçerek kana karışır. Villuslar bu işin taşıyıcılarıdır.",
+          "spoken": "Sindirilmiş besinler ve su, ince bağırsağın duvarından geçerek kana karışır. Villuslar bu işin taşıyıcılarıdır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Villus kelimesini duyunca virüs sanma sakın. Villus dostumuz!",
+          "spoken": "Villus kelimesini duyunca virüs sanma sakın. Villus dostumuz!",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Geriye kalanlar kalın bağırsağa gider. NIDDK'ye göre kalın bağırsak suyu emer ve atığı sıvıdan katıya, yani kakaya dönüştürür.",
+          "spoken": "Geriye kalanlar kalın bağırsağa gider. En Ay Di Di Key'ye göre kalın bağırsak suyu emer ve atığı sıvıdan katıya, yani kakaya dönüştürür.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Kalın bağırsaktaki bakteriler kalan besinleri parçalamaya yardım eder ve K vitamini yapar. İçinde sana yardım eden minik dostlar yaşıyor!",
+          "spoken": "Kalın bağırsaktaki bakteriler kalan besinleri parçalamaya yardım eder ve K vitamini yapar. İçinde sana yardım eden minik dostlar yaşıyor!",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l32",
+          "display": "Bu yolculuk birkaç dakikada bitmez. KidsHealth'e göre besinin tamamen sindirilmesi saatler sürer.",
+          "spoken": "Bu yolculuk birkaç dakikada bitmez. Kids Helt'e göre besinin tamamen sindirilmesi saatler sürer.",
+          "factIds": [
+            "f17"
+          ]
+        },
+        {
+          "id": "l33",
+          "display": "Şimdi sıra sende! Bir sonraki öğünde ilk lokmayı hemen yutma; yavaş yavaş, uzun uzun çiğne.",
+          "spoken": "Şimdi sıra sende! Bir sonraki öğünde ilk lokmayı hemen yutma; yavaş yavaş, uzun uzun çiğne.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l34",
+          "display": "Lokmanın nasıl yumuşayıp ıslandığına dikkat et: tükürük ve amilaz iş başında! Ağzın doluyken konuşma ve gülme.",
+          "spoken": "Lokmanın nasıl yumuşayıp ıslandığına dikkat et: tükürük ve amilaz iş başında! Ağzın doluyken konuşma ve gülme.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l35",
+          "display": "Bunu biliyor muydun? KidsHealth'e göre bir yetişkinin sindirim kanalı yaklaşık 9 metre uzunluğundadır!",
+          "spoken": "Bunu biliyor muydun? Kids Helt'e göre bir yetişkinin sindirim kanalı yaklaşık dokuz metre uzunluğundadır!",
+          "factIds": [
+            "f16"
+          ]
+        },
+        {
+          "id": "l36",
+          "display": "Benim kablolarım bu kadar uzun olsaydı, kesin düğüm olurdu!",
+          "spoken": "Benim kablolarım bu kadar uzun olsaydı, kesin düğüm olurdu!",
+          "factIds": []
+        },
+        {
+          "id": "l37",
+          "display": "Hızlı soru! Besinleri kana geçiren, parmak gibi minik çıkıntıların adı neydi?",
+          "spoken": "Hızlı soru! Besinleri kana geçiren, parmak gibi minik çıkıntıların adı neydi?",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l38",
+          "display": "Düşün bakalım... Evet: villus!",
+          "spoken": "Düşün bakalım... Evet: villus!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l39",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l40",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l41",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l42",
+          "display": "Abone olmayı ve zili açmayı unutma. Afiyet olsun!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Afiyet olsun!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Sindirim ağızda başlar: dişler, tükürük ve amilaz",
+    "Mide asit ve enzimlerle besini kimusa çevirir",
+    "İnce bağırsakta villuslar besinleri kana geçirir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "gut",
+    "actors": [
+      {
+        "kind": "swim",
+        "emoji": "🦠",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Lokmanın Yolculuğu",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🍞",
+        "name": "Lokma"
+      },
+      {
+        "emoji": "🦷",
+        "name": "Dişler"
+      },
+      {
+        "emoji": "🧪",
+        "name": "Mide"
+      },
+      {
+        "emoji": "🖐️",
+        "name": "Villus"
+      },
+      {
+        "emoji": "🦠",
+        "name": "Bakteri"
+      }
+    ],
+    "show": [
+      {
+        "kind": "swim",
+        "emoji": "🍞"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🍎"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🦠"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🥕"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Ağızda başlar bu macera",
+          "Dişler doğrar, tükürük ıslatır",
+          "Amilaz nişastayı parçalar",
+          "Epiglot kapanır, yutarım"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Lokma lokma yolculuk var!",
+          "Peristalsis dalga dalga",
+          "Mide çalkalar, asit yardım eder",
+          "İçimde bir fabrika çalışır"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Pilor kapısı bekletir",
+          "İnce bağırsak uzun mu uzun",
+          "Villuslar besini kana taşır",
+          "Kalın bağırsak suyu toplar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Lokma lokma yolculuk var!",
+          "Peristalsis dalga dalga",
+          "Yavaş çiğne, tadını çıkar",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Yediğimiz bir lokma vücudumuzda nereye gider? Bu bölümde ağızdaki tükürük ve amilazı, yutarken kapanan epiglotu, yemek borusundaki peristalsisi, midedeki asit ve enzimleri, pilor kapağını, ince bağırsaktaki villusları, karaciğer, safra kesesi ve pankreası, kalın bağırsaktaki bakterileri keşfediyoruz. Sonunda yavaş çiğneme etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Sindirim",
+      "meaning": "Besinlerin vücudun emip kullanabileceği küçük parçalara ayrılması."
+    },
+    {
+      "term": "Enzim",
+      "meaning": "Besinleri parçalamaya yardım eden özel bir molekül; amilaz bunlardan biridir."
+    },
+    {
+      "term": "Epiglot",
+      "meaning": "Yutarken soluk borusunun üstüne kapanan küçük doku kapağı."
+    },
+    {
+      "term": "Peristalsis",
+      "meaning": "Besini ileri iten dalga dalga kas kasılmaları."
+    },
+    {
+      "term": "Kimus",
+      "meaning": "Midede sindirim sıvılarıyla karışıp koyu bir lapaya dönüşen besin."
+    },
+    {
+      "term": "Pilor",
+      "meaning": "Midenin çıkışındaki, kimusu midede tutan kas kapak."
+    },
+    {
+      "term": "Villus",
+      "meaning": "İnce bağırsağın iç duvarındaki, besinleri kana geçiren parmak gibi minik çıkıntılar."
+    },
+    {
+      "term": "Safra",
+      "meaning": "Karaciğerin yaptığı, yağların sindirimine yardım eden sıvı."
+    }
+  ]
+}

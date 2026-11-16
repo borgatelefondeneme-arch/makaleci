@@ -10,10 +10,10 @@ import { clamp } from "../anim";
 export const CALM = { density: 0.45, speed: 0.6, ambientActors: 2, ambientEvery: 1.8, fx: 0.4 };
 const dn = (n: number) => Math.max(3, Math.round(n * CALM.density));
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow" | "gut";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, gut: { panel: true, dark: false, ground: 985 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -188,6 +188,19 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         {row(true)}{row(false)}
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: dn(18) }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
+        </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "gut") {
+    // sindirim kanalının içi: sıcak pembe duvarlar, altta yavaşça dalgalanan villuslar (peristalsis gibi), süzülen besin damlacıkları
+    const wave = (i: number) => Math.sin(f / 40 - i * 0.5) * 14;
+    return (
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 40%, #FFF1E8 0%, #FBD3C9 62%, #F2AFA6 100%)", overflow: "hidden" }}>
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {[0, 1, 2].map((k) => <path key={k} d={`M 0 ${150 + k * 300} Q ${W / 2} ${90 + k * 300 + Math.sin(f / 70 + k) * 22} ${W} ${150 + k * 300}`} stroke="#F4BDB2" strokeWidth={26} fill="none" opacity={0.45} />)}
+          {Array.from({ length: dn(16) }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.4 + rnd(i, 4) * 0.6)) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={7 + rnd(i, 3) * 13} fill={["#FFE8A3", "#BFE6C8", "#FFFFFF"][i % 3]} opacity={0.5} />; })}
+          {Array.from({ length: 34 }, (_, i) => { const x = i * 58 + 10, h = 70 + (i % 3) * 16 + wave(i); return <rect key={i} x={x} y={H - h} width={44} height={h + 30} rx={22} fill={i % 2 ? "#EE958E" : "#F2A79E"} />; })}
         </svg>
       </AbsoluteFill>
     );

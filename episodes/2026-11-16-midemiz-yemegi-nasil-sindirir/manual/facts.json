@@ -1,0 +1,159 @@
+{
+ "paperId": "topic:midemiz-yemegi-nasil-sindirir",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Your Digestive System",
+   "publisher": "KidsHealth",
+   "url": "https://kidshealth.org/en/kids/digestive-system.html"
+  },
+  {
+   "id": "k2",
+   "title": "Your Digestive System & How It Works",
+   "publisher": "NIDDK",
+   "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Besin yakıtımızdır; besin öğeleri hücrelere çalışmak için gereken enerjiyi ve maddeleri verir; ama önce vücudun emip kullanabileceği küçük parçalara sindirilmelidir.",
+   "numbers": [],
+   "quote": "Food is our fuel, and its nutrients give our bodies' cells the energy and substances they need to work. / But before food can do that, it must be digested into small pieces the body can absorb and use.",
+   "location": "Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Sindirim sistemi besin öğelerini vücudun emip enerji için kullanabileceği kadar küçük parçalara ayırır.",
+   "numbers": [],
+   "quote": "Your digestive system breaks nutrients into parts small enough for your body to absorb and use for energy",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Sindirim ağızda, besin mideye ulaşmadan çok önce başlar; dişler besini koparıp doğrar, tükürük onu ıslatır; tükürüğü tükürük bezleri yapar.",
+   "numbers": [],
+   "quote": "Digestion begins in the mouth, well before food reaches the stomach. / As the teeth tear and chop the food, spit moistens it for easy swallowing. / Your salivary glands make saliva, a digestive juice",
+   "location": "Nemours KidsHealth — Your Digestive System; NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Tükürükteki amilaz adlı sindirim enzimi bazı karbonhidratları parçalamaya başlar; tükürükteki enzim nişastaları parçalamaya başlar.",
+   "numbers": [],
+   "quote": "A digestive enzyme in saliva called amylase (AH-meh-lace) starts to break down some of the carbohydrates / Saliva also has an enzyme that begins to break down starches in your food.",
+   "location": "Nemours KidsHealth — Your Digestive System; NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Yemeği koklamak ya da düşünmek bile ağzı sulandırabilir; beyin tükürük bezlerine sinyal gönderir.",
+   "numbers": [],
+   "quote": "Just by smelling that homemade apple pie or thinking about how delicious that ripe tomato is going to be / your brain sends a signal that causes your salivary glands to \"make your mouth water\" to prepare you to eat.",
+   "location": "Nemours KidsHealth — Your Digestive System; NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Yutarken dil besini boğaza iter; epiglot denen küçük doku kapağı boğulmayı önlemek için soluk borusunun üstüne kapanır.",
+   "numbers": [],
+   "quote": "When you swallow, your tongue pushes the food into your throat. / A small flap of tissue, called the epiglottis, folds over your windpipe to prevent choking",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Peristalsis denen kas kasılma dalgaları besini yemek borusundan mideye iter.",
+   "numbers": [],
+   "quote": "Waves of muscle contractions called peristalsis (per-uh-STALL-sus) force food down through the esophagus to the stomach.",
+   "location": "Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Yemek borusunun sonundaki sfinkter genelde kapalı durur ve mide içeriğinin yemek borusuna geri akmasını engeller.",
+   "numbers": [],
+   "quote": "This sphincter usually stays closed to keep what’s in your stomach from flowing back into your esophagus.",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Mide kasları besini asit ve enzim içeren sindirim sıvılarıyla çalkalayıp karıştırır; mide duvarındaki bezler mide asidi ve enzim yapar; midedeki sindirim için asitli ortam gerekir.",
+   "numbers": [],
+   "quote": "The stomach muscles churn and mix the food with digestive juices that have acids and enzymes / Glands in your stomach lining make stomach acid and enzymes that break down food. / An acidic environment is needed for the digestion that takes place in the stomach.",
+   "location": "Nemours KidsHealth — Your Digestive System; NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Mide, kimus denen içeriğini yavaş yavaş ince bağırsağa boşaltır; midenin çıkışındaki ceviz büyüklüğündeki pilor kapağı kimusu midede tutar.",
+   "numbers": [],
+   "quote": "The stomach slowly empties its contents, called chyme, into your small intestine. / A walnut-sized muscular valve at the outlet of the stomach called the pylorus (pie-LOR-us) keeps chyme in the stomach",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works; Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "İnce bağırsağa uzunluğu yüzünden değil genişliği yüzünden ince denir; aslında kalın bağırsaktan çok daha uzundur.",
+   "numbers": [],
+   "quote": "The small intestine is called small because of its width, not its length. It's actually much longer than the large intestine.",
+   "location": "Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "İnce bağırsağın iç duvarı milyonlarca mikroskobik, parmak gibi villus ile kaplıdır; besinler villuslar aracılığıyla kana emilir; ince bağırsak duvarları suyu ve sindirilmiş besinleri kana emer.",
+   "numbers": [],
+   "quote": "The inner wall of the small intestine is covered with millions of microscopic, finger-like projections called villi (VIH-lie). / The villi are the vehicles through which nutrients can be absorbed into the blood. / The walls of the small intestine absorb water and the digested nutrients into your bloodstream.",
+   "location": "Nemours KidsHealth — Your Digestive System; NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "İnce bağırsağın kasları besini pankreas, karaciğer ve bağırsaktan gelen sindirim sıvılarıyla karıştırır; karaciğer yağların sindirimine yardım eden safrayı yapar; safra kesesi safrayı öğünler arasında saklar; pankreas karbonhidrat, yağ ve proteinleri parçalayan enzimler yapar.",
+   "numbers": [],
+   "quote": "The muscles of the small intestine mix food with digestive juices from the pancreas, liver, and intestine / Your liver makes a digestive juice called bile that helps digest fats and some vitamins. / Your gallbladder stores bile between meals. / Your pancreas makes a digestive juice that has enzymes that break down carbohydrates, fats, and proteins.",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f14",
+   "kind": "claim",
+   "statement": "Kalın bağırsak suyu emer ve atığı sıvıdan katı dışkıya dönüştürür.",
+   "numbers": [],
+   "quote": "The large intestine absorbs water and changes the waste from liquid into stool. / The large intestine's main job is to remove water from the undigested matter and form solid waste (poop) to be excreted.",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works; Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f15",
+   "kind": "claim",
+   "statement": "Kalın bağırsaktaki bakteriler kalan besin öğelerini parçalamaya yardım eder ve K vitamini yapar.",
+   "numbers": [],
+   "quote": "Bacteria in your large intestine help break down remaining nutrients and make vitamin K.",
+   "location": "NIDDK (NIH) — Your Digestive System & How It Works"
+  },
+  {
+   "id": "f16",
+   "kind": "number",
+   "statement": "Bir yetişkinin sindirim kanalı yaklaşık 9 metre uzunluğundadır.",
+   "numbers": [
+    "9"
+   ],
+   "quote": "An adult's digestive tract is about 30 feet (about 9 meters) long.",
+   "location": "Nemours KidsHealth — Your Digestive System"
+  },
+  {
+   "id": "f17",
+   "kind": "claim",
+   "statement": "Vücudun besini tamamen sindirmesi saatler sürer.",
+   "numbers": [],
+   "quote": "It takes hours for our bodies to fully digest food.",
+   "location": "Nemours KidsHealth — Your Digestive System"
+  }
+ ]
+}

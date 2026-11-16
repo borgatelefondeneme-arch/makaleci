@@ -1,0 +1,693 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Midemiz yemeği nasıl sindirir?",
+    "emoji": "🍞"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16"
+   ],
+   "stickers": [
+    "🍎",
+    "🥕"
+   ],
+   "keywords": [
+    "",
+    "UZUN YOLCULUK",
+    "SİNDİRİM KANALI"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Sindirime neden ihtiyacımız var?",
+     "Lokma hangi yollardan geçer?",
+     "Vücut onu nasıl kullanır?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Sindirim",
+    "emoji": "🍽️",
+    "chips": [
+     {
+      "label": "Besin = yakıt",
+      "emoji": "⛽"
+     },
+     {
+      "label": "Hücrelere enerji",
+      "emoji": "⚡"
+     },
+     {
+      "label": "Küçük parçalara ayır",
+      "emoji": "✂️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "🍎",
+    "🔌"
+   ],
+   "keywords": [
+    "YAKIT ⛽",
+    "SİNDİRİM",
+    "PRİZ 🔌"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Ağızda başlar",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Dişler doğrar",
+      "emoji": "🦷"
+     },
+     {
+      "label": "Tükürük ıslatır",
+      "emoji": "💧"
+     },
+     {
+      "label": "Amilaz nişastayı parçalar",
+      "emoji": "✂️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🍞",
+    "🦷"
+   ],
+   "keywords": [
+    "DİŞLER 🦷",
+    "TÜKÜRÜK",
+    "AMİLAZ"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Sulanır!",
+    "label": "Koku bile tükürük bezlerini çalıştırır",
+    "sub": "KidsHealth · NIDDK",
+    "icon": "👃"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🥧",
+    "🤖"
+   ],
+   "keywords": [
+    "AĞZIN SULANDI MI?",
+    "KISA DEVRE ⚡"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Ağızdan mideye",
+    "rows": [
+     {
+      "label": "Dil iter, epiglot kapanır",
+      "emoji": "👅"
+     },
+     {
+      "label": "Yemek borusu: peristalsis",
+      "emoji": "〰️"
+     },
+     {
+      "label": "Sfinkter kapanır",
+      "emoji": "⭕"
+     },
+     {
+      "label": "Mide",
+      "emoji": "🥣"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 1,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7",
+    "f8"
+   ],
+   "keywords": [
+    "EPİGLOT",
+    "PERİSTALSİS 〰️",
+    "SFİNKTER"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Mide çalışıyor",
+    "label": "Kimus",
+    "emoji": "🥣",
+    "phases": [
+     {
+      "label": "Kaslar çalkalar",
+      "level": 0.5,
+      "emoji": "🌀"
+     },
+     {
+      "label": "Asit ve enzimler",
+      "level": 0.85,
+      "emoji": "🧪"
+     },
+     {
+      "label": "Yavaşça ince bağırsağa",
+      "level": 0.3,
+      "emoji": "⬇️"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "fx": "shake",
+   "stickers": [
+    "🧪",
+    "🌀"
+   ],
+   "keywords": [
+    "ÇALKALA!",
+    "ASİTLİ ORTAM",
+    "KİMUS"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "finding",
+   "lineIds": [
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Pilor",
+    "emoji": "🌰",
+    "chips": [
+     {
+      "label": "Ceviz büyüklüğünde kas kapak",
+      "emoji": "🚪"
+     },
+     {
+      "label": "Kimusu midede tutar",
+      "emoji": "✋"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "🚪",
+    "🔋"
+   ],
+   "keywords": [
+    "PİLOR 🌰",
+    "PİL YERİ 🔋"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l22",
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İnce ve kalın bağırsak",
+    "left": {
+     "title": "İnce bağırsak 🐍",
+     "items": [
+      "Dar ama çok daha uzun",
+      "Sindirim sıvılarıyla karıştırır"
+     ]
+    },
+    "right": {
+     "title": "Kalın bağırsak 🌭",
+     "items": [
+      "Daha geniş",
+      "Daha kısa"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f13"
+   ],
+   "stickers": [
+    "📏",
+    "🌀"
+   ],
+   "keywords": [
+    "İNCE = DAR",
+    "ÇOK UZUN",
+    "KARIŞTIR"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Yardımcı organlar",
+    "emoji": "🧰",
+    "chips": [
+     {
+      "label": "Karaciğer: safra",
+      "emoji": "🟤"
+     },
+     {
+      "label": "Safra kesesi: saklar",
+      "emoji": "👝"
+     },
+     {
+      "label": "Pankreas: enzimler",
+      "emoji": "🧪"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🧈",
+    "🥩"
+   ],
+   "keywords": [
+    "SAFRA",
+    "PANKREAS"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l27",
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Villuslar iş başında",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Milyonlarca villus",
+      "emoji": "🖐️"
+     },
+     {
+      "label": "Besin ve su geçer",
+      "emoji": "💧"
+     },
+     {
+      "label": "Kana karışır",
+      "emoji": "🩸"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🔬",
+    "✨"
+   ],
+   "keywords": [
+    "VİLLUS",
+    "KANA GEÇER 🩸",
+    "VİRÜS DEĞİL! 😄"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "importance",
+   "lineIds": [
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Kalın bağırsak",
+    "label": "Su",
+    "emoji": "💧",
+    "phases": [
+     {
+      "label": "Su emilir, atık katılaşır",
+      "level": 0.35,
+      "emoji": "🧽"
+     },
+     {
+      "label": "Bakteriler: K vitamini",
+      "level": 0.2,
+      "emoji": "🦠"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14",
+    "f15"
+   ],
+   "stickers": [
+    "🦠",
+    "💧"
+   ],
+   "keywords": [
+    "SU EMİLİR",
+    "MİNİK DOSTLAR 🦠"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "importance",
+   "lineIds": [
+    "l32"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Saatler",
+    "label": "Besinin tamamen sindirilmesi bu kadar sürer",
+    "sub": "KidsHealth",
+    "icon": "⏳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f17"
+   ],
+   "stickers": [
+    "⏰",
+    "🍽️"
+   ],
+   "keywords": [
+    "SABIR ⏳"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "importance",
+   "lineIds": [
+    "l33",
+    "l34"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: yavaş çiğne",
+    "items": [
+     "İlk lokmayı hemen yutma",
+     "Uzun uzun çiğne",
+     "Yumuşamasını izle",
+     "Ağzın doluyken konuşma"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🍞",
+    "🦷"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "AMİLAZ İŞ BAŞINDA"
+   ]
+  },
+  {
+   "id": "s15",
+   "section": "limitations",
+   "lineIds": [
+    "l35",
+    "l36"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "9 metre",
+    "label": "Bir yetişkinin sindirim kanalı yaklaşık bu uzunlukta",
+    "sub": "KidsHealth",
+    "icon": "📏"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f16"
+   ],
+   "stickers": [
+    "🔌",
+    "🪢"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?",
+    "DÜĞÜM! 🪢"
+   ]
+  },
+  {
+   "id": "s16",
+   "section": "limitations",
+   "lineIds": [
+    "l37",
+    "l38"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Besinleri kana geçiren çıkıntıların adı ne?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "🖐️",
+    "🔬"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "VİLLUS ✅"
+   ]
+  },
+  {
+   "id": "s17",
+   "section": "limitations",
+   "lineIds": [
+    "l39"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s18",
+   "section": "summary",
+   "lineIds": [
+    "l40",
+    "l41",
+    "l42"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

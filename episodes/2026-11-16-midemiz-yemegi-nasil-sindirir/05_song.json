@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Lokmanın Yolculuğu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Ağızda başlar bu macera",
+          "start": 5.15,
+          "end": 8.71
+        },
+        {
+          "text": "Dişler doğrar, tükürük ıslatır",
+          "start": 8.71,
+          "end": 12.58
+        },
+        {
+          "text": "Amilaz nişastayı parçalar",
+          "start": 12.58,
+          "end": 16.46
+        },
+        {
+          "text": "Epiglot kapanır, yutarım",
+          "start": 16.46,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Lokma lokma yolculuk var!",
+          "start": 20.17,
+          "end": 23.02
+        },
+        {
+          "text": "Peristalsis dalga dalga",
+          "start": 23.02,
+          "end": 25.88
+        },
+        {
+          "text": "Mide çalkalar, asit yardım eder",
+          "start": 25.88,
+          "end": 29.6
+        },
+        {
+          "text": "İçimde bir fabrika çalışır",
+          "start": 29.6,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Pilor kapısı bekletir",
+          "start": 33.18,
+          "end": 36.48
+        },
+        {
+          "text": "İnce bağırsak uzun mu uzun",
+          "start": 36.48,
+          "end": 40.44
+        },
+        {
+          "text": "Villuslar besini kana taşır",
+          "start": 40.44,
+          "end": 44.4
+        },
+        {
+          "text": "Kalın bağırsak suyu toplar",
+          "start": 44.4,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Lokma lokma yolculuk var!",
+          "start": 48.19,
+          "end": 51.4
+        },
+        {
+          "text": "Peristalsis dalga dalga",
+          "start": 51.4,
+          "end": 54.62
+        },
+        {
+          "text": "Yavaş çiğne, tadını çıkar",
+          "start": 54.62,
+          "end": 58.15
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.15,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
