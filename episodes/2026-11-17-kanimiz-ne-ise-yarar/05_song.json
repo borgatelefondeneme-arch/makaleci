@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Kırmızı Nehir",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Kalp pompalar, kan yola çıkar",
+          "start": 5.15,
+          "end": 8.87
+        },
+        {
+          "text": "Atardamardan vücuda akar",
+          "start": 8.87,
+          "end": 12.92
+        },
+        {
+          "text": "Plazma taşır besinleri",
+          "start": 12.92,
+          "end": 16.3
+        },
+        {
+          "text": "Toplardamardan geri döner",
+          "start": 16.3,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kırmızı nehir, durmadan akar!",
+          "start": 20.17,
+          "end": 23.67
+        },
+        {
+          "text": "Alyuvar oksijen taşır",
+          "start": 23.67,
+          "end": 26.6
+        },
+        {
+          "text": "Hemoglobinle parlak kırmızı",
+          "start": 26.6,
+          "end": 30.1
+        },
+        {
+          "text": "Her hücreye hayat taşır",
+          "start": 30.1,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Akyuvar savaşır mikropla",
+          "start": 33.18,
+          "end": 36.89
+        },
+        {
+          "text": "Trombosit kapatır yarayı",
+          "start": 36.89,
+          "end": 40.61
+        },
+        {
+          "text": "Kemik iliği yapar yenisini",
+          "start": 40.61,
+          "end": 45
+        },
+        {
+          "text": "Kabuk bağlar dizimde",
+          "start": 45,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kırmızı nehir, durmadan akar!",
+          "start": 48.19,
+          "end": 51.78
+        },
+        {
+          "text": "Alyuvar oksijen taşır",
+          "start": 51.78,
+          "end": 54.77
+        },
+        {
+          "text": "Bileğine dokun, nabzını say",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
