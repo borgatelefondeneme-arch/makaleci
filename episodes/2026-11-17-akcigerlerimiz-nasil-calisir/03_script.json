@@ -1,0 +1,460 @@
+{
+  "paperId": "topic:akcigerlerimiz-nasil-calisir",
+  "episodeNumber": 32,
+  "videoTitle": "Akciğerlerimiz nasıl çalışır?",
+  "paperTitleTr": "Akciğerlerimiz nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Bu cümleyi dinlerken farkında olmadan birkaç kez nefes aldın. KidsHealth'e göre günde binlerce kez nefes alıyoruz!",
+          "spoken": "Bu cümleyi dinlerken farkında olmadan birkaç kez nefes aldın. Kids Helt'e göre günde binlerce kez nefes alıyoruz!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki içine çektiğin hava nereye gider? Ve vücudun onunla ne yapar?",
+          "spoken": "Peki içine çektiğin hava nereye gider? Ve vücudun onunla ne yapar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir hava molekülü olup akciğerlerin içine yolculuk ediyoruz! Ben zaten havalı bir robotum, hazırım!",
+          "spoken": "Bugün bir hava molekülü olup akciğerlerin içine yolculuk ediyoruz! Ben zaten havalı bir robotum, hazırım!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Hava hangi yollardan geçer? Oksijen kana nasıl karışır? Ve nefes almamızı hangi kas sağlar?",
+          "spoken": "Üç sorumuz var. Hava hangi yollardan geçer? Oksijen kana nasıl karışır? Ve nefes almamızı hangi kas sağlar?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "Solunum sistemi; burun, ağız, boğaz, gırtlak, soluk borusu, akciğerler ve diyaframdan oluşur.",
+          "spoken": "Solunum sistemi; burun, ağız, boğaz, gırtlak, soluk borusu, akciğerler ve diyaframdan oluşur.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Hava önce burundan ya da ağızdan girer. Amerikan Ulusal Sağlık Enstitüleri NIH'ye göre burası havayı ısıtır ve nemlendirir.",
+          "spoken": "Hava önce burundan ya da ağızdan girer. Amerikan Ulusal Sağlık Enstitüleri, En Ay Eyç'ye göre burası havayı ısıtır ve nemlendirir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Çünkü soğuk ve kuru hava akciğerleri tahriş edebilir.",
+          "spoken": "Çünkü soğuk ve kuru hava akciğerleri tahriş edebilir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Burnunda silia denen minik tüyler vardır. Silialar tozu ve parçacıkları süzer.",
+          "spoken": "Burnunda silia denen minik tüyler vardır. Silialar tozu ve parçacıkları süzer.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Soluk borusu da silialarla kaplıdır. Bu tüyler, yabancı parçacıkları süpürge gibi dışarı iter.",
+          "spoken": "Soluk borusu da silialarla kaplıdır. Bu tüyler, yabancı parçacıkları süpürge gibi dışarı iter.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim de bir hava filtrem var. Ama ben onu ayda bir değiştiriyorum, sen ise kendi kendini temizliyorsun!",
+          "spoken": "Benim de bir hava filtrem var. Ama ben onu ayda bir değiştiriyorum, sen ise kendi kendini temizliyorsun!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Soluk borusu aşağıda ikiye ayrılır: sağ ve sol bronşlar. Kıkırdak denen sert halkalar bu tüpleri açık tutar.",
+          "spoken": "Soluk borusu aşağıda ikiye ayrılır: sağ ve sol bronşlar. Kıkırdak denen sert halkalar bu tüpleri açık tutar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Akciğerlerin içinde bronşlar binlerce ince tüpe ayrılır. Bunlara bronşiyol denir.",
+          "spoken": "Akciğerlerin içinde bronşlar binlerce ince tüpe ayrılır. Bunlara bronşiyol denir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Ters dönmüş bir ağaç gibi: gövde soluk borusu, dallar bronşlar, ince dallar bronşiyoller.",
+          "spoken": "Ters dönmüş bir ağaç gibi: gövde soluk borusu, dallar bronşlar, ince dallar bronşiyoller.",
+          "factIds": [
+            "f4",
+            "f5"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Her bronşiyolün ucunda minik hava kesecikleri vardır: alveoller.",
+          "spoken": "Her bronşiyolün ucunda minik hava kesecikleri vardır: alveoller.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "NIH'ye göre akciğerlerinde yaklaşık 150 milyon alveol vardır!",
+          "spoken": "En Ay Eyç'ye göre akciğerlerinde yaklaşık yüz elli milyon alveol vardır!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Her alveol, kılcal damar denen minik kan damarlarından bir ağla sarılıdır.",
+          "spoken": "Her alveol, kılcal damar denen minik kan damarlarından bir ağla sarılıdır.",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "İşte büyük takas burada olur! Oksijen alveollerden kılcal damarlara, yani kana geçer.",
+          "spoken": "İşte büyük takas burada olur! Oksijen alveollerden kılcal damarlara, yani kana geçer.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Alyuvarlar oksijeni yakalar ve vücudundaki hücrelere taşır.",
+          "spoken": "Alyuvarlar oksijeni yakalar ve vücudundaki hücrelere taşır.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Karbondioksit ise ters yöne gider: kandan alveollerin içindeki havaya geçer. Sen de onu nefesle dışarı verirsin.",
+          "spoken": "Karbondioksit ise ters yöne gider: kandan alveollerin içindeki havaya geçer. Sen de onu nefesle dışarı verirsin.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Ben karbondioksit vermem. Olsa olsa biraz sıcak hava üflerim, o da fanımdan!",
+          "spoken": "Ben karbondioksit vermem. Olsa olsa biraz sıcak hava üflerim, o da fanımdan!",
+          "factIds": []
+        },
+        {
+          "id": "l22",
+          "display": "Peki havayı içeri ne çeker? Diyafram! Diyafram, göğüs ile karın arasındaki bir kastır.",
+          "spoken": "Peki havayı içeri ne çeker? Diyafram! Diyafram, göğüs ile karın arasındaki bir kastır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Nefes alırken diyafram karnına doğru aşağı iner. Nefes verirken yukarı çıkar ve göğüs kasları gevşer.",
+          "spoken": "Nefes alırken diyafram karnına doğru aşağı iner. Nefes verirken yukarı çıkar ve göğüs kasları gevşer.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Alveollerde sürfaktan denen bir madde de vardır. Sürfaktan, akciğerlerin daha kolay şişmesine yardım eder ve nefes almayı kolaylaştırır.",
+          "spoken": "Alveollerde sürfaktan denen bir madde de vardır. Sürfaktan, akciğerlerin daha kolay şişmesine yardım eder ve nefes almayı kolaylaştırır.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Şimdi sıra sende! Sırt üstü uzan ve bir elini karnına, diğerini göğsüne koy.",
+          "spoken": "Şimdi sıra sende! Sırt üstü uzan ve bir elini karnına, diğerini göğsüne koy.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Yavaşça burnundan derin bir nefes al, sonra ver. Hangi elin daha çok hareket ediyor? Başın dönerse hemen normal nefese dön.",
+          "spoken": "Yavaşça burnundan derin bir nefes al, sonra ver. Hangi elin daha çok hareket ediyor? Başın dönerse hemen normal nefese dön.",
+          "factIds": [
+            "f10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l27",
+          "display": "Bunu biliyor muydun? Her alveol bir kılcal damar ağıyla sarılıdır. Yani akciğerlerinde 150 milyon minik takas noktası var!",
+          "spoken": "Bunu biliyor muydun? Her alveol bir kılcal damar ağıyla sarılıdır. Yani akciğerlerinde yüz elli milyon minik takas noktası var!",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Benim bir tane bile yok. Ama şarj kablomda iki ucum var, sayılır mı?",
+          "spoken": "Benim bir tane bile yok. Ama şarj kablomda iki ucum var, sayılır mı?",
+          "factIds": []
+        },
+        {
+          "id": "l29",
+          "display": "Hızlı soru! Nefes alırken aşağı inen kasın adı neydi?",
+          "spoken": "Hızlı soru! Nefes alırken aşağı inen kasın adı neydi?",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Düşün bakalım... Evet: diyafram!",
+          "spoken": "Düşün bakalım... Evet: diyafram!",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l31",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l32",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l34",
+          "display": "Abone olmayı ve zili açmayı unutma. Derin bir nefes al, görüşürüz!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Derin bir nefes al, görüşürüz!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Hava burun, soluk borusu, bronşlar ve bronşiyollerden alveollere gider",
+    "Alveollerde oksijen kana, karbondioksit havaya geçer",
+    "Diyafram aşağı inip yukarı çıkarak nefes almamızı sağlar"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "sky",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🎈",
+        "every": 32
+      }
+    ]
+  },
+  "song": {
+    "title": "Nefes Ağacı",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🫁",
+        "name": "Akciğer"
+      },
+      {
+        "emoji": "👃",
+        "name": "Burun"
+      },
+      {
+        "emoji": "🫧",
+        "name": "Alveol"
+      },
+      {
+        "emoji": "🩸",
+        "name": "Kan"
+      },
+      {
+        "emoji": "💪",
+        "name": "Diyafram"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "🎈"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🫁"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🫧"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🍃"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Burundan girer serin hava",
+          "Silialar süzer tozları",
+          "Soluk borusu iner aşağı",
+          "İkiye ayrılır bronşlarla"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Nefes al, nefes ver!",
+          "Diyafram iner, diyafram çıkar",
+          "Oksijen kana, karbondioksit dışarı",
+          "İçimde bir ağaç yaşar"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Bronşiyoller dal dal ayrılır",
+          "Alveoller minik keseler",
+          "Kılcal damarlar sarar onları",
+          "Alyuvarlar taşır oksijeni"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Nefes al, nefes ver!",
+          "Diyafram iner, diyafram çıkar",
+          "Elini karnına koy, hisset",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Nefes aldığımızda hava nereye gider? Bu bölümde burun ve silialarla havanın temizlenmesini, soluk borusunu, bronşları ve bronşiyolleri, yaklaşık yüz elli milyon alveolü, oksijen ve karbondioksit takasını, diyaframı ve sürfaktanı keşfediyoruz. Sonunda karın ve göğüs nefes deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Silia",
+      "meaning": "Burunda ve soluk borusunda tozu süzen, süpüren minik tüyler."
+    },
+    {
+      "term": "Bronş",
+      "meaning": "Soluk borusunun ayrıldığı sağ ve sol hava tüpleri."
+    },
+    {
+      "term": "Bronşiyol",
+      "meaning": "Bronşların akciğer içinde ayrıldığı çok ince hava tüpleri."
+    },
+    {
+      "term": "Alveol",
+      "meaning": "Bronşiyollerin ucundaki, gaz takasının olduğu minik hava kesecikleri."
+    },
+    {
+      "term": "Kılcal damar",
+      "meaning": "Alveolleri saran çok ince kan damarları."
+    },
+    {
+      "term": "Diyafram",
+      "meaning": "Göğüs ile karın arasında, nefes almayı sağlayan kas."
+    },
+    {
+      "term": "Sürfaktan",
+      "meaning": "Akciğerlerin kolay şişmesine yardım eden madde."
+    }
+  ]
+}

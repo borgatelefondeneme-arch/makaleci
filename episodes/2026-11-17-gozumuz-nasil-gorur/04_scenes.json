@@ -1,0 +1,650 @@
+{
+  "paperId": "topic:gozumuz-nasil-gorur",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Gözümüz nasıl görür?",
+        "emoji": "👁️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "🌈",
+        "🦋"
+      ],
+      "keywords": [
+        "BEYNİNLE GÖRÜRSÜN?",
+        "IŞIK → GÖRÜNTÜ",
+        ""
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Işık göze nasıl girer?",
+          "Göz onu nasıl odaklar?",
+          "Görüntüyü kim oluşturur?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Gözün önü",
+        "emoji": "👁️",
+        "chips": [
+          {
+            "label": "Pinpon topu büyüklüğünde",
+            "emoji": "🏓"
+          },
+          {
+            "label": "Kornea: saydam kubbe",
+            "emoji": "🔍"
+          },
+          {
+            "label": "İris: renkli bölüm",
+            "emoji": "🎨"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "stickers": [
+        "🏓",
+        "🔍"
+      ],
+      "keywords": [
+        "GÖZ ÇUKURU",
+        "KORNEA",
+        "İRİS"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Göz bebeği",
+        "label": "Açıklık",
+        "emoji": "⚫",
+        "phases": [
+          {
+            "label": "Işık var: küçülür",
+            "level": 0.25,
+            "emoji": "☀️"
+          },
+          {
+            "label": "Işık gitti: genişler",
+            "level": 0.85,
+            "emoji": "🌙"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "💡",
+        "📷"
+      ],
+      "keywords": [
+        "GÖZ BEBEĞİ",
+        "OBJEKTİF KAPAĞI 📷"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Mercek odaklar",
+        "left": {
+          "title": "Yakına bak 📖",
+          "items": [
+            "Mercek kalınlaşır"
+          ]
+        },
+        "right": {
+          "title": "Uzağa bak 🏔️",
+          "items": [
+            "Mercek incelir"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "📖",
+        "🏔️"
+      ],
+      "keywords": [
+        "MERCEK + KORNEA",
+        "ESNEK MERCEK"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Retinada",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Işık retinaya düşer",
+            "emoji": "💡"
+          },
+          {
+            "label": "Fotoreseptörler",
+            "emoji": "🔬"
+          },
+          {
+            "label": "Elektrik sinyali",
+            "emoji": "⚡"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🔬",
+        "⚡"
+      ],
+      "keywords": [
+        "RETİNA",
+        "FOTORESEPTÖR"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l15"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Her gözde (milyon)",
+        "unit": "milyon",
+        "bars": [
+          {
+            "label": "Çubuk",
+            "value": 120,
+            "display": "120",
+            "highlight": true
+          },
+          {
+            "label": "Koni",
+            "value": 7,
+            "display": "7"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "stickers": [
+        "👁️",
+        "🔢"
+      ],
+      "keywords": [
+        "ÇUBUK VE KONİ"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "finding",
+      "lineIds": [
+        "l16",
+        "l17"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Çubuklar",
+        "emoji": "🌑",
+        "chips": [
+          {
+            "label": "Siyah, beyaz, gri",
+            "emoji": "⚫"
+          },
+          {
+            "label": "Biçimleri bildirir",
+            "emoji": "🔷"
+          },
+          {
+            "label": "Karanlıkta görür",
+            "emoji": "🌙"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "🦉",
+        "🌙"
+      ],
+      "keywords": [
+        "RENK YOK",
+        "KARANLIKTA GÖRME 🌙"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "finding",
+      "lineIds": [
+        "l18",
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Koniler",
+        "label": "Işık",
+        "emoji": "🌈",
+        "phases": [
+          {
+            "label": "Rengi algılar",
+            "level": 0.6,
+            "emoji": "🎨"
+          },
+          {
+            "label": "Daha çok ışık ister",
+            "level": 0.9,
+            "emoji": "☀️"
+          },
+          {
+            "label": "Kırmızı, yeşil, mavi",
+            "level": 0.75,
+            "emoji": "🔴"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "🔴",
+        "🔵"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "RENK",
+        "ÇOK IŞIK",
+        "KIRMIZI • YEŞİL • MAVİ"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l21",
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Gözden beyne",
+        "rows": [
+          {
+            "label": "Retina sinyal üretir",
+            "emoji": "⚡"
+          },
+          {
+            "label": "Görme siniri taşır",
+            "emoji": "📞"
+          },
+          {
+            "label": "Beyin görüntüyü kurar",
+            "emoji": "🧠"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "keywords": [
+        "GÖRME SİNİRİ",
+        "TELEFON HATTI 📞",
+        "BEYİNLE GÖRMEK"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l24",
+        "l25"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Göz bakımı",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Göz kırp",
+            "emoji": "😉"
+          },
+          {
+            "label": "Gözyaşı gelir",
+            "emoji": "💧"
+          },
+          {
+            "label": "Göz temiz ve nemli",
+            "emoji": "✨"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "💧",
+        "😉"
+      ],
+      "keywords": [
+        "GÖZ KIRP",
+        "GÖZYAŞI 💧"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "importance",
+      "lineIds": [
+        "l26"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Kırmızı–yeşil",
+        "label": "En yaygın renk görme bozukluğu bu renkleri karıştırır",
+        "sub": "Ulusal Göz Enstitüsü",
+        "icon": "🎨"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🔴",
+        "🟢"
+      ],
+      "keywords": [
+        "RENK GÖRME"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "importance",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: ayna deneyi",
+        "items": [
+          "Loş odada aynaya bak",
+          "Göz bebeğine dikkat et",
+          "Işığı aç, tekrar bak",
+          "Gözüne fener ya da lazer tutma!"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🪞",
+        "💡"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "İRİS İŞ BAŞINDA"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l29"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Gözünü koru",
+        "emoji": "🕶️",
+        "chips": [
+          {
+            "label": "Fazla ışık zarar verebilir",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Güneş gözlüğü tak",
+            "emoji": "🕶️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "☀️",
+        "🥽"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s15",
+      "section": "limitations",
+      "lineIds": [
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Karanlıkta görmemizi hangi hücreler sağlar?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "🌙",
+        "👁️"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "ÇUBUKLAR ✅"
+      ]
+    },
+    {
+      "id": "s16",
+      "section": "limitations",
+      "lineIds": [
+        "l32"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s17",
+      "section": "summary",
+      "lineIds": [
+        "l33",
+        "l34",
+        "l35"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

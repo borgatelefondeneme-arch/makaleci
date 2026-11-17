@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Koku Yolu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Bir kırıntı düştü yere",
+          "start": 5.15,
+          "end": 8.69
+        },
+        {
+          "text": "Feromon yayıldı havaya",
+          "start": 8.69,
+          "end": 12.58
+        },
+        {
+          "text": "Haber gitti yuvaya",
+          "start": 12.58,
+          "end": 15.77
+        },
+        {
+          "text": "Sıra sıra geldi karıncalar",
+          "start": 15.77,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Koku yolu, koku yolu!",
+          "start": 20.17,
+          "end": 22.9
+        },
+        {
+          "text": "Birlikte güçlüyüz, koloni bu",
+          "start": 22.9,
+          "end": 26.19
+        },
+        {
+          "text": "Kraliçe yumurtlar, işçi çalışır",
+          "start": 26.19,
+          "end": 29.74
+        },
+        {
+          "text": "Toprağın altında bir şehir var",
+          "start": 29.74,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Askerler korur yuvayı",
+          "start": 33.18,
+          "end": 36.63
+        },
+        {
+          "text": "Kanatlılar kurar yeni koloni",
+          "start": 36.63,
+          "end": 41.13
+        },
+        {
+          "text": "Elli kat yük taşır işçi",
+          "start": 41.13,
+          "end": 44.58
+        },
+        {
+          "text": "Selde bile birlik olur",
+          "start": 44.58,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Koku yolu, koku yolu!",
+          "start": 48.19,
+          "end": 51.18
+        },
+        {
+          "text": "Birlikte güçlüyüz, koloni bu",
+          "start": 51.18,
+          "end": 54.77
+        },
+        {
+          "text": "Kırıntı bırak, uzaktan izle",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "paperId": "topic:kanimiz-ne-ise-yarar",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Blood",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/blood.html"
+    },
+    {
+      "id": "k2",
+      "title": "Blood Basics",
+      "publisher": "Amerikan Hematoloji Derneği",
+      "url": "https://www.hematology.org/education/patients/blood-basics"
+    },
+    {
+      "id": "k3",
+      "title": "Blood",
+      "publisher": "MedlinePlus",
+      "url": "https://medlineplus.gov/blood.html"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Kanın dört ana bileşeni vardır: plazma, alyuvarlar, akyuvarlar ve trombositler.",
+      "numbers": [],
+      "quote": "It has four main components: plasma, red blood cells, white blood cells, and platelets.",
+      "location": "American Society of Hematology — Blood Basics"
+    },
+    {
+      "id": "f2",
+      "kind": "number",
+      "statement": "Plazma; besinler, proteinler, hormonlar ve atık maddeler içeren sarımsı bir sıvıdır; kanın yarısından fazlası plazmadır; kan yaklaşık yüzde 55 plazma ve yüzde 45 kan hücresinden oluşan bir karışımdır.",
+      "numbers": [
+        "55",
+        "45"
+      ],
+      "quote": "Plasma (pronounced: PLAZ-muh) is a yellowish fluid that has nutrients, proteins, hormones, and waste products. / Over half of your blood is plasma. / a mixture of about 55% plasma and 45% blood cells.",
+      "location": "Nemours KidsHealth — Blood; MedlinePlus (NIH) — Blood; American Society of Hematology — Blood Basics"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Kanın görevi oksijeni ve besinleri vücudun her yerine götürmektir; kan karbondioksiti ve diğer atıkları akciğerlere, böbreklere ve sindirim sistemine taşır.",
+      "numbers": [],
+      "quote": "The function of blood is to bring oxygen and nutrients to all the parts of the body so they can keep working. / Blood carries carbon dioxide and other waste materials to the lungs, kidneys, and digestive system",
+      "location": "Nemours KidsHealth — Blood"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Alyuvarlar oksijen taşıyan hemoglobin proteinini içerir; hemoglobin akciğerlerde oksijen alınca kan parlak kırmızı rengini alır; alyuvarlar oksijeni akciğerlerden doku ve organlara götürür.",
+      "numbers": [],
+      "quote": "a protein that carries oxygen. / Blood gets its bright red color when hemoglobin picks up oxygen in the lungs. / Red blood cells (RBC) deliver oxygen from your lungs to your tissues and organs.",
+      "location": "Nemours KidsHealth — Blood; MedlinePlus (NIH) — Blood"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Alyuvar, ortası basık, iki yüzü içe çökük bir disk biçimindedir.",
+      "numbers": [],
+      "quote": "The shape of a red blood cell is a biconcave disk with a flattened center",
+      "location": "American Society of Hematology — Blood Basics"
+    },
+    {
+      "id": "f6",
+      "kind": "number",
+      "statement": "Bir alyuvar ortalama 120 gün yaşar.",
+      "numbers": [
+        "120"
+      ],
+      "quote": "A red blood cell survives an average of 120 days. / Red blood cells live about 120 days",
+      "location": "American Society of Hematology — Blood Basics; MedlinePlus (NIH) — Blood"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Farklı türdeki akyuvarlar bakteri ve virüs gibi mikroplarla savaşır; akyuvarlar vücudu enfeksiyondan korur.",
+      "numbers": [],
+      "quote": "Different types of white blood cells (WBCs) fight germs, such as bacteria and viruses. / White blood cells protect the body from infection.",
+      "location": "Nemours KidsHealth — Blood; American Society of Hematology — Blood Basics"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Trombositler pıhtılaşmaya yardım eden minik hücrelerdir; bir kan damarı yırtılınca o bölgede toplanıp sızıntıyı kapatmaya yardım ederler.",
+      "numbers": [],
+      "quote": "are tiny oval-shaped cells that help in the clotting process. / When a blood vessel breaks, platelets gather in the area and help seal off the leak.",
+      "location": "Nemours KidsHealth — Blood"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Kemiklerin içindeki süngerimsi madde olan kemik iliği yeni kan hücreleri yapar.",
+      "numbers": [],
+      "quote": "Bone marrow, the spongy material inside your bones, makes new blood cells. / RBCs are made in the inside part of bones called the bone marrow.",
+      "location": "MedlinePlus (NIH) — Blood; Nemours KidsHealth — Blood"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "Toplam vücut ağırlığının yaklaşık yüzde 7 ile 8'i kandır.",
+      "numbers": [
+        "7",
+        "8"
+      ],
+      "quote": "About 7% to 8% of your total body weight is blood.",
+      "location": "American Society of Hematology — Blood Basics"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Kalp her atışta kanı vücuda pompalar; atardamarlar oksijenli kanı kalpten vücudun geri kalanına taşır; kan toplardamarlarla kalbe ve akciğerlere geri döner.",
+      "numbers": [],
+      "quote": "With each heartbeat, the heart pumps blood throughout our bodies, carrying oxygen to every cell. / Arteries carry oxygenated blood (blood that has gotten oxygen from the lungs) from the heart to the rest of the body. / Blood then travels through veins back to the heart and lungs",
+      "location": "Nemours KidsHealth — Blood"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Dört kan grubu vardır: A, B, AB ya da O; ayrıca kan Rh pozitif ya da Rh negatiftir.",
+      "numbers": [],
+      "quote": "There are four blood types: A, B, AB, or O. / Also, blood is either Rh-positive or Rh-negative.",
+      "location": "MedlinePlus (NIH) — Blood"
+    }
+  ]
+}

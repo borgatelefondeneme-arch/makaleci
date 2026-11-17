@@ -1,0 +1,129 @@
+{
+  "paperId": "topic:mevsimler-nasil-olusur",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "What Causes the Seasons?",
+      "publisher": "NASA",
+      "url": "https://spaceplace.nasa.gov/seasons/en/"
+    },
+    {
+      "id": "k2",
+      "title": "Season",
+      "publisher": "National Geographic",
+      "url": "https://education.nationalgeographic.org/resource/season/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Mevsimlere Dünya'nın eğik ekseni yol açar; Dünya'nın ekseni dimdik durmaz; Dünya yörünge düzlemine göre eksenine eğiktir.",
+      "numbers": [],
+      "quote": "Earth's tilted axis causes the seasons. / Earth has seasons because its axis doesn't stand up straight. / Seasons occur because Earth is tilted on its axis relative to the orbital plane,",
+      "location": "NASA Space Place — What Causes the Seasons?; National Geographic Education — Season"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Dünya Güneş'in çevresinde dolanırken eğik ekseni hep aynı yöne bakar.",
+      "numbers": [],
+      "quote": "As Earth orbits the Sun, its tilted axis always points in the same direction.",
+      "location": "NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Dünya bu eksen çevresinde döner ve her gün bir tam tur atar.",
+      "numbers": [],
+      "quote": "Earth spins around this pole, making one complete turn each day.",
+      "location": "NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Kuzey Kutbu Güneş'e doğru eğikken (Haziran civarı) Güneş ışınları Kuzey Yarım Küre'ye yılın diğer zamanlarından daha doğrudan gelir ve orada yaz olur.",
+      "numbers": [],
+      "quote": "Sometimes it is the North Pole tilting toward the Sun (around June) / the Sun's rays hit that part of Earth more directly than at any other time of the year / So, when the North Pole tilts toward the Sun, it's summer in the Northern Hemisphere.",
+      "location": "NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Bir yarım küre Güneş'ten uzağa eğikken daha az güneş ışığı alır ve kış olur.",
+      "numbers": [],
+      "quote": "When it is pointing away, there is less sunlight, leading to winter.",
+      "location": "NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Güneş'e doğru eğik yarım küre daha fazla gün ışığı saati alır; Aralık'ta Güneş'ten uzağa eğik olan Kuzey Yarım Küre daha az gün ışığı saati alır.",
+      "numbers": [],
+      "quote": "This means it gets more hours of daylight. / In December, when the Northern Hemisphere is tilted away from the sun, it receives fewer hours of daylight.",
+      "location": "National Geographic Education — Season"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Kuzey Yarım Küre'deki mevsimler Güney Yarım Küre'dekilerin tersidir.",
+      "numbers": [],
+      "quote": "The seasons in the Northern Hemisphere are the opposite of those in the Southern Hemisphere. / As the poles are on opposite ends of Earth, they experience opposite timing for the seasons.",
+      "location": "National Geographic Education — Season; NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Pek çok kişi yazın Dünya'nın Güneş'e daha yakın olduğunu sanır; oysa Dünya Güneş'e en yakın noktasına Ocak'ta, en uzak noktasına Temmuz'da gelir; yani uzaklık mevsimlerin nedeni değildir.",
+      "numbers": [],
+      "quote": "Many people believe that Earth is closer to the Sun in the summer and that is why it is hotter. / aphelion (when Earth is farthest from the Sun) occurs in July, and perihelion (when we are closest) occurs in January. / That just goes to prove that Earth's distance from the Sun is not the cause of the seasons.",
+      "location": "NASA Space Place — What Causes the Seasons?"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "Yaz 20 ya da 21 Haziran'daki yaz gündönümüyle başlar; bu, yılın en çok gün ışığı olan günüdür; kış gündönümü en kısa gündüzün olduğu gündür.",
+      "numbers": [
+        "20",
+        "21"
+      ],
+      "quote": "Summer begins on June 20 or 21, the summer solstice, which has the most daylight of any day in the year. / This is the winter solstice, the day of the year with the shortest period of daylight.",
+      "location": "National Geographic Education — Season"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "İlkbahar ve sonbahar, gece ile gündüzün eşit olduğu ekinokslarla başlar; ilkbahar ekinoksu 20 ya da 21 Mart'ta, sonbahar ekinoksu 22 ya da 23 Eylül'dedir.",
+      "numbers": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "quote": "Spring and fall, or autumn, begin on equinoxes, days that have equal amounts of daylight and darkness. / The vernal, or spring, equinox falls on March 20 or 21, and the autumnal equinox is on September 22 or 23.",
+      "location": "National Geographic Education — Season"
+    },
+    {
+      "id": "f11",
+      "kind": "number",
+      "statement": "Helsinki'de Haziran ortasında 18,5 saat gün ışığı olur; Atina'da Haziran'da 14,5, Aralık'ta 9,5 saat gün ışığı vardır.",
+      "numbers": [
+        "18.5",
+        "14.5",
+        "9.5"
+      ],
+      "quote": "Helsinki, Finland, sees 18.5 hours of daylight in the middle of June. / It has 14.5 hours of daylight in June and 9.5 hours in December.",
+      "location": "National Geographic Education — Season"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Alaska'daki Barrow'da Mayıs ortasından Ağustos başına kadar gün boyu aydınlık olur; Kasım ortasından Ocak'a kadar ise tam karanlık hüküm sürer.",
+      "numbers": [],
+      "quote": "stays light all day long between mid-May and early August / in total darkness between mid-November and January",
+      "location": "National Geographic Education — Season"
+    }
+  ]
+}

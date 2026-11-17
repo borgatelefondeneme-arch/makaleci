@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Nefes Ağacı",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Burundan girer serin hava",
+          "start": 5.15,
+          "end": 8.79
+        },
+        {
+          "text": "Silialar süzer tozları",
+          "start": 8.79,
+          "end": 12.42
+        },
+        {
+          "text": "Soluk borusu iner aşağı",
+          "start": 12.42,
+          "end": 16.38
+        },
+        {
+          "text": "İkiye ayrılır bronşlarla",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Nefes al, nefes ver!",
+          "start": 20.17,
+          "end": 22.45
+        },
+        {
+          "text": "Diyafram iner, diyafram çıkar",
+          "start": 22.45,
+          "end": 25.88
+        },
+        {
+          "text": "Oksijen kana, karbondioksit dışarı",
+          "start": 25.88,
+          "end": 30.17
+        },
+        {
+          "text": "İçimde bir ağaç yaşar",
+          "start": 30.17,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Bronşiyoller dal dal ayrılır",
+          "start": 33.18,
+          "end": 36.73
+        },
+        {
+          "text": "Alveoller minik keseler",
+          "start": 36.73,
+          "end": 40.28
+        },
+        {
+          "text": "Kılcal damarlar sarar onları",
+          "start": 40.28,
+          "end": 44.16
+        },
+        {
+          "text": "Alyuvarlar taşır oksijeni",
+          "start": 44.16,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Nefes al, nefes ver!",
+          "start": 48.19,
+          "end": 50.76
+        },
+        {
+          "text": "Diyafram iner, diyafram çıkar",
+          "start": 50.76,
+          "end": 54.62
+        },
+        {
+          "text": "Elini karnına koy, hisset",
+          "start": 54.62,
+          "end": 58.15
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.15,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

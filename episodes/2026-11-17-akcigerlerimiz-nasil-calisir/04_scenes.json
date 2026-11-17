@@ -1,0 +1,535 @@
+{
+  "paperId": "topic:akcigerlerimiz-nasil-calisir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Akciğerlerimiz nasıl çalışır?",
+        "emoji": "🫁"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🎈",
+        "💨"
+      ],
+      "keywords": [
+        "BİNLERCE NEFES",
+        "HAVA NEREYE GİDER?",
+        ""
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Hava hangi yollardan geçer?",
+          "Oksijen kana nasıl karışır?",
+          "Nefesi hangi kas sağlar?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Solunum sistemi",
+        "emoji": "🫁",
+        "chips": [
+          {
+            "label": "Burun ve ağız",
+            "emoji": "👃"
+          },
+          {
+            "label": "Soluk borusu",
+            "emoji": "🌬️"
+          },
+          {
+            "label": "Akciğerler",
+            "emoji": "🫁"
+          },
+          {
+            "label": "Diyafram",
+            "emoji": "💪"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "💨",
+        "🌡️"
+      ],
+      "keywords": [
+        "SOLUNUM SİSTEMİ",
+        "ISIT VE NEMLENDİR",
+        "SOĞUK HAVA ❄️"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10",
+        "l11"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Hava temizliği",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Burun: silia süzer",
+            "emoji": "👃"
+          },
+          {
+            "label": "Soluk borusu: silia süpürür",
+            "emoji": "🧹"
+          },
+          {
+            "label": "Temiz hava içeri",
+            "emoji": "✨"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🧹",
+        "🤖"
+      ],
+      "keywords": [
+        "SİLİA",
+        "SÜPÜRGE 🧹",
+        "FİLTRE"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l12",
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Hava ağacı",
+        "rows": [
+          {
+            "label": "Soluk borusu",
+            "emoji": "🌬️"
+          },
+          {
+            "label": "Bronşlar: sağ ve sol",
+            "emoji": "🌳"
+          },
+          {
+            "label": "Bronşiyoller",
+            "emoji": "🌿"
+          },
+          {
+            "label": "Alveoller",
+            "emoji": "🫧"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "highlightRow": 3,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4",
+        "f5"
+      ],
+      "keywords": [
+        "BRONŞLAR",
+        "BRONŞİYOLLER",
+        "TERS AĞAÇ 🌳"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16",
+        "l17"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "150 milyon",
+        "label": "Akciğerlerdeki alveol sayısı (yaklaşık)",
+        "sub": "NIH",
+        "icon": "🫧"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "🫧",
+        "🩸"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "ALVEOL",
+        "150 MİLYON",
+        "KILCAL DAMARLAR"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "importance",
+      "lineIds": [
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Alveolde takas",
+        "left": {
+          "title": "Kana geçer 🩸",
+          "items": [
+            "Oksijen",
+            "Alyuvarlar hücrelere taşır"
+          ]
+        },
+        "right": {
+          "title": "Havaya geçer 💨",
+          "items": [
+            "Karbondioksit",
+            "Nefesle dışarı"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "🩸",
+        "💨"
+      ],
+      "keywords": [
+        "OKSİJEN",
+        "ALYUVARLAR"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Takas devam ediyor",
+        "label": "Gaz",
+        "emoji": "💨",
+        "phases": [
+          {
+            "label": "Karbondioksit havaya geçer",
+            "level": 0.8,
+            "emoji": "⬆️"
+          },
+          {
+            "label": "Nefes ver",
+            "level": 0.15,
+            "emoji": "😮‍💨"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "💨",
+        "🌀"
+      ],
+      "keywords": [
+        "KARBONDİOKSİT",
+        "FAN 🌀"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l22",
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Diyafram",
+        "left": {
+          "title": "Nefes al 🫁",
+          "items": [
+            "Diyafram aşağı iner"
+          ]
+        },
+        "right": {
+          "title": "Nefes ver 😮‍💨",
+          "items": [
+            "Diyafram yukarı çıkar",
+            "Göğüs kasları gevşer"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f11"
+      ],
+      "stickers": [
+        "💪",
+        "🫧"
+      ],
+      "keywords": [
+        "DİYAFRAM",
+        "AŞAĞI • YUKARI",
+        "SÜRFAKTAN"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: hangi el?",
+        "items": [
+          "Sırt üstü uzan",
+          "Bir el karında, biri göğüste",
+          "Yavaş ve derin nefes al",
+          "Başın dönerse normal nefese dön"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "✋",
+        "🫁"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "YAVAŞ VE DERİN"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "limitations",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Minik takas noktaları",
+        "emoji": "🫧",
+        "chips": [
+          {
+            "label": "Her alveol kılcal ağla sarılı",
+            "emoji": "🕸️"
+          },
+          {
+            "label": "150 milyon alveol",
+            "emoji": "🔢"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "🔌",
+        "🕸️"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?",
+        "ŞARJ KABLOSU 🔌"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l29",
+        "l30"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Nefes alırken aşağı inen kas hangisi?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "💪",
+        "🫁"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "DİYAFRAM ✅"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l31"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s14",
+      "section": "summary",
+      "lineIds": [
+        "l32",
+        "l33",
+        "l34"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

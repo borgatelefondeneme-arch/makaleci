@@ -1,0 +1,451 @@
+{
+  "paperId": "topic:karincalar-nasil-birlikte-yasar",
+  "episodeNumber": 33,
+  "videoTitle": "Karıncalar nasıl birlikte yaşar?",
+  "paperTitleTr": "Karıncalar nasıl birlikte yaşar?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Yere bir kırıntı düşür ve bekle. Bir süre sonra karıncalar gelir, hem de sıra sıra! Onlara kim haber verdi?",
+          "spoken": "Yere bir kırıntı düşür ve bekle. Bir süre sonra karıncalar gelir, hem de sıra sıra! Onlara kim haber verdi?",
+          "factIds": [
+            "f1",
+            "f13"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Ne telefonları var ne de konuşabiliyorlar. Peki nasıl anlaşıyorlar?",
+          "spoken": "Ne telefonları var ne de konuşabiliyorlar. Peki nasıl anlaşıyorlar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün yerin altına, bir karınca kolonisine giriyoruz!",
+          "spoken": "Bugün yerin altına, bir karınca kolonisine giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Karıncalar nasıl haberleşir? Kolonide kim ne iş yapar? Ve yuvaları nasıldır?",
+          "spoken": "Üç sorumuz var. Karıncalar nasıl haberleşir? Kolonide kim ne iş yapar? Ve yuvaları nasıldır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre karıncalar feromon denen koku kimyasalları salgılayarak haberleşir.",
+          "spoken": "Neşınıl Ciyogrefik'e göre karıncalar feromon denen koku kimyasalları salgılayarak haberleşir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Feromonlar diğer karıncaları tehlikeye karşı uyarabilir ya da onları bir besin kaynağına götürebilir.",
+          "spoken": "Feromonlar diğer karıncaları tehlikeye karşı uyarabilir ya da onları bir besin kaynağına götürebilir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Yani karıncalar kokuyla mesajlaşır. Ben de mesaj atarım, ama benimkiler koku değil, bip bip!",
+          "spoken": "Yani karıncalar kokuyla mesajlaşır. Ben de mesaj atarım, ama benimkiler koku değil, bip bip!",
+          "factIds": []
+        },
+        {
+          "id": "l9",
+          "display": "Avustralya Müzesi'ne göre karıncalar hayvanlar âlemindeki en karmaşık kimyasal iletişime sahiptir.",
+          "spoken": "Avustralya Müzesi'ne göre karıncalar hayvanlar âlemindeki en karmaşık kimyasal iletişime sahiptir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Birlikte, tek bir böceğin asla yapamayacağı işleri başarırlar.",
+          "spoken": "Birlikte, tek bir böceğin asla yapamayacağı işleri başarırlar.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Besin ararken türüne göre gruplar halinde ya da tek başına dolaşırlar. Çoğu zaman zikzak çizerler, bazı türler ise yollar üzerinde sıra halinde koşar.",
+          "spoken": "Besin ararken türüne göre gruplar halinde ya da tek başına dolaşırlar. Çoğu zaman zikzak çizerler, bazı türler ise yollar üzerinde sıra halinde koşar.",
+          "factIds": [
+            "f13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Karıncalar koloni denen büyük topluluklarda yaşar. Bir koloni, türüne göre birkaç bireyden yüz binlerce karıncaya kadar büyüyebilir.",
+          "spoken": "Karıncalar koloni denen büyük topluluklarda yaşar. Bir koloni, türüne göre birkaç bireyden yüz binlerce karıncaya kadar büyüyebilir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Koloniyi bir ya da birden çok kraliçe yönetir. Kraliçeler binlerce yumurta bırakır; genellikle yalnızca onlar yumurtlar.",
+          "spoken": "Koloniyi bir ya da birden çok kraliçe yönetir. Kraliçeler binlerce yumurta bırakır; genellikle yalnızca onlar yumurtlar.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "En sık gördüğün karıncalar işçilerdir. İşçiler, hiç üremeyen dişi karıncalardır.",
+          "spoken": "En sık gördüğün karıncalar işçilerdir. İşçiler, hiç üremeyen dişi karıncalardır.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Besin ararlar, kraliçenin yavrularına bakarlar, yuvada çalışırlar ve topluluğu korurlar.",
+          "spoken": "Besin ararlar, kraliçenin yavrularına bakarlar, yuvada çalışırlar ve topluluğu korurlar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Ben de çok çalışkanım. Ama işçi karınca gibi değil; ben bir şarjla ancak bir video çekebiliyorum!",
+          "spoken": "Ben de çok çalışkanım. Ama işçi karınca gibi değil; ben bir şarjla ancak bir video çekebiliyorum!",
+          "factIds": []
+        },
+        {
+          "id": "l17",
+          "display": "Bazı türlerde askerler vardır. Askerler tehlikeye karşı ısırarak, asidik kimyasal fışkırtarak ya da sokarak karşılık verebilir.",
+          "spoken": "Bazı türlerde askerler vardır. Askerler tehlikeye karşı ısırarak, asidik kimyasal fışkırtarak ya da sokarak karşılık verebilir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Kanatlı karıncalar ise çiftleşmek ve yeni koloniler kurmak için yuvadan ayrılır. Kolonide yalnızca üreyebilenlerin kanadı vardır.",
+          "spoken": "Kanatlı karıncalar ise çiftleşmek ve yeni koloniler kurmak için yuvadan ayrılır. Kolonide yalnızca üreyebilenlerin kanadı vardır.",
+          "factIds": [
+            "f6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l19",
+          "display": "Peki yuvaları nerede? Yer altında, toprak tümseklerinde, hatta ağaçlarda olabilir.",
+          "spoken": "Peki yuvaları nerede? Yer altında, toprak tümseklerinde, hatta ağaçlarda olabilir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Yuvanın içinde yumurtalar, larvalar ve pupalar bulunur. Bazı karıncalar yaprakları ipekle birleştirerek yuva yapar.",
+          "spoken": "Yuvanın içinde yumurtalar, larvalar ve pupalar bulunur. Bazı karıncalar yaprakları ipekle birleştirerek yuva yapar.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Ordu karıncaları gibi bazı türlerin ise kalıcı bir yuvası yoktur. Hep yoldalar, tıpkı benim gibi gezgin!",
+          "spoken": "Ordu karıncaları gibi bazı türlerin ise kalıcı bir yuvası yoktur. Hep yoldalar, tıpkı benim gibi gezgin!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Karıncalar çok güçlüdür. National Geographic'e göre bazı işçiler kendi vücut ağırlıklarının 50 katını taşıyabilir!",
+          "spoken": "Karıncalar çok güçlüdür. Neşınıl Ciyogrefik'e göre bazı işçiler kendi vücut ağırlıklarının elli katını taşıyabilir!",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Bir karınca türü, yaralı arkadaşlarını geride bırakmaz. Onları iyileşebilecekleri yuvaya geri taşır.",
+          "spoken": "Bir karınca türü, yaralı arkadaşlarını geride bırakmaz. Onları iyileşebilecekleri yuvaya geri taşır.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Sel geldiğinde ise karıncalar birbirine tutunup küme oluşturur ve suyun üstünde yüzerek kurtulabilir.",
+          "spoken": "Sel geldiğinde ise karıncalar birbirine tutunup küme oluşturur ve suyun üstünde yüzerek kurtulabilir.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Şimdi sıra sende! Bir yetişkinle bahçede ya da parkta bir karınca yolu bul.",
+          "spoken": "Şimdi sıra sende! Bir yetişkinle bahçede ya da parkta bir karınca yolu bul.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Yolun yakınına minicik bir ekmek kırıntısı bırak ve izle. Karıncalar kırıntıyı buluyor mu? Sıra halinde mi geliyorlar? Karıncalara dokunma; bazıları ısırabilir ya da sokabilir.",
+          "spoken": "Yolun yakınına minicik bir ekmek kırıntısı bırak ve izle. Karıncalar kırıntıyı buluyor mu? Sıra halinde mi geliyorlar? Karıncalara dokunma; bazıları ısırabilir ya da sokabilir.",
+          "factIds": [
+            "f1",
+            "f7",
+            "f13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l27",
+          "display": "Bunu biliyor muydun? National Geographic'e göre Dünya'da 20 katrilyon karınca var. Bu, insan başına 2,5 milyon karınca demek! Saymaya kalksam pilim biter!",
+          "spoken": "Bunu biliyor muydun? Neşınıl Ciyogrefik'e göre Dünya'da yirmi katrilyon karınca var. Bu, insan başına iki buçuk milyon karınca demek! Saymaya kalksam pilim biter!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Hızlı soru! Karıncaların haberleşmek için salgıladığı koku kimyasallarına ne denir?",
+          "spoken": "Hızlı soru! Karıncaların haberleşmek için salgıladığı koku kimyasallarına ne denir?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Düşün bakalım... Evet: feromon!",
+          "spoken": "Düşün bakalım... Evet: feromon!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l31",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Abone olmayı ve zili açmayı unutma. Bir dahaki sefere karıncaları görünce selam ver!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bir dahaki sefere karıncaları görünce selam ver!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Karıncalar feromon denen koku kimyasallarıyla haberleşir",
+    "Kolonide kraliçe yumurtlar, işçiler besin arar, yavrulara bakar ve yuvayı korur",
+    "Yuvalar yer altında, tümseklerde ya da ağaçlarda olabilir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "underground",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐜",
+        "every": 26
+      }
+    ]
+  },
+  "song": {
+    "title": "Koku Yolu",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🐜",
+        "name": "İşçi"
+      },
+      {
+        "emoji": "👑",
+        "name": "Kraliçe"
+      },
+      {
+        "emoji": "💨",
+        "name": "Feromon"
+      },
+      {
+        "emoji": "🥚",
+        "name": "Yumurta"
+      },
+      {
+        "emoji": "🏘️",
+        "name": "Koloni"
+      }
+    ],
+    "show": [
+      {
+        "kind": "walk",
+        "emoji": "🐜"
+      },
+      {
+        "kind": "hop",
+        "emoji": "👑"
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐜"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🍞"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Bir kırıntı düştü yere",
+          "Feromon yayıldı havaya",
+          "Haber gitti yuvaya",
+          "Sıra sıra geldi karıncalar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Koku yolu, koku yolu!",
+          "Birlikte güçlüyüz, koloni bu",
+          "Kraliçe yumurtlar, işçi çalışır",
+          "Toprağın altında bir şehir var"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Askerler korur yuvayı",
+          "Kanatlılar kurar yeni koloni",
+          "Elli kat yük taşır işçi",
+          "Selde bile birlik olur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Koku yolu, koku yolu!",
+          "Birlikte güçlüyüz, koloni bu",
+          "Kırıntı bırak, uzaktan izle",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Karıncalar telefonsuz nasıl haberleşir? Bu bölümde feromonları, kolonideki iş bölümünü (kraliçe, işçi, asker, kanatlı karıncalar), yuvaları, karıncaların gücünü ve yardımlaşmasını keşfediyoruz. Sonunda karınca yolu gözlemi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Feromon",
+      "meaning": "Hayvanların birbirine mesaj vermek için salgıladığı koku kimyasalı."
+    },
+    {
+      "term": "Koloni",
+      "meaning": "Birlikte yaşayan ve iş bölümü yapan büyük karınca topluluğu."
+    },
+    {
+      "term": "Kraliçe",
+      "meaning": "Kolonide yumurta bırakan karınca."
+    },
+    {
+      "term": "İşçi",
+      "meaning": "Besin arayan, yavrulara bakan ve yuvada çalışan, üremeyen dişi karınca."
+    },
+    {
+      "term": "Larva",
+      "meaning": "Yumurtadan çıkan, henüz yetişkin olmamış böcek evresi."
+    },
+    {
+      "term": "Pupa",
+      "meaning": "Larva ile yetişkin arasındaki dönüşüm evresi."
+    }
+  ]
+}

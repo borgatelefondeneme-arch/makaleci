@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:mevsimler-nasil-olusur",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:mevsimler-nasil-olusur",
+    "title": "Mevsimler nasıl oluşur?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-17",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-17T12:00:56.723Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-17T12:00:56.726Z",
+  "decidedAt": "2026-11-17T12:00:56.726Z"
+}

@@ -1,0 +1,134 @@
+{
+ "paperId": "topic:gozumuz-nasil-gorur",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Your Eyes",
+   "publisher": "KidsHealth",
+   "url": "https://kidshealth.org/en/kids/eyes.html"
+  },
+  {
+   "id": "k2",
+   "title": "How the Eyes Work",
+   "publisher": "Ulusal Göz Enstitüsü",
+   "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+  },
+  {
+   "id": "k3",
+   "title": "Types of Color Vision Deficiency",
+   "publisher": "Ulusal Göz Enstitüsü",
+   "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-vision-deficiency"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Göz yaklaşık bir pinpon topu büyüklüğündedir ve kafatasındaki göz çukuru denen küçük bir oyukta durur.",
+   "numbers": [],
+   "quote": "The eye is about as big as a ping-pong ball and sits in a little hollow area (the eye socket) in the skull.",
+   "location": "Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Kornea, gözün renkli bölümünün önünde duran saydam bir kubbedir; ışığı kırarak gözün odaklanmasına yardım eder.",
+   "numbers": [],
+   "quote": "The cornea (say: KOR-nee-uh), a transparent dome, sits in front of the colored part of the eye. / The cornea is shaped like a dome and bends light to help the eye focus.",
+   "location": "Nemours KidsHealth — Your Eyes; National Eye Institute (NIH) — How the Eyes Work"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "İris gözün renkli bölümüdür; göz bebeğinin ne kadar ışık alacağını denetler; ona bağlı kaslar biçimini değiştirir.",
+   "numbers": [],
+   "quote": "The iris (say: EYE-riss) is the colorful part of the eye. / The iris (the colored part of the eye) controls how much light the pupil lets in. / The iris has muscles attached to it that change its shape.",
+   "location": "Nemours KidsHealth — Your Eyes; National Eye Institute (NIH) — How the Eyes Work"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Göz bebekleri ışık yaklaşınca küçülür, ışık gidince genişler.",
+   "numbers": [],
+   "quote": "The pupils will get smaller when the light shines near them and they'll open wider when the light is gone.",
+   "location": "Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Mercek kornea ile birlikte ışığı retinaya doğru biçimde odaklar; yakına bakarken kalınlaşır, uzağa bakarken incelir.",
+   "numbers": [],
+   "quote": "The lens works together with the cornea to focus light correctly on the retina. / When you look at things up close, the lens becomes thicker to focus the correct image onto the retina. / When you look at things far away, the lens becomes thinner.",
+   "location": "National Eye Institute (NIH) — How the Eyes Work; Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Retinada ışığa duyarlı milyonlarca hücre vardır; fotoreseptör denen özel hücreler ışığı elektrik sinyallerine çevirir.",
+   "numbers": [],
+   "quote": "It holds millions of cells that are sensitive to light. / special cells called photoreceptors turn the light into electrical signals.",
+   "location": "Nemours KidsHealth — Your Eyes; National Eye Institute (NIH) — How the Eyes Work"
+  },
+  {
+   "id": "f7",
+   "kind": "number",
+   "statement": "Her gözde yaklaşık 120 milyon çubuk ve 7 milyon koni hücresi vardır.",
+   "numbers": [
+    "120",
+    "7"
+   ],
+   "quote": "How about 120 million rods and 7 million cones — in each eye!",
+   "location": "Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Çubuklar siyah, beyaz ve gri tonlarında görür ve biçimi bildirir; renkleri ayırt edemez ama çok duyarlıdır, çok karanlıkta görmemizi sağlar.",
+   "numbers": [],
+   "quote": "Rods see in black, white, and shades of gray and tell us the form or shape that something has. / Rods can't tell the difference between colors, but they are super-sensitive, allowing us to see when it's very dark.",
+   "location": "Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Koniler rengi algılar ve iyi çalışmak için çubuklardan daha fazla ışığa ihtiyaç duyar; her koni türü kırmızı, yeşil ya da mavi renklerden birine duyarlıdır.",
+   "numbers": [],
+   "quote": "Cones sense color and they need more light than rods to work well. / Each cone type is sensitive to one of three different colors — red, green, or blue",
+   "location": "Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Elektrik sinyalleri retinadan görme siniri boyunca beyne gider; beyin sinyalleri gördüğümüz görüntülere çevirir; görme siniri gözü beyne bağlayan hızlı bir telefon hattı gibidir.",
+   "numbers": [],
+   "quote": "These electrical signals travel from the retina through the optic nerve to the brain. / Then the brain turns the signals into the images you see. / The optic nerve serves as a high-speed telephone line connecting the eye to the brain.",
+   "location": "National Eye Institute (NIH) — How the Eyes Work; Nemours KidsHealth — Your Eyes"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "Göz kapağı dakikada birkaç kez açılıp kapanarak gözü temiz ve nemli tutar; her göz kırpışta üst kapaktan biraz gözyaşı gelir; gözlerin doğru çalışması için gözyaşı gerekir.",
+   "numbers": [],
+   "quote": "The lid helps keep the eye clean and moist by opening and shutting several times a minute. / Every time you blink your eye, a tiny bit of tear fluid comes out of your upper eyelid. / Your eyes also need tears to work correctly.",
+   "location": "Nemours KidsHealth — Your Eyes; National Eye Institute (NIH) — How the Eyes Work"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Renk görme bozukluğunun en yaygın türü kırmızı ile yeşili ayırt etmeyi zorlaştırır; tam renk görme bozukluğunda hiç renk görülmez.",
+   "numbers": [],
+   "quote": "The most common type of color vision deficiency makes it hard to tell the difference between red and green. / If you have complete color vision deficiency, you can’t see colors at all.",
+   "location": "National Eye Institute (NIH) — Types of Color Vision Deficiency"
+  },
+  {
+   "id": "f13",
+   "kind": "claim",
+   "statement": "Güneş gözlüğü takılmalıdır; fazla ışık gözlere zarar verebilir; parçacık ya da kimyasal sıçrayabilecek derslerde koruyucu gözlük takılmalıdır.",
+   "numbers": [],
+   "quote": "Wear sunglasses. / Too much light can damage your eyes and cause vision problems later in life. / Wear protective goggles in classes where debris or chemicals could go flying",
+   "location": "Nemours KidsHealth — Your Eyes"
+  }
+ ]
+}

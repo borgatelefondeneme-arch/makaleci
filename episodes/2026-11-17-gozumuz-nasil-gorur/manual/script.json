@@ -1,0 +1,470 @@
+{
+ "paperId": "topic:gozumuz-nasil-gorur",
+ "episodeNumber": 31,
+ "videoTitle": "Gözümüz nasıl görür?",
+ "paperTitleTr": "Gözümüz nasıl görür?",
+ "theme": {
+  "backdrop": "meadow",
+  "actors": [
+   {
+    "kind": "fly",
+    "emoji": "🦋",
+    "every": 32
+   }
+  ]
+ },
+ "takeaways": [
+  "Kornea ve mercek ışığı retinaya odaklar, iris ışık miktarını ayarlar",
+  "Retinadaki çubuklar karanlıkta, koniler renkte görmemizi sağlar",
+  "Görüntüyü görme sinirinden gelen sinyallerle beyin kurar"
+ ],
+ "description": "Gözümüz ışığı nasıl görüntüye çevirir? Bu bölümde korneayı, irisi ve göz bebeğini, odaklanan merceği, retinadaki çubuk ve koni hücrelerini, görme sinirini ve beynin görüntüyü nasıl kurduğunu keşfediyoruz. Göz kırpmanın ve gözyaşının görevini, renk görme bozukluğunu ve gözlerimizi nasıl koruyacağımızı öğreniyoruz. Sonunda ayna deneyi ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Kornea",
+   "meaning": "Gözün önündeki, ışığı kıran saydam kubbe."
+  },
+  {
+   "term": "İris",
+   "meaning": "Gözün renkli bölümü; göz bebeğine giren ışığı ayarlar."
+  },
+  {
+   "term": "Göz bebeği",
+   "meaning": "İrisin ortasındaki, ışığın girdiği açıklık."
+  },
+  {
+   "term": "Mercek",
+   "meaning": "Işığı retinaya odaklayan, kalınlığı değişebilen esnek yapı."
+  },
+  {
+   "term": "Retina",
+   "meaning": "Gözün arka duvarını kaplayan, ışığa duyarlı hücrelerin bulunduğu katman."
+  },
+  {
+   "term": "Fotoreseptör",
+   "meaning": "Işığı elektrik sinyaline çeviren hücre; çubuklar ve koniler."
+  },
+  {
+   "term": "Görme siniri",
+   "meaning": "Gözden beyne sinyal taşıyan sinir."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "fly",
+    "emoji": "🦋"
+   },
+   {
+    "kind": "hop",
+    "emoji": "👁️"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🌈"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🕶️"
+   }
+  ],
+  "title": "Işık Yolculuğu",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "👁️",
+    "name": "Göz"
+   },
+   {
+    "emoji": "🔍",
+    "name": "Kornea"
+   },
+   {
+    "emoji": "🎨",
+    "name": "İris"
+   },
+   {
+    "emoji": "🌈",
+    "name": "Koni"
+   },
+   {
+    "emoji": "🧠",
+    "name": "Beyin"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Işık geldi, kornea kırdı",
+     "İris açtı göz bebeğini",
+     "Mercek inceldi, mercek kalınlaştı",
+     "Retinaya düştü görüntü"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Bak, bak, dünyaya bak!",
+     "Çubuklar karanlıkta görür",
+     "Koniler renkleri seçer",
+     "Kırmızı, yeşil, mavi"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Fotoreseptör sinyal yapar",
+     "Görme siniri hızla taşır",
+     "Beyin kurar görüntüyü",
+     "Göz kırp, gözyaşı gelsin"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Bak, bak, dünyaya bak!",
+     "Çubuklar karanlıkta görür",
+     "Güneşte gözlüğünü tak",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Şu an bu ekrana bakıyorsun ve renkleri, harfleri, Muma'yı görüyorsun. Ama aslında görmek için gözün tek başına yetmez!",
+     "spoken": "Şu an bu ekrana bakıyorsun ve renkleri, harfleri, Muma'yı görüyorsun. Ama aslında görmek için gözün tek başına yetmez!",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Işık gözüne nasıl girer, nasıl bir görüntüye dönüşür?",
+     "spoken": "Işık gözüne nasıl girer, nasıl bir görüntüye dönüşür?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün göz küresinin içine yolculuk yapıyoruz!",
+     "spoken": "Bugün göz küresinin içine yolculuk yapıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Işık göze nasıl girer? Göz onu nasıl odaklar? Ve görüntüyü kim oluşturur?",
+     "spoken": "Üç sorumuz var. Işık göze nasıl girer? Göz onu nasıl odaklar? Ve görüntüyü kim oluşturur?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "KidsHealth'e göre göz yaklaşık bir pinpon topu büyüklüğündedir ve kafatasındaki göz çukurunda korunur.",
+     "spoken": "Kids Helt'e göre göz yaklaşık bir pinpon topu büyüklüğündedir ve kafatasındaki göz çukurunda korunur.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Işığın ilk geçtiği yer korneadır: gözün önündeki saydam bir kubbe. Kornea ışığı kırarak odaklanmaya yardım eder.",
+     "spoken": "Işığın ilk geçtiği yer korneadır: gözün önündeki saydam bir kubbe. Kornea ışığı kırarak odaklanmaya yardım eder.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Sonra iris gelir: gözünün renkli bölümü. İris, ortasındaki göz bebeğinden ne kadar ışık gireceğini denetler.",
+     "spoken": "Sonra iris gelir: gözünün renkli bölümü. İris, ortasındaki göz bebeğinden ne kadar ışık gireceğini denetler.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "İrisin kasları onun biçimini değiştirir. Işık yaklaşınca göz bebeği küçülür, ışık gidince genişler.",
+     "spoken": "İrisin kasları onun biçimini değiştirir. Işık yaklaşınca göz bebeği küçülür, ışık gidince genişler.",
+     "factIds": [
+      "f3",
+      "f4"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Benim gözlerim kamera. Göz bebeğim yok, ama bir objektif kapağım var. Bazen takmayı unutuyorum!",
+     "spoken": "Benim gözlerim kamera. Göz bebeğim yok, ama bir objektif kapağım var. Bazen takmayı unutuyorum!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l11",
+     "display": "Göz bebeğinden geçen ışık merceğe ulaşır. Ulusal Göz Enstitüsü'ne göre mercek, kornea ile birlikte ışığı retinaya odaklar.",
+     "spoken": "Göz bebeğinden geçen ışık merceğe ulaşır. Ulusal Göz Enstitüsü'ne göre mercek, kornea ile birlikte ışığı retinaya odaklar.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "Mercek esnektir: yakına bakarken kalınlaşır, uzağa bakarken incelir.",
+     "spoken": "Mercek esnektir: yakına bakarken kalınlaşır, uzağa bakarken incelir.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Retina, gözün arka duvarını kaplayan katmandır. İçinde ışığa duyarlı milyonlarca hücre vardır.",
+     "spoken": "Retina, gözün arka duvarını kaplayan katmandır. İçinde ışığa duyarlı milyonlarca hücre vardır.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Bu hücrelere fotoreseptör denir. Fotoreseptörler ışığı elektrik sinyallerine çevirir.",
+     "spoken": "Bu hücrelere fotoreseptör denir. Fotoreseptörler ışığı elektrik sinyallerine çevirir.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "İki türü vardır: çubuklar ve koniler. KidsHealth'e göre her gözde yaklaşık 120 milyon çubuk ve 7 milyon koni bulunur!",
+     "spoken": "İki türü vardır: çubuklar ve koniler. Kids Helt'e göre her gözde yaklaşık yüz yirmi milyon çubuk ve yedi milyon koni bulunur!",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Çubuklar renkleri ayırt edemez; siyah, beyaz ve grinin tonlarını görür ve biçimleri bildirir.",
+     "spoken": "Çubuklar renkleri ayırt edemez; siyah, beyaz ve grinin tonlarını görür ve biçimleri bildirir.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Ama çok duyarlıdırlar. Çok karanlıkta görmeni çubuklar sağlar.",
+     "spoken": "Ama çok duyarlıdırlar. Çok karanlıkta görmeni çubuklar sağlar.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Koniler ise rengi algılar. İyi çalışmak için çubuklardan daha fazla ışığa ihtiyaç duyarlar.",
+     "spoken": "Koniler ise rengi algılar. İyi çalışmak için çubuklardan daha fazla ışığa ihtiyaç duyarlar.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Her koni türü üç renkten birine duyarlıdır: kırmızı, yeşil ya da mavi.",
+     "spoken": "Her koni türü üç renkten birine duyarlıdır: kırmızı, yeşil ya da mavi.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Ben de kırmızı, yeşil ve maviyi görürüm. Ama sadece ekranımı silince!",
+     "spoken": "Ben de kırmızı, yeşil ve maviyi görürüm. Ama sadece ekranımı silince!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l21",
+     "display": "Peki görüntü nerede oluşur? Elektrik sinyalleri retinadan görme siniri boyunca beyne gider.",
+     "spoken": "Peki görüntü nerede oluşur? Elektrik sinyalleri retinadan görme siniri boyunca beyne gider.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "KidsHealth'e göre görme siniri, gözü beyne bağlayan hızlı bir telefon hattı gibidir.",
+     "spoken": "Kids Helt'e göre görme siniri, gözü beyne bağlayan hızlı bir telefon hattı gibidir.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Beyin bu sinyalleri gördüğün görüntülere çevirir. Yani aslında beyninle görürsün!",
+     "spoken": "Beyin bu sinyalleri gördüğün görüntülere çevirir. Yani aslında beyninle görürsün!",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Gözlerin bakıma da ihtiyaç duyar. Göz kapağın dakikada birkaç kez açılıp kapanır ve gözü temiz ve nemli tutar.",
+     "spoken": "Gözlerin bakıma da ihtiyaç duyar. Göz kapağın dakikada birkaç kez açılıp kapanır ve gözü temiz ve nemli tutar.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Her göz kırpışında üst kapağından biraz gözyaşı gelir. Gözlerin doğru çalışması için gözyaşına ihtiyaç vardır.",
+     "spoken": "Her göz kırpışında üst kapağından biraz gözyaşı gelir. Gözlerin doğru çalışması için gözyaşına ihtiyaç vardır.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Bazı insanlarda konilerin çalışması farklıdır. Ulusal Göz Enstitüsü'ne göre renk görme bozukluğunun en yaygın türü, kırmızı ile yeşili ayırt etmeyi zorlaştırır.",
+     "spoken": "Bazı insanlarda konilerin çalışması farklıdır. Ulusal Göz Enstitüsü'ne göre renk görme bozukluğunun en yaygın türü, kırmızı ile yeşili ayırt etmeyi zorlaştırır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Şimdi sıra sende! Loş bir odada aynaya bak ve göz bebeğinin büyüklüğüne dikkat et.",
+     "spoken": "Şimdi sıra sende! Loş bir odada aynaya bak ve göz bebeğinin büyüklüğüne dikkat et.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Sonra odanın ışığını aç ve tekrar bak. Göz bebeğin küçüldü mü? Bunu iris yaptı! Gözüne asla el feneri ya da lazer tutma.",
+     "spoken": "Sonra odanın ışığını aç ve tekrar bak. Göz bebeğin küçüldü mü? Bunu iris yaptı! Gözüne asla el feneri ya da lazer tutma.",
+     "factIds": [
+      "f3",
+      "f4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l29",
+     "display": "Bunu biliyor muydun? KidsHealth'e göre fazla ışık gözlerine zarar verebilir. Bu yüzden güneşli günlerde güneş gözlüğü tak.",
+     "spoken": "Bunu biliyor muydun? Kids Helt'e göre fazla ışık gözlerine zarar verebilir. Bu yüzden güneşli günlerde güneş gözlüğü tak.",
+     "factIds": [
+      "f13"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "Hızlı soru! Karanlıkta görmemizi sağlayan fotoreseptörler hangileriydi?",
+     "spoken": "Hızlı soru! Karanlıkta görmemizi sağlayan fotoreseptörler hangileriydi?",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Düşün bakalım... Evet: çubuklar!",
+     "spoken": "Düşün bakalım... Evet: çubuklar!",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l32",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l33",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l34",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l35",
+     "display": "Abone olmayı ve zili açmayı unutma. Gözlerine iyi bak!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Gözlerine iyi bak!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

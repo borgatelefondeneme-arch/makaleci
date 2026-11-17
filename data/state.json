@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 29,
+  "lastEpisodeNumber": 34,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -116,6 +116,26 @@
     "topic:canlilar-nasil-isik-sacar": {
       "id": "2026-11-16-canlilar-nasil-isik-sacar",
       "episodeNumber": 29
+    },
+    "topic:mevsimler-nasil-olusur": {
+      "id": "2026-11-17-mevsimler-nasil-olusur",
+      "episodeNumber": 30
+    },
+    "topic:gozumuz-nasil-gorur": {
+      "id": "2026-11-17-gozumuz-nasil-gorur",
+      "episodeNumber": 31
+    },
+    "topic:akcigerlerimiz-nasil-calisir": {
+      "id": "2026-11-17-akcigerlerimiz-nasil-calisir",
+      "episodeNumber": 32
+    },
+    "topic:karincalar-nasil-birlikte-yasar": {
+      "id": "2026-11-17-karincalar-nasil-birlikte-yasar",
+      "episodeNumber": 33
+    },
+    "topic:kanimiz-ne-ise-yarar": {
+      "id": "2026-11-17-kanimiz-ne-ise-yarar",
+      "episodeNumber": 34
     }
   }
 }

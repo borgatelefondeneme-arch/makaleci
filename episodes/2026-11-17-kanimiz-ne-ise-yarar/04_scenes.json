@@ -1,0 +1,560 @@
+{
+  "paperId": "topic:kanimiz-ne-ise-yarar",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kanımız ne işe yarar?",
+        "emoji": "🩸"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8",
+        "f11"
+      ],
+      "stickers": [
+        "🩹",
+        "❤️"
+      ],
+      "keywords": [
+        "KIRMIZI DAMLA",
+        "TAŞIMA AĞI",
+        "DAMAR YOLCULUĞU"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Kan neyden oluşur?",
+          "Hangi hücre ne iş yapar?",
+          "Kan nerede üretilir?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Kanın işi",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Oksijen ve besin götürür",
+            "emoji": "🫁"
+          },
+          {
+            "label": "Hücreler çalışır",
+            "emoji": "⚙️"
+          },
+          {
+            "label": "Atıkları geri taşır",
+            "emoji": "♻️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🔌",
+        "🫁"
+      ],
+      "keywords": [
+        "OKSİJEN + BESİN",
+        "ATIKLAR",
+        "KABLOLU MUMA 🔌"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10",
+        "l11"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Kanın bileşimi (%)",
+        "unit": "%",
+        "bars": [
+          {
+            "label": "Plazma",
+            "value": 55,
+            "display": "%55",
+            "highlight": true
+          },
+          {
+            "label": "Kan hücreleri",
+            "value": 45,
+            "display": "%45"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2"
+      ],
+      "stickers": [
+        "💧",
+        "🔴"
+      ],
+      "keywords": [
+        "DÖRT BİLEŞEN",
+        "PLAZMA %55",
+        "SARIMSI SIVI"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l12",
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Alyuvar",
+        "emoji": "🔴",
+        "chips": [
+          {
+            "label": "Hemoglobin: oksijen taşır",
+            "emoji": "🫁"
+          },
+          {
+            "label": "Kana kırmızı renk",
+            "emoji": "🎨"
+          },
+          {
+            "label": "Ortası basık disk",
+            "emoji": "💿"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4",
+        "f5"
+      ],
+      "stickers": [
+        "🫁",
+        "🔴"
+      ],
+      "keywords": [
+        "HEMOGLOBİN",
+        "PARLAK KIRMIZI",
+        "DİSK 💿"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "120 gün",
+        "label": "Bir alyuvarın ortalama ömrü",
+        "sub": "MedlinePlus",
+        "icon": "🔴"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "⏳",
+        "🔋"
+      ],
+      "keywords": [
+        "120 GÜN",
+        "PİL ÖMRÜ 🔋"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l17",
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Savunma ve tamir",
+        "left": {
+          "title": "Akyuvar 🛡️",
+          "items": [
+            "Bakteri ve virüslerle savaşır"
+          ]
+        },
+        "right": {
+          "title": "Trombosit 🩹",
+          "items": [
+            "Yırtılan damarda toplanır",
+            "Sızıntıyı kapatır: pıhtılaşma"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f8"
+      ],
+      "stickers": [
+        "🦠",
+        "🩹"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "AKYUVARLAR",
+        "TROMBOSİTLER",
+        "KABUK 🩹"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Kemik iliği",
+        "label": "Yeni hücre",
+        "emoji": "🦴",
+        "phases": [
+          {
+            "label": "Süngerimsi madde",
+            "level": 0.4,
+            "emoji": "🧽"
+          },
+          {
+            "label": "Sürekli yeni kan hücresi",
+            "level": 0.9,
+            "emoji": "🏭"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f9"
+      ],
+      "stickers": [
+        "🦴",
+        "🏭"
+      ],
+      "keywords": [
+        "KEMİK İLİĞİ",
+        "FABRİKA 🏭"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l22",
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Kanın turu",
+        "rows": [
+          {
+            "label": "Kalp pompalar",
+            "emoji": "❤️"
+          },
+          {
+            "label": "Atardamarlar: vücuda",
+            "emoji": "➡️"
+          },
+          {
+            "label": "Toplardamarlar: geri",
+            "emoji": "⬅️"
+          },
+          {
+            "label": "Kalp ve akciğerler",
+            "emoji": "🫁"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "highlightRow": 0,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "keywords": [
+        "KALP ❤️",
+        "ATARDAMAR",
+        "TOPLARDAMAR"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kan grupları",
+        "emoji": "🅰️",
+        "chips": [
+          {
+            "label": "A, B, AB, O",
+            "emoji": "🩸"
+          },
+          {
+            "label": "Rh pozitif ya da negatif",
+            "emoji": "➕"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🩸",
+        "🛢️"
+      ],
+      "keywords": [
+        "KAN GRUBU",
+        "YAĞ GRUBU 🛢️"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: nabzını bul",
+        "items": [
+          "İki parmak bileğin iç tarafına",
+          "Hafifçe bastır",
+          "Vuruşları hisset",
+          "Zıpladıktan sonra tekrar dene"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "❤️",
+        "⏱️"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "HER VURUŞ BİR ATIŞ"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l29"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "%7–8",
+        "label": "Vücut ağırlığının kan olan payı",
+        "sub": "Amerikan Hematoloji Derneği",
+        "icon": "⚖️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10"
+      ],
+      "stickers": [
+        "⚖️",
+        "🩸"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Oksijen taşıyan proteinin adı ne?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4"
+      ],
+      "stickers": [
+        "🔴",
+        "🫁"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "HEMOGLOBİN ✅"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l32"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s15",
+      "section": "summary",
+      "lineIds": [
+        "l33",
+        "l34",
+        "l35"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

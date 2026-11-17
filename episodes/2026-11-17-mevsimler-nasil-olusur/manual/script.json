@@ -1,0 +1,458 @@
+{
+ "paperId": "topic:mevsimler-nasil-olusur",
+ "episodeNumber": 30,
+ "videoTitle": "Mevsimler nasıl oluşur?",
+ "paperTitleTr": "Mevsimler nasıl oluşur?",
+ "theme": {
+  "backdrop": "space",
+  "actors": [
+   {
+    "kind": "fly",
+    "emoji": "☄️",
+    "every": 34
+   }
+  ]
+ },
+ "takeaways": [
+  "Mevsimlere Dünya'nın eğik ekseni yol açar",
+  "Güneş'e doğru eğik yarım kürede ışınlar doğrudan gelir, günler uzar",
+  "Uzaklık neden değil: Dünya Güneş'e en çok Ocak'ta yaklaşır"
+ ],
+ "description": "Neden dört mevsim yaşıyoruz? Yazın günler neden uzun, kışın neden kısa? Bu bölümde Dünya'nın eğik eksenini, Güneş çevresindeki yolculuğunu, gündönümlerini ve ekinoksları, iki yarım kürenin ters mevsimlerini ve 'Güneş'e yakınlık' yanılgısını keşfediyoruz. Sonunda el feneriyle güvenli bir deney ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Eksen",
+   "meaning": "Dünya'nın kuzey ve güney kutuplarından geçen, çevresinde döndüğü hayali çizgi."
+  },
+  {
+   "term": "Yörünge",
+   "meaning": "Dünya'nın Güneş'in çevresinde izlediği yol."
+  },
+  {
+   "term": "Yarım küre",
+   "meaning": "Dünya'nın Ekvator'un kuzeyinde ya da güneyinde kalan yarısı."
+  },
+  {
+   "term": "Gündönümü",
+   "meaning": "Gündüzün yılın en uzun ya da en kısa olduğu gün."
+  },
+  {
+   "term": "Ekinoks",
+   "meaning": "Gece ile gündüzün eşit olduğu gün; ilkbahar ve sonbahar bununla başlar."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "orbit",
+    "emoji": "🌍"
+   },
+   {
+    "kind": "hop",
+    "emoji": "☀️"
+   },
+   {
+    "kind": "hop",
+    "emoji": "❄️"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🌻"
+   }
+  ],
+  "title": "Eğik Dans",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "🌍",
+    "name": "Dünya"
+   },
+   {
+    "emoji": "☀️",
+    "name": "Güneş"
+   },
+   {
+    "emoji": "📐",
+    "name": "Eksen"
+   },
+   {
+    "emoji": "❄️",
+    "name": "Kış"
+   },
+   {
+    "emoji": "🌻",
+    "name": "Yaz"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Dünya döner, ekseni yatık",
+     "Güneş'in çevresinde bir yolculuk",
+     "Eksen hep aynı yöne bakar",
+     "Bir yan ışıkta, bir yan karanlıkta"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Eğik dansla gelir mevsimler!",
+     "Doğrudan ışık, uzun günler",
+     "Uzaklık değil, eğiklik bu",
+     "Kuzeyde kış, güneyde yaz"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Gündönümünde en uzun gündüz",
+     "Ekinoksta gece gündüz eşit",
+     "Ocak'ta Güneş'e en yakınız",
+     "Yine de kar yağar bize"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Eğik dansla gelir mevsimler!",
+     "Doğrudan ışık, uzun günler",
+     "Feneri tut, ışığı izle",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Yazın güneş akşam geç saatlere kadar batmaz. Kışın ise daha okuldan dönerken hava kararır. Neden?",
+     "spoken": "Yazın güneş akşam geç saatlere kadar batmaz. Kışın ise daha okuldan dönerken hava kararır. Neden?",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Ve neden bir yıl içinde dört mevsim yaşıyoruz?",
+     "spoken": "Ve neden bir yıl içinde dört mevsim yaşıyoruz?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün Dünya'mızın uzaydaki dansına bakıyoruz!",
+     "spoken": "Bugün Dünya'mızın uzaydaki dansına bakıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Mevsimlere ne yol açar? Güneş'e yakınlık işe karışır mı? Ve günler neden uzayıp kısalır?",
+     "spoken": "Üç sorumuz var. Mevsimlere ne yol açar? Güneş'e yakınlık işe karışır mı? Ve günler neden uzayıp kısalır?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "NASA'ya göre mevsimlerin sırrı tek bir kelimede saklı: eğiklik. Dünya'nın ekseni dimdik durmaz, yana yatıktır.",
+     "spoken": "Nasa'ya göre mevsimlerin sırrı tek bir kelimede saklı: eğiklik. Dünya'nın ekseni dimdik durmaz, yana yatıktır.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Eksen, Dünya'nın kuzey ve güney kutuplarından geçen hayali çizgidir. Dünya bu çizginin çevresinde döner ve her gün bir tam tur atar.",
+     "spoken": "Eksen, Dünya'nın kuzey ve güney kutuplarından geçen hayali çizgidir. Dünya bu çizginin çevresinde döner ve her gün bir tam tur atar.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Benim de bir eksenim var: başımı sağa sola çeviriyorum. Ama mevsim yapamıyorum, sadece baş dönmesi!",
+     "spoken": "Benim de bir eksenim var: başımı sağa sola çeviriyorum. Ama mevsim yapamıyorum, sadece baş dönmesi!",
+     "factIds": []
+    },
+    {
+     "id": "l9",
+     "display": "Dünya bir yandan da Güneş'in çevresinde dolanır. Bu yolculuk boyunca eğik ekseni hep aynı yöne bakar.",
+     "spoken": "Dünya bir yandan da Güneş'in çevresinde dolanır. Bu yolculuk boyunca eğik ekseni hep aynı yöne bakar.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Bu yüzden yılın bir bölümünde Kuzey Yarım Küre Güneş'e doğru eğilir, diğer bölümünde Güneş'ten uzağa.",
+     "spoken": "Bu yüzden yılın bir bölümünde Kuzey Yarım Küre Güneş'e doğru eğilir, diğer bölümünde Güneş'ten uzağa.",
+     "factIds": [
+      "f2",
+      "f4",
+      "f5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l11",
+     "display": "Haziran civarında Kuzey Kutbu Güneş'e doğru eğiktir. Güneş ışınları Kuzey Yarım Küre'ye yılın diğer zamanlarından daha doğrudan gelir.",
+     "spoken": "Haziran civarında Kuzey Kutbu Güneş'e doğru eğiktir. Güneş ışınları Kuzey Yarım Küre'ye yılın diğer zamanlarından daha doğrudan gelir.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "İşte bu yüzden orada yaz olur. Türkiye de Kuzey Yarım Küre'de, bizde de yaz olur.",
+     "spoken": "İşte bu yüzden orada yaz olur. Türkiye de Kuzey Yarım Küre'de, bizde de yaz olur.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "National Geographic'e göre Güneş'e doğru eğik yarım küre daha fazla saat gün ışığı alır. Günler uzar!",
+     "spoken": "Neşınıl Ciyogrefik'e göre Güneş'e doğru eğik yarım küre daha fazla saat gün ışığı alır. Günler uzar!",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Aralık'ta ise Kuzey Yarım Küre Güneş'ten uzağa eğiktir. Daha az güneş ışığı ve daha az gün ışığı saati alır: kış gelir.",
+     "spoken": "Aralık'ta ise Kuzey Yarım Küre Güneş'ten uzağa eğiktir. Daha az güneş ışığı ve daha az gün ışığı saati alır: kış gelir.",
+     "factIds": [
+      "f5",
+      "f6"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "Peki Güney Yarım Küre? Orada mevsimler bizimkinin tersidir. Biz kışın üşürken Güney Yarım Küre'de yaz yaşanır.",
+     "spoken": "Peki Güney Yarım Küre? Orada mevsimler bizimkinin tersidir. Biz kışın üşürken Güney Yarım Küre'de yaz yaşanır.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Yani Aralık'ta orada biri plajda dondurma yiyebilir. Ben kışın sadece şarjımı yerim!",
+     "spoken": "Yani Aralık'ta orada biri plajda dondurma yiyebilir. Ben kışın sadece şarjımı yerim!",
+     "factIds": [
+      "f7"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l17",
+     "display": "Pek çok kişi yazın sıcak olmasının nedeninin Dünya'nın Güneş'e yaklaşması olduğunu sanır.",
+     "spoken": "Pek çok kişi yazın sıcak olmasının nedeninin Dünya'nın Güneş'e yaklaşması olduğunu sanır.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Ama NASA'ya göre Dünya Güneş'e en yakın noktasına Ocak'ta, en uzak noktasına Temmuz'da gelir.",
+     "spoken": "Ama Nasa'ya göre Dünya Güneş'e en yakın noktasına Ocak'ta, en uzak noktasına Temmuz'da gelir.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Yani biz Güneş'e en yakınken kış yaşıyoruz! Demek ki mevsimlerin nedeni uzaklık değil, eğiklik.",
+     "spoken": "Yani biz Güneş'e en yakınken kış yaşıyoruz! Demek ki mevsimlerin nedeni uzaklık değil, eğiklik.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Yılın dönüm noktaları da var. Yaz, 20 ya da 21 Haziran'daki yaz gündönümüyle başlar. Bu, yılın en uzun gündüzüdür.",
+     "spoken": "Yılın dönüm noktaları da var. Yaz, yirmi ya da yirmi bir Haziran'daki yaz gündönümüyle başlar. Bu, yılın en uzun gündüzüdür.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Kış gündönümü ise gündüzün en kısa olduğu gündür.",
+     "spoken": "Kış gündönümü ise gündüzün en kısa olduğu gündür.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "İlkbahar ve sonbahar ekinoksla başlar: gece ile gündüzün eşit olduğu günler. İlkbahar ekinoksu 20 ya da 21 Mart, sonbahar ekinoksu 22 ya da 23 Eylül'dedir.",
+     "spoken": "İlkbahar ve sonbahar ekinoksla başlar: gece ile gündüzün eşit olduğu günler. İlkbahar ekinoksu yirmi ya da yirmi bir Mart, sonbahar ekinoksu yirmi iki ya da yirmi üç Eylül'dedir.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Kuzeye gittikçe fark büyür. Haziran ortasında Finlandiya'nın Helsinki kentinde 18,5 saat gün ışığı olur.",
+     "spoken": "Kuzeye gittikçe fark büyür. Haziran ortasında Finlandiya'nın Helsinki kentinde on sekiz buçuk saat gün ışığı olur.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Yunanistan'ın Atina kentinde ise Haziran'da 14,5, Aralık'ta 9,5 saat gün ışığı vardır.",
+     "spoken": "Yunanistan'ın Atina kentinde ise Haziran'da on dört buçuk, Aralık'ta dokuz buçuk saat gün ışığı vardır.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Şimdi sıra sende! Karanlık bir odada bir el fenerini bir kâğıda tam dik tut, sonra yana yatırarak tut.",
+     "spoken": "Şimdi sıra sende! Karanlık bir odada bir el fenerini bir kâğıda tam dik tut, sonra yana yatırarak tut.",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Işık lekesi nasıl değişiyor? Hangisi daha küçük ve parlak? Güneş ışınlarının doğrudan gelmesi de buna benzer. Ama Güneş'e asla doğrudan bakma!",
+     "spoken": "Işık lekesi nasıl değişiyor? Hangisi daha küçük ve parlak? Güneş ışınlarının doğrudan gelmesi de buna benzer. Ama Güneş'e asla doğrudan bakma!",
+     "factIds": [
+      "f4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l27",
+     "display": "Bunu biliyor muydun? Alaska'daki Barrow kentinde Mayıs ortasından Ağustos başına kadar gün boyu hava aydınlık kalır.",
+     "spoken": "Bunu biliyor muydun? Alaska'daki Barrow kentinde Mayıs ortasından Ağustos başına kadar gün boyu hava aydınlık kalır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Kasım ortasından Ocak'a kadar ise tam karanlık olur. Orada uyku saatini ayarlamak zor olmalı!",
+     "spoken": "Kasım ortasından Ocak'a kadar ise tam karanlık olur. Orada uyku saatini ayarlamak zor olmalı!",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Hızlı soru! Mevsimlere ne yol açar: Güneş'e uzaklık mı, eksenin eğikliği mi?",
+     "spoken": "Hızlı soru! Mevsimlere ne yol açar: Güneş'e uzaklık mı, eksenin eğikliği mi?",
+     "factIds": [
+      "f1",
+      "f8"
+     ]
+    },
+    {
+     "id": "l30",
+     "display": "Düşün bakalım... Evet: eksenin eğikliği!",
+     "spoken": "Düşün bakalım... Evet: eksenin eğikliği!",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l31",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l32",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l33",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l34",
+     "display": "Abone olmayı ve zili açmayı unutma. Hangi mevsimdeysen tadını çıkar!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Hangi mevsimdeysen tadını çıkar!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

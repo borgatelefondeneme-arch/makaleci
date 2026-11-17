@@ -1,0 +1,550 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Karıncalar nasıl birlikte yaşar?",
+    "emoji": "🐜"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f13"
+   ],
+   "stickers": [
+    "🍞",
+    "🌿"
+   ],
+   "keywords": [
+    "KİM HABER VERDİ?",
+    "TELEFONSUZ",
+    "KOLONİYE GİRİŞ"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Karıncalar nasıl haberleşir?",
+     "Kolonide kim ne iş yapar?",
+     "Yuvaları nasıldır?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Koku mesajı",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Feromon salgılar",
+      "emoji": "💨"
+     },
+     {
+      "label": "Diğerleri kokuyu alır",
+      "emoji": "🐜"
+     },
+     {
+      "label": "Tehlike ya da besin!",
+      "emoji": "🍞"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "📱",
+    "🐜"
+   ],
+   "keywords": [
+    "FEROMON",
+    "KOKUYLA MESAJ",
+    "BİP BİP 📱"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Ekip işi",
+    "emoji": "🤝",
+    "chips": [
+     {
+      "label": "En karmaşık kimyasal iletişim",
+      "emoji": "🧪"
+     },
+     {
+      "label": "Birlikte büyük işler",
+      "emoji": "💪"
+     },
+     {
+      "label": "Zikzak ya da sıra halinde",
+      "emoji": "〰️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f13"
+   ],
+   "stickers": [
+    "🧪",
+    "🐜"
+   ],
+   "keywords": [
+    "KİMYASAL İLETİŞİM",
+    "BİRLİKTE GÜÇLÜ",
+    "ZİKZAK"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Yüz binlerce",
+    "label": "Tek bir kolonide olabilecek karınca",
+    "sub": "National Geographic",
+    "icon": "🏘️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "👑",
+    "🥚"
+   ],
+   "keywords": [
+    "KOLONİ",
+    "KRALİÇE 👑"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Kolonide iş bölümü",
+    "left": {
+     "title": "Kraliçe 👑",
+     "items": [
+      "Binlerce yumurta bırakır",
+      "Koloniyi yönetir"
+     ]
+    },
+    "right": {
+     "title": "İşçi 🐜",
+     "items": [
+      "Hiç üremeyen dişi",
+      "Besin arar, yavrulara bakar",
+      "Yuvada çalışır, korur"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🔋",
+    "🥚"
+   ],
+   "keywords": [
+    "İŞÇİLER",
+    "ÇOK İŞ!",
+    "TEK ŞARJ 🔋"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Diğer görevler",
+    "emoji": "🛡️",
+    "chips": [
+     {
+      "label": "Askerler: ısırır, sokar",
+      "emoji": "⚔️"
+     },
+     {
+      "label": "Kanatlılar: yeni koloni",
+      "emoji": "🪽"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "stickers": [
+    "⚔️",
+    "🪽"
+   ],
+   "keywords": [
+    "ASKERLER",
+    "KANATLI KARINCALAR"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l19",
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Yuva katları",
+    "rows": [
+     {
+      "label": "Yer altı, tümsek ya da ağaç",
+      "emoji": "🌳"
+     },
+     {
+      "label": "Yumurtalar",
+      "emoji": "🥚"
+     },
+     {
+      "label": "Larvalar",
+      "emoji": "🐛"
+     },
+     {
+      "label": "Pupalar",
+      "emoji": "🫘"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 1,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8",
+    "f9"
+   ],
+   "fx": "dig",
+   "keywords": [
+    "YUVA",
+    "YAPRAK VE İPEK",
+    "ORDU KARINCALARI"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l22"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "50 kat",
+    "label": "Bazı işçiler vücut ağırlığının bu kadarını taşır",
+    "sub": "National Geographic",
+    "icon": "🏋️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "🏋️",
+    "🍃"
+   ],
+   "keywords": [
+    "SÜPER GÜÇ 💪"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Yardımlaşma",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Yaralıyı yuvaya taşır",
+      "emoji": "🚑"
+     },
+     {
+      "label": "Selde küme olur",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Yüzerek kurtulur",
+      "emoji": "🛟"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14",
+    "f15"
+   ],
+   "stickers": [
+    "🌊",
+    "🤝"
+   ],
+   "keywords": [
+    "YARALIYI BIRAKMAZ",
+    "CANLI SAL 🛟"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: karınca yolu",
+    "items": [
+     "Bir yetişkinle karınca yolu bul",
+     "Minicik bir kırıntı bırak",
+     "Sıra halinde geliyorlar mı?",
+     "Dokunma: ısırabilir, sokabilir"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f7",
+    "f13"
+   ],
+   "stickers": [
+    "🍞",
+    "🔍"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "DOKUNMA ⚠️"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l27"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "20 katrilyon",
+    "label": "Dünya'daki karınca sayısı (insan başına 2,5 milyon)",
+    "sub": "National Geographic",
+    "icon": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🌍",
+    "🐜"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Karıncaların koku kimyasallarına ne denir?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "💨",
+    "🐜"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "FEROMON ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l31",
+    "l32",
+    "l33"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

@@ -1,0 +1,550 @@
+{
+  "paperId": "topic:mevsimler-nasil-olusur",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Mevsimler nasıl oluşur?",
+        "emoji": "🌍"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "☀️",
+        "❄️"
+      ],
+      "keywords": [
+        "UZUN GÜNLER",
+        "DÖRT MEVSİM",
+        ""
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Mevsimlere ne yol açar?",
+          "Güneş'e yakınlık işe karışır mı?",
+          "Günler neden uzayıp kısalır?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Eğik eksen",
+        "emoji": "🌍",
+        "chips": [
+          {
+            "label": "Eksen dimdik değil",
+            "emoji": "📐"
+          },
+          {
+            "label": "Kutuplardan geçen hayali çizgi",
+            "emoji": "📍"
+          },
+          {
+            "label": "Her gün bir tam tur",
+            "emoji": "🔄"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f3"
+      ],
+      "stickers": [
+        "🔄",
+        "🤖"
+      ],
+      "keywords": [
+        "EĞİKLİK!",
+        "EKSEN",
+        "BAŞ DÖNMESİ 😵"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Güneş çevresinde yolculuk",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Kuzey Güneş'e eğik",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Eksen hep aynı yöne",
+            "emoji": "➡️"
+          },
+          {
+            "label": "Kuzey Güneş'ten uzak",
+            "emoji": "❄️"
+          },
+          {
+            "label": "Eksen hep aynı yöne",
+            "emoji": "➡️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2",
+        "f4",
+        "f5"
+      ],
+      "stickers": [
+        "🌍",
+        "☀️"
+      ],
+      "keywords": [
+        "DOLANMA",
+        "HEP AYNI YÖN"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12",
+        "l13"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Haziran: Kuzey Yarım Küre",
+        "label": "Güneş ışığı",
+        "emoji": "☀️",
+        "phases": [
+          {
+            "label": "Işınlar daha doğrudan",
+            "level": 0.75,
+            "emoji": "🎯"
+          },
+          {
+            "label": "Yaz!",
+            "level": 0.85,
+            "emoji": "🏖️"
+          },
+          {
+            "label": "Daha çok gün ışığı saati",
+            "level": 0.95,
+            "emoji": "⏰"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4",
+        "f6"
+      ],
+      "stickers": [
+        "🌻",
+        "🏖️"
+      ],
+      "keywords": [
+        "DOĞRUDAN IŞIK",
+        "YAZ 🏖️",
+        "UZUN GÜNLER"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l14",
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Aralık'ta iki yarım küre",
+        "left": {
+          "title": "Kuzey ❄️",
+          "items": [
+            "Güneş'ten uzağa eğik",
+            "Daha az gün ışığı",
+            "Kış"
+          ]
+        },
+        "right": {
+          "title": "Güney ☀️",
+          "items": [
+            "Mevsimler tersine",
+            "Yaz"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "🍦",
+        "⛄"
+      ],
+      "keywords": [
+        "KIŞ ❄️",
+        "TERS MEVSİMLER",
+        "ŞARJ YİYEN MUMA 🔋"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "importance",
+      "lineIds": [
+        "l17",
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Ocak",
+        "label": "Dünya Güneş'e en çok bu ayda yaklaşır",
+        "sub": "NASA",
+        "icon": "🌍"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "☀️",
+        "🤔"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "YANLIŞ İNANIŞ",
+        "EN YAKIN: OCAK",
+        "UZAKLIK DEĞİL!"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Yılın dönüm noktaları",
+        "rows": [
+          {
+            "label": "20 ya da 21 Mart: ilkbahar ekinoksu",
+            "emoji": "🌱"
+          },
+          {
+            "label": "20 ya da 21 Haziran: yaz gündönümü",
+            "emoji": "☀️"
+          },
+          {
+            "label": "22 ya da 23 Eylül: sonbahar ekinoksu",
+            "emoji": "🍂"
+          },
+          {
+            "label": "Kış gündönümü: en kısa gündüz",
+            "emoji": "❄️"
+          }
+        ],
+        "path": [
+          1,
+          1,
+          3,
+          3,
+          0,
+          0,
+          2,
+          2
+        ],
+        "highlightRow": 1,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9",
+        "f10"
+      ],
+      "keywords": [
+        "GÜNDÖNÜMÜ",
+        "EN KISA GÜNDÜZ",
+        "EKİNOKS"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "bar-chart",
+        "title": "Gün ışığı (saat)",
+        "unit": "saat",
+        "bars": [
+          {
+            "label": "Helsinki, Haziran ortası",
+            "value": 18.5,
+            "display": "18,5",
+            "highlight": true
+          },
+          {
+            "label": "Atina, Haziran",
+            "value": 14.5,
+            "display": "14,5"
+          },
+          {
+            "label": "Atina, Aralık",
+            "value": 9.5,
+            "display": "9,5"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f11"
+      ],
+      "stickers": [
+        "🇫🇮",
+        "🇬🇷"
+      ],
+      "keywords": [
+        "KUZEYE GİTTİKÇE",
+        "KISA KIŞ GÜNLERİ"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: el feneri",
+        "items": [
+          "Karanlık oda, el feneri, kâğıt",
+          "Feneri dik tut, sonra yatır",
+          "Işık lekesini karşılaştır",
+          "Güneş'e asla doğrudan bakma!"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4"
+      ],
+      "stickers": [
+        "🔦",
+        "📄"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "GÜNEŞ'E BAKMA ⚠️"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "limitations",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Barrow, Alaska",
+        "emoji": "🧭",
+        "chips": [
+          {
+            "label": "Mayıs–Ağustos: hep aydınlık",
+            "emoji": "☀️"
+          },
+          {
+            "label": "Kasım–Ocak: tam karanlık",
+            "emoji": "🌑"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🌙",
+        "😴"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?",
+        "UYKU SAATİ? 😴"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l29",
+        "l30"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Mevsimlere ne yol açar?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f8"
+      ],
+      "stickers": [
+        "🌍",
+        "📐"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "EĞİKLİK ✅"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l31"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s14",
+      "section": "summary",
+      "lineIds": [
+        "l32",
+        "l33",
+        "l34"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

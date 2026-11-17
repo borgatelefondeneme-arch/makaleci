@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Işık Yolculuğu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Işık geldi, kornea kırdı",
+          "start": 5.15,
+          "end": 8.71
+        },
+        {
+          "text": "İris açtı göz bebeğini",
+          "start": 8.71,
+          "end": 12.26
+        },
+        {
+          "text": "Mercek inceldi, mercek kalınlaştı",
+          "start": 12.26,
+          "end": 16.46
+        },
+        {
+          "text": "Retinaya düştü görüntü",
+          "start": 16.46,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Bak, bak, dünyaya bak!",
+          "start": 20.17,
+          "end": 22.87
+        },
+        {
+          "text": "Çubuklar karanlıkta görür",
+          "start": 22.87,
+          "end": 26.6
+        },
+        {
+          "text": "Koniler renkleri seçer",
+          "start": 26.6,
+          "end": 29.98
+        },
+        {
+          "text": "Kırmızı, yeşil, mavi",
+          "start": 29.98,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Fotoreseptör sinyal yapar",
+          "start": 33.18,
+          "end": 37.16
+        },
+        {
+          "text": "Görme siniri hızla taşır",
+          "start": 37.16,
+          "end": 41.15
+        },
+        {
+          "text": "Beyin kurar görüntüyü",
+          "start": 41.15,
+          "end": 44.78
+        },
+        {
+          "text": "Göz kırp, gözyaşı gelsin",
+          "start": 44.78,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Bak, bak, dünyaya bak!",
+          "start": 48.19,
+          "end": 50.9
+        },
+        {
+          "text": "Çubuklar karanlıkta görür",
+          "start": 50.9,
+          "end": 54.62
+        },
+        {
+          "text": "Güneşte gözlüğünü tak",
+          "start": 54.62,
+          "end": 58
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Eğik Dans",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Dünya döner, ekseni yatık",
+          "start": 5.15,
+          "end": 8.56
+        },
+        {
+          "text": "Güneş'in çevresinde bir yolculuk",
+          "start": 8.56,
+          "end": 12.58
+        },
+        {
+          "text": "Eksen hep aynı yöne bakar",
+          "start": 12.58,
+          "end": 15.99
+        },
+        {
+          "text": "Bir yan ışıkta, bir yan karanlıkta",
+          "start": 15.99,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Eğik dansla gelir mevsimler!",
+          "start": 20.17,
+          "end": 23.46
+        },
+        {
+          "text": "Doğrudan ışık, uzun günler",
+          "start": 23.46,
+          "end": 26.75
+        },
+        {
+          "text": "Uzaklık değil, eğiklik bu",
+          "start": 26.75,
+          "end": 30.04
+        },
+        {
+          "text": "Kuzeyde kış, güneyde yaz",
+          "start": 30.04,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Gündönümünde en uzun gündüz",
+          "start": 33.18,
+          "end": 37.05
+        },
+        {
+          "text": "Ekinoksta gece gündüz eşit",
+          "start": 37.05,
+          "end": 40.93
+        },
+        {
+          "text": "Ocak'ta Güneş'e en yakınız",
+          "start": 40.93,
+          "end": 44.81
+        },
+        {
+          "text": "Yine de kar yağar bize",
+          "start": 44.81,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Eğik dansla gelir mevsimler!",
+          "start": 48.19,
+          "end": 51.56
+        },
+        {
+          "text": "Doğrudan ışık, uzun günler",
+          "start": 51.56,
+          "end": 54.92
+        },
+        {
+          "text": "Feneri tut, ışığı izle",
+          "start": 54.92,
+          "end": 58.29
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.29,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

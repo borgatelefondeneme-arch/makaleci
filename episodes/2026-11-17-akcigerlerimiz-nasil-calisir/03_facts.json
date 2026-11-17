@@ -1,0 +1,119 @@
+{
+  "paperId": "topic:akcigerlerimiz-nasil-calisir",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Lungs & Respiratory System",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/lungs.html"
+    },
+    {
+      "id": "k2",
+      "title": "How the Lungs Work - The Respiratory System",
+      "publisher": "NIH",
+      "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Solunum sistemi burun, ağız, boğaz, gırtlak, soluk borusu, akciğerler ve diyaframdan oluşur.",
+      "numbers": [],
+      "quote": "The respiratory system includes the nose, mouth, throat, voice box, windpipe, lungs, and diaphragm.",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Hava vücuda burundan ya da ağızdan girer; bunlar havayı nemlendirip ısıtır, çünkü soğuk ve kuru hava akciğerleri tahriş edebilir.",
+      "numbers": [],
+      "quote": "Air first enters your body through your nose or mouth, which moistens and warms the air since cold, dry air can irritate your lungs. / In the nostrils, air gets warmed and moistened.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System; Nemours KidsHealth — Lungs & Respiratory System"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Burundaki silia denen minik tüyler tozu ve parçacıkları süzer; soluk borusu da silialarla kaplıdır ve bunlar yabancı parçacıkları hava yolundan dışarı süpürür.",
+      "numbers": [],
+      "quote": "Tiny hairs in the nose called cilia (SIL-ee-uh) filter out dust and other particles. / The trachea is also lined with cilia, which sweep fluids and foreign particles out of the airway",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Soluk borusu aşağıda sol ve sağ iki tüpe, bronşlara ayrılır; kıkırdak denen sert doku halkaları bronş tüplerini açık tutar.",
+      "numbers": [],
+      "quote": "Further down, the trachea divides into two tubes (left and right) called bronchi (BRAHN-kye). / Rings of tough tissue, called cartilage, acts as a support to keep the bronchial tubes open.",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System; NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Akciğerlerin içinde bronşlar bronşiyol denen binlerce ince tüpe ayrılır.",
+      "numbers": [],
+      "quote": "Inside your lungs, the bronchial tubes branch into thousands of thinner tubes called bronchioles.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f6",
+      "kind": "number",
+      "statement": "Bronşiyoller alveol denen minik hava keseciği kümelerinde son bulur; akciğerlerde yaklaşık 150 milyon alveol vardır.",
+      "numbers": [
+        "150"
+      ],
+      "quote": "The bronchioles end in clusters of tiny air sacs called alveoli. / Your lungs have about 150 million alveoli.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Her alveol kılcal damar denen minik kan damarlarından bir ağla sarılıdır.",
+      "numbers": [],
+      "quote": "Each of these alveoli is made up of a mesh of tiny blood vessels called capillaries.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Oksijen alveollerden, alveol duvarlarını kaplayan kılcal damarlar yoluyla kana geçer; alyuvarlar oksijeni alıp vücut hücrelerine taşır.",
+      "numbers": [],
+      "quote": "Oxygen moves from the alveoli to the blood through the capillaries (tiny blood vessels) lining the alveolar walls. / Red blood cells pick up the oxygen and deliver it to the body's cells.",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Karbondioksit kandan alveollerin içindeki havaya geçer.",
+      "numbers": [],
+      "quote": "Carbon dioxide moves from the blood into the air inside the alveoli.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Diyafram göğüs ile karın arasındaki bir kastır; nefes alırken karına doğru aşağı iner, nefes verirken yukarı çıkar ve göğüs duvarı kasları gevşer.",
+      "numbers": [],
+      "quote": "The diaphragm (DYE-uh-fram) is a muscle between the chest and the abdomen / When you breathe in (inhalation), the diaphragm moves down toward the abdomen, / When you breathe out (exhalation), the diaphragm moves up and the chest wall muscles relax,",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Sürfaktan, nefes alırken akciğerlerin daha kolay şişmesine yardım ederek nefes almak için gereken işi azaltır.",
+      "numbers": [],
+      "quote": "Surfactant reduces the work it takes to breathe by helping the lungs inflate more easily when you breathe in.",
+      "location": "NIH (NHLBI) — How the Lungs Work: The Respiratory System"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Solunum sistemi sayesinde günde binlerce kez nefes alırız.",
+      "numbers": [],
+      "quote": "We take thousands of breaths a day, thanks to the respiratory system.",
+      "location": "Nemours KidsHealth — Lungs & Respiratory System"
+    }
+  ]
+}
