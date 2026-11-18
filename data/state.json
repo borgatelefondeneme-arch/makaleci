@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 39,
+  "lastEpisodeNumber": 44,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -156,6 +156,26 @@
     "topic:kuyruklu-yildizlar-neden-kuyruklu": {
       "id": "2026-11-18-kuyruklu-yildizlar-neden-kuyruklu",
       "episodeNumber": 39
+    },
+    "topic:yarasalar-karanlikta-nasil-yol-bulur": {
+      "id": "2026-11-18-yarasalar-karanlikta-nasil-yol-bulur",
+      "episodeNumber": 40
+    },
+    "topic:magaralar-nasil-olusur": {
+      "id": "2026-11-18-magaralar-nasil-olusur",
+      "episodeNumber": 41
+    },
+    "topic:derimiz-ne-ise-yarar": {
+      "id": "2026-11-18-derimiz-ne-ise-yarar",
+      "episodeNumber": 42
+    },
+    "topic:buzullar-nasil-hareket-eder": {
+      "id": "2026-11-18-buzullar-nasil-hareket-eder",
+      "episodeNumber": 43
+    },
+    "topic:kutup-ayilari-nasil-isinir": {
+      "id": "2026-11-18-kutup-ayilari-nasil-isinir",
+      "episodeNumber": 44
     }
   }
 }

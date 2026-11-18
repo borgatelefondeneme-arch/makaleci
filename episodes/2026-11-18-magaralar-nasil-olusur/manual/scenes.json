@@ -1,0 +1,547 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Mağaralar nasıl oluşur?",
+    "emoji": "🕳️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f8"
+   ],
+   "stickers": [
+    "🔦",
+    "🦇"
+   ],
+   "keywords": [
+    "YERİN ALTINDA",
+    "SU!",
+    "FENERLER HAZIR 🔦"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Su taşı nasıl oyar?",
+     "Sarkıt ve dikit nasıl oluşur?",
+     "Başka hangi mağaralar var?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Erime mağarası",
+    "rows": [
+     {
+      "label": "Karbondioksit suda çözünür",
+      "emoji": "💨"
+     },
+     {
+      "label": "Karbonik asit oluşur",
+      "emoji": "🧪"
+     },
+     {
+      "label": "Kireçtaşı çözünür",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Boşluk büyür",
+      "emoji": "🕳️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "keywords": [
+    "KİREÇTAŞI",
+    "ASİDİK YAĞMUR",
+    "KARBONİK ASİT"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Karst",
+    "emoji": "⛰️",
+    "chips": [
+     {
+      "label": "Su çatlaklardan sızar",
+      "emoji": "💧"
+     },
+     {
+      "label": "Düdenler genişler",
+      "emoji": "🕳️"
+     },
+     {
+      "label": "Çözünebilir kayaç bölgesi",
+      "emoji": "🪨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f3",
+    "f4"
+   ],
+   "fx": "dig",
+   "stickers": [
+    "💧",
+    "🪨"
+   ],
+   "keywords": [
+    "DÜDEN",
+    "KARST"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l11",
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "1 mm",
+    "label": "Bir mağara geçidinin yılda en fazla büyümesi (yaklaşık)",
+    "sub": "Milli Parklar Servisi",
+    "icon": "🐌"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "stickers": [
+    "🐌",
+    "⏳"
+   ],
+   "keywords": [
+    "YILDA 1 MM",
+    "MİLYONLARCA YIL",
+    "ACELE YOK 🐌"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Sarkıt",
+    "label": "Kalsit",
+    "emoji": "💧",
+    "phases": [
+     {
+      "label": "Buz saçağı gibi sarkar",
+      "level": 0.5,
+      "emoji": "🧊"
+     },
+     {
+      "label": "Damla damla büyür",
+      "level": 0.75,
+      "emoji": "💧"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🥕",
+    "🧊"
+   ],
+   "keywords": [
+    "SARKIT",
+    "DAMLA DAMLA"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l16",
+    "l17"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Dikit ve sütun",
+    "left": {
+     "title": "Dikit ⬆️",
+     "items": [
+      "Yere damlayan sudan",
+      "Yukarı doğru büyür"
+     ]
+    },
+    "right": {
+     "title": "Sütun 🏛️",
+     "items": [
+      "Dikit + sarkıt birleşir",
+      "20 metreyi aşabilir"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🏛️",
+    "💧"
+   ],
+   "keywords": [
+    "DİKİT",
+    "SÜTUN 🏛️"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l18",
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Başka mağaralar",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Lav nehir gibi akar",
+      "emoji": "🌋"
+     },
+     {
+      "label": "Lav tüpü kalır",
+      "emoji": "🕳️"
+     },
+     {
+      "label": "Deniz mağarası: dalga aşındırır",
+      "emoji": "🌊"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f12"
+   ],
+   "stickers": [
+    "🌋",
+    "🌊"
+   ],
+   "keywords": [
+    "LAV",
+    "LAV TÜPÜ",
+    "DENİZ MAĞARASI"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Buzul mağarası",
+    "label": "Buzulun kenarındaki erime buzun içinde mağara açar",
+    "sub": "Milli Parklar Servisi",
+    "icon": "🧊"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🧊",
+    "❄️"
+   ],
+   "keywords": [
+    "BUZUL MAĞARASI"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Mağara sakinleri",
+    "emoji": "🦇",
+    "chips": [
+     {
+      "label": "Küçük, sıra dışı hayvanlar",
+      "emoji": "🦗"
+     },
+     {
+      "label": "Yarasa tünekleri",
+      "emoji": "🦇"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f14"
+   ],
+   "stickers": [
+    "🦇",
+    "📶"
+   ],
+   "keywords": [
+    "MAĞARA CANLILARI",
+    "WI-FI YOK 📶"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: şeker mağarası",
+    "items": [
+     "Tabağa bir şeker küpü koy",
+     "Damla damla su damlat",
+     "Su şekeri nasıl oyuyor?",
+     "Kireçtaşı çok daha yavaş çözünür"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f5"
+   ],
+   "stickers": [
+    "🍬",
+    "💧"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "DAMLA DAMLA"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l26"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "400 mil+",
+    "label": "Mamut Mağarası: Dünya'nın en uzun mağarası",
+    "sub": "Milli Parklar Servisi",
+    "icon": "🦣"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🦣",
+    "🗺️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Tavandan sarkan taş saçaklara ne denir?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🥕",
+    "🧊"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "SARKIT ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l30",
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

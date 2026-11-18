@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:kutup-ayilari-nasil-isinir",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:kutup-ayilari-nasil-isinir",
+    "title": "Kutup ayıları nasıl ısınır?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-18",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-18T12:37:01.736Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-18T12:37:01.740Z",
+  "decidedAt": "2026-11-18T12:37:01.740Z"
+}

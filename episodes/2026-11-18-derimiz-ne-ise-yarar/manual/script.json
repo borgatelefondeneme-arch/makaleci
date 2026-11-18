@@ -1,0 +1,436 @@
+{
+ "paperId": "topic:derimiz-ne-ise-yarar",
+ "episodeNumber": 42,
+ "videoTitle": "Derimiz ne işe yarar?",
+ "paperTitleTr": "Derimiz ne işe yarar?",
+ "theme": {
+  "backdrop": "meadow",
+  "actors": [
+   {
+    "kind": "walk",
+    "emoji": "🐞",
+    "every": 30
+   }
+  ]
+ },
+ "takeaways": [
+  "Deri en büyük organımızdır; mikroplara karşı kalkan olur ve sıcaklığı düzenler",
+  "Epidermis sürekli yenilenir, melanin deriye rengini verir; dermiste sinir uçları ve ter bezleri vardır",
+  "Güneş kremi derimizi güneş yanığına karşı korumaya yardım eder"
+ ],
+ "description": "Derimiz ne işe yarar? Bu bölümde en büyük organımızın katmanlarını (epidermis, dermis, deri altı), sürekli yenilenen deri hücrelerini, melanini, sinir uçlarını, ter ve yağ bezlerini, derinin sıcaklığı nasıl düzenlediğini ve güneşten nasıl korunacağımızı keşfediyoruz. Sonunda deri dedektifi etkinliği ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Epidermis",
+   "meaning": "Derinin en üst, sürekli yenilenen katmanı."
+  },
+  {
+   "term": "Dermis",
+   "meaning": "Kan damarlarının, sinir uçlarının ve bezlerin bulunduğu orta katman."
+  },
+  {
+   "term": "Melanin",
+   "meaning": "Deriye rengini veren pigment."
+  },
+  {
+   "term": "Pigment",
+   "meaning": "Renk veren madde."
+  },
+  {
+   "term": "Sebum",
+   "meaning": "Yağ bezlerinin ürettiği, deriyi yumuşatan yağ."
+  },
+  {
+   "term": "Ter bezi",
+   "meaning": "Ter üreterek vücudu serinleten bez."
+  },
+  {
+   "term": "SPF",
+   "meaning": "Güneş kreminin koruma gücünü gösteren değer."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "walk",
+    "emoji": "🐞"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🛡️"
+   },
+   {
+    "kind": "hop",
+    "emoji": "☀️"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🧴"
+   }
+  ],
+  "title": "Kalkanım Derim",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "✋",
+    "name": "Deri"
+   },
+   {
+    "emoji": "🛡️",
+    "name": "Kalkan"
+   },
+   {
+    "emoji": "🎨",
+    "name": "Melanin"
+   },
+   {
+    "emoji": "💧",
+    "name": "Ter"
+   },
+   {
+    "emoji": "🧴",
+    "name": "Güneş kremi"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Üstte epidermis, yenilenir hep",
+     "Hücreler dökülür, yenisi gelir",
+     "Melanin verir rengini",
+     "Her ten güzel, her renk değerli"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Kalkanım derim, beni korur!",
+     "Mikroplar dursun kapıda",
+     "Sıcakta terlerim, serinlerim",
+     "Soğukta ısımı tutarım"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Dermiste sinir uçları uyanık",
+     "Sıcağı, soğuğu hissederim",
+     "Sebum yumuşatır, su geçirmez",
+     "Küçük yaralar iyileşir"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Kalkanım derim, beni korur!",
+     "Mikroplar dursun kapıda",
+     "Güneşte kremini sür",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Vücudunun en büyük organı hangisi? Kalp mi, beyin mi? Hayır! KidsHealth'e göre en büyük organın derin!",
+     "spoken": "Vücudunun en büyük organı hangisi? Kalp mi, beyin mi? Hayır! Kids Helt'e göre en büyük organın derin!",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Onu her gün giyiyorsun ama hiç çıkarmıyorsun. Peki ne işe yarıyor?",
+     "spoken": "Onu her gün giyiyorsun ama hiç çıkarmıyorsun. Peki ne işe yarıyor?",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün derinin katmanlarına iniyoruz!",
+     "spoken": "Bugün derinin katmanlarına iniyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Deri hangi katmanlardan oluşur? Bizi nasıl korur? Ve onu nasıl koruruz?",
+     "spoken": "Üç sorumuz var. Deri hangi katmanlardan oluşur? Bizi nasıl korur? Ve onu nasıl koruruz?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "Cleveland Clinic'e göre deri vücudunu mikroplardan korur ve vücut sıcaklığını düzenler.",
+     "spoken": "Klivlınd Klinik'e göre deri vücudunu mikroplardan korur ve vücut sıcaklığını düzenler.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Zararlı maddelerin ve mikropların içeri girmesini önleyen bir kalkan gibidir.",
+     "spoken": "Zararlı maddelerin ve mikropların içeri girmesini önleyen bir kalkan gibidir.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "Benim derim metal. Mikroplar giremez ama kış gelince biraz üşüyorum!",
+     "spoken": "Benim derim metal. Mikroplar giremez ama kış gelince biraz üşüyorum!",
+     "factIds": []
+    },
+    {
+     "id": "l9",
+     "display": "Derinin en üstteki katmanına epidermis denir. Epidermis sürekli dökülüp yenilenen hücre katmanlarından oluşur.",
+     "spoken": "Derinin en üstteki katmanına epidermis denir. Epidermis sürekli dökülüp yenilenen hücre katmanlarından oluşur.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "KidsHealth'e göre epidermis hücreleri yaklaşık her 28 günde bir tamamen yenilenir!",
+     "spoken": "Kids Helt'e göre epidermis hücreleri yaklaşık her yirmi sekiz günde bir tamamen yenilenir!",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "Cleveland Clinic'e göre vücudun her gün yaklaşık 40.000 eski deri hücresi döker.",
+     "spoken": "Klivlınd Klinik'e göre vücudun her gün yaklaşık kırk bin eski deri hücresi döker.",
+     "factIds": [
+      "f4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l12",
+     "display": "Epidermiste melanin denen bir pigment vardır. Deriye rengini melanin verir.",
+     "spoken": "Epidermiste melanin denen bir pigment vardır. Deriye rengini melanin verir.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Vücut ne kadar çok melanin üretirse deri o kadar koyu olur.",
+     "spoken": "Vücut ne kadar çok melanin üretirse deri o kadar koyu olur.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Epidermisin altında dermis bulunur. Dermiste kan damarları, sinir uçları, ter bezleri ve kıl kökleri vardır.",
+     "spoken": "Epidermisin altında dermis bulunur. Dermiste kan damarları, sinir uçları, ter bezleri ve kıl kökleri vardır.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "Sinir uçları sayesinde sıcağı, soğuğu, dokunmayı ve acıyı hissedersin.",
+     "spoken": "Sinir uçları sayesinde sıcağı, soğuğu, dokunmayı ve acıyı hissedersin.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Bir şeyin dokunulamayacak kadar sıcak, kaşındırıcı ya da çok yumuşak olduğunu sana dermisteki sinirler söyler.",
+     "spoken": "Bir şeyin dokunulamayacak kadar sıcak, kaşındırıcı ya da çok yumuşak olduğunu sana dermisteki sinirler söyler.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Dermisteki yağ bezleri sebum denen bir yağ üretir. Sebum deriyi yumuşatır ve su geçirmez yapar.",
+     "spoken": "Dermisteki yağ bezleri sebum denen bir yağ üretir. Sebum deriyi yumuşatır ve su geçirmez yapar.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Su geçirmez mi? Ben de su geçirmez olmak isterdim. Yağmurda hep şemsiye taşıyorum!",
+     "spoken": "Su geçirmez mi? Ben de su geçirmez olmak isterdim. Yağmurda hep şemsiye taşıyorum!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l19",
+     "display": "Deri bir de termostattır. Sıcakken terlersin; ter, vücut sıcaklığını düzenlemeye yardım eder.",
+     "spoken": "Deri bir de termostattır. Sıcakken terlersin; ter, vücut sıcaklığını düzenlemeye yardım eder.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Soğukken ise deri ısıyı içeride tutmaya yardım eder.",
+     "spoken": "Soğukken ise deri ısıyı içeride tutmaya yardım eder.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "En alttaki katman deri altı dokusudur. Bu katman vücudu darbelere karşı korur ve ısıyı içeride tutar.",
+     "spoken": "En alttaki katman deri altı dokusudur. Bu katman vücudu darbelere karşı korur ve ısıyı içeride tutar.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Deri kendini onarmayı da bilir. Kesik ve sıyrık gibi küçük yaralar çabuk iyileşebilir.",
+     "spoken": "Deri kendini onarmayı da bilir. Kesik ve sıyrık gibi küçük yaralar çabuk iyileşebilir.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Şimdi sıra sende! Bir büyüteçle parmak ucunun ve elinin üstünün derisine bak. Çizgiler ve minik delikler görüyor musun?",
+     "spoken": "Şimdi sıra sende! Bir büyüteçle parmak ucunun ve elinin üstünün derisine bak. Çizgiler ve minik delikler görüyor musun?",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Sonra gözlerini kapat ve bir yetişkin önce soğuk, sonra ılık bir kaşıkla elinin üstüne hafifçe dokunsun. Farkı hissedebiliyor musun? Sinir uçların iş başında!",
+     "spoken": "Sonra gözlerini kapat ve bir yetişkin önce soğuk, sonra ılık bir kaşıkla elinin üstüne hafifçe dokunsun. Farkı hissedebiliyor musun? Sinir uçların iş başında!",
+     "factIds": [
+      "f7"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l25",
+     "display": "Bunu biliyor muydun? Amerikan Dermatoloji Akademisi'ne göre güneş kremi derini güneş yanığına karşı korumaya yardım eder. En az 30 SPF'li olanı seç ve dışarıdayken iki saatte bir yeniden sür!",
+     "spoken": "Bunu biliyor muydun? Amerikan Dermatoloji Akademisi'ne göre güneş kremi derini güneş yanığına karşı korumaya yardım eder. En az otuz es pi ef'li olanı seç ve dışarıdayken iki saatte bir yeniden sür!",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Hızlı soru! Deriye rengini veren pigmentin adı neydi?",
+     "spoken": "Hızlı soru! Deriye rengini veren pigmentin adı neydi?",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Düşün bakalım... Evet: melanin!",
+     "spoken": "Düşün bakalım... Evet: melanin!",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l29",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l30",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l31",
+     "display": "Abone olmayı ve zili açmayı unutma. Güneşli günlerde kremini unutma!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Güneşli günlerde kremini unutma!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

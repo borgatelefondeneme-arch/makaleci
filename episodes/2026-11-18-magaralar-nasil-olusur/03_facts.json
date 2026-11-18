@@ -1,0 +1,173 @@
+{
+  "paperId": "topic:magaralar-nasil-olusur",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Solution Caves",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/caves/solution-caves.htm"
+    },
+    {
+      "id": "k2",
+      "title": "Speleothems",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/caves/speleothems.htm"
+    },
+    {
+      "id": "k3",
+      "title": "Lava Caves or Tubes",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/caves/lava-caves-or-tubes.htm"
+    },
+    {
+      "id": "k4",
+      "title": "Sea or Littoral Caves",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/caves/sea-or-littoral-caves.htm"
+    },
+    {
+      "id": "k5",
+      "title": "Glacier Ice Caves",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/articles/000/glacier-ice-caves.htm"
+    },
+    {
+      "id": "k6",
+      "title": "Caves and Karst",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/caves/index.htm"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Erime mağaraları en çok kireçtaşı, mermer ve dolomit gibi kayaçlarda bulunur.",
+      "numbers": [],
+      "quote": "Solution caves are most often found in rock types such as limestone, marble, dolomite",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Bu kayaçlar yağmur suyu asidik olduğu için çözünür; mağaraları oluşturan asit genellikle karbonik asittir; bu asit karbondioksit suda çözününce oluşur.",
+      "numbers": [],
+      "quote": "The reason these rocks dissolve is because rainwater is acidic / When caves form the acid that makes them is usually carbonic acid. / This acid forms when carbon dioxide (made of one Carbon and two Oxygen atoms and known as CO2) dissolves in water.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Su tortuları ve çözünmüş kayayı aşağı taşıdıkça düdenler genişler.",
+      "numbers": [],
+      "quote": "Sinkholes enlarge as water carries sediments and dissolved rock downward.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Karst, kireçtaşı ya da başka çözünebilir kayaçların bulunduğu bölgelerde oluşan bir yer şekli türüdür.",
+      "numbers": [],
+      "quote": "Karst is a type of landscape and topography formed in areas with limestone or the other soluble rocks.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f5",
+      "kind": "number",
+      "statement": "Jeologlara göre içinden dere akan mağara geçitleri yılda en fazla yaklaşık 1 milimetre büyüyebilir.",
+      "numbers": [
+        "1"
+      ],
+      "quote": "Geologists have determined that cave passages with active streams can grow a maximum of about 1 mm per year.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Birçok mağara yüz binlerce, hatta milyonlarca yaşındadır.",
+      "numbers": [],
+      "quote": "Many caves are hundreds of thousands or even millions of years old.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f7",
+      "kind": "number",
+      "statement": "Mamut Mağarası 400 milden uzun ölçüsüyle Dünya'nın en uzun mağarasıdır.",
+      "numbers": [
+        "400"
+      ],
+      "quote": "This is the longest cave on Earth at more than 400 miles.",
+      "location": "National Park Service — Solution Caves"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Sarkıtlar genellikle kalsitten oluşur; tavandan sarkan buz saçaklarına ya da havuçlara benzerler; sarkıt kelimesi (stalaktit) Yunancada 'damla damla sızmak' demektir.",
+      "numbers": [],
+      "quote": "Stalactites are usually composed of calcite, but they may consist of other minerals. / they resemble icicles or carrots hanging from cave ceilings. / the word stalactite is Greek for “oozing out in drops.”",
+      "location": "National Park Service — Speleothems"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Dikitler, yukarıdaki bir sarkıttan ya da tavandan damlayan suyun yerde biriktirdiği tümsek çökeltilerdir.",
+      "numbers": [],
+      "quote": "Stalagmites are convex floor deposits built up by water dripping from an overhead stalactite",
+      "location": "National Park Service — Speleothems"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "Bir dikit kendisini besleyen sarkıtla birleşince sütun oluşur; sütunlar bazen 20 metreyi aşan yükseklik ve çapa ulaşabilir.",
+      "numbers": [
+        "20"
+      ],
+      "quote": "When a stalagmite grows together with its counterpart feeder stalactite, a new speleothem is formed: a column or pillar. / Columns can reach gigantic proportions, sometimes over 65 feet (20 m) in height and diameter.",
+      "location": "National Park Service — Speleothems"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Lav binlerce derece sıcaktır ve bir nehir gibi akabilir; erimiş lav geçip gidince geride lav tüpü denen boş bir tünel kalır.",
+      "numbers": [],
+      "quote": "Lava is thousands of degrees hot and can flow like a river. / Once the molten lava has passed through, it leaves an empty tunnel called a lava cave, or more commonly, a lava tube.",
+      "location": "National Park Service — Lava Caves or Tubes"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Deniz mağaraları çoğunlukla dalgaların yol açtığı aşınmayla oluşur.",
+      "numbers": [],
+      "quote": "Sea caves or littoral caves are formed primarily from erosion caused by waves.",
+      "location": "National Park Service — Sea or Littoral Caves"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Bazen bir buzulun kenarındaki erime, buzun içinde küçük mağaralar oluşturabilir; buzul mağaraları soğuktur ve tavanlarından buzlu su damlar.",
+      "numbers": [],
+      "quote": "Sometimes, melting at the margin of a glacier may cause small caves to form within the ice, / Glacier ice caves are cold, with icy water dripping from their roofs.",
+      "location": "National Park Service — Glacier Ice Caves"
+    },
+    {
+      "id": "f14",
+      "kind": "claim",
+      "statement": "Lav mağaraları kireçtaşı mağaraları kadar canlı çeşitliliğine sahiptir, içlerinde birçok küçük ve sıra dışı hayvan yaşar; bazı yerlerde büyük yarasa tünekleri vardır.",
+      "numbers": [],
+      "quote": "Lava caves are just as biologically diverse as limestone caves with many small, unusual animals inside. / In other locations, large bat roosts lie in the caves.",
+      "location": "National Park Service — Lava Caves or Tubes"
+    },
+    {
+      "id": "f15",
+      "kind": "number",
+      "statement": "ABD milli parklarında 4.700'den fazla mağara vardır.",
+      "numbers": [
+        "4.700"
+      ],
+      "quote": "This includes over 4,700 caves with at least four of these that extend for more than 135 miles",
+      "location": "National Park Service — Caves and Karst"
+    }
+  ]
+}

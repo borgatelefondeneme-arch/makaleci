@@ -1,0 +1,448 @@
+{
+  "paperId": "topic:magaralar-nasil-olusur",
+  "episodeNumber": 41,
+  "videoTitle": "Mağaralar nasıl oluşur?",
+  "paperTitleTr": "Mağaralar nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Yerin altında, gün ışığının hiç ulaşmadığı dev salonlar var. Tavanlarından taş saçaklar sarkıyor. Bu salonları kim kazdı?",
+          "spoken": "Yerin altında, gün ışığının hiç ulaşmadığı dev salonlar var. Tavanlarından taş saçaklar sarkıyor. Bu salonları kim kazdı?",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Cevap seni şaşırtabilir: Su! Hem de damla damla. Benim en korktuğum şey!",
+          "spoken": "Cevap seni şaşırtabilir: Su! Hem de damla damla. Benim en korktuğum şey!",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Bugün fenerimizi alıp bir mağaraya giriyoruz!",
+          "spoken": "Bugün fenerimizi alıp bir mağaraya giriyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Su taşı nasıl oyar? Sarkıtlar ve dikitler nasıl oluşur? Ve başka hangi tür mağaralar vardır?",
+          "spoken": "Üç sorumuz var. Su taşı nasıl oyar? Sarkıtlar ve dikitler nasıl oluşur? Ve başka hangi tür mağaralar vardır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Milli Parklar Servisi'ne göre mağaraların çoğu kireçtaşı, mermer ve dolomit gibi kayaçlarda oluşur. Bunlara erime mağarası denir.",
+          "spoken": "ABD Milli Parklar Servisi'ne göre mağaraların çoğu kireçtaşı, mermer ve dolomit gibi kayaçlarda oluşur. Bunlara erime mağarası denir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Bu kayaçlar çözünür, çünkü yağmur suyu hafifçe asidiktir.",
+          "spoken": "Bu kayaçlar çözünür, çünkü yağmur suyu hafifçe asidiktir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Havadaki karbondioksit suda çözünür ve karbonik asit oluşur. Mağaraları oyan asit genellikle budur.",
+          "spoken": "Havadaki karbondioksit suda çözünür ve karbonik asit oluşur. Mağaraları oyan asit genellikle budur.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Asitli su kayaçtaki çatlaklardan sızar ve kayayı çok yavaş çözer. Su, çözünen kayayı ve tortuları aşağı taşıdıkça düdenler genişler.",
+          "spoken": "Asitli su kayaçtaki çatlaklardan sızar ve kayayı çok yavaş çözer. Su, çözünen kayayı ve tortuları aşağı taşıdıkça düdenler genişler.",
+          "factIds": [
+            "f2",
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Kireçtaşı gibi çözünebilir kayaçların olduğu bu tür bölgelere karst denir.",
+          "spoken": "Kireçtaşı gibi çözünebilir kayaçların olduğu bu tür bölgelere karst denir.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Peki bu iş ne kadar sürer? Jeologlara göre içinden dere akan bir mağara geçidi yılda en fazla yaklaşık 1 milimetre büyüyebilir.",
+          "spoken": "Peki bu iş ne kadar sürer? Jeologlara göre içinden dere akan bir mağara geçidi yılda en fazla yaklaşık bir milimetre büyüyebilir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Bu yüzden birçok mağara yüz binlerce, hatta milyonlarca yaşındadır!",
+          "spoken": "Bu yüzden birçok mağara yüz binlerce, hatta milyonlarca yaşındadır!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Ben bir milimetre ilerlemek için bile acele ederim. Mağaralar ise hiç acele etmez!",
+          "spoken": "Ben bir milimetre ilerlemek için bile acele ederim. Mağaralar ise hiç acele etmez!",
+          "factIds": []
+        },
+        {
+          "id": "l14",
+          "display": "Mağarada tavandan aşağı sarkan taş saçaklara sarkıt denir. Buz saçaklarına ya da havuçlara benzerler.",
+          "spoken": "Mağarada tavandan aşağı sarkan taş saçaklara sarkıt denir. Buz saçaklarına ya da havuçlara benzerler.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Sarkıtlar genellikle kalsit denen mineralden oluşur. Adları Yunancada 'damla damla sızmak' anlamına gelen bir kelimeden gelir.",
+          "spoken": "Sarkıtlar genellikle kalsit denen mineralden oluşur. Adları Yunancada 'damla damla sızmak' anlamına gelen bir kelimeden gelir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Sarkıttan yere damlayan su da yerde birikip yukarı doğru tümsekler yapar. Bunlara dikit denir.",
+          "spoken": "Sarkıttan yere damlayan su da yerde birikip yukarı doğru tümsekler yapar. Bunlara dikit denir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Bir dikit sarkıtla birleşince sütun oluşur. Sütunlar bazen 20 metreyi aşan yüksekliğe ulaşabilir!",
+          "spoken": "Bir dikit sarkıtla birleşince sütun oluşur. Sütunlar bazen yirmi metreyi aşan yüksekliğe ulaşabilir!",
+          "factIds": [
+            "f10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "Her mağara suyla çözünerek oluşmaz. Lav, binlerce derece sıcaktır ve bir nehir gibi akabilir.",
+          "spoken": "Her mağara suyla çözünerek oluşmaz. Lav, binlerce derece sıcaktır ve bir nehir gibi akabilir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Erimiş lav geçip gidince geride boş bir tünel kalır. Buna lav tüpü denir.",
+          "spoken": "Erimiş lav geçip gidince geride boş bir tünel kalır. Buna lav tüpü denir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Deniz mağaraları ise dalgaların kayaları aşındırmasıyla oluşur. Dalgalar da benim gibi hiç yorulmaz!",
+          "spoken": "Deniz mağaraları ise dalgaların kayaları aşındırmasıyla oluşur. Dalgalar da benim gibi hiç yorulmaz!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bir buzulun kenarındaki erime de buzun içinde küçük mağaralar açabilir. Buzul mağaraları soğuktur ve tavanlarından buzlu su damlar.",
+          "spoken": "Bir buzulun kenarındaki erime de buzun içinde küçük mağaralar açabilir. Buzul mağaraları soğuktur ve tavanlarından buzlu su damlar.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Mağaralar canlılarla da doludur. Lav mağaralarında birçok küçük, sıra dışı hayvan yaşar; bazılarında büyük yarasa tünekleri vardır.",
+          "spoken": "Mağaralar canlılarla da doludur. Lav mağaralarında birçok küçük, sıra dışı hayvan yaşar; bazılarında büyük yarasa tünekleri vardır.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Ben mağarada yaşayamam. Wi-fi çekmiyor!",
+          "spoken": "Ben mağarada yaşayamam. Wi-fi çekmiyor!",
+          "factIds": []
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi sıra sende! Bir tabağa bir şeker küpü koy ve üstüne bir damlalıkla ya da kaşıkla damla damla su damlat.",
+          "spoken": "Şimdi sıra sende! Bir tabağa bir şeker küpü koy ve üstüne bir damlalıkla ya da kaşıkla damla damla su damlat.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Su, şekeri nasıl oyuyor? Yağmur suyu da kireçtaşını buna benzer biçimde, ama çok çok daha yavaş çözer.",
+          "spoken": "Su, şekeri nasıl oyuyor? Yağmur suyu da kireçtaşını buna benzer biçimde, ama çok çok daha yavaş çözer.",
+          "factIds": [
+            "f2",
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Bunu biliyor muydun? Milli Parklar Servisi'ne göre Dünya'nın en uzun mağarası Mamut Mağarası'dır: 400 milden uzun! Mil, ABD'de kullanılan bir uzunluk birimidir.",
+          "spoken": "Bunu biliyor muydun? Milli Parklar Servisi'ne göre Dünya'nın en uzun mağarası Mamut Mağarası'dır: dört yüz milden uzun! Mil, ABD'de kullanılan bir uzunluk birimidir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Hızlı soru! Tavandan aşağı sarkan taş saçaklara ne denir?",
+          "spoken": "Hızlı soru! Tavandan aşağı sarkan taş saçaklara ne denir?",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Düşün bakalım... Evet: sarkıt!",
+          "spoken": "Düşün bakalım... Evet: sarkıt!",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Abone olmayı ve zili açmayı unutma. Bir mağara gezisine gidersen rehberinin yanından ayrılma!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bir mağara gezisine gidersen rehberinin yanından ayrılma!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Asidik yağmur suyu kireçtaşını çok yavaş çözerek erime mağaralarını oyar",
+    "Damlayan su sarkıtları, dikitleri ve sütunları oluşturur",
+    "Lav tüpleri, deniz mağaraları ve buzul mağaraları da vardır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "underground",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🦇",
+        "every": 34
+      }
+    ]
+  },
+  "song": {
+    "title": "Damla Damla",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "💧",
+        "name": "Damla"
+      },
+      {
+        "emoji": "🪨",
+        "name": "Kireçtaşı"
+      },
+      {
+        "emoji": "🕳️",
+        "name": "Mağara"
+      },
+      {
+        "emoji": "🏛️",
+        "name": "Sütun"
+      },
+      {
+        "emoji": "🦇",
+        "name": "Yarasa"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "🦇"
+      },
+      {
+        "kind": "hop",
+        "emoji": "💧"
+      },
+      {
+        "kind": "dig",
+        "emoji": "⛏️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🔦"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Yağmur düştü toprağa",
+          "Karbondioksitle asit oldu",
+          "Kireçtaşına sızdı yavaşça",
+          "Taşı çözdü, boşluk açtı"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Damla damla, yıl be yıl!",
+          "Su oyar, mağara büyür",
+          "Sarkıt iner, dikit çıkar",
+          "Birleşince sütun olur"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Lav akar, tünel bırakır",
+          "Dalga döver, deniz mağarası",
+          "Buzul erir, buz mağarası",
+          "Yarasalar tavanda uyur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Damla damla, yıl be yıl!",
+          "Su oyar, mağara büyür",
+          "Şekere su damlat, izle",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Mağaralar nasıl oluşur? Bu bölümde karbonik asidin kireçtaşını nasıl çözdüğünü, düdenleri ve karst bölgelerini, mağaraların ne kadar yavaş büyüdüğünü, sarkıtları, dikitleri ve sütunları, lav tüplerini, deniz ve buzul mağaralarını ve mağara canlılarını keşfediyoruz. Sonunda şeker küpü deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Kireçtaşı",
+      "meaning": "Asitli suda yavaşça çözünebilen bir kayaç."
+    },
+    {
+      "term": "Karbonik asit",
+      "meaning": "Karbondioksitin suda çözünmesiyle oluşan zayıf asit."
+    },
+    {
+      "term": "Karst",
+      "meaning": "Çözünebilir kayaçların bulunduğu, mağara ve düdenlerle dolu bölge."
+    },
+    {
+      "term": "Düden",
+      "meaning": "Kayacın çözünmesiyle yerde açılan çukur."
+    },
+    {
+      "term": "Sarkıt",
+      "meaning": "Mağara tavanından aşağı sarkan taş saçak."
+    },
+    {
+      "term": "Dikit",
+      "meaning": "Damlayan suyun yerde biriktirdiği, yukarı doğru büyüyen taş."
+    },
+    {
+      "term": "Lav tüpü",
+      "meaning": "Akan lavın geride bıraktığı boş tünel."
+    }
+  ]
+}

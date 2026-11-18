@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Damla Damla",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Yağmur düştü toprağa",
+          "start": 5.15,
+          "end": 8.26
+        },
+        {
+          "text": "Karbondioksitle asit oldu",
+          "start": 8.26,
+          "end": 12.41
+        },
+        {
+          "text": "Kireçtaşına sızdı yavaşça",
+          "start": 12.41,
+          "end": 16.56
+        },
+        {
+          "text": "Taşı çözdü, boşluk açtı",
+          "start": 16.56,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Damla damla, yıl be yıl!",
+          "start": 20.17,
+          "end": 23.13
+        },
+        {
+          "text": "Su oyar, mağara büyür",
+          "start": 23.13,
+          "end": 26.43
+        },
+        {
+          "text": "Sarkıt iner, dikit çıkar",
+          "start": 26.43,
+          "end": 29.73
+        },
+        {
+          "text": "Birleşince sütun olur",
+          "start": 29.73,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Lav akar, tünel bırakır",
+          "start": 33.18,
+          "end": 36.55
+        },
+        {
+          "text": "Dalga döver, deniz mağarası",
+          "start": 36.55,
+          "end": 40.61
+        },
+        {
+          "text": "Buzul erir, buz mağarası",
+          "start": 40.61,
+          "end": 44.32
+        },
+        {
+          "text": "Yarasalar tavanda uyur",
+          "start": 44.32,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Damla damla, yıl be yıl!",
+          "start": 48.19,
+          "end": 51.23
+        },
+        {
+          "text": "Su oyar, mağara büyür",
+          "start": 51.23,
+          "end": 54.62
+        },
+        {
+          "text": "Şekere su damlat, izle",
+          "start": 54.62,
+          "end": 58
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

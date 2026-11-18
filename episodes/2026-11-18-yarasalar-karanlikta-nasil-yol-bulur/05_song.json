@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Sesle Gören",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Gece çöktü, karanlık her yer",
+          "start": 5.15,
+          "end": 8.79
+        },
+        {
+          "text": "Yarasa uçar, çağrısı tiz",
+          "start": 8.79,
+          "end": 12.42
+        },
+        {
+          "text": "Ultrason gider, yankı döner",
+          "start": 12.42,
+          "end": 16.05
+        },
+        {
+          "text": "Büyüklüğü, uzaklığı söyler",
+          "start": 16.05,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Sesle gör, yankıyla bul!",
+          "start": 20.17,
+          "end": 22.8
+        },
+        {
+          "text": "Ekolokasyon, işte sırrı bu",
+          "start": 22.8,
+          "end": 26.3
+        },
+        {
+          "text": "Kör değil, gözleri hassas",
+          "start": 26.3,
+          "end": 29.23
+        },
+        {
+          "text": "Gecenin pilotu, uçan memeli",
+          "start": 29.23,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Parmaklar arasında ince deri",
+          "start": 33.18,
+          "end": 37.38
+        },
+        {
+          "text": "El kanat diye seslenir bilim",
+          "start": 37.38,
+          "end": 41.25
+        },
+        {
+          "text": "Böcek yer, polen taşır",
+          "start": 41.25,
+          "end": 44.16
+        },
+        {
+          "text": "Muzlar, mangolar teşekkür eder",
+          "start": 44.16,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Sesle gör, yankıyla bul!",
+          "start": 48.19,
+          "end": 50.94
+        },
+        {
+          "text": "Ekolokasyon, işte sırrı bu",
+          "start": 50.94,
+          "end": 54.62
+        },
+        {
+          "text": "Ellerini çırp, yankıyı dinle",
+          "start": 54.62,
+          "end": 58.29
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.29,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

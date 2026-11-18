@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:magaralar-nasil-olusur",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:magaralar-nasil-olusur",
+    "title": "Mağaralar nasıl oluşur?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-18",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-18T12:36:55.887Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-18T12:36:55.891Z",
+  "decidedAt": "2026-11-18T12:36:55.891Z"
+}

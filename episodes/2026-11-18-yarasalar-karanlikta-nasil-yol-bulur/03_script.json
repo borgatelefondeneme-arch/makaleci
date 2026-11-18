@@ -1,0 +1,444 @@
+{
+  "paperId": "topic:yarasalar-karanlikta-nasil-yol-bulur",
+  "episodeNumber": 40,
+  "videoTitle": "Yarasalar karanlıkta nasıl yol bulur?",
+  "paperTitleTr": "Yarasalar karanlıkta nasıl yol bulur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Zifiri karanlık bir gece. Gözlerini kapatsan bile yolunu bulabilir misin? Yarasalar her gece bunu yapar, hem de uçarken!",
+          "spoken": "Zifiri karanlık bir gece. Gözlerini kapatsan bile yolunu bulabilir misin? Yarasalar her gece bunu yapar, hem de uçarken!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki ışık olmadan nasıl görüyorlar?",
+          "spoken": "Peki ışık olmadan nasıl görüyorlar?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün yarasaların gizli süper gücünü keşfediyoruz: sesle görmek!",
+          "spoken": "Bugün yarasaların gizli süper gücünü keşfediyoruz: sesle görmek!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Yarasalar karanlıkta nasıl yol bulur? Neden uçabilen tek memelilerdir? Ve doğa için neden bu kadar önemlidirler?",
+          "spoken": "Üç sorumuz var. Yarasalar karanlıkta nasıl yol bulur? Neden uçabilen tek memelilerdir? Ve doğa için neden bu kadar önemlidirler?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Milli Parklar Servisi'ne göre yarasalar yön bulmak ve böcek avlamak için ekolokasyon kullanır.",
+          "spoken": "ABD Milli Parklar Servisi'ne göre yarasalar yön bulmak ve böcek avlamak için ekolokasyon kullanır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Ekolokasyon, sesle ve yankıyla yer bulmak demektir. Yarasa, insanların duyamayacağı kadar tiz sesler çıkarır. Bunlara ultrason denir.",
+          "spoken": "Ekolokasyon, sesle ve yankıyla yer bulmak demektir. Yarasa, insanların duyamayacağı kadar tiz sesler çıkarır. Bunlara ultrason denir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Ses dalgaları çevredeki cisimlere çarpıp geri döner ve yarasanın kulaklarına ulaşır.",
+          "spoken": "Ses dalgaları çevredeki cisimlere çarpıp geri döner ve yarasanın kulaklarına ulaşır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "National Geographic'e göre bu yankı, yarasaya cismin büyüklüğünü ve ne kadar uzakta olduğunu söyler.",
+          "spoken": "Neşınıl Ciyogrefik'e göre bu yankı, yarasaya cismin büyüklüğünü ve ne kadar uzakta olduğunu söyler.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Kulakları da kendi özgün çağrılarını tanıyacak kadar ince ayarlıdır. Yani kalabalık bir mağarada bile kendi sesini ayırt eder!",
+          "spoken": "Kulakları da kendi özgün çağrılarını tanıyacak kadar ince ayarlıdır. Yani kalabalık bir mağarada bile kendi sesini ayırt eder!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim de bir sensörüm var. Ama ben duvarı ancak çarptıktan sonra fark ediyorum!",
+          "spoken": "Benim de bir sensörüm var. Ama ben duvarı ancak çarptıktan sonra fark ediyorum!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Bir de şu var: Benekli yarasa denen bir türün sesini, iyi duyan insanlar belli belirsiz duyabilir.",
+          "spoken": "Bir de şu var: Benekli yarasa denen bir türün sesini, iyi duyan insanlar belli belirsiz duyabilir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Yarasalar kör de değildir. USGS'ye göre gözleri küçüktür ama görüşleri çok hassastır.",
+          "spoken": "Yarasalar kör de değildir. Yu Es Ci Es'e göre gözleri küçüktür ama görüşleri çok hassastır.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Bu hassas gözler, bizim zifiri karanlık sandığımız yerlerde bile görmelerine yardım eder.",
+          "spoken": "Bu hassas gözler, bizim zifiri karanlık sandığımız yerlerde bile görmelerine yardım eder.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Yarasaların bilimsel adı Chiroptera'dır. Yunanca 'el kanat' demektir.",
+          "spoken": "Yarasaların bilimsel adı Kiroptera'dır. Yunanca el kanat demektir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Çünkü kanatları aslında bir eldir: Dört uzun parmak ve bir başparmak, ince bir deriyle birbirine bağlanmıştır.",
+          "spoken": "Çünkü kanatları aslında bir eldir: Dört uzun parmak ve bir başparmak, ince bir deriyle birbirine bağlanmıştır.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Bu sayede yarasalar dünyada uçabilen tek memelilerdir!",
+          "spoken": "Bu sayede yarasalar dünyada uçabilen tek memelilerdir!",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "National Geographic'e göre dünyada 1.300'den fazla yarasa türü var. Kemirgenlerden sonra en kalabalık ikinci memeli grubu!",
+          "spoken": "Neşınıl Ciyogrefik'e göre dünyada bin üç yüzden fazla yarasa türü var. Kemirgenlerden sonra en kalabalık ikinci memeli grubu!",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Çoğu, gece çıkan güve gibi böcekleri yiyen mikro yarasalardır. Mega yarasalar ise tropiklerde yaşar; meyve, nektar ve polen yer.",
+          "spoken": "Çoğu, gece çıkan güve gibi böcekleri yiyen mikro yarasalardır. Mega yarasalar ise tropiklerde yaşar; meyve, nektar ve polen yer.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Vampir yarasalar mı? Kanla beslenen tek mikro yarasa türü onlardır. Merak etme, ben vampir değilim; ben sadece elektrik içerim!",
+          "spoken": "Vampir yarasalar mı? Kanla beslenen tek mikro yarasa türü onlardır. Merak etme, ben vampir değilim; ben sadece elektrik içerim!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Böcek yiyen yarasalar bir gecede milyonlarca böcek yer. Bitkiler için doğal bir zararlı kontrolüdürler.",
+          "spoken": "Böcek yiyen yarasalar bir gecede milyonlarca böcek yer. Bitkiler için doğal bir zararlı kontrolüdürler.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Ayrıca mango, muz ve avokado dahil 500'den fazla bitki türü tozlaşma için yarasalara bağlıdır.",
+          "spoken": "Ayrıca mango, muz ve avokado dahil beş yüzden fazla bitki türü tozlaşma için yarasalara bağlıdır.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Meyve yiyen yarasalar tohumları yayar ve yağmur ormanlarının büyümesine yardım eder.",
+          "spoken": "Meyve yiyen yarasalar tohumları yayar ve yağmur ormanlarının büyümesine yardım eder.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi sıra sende! Boş bir koridorda ya da büyük bir odada ellerini bir kez çırp ve sesi dinle.",
+          "spoken": "Şimdi sıra sende! Boş bir koridorda ya da büyük bir odada ellerini bir kez çırp ve sesi dinle.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Duvara yaklaşıp uzaklaşarak tekrar çırp. Yankı değişiyor mu? Ama gerçek bir yarasa görürsen asla dokunma, uzaktan izle!",
+          "spoken": "Duvara yaklaşıp uzaklaşarak tekrar çırp. Yankı değişiyor mu? Ama gerçek bir yarasa görürsen asla dokunma, uzaktan izle!",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Bunu biliyor muydun? Bazı yarasalar kışın mağaralarda kış uykusuna yatar. Ne yazık ki 2007'de bulunan beyaz burun sendromu, kış uykusundaki beş milyondan fazla yarasanın ölümüne yol açtı.",
+          "spoken": "Bunu biliyor muydun? Bazı yarasalar kışın mağaralarda kış uykusuna yatar. Ne yazık ki iki bin yedide bulunan beyaz burun sendromu, kış uykusundaki beş milyondan fazla yarasanın ölümüne yol açtı.",
+          "factIds": [
+            "f13",
+            "f14"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Hızlı soru! Yarasaların sesle ve yankıyla yol bulmasına ne denir?",
+          "spoken": "Hızlı soru! Yarasaların sesle ve yankıyla yol bulmasına ne denir?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Düşün bakalım... Evet: ekolokasyon!",
+          "spoken": "Düşün bakalım... Evet: ekolokasyon!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Abone olmayı ve zili açmayı unutma. İyi geceler, yarasalar!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. İyi geceler, yarasalar!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Yarasalar ultrason çıkarır ve yankıyla cisimlerin büyüklüğünü ve uzaklığını anlar",
+    "Kanatları parmaklar arasındaki deriden oluşur; uçabilen tek memelilerdir",
+    "Böcek yer, bitkileri tozlaştırır ve tohum yayarlar"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "night",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🦇",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Sesle Gören",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🦇",
+        "name": "Yarasa"
+      },
+      {
+        "emoji": "👂",
+        "name": "Kulak"
+      },
+      {
+        "emoji": "🌙",
+        "name": "Gece"
+      },
+      {
+        "emoji": "🦋",
+        "name": "Güve"
+      },
+      {
+        "emoji": "🍌",
+        "name": "Muz"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "🦇"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🦋"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🍌"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌙"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Gece çöktü, karanlık her yer",
+          "Yarasa uçar, çağrısı tiz",
+          "Ultrason gider, yankı döner",
+          "Büyüklüğü, uzaklığı söyler"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sesle gör, yankıyla bul!",
+          "Ekolokasyon, işte sırrı bu",
+          "Kör değil, gözleri hassas",
+          "Gecenin pilotu, uçan memeli"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Parmaklar arasında ince deri",
+          "El kanat diye seslenir bilim",
+          "Böcek yer, polen taşır",
+          "Muzlar, mangolar teşekkür eder"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Sesle gör, yankıyla bul!",
+          "Ekolokasyon, işte sırrı bu",
+          "Ellerini çırp, yankıyı dinle",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Yarasalar zifiri karanlıkta nasıl yol bulur? Bu bölümde ekolokasyonu ve ultrasonu, yarasaların kör olmadığını, el kanat demek olan Chiroptera'yı, mikro ve mega yarasaları, böcek kontrolünü, tozlaşmayı ve tohum yaymayı keşfediyoruz. Sonunda yankı deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Ekolokasyon",
+      "meaning": "Ses çıkarıp yankısını dinleyerek çevredeki cisimleri bulma."
+    },
+    {
+      "term": "Ultrason",
+      "meaning": "İnsanların duyamayacağı kadar tiz ses."
+    },
+    {
+      "term": "Yankı",
+      "meaning": "Bir cisme çarpıp geri dönen ses."
+    },
+    {
+      "term": "Memeli",
+      "meaning": "Yavrularını sütle besleyen hayvan."
+    },
+    {
+      "term": "Tozlaşma",
+      "meaning": "Polenin çiçekten çiçeğe taşınarak meyve oluşmasını sağlaması."
+    },
+    {
+      "term": "Kış uykusu",
+      "meaning": "Bazı hayvanların kışı çok az enerji harcayarak uyuyarak geçirmesi."
+    }
+  ]
+}
