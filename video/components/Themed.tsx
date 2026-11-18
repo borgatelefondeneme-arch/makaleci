@@ -10,10 +10,10 @@ import { clamp } from "../anim";
 export const CALM = { density: 0.45, speed: 0.6, ambientActors: 2, ambientEvery: 1.8, fx: 0.4 };
 const dn = (n: number) => Math.max(3, Math.round(n * CALM.density));
 const rnd = (i: number, n: number) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
-export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow" | "gut" | "night";
+export type BackdropName = "space" | "underground" | "meadow" | "ocean" | "storm" | "mouth" | "aurora" | "sky" | "micro" | "snow" | "gut" | "night" | "desert";
 export const BACKDROPS: Record<BackdropName, { panel: boolean; dark: boolean; ground: number }> = {
   space: { panel: true, dark: true, ground: 960 }, underground: { panel: true, dark: false, ground: 950 },
-  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, gut: { panel: true, dark: false, ground: 985 }, night: { panel: true, dark: true, ground: 960 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
+  meadow: { panel: false, dark: false, ground: 940 }, mouth: { panel: true, dark: false, ground: 1000 }, aurora: { panel: true, dark: true, ground: 985 }, sky: { panel: false, dark: false, ground: 980 }, micro: { panel: true, dark: false, ground: 990 }, snow: { panel: true, dark: false, ground: 975 }, gut: { panel: true, dark: false, ground: 985 }, night: { panel: true, dark: true, ground: 960 }, desert: { panel: false, dark: false, ground: 930 }, ocean: { panel: true, dark: true, ground: 950 }, storm: { panel: true, dark: true, ground: 955 },
 };
 // Pano: içerik alanı. Alt bant (yer) karakterlere kalır.
 export const PANEL = { left: 176, right: 176, top: 78, bottom: 236 };
@@ -189,6 +189,21 @@ export const ThemedBackdrop: React.FC<{ name: BackdropName }> = ({ name }) => {
         <svg width={W} height={H} style={{ position: "absolute" }}>
           {Array.from({ length: dn(18) }, (_, i) => { const y = ((rnd(i, 2) * H - f * (0.6 + rnd(i, 4))) % (H + 80) + H + 80) % (H + 80) - 40; return <circle key={i} cx={rnd(i, 1) * W} cy={y} r={8 + rnd(i, 3) * 16} fill="#fff" opacity={0.35} />; })}
         </svg>
+      </AbsoluteFill>
+    );
+  }
+  if (name === "desert") {
+    // çöl: sıcak gök, güneş, kum tepeleri, seyrek kaktüsler; hafif sıcak dalgası
+    const sway = (i: number) => Math.sin(f / 50 + i) * 6;
+    return (
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, #FBE3B8 0%, #FDEFD6 55%, #F6D9A8 100%)", overflow: "hidden" }}>
+        <div style={{ position: "absolute", left: 1600, top: 40, width: 200, height: 200, borderRadius: "50%", background: "radial-gradient(closest-side, #FFF0B0, #FFC94D 60%, transparent)", transform: `scale(${1 + 0.04 * Math.sin(f / 30)})` }} />
+        <svg width={W} height={H} style={{ position: "absolute" }}>
+          {Array.from({ length: dn(10) }, (_, i) => <path key={i} d={`M ${rnd(i, 1) * W} ${300 + rnd(i, 2) * 400} q 40 ${sway(i)} 80 0 t 80 0`} stroke="#F3C987" strokeWidth={4} fill="none" opacity={0.35} />)}
+          <path d={`M 0 ${H} V 880 Q 380 780 760 870 T 1500 840 T ${W} 860 V ${H} Z`} fill="#EFC27E" />
+          <path d={`M 0 ${H} V 950 Q 520 880 1040 955 T ${W} 930 V ${H} Z`} fill="#E3AE63" />
+        </svg>
+        {["🌵", "🌵", "🪨", "🌵"].map((e2, i) => <div key={i} style={{ position: "absolute", left: 60 + i * 520 + (i % 2) * 90, bottom: 20 + (i % 2) * 24, fontSize: 92, fontFamily: F.head, transformOrigin: "50% 100%", transform: `rotate(${Math.sin(f / 40 + i) * 2}deg)` }}>{e2}</div>)}
       </AbsoluteFill>
     );
   }

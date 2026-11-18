@@ -1,0 +1,144 @@
+{
+  "paperId": "topic:col-hayvanlari-nasil-hayatta-kalir",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Desert",
+      "publisher": "National Geographic",
+      "url": "https://education.nationalgeographic.org/resource/desert/"
+    },
+    {
+      "id": "k2",
+      "title": "Dromedary Camel",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/dromedary-camel"
+    },
+    {
+      "id": "k3",
+      "title": "Deserts",
+      "publisher": "Milli Parklar Servisi",
+      "url": "https://www.nps.gov/subjects/deserts/index.htm"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "number",
+      "statement": "Çöller çok az yağış alan bölgelerdir; çöl, yılda en fazla 25 santimetre yağış alan kara parçasıdır.",
+      "numbers": [
+        "25"
+      ],
+      "quote": "Deserts are areas that receive very little precipitation. / area of land that receives no more than 25 centimeters (10 inches) of precipitation a year.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f2",
+      "kind": "number",
+      "statement": "Bazı çöllerde gündüz sıcaklığı 54 santigrat dereceye kadar çıkar; bazı çöllerin kışları soğuktur ya da bütün yıl soğuktur; Antarktika'nın neredeyse tamamı bir kutup çölüdür.",
+      "numbers": [
+        "54"
+      ],
+      "quote": "Although some deserts are very hot, with daytime temperatures as high as 54°C (130°F) / other deserts have cold winters or are cold year-round. / Almost the entire continent of Antarctica is a polar desert, experiencing little precipitation.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f3",
+      "kind": "number",
+      "statement": "Chihuahua Çölü'nde gündüz sıcaklığı 37 santigrat dereceyi aşabilirken gece sıcaklığı donma noktası olan 0 derecenin altına düşebilir; çöller geceleri nem ve bulutların sağladığı yalıtım olmadığı için hızla soğur.",
+      "numbers": [
+        "37",
+        "0"
+      ],
+      "quote": "Daytime temperatures in the Chihuahua can climb beyond 37°C (100°F), / while nighttime temperatures can dip below freezing (0°C or 32°F). / At night, these areas cool quickly because they lack the insulation provided by humidity and clouds.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Çöl hayvanlarının çoğu gececidir; sıcak günleri uyuyarak geçirir, geceleri avlanır ve yiyecek arar; birçoğu sıcaktan yere kazdıkları serin yuvalarda korunur.",
+      "numbers": [],
+      "quote": "Most xerocoles are nocturnal. / They sleep through the hot days and do their hunting and foraging at night. / Many escape the heat in cool burrows they dig in the ground.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Çöl tilkisinin böbrekleri yediği besinden yeterince su tutar; yol koşucusu kuşu suyunu besininden alır.",
+      "numbers": [],
+      "quote": "Their kidneys retain enough water from the food they eat. / The roadrunner, native to the deserts of North America, obtains water from its food.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Çöl tavşanının uzun kulaklarında ısı yayan kan damarları vardır.",
+      "numbers": [],
+      "quote": "For example, a jackrabbit’s long ears contain blood vessels that release heat.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Develer hörgüçlerinde su depolamaz; hörgüç yağ depolar.",
+      "numbers": [],
+      "quote": "The animals do not store water in their humps, as people once believed. / The hump stores up to 80 pounds of fat",
+      "location": "National Geographic — Dromedary Camel"
+    },
+    {
+      "id": "f8",
+      "kind": "number",
+      "statement": "Tek hörgüçlü develer vücut ağırlıklarının yüzde 30'una kadarını zarar görmeden kaybedebilir.",
+      "numbers": [
+        "30"
+      ],
+      "quote": "dromedary camels can lose up to 30% of their body weight without harm.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "Çöl kaplumbağası vücut ağırlığının yüzde 40'ına kadar suyu mesanesinde depolayabilir.",
+      "numbers": [
+        "40"
+      ],
+      "quote": "can store up to 40% of its body weight in water within its bladder",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Kaktüs gibi bazı çöl bitkilerinin sığ, geniş yayılan kökleri vardır; suyu hızla emip hücrelerinde depolarlar; büyük bir saguaro yüzlerce litre su tutabilen canlı bir depodur.",
+      "numbers": [],
+      "quote": "Some desert plants, such as cactuses, have shallow, wide-spreading root systems. / The plants soak up water quickly and store it in their cells. / A large saguaro is a living storage tower that can hold hundreds of liters of water.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f11",
+      "kind": "number",
+      "statement": "Mesquite ağacının kökleri yerin 61 metreden daha derinindeki suya ulaşabilir.",
+      "numbers": [
+        "61"
+      ],
+      "quote": "The roots of a mesquite tree, for example, can reach water more than 61 meters (200 feet) underground.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Mesquite, saguaro ve birçok çöl bitkisinin onları otçul hayvanlardan koruyan dikenleri vardır.",
+      "numbers": [],
+      "quote": "Mesquites, saguaros and many other desert plants also have thorns or spines to protect them from grazing animals.",
+      "location": "National Geographic Education — Desert"
+    },
+    {
+      "id": "f13",
+      "kind": "claim",
+      "statement": "Çöl şafakta hayatla dolar, öğleye doğru hayvanlar sıcaktan korunmak için saklanınca sessizleşir.",
+      "numbers": [],
+      "quote": "the desert teems with life at dawn and quiets by noon, as animals take shelter from the heat.",
+      "location": "National Park Service — Deserts"
+    }
+  ]
+}

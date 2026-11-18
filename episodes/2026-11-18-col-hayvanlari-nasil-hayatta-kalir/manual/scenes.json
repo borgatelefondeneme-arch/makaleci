@@ -1,0 +1,550 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Çöl hayvanları nasıl hayatta kalır?",
+    "emoji": "🐪"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f13"
+   ],
+   "stickers": [
+    "☀️",
+    "🌵"
+   ],
+   "keywords": [
+    "KAVURUCU SICAK",
+    "SUSUZLUK",
+    "HAYATTA KALMA"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Çöl nedir?",
+     "Hayvanlar nasıl korunur?",
+     "Bitkiler suyu nasıl saklar?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "25 cm",
+    "label": "Bir çölün bir yılda aldığı en fazla yağış",
+    "sub": "National Geographic",
+    "icon": "🌧️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "🌧️",
+    "🧊"
+   ],
+   "keywords": [
+    "AZ YAĞIŞ",
+    "SICAK • SOĞUK ÇÖL"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Chihuahua Çölü'nde bir gün",
+    "left": {
+     "title": "Gündüz ☀️",
+     "items": [
+      "37 °C'yi aşabilir"
+     ]
+    },
+    "right": {
+     "title": "Gece 🌙",
+     "items": [
+      "0 °C'nin altına düşebilir",
+      "Nem ve bulut yok: hızla soğur"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🌡️",
+    "🔋"
+   ],
+   "keywords": [
+    "GECE • GÜNDÜZ",
+    "HIZLA SOĞUR",
+    "DONAN PİL 🥶"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l11",
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Gececiler",
+    "emoji": "🌙",
+    "chips": [
+     {
+      "label": "Gündüz uyur",
+      "emoji": "😴"
+     },
+     {
+      "label": "Gece avlanır",
+      "emoji": "🌙"
+     },
+     {
+      "label": "Serin yuvalar",
+      "emoji": "🕳️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4",
+    "f13"
+   ],
+   "stickers": [
+    "🌙",
+    "🦉"
+   ],
+   "keywords": [
+    "GECECİ",
+    "YUVA",
+    "ŞAFAK • ÖĞLE"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Suyu yiyecekten almak",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Besin ye",
+      "emoji": "🦗"
+     },
+     {
+      "label": "Böbrekler suyu tutar",
+      "emoji": "🫘"
+     },
+     {
+      "label": "Susuz yaşa",
+      "emoji": "🦊"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "🦊",
+    "🐦"
+   ],
+   "keywords": [
+    "ÇÖL TİLKİSİ",
+    "YOL KOŞUCUSU"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l16",
+    "l17"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Radyatör kulaklar",
+    "label": "Isı",
+    "emoji": "🐇",
+    "phases": [
+     {
+      "label": "Uzun kulaklarda kan damarları",
+      "level": 0.8,
+      "emoji": "👂"
+     },
+     {
+      "label": "Isı dışarı verilir",
+      "level": 0.35,
+      "emoji": "🌬️"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🐇",
+    "🌀"
+   ],
+   "keywords": [
+    "RADYATÖR KULAKLAR",
+    "FANLI MUMA 🌀"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l18",
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "bar-chart",
+    "title": "Vücut ağırlığının yüzdesi",
+    "unit": "%",
+    "bars": [
+     {
+      "label": "Deve: zarar görmeden kaybeder",
+      "value": 30,
+      "display": "%30"
+     },
+     {
+      "label": "Kaplumbağa: su olarak saklar",
+      "value": 40,
+      "display": "%40",
+      "highlight": true
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8",
+    "f9"
+   ],
+   "stickers": [
+    "🐪",
+    "🐢"
+   ],
+   "keywords": [
+    "HÖRGÜÇ = YAĞ",
+    "%30",
+    "%40"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kaktüsün su planı",
+    "rows": [
+     {
+      "label": "Sığ, geniş kökler",
+      "emoji": "🌱"
+     },
+     {
+      "label": "Suyu hızla emer",
+      "emoji": "💧"
+     },
+     {
+      "label": "Hücrelerde saklar",
+      "emoji": "🌵"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "keywords": [
+    "KAKTÜS",
+    "SAGUARO"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "61 m+",
+    "label": "Mesquite kökleri bu derinlikteki suya ulaşabilir",
+    "sub": "National Geographic",
+    "icon": "🌳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11",
+    "f12"
+   ],
+   "stickers": [
+    "🌳",
+    "🌵"
+   ],
+   "keywords": [
+    "DERİN KÖKLER",
+    "DİKENLER"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: buz yarışı",
+    "items": [
+     "İki tabağa birer buz koy",
+     "Biri güneşte kalsın",
+     "Diğerine bardak kapat, gölgeye koy",
+     "Hangisi daha çabuk eriyor?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🧊",
+    "☀️"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "SERİN YUVA"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l27"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Buz çölü",
+    "emoji": "🧊",
+    "chips": [
+     {
+      "label": "Antarktika: kutup çölü",
+      "emoji": "🐧"
+     },
+     {
+      "label": "Az yağış alır",
+      "emoji": "🌧️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🐧",
+    "❄️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l28",
+    "l29"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Deve hörgücünde ne depolar?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🐪",
+    "💧"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "YAĞ ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l30"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l31",
+    "l32",
+    "l33"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

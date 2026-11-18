@@ -1,0 +1,454 @@
+{
+  "paperId": "topic:col-hayvanlari-nasil-hayatta-kalir",
+  "episodeNumber": 48,
+  "videoTitle": "Çöl hayvanları nasıl hayatta kalır?",
+  "paperTitleTr": "Çöl hayvanları nasıl hayatta kalır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Kavurucu güneş, yağmur yok, gölge yok. Böyle bir yerde sen kaç saat dayanırdın? Ama çölde sayısız hayvan ve bitki yaşıyor!",
+          "spoken": "Kavurucu güneş, yağmur yok, gölge yok. Böyle bir yerde sen kaç saat dayanırdın? Ama çölde sayısız hayvan ve bitki yaşıyor!",
+          "factIds": [
+            "f1",
+            "f13"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki onlar susuzluğa ve sıcağa nasıl dayanıyor?",
+          "spoken": "Peki onlar susuzluğa ve sıcağa nasıl dayanıyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün çölün hayatta kalma ustalarıyla tanışıyoruz!",
+          "spoken": "Bugün çölün hayatta kalma ustalarıyla tanışıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Çöl nedir? Hayvanlar sıcaktan ve susuzluktan nasıl korunur? Ve bitkiler suyu nasıl saklar?",
+          "spoken": "Üç sorumuz var. Çöl nedir? Hayvanlar sıcaktan ve susuzluktan nasıl korunur? Ve bitkiler suyu nasıl saklar?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre çöl, çok az yağış alan bir bölgedir: yılda en fazla 25 santimetre yağış.",
+          "spoken": "Neşınıl Ciyogrefik'e göre çöl, çok az yağış alan bir bölgedir: yılda en fazla yirmi beş santimetre yağış.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Bazı çöllerde gündüz sıcaklığı 54 santigrat dereceye kadar çıkar! Ama her çöl sıcak değildir; Antarktika'nın neredeyse tamamı bir kutup çölüdür.",
+          "spoken": "Bazı çöllerde gündüz sıcaklığı elli dört santigrat dereceye kadar çıkar! Ama her çöl sıcak değildir; Antarktika'nın neredeyse tamamı bir kutup çölüdür.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Çölde gece ile gündüz arasındaki fark da büyüktür. Chihuahua Çölü'nde gündüz 37 dereceyi aşabilir, gece ise sıfırın altına düşebilir.",
+          "spoken": "Çölde gece ile gündüz arasındaki fark da büyüktür. Chihuahua Çölü'nde gündüz otuz yedi dereceyi aşabilir, gece ise sıfırın altına düşebilir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Neden? Çünkü çölde ısıyı tutan nem ve bulut azdır. Bu yüzden geceleri hızla soğur.",
+          "spoken": "Neden? Çünkü çölde ısıyı tutan nem ve bulut azdır. Bu yüzden geceleri hızla soğur.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Gündüz kızar, gece donarım. Ben çölde kalsam ya erirdim ya da pilim donardı!",
+          "spoken": "Gündüz kızar, gece donarım. Ben çölde kalsam ya erirdim ya da pilim donardı!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Çöl hayvanlarının ilk sırrı: gece çalışmak! Çoğu gececidir; sıcak gündüzleri uyuyarak geçirir, geceleri avlanır.",
+          "spoken": "Çöl hayvanlarının ilk sırrı: gece çalışmak! Çoğu gececidir; sıcak gündüzleri uyuyarak geçirir, geceleri avlanır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Birçoğu da toprağa kazdığı serin yuvalarda sıcaktan saklanır.",
+          "spoken": "Birçoğu da toprağa kazdığı serin yuvalarda sıcaktan saklanır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Milli Parklar Servisi'ne göre çöl şafakta hayatla dolar, öğleye doğru ise sessizleşir.",
+          "spoken": "Milli Parklar Servisi'ne göre çöl şafakta hayatla dolar, öğleye doğru ise sessizleşir.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "İkinci sır: suyu yiyecekten almak. Çöl tilkisinin böbrekleri, yediği besinden yeterince su tutar.",
+          "spoken": "İkinci sır: suyu yiyecekten almak. Çöl tilkisinin böbrekleri, yediği besinden yeterince su tutar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Yol koşucusu denen kuş da suyunu besininden alır.",
+          "spoken": "Yol koşucusu denen kuş da suyunu besininden alır.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Üçüncü sır: kulaklar! Çöl tavşanının uzun kulaklarında ısıyı dışarı veren kan damarları vardır. Kulakları bir radyatör gibidir!",
+          "spoken": "Üçüncü sır: kulaklar! Çöl tavşanının uzun kulaklarında ısıyı dışarı veren kan damarları vardır. Kulakları bir radyatör gibidir!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Benim de radyatörüm var: fan. Ama o kulaklarım kadar sevimli değil!",
+          "spoken": "Benim de radyatörüm var: fan. Ama o kulaklarım kadar sevimli değil!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "Peki develer? Pek çok kişi deve hörgücünde su depolandığını sanır. Ama bu doğru değil: Hörgüç yağ depolar!",
+          "spoken": "Peki develer? Pek çok kişi deve hörgücünde su depolandığını sanır. Ama bu doğru değil: Hörgüç yağ depolar!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "National Geographic'e göre tek hörgüçlü develer vücut ağırlıklarının yüzde 30'una kadarını zarar görmeden kaybedebilir.",
+          "spoken": "Neşınıl Ciyogrefik'e göre tek hörgüçlü develer vücut ağırlıklarının yüzde otuzuna kadarını zarar görmeden kaybedebilir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Çöl kaplumbağası ise vücut ağırlığının yüzde 40'ına kadar suyu mesanesinde saklayabilir!",
+          "spoken": "Çöl kaplumbağası ise vücut ağırlığının yüzde kırkına kadar suyu mesanesinde saklayabilir!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bitkiler de usta. Kaktüslerin sığ ama geniş yayılan kökleri vardır; yağmur yağınca suyu hızla emer ve hücrelerinde saklarlar.",
+          "spoken": "Bitkiler de usta. Kaktüslerin sığ ama geniş yayılan kökleri vardır; yağmur yağınca suyu hızla emer ve hücrelerinde saklarlar.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Büyük bir saguaro kaktüsü yüzlerce litre su tutabilen canlı bir depodur.",
+          "spoken": "Büyük bir saguaro kaktüsü yüzlerce litre su tutabilen canlı bir depodur.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Mesquite ağacının kökleri ise yerin 61 metreden daha derinindeki suya ulaşabilir!",
+          "spoken": "Meskit ağacının kökleri ise yerin altmış bir metreden daha derinindeki suya ulaşabilir!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Dikenler de bitkileri, onları yemek isteyen hayvanlardan korur.",
+          "spoken": "Dikenler de bitkileri, onları yemek isteyen hayvanlardan korur.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Şimdi sıra sende! Güneşli bir günde iki tabağa birer buz küpü koy. Birini güneşe bırak, diğerinin üstüne ters bir bardak kapat ve gölgeye koy.",
+          "spoken": "Şimdi sıra sende! Güneşli bir günde iki tabağa birer buz küpü koy. Birini güneşe bırak, diğerinin üstüne ters bir bardak kapat ve gölgeye koy.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Hangisi daha çabuk eriyor? Gölgedeki yuva, çöl hayvanlarının saklandığı serin yuvalar gibidir.",
+          "spoken": "Hangisi daha çabuk eriyor? Gölgedeki yuva, çöl hayvanlarının saklandığı serin yuvalar gibidir.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l27",
+          "display": "Bunu biliyor muydun? Bazı çöller sıcak değil, buz gibidir: Antarktika'nın neredeyse tamamı bir kutup çölüdür!",
+          "spoken": "Bunu biliyor muydun? Bazı çöller sıcak değil, buz gibidir: Antarktika'nın neredeyse tamamı bir kutup çölüdür!",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Hızlı soru! Deve hörgücünde ne depolar?",
+          "spoken": "Hızlı soru! Deve hörgücünde ne depolar?",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Düşün bakalım... Evet: yağ, su değil!",
+          "spoken": "Düşün bakalım... Evet: yağ, su değil!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l31",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Abone olmayı ve zili açmayı unutma. Bol su iç, serin kal!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bol su iç, serin kal!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Çöl, yılda en fazla 25 santimetre yağış alan bölgedir; sıcak da soğuk da olabilir",
+    "Hayvanlar gece çalışır, yuvalarda saklanır, suyu besinden alır ve ısıyı kulaklarından verir",
+    "Deve hörgücü yağ depolar; kaktüsler suyu hücrelerinde saklar"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "desert",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐪",
+        "every": 34
+      },
+      {
+        "kind": "hop",
+        "emoji": "🦎",
+        "every": 40
+      }
+    ]
+  },
+  "song": {
+    "title": "Çöl Ustaları",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🐪",
+        "name": "Deve"
+      },
+      {
+        "emoji": "🦊",
+        "name": "Çöl tilkisi"
+      },
+      {
+        "emoji": "🐇",
+        "name": "Çöl tavşanı"
+      },
+      {
+        "emoji": "🐢",
+        "name": "Kaplumbağa"
+      },
+      {
+        "emoji": "🌵",
+        "name": "Kaktüs"
+      }
+    ],
+    "show": [
+      {
+        "kind": "walk",
+        "emoji": "🐪"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🦊"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🐇"
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐢"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Güneş yakar, yağmur yağmaz",
+          "Gündüz kavurur, gece dondurur",
+          "Gececiler uyur gündüz boyu",
+          "Serin yuvada saklanır"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Çölde usta, çölde güçlü!",
+          "Su yok mu? Besinden alırız",
+          "Kulaklar soğutur, yuvalar korur",
+          "Hayat bulur kumun içinde"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Hörgüçte yağ var, su değil",
+          "Kaplumbağa suyu saklar",
+          "Kaktüs emer, depolar",
+          "Derin kökler suyu bulur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Çölde usta, çölde güçlü!",
+          "Su yok mu? Besinden alırız",
+          "Buzları yarıştır, gölgeyi gör",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Çöl hayvanları sıcağa ve susuzluğa nasıl dayanır? Bu bölümde çölün ne olduğunu, gece ile gündüz arasındaki büyük sıcaklık farkını, gececi hayvanları ve serin yuvaları, suyu besinden alan çöl tilkisini, radyatör gibi kulaklı çöl tavşanını, deve hörgücünün sırrını, su saklayan kaplumbağayı ve kaktüsleri keşfediyoruz. Sonunda buz yarışı deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Çöl",
+      "meaning": "Yılda çok az yağış alan bölge."
+    },
+    {
+      "term": "Kutup çölü",
+      "meaning": "Çok soğuk ve az yağış alan çöl; Antarktika gibi."
+    },
+    {
+      "term": "Gececi",
+      "meaning": "Gündüz dinlenip gece etkin olan hayvan."
+    },
+    {
+      "term": "Yuva",
+      "meaning": "Hayvanların toprağa kazdığı korunma yeri."
+    },
+    {
+      "term": "Hörgüç",
+      "meaning": "Devenin sırtındaki, yağ depolayan tümsek."
+    },
+    {
+      "term": "Saguaro",
+      "meaning": "Çok büyük boylara ulaşan, su depolayan bir kaktüs türü."
+    }
+  ]
+}

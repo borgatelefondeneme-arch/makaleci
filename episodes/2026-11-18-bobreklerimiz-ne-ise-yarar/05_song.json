@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Minik Süzgeçler",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "İki fasulye belimin üstünde",
+          "start": 5.15,
+          "end": 9.45
+        },
+        {
+          "text": "Gece gündüz çalışır durmadan",
+          "start": 9.45,
+          "end": 13.41
+        },
+        {
+          "text": "Bir milyon nefron her birinde",
+          "start": 13.41,
+          "end": 17.04
+        },
+        {
+          "text": "Kanı süzer, temizler",
+          "start": 17.04,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Süz, süz, minik süzgeç!",
+          "start": 20.17,
+          "end": 22.74
+        },
+        {
+          "text": "Atıklar dışarı, kan tertemiz",
+          "start": 22.74,
+          "end": 26.6
+        },
+        {
+          "text": "Su, tuz, mineral dengede",
+          "start": 26.6,
+          "end": 29.81
+        },
+        {
+          "text": "Böbreklerim iş başında",
+          "start": 29.81,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Üreterden mesaneye",
+          "start": 33.18,
+          "end": 36.71
+        },
+        {
+          "text": "Oradan da üretraya",
+          "start": 36.71,
+          "end": 40.25
+        },
+        {
+          "text": "Hormon yapar, kemik güçlenir",
+          "start": 40.25,
+          "end": 44.15
+        },
+        {
+          "text": "Kırmızı hücreler çoğalır",
+          "start": 44.15,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Süz, süz, minik süzgeç!",
+          "start": 48.19,
+          "end": 50.76
+        },
+        {
+          "text": "Atıklar dışarı, kan tertemiz",
+          "start": 50.76,
+          "end": 54.62
+        },
+        {
+          "text": "Bir bardak su iç, işaretle",
+          "start": 54.62,
+          "end": 58.15
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.15,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
