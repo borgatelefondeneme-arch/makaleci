@@ -1,0 +1,539 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Buzullar nasıl hareket eder?",
+    "emoji": "🏔️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "❄️",
+    "🧊"
+   ],
+   "keywords": [
+    "BUZ AKAR!",
+    "NEREDEN GELİR?",
+    "SESSİZ YOLCULUK"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Buzul nasıl oluşur?",
+     "Nasıl hareket eder?",
+     "Neden önemlidir?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kardan buzula",
+    "rows": [
+     {
+      "label": "Kar yağar",
+      "emoji": "🌨️"
+     },
+     {
+      "label": "Katmanlar sıkışır",
+      "emoji": "🥞"
+     },
+     {
+      "label": "Firn",
+      "emoji": "🧂"
+     },
+     {
+      "label": "Buzul buzu",
+      "emoji": "🧊"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f3"
+   ],
+   "keywords": [
+    "BUZUL",
+    "SIKIŞMA",
+    "FİRN"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Yüz yıldan fazla",
+    "label": "Çoğu buzulda kardan buzul buzuna dönüşüm süresi",
+    "sub": "NSIDC",
+    "icon": "⏳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "⏳",
+    "🔋"
+   ],
+   "keywords": [
+    "YÜZYILLAR",
+    "PİL BİTER 🔋"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l11",
+    "l12"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Mavi buz",
+    "emoji": "🧊",
+    "chips": [
+     {
+      "label": "Yoğun ve kabarcıksız",
+      "emoji": "💎"
+     },
+     {
+      "label": "Kırmızı ışığı biraz soğurur",
+      "emoji": "🔴"
+     },
+     {
+      "label": "Yumruk kadar kristaller",
+      "emoji": "✊"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4",
+    "f5"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "💎",
+    "✊"
+   ],
+   "keywords": [
+    "MAVİ BUZ",
+    "DEV KRİSTALLER"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l13",
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Buzul nasıl akar?",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Ağırlık ve yer çekimi",
+      "emoji": "⬇️"
+     },
+     {
+      "label": "İç deformasyon",
+      "emoji": "🌀"
+     },
+     {
+      "label": "Tabanda kayma",
+      "emoji": "🛷"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "stickers": [
+    "⬇️",
+    "🛷"
+   ],
+   "keywords": [
+    "KENDİ AĞIRLIĞI",
+    "İÇ DEFORMASYON",
+    "TABAN KAYMASI"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l16"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Yarık",
+    "emoji": "⚠️",
+    "chips": [
+     {
+      "label": "Buzul buzunda dev çatlak",
+      "emoji": "🧊"
+     },
+     {
+      "label": "Hızlı akışta sürtünme açar",
+      "emoji": "⚡"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🧊",
+    "⚠️"
+   ],
+   "keywords": [
+    "YARIK ⚠️"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l17",
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Günde 112 metre",
+    "label": "Kutiah Buzulu, 1953: üç ayda 12 km'den fazla",
+    "sub": "NSIDC",
+    "icon": "🏃"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🏃",
+    "🏔️"
+   ],
+   "keywords": [
+    "ANİ ATILIM",
+    "REKOR!",
+    "KOŞAN BUZUL 🏃"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Tatlı su deposu",
+    "label": "Tatlı su",
+    "emoji": "💧",
+    "phases": [
+     {
+      "label": "Buzul ve buz takkeleri: %68,7",
+      "level": 0.687,
+      "emoji": "🧊"
+     },
+     {
+      "label": "Çoğu kutup bölgelerinde",
+      "level": 0.7,
+      "emoji": "🧭"
+     }
+    ],
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10",
+    "f11",
+    "f12"
+   ],
+   "stickers": [
+    "💧",
+    "🧭"
+   ],
+   "keywords": [
+    "%68,7",
+    "ANTARKTİKA"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l22"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Buzullar küçülüyor",
+    "left": {
+     "title": "Son 60–100 yıl",
+     "items": [
+      "Genel olarak geri çekildi"
+     ]
+    },
+    "right": {
+     "title": "Son on yıllar",
+     "items": [
+      "Giderek hızlanan küçülme"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🌡️",
+    "📉"
+   ],
+   "keywords": [
+    "GERİ ÇEKİLME"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: mini buzul",
+    "items": [
+     "Eldiven giy",
+     "Bir avuç kar ya da karlanmış buz al",
+     "Ellerinle iyice sıkıştır",
+     "Sertleşip buza benziyor mu?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🧤",
+    "❄️"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "SIKIŞMA!"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l25"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "%99+",
+    "label": "Antarktika ve Grönland'daki tatlı su buzu payı",
+    "sub": "NSIDC",
+    "icon": "🧊"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🐧",
+    "🧊"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kar ile buzul buzu arasındaki hal?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "❄️",
+    "🧊"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "FİRN ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l29",
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

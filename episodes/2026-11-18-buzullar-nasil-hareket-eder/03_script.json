@@ -1,0 +1,433 @@
+{
+  "paperId": "topic:buzullar-nasil-hareket-eder",
+  "episodeNumber": 43,
+  "videoTitle": "Buzullar nasıl hareket eder?",
+  "paperTitleTr": "Buzullar nasıl hareket eder?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Dağın tepesinde dev bir buz kütlesi var. Hiç kıpırdamıyor gibi görünüyor, ama aslında akıyor! Hem de bir nehir gibi, sadece çok çok yavaş.",
+          "spoken": "Dağın tepesinde dev bir buz kütlesi var. Hiç kıpırdamıyor gibi görünüyor, ama aslında akıyor! Hem de bir nehir gibi, sadece çok çok yavaş.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Buz nasıl akar? Ve bu dev buzlar nereden gelir?",
+          "spoken": "Buz nasıl akar? Ve bu dev buzlar nereden gelir?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün buzulların soğuk ve sessiz yolculuğuna katılıyoruz!",
+          "spoken": "Bugün buzulların soğuk ve sessiz yolculuğuna katılıyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Buzul nasıl oluşur? Nasıl hareket eder? Ve neden önemlidir?",
+          "spoken": "Üç sorumuz var. Buzul nasıl oluşur? Nasıl hareket eder? Ve neden önemlidir?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Ulusal Kar ve Buz Veri Merkezi NSIDC'ye göre buzul, kara üzerinde yavaşça akan bir buz ve kar birikintisidir.",
+          "spoken": "ABD Ulusal Kar ve Buz Veri Merkezi En Es Ay Di Si'ye göre buzul, kara üzerinde yavaşça akan bir buz ve kar birikintisidir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Her şey kar ile başlar. Her yıl yağan yeni kar katmanları, alttaki eski katmanları gömer ve sıkıştırır.",
+          "spoken": "Her şey kar ile başlar. Her yıl yağan yeni kar katmanları, alttaki eski katmanları gömer ve sıkıştırır.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Yaklaşık bir yıl sonra kar, firn denen bir ara hale dönüşür: Artık kar değildir ama henüz buzul buzu da değildir.",
+          "spoken": "Yaklaşık bir yıl sonra kar, firn denen bir ara hale dönüşür: Artık kar değildir ama henüz buzul buzu da değildir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Çoğu buzul için kardan buzul buzuna dönüşmek yüz yıldan uzun sürer!",
+          "spoken": "Çoğu buzul için kardan buzul buzuna dönüşmek yüz yıldan uzun sürer!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Ben yüz yıl beklemeye dayanamam. Pilim çoktan biterdi!",
+          "spoken": "Ben yüz yıl beklemeye dayanamam. Pilim çoktan biterdi!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Buzul buzu çok yoğunlaşıp içindeki kabarcıklardan arınınca mavi görünür. Çünkü buz, kırmızı ışığın küçük bir bölümünü soğurur.",
+          "spoken": "Buzul buzu çok yoğunlaşıp içindeki kabarcıklardan arınınca mavi görünür. Çünkü buz, kırmızı ışığın küçük bir bölümünü soğurur.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Çok yaşlı buzul buzunda buz kristalleri bir yetişkinin yumruğu kadar büyüyebilir!",
+          "spoken": "Çok yaşlı buzul buzunda buz kristalleri bir yetişkinin yumruğu kadar büyüyebilir!",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Peki buzul neden akar? Cevap: Kendi ağırlığı! Kalın bir buz katmanı o kadar ağırdır ki yer çekimi onu dışarıya ve aşağıya doğru akıtır.",
+          "spoken": "Peki buzul neden akar? Cevap: Kendi ağırlığı! Kalın bir buz katmanı o kadar ağırdır ki yer çekimi onu dışarıya ve aşağıya doğru akıtır.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Buzul iki yolla hareket eder. Birincisi, buzun kendi içinde yavaşça şekil değiştirmesidir. Buna iç deformasyon denir.",
+          "spoken": "Buzul iki yolla hareket eder. Birincisi, buzun kendi içinde yavaşça şekil değiştirmesidir. Buna iç deformasyon denir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "İkincisi, tabandaki kayaların ve tortuların üzerinde kaymasıdır. Dik yamaçlardaki ince buzulların hareketinin çoğu bu kaymadan gelebilir.",
+          "spoken": "İkincisi, tabandaki kayaların ve tortuların üzerinde kaymasıdır. Dik yamaçlardaki ince buzulların hareketinin çoğu bu kaymadan gelebilir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Buzulun hızlı aktığı yerlerde sürtünme dev çatlaklar açar. Bunlara yarık denir.",
+          "spoken": "Buzulun hızlı aktığı yerlerde sürtünme dev çatlaklar açar. Bunlara yarık denir.",
+          "factIds": [
+            "f8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l17",
+          "display": "Buzullar genelde yavaştır, ama bazen ani atılımlar yapar ve haftalarca günde birkaç metre ilerler.",
+          "spoken": "Buzullar genelde yavaştır, ama bazen ani atılımlar yapar ve haftalarca günde birkaç metre ilerler.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Rekor, Pakistan'daki Kutiah Buzulu'nda: 1953'te üç ayda 12 kilometreden fazla ilerledi. Günde ortalama yaklaşık 112 metre!",
+          "spoken": "Rekor, Pakistan'daki Kutiah Buzulu'nda: bin dokuz yüz elli üçte üç ayda on iki kilometreden fazla ilerledi. Günde ortalama yaklaşık yüz on iki metre!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Buzul olsam ben de bir gün koşuya çıkardım. Ama sonra yüz yıl dinlenirdim!",
+          "spoken": "Buzul olsam ben de bir gün koşuya çıkardım. Ama sonra yüz yıl dinlenirdim!",
+          "factIds": []
+        },
+        {
+          "id": "l20",
+          "display": "Buzullar dev su depolarıdır. NSIDC'ye göre buzullar ve buz takkeleri dünyadaki tatlı suyun yaklaşık yüzde 68,7'sini depolar.",
+          "spoken": "Buzullar dev su depolarıdır. En Es Ay Di Si'ye göre buzullar ve buz takkeleri dünyadaki tatlı suyun yaklaşık yüzde altmış sekiz virgül yedisini depolar.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Buzulların çoğu Grönland, Kanada Arktiği ve Antarktika gibi kutup bölgelerindedir. Buzul buzunun çoğu ise Antarktika'dadır.",
+          "spoken": "Buzulların çoğu Grönland, Kanada Arktiği ve Antarktika gibi kutup bölgelerindedir. Buzul buzunun çoğu ise Antarktika'dadır.",
+          "factIds": [
+            "f11",
+            "f12"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Ama buzullar küçülüyor. Son 60 ila 100 yılda dünyadaki buzullar genel olarak geri çekildi.",
+          "spoken": "Ama buzullar küçülüyor. Son altmış ila yüz yılda dünyadaki buzullar genel olarak geri çekildi.",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Şimdi sıra sende! Eldivenlerini giy ve bir avuç kar ya da dondurucudaki karlanmış buzdan al.",
+          "spoken": "Şimdi sıra sende! Eldivenlerini giy ve bir avuç kar ya da dondurucudaki karlanmış buzdan al.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Onu ellerinle iyice sıkıştır. Kar topu sertleşip buza benziyor mu? Buzulun ilk adımı da böyle bir sıkışmadır!",
+          "spoken": "Onu ellerinle iyice sıkıştır. Kar topu sertleşip buza benziyor mu? Buzulun ilk adımı da böyle bir sıkışmadır!",
+          "factIds": [
+            "f3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l25",
+          "display": "Bunu biliyor muydun? Dünyada yalnızca iki buz tabakası var: Antarktika ve Grönland. İkisi birlikte Dünya'daki tatlı su buzunun yüzde 99'undan fazlasını içerir!",
+          "spoken": "Bunu biliyor muydun? Dünyada yalnızca iki buz tabakası var: Antarktika ve Grönland. İkisi birlikte Dünya'daki tatlı su buzunun yüzde doksan dokuzundan fazlasını içerir!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Hızlı soru! Kar ile buzul buzu arasındaki ara hale ne denir?",
+          "spoken": "Hızlı soru! Kar ile buzul buzu arasındaki ara hale ne denir?",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Düşün bakalım... Evet: firn!",
+          "spoken": "Düşün bakalım... Evet: firn!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l29",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Abone olmayı ve zili açmayı unutma. Sıcak bir şeyler iç, görüşürüz!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Sıcak bir şeyler iç, görüşürüz!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Buzullar yüzyıllar boyunca sıkışan kardan oluşur; kar önce firne, sonra buza dönüşür",
+    "Kendi ağırlıklarıyla iç deformasyon ve taban kaymasıyla akarlar",
+    "Dünyadaki tatlı suyun büyük kısmını depolarlar ve küçülüyorlar"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "snow",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐧",
+        "every": 32
+      }
+    ]
+  },
+  "song": {
+    "title": "Yavaş Nehir",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🏔️",
+        "name": "Buzul"
+      },
+      {
+        "emoji": "❄️",
+        "name": "Kar"
+      },
+      {
+        "emoji": "🧊",
+        "name": "Buz"
+      },
+      {
+        "emoji": "💧",
+        "name": "Tatlı su"
+      },
+      {
+        "emoji": "🐧",
+        "name": "Penguen"
+      }
+    ],
+    "show": [
+      {
+        "kind": "walk",
+        "emoji": "🐧"
+      },
+      {
+        "kind": "hop",
+        "emoji": "❄️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧊"
+      },
+      {
+        "kind": "walk",
+        "emoji": "🐧"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Kar yağar katman katman",
+          "Sıkışır, firne döner",
+          "Yüzyıllar geçer sessizce",
+          "Mavi buza dönüşür"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Ak, ak, yavaş nehir!",
+          "Ağırlığınla kayar gidersin",
+          "İçinden akar, tabanda kayarsın",
+          "Yarıklar açılır yolunda"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Bazen koşar bir atılımla",
+          "Tatlı suyu saklar içinde",
+          "Antarktika, Grönland ev sahibi",
+          "Son yıllarda hızla küçülür"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Ak, ak, yavaş nehir!",
+          "Ağırlığınla kayar gidersin",
+          "Karı sıkıştır, buzu gör",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Buz nasıl akar? Bu bölümde karın firne ve buzul buzuna dönüşmesini, buzul buzunun neden mavi göründüğünü, buzulların kendi ağırlıklarıyla nasıl hareket ettiğini, yarıkları, rekor kıran Kutiah Buzulu'nun ani atılımını, buzulların tatlı su deposu olmasını ve küçülmelerini keşfediyoruz. Sonunda mini buzul deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Buzul",
+      "meaning": "Kara üzerinde yavaşça akan dev buz ve kar kütlesi."
+    },
+    {
+      "term": "Firn",
+      "meaning": "Kar ile buzul buzu arasındaki ara hal."
+    },
+    {
+      "term": "İç deformasyon",
+      "meaning": "Buzun kendi içinde yavaşça şekil değiştirerek akması."
+    },
+    {
+      "term": "Yarık",
+      "meaning": "Buzul buzunda açılan dev çatlak."
+    },
+    {
+      "term": "Ani atılım",
+      "meaning": "Bir buzulun kısa sürede çok hızlı ilerlemesi."
+    },
+    {
+      "term": "Buz tabakası",
+      "meaning": "Antarktika ve Grönland'ı örten dev buz kütlesi."
+    }
+  ]
+}

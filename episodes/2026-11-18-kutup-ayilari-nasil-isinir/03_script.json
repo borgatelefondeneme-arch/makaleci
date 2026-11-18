@@ -1,0 +1,450 @@
+{
+  "paperId": "topic:kutup-ayilari-nasil-isinir",
+  "episodeNumber": 44,
+  "videoTitle": "Kutup ayıları nasıl ısınır?",
+  "paperTitleTr": "Kutup ayıları nasıl ısınır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Buzlu bir denizde yüzmeyi düşün. Brrr! Bir dakika bile dayanamazsın, değil mi? Ama kutup ayıları buzlu sularda rahatça yüzer!",
+          "spoken": "Buzlu bir denizde yüzmeyi düşün. Brrr! Bir dakika bile dayanamazsın, değil mi? Ama kutup ayıları buzlu sularda rahatça yüzer!",
+          "factIds": [
+            "f1",
+            "f6"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bu dev beyaz ayılar donmuş dünyada nasıl sıcak kalır?",
+          "spoken": "Bu dev beyaz ayılar donmuş dünyada nasıl sıcak kalır?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün Arktik'e, kutup ayılarının evine gidiyoruz!",
+          "spoken": "Bugün Arktik'e, kutup ayılarının evine gidiyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Kutup ayıları nasıl ısınır? Buzda ve suda nasıl hareket eder? Ve ne yerler?",
+          "spoken": "Üç sorumuz var. Kutup ayıları nasıl ısınır? Buzda ve suda nasıl hareket eder? Ve ne yerler?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre kutup ayıları Arktik buz örtülerinde dolaşır ve kıyı sularında yüzer.",
+          "spoken": "Neşınıl Ciyogrefik'e göre kutup ayıları Arktik buz örtülerinde dolaşır ve kıyı sularında yüzer.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Kutup ayısı bir memelidir. Bilimsel adı Ursus maritimus'tur.",
+          "spoken": "Kutup ayısı bir memelidir. Bilimsel adı Ursus maritimus'tur.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Isınmanın ilk sırrı: kalın, yalıtkan bir kürk.",
+          "spoken": "Isınmanın ilk sırrı: kalın, yalıtkan bir kürk.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Yalıtkan demek, ısının kaçmasını zorlaştıran demek. Kürk, vücut ısısını içeride tutan bir mont gibidir.",
+          "spoken": "Yalıtkan demek, ısının kaçmasını zorlaştıran demek. Kürk, vücut ısısını içeride tutan bir mont gibidir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "İkinci sır kürkün altında saklı: kalın bir yağ katmanı. Bu yağ, ayıyı içeriden ısıtan ikinci bir kat gibidir.",
+          "spoken": "İkinci sır kürkün altında saklı: kalın bir yağ katmanı. Bu yağ, ayıyı içeriden ısıtan ikinci bir kat gibidir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim de iki katmanım var: metal kasam ve boyam. Ama ikisi de beni ısıtmıyor!",
+          "spoken": "Benim de iki katmanım var: metal kasam ve boyam. Ama ikisi de beni ısıtmıyor!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Üçüncü sır daha da şaşırtıcı: Kutup ayısının kürkü beyaz ama derisi siyahtır!",
+          "spoken": "Üçüncü sır daha da şaşırtıcı: Kutup ayısının kürkü beyaz ama derisi siyahtır!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "National Geographic'e göre bu siyah deri, güneşin ısıtan ışınlarını daha iyi emer.",
+          "spoken": "Neşınıl Ciyogrefik'e göre bu siyah deri, güneşin ısıtan ışınlarını daha iyi emer.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Peki kürk neden beyaz? Bembeyaz kürk, kar ve buzun arasında kamuflaj sağlar. Ayı çevresine karışır.",
+          "spoken": "Peki kürk neden beyaz? Bembeyaz kürk, kar ve buzun arasında kamuflaj sağlar. Ayı çevresine karışır.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Ben kara karışamam. Gümüş rengim hemen göze batıyor!",
+          "spoken": "Ben kara karışamam. Gümüş rengim hemen göze batıyor!",
+          "factIds": []
+        },
+        {
+          "id": "l16",
+          "display": "Dördüncü sır ayaklarında: Pençelerinin altında bile kürk vardır!",
+          "spoken": "Dördüncü sır ayaklarında: Pençelerinin altında bile kürk vardır!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Bu kürk, ayının ayaklarını soğuk yüzeylere karşı korur ve buzda kaymadan yürümesini sağlar.",
+          "spoken": "Bu kürk, ayının ayaklarını soğuk yüzeylere karşı korur ve buzda kaymadan yürümesini sağlar.",
+          "factIds": [
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "Kutup ayıları çok güçlü yüzücülerdir. Büyük ön pençelerini kürek gibi kullanırlar ve bu pençeler hafifçe perdelidir.",
+          "spoken": "Kutup ayıları çok güçlü yüzücülerdir. Büyük ön pençelerini kürek gibi kullanırlar ve bu pençeler hafifçe perdelidir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Bazı kutup ayıları karadan yüzlerce mil uzakta yüzerken görülmüştür!",
+          "spoken": "Bazı kutup ayıları karadan yüzlerce mil uzakta yüzerken görülmüştür!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Kutup ayıları etçildir ve genellikle fok avlar.",
+          "spoken": "Kutup ayıları etçildir ve genellikle fok avlar.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Fokların nefes almak için yüzeye çıkabildiği, buzun kayıp çatladığı yerlerde beklerler.",
+          "spoken": "Fokların nefes almak için yüzeye çıkabildiği, buzun kayıp çatladığı yerlerde beklerler.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Fırsat bulurlarsa ölü balina gibi leşleri de yerler. Yani yemek seçmezler!",
+          "spoken": "Fırsat bulurlarsa ölü balina gibi leşleri de yerler. Yani yemek seçmezler!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Yavrular kar altındaki sıcak inlerde doğar. Dişiler derin kar yığınlarını kazarak in yapar; bu in onları korur ve yalıtır.",
+          "spoken": "Yavrular kar altındaki sıcak inlerde doğar. Dişiler derin kar yığınlarını kazarak in yapar; bu in onları korur ve yalıtır.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Kışın genellikle ikiz doğururlar.",
+          "spoken": "Kışın genellikle ikiz doğururlar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Şimdi sıra sende! Bir yetişkinle bir kaba buzlu su koy. Elini çok kısa bir süre suya sok ve soğuğu hisset.",
+          "spoken": "Şimdi sıra sende! Bir yetişkinle bir kaba buzlu su koy. Elini çok kısa bir süre suya sok ve soğuğu hisset.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Sonra elini bir poşete koy, poşetin etrafını bitkisel katı yağla dolu başka bir poşetle sar ve tekrar dene. Fark var mı? İşte yağ katmanı! Elini fazla bekletme.",
+          "spoken": "Sonra elini bir poşete koy, poşetin etrafını bitkisel katı yağla dolu başka bir poşetle sar ve tekrar dene. Fark var mı? İşte yağ katmanı! Elini fazla bekletme.",
+          "factIds": [
+            "f2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l27",
+          "display": "Bunu biliyor muydun? National Geographic'e göre kutup ayıları doğada ortalama 25 ile 30 yıl yaşar. Ve IUCN Kırmızı Listesi'nde 'hassas' tür olarak sınıflandırılırlar.",
+          "spoken": "Bunu biliyor muydun? Neşınıl Ciyogrefik'e göre kutup ayıları doğada ortalama yirmi beş ile otuz yıl yaşar. Ve Ay Yu Si En Kırmızı Listesi'nde hassas tür olarak sınıflandırılırlar.",
+          "factIds": [
+            "f10",
+            "f11"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Hızlı soru! Kutup ayısının kürkünün altındaki derisi ne renktir?",
+          "spoken": "Hızlı soru! Kutup ayısının kürkünün altındaki derisi ne renktir?",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Düşün bakalım... Evet: siyah!",
+          "spoken": "Düşün bakalım... Evet: siyah!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l30",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l31",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l33",
+          "display": "Abone olmayı ve zili açmayı unutma. Sıkı giyin, görüşürüz!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Sıkı giyin, görüşürüz!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Kalın, yalıtkan kürk ve altındaki yağ katmanı kutup ayısını sıcak tutar",
+    "Siyah deri güneşi emer, beyaz kürk kamuflaj sağlar, kürklü pençeler buzda tutunur",
+    "Güçlü yüzücülerdir ve genellikle fok avlarlar"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "aurora",
+    "actors": [
+      {
+        "kind": "walk",
+        "emoji": "🐻‍❄️",
+        "every": 32
+      }
+    ]
+  },
+  "song": {
+    "title": "Beyaz Dev",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🐻‍❄️",
+        "name": "Kutup ayısı"
+      },
+      {
+        "emoji": "🧊",
+        "name": "Buz"
+      },
+      {
+        "emoji": "🦭",
+        "name": "Fok"
+      },
+      {
+        "emoji": "🐾",
+        "name": "Pençe"
+      },
+      {
+        "emoji": "❄️",
+        "name": "Kar"
+      }
+    ],
+    "show": [
+      {
+        "kind": "walk",
+        "emoji": "🐻‍❄️"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🦭"
+      },
+      {
+        "kind": "hop",
+        "emoji": "❄️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧊"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Arktik'te esen buz gibi rüzgâr",
+          "Kalın kürk sarar her yanımı",
+          "Altında yağ katmanı var",
+          "Soğuk geçemez içime"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Beyaz dev, buzun kralı!",
+          "Kürkün beyaz, derin siyah",
+          "Güneşi emer, ısınırsın",
+          "Karın içinde kaybolursun"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Pençelerin kürklü, kaymazsın",
+          "Kürek gibi yüzersin denizde",
+          "Buz çatlağında fok beklersin",
+          "Kar ininde ikizler uyur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Beyaz dev, buzun kralı!",
+          "Kürkün beyaz, derin siyah",
+          "Yağ eldivenini dene, hisset",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Kutup ayıları donmuş Arktik'te nasıl sıcak kalır? Bu bölümde kalın ve yalıtkan kürkü, yağ katmanını, beyaz kürkün altındaki siyah deriyi, kürklü pençeleri, usta yüzücülüğü, fok avını ve kar inlerinde doğan yavruları keşfediyoruz. Sonunda yağ eldiveni deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Arktik",
+      "meaning": "Dünya'nın kuzey kutbu çevresindeki soğuk bölge."
+    },
+    {
+      "term": "Yalıtkan",
+      "meaning": "Isının kaçmasını zorlaştıran."
+    },
+    {
+      "term": "Kamuflaj",
+      "meaning": "Bir canlının çevresine uyum sağlayarak gizlenmesi."
+    },
+    {
+      "term": "Etçil",
+      "meaning": "Başka hayvanların etiyle beslenen."
+    },
+    {
+      "term": "Leş",
+      "meaning": "Ölmüş bir hayvanın bedeni."
+    },
+    {
+      "term": "Hassas tür",
+      "meaning": "Nesli tehlike altına girebilecek durumdaki tür."
+    }
+  ]
+}

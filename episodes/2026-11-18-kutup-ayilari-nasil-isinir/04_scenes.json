@@ -1,0 +1,548 @@
+{
+  "paperId": "topic:kutup-ayilari-nasil-isinir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kutup ayıları nasıl ısınır?",
+        "emoji": "🐻‍❄️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f6"
+      ],
+      "stickers": [
+        "🧊",
+        "❄️"
+      ],
+      "keywords": [
+        "BUZLU DENİZ",
+        "NASIL ISINIR?",
+        "ARKTİK"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Kutup ayıları nasıl ısınır?",
+          "Buzda ve suda nasıl hareket eder?",
+          "Ne yerler?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kutup ayısı",
+        "emoji": "🐻‍❄️",
+        "chips": [
+          {
+            "label": "Arktik buzunda dolaşır",
+            "emoji": "🧊"
+          },
+          {
+            "label": "Kıyı sularında yüzer",
+            "emoji": "🌊"
+          },
+          {
+            "label": "Memeli: Ursus maritimus",
+            "emoji": "🔬"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f8"
+      ],
+      "stickers": [
+        "🧊",
+        "🌊"
+      ],
+      "keywords": [
+        "ARKTİK",
+        "MEMELİ"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l8",
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Isı kalkanı",
+        "rows": [
+          {
+            "label": "Kalın, yalıtkan kürk",
+            "emoji": "🧥"
+          },
+          {
+            "label": "Isıyı içeride tutar",
+            "emoji": "🔥"
+          },
+          {
+            "label": "Altında yağ katmanı",
+            "emoji": "🧈"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2"
+      ],
+      "keywords": [
+        "KÜRK",
+        "YALITKAN",
+        "YAĞ KATMANI"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l11"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "İki kat",
+        "label": "Kürk + yağ: ayıyı sıcak tutar",
+        "sub": "National Geographic",
+        "icon": "🧥"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "🤖",
+        "🧥"
+      ],
+      "keywords": [
+        "METAL KASA 🤖"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l12",
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Beyaz kürk, siyah deri",
+        "left": {
+          "title": "Siyah deri ⚫",
+          "items": [
+            "Güneş ışınlarını emer"
+          ]
+        },
+        "right": {
+          "title": "Beyaz kürk ⚪",
+          "items": [
+            "Kar ve buzda kamuflaj"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "☀️",
+        "❄️"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "SİYAH DERİ!",
+        "GÜNEŞİ EMER",
+        "KAMUFLAJ"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16",
+        "l17"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kürklü pençeler",
+        "emoji": "🐾",
+        "chips": [
+          {
+            "label": "Pençe altında kürk",
+            "emoji": "🐾"
+          },
+          {
+            "label": "Soğuğa karşı korur",
+            "emoji": "🥶"
+          },
+          {
+            "label": "Buzda tutunma",
+            "emoji": "⛸️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🐾",
+        "🪩"
+      ],
+      "keywords": [
+        "GÜMÜŞ MUMA 🪩",
+        "KÜRKLÜ PENÇE",
+        "KAYMAZ"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Usta yüzücü",
+        "label": "Yüzme",
+        "emoji": "🏊",
+        "phases": [
+          {
+            "label": "Ön pençeler kürek gibi",
+            "level": 0.7,
+            "emoji": "🚣"
+          },
+          {
+            "label": "Karadan yüzlerce mil uzakta",
+            "level": 0.95,
+            "emoji": "🌊"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🌊",
+        "🚣"
+      ],
+      "keywords": [
+        "PERDELİ PENÇE",
+        "YÜZLERCE MİL"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Kutup ayısının sofrası",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Etçil: fok avlar",
+            "emoji": "🦭"
+          },
+          {
+            "label": "Çatlayan buzda bekler",
+            "emoji": "🧊"
+          },
+          {
+            "label": "Leş de yer",
+            "emoji": "🐋"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "stickers": [
+        "🦭",
+        "🐋"
+      ],
+      "keywords": [
+        "ETÇİL",
+        "FOK AVI",
+        "SEÇMEZ"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Genellikle ikiz",
+        "label": "Kışın kar inlerinde doğan yavrular",
+        "sub": "National Geographic",
+        "icon": "🐻‍❄️"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "❄️",
+        "🏠"
+      ],
+      "keywords": [
+        "KAR İNİ",
+        "İKİZLER"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l25",
+        "l26"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: yağ eldiveni",
+        "items": [
+          "Bir yetişkinle buzlu su hazırla",
+          "Elini kısa süre sok",
+          "Yağ dolu poşetle sarıp tekrar dene",
+          "Elini fazla bekletme!"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2"
+      ],
+      "stickers": [
+        "🧈",
+        "🧊"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "YAĞ KATMANI"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l27"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kutup ayısı bilgi kartı",
+        "emoji": "📋",
+        "chips": [
+          {
+            "label": "Doğada 25–30 yıl yaşar",
+            "emoji": "⏳"
+          },
+          {
+            "label": "IUCN: hassas tür",
+            "emoji": "⚠️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f11"
+      ],
+      "stickers": [
+        "⏳",
+        "⚠️"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l28",
+        "l29"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kutup ayısının derisi ne renk?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "⚫",
+        "🐻‍❄️"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "SİYAH ✅"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l30"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s15",
+      "section": "summary",
+      "lineIds": [
+        "l31",
+        "l32",
+        "l33"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

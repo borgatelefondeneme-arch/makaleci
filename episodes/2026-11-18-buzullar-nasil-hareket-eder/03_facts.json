@@ -1,0 +1,148 @@
+{
+  "paperId": "topic:buzullar-nasil-hareket-eder",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Glaciers",
+      "publisher": "NSIDC",
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers"
+    },
+    {
+      "id": "k2",
+      "title": "Science of Glaciers",
+      "publisher": "NSIDC",
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers"
+    },
+    {
+      "id": "k3",
+      "title": "Glacier Quick Facts",
+      "publisher": "NSIDC",
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers/glacier-quick-facts"
+    },
+    {
+      "id": "k4",
+      "title": "Glacier",
+      "publisher": "National Geographic",
+      "url": "https://education.nationalgeographic.org/resource/glacier/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Buzul, kara üzerinde yavaşça akan bir buz ve kar birikintisidir.",
+      "numbers": [],
+      "quote": "A glacier is an accumulation of ice and snow that slowly flows over land.",
+      "location": "NSIDC — Glaciers"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Buzullar karada oluşur ve yüzyıllar boyunca sıkışarak buza dönüşen yağmış kardan yapılır.",
+      "numbers": [],
+      "quote": "Glaciers form on land, and they are made up of fallen snow that gets compressed into ice over many centuries.",
+      "location": "National Geographic Education — Glacier"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Her yıl yeni kar katmanları öncekileri gömer ve sıkıştırır; yaklaşık bir yıl sonra kar, kar ile buzul buzu arasında bir ara hal olan firne dönüşür; çoğu buzul için bu süreç yüz yıldan uzun sürer.",
+      "numbers": [],
+      "quote": "Each year, new layers of snow bury and compress the previous layers. / After about a year, the snow turns into firn—an intermediate state between snow and glacier ice. / For most glaciers, this process takes more than a hundred years.",
+      "location": "NSIDC — Glaciers"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Çok yaşlı buzul buzunda kristaller bir yetişkin yumruğu büyüklüğüne ulaşabilir.",
+      "numbers": [],
+      "quote": "In very old glacier ice, crystals can reach the size of an adult fist.",
+      "location": "NSIDC — Glacier Quick Facts"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Buzul buzu çok yoğunlaşıp kabarcıklardan arınınca çoğu zaman mavi görünür; buz kırmızı ışığın küçük bir bölümünü soğurur.",
+      "numbers": [],
+      "quote": "Glacial ice often appears blue when it has become very dense and free of bubbles. / Ice absorbs a small amount of red light.",
+      "location": "NSIDC — Glacier Quick Facts"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Buzul kendi ağırlığının basıncıyla dışarıya ve aşağıya doğru akmaya başlar; kalın bir buz katmanının ağırlığı, yani buz kütlesine etki eden yer çekimi buzulları akıtır.",
+      "numbers": [],
+      "quote": "Under the pressure of its own weight, a glacier will begin to move, or flow, outwards and downwards. / The sheer weight of a thick layer of ice, or the force of gravity on the ice mass, causes glaciers to flow.",
+      "location": "NSIDC — Science of Glaciers"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Buzullar buzun iç deformasyonuyla ve tabandaki kayaların ve tortuların üzerinde kayarak hareket eder; dik yamaçlardaki ince, soğuk buzulların hareketinin çoğu bu taban kaymasından gelebilir.",
+      "numbers": [],
+      "quote": "Glaciers move by internal deformation of the ice, and by sliding over the rocks and sediments at the base. / This basal sliding may account for most of the movement of thin, cold glaciers on steep slopes.",
+      "location": "NSIDC — Science of Glaciers"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Yarıklar buzul buzundaki çatlaklardır; buzulun hızlı aktığı yerlerde sürtünme bu dev çatlakları oluşturur.",
+      "numbers": [],
+      "quote": "Crevasse are cracks in glacier ice. / At locations where a glacier flows rapidly, friction creates these giant cracks.",
+      "location": "NSIDC — Science of Glaciers"
+    },
+    {
+      "id": "f9",
+      "kind": "number",
+      "statement": "Buzullar ani atılımlar yaparak haftalarca, hatta aylarca günde birkaç metre ilerleyebilir; en hızlı atılım rekoru Pakistan'daki Kutiah Buzulu'nundur: 1953'te üç ayda 12 kilometreden fazla ilerledi, günde ortalama yaklaşık 112 metre.",
+      "numbers": [
+        "1953",
+        "12",
+        "112"
+      ],
+      "quote": "Glaciers may surge, racing forward several meters per day for weeks or even months. / The Kutiah Glacier in Pakistan holds the record for the fastest glacial surge. / In 1953, it raced more than 12 kilometers (7.5 miles) in three months, averaging about 112 meters (367 feet) per day.",
+      "location": "NSIDC — Science of Glaciers; NSIDC — Glacier Quick Facts"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "ABD Jeoloji Araştırmaları Kurumu'na göre buzullar ve buz takkeleri dünyadaki tatlı suyun yaklaşık yüzde 68,7'sini depolar.",
+      "numbers": [
+        "68.7"
+      ],
+      "quote": "Glaciers and ice caps store about 68.7 percent of the world's fresh water, according to the US Geological Survey.",
+      "location": "NSIDC — Glacier Quick Facts"
+    },
+    {
+      "id": "f11",
+      "kind": "number",
+      "statement": "Dünyada yalnızca iki buz tabakası vardır: Antarktika ve Grönland buz tabakaları; ikisi birlikte Dünya'daki tatlı su buzunun yüzde 99'undan fazlasını içerir; buzul buzunun çoğu Antarktika'dadır.",
+      "numbers": [
+        "99"
+      ],
+      "quote": "Currently, there are only two ice sheets on Earth: the Antarctic and Greenland Ice Sheets. / Together, the Antarctic and Greenland Ice Sheets contain more than 99 percent of the freshwater ice on Earth. / Most of the world’s glacier ice is in Antarctica.",
+      "location": "NSIDC — Glaciers"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Dünyadaki buzulların çoğu Grönland, Kanada Arktiği ve Antarktika gibi kutup bölgelerindedir.",
+      "numbers": [],
+      "quote": "Most of the world’s glaciers exist in the polar regions, in areas like Greenland, the Canadian Arctic, and Antarctica.",
+      "location": "National Geographic Education — Glacier"
+    },
+    {
+      "id": "f13",
+      "kind": "number",
+      "statement": "Son 60 ila 100 yılda dünyadaki buzullar genel olarak geri çekildi; son birkaç on yılda buzullar giderek artan bir hızla küçülüyor, hatta yok oluyor.",
+      "numbers": [
+        "60",
+        "100"
+      ],
+      "quote": "Over the past 60 to 100 years, glaciers worldwide have tended to retreat. / Indeed, glaciers worldwide have been shrinking—and even disappearing—at an accelerated rate for the past several decades.",
+      "location": "NSIDC — Science of Glaciers; National Geographic Education — Glacier"
+    }
+  ]
+}

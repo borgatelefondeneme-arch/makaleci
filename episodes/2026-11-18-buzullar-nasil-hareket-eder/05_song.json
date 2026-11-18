@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Yavaş Nehir",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Kar yağar katman katman",
+          "start": 5.15,
+          "end": 8.77
+        },
+        {
+          "text": "Sıkışır, firne döner",
+          "start": 8.77,
+          "end": 12.38
+        },
+        {
+          "text": "Yüzyıllar geçer sessizce",
+          "start": 12.38,
+          "end": 16.4
+        },
+        {
+          "text": "Mavi buza dönüşür",
+          "start": 16.4,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Ak, ak, yavaş nehir!",
+          "start": 20.17,
+          "end": 22.5
+        },
+        {
+          "text": "Ağırlığınla kayar gidersin",
+          "start": 22.5,
+          "end": 26.01
+        },
+        {
+          "text": "İçinden akar, tabanda kayarsın",
+          "start": 26.01,
+          "end": 29.81
+        },
+        {
+          "text": "Yarıklar açılır yolunda",
+          "start": 29.81,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Bazen koşar bir atılımla",
+          "start": 33.18,
+          "end": 36.81
+        },
+        {
+          "text": "Tatlı suyu saklar içinde",
+          "start": 36.81,
+          "end": 40.44
+        },
+        {
+          "text": "Antarktika, Grönland ev sahibi",
+          "start": 40.44,
+          "end": 44.4
+        },
+        {
+          "text": "Son yıllarda hızla küçülür",
+          "start": 44.4,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Ak, ak, yavaş nehir!",
+          "start": 48.19,
+          "end": 50.83
+        },
+        {
+          "text": "Ağırlığınla kayar gidersin",
+          "start": 50.83,
+          "end": 54.78
+        },
+        {
+          "text": "Karı sıkıştır, buzu gör",
+          "start": 54.78,
+          "end": 58.08
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.08,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

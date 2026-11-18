@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Kalkanım Derim",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Üstte epidermis, yenilenir hep",
+          "start": 5.15,
+          "end": 9.26
+        },
+        {
+          "text": "Hücreler dökülür, yenisi gelir",
+          "start": 9.26,
+          "end": 13.38
+        },
+        {
+          "text": "Melanin verir rengini",
+          "start": 13.38,
+          "end": 16.54
+        },
+        {
+          "text": "Her ten güzel, her renk değerli",
+          "start": 16.54,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Kalkanım derim, beni korur!",
+          "start": 20.17,
+          "end": 23.38
+        },
+        {
+          "text": "Mikroplar dursun kapıda",
+          "start": 23.38,
+          "end": 26.3
+        },
+        {
+          "text": "Sıcakta terlerim, serinlerim",
+          "start": 26.3,
+          "end": 29.81
+        },
+        {
+          "text": "Soğukta ısımı tutarım",
+          "start": 29.81,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Dermiste sinir uçları uyanık",
+          "start": 33.18,
+          "end": 37.2
+        },
+        {
+          "text": "Sıcağı, soğuğu hissederim",
+          "start": 37.2,
+          "end": 40.92
+        },
+        {
+          "text": "Sebum yumuşatır, su geçirmez",
+          "start": 40.92,
+          "end": 44.63
+        },
+        {
+          "text": "Küçük yaralar iyileşir",
+          "start": 44.63,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Kalkanım derim, beni korur!",
+          "start": 48.19,
+          "end": 51.82
+        },
+        {
+          "text": "Mikroplar dursun kapıda",
+          "start": 51.82,
+          "end": 55.11
+        },
+        {
+          "text": "Güneşte kremini sür",
+          "start": 55.11,
+          "end": 58.08
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.08,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

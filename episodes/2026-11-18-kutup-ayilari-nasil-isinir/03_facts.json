@@ -1,0 +1,106 @@
+{
+  "paperId": "topic:kutup-ayilari-nasil-isinir",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Polar Bear",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/polar-bear"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "claim",
+      "statement": "Kutup ayıları Arktik buz örtülerinde dolaşır ve bölgenin kıyı sularında yüzer.",
+      "numbers": [],
+      "quote": "Polar bears roam the Arctic ice sheets and swim in that region's coastal waters.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "Kutup ayıları, ısıtan bir yağ katmanını örten kalın, yalıtkan bir kürke dayanır.",
+      "numbers": [],
+      "quote": "depend on a thick coat of insulated fur, which covers a warming layer of fat.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "Kutup ayılarının kürkünün altında siyah deri vardır; bu deri güneşin ısıtan ışınlarını daha iyi emer.",
+      "numbers": [],
+      "quote": "But under their fur, polar bears have black skin—the better to soak in the sun's warming rays.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "Ayının bembeyaz kürkü, çevredeki kar ve buzda kamuflaj sağlar.",
+      "numbers": [],
+      "quote": "The bear's stark white coat provides camouflage in surrounding snow and ice.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Pençelerinin altında bile kürk büyür; bu, soğuk yüzeylere karşı korur ve buzda iyi tutunma sağlar.",
+      "numbers": [],
+      "quote": "Fur even grows on the bottom of their paws, which protects against cold surfaces and provides a good grip on ice.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Kutup ayıları çok güçlü yüzücülerdir; kürek gibi kullandıkları büyük ön pençeleri hafifçe perdelidir; bazıları karadan yüzlerce mil uzakta yüzerken görülmüştür.",
+      "numbers": [],
+      "quote": "They are very strong swimmers, and their large front paws, which they use to paddle, are slightly webbed. / Some polar bears have been seen swimming hundreds of miles from land",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Bu güçlü avcılar genellikle fokları avlar; fokların nefes almak için yüzeye çıkabildiği, buzun kayıp çatladığı bölgeleri dolaşırlar; fırsat bulunca ölü balina gibi leşleri de yerler; etçildirler.",
+      "numbers": [],
+      "quote": "These powerful predators typically prey on seals. / In search of this quarry they frequent areas of shifting, cracking ice where seals may surface to breathe air. / If the opportunity presents itself, polar bears will also consume carcasses, such as those of dead whales. / Diet: Carnivore",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Kutup ayısının bilimsel adı Ursus maritimus'tur; bir memelidir.",
+      "numbers": [],
+      "quote": "Scientific Name: Ursus maritimus / Type: Mammals",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Dişiler derin kar yığınlarını kazarak in yapar; bu inler onları Arktik koşullarından korur ve yalıtır; kışın genellikle ikiz doğururlar.",
+      "numbers": [],
+      "quote": "Females den by digging into deep snow drifts, which provide protection and insulation from the Arctic elements. / They give birth in winter, usually to twins.",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f10",
+      "kind": "number",
+      "statement": "Kutup ayılarının doğadaki ortalama ömrü 25 ile 30 yıldır.",
+      "numbers": [
+        "25",
+        "30"
+      ],
+      "quote": "Average Life Span In The Wild: 25 to 30 years",
+      "location": "National Geographic — Polar Bear"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Kutup ayısı IUCN Kırmızı Listesi'nde 'hassas' olarak sınıflandırılır.",
+      "numbers": [],
+      "quote": "IUCN Red List Status: Vulnerable",
+      "location": "National Geographic — Polar Bear"
+    }
+  ]
+}
