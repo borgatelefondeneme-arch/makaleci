@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Buzlu Gezgin",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Uzaklarda donmuş bir kartopu",
+          "start": 5.15,
+          "end": 8.79
+        },
+        {
+          "text": "Kuiper'den, Oort'tan yola çıkar",
+          "start": 8.79,
+          "end": 12.74
+        },
+        {
+          "text": "Güneş'e yaklaşır, ısınır",
+          "start": 12.74,
+          "end": 16.07
+        },
+        {
+          "text": "Buzu gaza döner, koma açılır",
+          "start": 16.07,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Parla, buzlu gezgin, parla!",
+          "start": 20.17,
+          "end": 22.96
+        },
+        {
+          "text": "İki kuyruk süzülür ardında",
+          "start": 22.96,
+          "end": 26.32
+        },
+        {
+          "text": "Toz kuyruğu kıvrılır beyaz",
+          "start": 26.32,
+          "end": 29.39
+        },
+        {
+          "text": "İyon kuyruğu Güneş'in tersinde",
+          "start": 29.39,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Halley döner yıllar sonra",
+          "start": 33.18,
+          "end": 36.48
+        },
+        {
+          "text": "Döküntüsü meteor olur",
+          "start": 36.48,
+          "end": 40.11
+        },
+        {
+          "text": "Mayıs'ta, Ekim'de kayar gökten",
+          "start": 40.11,
+          "end": 44.07
+        },
+        {
+          "text": "Rosetta indi, yakından baktı",
+          "start": 44.07,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Parla, buzlu gezgin, parla!",
+          "start": 48.19,
+          "end": 51.18
+        },
+        {
+          "text": "İki kuyruk süzülür ardında",
+          "start": 51.18,
+          "end": 54.77
+        },
+        {
+          "text": "Karanlıkta uzan, meteor say",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
