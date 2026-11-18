@@ -1,0 +1,509 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Tsunami nasıl oluşur?",
+    "emoji": "🌊"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "stickers": [
+    "🚢",
+    "🌊"
+   ],
+   "keywords": [
+    "SESSİZ YOLCU",
+    "TSUNAMİ",
+    "KORUNMA"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Tsunami neden oluşur?",
+     "Kıyıda neden büyür?",
+     "Tehlikede ne yapmalı?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Tsunaminin doğuşu",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Deniz tabanında deprem",
+      "emoji": "💥"
+     },
+     {
+      "label": "Su aniden yerinden oynar",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Uzun dalgalar dizisi",
+      "emoji": "〰️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f3"
+   ],
+   "fx": "shake",
+   "stickers": [
+    "💥",
+    "🌋"
+   ],
+   "keywords": [
+    "YER DEĞİŞTİREN SU",
+    "DEPREM",
+    "HEYELAN • VOLKAN"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "%80+",
+    "label": "1900'den bu yana depremle oluşan olası tsunamiler",
+    "sub": "NOAA",
+    "icon": "📊"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "📊",
+    "🌀"
+   ],
+   "keywords": [
+    "DEPREMLER",
+    "FAN SARSINTISI 🌀"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l11",
+    "l12"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Sıradan dalga ve tsunami",
+    "left": {
+     "title": "Sıradan dalga 🏄",
+     "items": [
+      "Sadece yüzeyde"
+     ]
+    },
+    "right": {
+     "title": "Tsunami 🌊",
+     "items": [
+      "Tabandan yüzeye bütün su",
+      "Jet uçağı kadar hızlı"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f5"
+   ],
+   "stickers": [
+    "🏄",
+    "✈️"
+   ],
+   "keywords": [
+    "SU SÜTUNU",
+    "JET HIZI ✈️"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l13",
+    "l14",
+    "l15"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kıyıya yaklaşırken",
+    "rows": [
+     {
+      "label": "Derin su: hızlı ve alçak",
+      "emoji": "🌊"
+     },
+     {
+      "label": "Sığ suya girer: yavaşlar",
+      "emoji": "🐢"
+     },
+     {
+      "label": "Dalga boyu kısalır",
+      "emoji": "↔️"
+     },
+     {
+      "label": "Yükseklik artar",
+      "emoji": "⬆️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 3,
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f7"
+   ],
+   "keywords": [
+    "ALÇAK DALGA",
+    "SIĞ SU",
+    "YÜKSELİR!"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "importance",
+   "lineIds": [
+    "l16",
+    "l17",
+    "l18"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Doğanın uyarıları",
+    "items": [
+     "Güçlü ya da uzun deprem",
+     "Okyanustan yüksek uğultu",
+     "Denizin aniden çekilmesi ya da yükselmesi"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "⚠️",
+    "👂"
+   ],
+   "keywords": [
+    "DEPREM",
+    "UĞULTU",
+    "DENİZ ÇEKİLİR"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Ne yapmalı?",
+    "emoji": "⛰️",
+    "chips": [
+     {
+      "label": "Hemen yüksek yere git",
+      "emoji": "⬆️"
+     },
+     {
+      "label": "İç kesimlere uzaklaş",
+      "emoji": "🏃"
+     },
+     {
+      "label": "Yetkililer güvenli diyene kadar dönme",
+      "emoji": "🛑"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "⛰️",
+    "🏃"
+   ],
+   "keywords": [
+    "YÜKSEĞE ÇIK!",
+    "İLK DALGA SON DEĞİL"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "DART şamandırası",
+    "label": "Deniz seviyesi",
+    "emoji": "🛟",
+    "phases": [
+     {
+      "label": "Küçük değişiklikleri algılar",
+      "level": 0.55,
+      "emoji": "📡"
+     },
+     {
+      "label": "Uyarı merkezine iletir",
+      "level": 0.8,
+      "emoji": "🏢"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "📡",
+    "🔌"
+   ],
+   "keywords": [
+    "DART",
+    "NÖBETÇİ MUMA 🔌"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l23",
+    "l24"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: tepsi dalgası",
+    "items": [
+     "Bir yetişkinle tepsiye su koy",
+     "Bir uca kitapla yokuş yap",
+     "Diğer ucu kaldırıp bırak",
+     "Dalga yokuşta nasıl değişiyor?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🫗",
+    "📚"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "KIYIDA DEĞİŞİR"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "limitations",
+   "lineIds": [
+    "l25"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "2004",
+    "label": "Hint Okyanusu tsunamisi 17 ülkeyi etkiledi",
+    "sub": "NOAA",
+    "icon": "🌏"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🌏",
+    "📡"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l26",
+    "l27"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Deniz aniden çekilirse ne yapmalı?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8",
+    "f9"
+   ],
+   "stickers": [
+    "⛰️",
+    "🌊"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "YÜKSEĞE ÇIK ✅"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l28"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s14",
+   "section": "summary",
+   "lineIds": [
+    "l29",
+    "l30",
+    "l31"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ]
+  }
+ ]
+}

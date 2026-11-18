@@ -1,0 +1,445 @@
+{
+  "paperId": "topic:gunes-nasil-parlar",
+  "episodeNumber": 45,
+  "videoTitle": "Güneş nasıl parlar?",
+  "paperTitleTr": "Güneş nasıl parlar?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Sabah perdeyi açtığında yüzüne vuran o ışık, aslında yaklaşık 8 dakika 20 saniye önce Güneş'ten yola çıktı!",
+          "spoken": "Sabah perdeyi açtığında yüzüne vuran o ışık, aslında yaklaşık sekiz dakika yirmi saniye önce Güneş'ten yola çıktı!",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki Güneş bu ışığı nasıl üretiyor? İçinde ateş mi yanıyor?",
+          "spoken": "Peki Güneş bu ışığı nasıl üretiyor? İçinde ateş mi yanıyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün en yakın yıldızımızın kalbine yolculuk ediyoruz!",
+          "spoken": "Bugün en yakın yıldızımızın kalbine yolculuk ediyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Güneş neyden yapılmıştır? Işığını nasıl üretir? Ve içinde hangi katmanlar vardır?",
+          "spoken": "Üç sorumuz var. Güneş neyden yapılmıştır? Işığını nasıl üretir? Ve içinde hangi katmanlar vardır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "NASA'ya göre yıldız, sıcak ve parlayan bir gaz topudur. Güneş de bir yıldızdır.",
+          "spoken": "Nasa'ya göre yıldız, sıcak ve parlayan bir gaz topudur. Güneş de bir yıldızdır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Güneş, kendi kütle çekimiyle bir arada duran dev bir hidrojen ve helyum topudur.",
+          "spoken": "Güneş, kendi kütle çekimiyle bir arada duran dev bir hidrojen ve helyum topudur.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Güneş'te sıradan bir ateş yanmaz. Işığın sırrı çekirdekte saklı: nükleer kaynaşma, yani füzyon!",
+          "spoken": "Güneş'te sıradan bir ateş yanmaz. Işığın sırrı çekirdekte saklı: nükleer kaynaşma, yani füzyon!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Çekirdekte hidrojen atomları öyle büyük bir kuvvetle çarpışır ki kaynaşıp yeni bir elemente, helyuma dönüşür.",
+          "spoken": "Çekirdekte hidrojen atomları öyle büyük bir kuvvetle çarpışır ki kaynaşıp yeni bir elemente, helyuma dönüşür.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Bu kaynaşma, Güneş'in ısısına ve ışığına güç verir. Çekirdekte sıcaklık yaklaşık 15 milyon santigrat derecedir!",
+          "spoken": "Bu kaynaşma, Güneş'in ısısına ve ışığına güç verir. Çekirdekte sıcaklık yaklaşık on beş milyon santigrat derecedir!",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Benim içimde de enerji var ama füzyon değil, sadece bir pil. Neyse ki ben de parlıyorum, en azından anten yıldızım!",
+          "spoken": "Benim içimde de enerji var ama füzyon değil, sadece bir pil. Neyse ki ben de parlıyorum, en azından anten yıldızım!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Güneş'in içi katmanlıdır: çekirdek, ışınım bölgesi ve konveksiyon bölgesi.",
+          "spoken": "Güneş'in içi katmanlıdır: çekirdek, ışınım bölgesi ve konveksiyon bölgesi.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Enerjinin çekirdekten konveksiyon bölgesinin tepesine ulaşması yaklaşık 170.000 yıl sürer!",
+          "spoken": "Enerjinin çekirdekten konveksiyon bölgesinin tepesine ulaşması yaklaşık yüz yetmiş bin yıl sürer!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Konveksiyon bölgesinde dev sıcak plazma kabarcıkları, kaynayan bir tencere gibi yukarı doğru yükselir.",
+          "spoken": "Konveksiyon bölgesinde dev sıcak plazma kabarcıkları, kaynayan bir tencere gibi yukarı doğru yükselir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Güneş'in yüzeyi dediğimiz bölüme fotosfer denir. Sıcaklığı yaklaşık 5.500 santigrat derecedir.",
+          "spoken": "Güneş'in yüzeyi dediğimiz bölüme fotosfer denir. Sıcaklığı yaklaşık beş bin beş yüz santigrat derecedir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Yüzeyin üstünde ince kromosfer ve dev korona vardır. İşin garibi, korona 2 milyon santigrat dereceye ulaşır; yani yüzeyden çok daha sıcaktır!",
+          "spoken": "Yüzeyin üstünde ince kromosfer ve dev korona vardır. İşin garibi, korona iki milyon santigrat dereceye ulaşır; yani yüzeyden çok daha sıcaktır!",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Koronadan ses üstü hızlarla kaçan maddeye güneş rüzgârı denir.",
+          "spoken": "Koronadan ses üstü hızlarla kaçan maddeye güneş rüzgârı denir.",
+          "factIds": [
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "Güneş'in yüzeyinde bazen daha karanlık lekeler görülür. Bunlar, manyetik alan çizgilerinin yoğunlaştığı daha serin bölgelerdir.",
+          "spoken": "Güneş'in yüzeyinde bazen daha karanlık lekeler görülür. Bunlar, manyetik alan çizgilerinin yoğunlaştığı daha serin bölgelerdir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Güneş lekelerinin sayısı, Güneş'in doğal 11 yıllık döngüsüyle artıp azalır.",
+          "spoken": "Güneş lekelerinin sayısı, Güneş'in doğal on bir yıllık döngüsüyle artıp azalır.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Güneş patlamaları ve koronal kütle atımları ise Dünya'ya ulaşabilen dev enerji ve parçacık patlamalarıdır.",
+          "spoken": "Güneş patlamaları ve koronal kütle atımları ise Dünya'ya ulaşabilen dev enerji ve parçacık patlamalarıdır.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Güneş, Dünya'dan yaklaşık 100 kat daha geniştir. Yine de evrende ortalama büyüklükte bir yıldızdır!",
+          "spoken": "Güneş, Dünya'dan yaklaşık yüz kat daha geniştir. Yine de evrende ortalama büyüklükte bir yıldızdır!",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Güneş yaklaşık 4,6 milyar yıl önce oluştu. Ömrünün yarısını henüz doldurmadı ve yaklaşık 5 milyar yıl daha parlayacak.",
+          "spoken": "Güneş yaklaşık dört virgül altı milyar yıl önce oluştu. Ömrünün yarısını henüz doldurmadı ve yaklaşık beş milyar yıl daha parlayacak.",
+          "factIds": [
+            "f14"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Beş milyar yıl mı? Benim garantim sadece iki yıl!",
+          "spoken": "Beş milyar yıl mı? Benim garantim sadece iki yıl!",
+          "factIds": []
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi sıra sende! İki beyaz karton al. Birine iğneyle küçük bir delik aç.",
+          "spoken": "Şimdi sıra sende! İki beyaz karton al. Birine iğneyle küçük bir delik aç.",
+          "factIds": [
+            "f15"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Güneşe sırtını dön, delikli kartonu tut ve ışığı diğer kartona düşür. Küçük bir Güneş görüntüsü göreceksin. Ama Güneş'e asla doğrudan bakma!",
+          "spoken": "Güneşe sırtını dön, delikli kartonu tut ve ışığı diğer kartona düşür. Küçük bir Güneş görüntüsü göreceksin. Ama Güneş'e asla doğrudan bakma!",
+          "factIds": [
+            "f15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Bunu biliyor muydun? NASA'ya göre Güneş, en büyük gezegen Jüpiter'den bile yaklaşık 10 kat daha geniştir!",
+          "spoken": "Bunu biliyor muydun? Nasa'ya göre Güneş, en büyük gezegen Jüpiter'den bile yaklaşık on kat daha geniştir!",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Hızlı soru! Güneş'in çekirdeğinde hidrojen hangi elemente dönüşür?",
+          "spoken": "Hızlı soru! Güneş'in çekirdeğinde hidrojen hangi elemente dönüşür?",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Düşün bakalım... Evet: helyum!",
+          "spoken": "Düşün bakalım... Evet: helyum!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Abone olmayı ve zili açmayı unutma. Güneşli günler dilerim!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Güneşli günler dilerim!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Güneş, hidrojen ve helyumdan oluşan bir yıldızdır",
+    "Çekirdekte hidrojen kaynaşıp helyuma dönüşür; bu füzyon ısıyı ve ışığı üretir",
+    "Güneş'in katmanları, lekeleri ve koronası vardır; ışığı bize yaklaşık 8 dakika 20 saniyede ulaşır"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "space",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🛰️",
+        "every": 34
+      }
+    ]
+  },
+  "song": {
+    "title": "Yıldızımız",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "⚪",
+        "name": "Hidrojen"
+      },
+      {
+        "emoji": "💥",
+        "name": "Füzyon"
+      },
+      {
+        "emoji": "👑",
+        "name": "Korona"
+      },
+      {
+        "emoji": "⚫",
+        "name": "Leke"
+      }
+    ],
+    "show": [
+      {
+        "kind": "orbit",
+        "emoji": "🌍"
+      },
+      {
+        "kind": "hop",
+        "emoji": "☀️"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🛰️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "⭐"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Çekirdekte çarpışır hidrojen",
+          "Kaynaşır, helyum olur",
+          "Füzyon yakar ışığını",
+          "Isı yayılır her yöne"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, parla, yıldızımız!",
+          "Işığın sekiz dakikada gelir",
+          "Hidrojen, helyum, dev bir top",
+          "Sabahları uyandırırsın bizi"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Plazma kaynar, yükselir",
+          "Fotosfer parlar yüzeyde",
+          "Korona yakar daha da çok",
+          "Lekeler gelir, lekeler gider"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, parla, yıldızımız!",
+          "Işığın sekiz dakikada gelir",
+          "Kartonu del, görüntüyü yakala",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Güneş nasıl parlar? Bu bölümde Güneş'in bir yıldız olduğunu, çekirdekteki nükleer füzyonu, çekirdek, ışınım ve konveksiyon bölgelerini, fotosferi, kromosferi ve koronayı, güneş rüzgârını, güneş lekelerini ve Güneş'in büyüklüğünü ve yaşını keşfediyoruz. Sonunda güvenli bir iğne deliği gözlemi ve konuyu özetleyen bir şarkı var. Güneş'e asla doğrudan bakmayın.",
+  "glossary": [
+    {
+      "term": "Yıldız",
+      "meaning": "Sıcak, parlayan dev bir gaz topu."
+    },
+    {
+      "term": "Füzyon",
+      "meaning": "Atomların kaynaşarak yeni bir element oluşturması ve enerji açığa çıkarması."
+    },
+    {
+      "term": "Çekirdek",
+      "meaning": "Güneş'in füzyonun gerçekleştiği en iç bölgesi."
+    },
+    {
+      "term": "Fotosfer",
+      "meaning": "Güneş'in yüzeyi denen, ışık saçan katmanı."
+    },
+    {
+      "term": "Korona",
+      "meaning": "Güneş'in yüzeyinin üstündeki çok sıcak dış katman."
+    },
+    {
+      "term": "Güneş lekesi",
+      "meaning": "Güneş yüzeyindeki daha serin, karanlık bölge."
+    },
+    {
+      "term": "Plazma",
+      "meaning": "Atomları elektrik yükü kazanmış çok sıcak gaz."
+    }
+  ]
+}

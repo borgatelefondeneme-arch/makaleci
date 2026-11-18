@@ -1,0 +1,516 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Güneş nasıl parlar?",
+    "emoji": "☀️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f12"
+   ],
+   "stickers": [
+    "🌅",
+    "✨"
+   ],
+   "keywords": [
+    "8 DAKİKA 20 SANİYE",
+    "ATEŞ Mİ?",
+    "YILDIZIN KALBİ"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Güneş neyden yapılmıştır?",
+     "Işığını nasıl üretir?",
+     "İçinde hangi katmanlar var?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Güneş bir yıldız",
+    "emoji": "☀️",
+    "chips": [
+     {
+      "label": "Sıcak, parlayan gaz topu",
+      "emoji": "🔥"
+     },
+     {
+      "label": "Hidrojen ve helyum",
+      "emoji": "🎈"
+     },
+     {
+      "label": "Kütle çekimiyle bir arada",
+      "emoji": "🧲"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "⭐",
+    "🎈"
+   ],
+   "keywords": [
+    "YILDIZ",
+    "HİDROJEN + HELYUM"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Füzyon",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Hidrojen atomları",
+      "emoji": "⚪"
+     },
+     {
+      "label": "Büyük kuvvetle çarpışır",
+      "emoji": "💥"
+     },
+     {
+      "label": "Helyum + ısı ve ışık",
+      "emoji": "☀️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "💥",
+    "🔋"
+   ],
+   "keywords": [
+    "FÜZYON",
+    "KAYNAŞMA"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "method",
+   "lineIds": [
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "15 milyon °C",
+    "label": "Güneş'in çekirdeğindeki sıcaklık (yaklaşık)",
+    "sub": "NASA",
+    "icon": "🔥"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "🔋",
+    "⭐"
+   ],
+   "keywords": [
+    "15 MİLYON °C",
+    "PİLLİ MUMA 🔋"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Güneş'in içi",
+    "rows": [
+     {
+      "label": "Çekirdek",
+      "emoji": "🔴"
+     },
+     {
+      "label": "Işınım bölgesi",
+      "emoji": "🟠"
+     },
+     {
+      "label": "Konveksiyon bölgesi",
+      "emoji": "🟡"
+     },
+     {
+      "label": "Fotosfer: yüzey",
+      "emoji": "☀️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "keywords": [
+    "KATMANLAR",
+    "170.000 YIL",
+    "PLAZMA KABARCIKLARI"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16",
+    "l17"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Yüzey ve korona",
+    "left": {
+     "title": "Fotosfer ☀️",
+     "items": [
+      "Güneş'in yüzeyi",
+      "Yaklaşık 5.500 °C"
+     ]
+    },
+    "right": {
+     "title": "Korona 👑",
+     "items": [
+      "Yüzeyin üstünde",
+      "2 milyon °C'ye kadar",
+      "Güneş rüzgârı buradan kaçar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8",
+    "f9"
+   ],
+   "stickers": [
+    "🌡️",
+    "👑"
+   ],
+   "keywords": [
+    "FOTOSFER",
+    "KORONA 🔥",
+    "GÜNEŞ RÜZGÂRI"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l18",
+    "l19",
+    "l20"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Güneş lekeleri",
+    "label": "Leke sayısı",
+    "emoji": "⚫",
+    "phases": [
+     {
+      "label": "Daha serin, manyetik bölgeler",
+      "level": 0.4,
+      "emoji": "🧲"
+     },
+     {
+      "label": "11 yıllık döngüyle artar, azalır",
+      "level": 0.8,
+      "emoji": "🔄"
+     },
+     {
+      "label": "Patlamalar Dünya'ya ulaşabilir",
+      "level": 0.6,
+      "emoji": "💥"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10",
+    "f11"
+   ],
+   "stickers": [
+    "⚫",
+    "💥"
+   ],
+   "keywords": [
+    "GÜNEŞ LEKESİ",
+    "11 YIL",
+    "PATLAMALAR"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "100 kat",
+    "label": "Güneş, Dünya'dan bu kadar geniş (yaklaşık)",
+    "sub": "NASA",
+    "icon": "🌍"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13",
+    "f14"
+   ],
+   "stickers": [
+    "🌍",
+    "🛡️"
+   ],
+   "keywords": [
+    "100 KAT",
+    "4,6 MİLYAR YIL",
+    "GARANTİ? 😅"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: iğne deliği",
+    "items": [
+     "İki beyaz karton al",
+     "Birine iğneyle delik aç",
+     "Güneşe sırtını dön, ışığı düşür",
+     "Güneş'e asla doğrudan bakma!"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f15"
+   ],
+   "stickers": [
+    "📄",
+    "📌"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "GÜNEŞE BAKMA ⚠️"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "limitations",
+   "lineIds": [
+    "l26"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "10 kat",
+    "label": "Güneş, Jüpiter'den bu kadar geniş (yaklaşık)",
+    "sub": "NASA",
+    "icon": "🪐"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f13"
+   ],
+   "stickers": [
+    "🪐",
+    "☀️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Hidrojen hangi elemente dönüşür?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "⚪",
+    "☀️"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "HELYUM ✅"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s14",
+   "section": "summary",
+   "lineIds": [
+    "l30",
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

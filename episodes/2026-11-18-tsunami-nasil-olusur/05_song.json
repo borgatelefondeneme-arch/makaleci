@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Yüksek Yere",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Deniz tabanında bir sarsıntı",
+          "start": 5.15,
+          "end": 9.12
+        },
+        {
+          "text": "Su yerinden oynar aniden",
+          "start": 9.12,
+          "end": 12.75
+        },
+        {
+          "text": "Uzun dalgalar yola çıkar",
+          "start": 12.75,
+          "end": 16.38
+        },
+        {
+          "text": "Tabandan yüzeye bütün su",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Yüksek yere, yüksek yere!",
+          "start": 20.17,
+          "end": 23.09
+        },
+        {
+          "text": "Deniz çekilirse hiç bekleme",
+          "start": 23.09,
+          "end": 26.6
+        },
+        {
+          "text": "Uğultuyu duy, depremi hisset",
+          "start": 26.6,
+          "end": 30.1
+        },
+        {
+          "text": "Tepeye koş, güvende kal",
+          "start": 30.1,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Derinde hızlı ve alçak",
+          "start": 33.18,
+          "end": 36.71
+        },
+        {
+          "text": "Sığda yavaşlar, yükselir",
+          "start": 36.71,
+          "end": 40.25
+        },
+        {
+          "text": "Şamandıralar nöbet tutar",
+          "start": 40.25,
+          "end": 44.15
+        },
+        {
+          "text": "İlk dalga son değil, unutma",
+          "start": 44.15,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Yüksek yere, yüksek yere!",
+          "start": 48.19,
+          "end": 51.18
+        },
+        {
+          "text": "Deniz çekilirse hiç bekleme",
+          "start": 51.18,
+          "end": 54.77
+        },
+        {
+          "text": "Tepsiyle dene, dalgayı izle",
+          "start": 54.77,
+          "end": 58.36
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.36,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

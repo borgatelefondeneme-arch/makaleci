@@ -1,5 +1,5 @@
 {
-  "lastEpisodeNumber": 44,
+  "lastEpisodeNumber": 48,
   "episodes": {
     "topic:gokyuzu-neden-mavi": {
       "id": "2026-11-10-gokyuzu-neden-mavi",
@@ -176,6 +176,22 @@
     "topic:kutup-ayilari-nasil-isinir": {
       "id": "2026-11-18-kutup-ayilari-nasil-isinir",
       "episodeNumber": 44
+    },
+    "topic:gunes-nasil-parlar": {
+      "id": "2026-11-18-gunes-nasil-parlar",
+      "episodeNumber": 45
+    },
+    "topic:tsunami-nasil-olusur": {
+      "id": "2026-11-18-tsunami-nasil-olusur",
+      "episodeNumber": 46
+    },
+    "topic:bobreklerimiz-ne-ise-yarar": {
+      "id": "2026-11-18-bobreklerimiz-ne-ise-yarar",
+      "episodeNumber": 47
+    },
+    "topic:col-hayvanlari-nasil-hayatta-kalir": {
+      "id": "2026-11-18-col-hayvanlari-nasil-hayatta-kalir",
+      "episodeNumber": 48
     }
   }
 }

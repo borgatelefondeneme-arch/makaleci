@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Yıldızımız",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Çekirdekte çarpışır hidrojen",
+          "start": 5.15,
+          "end": 9.5
+        },
+        {
+          "text": "Kaynaşır, helyum olur",
+          "start": 9.5,
+          "end": 12.77
+        },
+        {
+          "text": "Füzyon yakar ışığını",
+          "start": 12.77,
+          "end": 16.39
+        },
+        {
+          "text": "Isı yayılır her yöne",
+          "start": 16.39,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Parla, parla, yıldızımız!",
+          "start": 20.17,
+          "end": 22.96
+        },
+        {
+          "text": "Işığın sekiz dakikada gelir",
+          "start": 22.96,
+          "end": 26.6
+        },
+        {
+          "text": "Hidrojen, helyum, dev bir top",
+          "start": 26.6,
+          "end": 29.39
+        },
+        {
+          "text": "Sabahları uyandırırsın bizi",
+          "start": 29.39,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Plazma kaynar, yükselir",
+          "start": 33.18,
+          "end": 36.36
+        },
+        {
+          "text": "Fotosfer parlar yüzeyde",
+          "start": 36.36,
+          "end": 39.9
+        },
+        {
+          "text": "Korona yakar daha da çok",
+          "start": 39.9,
+          "end": 43.79
+        },
+        {
+          "text": "Lekeler gelir, lekeler gider",
+          "start": 43.79,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Parla, parla, yıldızımız!",
+          "start": 48.19,
+          "end": 51.05
+        },
+        {
+          "text": "Işığın sekiz dakikada gelir",
+          "start": 51.05,
+          "end": 54.76
+        },
+        {
+          "text": "Kartonu del, görüntüyü yakala",
+          "start": 54.76,
+          "end": 58.48
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.48,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+ "paperId": "topic:bobreklerimiz-ne-ise-yarar",
+ "episodeNumber": 47,
+ "videoTitle": "Böbreklerimiz ne işe yarar?",
+ "paperTitleTr": "Böbreklerimiz ne işe yarar?",
+ "theme": {
+  "backdrop": "gut",
+  "actors": [
+   {
+    "kind": "swim",
+    "emoji": "💧",
+    "every": 32
+   }
+  ]
+ },
+ "takeaways": [
+  "Böbrekler omurganın iki yanında, yumruk büyüklüğünde iki organdır",
+  "Her böbrekteki yaklaşık bir milyon nefron kanı süzer; atıklar ve fazla su idrar olur",
+  "Böbrekler su ve tuz dengesini, kan basıncını korur ve hormon yapar"
+ ],
+ "description": "Böbreklerimiz ne işe yarar? Bu bölümde böbreklerin yerini ve biçimini, kanı süzen nefronları, idrarın nasıl oluşup üreterlerden mesaneye ve üretraya gittiğini, böbreklerin su, tuz ve kan basıncı dengesindeki görevini ve yaptıkları hormonları keşfediyoruz. Sonunda su sayacı etkinliği ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "Böbrek",
+   "meaning": "Kanı süzüp idrar yapan, fasulye biçimli organ."
+  },
+  {
+   "term": "Nefron",
+   "meaning": "Böbrekteki minik süzme birimi."
+  },
+  {
+   "term": "İdrar",
+   "meaning": "Böbreklerin atıklardan ve fazla sudan yaptığı sıvı."
+  },
+  {
+   "term": "Üreter",
+   "meaning": "İdrarı böbrekten mesaneye taşıyan ince boru."
+  },
+  {
+   "term": "Mesane",
+   "meaning": "İdrarı biriktiren kese."
+  },
+  {
+   "term": "Üretra",
+   "meaning": "İdrarı mesaneden vücut dışına taşıyan boru."
+  },
+  {
+   "term": "Hormon",
+   "meaning": "Vücutta mesaj taşıyan kimyasal haberci."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "swim",
+    "emoji": "💧"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🫘"
+   },
+   {
+    "kind": "hop",
+    "emoji": "🔬"
+   },
+   {
+    "kind": "swim",
+    "emoji": "🩸"
+   }
+  ],
+  "title": "Minik Süzgeçler",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "🫘",
+    "name": "Böbrek"
+   },
+   {
+    "emoji": "🔬",
+    "name": "Nefron"
+   },
+   {
+    "emoji": "🩸",
+    "name": "Kan"
+   },
+   {
+    "emoji": "💧",
+    "name": "Su"
+   },
+   {
+    "emoji": "⚖️",
+    "name": "Denge"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "İki fasulye belimin üstünde",
+     "Gece gündüz çalışır durmadan",
+     "Bir milyon nefron her birinde",
+     "Kanı süzer, temizler"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Süz, süz, minik süzgeç!",
+     "Atıklar dışarı, kan tertemiz",
+     "Su, tuz, mineral dengede",
+     "Böbreklerim iş başında"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Üreterden mesaneye",
+     "Oradan da üretraya",
+     "Hormon yapar, kemik güçlenir",
+     "Kırmızı hücreler çoğalır"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Süz, süz, minik süzgeç!",
+     "Atıklar dışarı, kan tertemiz",
+     "Bir bardak su iç, işaretle",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Vücudunda gece gündüz çalışan iki minik temizlik fabrikası var. Sen uyurken bile durmuyorlar!",
+     "spoken": "Vücudunda gece gündüz çalışan iki minik temizlik fabrikası var. Sen uyurken bile durmuyorlar!",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Bu fabrikalar kanını temizliyor. Adları: böbrekler!",
+     "spoken": "Bu fabrikalar kanını temizliyor. Adları: böbrekler!",
+     "factIds": []
+    },
+    {
+     "id": "l3",
+     "display": "Bugün böbreklerin içindeki minik süzgeçlere bakıyoruz!",
+     "spoken": "Bugün böbreklerin içindeki minik süzgeçlere bakıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Böbrekler nerededir? Kanı nasıl süzer? Ve başka hangi işleri yapar?",
+     "spoken": "Üç sorumuz var. Böbrekler nerededir? Kanı nasıl süzer? Ve başka hangi işleri yapar?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "NIDDK'ye göre böbrekler, her biri yaklaşık bir yumruk büyüklüğünde, fasulye biçimli iki organdır.",
+     "spoken": "En Ay Di Di Key'ye göre böbrekler, her biri yaklaşık bir yumruk büyüklüğünde, fasulye biçimli iki organdır.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Kaburgalarının hemen altında, omurganın iki yanında birer tane bulunur. Elini belinin biraz yukarısına, arkana koy: işte oradalar! Gıdıklanmak serbest!",
+     "spoken": "Kaburgalarının hemen altında, omurganın iki yanında birer tane bulunur. Elini belinin biraz yukarısına, arkana koy: işte oradalar! Gıdıklanmak serbest!",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l8",
+     "display": "İnsanların genellikle iki böbreği vardır, ama tek böbrekle de sağlıklı bir yaşam sürülebilir.",
+     "spoken": "İnsanların genellikle iki böbreği vardır, ama tek böbrekle de sağlıklı bir yaşam sürülebilir.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "Benim böbreğim yok. Benim filtrem sadece toz tutuyor, o da haftada bir tıkanıyor!",
+     "spoken": "Benim böbreğim yok. Benim filtrem sadece toz tutuyor, o da haftada bir tıkanıyor!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l10",
+     "display": "Her böbrekte nefron denen yaklaşık bir milyon minik süzme birimi vardır.",
+     "spoken": "Her böbrekte nefron denen yaklaşık bir milyon minik süzme birimi vardır.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "Nefronlar, zararlı maddeleri kandan ayıran süzgeçler gibidir. Mutfaktaki çay süzgeci bile bu kadar çalışkan değil!",
+     "spoken": "Nefronlar, zararlı maddeleri kandan ayıran süzgeçler gibidir. Mutfaktaki çay süzgeci bile bu kadar çalışkan değil!",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l12",
+     "display": "NIDDK'ye göre sağlıklı böbrekler her dakika yaklaşık yarım bardak kanı süzer!",
+     "spoken": "En Ay Di Di Key'ye göre sağlıklı böbrekler her dakika yaklaşık yarım bardak kanı süzer!",
+     "factIds": [
+      "f4"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Süzme sırasında atıklar ve fazla su ayrılır. Bunlardan idrar oluşur.",
+     "spoken": "Süzme sırasında atıklar ve fazla su ayrılır. Bunlardan idrar oluşur.",
+     "factIds": [
+      "f4",
+      "f5"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "İdrar, vücudun ihtiyaç duymadığı atıklardan ve fazla sudan kurtulma yoludur.",
+     "spoken": "İdrar, vücudun ihtiyaç duymadığı atıklardan ve fazla sudan kurtulma yoludur.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "İdrar böbreklerden çıkar ve üreter denen iki ince borudan aşağı akar.",
+     "spoken": "İdrar böbreklerden çıkar ve üreter denen iki ince borudan aşağı akar.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Sonra mesaneye gelir. Mesane, tuvalete gitme zamanı gelene kadar idrarı tutan bir kesedir.",
+     "spoken": "Sonra mesaneye gelir. Mesane, tuvalete gitme zamanı gelene kadar idrarı tutan bir kesedir.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l17",
+     "display": "Sonunda üretra denen boru, idrarı vücudun dışına taşır.",
+     "spoken": "Sonunda üretra denen boru, idrarı vücudun dışına taşır.",
+     "factIds": [
+      "f6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l18",
+     "display": "Böbreklerin başka işleri de var. Vücuttaki su, tuz ve minerallerin dengesini korurlar.",
+     "spoken": "Böbreklerin başka işleri de var. Vücuttaki su, tuz ve minerallerin dengesini korurlar.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "KidsHealth'e göre böbrekler kan basıncını ve kandaki tuz düzeyini düzenlemeye de yardım eder.",
+     "spoken": "Kids Helt'e göre böbrekler kan basıncını ve kandaki tuz düzeyini düzenlemeye de yardım eder.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "Böbrekler hormon da yapar! Bu hormonlar kırmızı kan hücrelerinin yapımına ve kemiklerinin güçlü kalmasına yardım eder.",
+     "spoken": "Böbrekler hormon da yapar! Bu hormonlar kırmızı kan hücrelerinin yapımına ve kemiklerinin güçlü kalmasına yardım eder.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Hormon, vücutta bir yerden başka bir yere mesaj taşıyan kimyasal bir haberci gibidir.",
+     "spoken": "Hormon, vücutta bir yerden başka bir yere mesaj taşıyan kimyasal bir haberci gibidir.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Çok su içtiğinde daha sık tuvalete gidersin ve idrarın açık sarı olur. Böbreklerin fazla suyu dışarı atar.",
+     "spoken": "Çok su içtiğinde daha sık tuvalete gidersin ve idrarın açık sarı olur. Böbreklerin fazla suyu dışarı atar.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Ben su içmem. İçsem kısa devre yaparım!",
+     "spoken": "Ben su içmem. İçsem kısa devre yaparım!",
+     "factIds": []
+    },
+    {
+     "id": "l24",
+     "display": "Şimdi sıra sende! Bir gün boyunca içtiğin her bardak suyu bir kâğıda çizgiyle işaretle.",
+     "spoken": "Şimdi sıra sende! Bir gün boyunca içtiğin her bardak suyu bir kâğıda çizgiyle işaretle.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l25",
+     "display": "Akşam çizgileri say. Yeterince su içmiş misin? Böbreklerin sana teşekkür eder!",
+     "spoken": "Akşam çizgileri say. Yeterince su içmiş misin? Böbreklerin sana teşekkür eder!",
+     "factIds": [
+      "f11"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l26",
+     "display": "Bunu biliyor muydun? KidsHealth'e göre böbreklerini sağlıklı tutmak için su içmek, besleyici yemekler yemek ve bol bol hareket etmek önemlidir.",
+     "spoken": "Bunu biliyor muydun? Kids Helt'e göre böbreklerini sağlıklı tutmak için su içmek, besleyici yemekler yemek ve bol bol hareket etmek önemlidir.",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Hızlı soru! Böbreklerdeki minik süzme birimlerine ne denir?",
+     "spoken": "Hızlı soru! Böbreklerdeki minik süzme birimlerine ne denir?",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Düşün bakalım... Evet: nefron!",
+     "spoken": "Düşün bakalım... Evet: nefron!",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l29",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l30",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l31",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l32",
+     "display": "Abone olmayı ve zili açmayı unutma. Şimdi git bir bardak su iç!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Şimdi git bir bardak su iç!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

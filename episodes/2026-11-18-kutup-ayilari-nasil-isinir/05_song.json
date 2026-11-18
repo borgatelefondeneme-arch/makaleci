@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Beyaz Dev",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Arktik'te esen buz gibi rüzgâr",
+          "start": 5.15,
+          "end": 9.3
+        },
+        {
+          "text": "Kalın kürk sarar her yanımı",
+          "start": 9.3,
+          "end": 13.1
+        },
+        {
+          "text": "Altında yağ katmanı var",
+          "start": 13.1,
+          "end": 16.56
+        },
+        {
+          "text": "Soğuk geçemez içime",
+          "start": 16.56,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Beyaz dev, buzun kralı!",
+          "start": 20.17,
+          "end": 22.99
+        },
+        {
+          "text": "Kürkün beyaz, derin siyah",
+          "start": 22.99,
+          "end": 26.13
+        },
+        {
+          "text": "Güneşi emer, ısınırsın",
+          "start": 26.13,
+          "end": 29.58
+        },
+        {
+          "text": "Karın içinde kaybolursun",
+          "start": 29.58,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Pençelerin kürklü, kaymazsın",
+          "start": 33.18,
+          "end": 36.81
+        },
+        {
+          "text": "Kürek gibi yüzersin denizde",
+          "start": 36.81,
+          "end": 40.77
+        },
+        {
+          "text": "Buz çatlağında fok beklersin",
+          "start": 40.77,
+          "end": 44.4
+        },
+        {
+          "text": "Kar ininde ikizler uyur",
+          "start": 44.4,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Beyaz dev, buzun kralı!",
+          "start": 48.19,
+          "end": 51.08
+        },
+        {
+          "text": "Kürkün beyaz, derin siyah",
+          "start": 51.08,
+          "end": 54.3
+        },
+        {
+          "text": "Yağ eldivenini dene, hisset",
+          "start": 54.3,
+          "end": 58.15
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.15,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

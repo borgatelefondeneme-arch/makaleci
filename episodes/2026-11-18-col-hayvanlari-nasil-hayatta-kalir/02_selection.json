@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:col-hayvanlari-nasil-hayatta-kalir",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:col-hayvanlari-nasil-hayatta-kalir",
+    "title": "Çöl hayvanları nasıl hayatta kalır?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-18",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-18T12:46:09.825Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-18T12:46:09.829Z",
+  "decidedAt": "2026-11-18T12:46:09.829Z"
+}

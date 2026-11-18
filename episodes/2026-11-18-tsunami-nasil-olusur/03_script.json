@@ -1,0 +1,437 @@
+{
+  "paperId": "topic:tsunami-nasil-olusur",
+  "episodeNumber": 46,
+  "videoTitle": "Tsunami nasıl oluşur?",
+  "paperTitleTr": "Tsunami nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Okyanusun ortasında bir gemidesin. Altından bir dalga geçiyor ama fark etmiyorsun bile. Oysa o dalga, kıyıya varınca dev bir duvara dönüşebilir!",
+          "spoken": "Okyanusun ortasında bir gemidesin. Altından bir dalga geçiyor ama fark etmiyorsun bile. Oysa o dalga, kıyıya varınca dev bir duvara dönüşebilir!",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bu sessiz yolcu bir tsunami. Peki nasıl oluşur?",
+          "spoken": "Bu sessiz yolcu bir tsunami. Peki nasıl oluşur?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün tsunaminin bilimini ve ondan nasıl korunacağımızı öğreniyoruz!",
+          "spoken": "Bugün tsunaminin bilimini ve ondan nasıl korunacağımızı öğreniyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Tsunami neden oluşur? Kıyıya yaklaşınca neden büyür? Ve tehlike anında ne yapmalıyız?",
+          "spoken": "Üç sorumuz var. Tsunami neden oluşur? Kıyıya yaklaşınca neden büyür? Ve tehlike anında ne yapmalıyız?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "ABD Ulusal Okyanus ve Atmosfer İdaresi NOAA'ya göre tsunami, okyanus suyunun büyük ve ani biçimde yerinden oynamasıyla oluşan bir dizi son derece uzun dalgadır.",
+          "spoken": "ABD Ulusal Okyanus ve Atmosfer İdaresi Noa'ya göre tsunami, okyanus suyunun büyük ve ani biçimde yerinden oynamasıyla oluşan bir dizi son derece uzun dalgadır.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Bunun en sık nedeni, okyanus tabanının altında ya da yakınında olan bir depremdir.",
+          "spoken": "Bunun en sık nedeni, okyanus tabanının altında ya da yakınında olan bir depremdir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Tsunamilerin çoğu, iki levhanın birbirine doğru yaklaştığı sınırlardaki depremlerden kaynaklanır. Heyelanlar ve volkanik etkinlik de tsunamiye yol açabilir.",
+          "spoken": "Tsunamilerin çoğu, iki levhanın birbirine doğru yaklaştığı sınırlardaki depremlerden kaynaklanır. Heyelanlar ve volkanik etkinlik de tsunamiye yol açabilir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "NOAA'ya göre 1900'den bu yana olası tsunamilerin yüzde 80'inden fazlası depremlerle oluştu.",
+          "spoken": "Noa'ya göre bin dokuz yüzden bu yana olası tsunamilerin yüzde sekseninden fazlası depremlerle oluştu.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Benim de sarsıntılarım olur, ama sadece fanım çalışınca. Neyse ki o tsunami yapmıyor!",
+          "spoken": "Benim de sarsıntılarım olur, ama sadece fanım çalışınca. Neyse ki o tsunami yapmıyor!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Sıradan dalgalar sadece yüzeyde oluşur. Tsunami ise okyanus tabanından yüzeyine kadar bütün su sütununu hareket ettirir.",
+          "spoken": "Sıradan dalgalar sadece yüzeyde oluşur. Tsunami ise okyanus tabanından yüzeyine kadar bütün su sütununu hareket ettirir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Derin okyanusta bir tsunami jet uçağı kadar hızlı gidebilir! Ben o kadar hızlı gidemem, tekerleğim bile yok! Dalga boyu, yani bir tepeden ötekine uzaklık, yüzlerce mil olabilir.",
+          "spoken": "Derin okyanusta bir tsunami jet uçağı kadar hızlı gidebilir! Ben o kadar hızlı gidemem, tekerleğim bile yok! Dalga boyu, yani bir tepeden ötekine uzaklık, yüzlerce mil olabilir.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Ama derin suda tepesi çok alçaktır; okyanusun olağan dalgalanmasının çok az üstüne çıkar. Bu yüzden gemiler onu fark etmeyebilir.",
+          "spoken": "Ama derin suda tepesi çok alçaktır; okyanusun olağan dalgalanmasının çok az üstüne çıkar. Bu yüzden gemiler onu fark etmeyebilir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Tsunami ancak karaya yaklaşınca tehlikeli olur. Kıyıya yakın sığ suya girince yavaşlar.",
+          "spoken": "Tsunami ancak karaya yaklaşınca tehlikeli olur. Kıyıya yakın sığ suya girince yavaşlar.",
+          "factIds": [
+            "f6",
+            "f7"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "Yavaşlarken dalga boyu kısalır, yüksekliği artar ve akıntılar güçlenir. Arkadan gelen su öndekine yığılır gibi olur.",
+          "spoken": "Yavaşlarken dalga boyu kısalır, yüksekliği artar ve akıntılar güçlenir. Arkadan gelen su öndekine yığılır gibi olur.",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l16",
+          "display": "Tsunamiden korunmanın ilk adımı doğanın uyarılarını tanımaktır. NOAA'ya göre güçlü ya da uzun bir deprem bir işarettir.",
+          "spoken": "Tsunamiden korunmanın ilk adımı doğanın uyarılarını tanımaktır. Noa'ya göre güçlü ya da uzun bir deprem bir işarettir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Okyanustan gelen tren ya da uçak sesine benzer yüksek bir uğultu da bir işarettir.",
+          "spoken": "Okyanustan gelen tren ya da uçak sesine benzer yüksek bir uğultu da bir işarettir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Ve denizin gelgitle ilgisi olmayan bir biçimde aniden yükselmesi ya da çekilmesi!",
+          "spoken": "Ve denizin gelgitle ilgisi olmayan bir biçimde aniden yükselmesi ya da çekilmesi!",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Bu işaretleri görürsen resmi uyarıyı beklemeye vakit olmayabilir. Hemen yüksek bir yere ya da olabildiğince iç kesimlere git.",
+          "spoken": "Bu işaretleri görürsen resmi uyarıyı beklemeye vakit olmayabilir. Hemen yüksek bir yere ya da olabildiğince iç kesimlere git.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "İlk dalga son ya da en büyük dalga olmayabilir. Yetkililer güvenli diyene kadar kıyıya dönme.",
+          "spoken": "İlk dalga son ya da en büyük dalga olmayabilir. Yetkililer güvenli diyene kadar kıyıya dönme.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bilim insanları da nöbette. DART denen şamandıralar deniz seviyesindeki küçük değişiklikleri algılar ve tsunami uyarı merkezlerine iletir.",
+          "spoken": "Bilim insanları da nöbette. DART denen şamandıralar deniz seviyesindeki küçük değişiklikleri algılar ve tsunami uyarı merkezlerine iletir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Ben de nöbet tutarım. Ama genelde şarj aletimin başında!",
+          "spoken": "Ben de nöbet tutarım. Ama genelde şarj aletimin başında!",
+          "factIds": []
+        },
+        {
+          "id": "l23",
+          "display": "Şimdi sıra sende! Bir yetişkinle uzun bir tepsiye biraz su koy. Bir ucuna kitapla hafif bir yokuş yap: bu senin kıyın.",
+          "spoken": "Şimdi sıra sende! Bir yetişkinle uzun bir tepsiye biraz su koy. Bir ucuna kitapla hafif bir yokuş yap: bu senin kıyın.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Tepsinin diğer ucunu bir kez hafifçe kaldırıp bırak. Dalga yokuşa yaklaşınca nasıl değişiyor? Suyu taşırmamaya dikkat et; ıslak robot hiç hoş değil!",
+          "spoken": "Tepsinin diğer ucunu bir kez hafifçe kaldırıp bırak. Dalga yokuşa yaklaşınca nasıl değişiyor? Suyu taşırmamaya dikkat et; ıslak robot hiç hoş değil!",
+          "factIds": [
+            "f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l25",
+          "display": "Bunu biliyor muydun? 2004 Hint Okyanusu tsunamisi 17 ülkeyi etkiledi. NOAA'ya göre o günden bu yana tsunami uyarı sistemleri çok gelişti.",
+          "spoken": "Bunu biliyor muydun? İki bin dört Hint Okyanusu tsunamisi on yedi ülkeyi etkiledi. Noa'ya göre o günden bu yana tsunami uyarı sistemleri çok gelişti.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Hızlı soru! Deniz aniden çekilirse ne yapmalısın?",
+          "spoken": "Hızlı soru! Deniz aniden çekilirse ne yapmalısın?",
+          "factIds": [
+            "f8",
+            "f9"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Düşün bakalım... Evet: hemen yüksek bir yere gitmelisin!",
+          "spoken": "Düşün bakalım... Evet: hemen yüksek bir yere gitmelisin!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l29",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Abone olmayı ve zili açmayı unutma. Tsunamiler seyrektir, ama hazırlıklı olmak her zaman akıllıcadır!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Tsunamiler seyrektir, ama hazırlıklı olmak her zaman akıllıcadır!",
+          "factIds": [
+            "f12"
+          ]
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Tsunami, okyanus suyunun aniden yerinden oynamasıyla oluşan uzun dalgalardır; çoğu deniz altı depremlerinden kaynaklanır",
+    "Derin suda hızlı ve alçaktır, kıyıya yaklaşınca yavaşlar ve yükselir",
+    "Deprem, uğultu ya da denizin çekilmesi görülürse hemen yüksek yere gidilir"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "ocean",
+    "actors": [
+      {
+        "kind": "swim",
+        "emoji": "🐬",
+        "every": 32
+      }
+    ]
+  },
+  "song": {
+    "title": "Yüksek Yere",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🌊",
+        "name": "Tsunami"
+      },
+      {
+        "emoji": "💥",
+        "name": "Deprem"
+      },
+      {
+        "emoji": "📡",
+        "name": "Şamandıra"
+      },
+      {
+        "emoji": "⛰️",
+        "name": "Tepe"
+      },
+      {
+        "emoji": "🐬",
+        "name": "Yunus"
+      }
+    ],
+    "show": [
+      {
+        "kind": "swim",
+        "emoji": "🐬"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌊"
+      },
+      {
+        "kind": "hop",
+        "emoji": "📡"
+      },
+      {
+        "kind": "hop",
+        "emoji": "⛰️"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Deniz tabanında bir sarsıntı",
+          "Su yerinden oynar aniden",
+          "Uzun dalgalar yola çıkar",
+          "Tabandan yüzeye bütün su"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yüksek yere, yüksek yere!",
+          "Deniz çekilirse hiç bekleme",
+          "Uğultuyu duy, depremi hisset",
+          "Tepeye koş, güvende kal"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Derinde hızlı ve alçak",
+          "Sığda yavaşlar, yükselir",
+          "Şamandıralar nöbet tutar",
+          "İlk dalga son değil, unutma"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Yüksek yere, yüksek yere!",
+          "Deniz çekilirse hiç bekleme",
+          "Tepsiyle dene, dalgayı izle",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Tsunami nasıl oluşur ve nasıl korunuruz? Bu bölümde deniz altı depremlerinin suyu nasıl yerinden oynattığını, tsunaminin derin okyanusta neden fark edilmediğini, kıyıya yaklaşınca neden büyüdüğünü, doğanın uyarı işaretlerini, tehlike anında ne yapılacağını ve DART uyarı şamandıralarını öğreniyoruz. Sonunda tepsi dalgası deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Tsunami",
+      "meaning": "Okyanus suyunun aniden yerinden oynamasıyla oluşan uzun dalgalar dizisi."
+    },
+    {
+      "term": "Levha",
+      "meaning": "Yer kabuğunu oluşturan dev kaya parçalarından her biri."
+    },
+    {
+      "term": "Dalga boyu",
+      "meaning": "Bir dalga tepesinden ötekine olan uzaklık."
+    },
+    {
+      "term": "Su sütunu",
+      "meaning": "Okyanus tabanından yüzeyine kadar uzanan su kütlesi."
+    },
+    {
+      "term": "Tahliye",
+      "meaning": "Tehlikeli bir yerden güvenli bir yere hızla uzaklaşma."
+    },
+    {
+      "term": "Şamandıra",
+      "meaning": "Denizde yüzen, ölçüm yapabilen işaret aracı."
+    }
+  ]
+}

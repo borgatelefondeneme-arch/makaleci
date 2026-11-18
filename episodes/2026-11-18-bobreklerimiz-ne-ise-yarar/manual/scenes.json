@@ -1,0 +1,554 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Böbreklerimiz ne işe yarar?",
+    "emoji": "🫘"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "💧",
+    "🏭"
+   ],
+   "keywords": [
+    "TEMİZLİK FABRİKASI",
+    "BÖBREKLER",
+    "SÜZGEÇLER"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Böbrekler nerededir?",
+     "Kanı nasıl süzer?",
+     "Başka hangi işleri yapar?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Böbrekler",
+    "emoji": "🫘",
+    "chips": [
+     {
+      "label": "Fasulye biçimli",
+      "emoji": "🫘"
+     },
+     {
+      "label": "Yumruk büyüklüğünde",
+      "emoji": "✊"
+     },
+     {
+      "label": "Omurganın iki yanında",
+      "emoji": "🦴"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "✊",
+    "🦴"
+   ],
+   "keywords": [
+    "FASULYE BİÇİMİ",
+    "BELİNİN ÜSTÜ"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l8",
+    "l9"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Bir mi, iki mi?",
+    "left": {
+     "title": "Genellikle 🫘🫘",
+     "items": [
+      "İki böbrek"
+     ]
+    },
+    "right": {
+     "title": "Tek böbrekle de 🫘",
+     "items": [
+      "Sağlıklı yaşam mümkün"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2"
+   ],
+   "stickers": [
+    "🤖",
+    "🧹"
+   ],
+   "keywords": [
+    "İKİ BÖBREK",
+    "TOZ FİLTRESİ 🧹"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Bir milyon",
+    "label": "Her böbrekteki nefron sayısı (yaklaşık)",
+    "sub": "NIDDK",
+    "icon": "🔬"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🔬",
+    "🩸"
+   ],
+   "keywords": [
+    "NEFRON",
+    "SÜZGEÇ"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Süzme",
+    "label": "Süzülen kan",
+    "emoji": "🩸",
+    "phases": [
+     {
+      "label": "Her dakika yarım bardak kan",
+      "level": 0.5,
+      "emoji": "🥛"
+     },
+     {
+      "label": "Atık ve fazla su ayrılır",
+      "level": 0.75,
+      "emoji": "♻️"
+     },
+     {
+      "label": "İdrar oluşur",
+      "level": 0.4,
+      "emoji": "💧"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4",
+    "f5"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "🥛",
+    "♻️"
+   ],
+   "keywords": [
+    "YARIM BARDAK",
+    "ATIKLAR",
+    "İDRAR"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16",
+    "l17"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "İdrarın yolu",
+    "rows": [
+     {
+      "label": "Böbrek",
+      "emoji": "🫘"
+     },
+     {
+      "label": "Üreterler",
+      "emoji": "〰️"
+     },
+     {
+      "label": "Mesane",
+      "emoji": "🎈"
+     },
+     {
+      "label": "Üretra",
+      "emoji": "🚪"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "keywords": [
+    "ÜRETER",
+    "MESANE",
+    "ÜRETRA"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Denge ustası",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Su, tuz, mineral dengesi",
+      "emoji": "⚖️"
+     },
+     {
+      "label": "Kan basıncı",
+      "emoji": "🩺"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7",
+    "f8"
+   ],
+   "stickers": [
+    "⚖️",
+    "🩺"
+   ],
+   "keywords": [
+    "DENGE",
+    "KAN BASINCI"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Böbrek hormonları",
+    "emoji": "📨",
+    "chips": [
+     {
+      "label": "Kırmızı kan hücresi yapımı",
+      "emoji": "🔴"
+     },
+     {
+      "label": "Güçlü kemikler",
+      "emoji": "🦴"
+     },
+     {
+      "label": "Kimyasal haberci",
+      "emoji": "📨"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🔴",
+    "🦴"
+   ],
+   "keywords": [
+    "HORMON",
+    "HABERCİ 📨"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Açık sarı",
+    "label": "Çok su içince idrarın rengi",
+    "sub": "KidsHealth",
+    "icon": "💧"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f10"
+   ],
+   "stickers": [
+    "💧",
+    "⚡"
+   ],
+   "keywords": [
+    "SU İÇ!",
+    "KISA DEVRE ⚡"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: su sayacı",
+    "items": [
+     "İçtiğin her bardağı işaretle",
+     "Akşam çizgileri say",
+     "Yeterince su içtin mi?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "📝",
+    "🥛"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "TEŞEKKÜRLER BÖBREKLER"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l26"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Böbrek dostu alışkanlıklar",
+    "emoji": "💪",
+    "chips": [
+     {
+      "label": "Su iç",
+      "emoji": "💧"
+     },
+     {
+      "label": "Besleyici ye",
+      "emoji": "🥦"
+     },
+     {
+      "label": "Hareket et",
+      "emoji": "🏃"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🥦",
+    "🏃"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Böbreklerdeki süzme birimlerine ne denir?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3"
+   ],
+   "stickers": [
+    "🔬",
+    "🫘"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "NEFRON ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l30",
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}
