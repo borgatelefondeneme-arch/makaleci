@@ -1,0 +1,449 @@
+{
+  "paperId": "topic:gelgit-nasil-olur",
+  "episodeNumber": 36,
+  "videoTitle": "Gelgit nasıl olur?",
+  "paperTitleTr": "Gelgit nasıl olur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Sabah kumsalda bir kumdan kale yaptın. Öğleden sonra döndüğünde deniz kalenin üstüne kadar gelmiş! Deniz nasıl yer değiştirdi?",
+          "spoken": "Sabah kumsalda bir kumdan kale yaptın. Öğleden sonra döndüğünde deniz kalenin üstüne kadar gelmiş! Deniz nasıl yer değiştirdi?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Bunun arkasında gökyüzündeki bir dev var: Ay!",
+          "spoken": "Bunun arkasında gökyüzündeki bir dev var: Ay!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l3",
+          "display": "Bugün denizin nefes alıp vermesinin sırrını çözüyoruz!",
+          "spoken": "Bugün denizin nefes alıp vermesinin sırrını çözüyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Gelgit nedir? Ay denizi nasıl çeker? Ve Güneş'in bu işte rolü ne?",
+          "spoken": "Üç sorumuz var. Gelgit nedir? Ay denizi nasıl çeker? Ve Güneş'in bu işte rolü ne?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre yüksek gelgit, suyun kıyıda en uzağa ilerlediği andır. Alçak gelgit ise suyun en uzağa çekildiği an.",
+          "spoken": "Neşınıl Ciyogrefik'e göre yüksek gelgit, suyun kıyıda en uzağa ilerlediği andır. Alçak gelgit ise suyun en uzağa çekildiği an.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "NASA'ya göre gelgitleri Ay'ın kütle çekimi yönlendirir.",
+          "spoken": "Nasa'ya göre gelgitleri Ay'ın kütle çekimi yönlendirir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Kütle çekimi, cisimlerin birbirini kendine çekmesidir. Ay, Dünya'yı ve okyanusları kendine doğru çeker.",
+          "spoken": "Kütle çekimi, cisimlerin birbirini kendine çekmesidir. Ay, Dünya'yı ve okyanusları kendine doğru çeker.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Dünya'nın Ay'a en yakın tarafı bu çekimi en güçlü hisseder. Orada okyanus Ay'a doğru kabarır.",
+          "spoken": "Dünya'nın Ay'a en yakın tarafı bu çekimi en güçlü hisseder. Orada okyanus Ay'a doğru kabarır.",
+          "factIds": [
+            "f2",
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Beni de bir şey çeker: şarj aleti. Gördüğüm an ona doğru kabarırım!",
+          "spoken": "Beni de bir şey çeker: şarj aleti. Gördüğüm an ona doğru kabarırım!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Ama işin ilginç yanı şu: Okyanus, Ay'dan en uzak tarafta da kabarır!",
+          "spoken": "Ama işin ilginç yanı şu: Okyanus, Ay'dan en uzak tarafta da kabarır!",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Orada Dünya'nın dönüşünden doğan kuvvet, Ay'ın çekiminden daha güçlüdür. Böylece Dünya'nın iki yanında iki kabarıklık oluşur.",
+          "spoken": "Orada Dünya'nın dönüşünden doğan kuvvet, Ay'ın çekiminden daha güçlüdür. Böylece Dünya'nın iki yanında iki kabarıklık oluşur.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Bu kabarıklıklar yüksek gelgitlerdir. Aralarındaki alçak noktalarda ise alçak gelgit olur.",
+          "spoken": "Bu kabarıklıklar yüksek gelgitlerdir. Aralarındaki alçak noktalarda ise alçak gelgit olur.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Dünya döndükçe kıyılar bu kabarıklıklardan ve alçak noktalardan sırayla geçer. Kıyıdaki biri suyun yükselip alçaldığını görür.",
+          "spoken": "Dünya döndükçe kıyılar bu kabarıklıklardan ve alçak noktalardan sırayla geçer. Kıyıdaki biri suyun yükselip alçaldığını görür.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "NASA'ya göre çoğu kıyıda günde iki yüksek ve iki alçak gelgit olur. Bir yüksek gelgitten ötekine 12 saatten biraz fazla geçer.",
+          "spoken": "Nasa'ya göre çoğu kıyıda günde iki yüksek ve iki alçak gelgit olur. Bir yüksek gelgitten ötekine on iki saatten biraz fazla geçer.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Yani deniz günde iki kez gelir, iki kez gider. Benim gibi: şarja git, şarjdan gel!",
+          "spoken": "Yani deniz günde iki kez gelir, iki kez gider. Benim gibi: şarja git, şarjdan gel!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l17",
+          "display": "Peki Güneş? National Geographic'e göre Güneş'in çekimi de gelgitlerde küçük bir rol oynar.",
+          "spoken": "Peki Güneş? Neşınıl Ciyogrefik'e göre Güneş'in çekimi de gelgitlerde küçük bir rol oynar.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Güneş, Ay'dan yaklaşık 390 kat daha uzaktır. Bu yüzden etkisi Ay'ınkinden azdır.",
+          "spoken": "Güneş, Ay'dan yaklaşık üç yüz doksan kat daha uzaktır. Bu yüzden etkisi Ay'ınkinden azdır.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Güneş ile Ay'ın çekimleri birleşince bahar gelgiti denen olağanüstü yüksek gelgitler olur.",
+          "spoken": "Güneş ile Ay'ın çekimleri birleşince bahar gelgiti denen olağanüstü yüksek gelgitler olur.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Güneş, Ay'a dik açıda durunca ise kocakarı gelgiti denen orta düzeyde gelgitler oluşur.",
+          "spoken": "Güneş, Ay'a dik açıda durunca ise kocakarı gelgiti denen orta düzeyde gelgitler oluşur.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Yüksek ve alçak gelgit arasındaki yükseklik farkına gelgit genliği denir.",
+          "spoken": "Yüksek ve alçak gelgit arasındaki yükseklik farkına gelgit genliği denir.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Gelgitin yüksekliği her kıyıda aynı değildir. Geniş bir kumsal ya da kayalık bir koy, kıyının açığındaki suyun derinliği bu yüksekliği etkiler.",
+          "spoken": "Gelgitin yüksekliği her kıyıda aynı değildir. Geniş bir kumsal ya da kayalık bir koy, kıyının açığındaki suyun derinliği bu yüksekliği etkiler.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Alçak gelgitte kayaların arasında küçük su birikintileri kalır. Bunlara gelgit havuzu denir.",
+          "spoken": "Alçak gelgitte kayaların arasında küçük su birikintileri kalır. Bunlara gelgit havuzu denir.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi sıra sende! Bir yetişkinle deniz kıyısındaysan, suyun bittiği yere bir taş koy ve saati not et.",
+          "spoken": "Şimdi sıra sende! Bir yetişkinle deniz kıyısındaysan, suyun bittiği yere bir taş koy ve saati not et.",
+          "factIds": [
+            "f5",
+            "f7"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Birkaç saat sonra tekrar bak: su taşa yaklaştı mı, uzaklaştı mı? Asla tek başına suya girme ve yükselen suya karşı dikkatli ol.",
+          "spoken": "Birkaç saat sonra tekrar bak: su taşa yaklaştı mı, uzaklaştı mı? Asla tek başına suya girme ve yükselen suya karşı dikkatli ol.",
+          "factIds": [
+            "f5",
+            "f6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Bunu biliyor muydun? NASA'ya göre yüksek gelgitler Ay'ın konumuyla tam olarak aynı hizada olmaz. Deniz, Ay'ı biraz geriden izler!",
+          "spoken": "Bunu biliyor muydun? Nasa'ya göre yüksek gelgitler Ay'ın konumuyla tam olarak aynı hizada olmaz. Deniz, Ay'ı biraz geriden izler!",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Hızlı soru! Güneş ile Ay'ın çekimleri birleşince oluşan çok yüksek gelgitin adı neydi?",
+          "spoken": "Hızlı soru! Güneş ile Ay'ın çekimleri birleşince oluşan çok yüksek gelgitin adı neydi?",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Düşün bakalım... Evet: bahar gelgiti!",
+          "spoken": "Düşün bakalım... Evet: bahar gelgiti!",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Abone olmayı ve zili açmayı unutma. Bu gece Ay'a bir selam ver!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bu gece Ay'a bir selam ver!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Gelgitleri Ay'ın kütle çekimi yönlendirir",
+    "Dünya'nın iki yanında kabarıklık oluşur; çoğu kıyıda günde iki yüksek, iki alçak gelgit olur",
+    "Güneş küçük bir rol oynar: bahar ve kocakarı gelgitleri"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "ocean",
+    "actors": [
+      {
+        "kind": "swim",
+        "emoji": "🐠",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Ay'ın Dansı",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🌙",
+        "name": "Ay"
+      },
+      {
+        "emoji": "🌊",
+        "name": "Dalga"
+      },
+      {
+        "emoji": "🌍",
+        "name": "Dünya"
+      },
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "🦀",
+        "name": "Yengeç"
+      }
+    ],
+    "show": [
+      {
+        "kind": "orbit",
+        "emoji": "🌙"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🐠"
+      },
+      {
+        "kind": "walk",
+        "emoji": "🦀"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌊"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Ay gökte çeker okyanusu",
+          "Yakın taraf kabarır önce",
+          "Uzak taraf da kabarır",
+          "Dünya döner, kıyılar geçer"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Gel, git, gel, git, deniz!",
+          "Günde iki kez kabarır",
+          "Yüksek gelgit, alçak gelgit",
+          "Ay'ın dansına uyar"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Güneş de çeker biraz uzaktan",
+          "Birleşince bahar gelgiti",
+          "Dik açıda kocakarı gelgiti",
+          "Havuzlarda yengeç bekler"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Gel, git, gel, git, deniz!",
+          "Günde iki kez kabarır",
+          "Taşı koy, suyu izle",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Deniz neden günde iki kez kabarıp çekilir? Bu bölümde Ay'ın kütle çekimini, Dünya'nın iki yanındaki okyanus kabarıklıklarını, yüksek ve alçak gelgiti, Güneş'in rolünü, bahar ve kocakarı gelgitlerini, gelgit genliğini ve gelgit havuzlarını keşfediyoruz. Sonunda kıyıda güvenli bir gözlem etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Gelgit",
+      "meaning": "Deniz suyunun düzenli olarak kabarıp çekilmesi."
+    },
+    {
+      "term": "Kütle çekimi",
+      "meaning": "Cisimlerin birbirini kendine çekmesi."
+    },
+    {
+      "term": "Yüksek gelgit",
+      "meaning": "Suyun kıyıda en uzağa ilerlediği an."
+    },
+    {
+      "term": "Alçak gelgit",
+      "meaning": "Suyun kıyıdan en uzağa çekildiği an."
+    },
+    {
+      "term": "Bahar gelgiti",
+      "meaning": "Güneş ile Ay'ın çekimleri birleşince oluşan çok yüksek gelgit."
+    },
+    {
+      "term": "Kocakarı gelgiti",
+      "meaning": "Güneş Ay'a dik açıdayken oluşan orta düzeyde gelgit."
+    },
+    {
+      "term": "Gelgit genliği",
+      "meaning": "Yüksek ve alçak gelgit arasındaki yükseklik farkı."
+    }
+  ]
+}

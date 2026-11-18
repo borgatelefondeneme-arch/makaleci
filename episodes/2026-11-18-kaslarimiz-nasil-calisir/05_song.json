@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Çek ve Bırak",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Altı yüzden fazla motor var",
+          "start": 5.15,
+          "end": 8.79
+        },
+        {
+          "text": "Kemiklere tendonla bağlı",
+          "start": 8.79,
+          "end": 12.42
+        },
+        {
+          "text": "İskelet kası benim emrimde",
+          "start": 12.42,
+          "end": 16.38
+        },
+        {
+          "text": "Hızlı, güçlü, çabuk yorulur",
+          "start": 16.38,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Çek ve bırak, kasıl ve gevşe!",
+          "start": 20.17,
+          "end": 23.62
+        },
+        {
+          "text": "Biseps büker, triseps açar",
+          "start": 23.62,
+          "end": 26.75
+        },
+        {
+          "text": "Kaslar iter mi? Hayır, çeker!",
+          "start": 26.75,
+          "end": 30.2
+        },
+        {
+          "text": "Çift çift çalışır hepsi",
+          "start": 30.2,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Düz kaslar kendi işini yapar",
+          "start": 33.18,
+          "end": 37.14
+        },
+        {
+          "text": "Kalp atar, izin istemez",
+          "start": 37.14,
+          "end": 40.44
+        },
+        {
+          "text": "Binlerce lif örülmüş birlikte",
+          "start": 40.44,
+          "end": 44.4
+        },
+        {
+          "text": "Beynim yönetir her adımı",
+          "start": 44.4,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Çek ve bırak, kasıl ve gevşe!",
+          "start": 48.19,
+          "end": 51.82
+        },
+        {
+          "text": "Biseps büker, triseps açar",
+          "start": 51.82,
+          "end": 55.11
+        },
+        {
+          "text": "Önce esne, sonra koş",
+          "start": 55.11,
+          "end": 58.08
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.08,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

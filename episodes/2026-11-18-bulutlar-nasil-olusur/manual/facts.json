@@ -1,0 +1,103 @@
+{
+ "paperId": "topic:bulutlar-nasil-olusur",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "Cloud",
+   "publisher": "National Geographic",
+   "url": "https://education.nationalgeographic.org/resource/cloud/"
+  },
+  {
+   "id": "k2",
+   "title": "Clouds",
+   "publisher": "Met Office",
+   "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Bulutlar, atmosferde toplanmış görünür minik su damlacıkları ya da buz kristalleridir.",
+   "numbers": [],
+   "quote": "Clouds are visible accumulations of tiny water droplets or ice crystals in Earth’s atmosphere.",
+   "location": "National Geographic Education — Cloud"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Su buharı görünmezdir ve havada her zaman çevremizdedir.",
+   "numbers": [],
+   "quote": "Water vapour is invisible, and it is around us all the time in the air.",
+   "location": "Met Office — Clouds"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Bulutlar hava su buharıyla doygun hale gelince, yani havanın tutabileceğinden fazla su buharı olunca oluşur.",
+   "numbers": [],
+   "quote": "Clouds form when air becomes saturated, or filled, with water vapor. / Clouds appear when there is too much water vapour for the air to hold.",
+   "location": "National Geographic Education — Cloud; Met Office — Clouds"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Hava yükselince soğur; sıcak hava soğuk havadan daha çok su buharı tutabilir, bu yüzden hava kütlesinin sıcaklığını düşürmek bir süngeri sıkmaya benzer.",
+   "numbers": [],
+   "quote": "As a simple explanation, when air rises, it cools / Warm air can hold more water vapor than cold air, so lowering the temperature of an air mass is like squeezing a sponge.",
+   "location": "Met Office — Clouds; National Geographic Education — Cloud"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Su buharı yoğuşarak minik su damlacıklarına dönüşür ve bunlar küçük toz parçacıklarına tutunur; yoğuşma çekirdekleri, su buharının çevresinde yoğuştuğu mikroskobik kil, tuz ya da kirletici parçacıklarıdır.",
+   "numbers": [],
+   "quote": "The water vapour (gas) then condenses to form tiny water droplets (liquid), / it forms lots of tiny little water droplets which cling to little bits of dust / microscopic bits of clay, salt, or solid pollutant around which water vapor condenses in clouds to form raindrops.",
+   "location": "Met Office — Clouds; National Geographic Education — Cloud"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Bu su damlacıklarının çapı yalnızca milimetrenin yüzde biri kadardır; o kadar küçüktürler ki havada asılı kalırlar.",
+   "numbers": [],
+   "quote": "These droplets of water are only about a hundredth of a millimetre in diameter / These droplets are so small that they stay suspended in the air.",
+   "location": "Met Office — Clouds"
+  },
+  {
+   "id": "f7",
+   "kind": "number",
+   "statement": "Bulutlar üç ana türe ayrılır: stratus, kümülüs ve sirrus; stratus bulutları yatay ve katmanlıdır; kümülüs bulutları büyük ve topaklıdır ve 12.000 metre yüksekliğe kadar uzanabilir.",
+   "numbers": [
+    "12.000"
+   ],
+   "quote": "This splits clouds into three main types - stratus, cumulus and cirrus. / Stratus clouds are horizontal and stratified, or layered. / Cumulus clouds are large and lumpy. / They can stretch vertically into the atmosphere up to 12,000 meters (39,000 feet) high.",
+   "location": "Met Office — Clouds; National Geographic Education — Cloud"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Kümülonimbus bulutlarına fırtına bulutu da denir; yağmur, gök gürültüsü ve şimşek üretirler.",
+   "numbers": [],
+   "quote": "Cumulonimbus clouds are also called thunderheads. / Thunderheads produce rain, thunder, and lightning.",
+   "location": "National Geographic Education — Cloud"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Bulutlar genellikle beyaz görünür çünkü içlerindeki minik su damlacıkları sıkı sıkıya dizilidir; yağmur yaklaşınca bulutlar kararır çünkü su buharı yağmur damlalarına dönüşerek topaklanır.",
+   "numbers": [],
+   "quote": "Clouds usually appear white because the tiny water droplets inside them are tightly packed, / When it’s about to rain, clouds darken because the water vapor is clumping together into raindrops,",
+   "location": "National Geographic Education — Cloud"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Bulutu oluşturan su ya da buz parçacıkları büyüyerek yağış olarak yere düşen daha büyük parçacıklara dönüşebilir.",
+   "numbers": [],
+   "quote": "the water or ice particles that make up the cloud can grow into bigger particles that fall to Earth as precipitation.",
+   "location": "National Geographic Education — Cloud"
+  }
+ ]
+}

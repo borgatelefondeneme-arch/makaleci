@@ -1,0 +1,438 @@
+{
+ "paperId": "topic:kaslarimiz-nasil-calisir",
+ "episodeNumber": 37,
+ "videoTitle": "Kaslarımız nasıl çalışır?",
+ "paperTitleTr": "Kaslarımız nasıl çalışır?",
+ "theme": {
+  "backdrop": "meadow",
+  "actors": [
+   {
+    "kind": "hop",
+    "emoji": "🐇",
+    "every": 30
+   }
+  ]
+ },
+ "takeaways": [
+  "Üç tür kasımız var: iskelet, düz ve kalp kası",
+  "Kas lifleri kasılıp gevşeyerek eklemleri çeker",
+  "Kaslar itemez, çeker; bu yüzden biseps ve triseps gibi çiftler halinde çalışır"
+ ],
+ "description": "Kaslarımız bizi nasıl hareket ettirir? Bu bölümde vücudumuzdaki altı yüzden fazla kası, iskelet, düz ve kalp kasını, istemli ve istemsiz hareketleri, tendonları, kas liflerinin kasılmasını ve biseps ile trisepsin çift olarak çalışmasını keşfediyoruz. Sonunda kolundaki kasları hissetme etkinliği ve konuyu özetleyen bir şarkı var.",
+ "glossary": [
+  {
+   "term": "İskelet kası",
+   "meaning": "Kemiklere bağlı, isteyerek hareket ettirdiğimiz kas."
+  },
+  {
+   "term": "Düz kas",
+   "meaning": "Bazı organların içini kaplayan, istemsiz çalışan kas."
+  },
+  {
+   "term": "Kalp kası",
+   "meaning": "Kalbi oluşturan, kendiliğinden kasılan kas."
+  },
+  {
+   "term": "Tendon",
+   "meaning": "Kası kemiğe bağlayan kordon gibi bağ."
+  },
+  {
+   "term": "İstemli",
+   "meaning": "İsteyerek kontrol edebildiğimiz."
+  },
+  {
+   "term": "İstemsiz",
+   "meaning": "Biz düşünmeden kendiliğinden çalışan."
+  },
+  {
+   "term": "Kas lifi",
+   "meaning": "Kası oluşturan, kasılabilen ince iplikler."
+  }
+ ],
+ "song": {
+  "show": [
+   {
+    "kind": "hop",
+    "emoji": "🐇"
+   },
+   {
+    "kind": "hop",
+    "emoji": "💪"
+   },
+   {
+    "kind": "hop",
+    "emoji": "❤️"
+   },
+   {
+    "kind": "walk",
+    "emoji": "🏃"
+   }
+  ],
+  "title": "Çek ve Bırak",
+  "style": [
+   "cheerful educational pop song",
+   "upbeat marching band rhythm",
+   "adventurous cartoon theme energy",
+   "bright glockenspiel, snare drum, tuba, hand claps",
+   "catchy sing-along melody",
+   "120 BPM",
+   "clear enthusiastic lead vocal in Turkish",
+   "group vocals shouting along in the chorus",
+   "major key"
+  ],
+  "negativeStyle": [
+   "sad",
+   "slow",
+   "dark",
+   "heavy distortion",
+   "mumbled vocals",
+   "long instrumental solo",
+   "lullaby"
+  ],
+  "cast": [
+   {
+    "emoji": "💪",
+    "name": "Biseps"
+   },
+   {
+    "emoji": "🦾",
+    "name": "Triseps"
+   },
+   {
+    "emoji": "❤️",
+    "name": "Kalp"
+   },
+   {
+    "emoji": "🦴",
+    "name": "Tendon"
+   },
+   {
+    "emoji": "🧠",
+    "name": "Beyin"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "Intro",
+    "label": "Giriş",
+    "direction": "snare drum roll, hand claps",
+    "lines": [
+     "Hey! Hey! Hey!"
+    ],
+    "durationMs": 5000
+   },
+   {
+    "tag": "Verse 1",
+    "label": "Kıta",
+    "lines": [
+     "Altı yüzden fazla motor var",
+     "Kemiklere tendonla bağlı",
+     "İskelet kası benim emrimde",
+     "Hızlı, güçlü, çabuk yorulur"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Çek ve bırak, kasıl ve gevşe!",
+     "Biseps büker, triseps açar",
+     "Kaslar iter mi? Hayır, çeker!",
+     "Çift çift çalışır hepsi"
+    ],
+    "durationMs": 13000
+   },
+   {
+    "tag": "Verse 2",
+    "label": "Kıta",
+    "lines": [
+     "Düz kaslar kendi işini yapar",
+     "Kalp atar, izin istemez",
+     "Binlerce lif örülmüş birlikte",
+     "Beynim yönetir her adımı"
+    ],
+    "durationMs": 15000
+   },
+   {
+    "tag": "Chorus",
+    "label": "Nakarat",
+    "lines": [
+     "Çek ve bırak, kasıl ve gevşe!",
+     "Biseps büker, triseps açar",
+     "Önce esne, sonra koş",
+     "Muma'yla öğrendik, hey!"
+    ],
+    "durationMs": 13000
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "hook",
+   "lines": [
+    {
+     "id": "l1",
+     "display": "Şu an hiç kıpırdamadan oturuyor olabilirsin. Ama KidsHealth'e göre o sırada bile vücudundaki kaslar sürekli hareket ediyor!",
+     "spoken": "Şu an hiç kıpırdamadan oturuyor olabilirsin. Ama Kids Helt'e göre o sırada bile vücudundaki kaslar sürekli hareket ediyor!",
+     "factIds": [
+      "f11"
+     ]
+    },
+    {
+     "id": "l2",
+     "display": "Kalbin atıyor, gözlerin kırpıyor. Peki bunları kim yapıyor?",
+     "spoken": "Kalbin atıyor, gözlerin kırpıyor. Peki bunları kim yapıyor?",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l3",
+     "display": "Bugün vücudunun motorlarına, yani kaslara bakıyoruz!",
+     "spoken": "Bugün vücudunun motorlarına, yani kaslara bakıyoruz!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "lines": [
+    {
+     "id": "l4",
+     "display": "Üç sorumuz var. Kaç tür kasımız var? Kaslar nasıl kasılır? Ve neden çiftler halinde çalışırlar?",
+     "spoken": "Üç sorumuz var. Kaç tür kasımız var? Kaslar nasıl kasılır? Ve neden çiftler halinde çalışırlar?",
+     "factIds": []
+    },
+    {
+     "id": "l5",
+     "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "method",
+   "lines": [
+    {
+     "id": "l6",
+     "display": "Cleveland Clinic'e göre vücudunda 600'den fazla kas var ve onları neredeyse sürekli kullanıyorsun.",
+     "spoken": "Klivlınd Klinik'e göre vücudunda altı yüzden fazla kas var ve onları neredeyse sürekli kullanıyorsun.",
+     "factIds": [
+      "f1"
+     ]
+    },
+    {
+     "id": "l7",
+     "display": "Benim de motorlarım var, ama sadece on iki tane. Yine de çok hareketliyim!",
+     "spoken": "Benim de motorlarım var, ama sadece on iki tane. Yine de çok hareketliyim!",
+     "factIds": []
+    },
+    {
+     "id": "l8",
+     "display": "Kasların üç türü vardır: iskelet kası, düz kas ve kalp kası.",
+     "spoken": "Kasların üç türü vardır: iskelet kası, düz kas ve kalp kası.",
+     "factIds": [
+      "f2"
+     ]
+    },
+    {
+     "id": "l9",
+     "display": "İskelet kasları kemiklere tendon denen kordon gibi bağlarla tutunur. Kollarında, bacaklarında, yüzünde bulunurlar.",
+     "spoken": "İskelet kasları kemiklere tendon denen kordon gibi bağlarla tutunur. Kollarında, bacaklarında, yüzünde bulunurlar.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l10",
+     "display": "Onları sen kontrol edersin: gülümsemek de, zıplamak da senin elinde. Bu yüzden onlara istemli kas denir.",
+     "spoken": "Onları sen kontrol edersin: gülümsemek de, zıplamak da senin elinde. Bu yüzden onlara istemli kas denir.",
+     "factIds": [
+      "f3"
+     ]
+    },
+    {
+     "id": "l11",
+     "display": "İskelet kasları hızlı ve güçlü kasılabilir ama çabuk yorulur.",
+     "spoken": "İskelet kasları hızlı ve güçlü kasılabilir ama çabuk yorulur.",
+     "factIds": [
+      "f4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "finding",
+   "lines": [
+    {
+     "id": "l12",
+     "display": "Düz kaslar ise bazı organlarının içini kaplar. Onları bilinçli olarak kontrol edemezsin; sinir sistemi onları kendiliğinden yönetir.",
+     "spoken": "Düz kaslar ise bazı organlarının içini kaplar. Onları bilinçli olarak kontrol edemezsin; sinir sistemi onları kendiliğinden yönetir.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l13",
+     "display": "Bu yüzden onlara istemsiz kas denir.",
+     "spoken": "Bu yüzden onlara istemsiz kas denir.",
+     "factIds": [
+      "f5"
+     ]
+    },
+    {
+     "id": "l14",
+     "display": "Üçüncü tür, kalp kasıdır. Kalp kası ritmik ve güçlü kasılmalarla kanı kalpten dışarı iter.",
+     "spoken": "Üçüncü tür, kalp kasıdır. Kalp kası ritmik ve güçlü kasılmalarla kanı kalpten dışarı iter.",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l15",
+     "display": "Kalbin de istemsiz bir kastır: senden izin almadan atar. Hem de günde binlerce kez!",
+     "spoken": "Kalbin de istemsiz bir kastır: senden izin almadan atar. Hem de günde binlerce kez!",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l16",
+     "display": "Benim kalbim yok ama bir fanım var. O da senden izin almadan döner, bazen de vızıldar!",
+     "spoken": "Benim kalbim yok ama bir fanım var. O da senden izin almadan döner, bazen de vızıldar!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "importance",
+   "lines": [
+    {
+     "id": "l17",
+     "display": "Peki bir kas nasıl çalışır? Kaslar birbirine örülmüş binlerce küçük liften oluşur.",
+     "spoken": "Peki bir kas nasıl çalışır? Kaslar birbirine örülmüş binlerce küçük liften oluşur.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l18",
+     "display": "Lifler kasılınca kas kısalır, gevşeyince eski haline döner. Kaslar böylece eklemleri çekerek seni hareket ettirir.",
+     "spoken": "Lifler kasılınca kas kısalır, gevşeyince eski haline döner. Kaslar böylece eklemleri çekerek seni hareket ettirir.",
+     "factIds": [
+      "f7"
+     ]
+    },
+    {
+     "id": "l19",
+     "display": "Bazı kas lifleri çok hızlı kasılır ve kısa enerji patlamaları kullanır. Bir koşuya hızlı başlarken onları kullanırsın.",
+     "spoken": "Bazı kas lifleri çok hızlı kasılır ve kısa enerji patlamaları kullanır. Bir koşuya hızlı başlarken onları kullanırsın.",
+     "factIds": [
+      "f9"
+     ]
+    },
+    {
+     "id": "l20",
+     "display": "İşte işin sırrı: Kaslar kemikleri çekebilir ama geri itemez!",
+     "spoken": "İşte işin sırrı: Kaslar kemikleri çekebilir ama geri itemez!",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l21",
+     "display": "Bu yüzden çiftler halinde çalışırlar. Üst kolunun önündeki biseps kolunu büker, arkasındaki triseps ise açar.",
+     "spoken": "Bu yüzden çiftler halinde çalışırlar. Üst kolunun önündeki biseps kolunu büker, arkasındaki triseps ise açar.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l22",
+     "display": "Bütün bu hareketleri beynin ve sinir sistemin düzenler.",
+     "spoken": "Bütün bu hareketleri beynin ve sinir sistemin düzenler.",
+     "factIds": [
+      "f10"
+     ]
+    },
+    {
+     "id": "l23",
+     "display": "Şimdi sıra sende! Bir elini diğer kolunun üst kısmına, önüne koy. Sonra dirseğini yavaşça bük.",
+     "spoken": "Şimdi sıra sende! Bir elini diğer kolunun üst kısmına, önüne koy. Sonra dirseğini yavaşça bük.",
+     "factIds": [
+      "f8"
+     ]
+    },
+    {
+     "id": "l24",
+     "display": "Biseps sertleşiyor mu? Şimdi elini kolunun arkasına koy ve kolunu düzelt: bu kez triseps çalışıyor!",
+     "spoken": "Biseps sertleşiyor mu? Şimdi elini kolunun arkasına koy ve kolunu düzelt: bu kez triseps çalışıyor!",
+     "factIds": [
+      "f8"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "limitations",
+   "lines": [
+    {
+     "id": "l25",
+     "display": "Bunu biliyor muydun? Cleveland Clinic'e göre kas sakatlıklarını önlemenin en iyi yolu, egzersizden önce esnemek ve ısınmaktır.",
+     "spoken": "Bunu biliyor muydun? Klivlınd Klinik'e göre kas sakatlıklarını önlemenin en iyi yolu, egzersizden önce esnemek ve ısınmaktır.",
+     "factIds": [
+      "f12"
+     ]
+    },
+    {
+     "id": "l26",
+     "display": "Hızlı soru! Kalp kası istemli mi, istemsiz mi?",
+     "spoken": "Hızlı soru! Kalp kası istemli mi, istemsiz mi?",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l27",
+     "display": "Düşün bakalım... Evet: istemsiz!",
+     "spoken": "Düşün bakalım... Evet: istemsiz!",
+     "factIds": [
+      "f6"
+     ]
+    },
+    {
+     "id": "l28",
+     "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+     "factIds": []
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "lines": [
+    {
+     "id": "l29",
+     "display": "İşte bugün öğrendiklerimiz!",
+     "spoken": "İşte bugün öğrendiklerimiz!",
+     "factIds": []
+    },
+    {
+     "id": "l30",
+     "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+     "factIds": []
+    },
+    {
+     "id": "l31",
+     "display": "Abone olmayı ve zili açmayı unutma. Hadi kalk, biraz esne!",
+     "spoken": "Abone olmayı ve zili açmayı unutma. Hadi kalk, biraz esne!",
+     "factIds": []
+    }
+   ]
+  }
+ ],
+ "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!"
+}

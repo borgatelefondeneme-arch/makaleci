@@ -1,0 +1,119 @@
+{
+  "paperId": "topic:kaslarimiz-nasil-calisir",
+  "basis": "full_text",
+  "institutions": [],
+  "sources": [
+    {
+      "id": "k1",
+      "title": "Bones, Muscles & Joints",
+      "publisher": "KidsHealth",
+      "url": "https://kidshealth.org/en/kids/muscles.html"
+    },
+    {
+      "id": "k2",
+      "title": "Muscle",
+      "publisher": "Cleveland Clinic",
+      "url": "https://my.clevelandclinic.org/health/body/21887-muscle"
+    }
+  ],
+  "facts": [
+    {
+      "id": "f1",
+      "kind": "number",
+      "statement": "Vücudumuzda neredeyse sürekli kullandığımız 600'den fazla kas vardır.",
+      "numbers": [
+        "600"
+      ],
+      "quote": "You have more than 600 muscles in your body that you use almost constantly.",
+      "location": "Cleveland Clinic — Muscle"
+    },
+    {
+      "id": "f2",
+      "kind": "claim",
+      "statement": "İnsanlarda üç tür kas vardır: iskelet kası, düz kas ve kalp kası.",
+      "numbers": [],
+      "quote": "Humans have three different kinds of muscle: / There are three types of muscle tissue in your body:",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints; Cleveland Clinic — Muscle"
+    },
+    {
+      "id": "f3",
+      "kind": "claim",
+      "statement": "İskelet kası bacaklarda, kollarda ve yüzde olduğu gibi kemiğe kordon gibi tendonlarla bağlıdır; hareketlerini kontrol edebildiğimiz için istemli kas denir.",
+      "numbers": [],
+      "quote": "Skeletal muscle is attached by cord-like tendons to bone, such as in the legs, arms, and face. / known as voluntary muscles because you can control their movement",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f4",
+      "kind": "claim",
+      "statement": "İskelet kasları hızlı ve güçlü kasılabilir ama çabuk yorulur.",
+      "numbers": [],
+      "quote": "They can contract (shorten or tighten) quickly and powerfully, but they tire easily.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f5",
+      "kind": "claim",
+      "statement": "Düz kaslar istemsizdir; onları bilinçli olarak kontrol edemeyiz, sinir sistemi otomatik olarak kontrol eder; bazı organların içini kaplarlar.",
+      "numbers": [],
+      "quote": "Smooth, or involuntary, muscle / We can't consciously control our smooth muscles; rather, they're controlled by the nervous system automatically / Smooth muscles are involuntary muscles that line the inside of some organs.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints; Cleveland Clinic — Muscle"
+    },
+    {
+      "id": "f6",
+      "kind": "claim",
+      "statement": "Kalp kası kalpte bulunur; ritmik ve güçlü kasılmalarıyla kanı kalpten dışarı iter; kalp istemsiz bir kastır, kendiliğinden atar ve günde binlerce kez atar.",
+      "numbers": [],
+      "quote": "Cardiac muscle is found in the heart. / Its rhythmic, powerful contractions force blood out of the heart as it beats. / Your heart is an involuntary muscle — it beats on its own without your input. / beats thousands of times a day to keep you alive.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints; Cleveland Clinic — Muscle"
+    },
+    {
+      "id": "f7",
+      "kind": "claim",
+      "statement": "Kaslar vücut bölümlerini kasılıp gevşeyerek hareket ettirir; kaslar eklemleri çekerek hareket etmemizi sağlar.",
+      "numbers": [],
+      "quote": "Muscles move body parts by contracting and then relaxing. / Muscles pull on the joints, allowing us to move.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f8",
+      "kind": "claim",
+      "statement": "Kaslar kemikleri çekebilir ama geri itemez; bu yüzden bükücü ve açıcı kaslar olarak çiftler halinde çalışır; üst kolun önündeki biseps bükücü, arkasındaki triseps açıcıdır.",
+      "numbers": [],
+      "quote": "Muscles can pull bones, but they can't push them back to the original position. / So they work in pairs of flexors and extensors. / the biceps muscle, in the front of the upper arm, is a flexor / the triceps, at the back of the upper arm, is an extensor",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f9",
+      "kind": "claim",
+      "statement": "Kaslar birbirine örülmüş binlerce küçük liften oluşur; bazı kas lifleri hızlı kasılır ve kısa enerji patlamaları kullanır.",
+      "numbers": [],
+      "quote": "Your muscles are made of thousands of small fibers woven together. / Some muscle fibers contract quickly and use short bursts of energy (fast-twitch muscles).",
+      "location": "Cleveland Clinic — Muscle"
+    },
+    {
+      "id": "f10",
+      "kind": "claim",
+      "statement": "Kasların hareketlerini beyin ve sinir sistemi düzenler ve kontrol eder.",
+      "numbers": [],
+      "quote": "The movements your muscles make are coordinated and controlled by the brain and nervous system.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f11",
+      "kind": "claim",
+      "statement": "Hiç kıpırdamadan otururken bile vücudumuzdaki kaslar sürekli hareket eder.",
+      "numbers": [],
+      "quote": "Even when we sit perfectly still, muscles throughout the body are constantly moving.",
+      "location": "Nemours KidsHealth — Bones, Muscles & Joints"
+    },
+    {
+      "id": "f12",
+      "kind": "claim",
+      "statement": "Egzersizden önce esneme ve ısınma kas sakatlıklarını önlemenin en iyi yoludur.",
+      "numbers": [],
+      "quote": "Stretching and warming up before exercise or physical activity are the best ways to prevent muscle injuries.",
+      "location": "Cleveland Clinic — Muscle"
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "paperId": "topic:asilar-nasil-calisir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Aşılar nasıl çalışır?",
+        "emoji": "💉"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1"
+      ],
+      "stickers": [
+        "🦠",
+        "🛡️"
+      ],
+      "keywords": [
+        "MİKROPLAR HER YERDE",
+        "ÖNCEDEN HAZIRLIK?",
+        "SAVUNMA ORDUSU"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Vücut mikroplarla nasıl savaşır?",
+          "Aşının içinde ne var?",
+          "Aşı neden başkalarını da korur?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Patojen",
+        "emoji": "🦠",
+        "chips": [
+          {
+            "label": "Bakteri",
+            "emoji": "🦠"
+          },
+          {
+            "label": "Virüs",
+            "emoji": "🧬"
+          },
+          {
+            "label": "Antijen: kimlik kartı",
+            "emoji": "🪪"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2",
+        "f3"
+      ],
+      "stickers": [
+        "🦠",
+        "🪪"
+      ],
+      "keywords": [
+        "PATOJEN",
+        "ANTİJEN 🪪"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l8",
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Savunma başlıyor",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Antijen tanınır",
+            "emoji": "🔍"
+          },
+          {
+            "label": "Antikor üretilir",
+            "emoji": "🛡️"
+          },
+          {
+            "label": "Her antikor tek hedef",
+            "emoji": "🎯"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🛡️",
+        "💻"
+      ],
+      "keywords": [
+        "ANTİKOR = ASKER",
+        "TEK HEDEF 🎯",
+        "ANTİVİRÜS 💻"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Hafıza hücreleri",
+        "left": {
+          "title": "İlk karşılaşma 🐢",
+          "items": [
+            "Vücut tanımayı öğrenir"
+          ]
+        },
+        "right": {
+          "title": "İkinci karşılaşma ⚡",
+          "items": [
+            "Çok daha hızlı",
+            "Çok daha etkili"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🧠",
+        "⚡"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "HAFIZA HÜCRESİ",
+        "HATIRLAR!"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Aşının içinde",
+        "emoji": "💉",
+        "chips": [
+          {
+            "label": "Zayıflatılmış ya da etkisiz parçalar",
+            "emoji": "🧩"
+          },
+          {
+            "label": "Ya da plan: DNA veya RNA",
+            "emoji": "📜"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "🧩",
+        "📜"
+      ],
+      "keywords": [
+        "ANTİJEN",
+        "DNA • RNA"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16",
+        "l17"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Aşı tatbikatı",
+        "rows": [
+          {
+            "label": "Aşı enfeksiyonu taklit eder",
+            "emoji": "🎭"
+          },
+          {
+            "label": "Savunma harekete geçer",
+            "emoji": "🛡️"
+          },
+          {
+            "label": "Vücut tehlikesizce öğrenir",
+            "emoji": "🎓"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "highlightRow": 2,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "keywords": [
+        "TAKLİT",
+        "TATBİKAT",
+        "KAPATMA DÜĞMESİ? 😅"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l18",
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Bağışıklık gelişiyor",
+        "label": "Koruma",
+        "emoji": "🛡️",
+        "phases": [
+          {
+            "label": "Bazı aşılar birden çok doz",
+            "level": 0.4,
+            "emoji": "💉"
+          },
+          {
+            "label": "Haftalar içinde gelişir",
+            "level": 0.75,
+            "emoji": "📅"
+          },
+          {
+            "label": "Bir iki gün yorgunluk olabilir",
+            "level": 0.8,
+            "emoji": "😴"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9",
+        "f10",
+        "f11"
+      ],
+      "stickers": [
+        "📅",
+        "😴"
+      ],
+      "keywords": [
+        "DOZLAR",
+        "HAFTALAR",
+        "NORMAL BİR YANIT"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Sürü bağışıklığı",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Çok kişi aşılanır",
+            "emoji": "👨‍👩‍👧‍👦"
+          },
+          {
+            "label": "Patojen yayılamaz",
+            "emoji": "🚫"
+          },
+          {
+            "label": "Aşılanamayanlar da korunur",
+            "emoji": "👶"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "👶",
+        "🛡️"
+      ],
+      "keywords": [
+        "SÜRÜ BAĞIŞIKLIĞI",
+        "ÇEVRENİ KORU"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: domino zinciri",
+        "items": [
+          "Domino taşlarını sıraya diz",
+          "İlkini devir, hepsi düşer",
+          "Aradan bazı taşları çıkar",
+          "Zincir duruyor mu?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🁢",
+        "🛑"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "ZİNCİR DURDU!"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "limitations",
+      "lineIds": [
+        "l25"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "1980",
+        "label": "Çiçek hastalığının yok edildiği onaylandı",
+        "sub": "Dünya Sağlık Örgütü",
+        "icon": "🌍"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🌍",
+        "💉"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Mikrobu hatırlayan hücrelere ne denir?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5"
+      ],
+      "stickers": [
+        "🧠",
+        "🛡️"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "HAFIZA HÜCRELERİ ✅"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l28"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s14",
+      "section": "summary",
+      "lineIds": [
+        "l29",
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

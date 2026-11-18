@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Savunma Ordusu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Patojen geldi, kapıyı çaldı",
+          "start": 5.15,
+          "end": 8.87
+        },
+        {
+          "text": "Antijen gösterdi kimliğini",
+          "start": 8.87,
+          "end": 12.58
+        },
+        {
+          "text": "Antikor askerler hazır bekler",
+          "start": 12.58,
+          "end": 16.3
+        },
+        {
+          "text": "Her biri tanır tek hedefini",
+          "start": 16.3,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Hatırla, hatırla, hafıza hücresi!",
+          "start": 20.17,
+          "end": 23.63
+        },
+        {
+          "text": "İkinci sefer daha hızlı",
+          "start": 23.63,
+          "end": 26.35
+        },
+        {
+          "text": "Aşı bir tatbikat, tehlikesiz",
+          "start": 26.35,
+          "end": 29.32
+        },
+        {
+          "text": "Vücudum öğrenir kendini korumayı",
+          "start": 29.32,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Zayıf parçalar, ya da bir plan",
+          "start": 33.18,
+          "end": 36.73
+        },
+        {
+          "text": "Bazen bir doz, bazen birkaç",
+          "start": 36.73,
+          "end": 39.96
+        },
+        {
+          "text": "Çok kişi korununca zincir kopar",
+          "start": 39.96,
+          "end": 44.16
+        },
+        {
+          "text": "Aşılanamayan da korunur",
+          "start": 44.16,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Hatırla, hatırla, hafıza hücresi!",
+          "start": 48.19,
+          "end": 52.19
+        },
+        {
+          "text": "İkinci sefer daha hızlı",
+          "start": 52.19,
+          "end": 55.33
+        },
+        {
+          "text": "Domino diz, zinciri durdur",
+          "start": 55.33,
+          "end": 58.48
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.48,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

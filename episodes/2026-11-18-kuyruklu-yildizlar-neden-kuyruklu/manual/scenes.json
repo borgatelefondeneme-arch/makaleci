@@ -1,0 +1,551 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Kuyruklu yıldızlar neden kuyruklu?",
+    "emoji": "☄️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1"
+   ],
+   "stickers": [
+    "✨",
+    "🌌"
+   ],
+   "keywords": [
+    "YILDIZ DEĞİL!",
+    "KUYRUK NEREDEN?",
+    "BUZLU GEZGİNLER"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Kuyruklu yıldız neden yapılır?",
+     "Kuyruğu nasıl oluşur?",
+     "Nereden gelir?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kozmik kartopu",
+    "emoji": "☄️",
+    "chips": [
+     {
+      "label": "Toz ve buz",
+      "emoji": "🧊"
+     },
+     {
+      "label": "Kaya ve donmuş gaz",
+      "emoji": "🪨"
+     },
+     {
+      "label": "Çekirdek: 16 km'den küçük",
+      "emoji": "🏘️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2"
+   ],
+   "stickers": [
+    "🧊",
+    "⛄"
+   ],
+   "keywords": [
+    "KOZMİK KARTOPU",
+    "ÇEKİRDEK",
+    "KARTOPU SAVAŞI? ⛄"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "finding",
+   "lineIds": [
+    "l9",
+    "l10"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Güneş'e yaklaşınca",
+    "label": "Isı",
+    "emoji": "☀️",
+    "phases": [
+     {
+      "label": "Isınmaya başlar",
+      "level": 0.5,
+      "emoji": "🌡️"
+     },
+     {
+      "label": "Buz gaza döner, koma oluşur",
+      "level": 0.9,
+      "emoji": "💨"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f3",
+    "f4"
+   ],
+   "stickers": [
+    "☀️",
+    "💨"
+   ],
+   "keywords": [
+    "ISINIR",
+    "KOMA"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l11",
+    "l12",
+    "l13"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "İki kuyruk",
+    "left": {
+     "title": "Toz kuyruğu 🤍",
+     "items": [
+      "Beyaz görünür",
+      "Geniş, kıvrılan yol"
+     ]
+    },
+    "right": {
+     "title": "İyon kuyruğu 💙",
+     "items": [
+      "Her zaman Güneş'in tersine",
+      "Güneş'e yaklaştıkça uzar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "fx": "sparkle",
+   "stickers": [
+    "☄️",
+    "☀️"
+   ],
+   "keywords": [
+    "İKİ KUYRUK",
+    "TOZ KUYRUĞU",
+    "İYON KUYRUĞU"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l14"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Güneş'in tersine",
+    "label": "Kuyruk arkada değil, Güneş'in tersinde durur",
+    "sub": "NASA",
+    "icon": "🧭"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "🧞",
+    "☀️"
+   ],
+   "keywords": [
+    "CİN KUYRUĞU 🧞"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "importance",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Kuyruklu yıldızların evi",
+    "rows": [
+     {
+      "label": "Güneş",
+      "emoji": "☀️"
+     },
+     {
+      "label": "Neptün",
+      "emoji": "🔵"
+     },
+     {
+      "label": "Kuiper Kuşağı",
+      "emoji": "🪐"
+     },
+     {
+      "label": "Oort Bulutu",
+      "emoji": "🌫️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 2,
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "keywords": [
+    "KUİPER KUŞAĞI",
+    "OORT BULUTU"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l17"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "250.000 yıl",
+    "label": "En uzun yörüngeli kuyruklu yıldızın bir turu (en az)",
+    "sub": "NASA",
+    "icon": "⏳"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "⏳",
+    "🌌"
+   ],
+   "keywords": [
+    "UZUN YOLCULUK"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Halley Kuyruklu Yıldızı",
+    "left": {
+     "title": "Geçmiş 👀",
+     "items": [
+      "1986: son görülme"
+     ]
+    },
+    "right": {
+     "title": "Gelecek 🎉",
+     "items": [
+      "2061: dönüş",
+      "Ortalama 76 yılda bir"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "stickers": [
+    "🔧",
+    "☄️"
+   ],
+   "keywords": [
+    "76 YIL",
+    "GÜNCELLENEN MUMA 🔧"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l20",
+    "l21"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Halley'in izleri",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Buz ve kaya püskürtür",
+      "emoji": "💥"
+     },
+     {
+      "label": "Mayıs: Eta Akuaridler",
+      "emoji": "🌠"
+     },
+     {
+      "label": "Ekim: Orionidler",
+      "emoji": "🌠"
+     },
+     {
+      "label": "Rosetta: yakından inceleme",
+      "emoji": "🛰️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "fx": "meteor",
+   "stickers": [
+    "🌠",
+    "🛰️"
+   ],
+   "keywords": [
+    "METEOR YAĞMURU",
+    "ROSETTA 🛰️"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "importance",
+   "lineIds": [
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: meteor say",
+    "items": [
+     "Ekim'de, bir yetişkinle",
+     "Şehir ışıklarından uzak dur",
+     "Sırt üstü uzan, gökyüzünü izle",
+     "Gündüz Güneş'e asla bakma!"
+    ],
+    "tone": "caution"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9"
+   ],
+   "stickers": [
+    "🌠",
+    "🌙"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "GÜNEŞ'E BAKMA ⚠️"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l24"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Stardust",
+    "emoji": "🧪",
+    "chips": [
+     {
+      "label": "Kuyruklu yıldızdan örnek",
+      "emoji": "🛰️"
+     },
+     {
+      "label": "Hidrokarbonlarca zengin",
+      "emoji": "🧬"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f11"
+   ],
+   "stickers": [
+    "🧪",
+    "🛰️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l25",
+    "l26"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "İyon kuyruğu hangi yöne bakar?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "☄️",
+    "☀️"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "GÜNEŞ'İN TERSİNE ✅"
+   ]
+  },
+  {
+   "id": "s14",
+   "section": "limitations",
+   "lineIds": [
+    "l27"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s15",
+   "section": "summary",
+   "lineIds": [
+    "l28",
+    "l29",
+    "l30"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

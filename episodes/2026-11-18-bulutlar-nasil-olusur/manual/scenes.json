@@ -1,0 +1,524 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "section": "hook",
+   "lineIds": [
+    "l1",
+    "l2",
+    "l3"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Bulutlar nasıl oluşur?",
+    "emoji": "☁️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f6"
+   ],
+   "stickers": [
+    "💧",
+    "🌤️"
+   ],
+   "keywords": [
+    "PAMUK GİBİ",
+    "NEREDEN GELİR?",
+    "YUKARI!"
+   ]
+  },
+  {
+   "id": "s2",
+   "section": "context",
+   "lineIds": [
+    "l4",
+    "l5"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Bugünün soruları",
+    "items": [
+     "Bulut neyden yapılır?",
+     "Nasıl oluşur?",
+     "Neden beyaz ya da karanlık?"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [],
+   "stickers": [
+    "❓",
+    "📖"
+   ],
+   "keywords": [
+    "ÜÇ SORU",
+    "SÖZLÜK AÇIKLAMADA 📖"
+   ]
+  },
+  {
+   "id": "s3",
+   "section": "method",
+   "lineIds": [
+    "l6",
+    "l7",
+    "l8"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Bulut",
+    "emoji": "☁️",
+    "chips": [
+     {
+      "label": "Minik su damlacıkları",
+      "emoji": "💧"
+     },
+     {
+      "label": "ya da buz kristalleri",
+      "emoji": "❄️"
+     },
+     {
+      "label": "Görünmez su buharı",
+      "emoji": "👻"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "stickers": [
+    "💧",
+    "❄️"
+   ],
+   "keywords": [
+    "DAMLACIK",
+    "SU BUHARI",
+    "DOYGUN HAVA"
+   ]
+  },
+  {
+   "id": "s4",
+   "section": "method",
+   "lineIds": [
+    "l9",
+    "l10",
+    "l11"
+   ],
+   "visual": {
+    "type": "meter",
+    "title": "Hava ne kadar su tutar?",
+    "label": "Su buharı",
+    "emoji": "💧",
+    "phases": [
+     {
+      "label": "Havada görünmez su buharı",
+      "level": 0.45,
+      "emoji": "👻"
+     },
+     {
+      "label": "Hava yükselir, soğur",
+      "level": 0.8,
+      "emoji": "⬆️"
+     },
+     {
+      "label": "Sünger sıkılır: doygun!",
+      "level": 1.0,
+      "emoji": "🧽"
+     }
+    ],
+    "note": "Şematik çizim; ölçekli değildir."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f4"
+   ],
+   "stickers": [
+    "🧽",
+    "🌡️"
+   ],
+   "keywords": [
+    "DOYGUNUM 😄",
+    "YÜKSELİR VE SOĞUR",
+    "SÜNGER"
+   ]
+  },
+  {
+   "id": "s5",
+   "section": "finding",
+   "lineIds": [
+    "l12",
+    "l13",
+    "l14"
+   ],
+   "visual": {
+    "type": "stages",
+    "title": "Bulutun doğuşu",
+    "rows": [
+     {
+      "label": "Su buharı yoğuşur",
+      "emoji": "💨"
+     },
+     {
+      "label": "Toz zerresine tutunur",
+      "emoji": "🟤"
+     },
+     {
+      "label": "Minik damlacık",
+      "emoji": "💧"
+     },
+     {
+      "label": "Havada asılı kalır",
+      "emoji": "☁️"
+     }
+    ],
+    "path": [
+     0,
+     0,
+     1,
+     1,
+     2,
+     2,
+     3,
+     3
+    ],
+    "highlightRow": 3,
+    "note": "Şematik çizim."
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5",
+    "f6"
+   ],
+   "keywords": [
+    "YOĞUŞMA",
+    "YOĞUŞMA ÇEKİRDEĞİ",
+    "MİNİCİK!"
+   ]
+  },
+  {
+   "id": "s6",
+   "section": "finding",
+   "lineIds": [
+    "l15",
+    "l16"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Milimetrenin yüzde biri",
+    "label": "Bir bulut damlacığının çapı",
+    "sub": "Met Office",
+    "icon": "💧"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6"
+   ],
+   "stickers": [
+    "🔬",
+    "🧞"
+   ],
+   "keywords": [
+    "ASILI KALIR",
+    "UÇAN MUMA 🧞"
+   ]
+  },
+  {
+   "id": "s7",
+   "section": "importance",
+   "lineIds": [
+    "l17",
+    "l18",
+    "l19"
+   ],
+   "visual": {
+    "type": "comparison",
+    "title": "Bulut türleri",
+    "left": {
+     "title": "Stratus 🌫️",
+     "items": [
+      "Yatay ve katmanlı",
+      "Battaniye gibi örter"
+     ]
+    },
+    "right": {
+     "title": "Kümülüs ☁️",
+     "items": [
+      "Büyük ve topaklı",
+      "12.000 metreye kadar"
+     ]
+    }
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f7"
+   ],
+   "stickers": [
+    "🌫️",
+    "☁️"
+   ],
+   "keywords": [
+    "ÜÇ TÜR",
+    "STRATUS",
+    "KÜMÜLÜS"
+   ]
+  },
+  {
+   "id": "s8",
+   "section": "importance",
+   "lineIds": [
+    "l20"
+   ],
+   "visual": {
+    "type": "spotlight",
+    "title": "Kümülonimbus",
+    "emoji": "⛈️",
+    "chips": [
+     {
+      "label": "Fırtına bulutu",
+      "emoji": "🌩️"
+     },
+     {
+      "label": "Yağmur, gök gürültüsü, şimşek",
+      "emoji": "⚡"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f8"
+   ],
+   "fx": "flash",
+   "stickers": [
+    "⚡",
+    "🌧️"
+   ],
+   "keywords": [
+    "FIRTINA BULUTU ⛈️"
+   ]
+  },
+  {
+   "id": "s9",
+   "section": "importance",
+   "lineIds": [
+    "l21",
+    "l22",
+    "l23"
+   ],
+   "visual": {
+    "type": "diagram",
+    "title": "Beyazdan yağmura",
+    "layout": "flow",
+    "nodes": [
+     {
+      "label": "Sıkı dizilmiş damlacık: beyaz",
+      "emoji": "☁️"
+     },
+     {
+      "label": "Topaklanır: kararır",
+      "emoji": "🌥️"
+     },
+     {
+      "label": "Büyür ve düşer: yağış",
+      "emoji": "🌧️"
+     }
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f9",
+    "f10"
+   ],
+   "fx": "rain",
+   "stickers": [
+    "🌧️",
+    "☂️"
+   ],
+   "keywords": [
+    "BEYAZ",
+    "KARARIR",
+    "YAĞIŞ"
+   ]
+  },
+  {
+   "id": "s10",
+   "section": "importance",
+   "lineIds": [
+    "l24",
+    "l25"
+   ],
+   "visual": {
+    "type": "bullets",
+    "title": "Sen de dene: soğuk bardak",
+    "items": [
+     "Buzdolabından soğuk bir bardak al",
+     "Masaya koy, birkaç dakika bekle",
+     "Dışında damlacık var mı?",
+     "Yoğuşmayı gördün!"
+    ]
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f2",
+    "f4",
+    "f5"
+   ],
+   "stickers": [
+    "🥛",
+    "💧"
+   ],
+   "keywords": [
+    "DENEY ZAMANI 🔬",
+    "YOĞUŞMA!"
+   ]
+  },
+  {
+   "id": "s11",
+   "section": "limitations",
+   "lineIds": [
+    "l26"
+   ],
+   "visual": {
+    "type": "big-number",
+    "value": "Asılı",
+    "label": "Bulut damlacıkları büyüyene kadar havada kalır",
+    "sub": "Met Office · National Geographic",
+    "icon": "☁️"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f6",
+    "f10"
+   ],
+   "stickers": [
+    "🌧️",
+    "☁️"
+   ],
+   "keywords": [
+    "BUNU BİLİYOR MUYDUN?"
+   ]
+  },
+  {
+   "id": "s12",
+   "section": "limitations",
+   "lineIds": [
+    "l27",
+    "l28"
+   ],
+   "visual": {
+    "type": "hook",
+    "question": "Gazdan sıvıya dönmeye ne denir?",
+    "emoji": "🤔"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": [
+    "f5"
+   ],
+   "stickers": [
+    "💨",
+    "💧"
+   ],
+   "keywords": [
+    "HIZLI SORU!",
+    "YOĞUŞMA ✅"
+   ]
+  },
+  {
+   "id": "s13",
+   "section": "limitations",
+   "lineIds": [
+    "l29"
+   ],
+   "visual": {
+    "type": "song"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  },
+  {
+   "id": "s14",
+   "section": "summary",
+   "lineIds": [
+    "l30",
+    "l31",
+    "l32"
+   ],
+   "visual": {
+    "type": "outro"
+   },
+   "mascot": {
+    "state": "talk",
+    "x": 0.87,
+    "y": 0.54,
+    "scale": 1.15
+   },
+   "factIds": []
+  }
+ ]
+}

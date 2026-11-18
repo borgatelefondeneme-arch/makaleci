@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Ay'ın Dansı",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Ay gökte çeker okyanusu",
+          "start": 5.15,
+          "end": 8.96
+        },
+        {
+          "text": "Yakın taraf kabarır önce",
+          "start": 8.96,
+          "end": 12.76
+        },
+        {
+          "text": "Uzak taraf da kabarır",
+          "start": 12.76,
+          "end": 16.21
+        },
+        {
+          "text": "Dünya döner, kıyılar geçer",
+          "start": 16.21,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Gel, git, gel, git, deniz!",
+          "start": 20.17,
+          "end": 22.95
+        },
+        {
+          "text": "Günde iki kez kabarır",
+          "start": 22.95,
+          "end": 26.42
+        },
+        {
+          "text": "Yüksek gelgit, alçak gelgit",
+          "start": 26.42,
+          "end": 29.9
+        },
+        {
+          "text": "Ay'ın dansına uyar",
+          "start": 29.9,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Güneş de çeker biraz uzaktan",
+          "start": 33.18,
+          "end": 37.05
+        },
+        {
+          "text": "Birleşince bahar gelgiti",
+          "start": 37.05,
+          "end": 40.61
+        },
+        {
+          "text": "Dik açıda kocakarı gelgiti",
+          "start": 40.61,
+          "end": 44.81
+        },
+        {
+          "text": "Havuzlarda yengeç bekler",
+          "start": 44.81,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Gel, git, gel, git, deniz!",
+          "start": 48.19,
+          "end": 51.05
+        },
+        {
+          "text": "Günde iki kez kabarır",
+          "start": 51.05,
+          "end": 54.62
+        },
+        {
+          "text": "Taşı koy, suyu izle",
+          "start": 54.62,
+          "end": 57.83
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 57.83,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

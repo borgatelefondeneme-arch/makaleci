@@ -1,0 +1,139 @@
+{
+ "paperId": "topic:asilar-nasil-calisir",
+ "basis": "full_text",
+ "institutions": [],
+ "sources": [
+  {
+   "id": "k1",
+   "title": "How do vaccines work?",
+   "publisher": "Dünya Sağlık Örgütü",
+   "url": "https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
+  },
+  {
+   "id": "k2",
+   "title": "Explaining How Vaccines Work",
+   "publisher": "CDC",
+   "url": "https://www.cdc.gov/vaccines/basics/explaining-how-vaccines-work.html"
+  }
+ ],
+ "facts": [
+  {
+   "id": "f1",
+   "kind": "claim",
+   "statement": "Mikroplar hem çevremizde hem vücudumuzda, her yerdedir.",
+   "numbers": [],
+   "quote": "Germs are all around us, both in our environment and in our bodies.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f2",
+   "kind": "claim",
+   "statement": "Patojen, vücutta hastalığa yol açabilen bir bakteri, virüs, parazit ya da mantardır.",
+   "numbers": [],
+   "quote": "A pathogen is a bacterium, virus, parasite or fungus that can cause disease within the body.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f3",
+   "kind": "claim",
+   "statement": "Patojenin antikor oluşumuna yol açan parçasına antijen denir.",
+   "numbers": [],
+   "quote": "The subpart of a pathogen that causes the formation of antibodies is called an antigen.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f4",
+   "kind": "claim",
+   "statement": "Antikorlar vücudun savunma sistemindeki askerler gibidir; her antikor tek bir belirli antijeni tanımak üzere eğitilmiştir.",
+   "numbers": [],
+   "quote": "You can consider antibodies as the soldiers in your body’s defense system. / Each antibody, or soldier, in our system is trained to recognize one specific antigen.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f5",
+   "kind": "claim",
+   "statement": "Patojen antikorlarca yenildikten sonra da hayatta kalan hafıza hücreleri oluşur; aynı patojenle yeniden karşılaşınca antikor yanıtı ilk seferden çok daha hızlı ve etkili olur.",
+   "numbers": [],
+   "quote": "memory cells, which remain alive even after the pathogen is defeated by the antibodies. / the antibody response is much faster and more effective than the first time around",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f6",
+   "kind": "claim",
+   "statement": "Aşılar belirli bir organizmanın zayıflatılmış ya da etkisiz parçalarını (antijen) içerir; yeni aşılar antijenin kendisi yerine onu üretmenin planını (DNA ya da RNA) içerir.",
+   "numbers": [],
+   "quote": "Vaccines contain weakened or inactive parts of a particular organism (antigen) / Newer vaccines contain the blueprint for producing antigens (DNA or RNA) rather than the antigen itself.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f7",
+   "kind": "claim",
+   "statement": "Aşılar bir enfeksiyonu taklit ederek vücudun doğal savunmasını harekete geçirir; vücudun, tam bir enfeksiyonun tehlikeleri olmadan kendini korumayı öğrenmesine yardım eder.",
+   "numbers": [],
+   "quote": "Vaccines work by imitating an infection to engage the body’s natural defenses. / Vaccines help the body learn how to defend itself from disease without the dangers of a full-blown infection.",
+   "location": "CDC — Explaining How Vaccines Work"
+  },
+  {
+   "id": "f8",
+   "kind": "claim",
+   "statement": "Akyuvarlar kemik iliğinde üretilir ama vücudun her yerine az sayıda dağılır.",
+   "numbers": [],
+   "quote": "White blood cells are created in the bone marrow but dispersed throughout the body in low numbers",
+   "location": "CDC — Explaining How Vaccines Work"
+  },
+  {
+   "id": "f9",
+   "kind": "claim",
+   "statement": "Bazı aşılar haftalar ya da aylar arayla birden çok doz gerektirir; bu, uzun ömürlü antikorların ve hafıza hücrelerinin gelişmesi için gerekebilir.",
+   "numbers": [],
+   "quote": "Some vaccines require multiple doses, given weeks or months apart. / This is sometimes needed to allow for the production of long-lived antibodies and development of memory cells.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f10",
+   "kind": "claim",
+   "statement": "Bağışıklığın gelişmesi aşıdan sonra haftalar sürebilir.",
+   "numbers": [],
+   "quote": "Because immunity can take weeks to develop after vaccination",
+   "location": "CDC — Explaining How Vaccines Work"
+  },
+  {
+   "id": "f11",
+   "kind": "claim",
+   "statement": "Aşıya verilen bağışıklık yanıtı bir iki gün yorgunluk ve rahatsızlık yapabilir.",
+   "numbers": [],
+   "quote": "The immune response to a vaccine might cause tiredness and discomfort for a day or two",
+   "location": "CDC — Explaining How Vaccines Work"
+  },
+  {
+   "id": "f12",
+   "kind": "claim",
+   "statement": "Bir toplulukta çok kişi aşılanınca patojen yayılmakta zorlanır; buna sürü bağışıklığı denir; aşılanmak yalnızca kişinin kendisini değil, aşılanamayanları da korur.",
+   "numbers": [],
+   "quote": "When a lot of people in a community are vaccinated, the pathogen has a hard time circulating / This is called herd immunity. / Vaccinating not only protects yourself but also protects those in the community who are unable to be vaccinated.",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f13",
+   "kind": "number",
+   "statement": "Çiçek hastalığının yok edildiği, küresel aşılama ve gözetim çalışmalarının ardından 1980'de Dünya Sağlık Örgütü tarafından onaylandı.",
+   "numbers": [
+    "1980"
+   ],
+   "quote": "certified by WHO in 1980 after global vaccination and surveillance efforts",
+   "location": "World Health Organization — How do vaccines work?"
+  },
+  {
+   "id": "f14",
+   "kind": "number",
+   "statement": "2000 ile 2023 arasında kızamık aşılamasının tahminen 60 milyon ölümü önlediği hesaplanıyor.",
+   "numbers": [
+    "2000",
+    "2023",
+    "60"
+   ],
+   "quote": "Between 2000 and 2023, measles vaccination prevented an estimated 60 million deaths.",
+   "location": "World Health Organization — How do vaccines work?"
+  }
+ ]
+}

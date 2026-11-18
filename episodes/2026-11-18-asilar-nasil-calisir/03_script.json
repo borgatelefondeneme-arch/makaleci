@@ -1,0 +1,438 @@
+{
+  "paperId": "topic:asilar-nasil-calisir",
+  "episodeNumber": 38,
+  "videoTitle": "Aşılar nasıl çalışır?",
+  "paperTitleTr": "Aşılar nasıl çalışır?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Dünya Sağlık Örgütü'ne göre mikroplar her yerde: çevremizde ve hatta vücudumuzda. Peki vücudun onlarla nasıl başa çıkar?",
+          "spoken": "Dünya Sağlık Örgütü'ne göre mikroplar her yerde: çevremizde ve hatta vücudumuzda. Peki vücudun onlarla nasıl başa çıkar?",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Hiç karşılaşmadığın bir hastalığa karşı önceden hazırlanmak mümkün mü?",
+          "spoken": "Hiç karşılaşmadığın bir hastalığa karşı önceden hazırlanmak mümkün mü?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün vücudunun savunma ordusunu ve aşıların onu nasıl eğittiğini keşfediyoruz!",
+          "spoken": "Bugün vücudunun savunma ordusunu ve aşıların onu nasıl eğittiğini keşfediyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Vücudun mikroplarla nasıl savaşır? Aşı içinde ne vardır? Ve aşı neden başkalarını da korur?",
+          "spoken": "Üç sorumuz var. Vücudun mikroplarla nasıl savaşır? Aşı içinde ne vardır? Ve aşı neden başkalarını da korur?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "Hastalığa yol açabilen bakteri, virüs, parazit ya da mantarlara patojen denir.",
+          "spoken": "Hastalığa yol açabilen bakteri, virüs, parazit ya da mantarlara patojen denir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Her patojenin üzerinde antijen denen bir parça vardır. Antijen, vücudunun 'Bu bir yabancı!' diye tanıdığı kimlik kartı gibidir.",
+          "spoken": "Her patojenin üzerinde antijen denen bir parça vardır. Antijen, vücudunun 'Bu bir yabancı!' diye tanıdığı kimlik kartı gibidir.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Vücudun antijeni tanıyınca antikor üretir. Dünya Sağlık Örgütü'ne göre antikorlar savunma sisteminin askerleri gibidir.",
+          "spoken": "Vücudun antijeni tanıyınca antikor üretir. Dünya Sağlık Örgütü'ne göre antikorlar savunma sisteminin askerleri gibidir.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Her antikor tek bir antijeni tanımak üzere eğitilmiştir. Yani her askerin tek bir hedefi vardır!",
+          "spoken": "Her antikor tek bir antijeni tanımak üzere eğitilmiştir. Yani her askerin tek bir hedefi vardır!",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Benim de bir savunma sistemim var: antivirüs programı. Ama o sadece bilgisayar virüslerini tanıyor!",
+          "spoken": "Benim de bir savunma sistemim var: antivirüs programı. Ama o sadece bilgisayar virüslerini tanıyor!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l11",
+          "display": "Savaş bitince bir şey daha olur: Hafıza hücreleri oluşur. Patojen yenildikten sonra da hayatta kalırlar.",
+          "spoken": "Savaş bitince bir şey daha olur: Hafıza hücreleri oluşur. Patojen yenildikten sonra da hayatta kalırlar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Aynı patojen bir daha gelirse, antikor yanıtı ilk seferden çok daha hızlı ve etkili olur. Vücudun onu hatırlar!",
+          "spoken": "Aynı patojen bir daha gelirse, antikor yanıtı ilk seferden çok daha hızlı ve etkili olur. Vücudun onu hatırlar!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "İşte aşıların sırrı bu hafızada. Aşılar, belirli bir mikrobun zayıflatılmış ya da etkisiz parçalarını, yani antijenlerini içerir.",
+          "spoken": "İşte aşıların sırrı bu hafızada. Aşılar, belirli bir mikrobun zayıflatılmış ya da etkisiz parçalarını, yani antijenlerini içerir.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Bazı yeni aşılar ise antijenin kendisini değil, onu üretmenin planını taşır: DNA ya da RNA.",
+          "spoken": "Bazı yeni aşılar ise antijenin kendisini değil, onu üretmenin planını taşır: DNA ya da RNA.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "CDC'ye göre aşılar bir enfeksiyonu taklit ederek vücudun doğal savunmasını harekete geçirir.",
+          "spoken": "Si Di Si'ye göre aşılar bir enfeksiyonu taklit ederek vücudun doğal savunmasını harekete geçirir.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Böylece vücudun, gerçek bir hastalığın tehlikeleri olmadan kendini korumayı öğrenir. Bir tatbikat gibi!",
+          "spoken": "Böylece vücudun, gerçek bir hastalığın tehlikeleri olmadan kendini korumayı öğrenir. Bir tatbikat gibi!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Ben de tatbikat yaparım: her sabah kendimi kapatıp açıyorum. Ama hâlâ kapatma düğmemi bulamadım!",
+          "spoken": "Ben de tatbikat yaparım: her sabah kendimi kapatıp açıyorum. Ama hâlâ kapatma düğmemi bulamadım!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l18",
+          "display": "Bazı aşılar haftalar ya da aylar arayla birden çok doz gerektirir.",
+          "spoken": "Bazı aşılar haftalar ya da aylar arayla birden çok doz gerektirir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Bu, uzun ömürlü antikorların ve hafıza hücrelerinin gelişmesi için gerekebilir. Bağışıklığın gelişmesi de haftalar sürebilir.",
+          "spoken": "Bu, uzun ömürlü antikorların ve hafıza hücrelerinin gelişmesi için gerekebilir. Bağışıklığın gelişmesi de haftalar sürebilir.",
+          "factIds": [
+            "f9",
+            "f10"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Aşıdan sonra bir iki gün biraz yorgun ya da rahatsız hissedebilirsin. CDC'ye göre bu, vücudunun bağışıklık yanıtıdır.",
+          "spoken": "Aşıdan sonra bir iki gün biraz yorgun ya da rahatsız hissedebilirsin. Si Di Si'ye göre bu, vücudunun bağışıklık yanıtıdır.",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Aşıların bir süper gücü daha var. Bir toplulukta çok kişi aşılanınca patojen yayılmakta zorlanır. Buna sürü bağışıklığı denir.",
+          "spoken": "Aşıların bir süper gücü daha var. Bir toplulukta çok kişi aşılanınca patojen yayılmakta zorlanır. Buna sürü bağışıklığı denir.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Böylece aşılanamayan insanlar da korunur. Aşı olmak sadece seni değil, çevreni de korur.",
+          "spoken": "Böylece aşılanamayan insanlar da korunur. Aşı olmak sadece seni değil, çevreni de korur.",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Şimdi sıra sende! Domino taşlarını sıraya diz ve ilkini devir. Hepsi birbirini devirir, değil mi?",
+          "spoken": "Şimdi sıra sende! Domino taşlarını sıraya diz ve ilkini devir. Hepsi birbirini devirir, değil mi?",
+          "factIds": [
+            "f12"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi aralardan bazı taşları çıkar ve tekrar dene. Zincir duruyor mu? Sürü bağışıklığı da yayılmayı böyle durdurur!",
+          "spoken": "Şimdi aralardan bazı taşları çıkar ve tekrar dene. Zincir duruyor mu? Sürü bağışıklığı da yayılmayı böyle durdurur!",
+          "factIds": [
+            "f12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l25",
+          "display": "Bunu biliyor muydun? Küresel aşılama çalışmalarından sonra, Dünya Sağlık Örgütü 1980'de çiçek hastalığının yok edildiğini onayladı!",
+          "spoken": "Bunu biliyor muydun? Küresel aşılama çalışmalarından sonra, Dünya Sağlık Örgütü bin dokuz yüz sekseninde çiçek hastalığının yok edildiğini onayladı!",
+          "factIds": [
+            "f13"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Hızlı soru! Bir mikrobu hatırlayıp ikinci seferde hızlı yanıt veren hücrelere ne denir?",
+          "spoken": "Hızlı soru! Bir mikrobu hatırlayıp ikinci seferde hızlı yanıt veren hücrelere ne denir?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Düşün bakalım... Evet: hafıza hücreleri!",
+          "spoken": "Düşün bakalım... Evet: hafıza hücreleri!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l29",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Abone olmayı ve zili açmayı unutma. Sağlıkla kal!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Sağlıkla kal!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Antikorlar antijenleri tanıyıp patojenlerle savaşır, hafıza hücreleri onları hatırlar",
+    "Aşılar zayıflatılmış ya da etkisiz antijenlerle vücudu tehlikesizce eğitir",
+    "Çok kişi aşılanınca sürü bağışıklığı aşılanamayanları da korur"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "micro",
+    "actors": [
+      {
+        "kind": "swim",
+        "emoji": "🦠",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Savunma Ordusu",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "🛡️",
+        "name": "Antikor"
+      },
+      {
+        "emoji": "🦠",
+        "name": "Patojen"
+      },
+      {
+        "emoji": "🪪",
+        "name": "Antijen"
+      },
+      {
+        "emoji": "🧠",
+        "name": "Hafıza"
+      },
+      {
+        "emoji": "💉",
+        "name": "Aşı"
+      }
+    ],
+    "show": [
+      {
+        "kind": "swim",
+        "emoji": "🦠"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🛡️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧠"
+      },
+      {
+        "kind": "swim",
+        "emoji": "🧬"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Patojen geldi, kapıyı çaldı",
+          "Antijen gösterdi kimliğini",
+          "Antikor askerler hazır bekler",
+          "Her biri tanır tek hedefini"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Hatırla, hatırla, hafıza hücresi!",
+          "İkinci sefer daha hızlı",
+          "Aşı bir tatbikat, tehlikesiz",
+          "Vücudum öğrenir kendini korumayı"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Zayıf parçalar, ya da bir plan",
+          "Bazen bir doz, bazen birkaç",
+          "Çok kişi korununca zincir kopar",
+          "Aşılanamayan da korunur"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Hatırla, hatırla, hafıza hücresi!",
+          "İkinci sefer daha hızlı",
+          "Domino diz, zinciri durdur",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Aşılar vücudumuzu hastalıklara karşı nasıl hazırlar? Bu bölümde patojenleri, antijenleri, antikorları ve hafıza hücrelerini; aşıların içinde ne olduğunu, neden bazen birden çok doz gerektiğini ve sürü bağışıklığını keşfediyoruz. Sonunda domino zinciri etkinliği ve konuyu özetleyen bir şarkı var. Sağlıkla ilgili kararlar için her zaman doktorunuza danışın.",
+  "glossary": [
+    {
+      "term": "Patojen",
+      "meaning": "Hastalığa yol açabilen bakteri, virüs, parazit ya da mantar."
+    },
+    {
+      "term": "Antijen",
+      "meaning": "Patojenin, vücudun tanıyıp antikor ürettiği parçası."
+    },
+    {
+      "term": "Antikor",
+      "meaning": "Belirli bir antijeni tanıyıp onunla savaşan savunma molekülü."
+    },
+    {
+      "term": "Hafıza hücresi",
+      "meaning": "Bir patojeni hatırlayıp ikinci karşılaşmada hızlı yanıt veren hücre."
+    },
+    {
+      "term": "Aşı",
+      "meaning": "Vücudu bir hastalığa karşı tehlikesizce eğiten hazırlık."
+    },
+    {
+      "term": "Doz",
+      "meaning": "Bir kerede verilen aşı ya da ilaç miktarı."
+    },
+    {
+      "term": "Sürü bağışıklığı",
+      "meaning": "Çok kişi aşılanınca hastalığın yayılamaması ve herkesin korunması."
+    }
+  ]
+}

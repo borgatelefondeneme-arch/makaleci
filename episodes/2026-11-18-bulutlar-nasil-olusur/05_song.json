@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Gökyüzü Pamuğu",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Görünmez buhar yükselir",
+          "start": 5.15,
+          "end": 8.46
+        },
+        {
+          "text": "Yükseldikçe soğur hava",
+          "start": 8.46,
+          "end": 11.76
+        },
+        {
+          "text": "Sünger sıkılır, doyar gökyüzü",
+          "start": 11.76,
+          "end": 15.72
+        },
+        {
+          "text": "Damlacık doğar bir toz zerresinde",
+          "start": 15.72,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Süzül, süzül, bulut süzül!",
+          "start": 20.17,
+          "end": 23.23
+        },
+        {
+          "text": "Minicik damlalar asılı kalır",
+          "start": 23.23,
+          "end": 27.21
+        },
+        {
+          "text": "Yoğuşma yapar seni",
+          "start": 27.21,
+          "end": 29.96
+        },
+        {
+          "text": "Gökyüzünün pamuğu sen",
+          "start": 29.96,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Stratus örter battaniye gibi",
+          "start": 33.18,
+          "end": 37.05
+        },
+        {
+          "text": "Kümülüs kabarır topak topak",
+          "start": 37.05,
+          "end": 40.93
+        },
+        {
+          "text": "Fırtına bulutu şimşek çakar",
+          "start": 40.93,
+          "end": 44.81
+        },
+        {
+          "text": "Kararınca yağmur başlar",
+          "start": 44.81,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Süzül, süzül, bulut süzül!",
+          "start": 48.19,
+          "end": 51.05
+        },
+        {
+          "text": "Minicik damlalar asılı kalır",
+          "start": 51.05,
+          "end": 54.76
+        },
+        {
+          "text": "Soğuk bardağa bak, damlaları gör",
+          "start": 54.76,
+          "end": 58.48
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.48,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}

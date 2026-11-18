@@ -1,0 +1,429 @@
+{
+  "paperId": "topic:kuyruklu-yildizlar-neden-kuyruklu",
+  "episodeNumber": 39,
+  "videoTitle": "Kuyruklu yıldızlar neden kuyruklu?",
+  "paperTitleTr": "Kuyruklu yıldızlar neden kuyruklu?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Gökyüzünde parlak bir baş ve arkasında upuzun bir kuyruk... Ama adında yıldız geçse de kuyruklu yıldız aslında bir yıldız değil!",
+          "spoken": "Gökyüzünde parlak bir baş ve arkasında upuzun bir kuyruk... Ama adında yıldız geçse de kuyruklu yıldız aslında bir yıldız değil!",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Peki o zaman ne? Ve o kuyruk nereden çıkıyor?",
+          "spoken": "Peki o zaman ne? Ve o kuyruk nereden çıkıyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün Güneş Sistemi'nin buzlu gezginlerinin peşine düşüyoruz!",
+          "spoken": "Bugün Güneş Sistemi'nin buzlu gezginlerinin peşine düşüyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Kuyruklu yıldız neden yapılır? Kuyruğu nasıl oluşur? Ve nereden gelir?",
+          "spoken": "Üç sorumuz var. Kuyruklu yıldız neden yapılır? Kuyruğu nasıl oluşur? Ve nereden gelir?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "NASA'ya göre kuyruklu yıldızlar, Güneş'in çevresinde dolanan, toz ve buzdan yapılmış cisimlerdir. Donmuş gazlardan, kayadan ve tozdan oluşan kozmik kartopları gibidirler.",
+          "spoken": "Nasa'ya göre kuyruklu yıldızlar, Güneş'in çevresinde dolanan, toz ve buzdan yapılmış cisimlerdir. Donmuş gazlardan, kayadan ve tozdan oluşan kozmik kartopları gibidirler.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Kuyruklu yıldızın merkezine çekirdek denir. Çekirdek genellikle 16 kilometreden küçüktür, yani küçük bir kasaba büyüklüğünde.",
+          "spoken": "Kuyruklu yıldızın merkezine çekirdek denir. Çekirdek genellikle on altı kilometreden küçüktür, yani küçük bir kasaba büyüklüğünde.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Bir kasaba büyüklüğünde kartopu! Ben olsam onunla kartopu savaşı yapmazdım.",
+          "spoken": "Bir kasaba büyüklüğünde kartopu! Ben olsam onunla kartopu savaşı yapmazdım.",
+          "factIds": [
+            "f2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l9",
+          "display": "Güneş'ten uzaktayken kuyruklu yıldız donmuş ve sessizdir. Ama Güneş'e yaklaşınca ısınmaya başlar.",
+          "spoken": "Güneş'ten uzaktayken kuyruklu yıldız donmuş ve sessizdir. Ama Güneş'e yaklaşınca ısınmaya başlar.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l10",
+          "display": "Isındıkça buzu gaza dönüşmeye başlar. Gaz ve toz, çekirdeğin çevresinde koma denen dev, bulanık bir bulut oluşturur.",
+          "spoken": "Isındıkça buzu gaza dönüşmeye başlar. Gaz ve toz, çekirdeğin çevresinde koma denen dev, bulanık bir bulut oluşturur.",
+          "factIds": [
+            "f3",
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "İşte şimdi kuyruklar ortaya çıkar! Kuyruklu yıldızın iki kuyruğu vardır ve Güneş'e yaklaştıkça uzarlar.",
+          "spoken": "İşte şimdi kuyruklar ortaya çıkar! Kuyruklu yıldızın iki kuyruğu vardır ve Güneş'e yaklaştıkça uzarlar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l12",
+          "display": "Birincisi toz kuyruğudur. Beyaz görünür ve Güneş'ten uzağa doğru geniş, hafifçe kıvrılan bir yol çizer.",
+          "spoken": "Birincisi toz kuyruğudur. Beyaz görünür ve Güneş'ten uzağa doğru geniş, hafifçe kıvrılan bir yol çizer.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "İkincisi iyon kuyruğudur. İyon kuyruğu her zaman doğrudan Güneş'in tersine bakar.",
+          "spoken": "İkincisi iyon kuyruğudur. İyon kuyruğu her zaman doğrudan Güneş'in tersine bakar.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Yani kuyruk, kuyruklu yıldızın arkasında değil, Güneş'in tersinde durur. Benim cin kuyruğum ise hep arkamda, ona güvenebilirim!",
+          "spoken": "Yani kuyruk, kuyruklu yıldızın arkasında değil, Güneş'in tersinde durur. Benim cin kuyruğum ise hep arkamda, ona güvenebilirim!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l15",
+          "display": "Peki kuyruklu yıldızlar nereden gelir? NASA'ya göre bazıları Neptün'ün yörüngesinin ötesindeki Kuiper Kuşağı'nda yaşar.",
+          "spoken": "Peki kuyruklu yıldızlar nereden gelir? Nasa'ya göre bazıları Neptün'ün yörüngesinin ötesindeki Kuiper Kuşağı'nda yaşar.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Bazıları ise Güneş Sistemi'nin dış kenarındaki küre biçimli Oort Bulutu'nda. Güneş'in çevresinde muhtemelen milyarlarca kuyruklu yıldız dolanıyor!",
+          "spoken": "Bazıları ise Güneş Sistemi'nin dış kenarındaki küre biçimli Oort Bulutu'nda. Güneş'in çevresinde muhtemelen milyarlarca kuyruklu yıldız dolanıyor!",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l17",
+          "display": "Bazılarının yolculuğu çok uzun sürer. Bilinen en uzun yörüngeli kuyruklu yıldız, Güneş'in çevresinde bir tur için 250.000 yıldan fazla zaman harcar!",
+          "spoken": "Bazılarının yolculuğu çok uzun sürer. Bilinen en uzun yörüngeli kuyruklu yıldız, Güneş'in çevresinde bir tur için iki yüz elli bin yıldan fazla zaman harcar!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "En ünlüsü Halley Kuyruklu Yıldızı'dır. Ortalama 76 yılda bir döner. En son 1986'da görüldü ve 2061'de geri gelecek.",
+          "spoken": "En ünlüsü Halley Kuyruklu Yıldızı'dır. Ortalama yetmiş altı yılda bir döner. En son bin dokuz yüz seksen altıda görüldü ve iki bin altmış birde geri gelecek.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "O zaman ben de burada olacağım. Robotlar yaşlanmaz, sadece güncellenir!",
+          "spoken": "O zaman ben de burada olacağım. Robotlar yaşlanmaz, sadece güncellenir!",
+          "factIds": []
+        },
+        {
+          "id": "l20",
+          "display": "Halley her dönüşünde uzaya buz ve kaya püskürtür. Bu döküntü her yıl iki meteor yağmuruna yol açar: Mayıs'ta Eta Akuaridler, Ekim'de Orionidler.",
+          "spoken": "Halley her dönüşünde uzaya buz ve kaya püskürtür. Bu döküntü her yıl iki meteor yağmuruna yol açar: Mayıs'ta Eta Akuaridler, Ekim'de Orionidler.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bilim insanları kuyruklu yıldızları yakından da inceledi. Rosetta aracı bir kuyruklu yıldızın çekirdeğine iniş aracı bıraktı ve iki yıl onun çevresinde dolandı.",
+          "spoken": "Bilim insanları kuyruklu yıldızları yakından da inceledi. Rosetta aracı bir kuyruklu yıldızın çekirdeğine iniş aracı bıraktı ve iki yıl onun çevresinde dolandı.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Şimdi sıra sende! Ekim'de Orionid meteor yağmuru zamanı, bir yetişkinle şehir ışıklarından uzak, karanlık bir yere git.",
+          "spoken": "Şimdi sıra sende! Ekim'de Orionid meteor yağmuru zamanı, bir yetişkinle şehir ışıklarından uzak, karanlık bir yere git.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Sırt üstü uzan, gözlerin karanlığa alışsın ve gökyüzünü izle. Gördüğün her kayan ışığı say! Gündüz asla Güneş'e doğrudan bakma.",
+          "spoken": "Sırt üstü uzan, gözlerin karanlığa alışsın ve gökyüzünü izle. Gördüğün her kayan ışığı say! Gündüz asla Güneş'e doğrudan bakma.",
+          "factIds": [
+            "f9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l24",
+          "display": "Bunu biliyor muydun? NASA'nın Stardust görevi bir kuyruklu yıldızdan örnek topladı. Bu parçacıklar, yaşamın yapı taşı sayılan hidrokarbonlarca zengin çıktı!",
+          "spoken": "Bunu biliyor muydun? Nasa'nın Stardust görevi bir kuyruklu yıldızdan örnek topladı. Bu parçacıklar, yaşamın yapı taşı sayılan hidrokarbonlarca zengin çıktı!",
+          "factIds": [
+            "f11"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Hızlı soru! İyon kuyruğu her zaman hangi yöne bakar?",
+          "spoken": "Hızlı soru! İyon kuyruğu her zaman hangi yöne bakar?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l26",
+          "display": "Düşün bakalım... Evet: Güneş'in tam tersine!",
+          "spoken": "Düşün bakalım... Evet: Güneş'in tam tersine!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l28",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l29",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l30",
+          "display": "Abone olmayı ve zili açmayı unutma. Gökyüzüne bakmayı da!",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Gökyüzüne bakmayı da!",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Kuyruklu yıldızlar toz, kaya ve donmuş gazdan oluşan kozmik kartoplarıdır",
+    "Güneş'e yaklaşınca buz gaza döner; koma ve Güneş'in tersine bakan iki kuyruk oluşur",
+    "Kuiper Kuşağı ve Oort Bulutu'ndan gelirler; Halley 2061'de dönecek"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "space",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🛰️",
+        "every": 34
+      }
+    ]
+  },
+  "song": {
+    "title": "Buzlu Gezgin",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☄️",
+        "name": "Kuyruklu yıldız"
+      },
+      {
+        "emoji": "🧊",
+        "name": "Buz"
+      },
+      {
+        "emoji": "☀️",
+        "name": "Güneş"
+      },
+      {
+        "emoji": "🌠",
+        "name": "Meteor"
+      },
+      {
+        "emoji": "🛰️",
+        "name": "Rosetta"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "☄️"
+      },
+      {
+        "kind": "orbit",
+        "emoji": "🛰️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌠"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🧊"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Uzaklarda donmuş bir kartopu",
+          "Kuiper'den, Oort'tan yola çıkar",
+          "Güneş'e yaklaşır, ısınır",
+          "Buzu gaza döner, koma açılır"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, buzlu gezgin, parla!",
+          "İki kuyruk süzülür ardında",
+          "Toz kuyruğu kıvrılır beyaz",
+          "İyon kuyruğu Güneş'in tersinde"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Halley döner yıllar sonra",
+          "Döküntüsü meteor olur",
+          "Mayıs'ta, Ekim'de kayar gökten",
+          "Rosetta indi, yakından baktı"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Parla, buzlu gezgin, parla!",
+          "İki kuyruk süzülür ardında",
+          "Karanlıkta uzan, meteor say",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Kuyruklu yıldızlar neden yapılır, kuyrukları nasıl oluşur? Bu bölümde çekirdeği, komayı, toz ve iyon kuyruklarını, Kuiper Kuşağı ile Oort Bulutu'nu, Halley Kuyruklu Yıldızı'nı ve bıraktığı meteor yağmurlarını, Rosetta ve Stardust görevlerini keşfediyoruz. Sonunda güvenli bir meteor gözlemi etkinliği ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Çekirdek",
+      "meaning": "Kuyruklu yıldızın toz ve buzdan oluşan katı merkezi."
+    },
+    {
+      "term": "Koma",
+      "meaning": "Çekirdeğin çevresinde gaz ve tozdan oluşan bulanık bulut."
+    },
+    {
+      "term": "İyon kuyruğu",
+      "meaning": "Her zaman Güneş'in tam tersine bakan gaz kuyruğu."
+    },
+    {
+      "term": "Kuiper Kuşağı",
+      "meaning": "Neptün'ün ötesinde, buzlu cisimlerin bulunduğu geniş disk."
+    },
+    {
+      "term": "Oort Bulutu",
+      "meaning": "Güneş Sistemi'nin dış kenarındaki küre biçimli buzlu cisimler bölgesi."
+    },
+    {
+      "term": "Meteor yağmuru",
+      "meaning": "Dünya bir kuyruklu yıldızın döküntüsünden geçerken gökte görülen kayan ışıklar."
+    },
+    {
+      "term": "Yörünge",
+      "meaning": "Bir cismin başka bir cismin çevresinde izlediği yol."
+    }
+  ]
+}

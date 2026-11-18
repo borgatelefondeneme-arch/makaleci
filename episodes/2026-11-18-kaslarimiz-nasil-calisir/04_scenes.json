@@ -1,0 +1,516 @@
+{
+  "paperId": "topic:kaslarimiz-nasil-calisir",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kaslarımız nasıl çalışır?",
+        "emoji": "💪"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6",
+        "f11"
+      ],
+      "stickers": [
+        "🏃",
+        "❤️"
+      ],
+      "keywords": [
+        "HEP HAREKETTE",
+        "KALP • GÖZ",
+        "MOTORLAR"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Kaç tür kasımız var?",
+          "Kaslar nasıl kasılır?",
+          "Neden çiftler halinde çalışırlar?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "600+",
+        "label": "Vücudundaki kas sayısı",
+        "sub": "Cleveland Clinic",
+        "icon": "💪"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1"
+      ],
+      "stickers": [
+        "💪",
+        "🤖"
+      ],
+      "keywords": [
+        "600'DEN FAZLA",
+        "MOTORLU MUMA 🤖"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l8"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Üç tür kas",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "İskelet kası",
+            "emoji": "🦵"
+          },
+          {
+            "label": "Düz kas",
+            "emoji": "🌀"
+          },
+          {
+            "label": "Kalp kası",
+            "emoji": "❤️"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f2"
+      ],
+      "stickers": [
+        "🦵",
+        "❤️"
+      ],
+      "keywords": [
+        "ÜÇ TÜR"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "method",
+      "lineIds": [
+        "l9",
+        "l10",
+        "l11"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "İskelet kası",
+        "emoji": "🦵",
+        "chips": [
+          {
+            "label": "Tendonla kemiğe bağlı",
+            "emoji": "🦴"
+          },
+          {
+            "label": "İstemli: sen kontrol edersin",
+            "emoji": "🎮"
+          },
+          {
+            "label": "Hızlı, güçlü ama çabuk yorulur",
+            "emoji": "⚡"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3",
+        "f4"
+      ],
+      "stickers": [
+        "🦴",
+        "🏋️"
+      ],
+      "keywords": [
+        "TENDON",
+        "İSTEMLİ",
+        "ÇABUK YORULUR"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l12",
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Düz kas ve kalp kası",
+        "left": {
+          "title": "Düz kas 🌀",
+          "items": [
+            "Organların içini kaplar",
+            "İstemsiz"
+          ]
+        },
+        "right": {
+          "title": "Kalp kası ❤️",
+          "items": [
+            "Kanı dışarı iter",
+            "Günde binlerce kez atar"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5",
+        "f6"
+      ],
+      "stickers": [
+        "🧠",
+        "❤️"
+      ],
+      "keywords": [
+        "DÜZ KAS",
+        "İSTEMSİZ",
+        "KALP KASI"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Kalp",
+        "label": "Kasılma",
+        "emoji": "❤️",
+        "phases": [
+          {
+            "label": "Senden izin almadan atar",
+            "level": 0.85,
+            "emoji": "💓"
+          },
+          {
+            "label": "Muma'nın fanı da döner",
+            "level": 0.4,
+            "emoji": "🌀"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "💓",
+        "🌀"
+      ],
+      "fx": "shake",
+      "keywords": [
+        "BİNLERCE ATIŞ",
+        "FAN 🌀"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l17",
+        "l18",
+        "l19"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Kas nasıl kasılır?",
+        "rows": [
+          {
+            "label": "Binlerce lif",
+            "emoji": "🧵"
+          },
+          {
+            "label": "Lifler kasılır: kas kısalır",
+            "emoji": "↔️"
+          },
+          {
+            "label": "Eklem çekilir: hareket!",
+            "emoji": "🦾"
+          }
+        ],
+        "path": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        "highlightRow": 1,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7",
+        "f9"
+      ],
+      "keywords": [
+        "KAS LİFLERİ",
+        "KASIL VE GEVŞE",
+        "HIZLI LİFLER"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l20",
+        "l21",
+        "l22"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "Kas çifti",
+        "layout": "cycle",
+        "nodes": [
+          {
+            "label": "Biseps kasılır: kol bükülür",
+            "emoji": "💪"
+          },
+          {
+            "label": "Triseps kasılır: kol açılır",
+            "emoji": "🦾"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8",
+        "f10"
+      ],
+      "stickers": [
+        "💪",
+        "🧠"
+      ],
+      "keywords": [
+        "ÇEKER, İTEMEZ!",
+        "BİSEPS • TRİSEPS",
+        "BEYİN YÖNETİR"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l23",
+        "l24"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: kasını hisset",
+        "items": [
+          "Elini üst kolunun önüne koy",
+          "Dirseğini bük: biseps sertleşir",
+          "Elini kolunun arkasına koy",
+          "Kolunu düzelt: triseps çalışır"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "💪",
+        "✋"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "TRİSEPS İŞ BAŞINDA"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "limitations",
+      "lineIds": [
+        "l25"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kaslarını koru",
+        "emoji": "🤸",
+        "chips": [
+          {
+            "label": "Önce esne",
+            "emoji": "🧘"
+          },
+          {
+            "label": "Isın",
+            "emoji": "🔥"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f12"
+      ],
+      "stickers": [
+        "🧘",
+        "🏃"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l26",
+        "l27"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Kalp kası istemli mi, istemsiz mi?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f6"
+      ],
+      "stickers": [
+        "❤️",
+        "💓"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "İSTEMSİZ ✅"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l28"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s14",
+      "section": "summary",
+      "lineIds": [
+        "l29",
+        "l30",
+        "l31"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}

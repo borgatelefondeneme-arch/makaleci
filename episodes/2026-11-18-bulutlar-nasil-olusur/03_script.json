@@ -1,0 +1,448 @@
+{
+  "paperId": "topic:bulutlar-nasil-olusur",
+  "episodeNumber": 35,
+  "videoTitle": "Bulutlar nasıl oluşur?",
+  "paperTitleTr": "Bulutlar nasıl oluşur?",
+  "sections": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "display": "Gökyüzüne bak: pamuk gibi bulutlar süzülüyor. Ama bir bulutun içi aslında su doludur. Peki nasıl düşmüyor?",
+          "spoken": "Gökyüzüne bak: pamuk gibi bulutlar süzülüyor. Ama bir bulutun içi aslında su doludur. Peki nasıl düşmüyor?",
+          "factIds": [
+            "f1",
+            "f6"
+          ]
+        },
+        {
+          "id": "l2",
+          "display": "Ve o bulutlar nereden çıkıp geliyor?",
+          "spoken": "Ve o bulutlar nereden çıkıp geliyor?",
+          "factIds": []
+        },
+        {
+          "id": "l3",
+          "display": "Bugün bir su damlacığıyla birlikte gökyüzüne yükseliyoruz!",
+          "spoken": "Bugün bir su damlacığıyla birlikte gökyüzüne yükseliyoruz!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "lines": [
+        {
+          "id": "l4",
+          "display": "Üç sorumuz var. Bulut neyden yapılır? Nasıl oluşur? Ve neden bazen beyaz, bazen karanlıktır?",
+          "spoken": "Üç sorumuz var. Bulut neyden yapılır? Nasıl oluşur? Ve neden bazen beyaz, bazen karanlıktır?",
+          "factIds": []
+        },
+        {
+          "id": "l5",
+          "display": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "spoken": "Bilmediğin kelimeler olursa merak etme. Sana açıklamalarda bir sözlük bırakıyorum.",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "lines": [
+        {
+          "id": "l6",
+          "display": "National Geographic'e göre bulutlar, havada toplanmış minik su damlacıkları ya da buz kristalleridir.",
+          "spoken": "Neşınıl Ciyogrefik'e göre bulutlar, havada toplanmış minik su damlacıkları ya da buz kristalleridir.",
+          "factIds": [
+            "f1"
+          ]
+        },
+        {
+          "id": "l7",
+          "display": "Her şey su buharıyla başlar. İngiltere'nin meteoroloji kurumu Met Office'e göre su buharı görünmezdir ve havada her zaman çevremizdedir.",
+          "spoken": "Her şey su buharıyla başlar. İngiltere'nin meteoroloji kurumu Met Ofis'e göre su buharı görünmezdir ve havada her zaman çevremizdedir.",
+          "factIds": [
+            "f2"
+          ]
+        },
+        {
+          "id": "l8",
+          "display": "Ama hava ancak belli bir miktar su buharı tutabilir. Fazlası olunca, hava doygun hale gelir ve bulut oluşur.",
+          "spoken": "Ama hava ancak belli bir miktar su buharı tutabilir. Fazlası olunca, hava doygun hale gelir ve bulut oluşur.",
+          "factIds": [
+            "f3"
+          ]
+        },
+        {
+          "id": "l9",
+          "display": "Ben de doygunum. Ama sudan değil, bilgiden! Bir de biraz şarjdan.",
+          "spoken": "Ben de doygunum. Ama sudan değil, bilgiden! Bir de biraz şarjdan.",
+          "factIds": []
+        },
+        {
+          "id": "l10",
+          "display": "Peki hava nasıl doygun hale gelir? Hava yükselince soğur.",
+          "spoken": "Peki hava nasıl doygun hale gelir? Hava yükselince soğur.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l11",
+          "display": "Sıcak hava, soğuk havadan daha çok su buharı tutabilir. Hava soğuyunca sanki bir sünger sıkılmış gibi olur.",
+          "spoken": "Sıcak hava, soğuk havadan daha çok su buharı tutabilir. Hava soğuyunca sanki bir sünger sıkılmış gibi olur.",
+          "factIds": [
+            "f4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finding",
+      "lines": [
+        {
+          "id": "l12",
+          "display": "Sıkılan süngerden ne çıkar? Su! Su buharı yoğuşur, yani gazdan sıvıya döner ve minik su damlacıkları oluşur.",
+          "spoken": "Sıkılan süngerden ne çıkar? Su! Su buharı yoğuşur, yani gazdan sıvıya döner ve minik su damlacıkları oluşur.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l13",
+          "display": "Bu damlacıklar havadaki minicik toz parçacıklarına tutunur. Bu parçacıklara yoğuşma çekirdeği denir: kil, tuz ya da kirletici zerreleri.",
+          "spoken": "Bu damlacıklar havadaki minicik toz parçacıklarına tutunur. Bu parçacıklara yoğuşma çekirdeği denir: kil, tuz ya da kirletici zerreleri.",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l14",
+          "display": "Bu damlacıklar çok ama çok küçüktür: çapları milimetrenin yüzde biri kadar.",
+          "spoken": "Bu damlacıklar çok ama çok küçüktür: çapları milimetrenin yüzde biri kadar.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l15",
+          "display": "O kadar küçüktürler ki havada asılı kalırlar. İşte bu yüzden bulut düşmez.",
+          "spoken": "O kadar küçüktürler ki havada asılı kalırlar. İşte bu yüzden bulut düşmez.",
+          "factIds": [
+            "f6"
+          ]
+        },
+        {
+          "id": "l16",
+          "display": "Ben de hafif olsam uçardım. Ama cin kuyruğum sayesinde zaten uçuyorum!",
+          "spoken": "Ben de hafif olsam uçardım. Ama cin kuyruğum sayesinde zaten uçuyorum!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "importance",
+      "lines": [
+        {
+          "id": "l17",
+          "display": "Met Office'e göre bulutlar üç ana türe ayrılır: stratus, kümülüs ve sirrus.",
+          "spoken": "Met Ofis'e göre bulutlar üç ana türe ayrılır: stratus, kümülüs ve sirrus.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l18",
+          "display": "Stratus bulutları yatay ve katmanlıdır; gökyüzünü battaniye gibi örter.",
+          "spoken": "Stratus bulutları yatay ve katmanlıdır; gökyüzünü battaniye gibi örter.",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l19",
+          "display": "Kümülüs bulutları büyük ve topaklıdır. National Geographic'e göre 12.000 metre yüksekliğe kadar uzanabilirler!",
+          "spoken": "Kümülüs bulutları büyük ve topaklıdır. Neşınıl Ciyogrefik'e göre on iki bin metre yüksekliğe kadar uzanabilirler!",
+          "factIds": [
+            "f7"
+          ]
+        },
+        {
+          "id": "l20",
+          "display": "Kümülonimbus bulutlarına fırtına bulutu da denir. Bunlar yağmur, gök gürültüsü ve şimşek üretir.",
+          "spoken": "Kümülonimbus bulutlarına fırtına bulutu da denir. Bunlar yağmur, gök gürültüsü ve şimşek üretir.",
+          "factIds": [
+            "f8"
+          ]
+        },
+        {
+          "id": "l21",
+          "display": "Bulutlar genellikle beyaz görünür, çünkü içlerindeki minik damlacıklar sıkı sıkıya dizilmiştir.",
+          "spoken": "Bulutlar genellikle beyaz görünür, çünkü içlerindeki minik damlacıklar sıkı sıkıya dizilmiştir.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l22",
+          "display": "Yağmur yaklaşınca bulutlar kararır. Çünkü su buharı topaklanarak yağmur damlalarına dönüşmeye başlar.",
+          "spoken": "Yağmur yaklaşınca bulutlar kararır. Çünkü su buharı topaklanarak yağmur damlalarına dönüşmeye başlar.",
+          "factIds": [
+            "f9"
+          ]
+        },
+        {
+          "id": "l23",
+          "display": "Damlacıklar ya da buz parçacıkları büyür, büyür ve sonunda yağış olarak yere düşer.",
+          "spoken": "Damlacıklar ya da buz parçacıkları büyür, büyür ve sonunda yağış olarak yere düşer.",
+          "factIds": [
+            "f10"
+          ]
+        },
+        {
+          "id": "l24",
+          "display": "Şimdi sıra sende! Buzdolabından soğuk bir bardak su al ve masaya koy.",
+          "spoken": "Şimdi sıra sende! Buzdolabından soğuk bir bardak su al ve masaya koy.",
+          "factIds": [
+            "f4"
+          ]
+        },
+        {
+          "id": "l25",
+          "display": "Birkaç dakika bekle. Bardağın dışında damlacıklar beliriyor mu? Havadaki görünmez su buharı soğuk bardağa değince yoğuştu!",
+          "spoken": "Birkaç dakika bekle. Bardağın dışında damlacıklar beliriyor mu? Havadaki görünmez su buharı soğuk bardağa değince yoğuştu!",
+          "factIds": [
+            "f2",
+            "f4",
+            "f5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "lines": [
+        {
+          "id": "l26",
+          "display": "Bunu biliyor muydun? Bulut damlacıkları o kadar küçüktür ki havada asılı kalır. Ama birleşip büyüyünce yağmur olarak düşerler.",
+          "spoken": "Bunu biliyor muydun? Bulut damlacıkları o kadar küçüktür ki havada asılı kalır. Ama birleşip büyüyünce yağmur olarak düşerler.",
+          "factIds": [
+            "f6",
+            "f10"
+          ]
+        },
+        {
+          "id": "l27",
+          "display": "Hızlı soru! Su buharının gazdan sıvıya dönmesine ne denir?",
+          "spoken": "Hızlı soru! Su buharının gazdan sıvıya dönmesine ne denir?",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l28",
+          "display": "Düşün bakalım... Evet: yoğuşma!",
+          "spoken": "Düşün bakalım... Evet: yoğuşma!",
+          "factIds": [
+            "f5"
+          ]
+        },
+        {
+          "id": "l29",
+          "display": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "spoken": "Şimdi öğrendiklerimizi şarkıyla tekrar edelim. Hazır mısın? Bir, iki, üç!",
+          "factIds": []
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "lines": [
+        {
+          "id": "l30",
+          "display": "İşte bugün öğrendiklerimiz!",
+          "spoken": "İşte bugün öğrendiklerimiz!",
+          "factIds": []
+        },
+        {
+          "id": "l31",
+          "display": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "spoken": "Sen de merak ettiğin soruyu yorumlara yaz. Belki bir sonraki videoda onu araştırırız!",
+          "factIds": []
+        },
+        {
+          "id": "l32",
+          "display": "Abone olmayı ve zili açmayı unutma. Bugün gökyüzüne bir bak, hangi bulutu görüyorsun?",
+          "spoken": "Abone olmayı ve zili açmayı unutma. Bugün gökyüzüne bir bak, hangi bulutu görüyorsun?",
+          "factIds": []
+        }
+      ]
+    }
+  ],
+  "takeaways": [
+    "Bulutlar minik su damlacıkları ya da buz kristallerinden oluşur",
+    "Yükselen hava soğur, su buharı toz zerrelerine tutunarak yoğuşur",
+    "Damlacıklar büyüyünce yağış olarak düşer"
+  ],
+  "nextTeaser": "Yeni bir soru, yeni bir keşif seni bekliyor!",
+  "theme": {
+    "backdrop": "sky",
+    "actors": [
+      {
+        "kind": "fly",
+        "emoji": "🐦",
+        "every": 30
+      }
+    ]
+  },
+  "song": {
+    "title": "Gökyüzü Pamuğu",
+    "style": [
+      "cheerful educational pop song",
+      "upbeat marching band rhythm",
+      "adventurous cartoon theme energy",
+      "bright glockenspiel, snare drum, tuba, hand claps",
+      "catchy sing-along melody",
+      "120 BPM",
+      "clear enthusiastic lead vocal in Turkish",
+      "group vocals shouting along in the chorus",
+      "major key"
+    ],
+    "negativeStyle": [
+      "sad",
+      "slow",
+      "dark",
+      "heavy distortion",
+      "mumbled vocals",
+      "long instrumental solo",
+      "lullaby"
+    ],
+    "cast": [
+      {
+        "emoji": "☁️",
+        "name": "Bulut"
+      },
+      {
+        "emoji": "💧",
+        "name": "Damlacık"
+      },
+      {
+        "emoji": "🌡️",
+        "name": "Soğuk"
+      },
+      {
+        "emoji": "🟤",
+        "name": "Toz"
+      },
+      {
+        "emoji": "🌧️",
+        "name": "Yağmur"
+      }
+    ],
+    "show": [
+      {
+        "kind": "fly",
+        "emoji": "☁️"
+      },
+      {
+        "kind": "hop",
+        "emoji": "💧"
+      },
+      {
+        "kind": "fly",
+        "emoji": "🐦"
+      },
+      {
+        "kind": "hop",
+        "emoji": "🌧️"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "Intro",
+        "label": "Giriş",
+        "direction": "snare drum roll, hand claps",
+        "lines": [
+          "Hey! Hey! Hey!"
+        ],
+        "durationMs": 5000
+      },
+      {
+        "tag": "Verse 1",
+        "label": "Kıta",
+        "lines": [
+          "Görünmez buhar yükselir",
+          "Yükseldikçe soğur hava",
+          "Sünger sıkılır, doyar gökyüzü",
+          "Damlacık doğar bir toz zerresinde"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Süzül, süzül, bulut süzül!",
+          "Minicik damlalar asılı kalır",
+          "Yoğuşma yapar seni",
+          "Gökyüzünün pamuğu sen"
+        ],
+        "durationMs": 13000
+      },
+      {
+        "tag": "Verse 2",
+        "label": "Kıta",
+        "lines": [
+          "Stratus örter battaniye gibi",
+          "Kümülüs kabarır topak topak",
+          "Fırtına bulutu şimşek çakar",
+          "Kararınca yağmur başlar"
+        ],
+        "durationMs": 15000
+      },
+      {
+        "tag": "Chorus",
+        "label": "Nakarat",
+        "lines": [
+          "Süzül, süzül, bulut süzül!",
+          "Minicik damlalar asılı kalır",
+          "Soğuk bardağa bak, damlaları gör",
+          "Muma'yla öğrendik, hey!"
+        ],
+        "durationMs": 13000
+      }
+    ]
+  },
+  "description": "Bulutlar neden düşmez, nasıl oluşur? Bu bölümde görünmez su buharını, yükselen ve soğuyan havayı, yoğuşmayı ve yoğuşma çekirdeklerini, stratus, kümülüs, sirrus ve kümülonimbus bulutlarını, bulutların neden beyaz ya da karanlık göründüğünü keşfediyoruz. Sonunda soğuk bardak deneyi ve konuyu özetleyen bir şarkı var.",
+  "glossary": [
+    {
+      "term": "Su buharı",
+      "meaning": "Suyun gaz hali; görünmezdir."
+    },
+    {
+      "term": "Doygun hava",
+      "meaning": "Tutabileceği kadar su buharı taşıyan hava."
+    },
+    {
+      "term": "Yoğuşma",
+      "meaning": "Su buharının soğuyarak sıvı damlacıklara dönüşmesi."
+    },
+    {
+      "term": "Yoğuşma çekirdeği",
+      "meaning": "Su buharının çevresinde yoğuştuğu minik toz, tuz ya da kil zerresi."
+    },
+    {
+      "term": "Kümülüs",
+      "meaning": "Büyük, topaklı, pamuk gibi bulut."
+    },
+    {
+      "term": "Stratus",
+      "meaning": "Gökyüzünü katman halinde örten yatay bulut."
+    },
+    {
+      "term": "Yağış",
+      "meaning": "Buluttan yere düşen yağmur, kar ya da dolu."
+    }
+  ]
+}

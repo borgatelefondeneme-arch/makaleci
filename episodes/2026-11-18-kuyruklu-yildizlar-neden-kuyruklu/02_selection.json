@@ -1,0 +1,35 @@
+{
+  "paperId": "topic:kuyruklu-yildizlar-neden-kuyruklu",
+  "paper": {
+    "kind": "topic",
+    "id": "topic:kuyruklu-yildizlar-neden-kuyruklu",
+    "title": "Kuyruklu yıldızlar neden kuyruklu?",
+    "abstract": "",
+    "authors": [],
+    "institutions": [],
+    "venue": null,
+    "doi": null,
+    "url": "",
+    "fullTextUrl": null,
+    "license": null,
+    "publishedAt": "2026-11-18",
+    "isPreprint": false,
+    "peerReviewStatus": "unknown",
+    "categories": [],
+    "sources": [
+      "topic"
+    ],
+    "fetchedAt": "2026-11-18T11:53:44.781Z"
+  },
+  "score": 0,
+  "criteria": {
+    "surprise": 0,
+    "explainable": 0,
+    "visual": 0,
+    "concrete": 0
+  },
+  "rationale": "Elle seçildi (tek makale linki).",
+  "status": "approved",
+  "queuedAt": "2026-11-18T11:53:44.785Z",
+  "decidedAt": "2026-11-18T11:53:44.785Z"
+}

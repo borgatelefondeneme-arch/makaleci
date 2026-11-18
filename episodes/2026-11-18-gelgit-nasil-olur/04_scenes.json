@@ -1,0 +1,551 @@
+{
+  "paperId": "topic:gelgit-nasil-olur",
+  "scenes": [
+    {
+      "id": "s1",
+      "section": "hook",
+      "lineIds": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Gelgit nasıl olur?",
+        "emoji": "🌊"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f5"
+      ],
+      "stickers": [
+        "🏰",
+        "🌙"
+      ],
+      "keywords": [
+        "KUMDAN KALE",
+        "AY!",
+        "DENİZİN NEFESİ"
+      ]
+    },
+    {
+      "id": "s2",
+      "section": "context",
+      "lineIds": [
+        "l4",
+        "l5"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Bugünün soruları",
+        "items": [
+          "Gelgit nedir?",
+          "Ay denizi nasıl çeker?",
+          "Güneş'in rolü ne?"
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [],
+      "stickers": [
+        "❓",
+        "📖"
+      ],
+      "keywords": [
+        "ÜÇ SORU",
+        "SÖZLÜK AÇIKLAMADA 📖"
+      ]
+    },
+    {
+      "id": "s3",
+      "section": "method",
+      "lineIds": [
+        "l6",
+        "l7"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Gelgit",
+        "left": {
+          "title": "Yüksek gelgit ⬆️",
+          "items": [
+            "Su kıyıda en uzağa ilerler"
+          ]
+        },
+        "right": {
+          "title": "Alçak gelgit ⬇️",
+          "items": [
+            "Su en uzağa çekilir"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f5"
+      ],
+      "stickers": [
+        "🏖️",
+        "🌙"
+      ],
+      "keywords": [
+        "YÜKSEK • ALÇAK",
+        "AY'IN ÇEKİMİ"
+      ]
+    },
+    {
+      "id": "s4",
+      "section": "method",
+      "lineIds": [
+        "l8",
+        "l9",
+        "l10"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kütle çekimi",
+        "emoji": "🌙",
+        "chips": [
+          {
+            "label": "Ay okyanusları çeker",
+            "emoji": "🧲"
+          },
+          {
+            "label": "Yakın taraf en güçlü hisseder",
+            "emoji": "🌊"
+          },
+          {
+            "label": "Şarj aleti de Muma'yı çeker",
+            "emoji": "🔌"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "stickers": [
+        "🌍",
+        "🔌"
+      ],
+      "keywords": [
+        "KÜTLE ÇEKİMİ",
+        "KABARMA",
+        "ŞARJ ALETİ 🔌"
+      ]
+    },
+    {
+      "id": "s5",
+      "section": "finding",
+      "lineIds": [
+        "l11",
+        "l12"
+      ],
+      "visual": {
+        "type": "diagram",
+        "title": "İki kabarıklık",
+        "layout": "flow",
+        "nodes": [
+          {
+            "label": "Ay'a yakın taraf kabarır",
+            "emoji": "🌙"
+          },
+          {
+            "label": "Dünya",
+            "emoji": "🌍"
+          },
+          {
+            "label": "Uzak taraf da kabarır",
+            "emoji": "🌊"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f3"
+      ],
+      "stickers": [
+        "🌍",
+        "🌙"
+      ],
+      "fx": "sparkle",
+      "keywords": [
+        "UZAK TARAF DA!",
+        "İKİ KABARIKLIK"
+      ]
+    },
+    {
+      "id": "s6",
+      "section": "finding",
+      "lineIds": [
+        "l13",
+        "l14"
+      ],
+      "visual": {
+        "type": "stages",
+        "title": "Bir kıyının günü",
+        "rows": [
+          {
+            "label": "Yüksek gelgit",
+            "emoji": "⬆️"
+          },
+          {
+            "label": "Alçak gelgit",
+            "emoji": "⬇️"
+          }
+        ],
+        "path": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "highlightRow": 0,
+        "note": "Şematik çizim."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f4",
+        "f6"
+      ],
+      "keywords": [
+        "YÜKSEK GELGİT",
+        "DÜNYA DÖNER"
+      ]
+    },
+    {
+      "id": "s7",
+      "section": "finding",
+      "lineIds": [
+        "l15",
+        "l16"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "12 saatten biraz fazla",
+        "label": "Bir yüksek gelgitten ötekine geçen süre",
+        "sub": "NASA",
+        "icon": "⏰"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f7"
+      ],
+      "stickers": [
+        "🌊",
+        "🔋"
+      ],
+      "keywords": [
+        "GÜNDE İKİ KEZ",
+        "ŞARJA GİT GEL 🔋"
+      ]
+    },
+    {
+      "id": "s8",
+      "section": "importance",
+      "lineIds": [
+        "l17",
+        "l18"
+      ],
+      "visual": {
+        "type": "meter",
+        "title": "Güneş'in payı",
+        "label": "Çekim",
+        "emoji": "☀️",
+        "phases": [
+          {
+            "label": "Güneş de çeker: küçük rol",
+            "level": 0.35,
+            "emoji": "☀️"
+          },
+          {
+            "label": "Ay'dan 390 kat uzak",
+            "level": 0.25,
+            "emoji": "📏"
+          }
+        ],
+        "note": "Şematik çizim; ölçekli değildir."
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f8"
+      ],
+      "stickers": [
+        "☀️",
+        "🌙"
+      ],
+      "keywords": [
+        "GÜNEŞ",
+        "390 KAT UZAK"
+      ]
+    },
+    {
+      "id": "s9",
+      "section": "importance",
+      "lineIds": [
+        "l19",
+        "l20"
+      ],
+      "visual": {
+        "type": "comparison",
+        "title": "Bahar ve kocakarı gelgiti",
+        "left": {
+          "title": "Bahar gelgiti 🌊",
+          "items": [
+            "Çekimler birleşir",
+            "Olağanüstü yüksek"
+          ]
+        },
+        "right": {
+          "title": "Kocakarı gelgiti 〰️",
+          "items": [
+            "Güneş Ay'a dik açıda",
+            "Orta düzeyde"
+          ]
+        }
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "🌕",
+        "🌓"
+      ],
+      "keywords": [
+        "BAHAR GELGİTİ",
+        "KOCAKARI GELGİTİ"
+      ]
+    },
+    {
+      "id": "s10",
+      "section": "importance",
+      "lineIds": [
+        "l21",
+        "l22",
+        "l23"
+      ],
+      "visual": {
+        "type": "spotlight",
+        "title": "Kıyıdan kıyıya",
+        "emoji": "🏝️",
+        "chips": [
+          {
+            "label": "Gelgit genliği: yükseklik farkı",
+            "emoji": "📏"
+          },
+          {
+            "label": "Kumsal, koy, su derinliği etkiler",
+            "emoji": "🏖️"
+          },
+          {
+            "label": "Gelgit havuzları",
+            "emoji": "🦀"
+          }
+        ]
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f10",
+        "f11",
+        "f12"
+      ],
+      "stickers": [
+        "🦀",
+        "🐚"
+      ],
+      "keywords": [
+        "GELGİT GENLİĞİ",
+        "HER KIYI FARKLI",
+        "GELGİT HAVUZU 🦀"
+      ]
+    },
+    {
+      "id": "s11",
+      "section": "importance",
+      "lineIds": [
+        "l24",
+        "l25"
+      ],
+      "visual": {
+        "type": "bullets",
+        "title": "Sen de dene: taş deneyi",
+        "items": [
+          "Bir yetişkinle kıyıya git",
+          "Suyun bittiği yere taş koy",
+          "Birkaç saat sonra tekrar bak",
+          "Asla tek başına suya girme!"
+        ],
+        "tone": "caution"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f5",
+        "f6",
+        "f7"
+      ],
+      "stickers": [
+        "🪨",
+        "⏰"
+      ],
+      "keywords": [
+        "DENEY ZAMANI 🔬",
+        "DİKKAT ⚠️"
+      ]
+    },
+    {
+      "id": "s12",
+      "section": "limitations",
+      "lineIds": [
+        "l26"
+      ],
+      "visual": {
+        "type": "big-number",
+        "value": "Biraz geriden",
+        "label": "Yüksek gelgit Ay'ın konumuyla tam aynı hizada olmaz",
+        "sub": "NASA",
+        "icon": "🌙"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f13"
+      ],
+      "stickers": [
+        "🌙",
+        "🌊"
+      ],
+      "keywords": [
+        "BUNU BİLİYOR MUYDUN?"
+      ]
+    },
+    {
+      "id": "s13",
+      "section": "limitations",
+      "lineIds": [
+        "l27",
+        "l28"
+      ],
+      "visual": {
+        "type": "hook",
+        "question": "Çekimler birleşince oluşan gelgitin adı ne?",
+        "emoji": "🤔"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": [
+        "f9"
+      ],
+      "stickers": [
+        "🌕",
+        "☀️"
+      ],
+      "keywords": [
+        "HIZLI SORU!",
+        "BAHAR GELGİTİ ✅"
+      ]
+    },
+    {
+      "id": "s14",
+      "section": "limitations",
+      "lineIds": [
+        "l29"
+      ],
+      "visual": {
+        "type": "song"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    },
+    {
+      "id": "s15",
+      "section": "summary",
+      "lineIds": [
+        "l30",
+        "l31",
+        "l32"
+      ],
+      "visual": {
+        "type": "outro"
+      },
+      "mascot": {
+        "state": "talk",
+        "x": 0.87,
+        "y": 0.54,
+        "scale": 1.15
+      },
+      "factIds": []
+    }
+  ]
+}
