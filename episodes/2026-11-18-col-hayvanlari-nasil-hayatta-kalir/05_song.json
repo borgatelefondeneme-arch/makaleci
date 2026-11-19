@@ -1,0 +1,129 @@
+{
+  "provider": "elevenlabs",
+  "model": "music_v2_5",
+  "audioFile": "song.mp3",
+  "durationSec": 61.048125,
+  "title": "Çöl Ustaları",
+  "sections": [
+    {
+      "label": "Giriş",
+      "start": 0,
+      "end": 5,
+      "lines": [
+        {
+          "text": "Hey! Hey! Hey!",
+          "start": 0.75,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 5,
+      "end": 20.02,
+      "lines": [
+        {
+          "text": "Güneş yakar, yağmur yağmaz",
+          "start": 5.15,
+          "end": 8.53
+        },
+        {
+          "text": "Gündüz kavurur, gece dondurur",
+          "start": 8.53,
+          "end": 12.58
+        },
+        {
+          "text": "Gececiler uyur gündüz boyu",
+          "start": 12.58,
+          "end": 16.64
+        },
+        {
+          "text": "Serin yuvada saklanır",
+          "start": 16.64,
+          "end": 20.02
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 20.02,
+      "end": 33.03,
+      "lines": [
+        {
+          "text": "Çölde usta, çölde güçlü!",
+          "start": 20.17,
+          "end": 23.02
+        },
+        {
+          "text": "Su yok mu? Besinden alırız",
+          "start": 23.02,
+          "end": 26.17
+        },
+        {
+          "text": "Kulaklar soğutur, yuvalar korur",
+          "start": 26.17,
+          "end": 29.88
+        },
+        {
+          "text": "Hayat bulur kumun içinde",
+          "start": 29.88,
+          "end": 33.03
+        }
+      ]
+    },
+    {
+      "label": "Kıta",
+      "start": 33.03,
+      "end": 48.04,
+      "lines": [
+        {
+          "text": "Hörgüçte yağ var, su değil",
+          "start": 33.18,
+          "end": 36.99
+        },
+        {
+          "text": "Kaplumbağa suyu saklar",
+          "start": 36.99,
+          "end": 40.8
+        },
+        {
+          "text": "Kaktüs emer, depolar",
+          "start": 40.8,
+          "end": 44.23
+        },
+        {
+          "text": "Derin kökler suyu bulur",
+          "start": 44.23,
+          "end": 48.04
+        }
+      ]
+    },
+    {
+      "label": "Nakarat",
+      "start": 48.04,
+      "end": 61.05,
+      "lines": [
+        {
+          "text": "Çölde usta, çölde güçlü!",
+          "start": 48.19,
+          "end": 51.25
+        },
+        {
+          "text": "Su yok mu? Besinden alırız",
+          "start": 51.25,
+          "end": 54.62
+        },
+        {
+          "text": "Buzları yarıştır, gölgeyi gör",
+          "start": 54.62,
+          "end": 58.29
+        },
+        {
+          "text": "Muma'yla öğrendik, hey!",
+          "start": 58.29,
+          "end": 61.05
+        }
+      ]
+    }
+  ]
+}
