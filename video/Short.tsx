@@ -30,7 +30,7 @@ const Headline: React.FC<{ text: string; frame: number; fps: number }> = ({ text
   const parts = text.split(/(\*[^*]+\*)/).filter(Boolean);
   const size = text.replace(/\*/g, "").length > 30 ? 82 : 96;
   return (
-    <div style={{ transform: `scale(${0.6 + 0.4 * pop}) rotate(${(1 - pop) * -4}deg)`, opacity: Math.min(1, pop * 1.4), textAlign: "center", fontFamily: `${F.head}, ${EMOJI}`, fontWeight: 900, fontSize: size, lineHeight: 1.08, color: C.text, letterSpacing: -1 }}>
+    <div style={{ transform: `scale(${0.6 + 0.4 * pop}) rotate(${(1 - pop) * -4}deg)`, opacity: Math.min(1, pop * 1.4), textAlign: "center", fontFamily: `${F.head}, ${EMOJI}`, fontWeight: 900, fontSize: size, lineHeight: 1.3, color: C.text, letterSpacing: -1 }}>
       {parts.map((p, i) => p.startsWith("*")
         ? <span key={i} style={{ color: "#fff", background: "linear-gradient(90deg,#E2543A,#F28C38)", borderRadius: 18, padding: "0 14px", boxDecorationBreak: "clone", WebkitBoxDecorationBreak: "clone" }}>{p.slice(1, -1)}</span>
         : <span key={i}>{p}</span>)}
@@ -108,8 +108,8 @@ export const Short: React.FC<ShortProps> = (props) => {
 
       {/* şarkı kısasında davet */}
       {short.song && !thinkOn && (
-        <div style={{ position: "absolute", top: CY + CH + 50, left: 0, right: 0, textAlign: "center", fontFamily: `${F.head}, ${EMOJI}`, fontWeight: 900, fontSize: 64, color: "#fff", textShadow: "0 4px 18px rgba(0,0,0,0.45)", opacity: 1 - endCta, transform: `translateY(${Math.sin(f / 8) * 6}px)` }}>
-          🎤 Birlikte söyle!
+        <div style={{ position: "absolute", top: CY + CH + 50, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: 1 - endCta, transform: `translateY(${Math.sin(f / 8) * 6}px)` }}>
+          <span style={{ fontFamily: `${F.head}, ${EMOJI}`, fontWeight: 900, fontSize: 62, color: "#fff", background: "linear-gradient(90deg,#7B6BD6,#4A7BD0)", borderRadius: 60, padding: "14px 40px", boxShadow: "0 14px 36px rgba(0,0,0,0.25)" }}>🎤 Birlikte söyle!</span>
         </div>
       )}
 
