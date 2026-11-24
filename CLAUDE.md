@@ -88,6 +88,7 @@ Uçtan uca: konu bölümü `npm run episode -- --topic "<soru>"` (fetch/select a
 
 - Seri üretim: anahtar yokken her bölümün `manual/build.py` dosyası ortak `tools/manual_build.py` yardımcılarını kullanır (olgu/satır/sahne kurucuları, şarkı kalıbı). Örnek: `episodes/2026-11-11-fosil-nedir/manual/build.py` (eski, tek dosya) ve sonraki bölümler.
 
+- **Shorts (dikey kısa videolar):** `python3 tools/make_shorts.py <episodeDir> tools/shorts/<id>.json`. Bölüm videosundan ses ve görüntü birebir kesilir; 1080×1920, ortada video, bulanık zemin, üstte başlık + "MuMa Library · #n" rozeti, altta "Tam video kanalda!" panosu. Anlatım kesitleri cümle sınırından kesilir ve 15–20 sn tercih edilir (kullanıcı tercihi); şarkı kısası şarkının tamamıdır ve 59,5 sn'yi aşarsa perde korunarak hafifçe hızlandırılır. Çıktı `out/shorts/` (mp4 git'e girmez).
 - Tarayıcı: Remotion kendi Chrome'unu indirmez; `/opt/pw-browsers/` altındaki headless shell kullanılır (`REMOTION_BROWSER` ile değiştirilebilir).
 - OpenAlex anahtarsız 429 dönebiliyor; `OPENALEX_API_KEY` yoksa bu kaynak uyarıyla atlanır.
 - Gizli anahtarlar yalnızca `.env`'de (repoda değil). `episodes/*/audio` ve `*.mp4` git'e girmez.
