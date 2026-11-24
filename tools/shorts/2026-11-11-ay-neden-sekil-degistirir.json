@@ -1,0 +1,3 @@
+[{"name": "kanca", "first": "Bir gece gökyüzünde", "last": "Bugün Ay'ın çevresinde", "headline": "Ay gerçekten *şekil* mi değiştiriyor?"},
+ {"name": "hizli-soru", "first": "Bunu biliyor muydun? Ay bizden", "last": "Düşün bakalım", "headline": "Ay kendi ışığını *üretir mi?*", "think": {"q": "Hızlı soru! Ay kendi", "a": "Düşün bakalım"}},
+ {"name": "sarki", "song": true, "headline": "🎵 Ay'ın Sekiz *Yüzü*"}]

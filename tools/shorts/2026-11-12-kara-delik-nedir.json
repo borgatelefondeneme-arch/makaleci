@@ -1,0 +1,3 @@
+[{"name": "kanca", "first": "Uzayda öyle bir yer", "last": "Bugün bir kara deliğe", "headline": "Işığın bile *kaçamadığı* yer!"},
+ {"name": "hizli-soru", "first": "Hızlı soru! Güneş bir gün", "last": "Ben de dönüşmem", "headline": "Güneş *kara deliğe* dönüşür mü?", "think": {"q": "Hızlı soru! Güneş bir gün", "a": "Düşün bakalım"}},
+ {"name": "sarki", "song": true, "headline": "🎵 Işığın Kaçamadığı *Yer*"}]

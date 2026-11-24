@@ -1,0 +1,3 @@
+[{"name": "kanca", "first": "Ayağının altındaki yer", "last": "Bugün yerin derinlerine", "headline": "Yer neden *aniden* sarsılır?"},
+ {"name": "hizli-soru", "first": "Hızlı soru! Hangi dalga", "last": "Aklında şöyle kalsın", "headline": "Hangi deprem dalgası *daha hızlı?*", "think": {"q": "Hızlı soru! Hangi dalga", "a": "Düşün bakalım"}},
+ {"name": "sarki", "song": true, "headline": "🎵 Yerin Altındaki *Güç*"}]
