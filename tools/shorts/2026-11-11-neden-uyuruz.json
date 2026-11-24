@@ -1,5 +1,23 @@
-[{"name": "neden-uyuruz", "first": "Dün gece yatağa girdin", "last": "Bugün o programı", "headline": "Uyurken beynin *ne yapıyor?*"},
- {"name": "adenozin", "first": "Adenozin arttıkça", "last": "Yani gün sonunda esniyorsan", "headline": "Neden *esneriz?*"},
- {"name": "kafein-hizli-soru", "first": "Bunu biliyor muydun? Kafein", "last": "Düşün bakalım", "headline": "Kafein uykuyu *nasıl* kaçırır?"},
- {"name": "hizli-soru", "first": "Hızlı soru! Beynimizdeki", "last": "Bende SCN yok", "headline": "Beyindeki *ana saatin* adı ne?", "think": {"q": "Hızlı soru! Beynimizdeki", "a": "Düşün bakalım"}},
- {"name": "sarki", "song": true, "headline": "🎵 Uykunun *Bilimi*"}]
+[
+ {
+  "name": "neden-uyuruz",
+  "first": "Dün gece yatağa girdin",
+  "last": "Bugün o programı",
+  "headline": "Uyurken beynin *ne yapıyor?*"
+ },
+ {
+  "name": "hizli-soru",
+  "first": "Hızlı soru! Beynimizdeki",
+  "last": "Bende SCN yok",
+  "headline": "Beyindeki *ana saatin* adı ne?",
+  "think": {
+   "q": "Hızlı soru! Beynimizdeki",
+   "a": "Düşün bakalım"
+  }
+ },
+ {
+  "name": "sarki",
+  "song": true,
+  "headline": "🎵 Uykunun *Bilimi*"
+ }
+]

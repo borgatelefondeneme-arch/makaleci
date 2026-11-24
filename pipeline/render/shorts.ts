@@ -1,6 +1,7 @@
 // Dikey kısa videolar: bölüm sahneleri alt yazısız yeniden çizilir (Short kompozisyonu), ses bölüm videosundan birebir kesilir.
 // Yeni ses üretilmez. Kullanım: npx tsx pipeline/render/shorts.ts <episodeDir> tools/shorts/<id>.json
 //   spec: [{ name, first, last, headline, kicker?, think?: { q, a } } | { name, song: true, headline }]
+//   Konu başına 3 video (kullanıcı kararı): 2 anlatım kısası (15–20 sn) + 1 şarkı (~1 dk).
 //   first/last/q/a: senaryo satırlarının başlangıç metni. *kelime* başlıkta turuncu vurgulanır.
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { execFileSync } from "node:child_process";
@@ -39,7 +40,9 @@ for (const [i, s] of specs.entries()) {
   const inputProps = { ...props, short };
   const opts = { serveUrl, inputProps, ...browserOpts() };
   const comp = await selectComposition({ ...opts, id: "Short" });
-  const base = join(outDir, `${i + 1}-${s.name}`);
+  // dosya adında konu adı geçer (kullanıcı isteği): <konu>_short-1.mp4, <konu>_short-2.mp4, <konu>_sarki.mp4
+  const topic = dir.replace(/\/+$/, "").split("/").pop()!.replace(/^\d{4}-\d{2}-\d{2}-/, "");
+  const base = join(outDir, s.song ? `${topic}_sarki` : `${topic}_short-${specs.slice(0, i + 1).filter((x) => !x.song).length}`);
   const silent = `${base}.silent.mp4`;
   await renderMedia({ ...opts, composition: comp, codec: "h264", outputLocation: silent, muted: true, imageFormat: "jpeg", jpegQuality: 92, crf: 18, concurrency: cpus().length });
   const dur = (to - from + (pause?.len ?? 0)) / fps;
