@@ -254,5 +254,7 @@ export const EpisodeProps = z.object({
   plan: ScenePlan,
   voice: Voice,
   sources: z.array(z.object({ id: z.string(), title: z.string(), publisher: z.string(), url: z.string() })).default([]),
+  // Alt yazı bandı (kullanıcı kararı, 2026-11-24: bundan sonra kullanılmaz). Eski videolar yeniden üretilmez.
+  captions: z.boolean().default(false),
 });
 export type EpisodeProps = z.infer<typeof EpisodeProps>;

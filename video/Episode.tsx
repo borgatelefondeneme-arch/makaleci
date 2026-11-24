@@ -132,7 +132,7 @@ export const Episode: React.FC<EpisodeProps> = (data) => {
         </Sequence>
         <HeadLayer scenes={headScenes} from={voice.introFrames + 6} to={headTo} amplitude={voice.amplitude} words={voice.words} />
         <MascotLayer cues={cues} visits={visits} amplitude={voice.amplitude} words={voice.words} />
-        <Caption cues={captions} />
+        {data.captions && <Caption cues={captions} />}
       </AbsoluteFill>
     </AbsoluteFill>
   );

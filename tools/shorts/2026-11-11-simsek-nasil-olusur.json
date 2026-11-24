@@ -1,3 +1,3 @@
-[{"name": "simsek-nasil-olusur", "first": "Gökyüzü bir anda aydınlanıyor", "last": "Bugün bir fırtına bulutunun", "headline": "Şimşek nasıl oluşur?"},
- {"name": "isik-mi-ses-mi", "first": "Bunu biliyor muydun? Bulutun", "last": "Düşün bakalım", "headline": "Işık mı daha hızlı, ses mi?"},
- {"name": "sarki", "song": true, "headline": "♪ Bulutun Kıvılcımı"}]
+[{"name": "simsek-nasil-olusur", "first": "Gökyüzü bir anda aydınlanıyor", "last": "Bugün bir fırtına bulutunun", "headline": "Gök gürültüsü neden *sonra* gelir?"},
+ {"name": "isik-mi-ses-mi", "first": "Hızlı soru! Hangisi daha hızlı", "last": "Ben de hızlıyım", "headline": "Işık mı daha hızlı, *ses mi?*", "think": {"q": "Hızlı soru! Hangisi daha hızlı", "a": "Düşün bakalım"}},
+ {"name": "sarki", "song": true, "headline": "🎵 Bulutun *Kıvılcımı*"}]
